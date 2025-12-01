@@ -1,12 +1,121 @@
 {
   "gachas": [
     {
-      "id": "ubf_2025",
-      "nombre": "Uberfest",
+      "id": "epicfest_2025_11_21",
+      "nombre": "Epicfest (+Victorious Skanda)",
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/blob/main/images/banner_gatcha_epicfest.png",
+      "fecha_inicio": "2025-11-21",
+      "fecha_fin": "2025-11-24",
+      "caracteristicas": ["L"],
+      "gatos_ids": []
+    },
+    {
+      "id": "iron_legion_2025_11_21",
+      "nombre": "Iron Legion (+Mighty Morta-Loncha)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/blob/main/images/banner_gatcha_iron.png",
+      "fecha_inicio": "2025-11-21",
+      "fecha_fin": "2025-11-24",
+      "caracteristicas": ["L", "P", "N", "GR", "R"],
+      "gatos_ids": []
+    },
+    {
+      "id": "galaxy_gals_2025_11_21",
+      "nombre": "Galaxy Gals",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/blob/main/images/banner_gatcha_gals.png",
+      "fecha_inicio": "2025-11-21",
+      "fecha_fin": "2025-11-24",
+      "caracteristicas": ["L", "P", "N", "GR", "R"],
+      "gatos_ids": []
+    },
+    {
+      "id": "colossus_busters_2025_11_24",
+      "nombre": "Colossus Busters",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/blob/main/images/banner_gatcha_colossus_busters.png",
+      "fecha_inicio": "2025-11-24",
+      "fecha_fin": "2025-11-28",
+      "caracteristicas": ["S", "N", "R"],
+      "gatos_ids": []
+    },
+    {
+      "id": "wave_busters_2025_11_24",
+      "nombre": "Wave Busters",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/blob/main/images/banner_gatcha_wave_busters.png",
+      "fecha_inicio": "2025-11-24",
+      "fecha_fin": "2025-11-28",
+      "caracteristicas": ["S", "N", "R"],
+      "gatos_ids": []
+    },
+    {
+      "id": "uberfest_2025_11_28",
+      "nombre": "Uberfest (+Victorious Skanda)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/blob/main/images/banner_gatcha_uberfest.png",
+      "fecha_inicio": "2025-11-28",
+      "fecha_fin": "2025-12-01",
+      "caracteristicas": [],
+      "gatos_ids": []
+    },
+    {
+      "id": "dark_heroes_2025_11_28",
+      "nombre": "Dark Heroes",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/blob/main/images/banner_gatcha_heroes.png",
+      "fecha_inicio": "2025-11-28",
+      "fecha_fin": "2025-12-01",
+      "caracteristicas": ["P", "N", "GR", "R"],
+      "gatos_ids": []
+    },
+    {
+      "id": "girls_monsters_2025_11_28",
+      "nombre": "Girls & Monsters",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/blob/main/images/banner_gatcha_spooky_cuties.png",
+      "fecha_inicio": "2025-11-28",
+      "fecha_fin": "2025-12-01",
+      "caracteristicas": ["P", "N", "GR", "R"],
+      "gatos_ids": []
+    },
+    {
+      "id": "dragon_emperors_2025_12_01",
+      "nombre": "Dragon Emperors",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/blob/main/images/banner_gatcha_dragons.png",
       "fecha_inicio": "2025-12-01",
-      "caracteristicas": ["G", "L"],
-      "gatos_ids": [10, 25, 33]
+      "fecha_fin": "2025-12-05",
+      "caracteristicas": ["P", "N", "GR", "R"],
+      "gatos_ids": []
+    },
+    {
+      "id": "ultra_souls_2025_12_01",
+      "nombre": "Ultra Souls",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/blob/main/images/banner_gatcha_souls.png",
+      "fecha_inicio": "2025-12-01",
+      "fecha_fin": "2025-12-05",
+      "caracteristicas": ["P", "N", "GR", "R"],
+      "gatos_ids": []
+    },
+    {
+      "id": "the_almighties_2025_12_01",
+      "nombre": "The Almighties (+Victorious Skanda)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/blob/main/images/banner_gatcha_almighties.png",
+      "fecha_inicio": "2025-12-01",
+      "fecha_fin": "2025-12-05",
+      "caracteristicas": ["P", "N", "GR", "R"],
+      "gatos_ids": []
+    },
+    {
+      "id": "platinum_capsules_2026",
+      "nombre": "Platinum Capsules",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/blob/main/images/banner_gatcha_platinum.png",
+      "fecha_inicio": "2026-01-01",
+      "fecha_fin": "2026-12-31",
+      "caracteristicas": [],
+      "gatos_ids": []
+    },
+    {
+      "id": "legend_capsules_2026",
+      "nombre": "Legend Capsules",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/blob/main/images/banner_gatcha_legend.png",
+      "fecha_inicio": "2026-01-01",
+      "fecha_fin": "2026-12-31",
+      "caracteristicas": [],
+      "gatos_ids": []
     }
   ],
   "eventos": [
