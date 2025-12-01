@@ -3,7 +3,7 @@
     {
       "id": "ubf_2025",
       "nombre": "Uberfest",
-      "imagen_url": "https://raw.githubusercontent.com/David/BattleCatsData/main/images/uberfest.png",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/blob/main/images/banner_gatcha_epicfest.png",
       "fecha_inicio": "2025-12-01",
       "caracteristicas": ["G", "L"],
       "gatos_ids": [10, 25, 33]
