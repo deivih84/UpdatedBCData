@@ -1,121 +1,49 @@
 {
   "gachas": [
     {
-      "id": "epicfest_2025_11_21",
-      "nombre": "Epicfest (+Victorious Skanda)",
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/blob/main/images/banner_gatcha_epicfest.png",
-      "fecha_inicio": "2025-11-21",
-      "fecha_fin": "2025-11-24",
-      "caracteristicas": ["L"],
-      "gatos_ids": []
-    },
-    {
-      "id": "iron_legion_2025_11_21",
-      "nombre": "Iron Legion (+Mighty Morta-Loncha)",
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/blob/main/images/banner_gatcha_iron.png",
-      "fecha_inicio": "2025-11-21",
-      "fecha_fin": "2025-11-24",
-      "caracteristicas": ["L", "P", "N", "GR", "R"],
-      "gatos_ids": []
-    },
-    {
-      "id": "galaxy_gals_2025_11_21",
-      "nombre": "Galaxy Gals",
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/blob/main/images/banner_gatcha_gals.png",
-      "fecha_inicio": "2025-11-21",
-      "fecha_fin": "2025-11-24",
-      "caracteristicas": ["L", "P", "N", "GR", "R"],
-      "gatos_ids": []
-    },
-    {
-      "id": "colossus_busters_2025_11_24",
-      "nombre": "Colossus Busters",
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/blob/main/images/banner_gatcha_colossus_busters.png",
-      "fecha_inicio": "2025-11-24",
-      "fecha_fin": "2025-11-28",
-      "caracteristicas": ["S", "N", "R"],
-      "gatos_ids": []
-    },
-    {
-      "id": "wave_busters_2025_11_24",
-      "nombre": "Wave Busters",
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/blob/main/images/banner_gatcha_wave_busters.png",
-      "fecha_inicio": "2025-11-24",
-      "fecha_fin": "2025-11-28",
-      "caracteristicas": ["S", "N", "R"],
-      "gatos_ids": []
-    },
-    {
-      "id": "uberfest_2025_11_28",
-      "nombre": "Uberfest (+Victorious Skanda)",
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/blob/main/images/banner_gatcha_uberfest.png",
-      "fecha_inicio": "2025-11-28",
-      "fecha_fin": "2025-12-01",
-      "caracteristicas": [],
-      "gatos_ids": []
-    },
-    {
-      "id": "dark_heroes_2025_11_28",
-      "nombre": "Dark Heroes",
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/blob/main/images/banner_gatcha_heroes.png",
-      "fecha_inicio": "2025-11-28",
-      "fecha_fin": "2025-12-01",
-      "caracteristicas": ["P", "N", "GR", "R"],
-      "gatos_ids": []
-    },
-    {
-      "id": "girls_monsters_2025_11_28",
-      "nombre": "Girls & Monsters",
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/blob/main/images/banner_gatcha_spooky_cuties.png",
-      "fecha_inicio": "2025-11-28",
-      "fecha_fin": "2025-12-01",
-      "caracteristicas": ["P", "N", "GR", "R"],
-      "gatos_ids": []
-    },
-    {
       "id": "dragon_emperors_2025_12_01",
       "nombre": "Dragon Emperors",
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/blob/main/images/banner_gatcha_dragons.png",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_dragons.png",
       "fecha_inicio": "2025-12-01",
       "fecha_fin": "2025-12-05",
       "caracteristicas": ["P", "N", "GR", "R"],
-      "gatos_ids": []
+      "gatos_ids": [83,84,85,86,87,177,396,450,505,620,660,760]
     },
     {
       "id": "ultra_souls_2025_12_01",
       "nombre": "Ultra Souls",
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/blob/main/images/banner_gatcha_souls.png",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_souls.png",
       "fecha_inicio": "2025-12-01",
       "fecha_fin": "2025-12-05",
       "caracteristicas": ["P", "N", "GR", "R"],
-      "gatos_ids": []
+      "gatos_ids": [134,135,136,137,138,203,322,451,525,633,692,769,908]
     },
     {
       "id": "the_almighties_2025_12_01",
       "nombre": "The Almighties (+Victorious Skanda)",
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/blob/main/images/banner_gatcha_almighties.png",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_almighties.png",
       "fecha_inicio": "2025-12-01",
       "fecha_fin": "2025-12-05",
       "caracteristicas": ["P", "N", "GR", "R"],
-      "gatos_ids": []
+      "gatos_ids": [257,258,259,271,272,316,439,493,534,642,723,811,911]
     },
     {
       "id": "platinum_capsules_2026",
       "nombre": "Platinum Capsules",
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/blob/main/images/banner_gatcha_platinum.png",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_platinum.png",
       "fecha_inicio": "2026-01-01",
       "fecha_fin": "2026-12-31",
       "caracteristicas": [],
-      "gatos_ids": []
+      "gatos_ids": [34,42,43,44,57,59,71,72,73,75,76,83,84,85,86,87,105,106,107,124,125,134,135,136,137,138,143,158,159,168,169,170,171,177,194,195,196,203,212,226,240,257,258,259,261,269,271,272,283,286,304,305,306,316,318,322,333,338,351,355,359,360,361,378,380,396,397,401,417,427,431,436,439,441,496,502,505,519,525,529,533,534,543,546,559,569,585,594,609,612,617,618,619,620,625,631,632,633,634,641,642,647,649,655,657,660,668,674,686,690,692,698,705,712,715,719,723,733,754,760,763,769,774,779,781,787,799,811,817]
     },
     {
       "id": "legend_capsules_2026",
       "nombre": "Legend Capsules",
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/blob/main/images/banner_gatcha_legend.png",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_legend.png",
       "fecha_inicio": "2026-01-01",
       "fecha_fin": "2026-12-31",
       "caracteristicas": [],
-      "gatos_ids": []
+      "gatos_ids": [34,42,43,44,57,59,71,72,73,75,76,83,84,85,86,87,105,106,107,124,125,134,135,136,137,138,143,158,159,168,169,170,171,177,194,195,196,203,212,226,240,257,258,259,261,269,271,272,283,286,304,305,306,316,318,322,333,338,351,355,359,360,361,378,380,396,397,401,417,427,431,436,439,441,448,449,450,451,455,461,463,478,481,493,496,502,505,519,525,529,533,534,543,546,559,569,585,586,594,609,612,617,618,619,620,625,631,632,633,634,641,642,647,649,655,657,660,668,674,686,690,692,698,705,712,715,719,723,731,733,738,754,760,763,769,774,779,781,787,799,811,817]
     }
   ],
   "eventos": [
