@@ -2,7 +2,7 @@
   {
     "id": "example_dynamites",
     "nombre": "The Dynamites",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_dynamites.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_dynamites.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -11,7 +11,7 @@
   {
     "id": "example_pixies",
     "nombre": "Elemental Pixies",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_pixies.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_pixies.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -20,7 +20,7 @@
   {
     "id": "example_heroes",
     "nombre": "Dark Heroes",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_heroes.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_heroes.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -29,7 +29,7 @@
   {
     "id": "example_lugas",
     "nombre": "Luga Families",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_lugas.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_lugas.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -38,7 +38,7 @@
   {
     "id": "example_souls",
     "nombre": "Ultra Souls",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_souls.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_souls.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -47,7 +47,7 @@
   {
     "id": "example_almighties",
     "nombre": "The Almighties",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_almighties.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_almighties.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -56,7 +56,7 @@
   {
     "id": "example_spooky_cuties",
     "nombre": "Girls & Monsters",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_spooky_cuties.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_spooky_cuties.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -65,7 +65,7 @@
   {
     "id": "example_dragons",
     "nombre": "Dragon Emperors",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_dragons.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_dragons.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -74,7 +74,7 @@
   {
     "id": "example_vajiras",
     "nombre": "Wargods Vajiras",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_vajiras.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_vajiras.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -83,7 +83,7 @@
   {
     "id": "example_gals",
     "nombre": "Galaxy Gals",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_gals.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_gals.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -92,7 +92,7 @@
   {
     "id": "example_iron",
     "nombre": "Iron Legion",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_iron.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_iron.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -101,7 +101,7 @@
   {
     "id": "example_red_busters",
     "nombre": "Red Busters",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_red_busters.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_red_busters.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -110,7 +110,7 @@
   {
     "id": "example_air_busters",
     "nombre": "Air Busters",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_air_busters.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_air_busters.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -119,7 +119,7 @@
   {
     "id": "example_metal_busters",
     "nombre": "Metal Busters",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_metal_busters.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_metal_busters.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -128,7 +128,7 @@
   {
     "id": "example_wave_busters",
     "nombre": "Wave Busters",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_wave_busters.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_wave_busters.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -137,7 +137,7 @@
   {
     "id": "example_colossus_busters",
     "nombre": "Colossus Busters",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_colossus_busters.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_colossus_busters.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -146,7 +146,7 @@
   {
     "id": "example_uberfest",
     "nombre": "Uberfest",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_uberfest.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_uberfest.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -155,7 +155,7 @@
   {
     "id": "example_epicfest",
     "nombre": "Epicfest",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_epicfest.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_epicfest.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -164,7 +164,7 @@
   {
     "id": "example_superfest",
     "nombre": "Superfest",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_superfest.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_superfest.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -173,7 +173,7 @@
   {
     "id": "example_busterfest",
     "nombre": "Busterfest",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_busterfest.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_busterfest.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -182,7 +182,7 @@
   {
     "id": "example_royalfest",
     "nombre": "Royalfest",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_royalfest.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_royalfest.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -191,7 +191,7 @@
   {
     "id": "example_dynastyfest",
     "nombre": "Dynastyfest",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_dynastyfest.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_dynastyfest.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -200,7 +200,7 @@
   {
     "id": "example_ultra4_selection",
     "nombre": "Ultra 4 Selection Gacha",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_ultra4_selection.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_ultra4_selection.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -209,7 +209,7 @@
   {
     "id": "example_miracle4_selection",
     "nombre": "Miracle 4 Selection Gacha",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_miracle4_selection.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_miracle4_selection.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -218,7 +218,7 @@
   {
     "id": "example_excellent4_selection",
     "nombre": "Excellent 4 Selection Gacha",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_excellent4_selection.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_excellent4_selection.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -227,7 +227,7 @@
   {
     "id": "example_neo_best_of_the_best",
     "nombre": "Neo Best of the Best",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_neo_best_of_the_best.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_neo_best_of_the_best.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -236,7 +236,7 @@
   {
     "id": "example_best_of_the_best",
     "nombre": "Best of the Best",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_best_of_the_best.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_best_of_the_best.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -245,7 +245,7 @@
   {
     "id": "example_gals_of_summer_sunshine",
     "nombre": "Gals of Summer Sunshine",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_gals_of_summer_sunshine.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_gals_of_summer_sunshine.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -254,7 +254,7 @@
   {
     "id": "example_gals_of_summer_blue_ocean",
     "nombre": "Gals of Summer Blue Ocean",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_gals_of_summer_blue_ocean.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_gals_of_summer_blue_ocean.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -263,7 +263,7 @@
   {
     "id": "example_platinum",
     "nombre": "Platinum Capsules",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_platinum.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_platinum.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -272,7 +272,7 @@
   {
     "id": "example_legend",
     "nombre": "Legend Capsules",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_legend.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_legend.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -281,7 +281,7 @@
   {
     "id": "example_mola_mola",
     "nombre": "Mola Mola Collab Gacha",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_mola_mola.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_mola_mola.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -290,7 +290,7 @@
   {
     "id": "example_halloween",
     "nombre": "Halloween Gacha",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_halloween.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_halloween.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -299,7 +299,7 @@
   {
     "id": "example_halloween_party",
     "nombre": "Halloween Party",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_halloween_party.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_halloween_party.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -308,7 +308,7 @@
   {
     "id": "example_summer_break",
     "nombre": "Summer Break Survival Capsules",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_summer_break.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_summer_break.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -317,7 +317,7 @@
   {
     "id": "example_medal_king_capsules",
     "nombre": "Medal King's Palace Capsules",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_medal_king_capsules.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_medal_king_capsules.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -326,7 +326,7 @@
   {
     "id": "example_summer_break_paradise",
     "nombre": "Summer Break Capsules Paradise",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_summer_break_paradise.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_summer_break_paradise.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
@@ -335,7 +335,7 @@
   {
     "id": "example_premium_fair",
     "nombre": "Premium Fair",
-    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_premium_fair.png",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_premium_fair.png",
     "fecha_inicio": "2025-01-01",
     "fecha_fin": "2025-01-04",
     "caracteristicas": [],
