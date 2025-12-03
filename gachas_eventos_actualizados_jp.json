@@ -1,5 +1,144 @@
 {
-  "gachas": [],
+  "gachas": [
+    {
+      "id": "ultra_souls_2025-12-06",
+      "nombre": "Ultra Souls",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_souls.png",
+      "fecha_inicio": "2025-12-06",
+      "fecha_fin": "2025-12-08",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ],
+      "gatos_ids": [
+        134,
+        135,
+        136,
+        137,
+        138,
+        203,
+        322,
+        451,
+        525,
+        633,
+        692,
+        769,
+        908
+      ]
+    },
+    {
+      "id": "wargods_vajiras_2025-12-08",
+      "nombre": "Wargods Vajiras",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_vajiras.png",
+      "fecha_inicio": "2025-12-08",
+      "fecha_fin": "2025-12-10",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ],
+      "gatos_ids": [
+        71,
+        72,
+        73,
+        124,
+        125,
+        158,
+        338,
+        448,
+        496,
+        618,
+        649,
+        754,
+        902
+      ]
+    },
+    {
+      "id": "iron_legion_2025-12-08",
+      "nombre": "Iron Legion (+Mighty Morta-Loncha)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_iron.png",
+      "fecha_inicio": "2025-12-08",
+      "fecha_fin": "2025-12-10",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ],
+      "gatos_ids": [
+        304,
+        305,
+        306,
+        355,
+        417,
+        463,
+        594,
+        632,
+        674,
+        715,
+        799,
+        909
+      ]
+    },
+    {
+      "id": "dragon_emperors_2025-12-10",
+      "nombre": "Dragon Emperors",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_dragons.png",
+      "fecha_inicio": "2025-12-10",
+      "fecha_fin": "2025-12-12",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ],
+      "gatos_ids": [
+        83,
+        84,
+        85,
+        86,
+        87,
+        177,
+        396,
+        450,
+        505,
+        620,
+        660,
+        760
+      ]
+    },
+    {
+      "id": "the_almighties_2025-12-10",
+      "nombre": "The Almighties (+Victorious Skanda)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_almighties.png",
+      "fecha_inicio": "2025-12-10",
+      "fecha_fin": "2025-12-12",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ],
+      "gatos_ids": [
+        257,
+        258,
+        259,
+        271,
+        272,
+        316,
+        439,
+        493,
+        534,
+        642,
+        723,
+        811,
+        911
+      ]
+    }
+  ],
   "eventos": [
     {
       "id": "ev_metal",
@@ -7,9 +146,12 @@
       "descripcion": "Texto largo aqui",
       "fecha_inicio": "2025-12-05",
       "contenido_detallado": {
-        "enemigos": ["Metal Doge", "Sir Metal Seal"]
+        "enemigos": [
+          "Metal Doge",
+          "Sir Metal Seal"
+        ]
       }
     }
   ],
-  "ultima_actualizacion": "2025-12-03T16:12:19.252240"
+  "ultima_actualizacion": "2025-12-03T20:19:28.938467"
 }
