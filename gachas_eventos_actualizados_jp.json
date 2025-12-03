@@ -1,0 +1,15 @@
+{
+  "gachas": [],
+  "eventos": [
+    {
+      "id": "ev_metal",
+      "nombre": "Metal Carnage",
+      "descripcion": "Texto largo aqui",
+      "fecha_inicio": "2025-12-05",
+      "contenido_detallado": {
+        "enemigos": ["Metal Doge", "Sir Metal Seal"]
+      }
+    }
+  ],
+  "ultima_actualizacion": "2025-12-03T16:12:19.252240"
+}
