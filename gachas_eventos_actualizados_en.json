@@ -1,5 +1,307 @@
 {
-  "gachas": [],
+  "gachas": [
+    {
+      "id": "evangelion_collab_gacha_2025-12-05",
+      "nombre": "Evangelion Collab Gacha (+Mass Production EVA, Moonshade Kaworu)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_evangelion.png",
+      "fecha_inicio": "2025-12-05",
+      "fecha_fin": "2025-12-22",
+      "caracteristicas": [
+        "P"
+      ],
+      "gatos_ids": [
+        406,
+        407,
+        408,
+        409,
+        410,
+        412,
+        413,
+        415,
+        489,
+        547,
+        549,
+        550,
+        552,
+        814,
+        815
+      ]
+    },
+    {
+      "id": "evangelion_collab_gacha_2nd_2025-12-05",
+      "nombre": "Evangelion Collab Gacha 2nd (+Moonshade Kaworu)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_evangelion_2nd.png",
+      "fecha_inicio": "2025-12-05",
+      "fecha_fin": "2025-12-22",
+      "caracteristicas": [
+        "P"
+      ],
+      "gatos_ids": [
+        406,
+        407,
+        408,
+        411,
+        414,
+        416,
+        487,
+        488,
+        490,
+        491,
+        548,
+        551,
+        552,
+        709,
+        710,
+        815
+      ]
+    },
+    {
+      "id": "the_dynamites_2025-12-05",
+      "nombre": "The Dynamites",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_dynamites.png",
+      "fecha_inicio": "2025-12-05",
+      "fecha_fin": "2025-12-09",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ],
+      "gatos_ids": [
+        42,
+        43,
+        44,
+        57,
+        59,
+        143,
+        427,
+        455,
+        519,
+        617,
+        668,
+        763,
+        912
+      ]
+    },
+    {
+      "id": "evangelion_collab_gacha_2025-12-09",
+      "nombre": "Evangelion Collab Gacha (+Mass Production EVA, Moonshade Kaworu)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_evangelion.png",
+      "fecha_inicio": "2025-12-09",
+      "fecha_fin": "2025-12-22",
+      "caracteristicas": [
+        "G"
+      ],
+      "gatos_ids": [
+        406,
+        407,
+        408,
+        409,
+        410,
+        412,
+        413,
+        415,
+        489,
+        547,
+        549,
+        550,
+        552,
+        814,
+        815
+      ]
+    },
+    {
+      "id": "evangelion_collab_gacha_2nd_2025-12-09",
+      "nombre": "Evangelion Collab Gacha 2nd (+Moonshade Kaworu)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_evangelion_2nd.png",
+      "fecha_inicio": "2025-12-09",
+      "fecha_fin": "2025-12-22",
+      "caracteristicas": [
+        "G"
+      ],
+      "gatos_ids": [
+        406,
+        407,
+        408,
+        411,
+        414,
+        416,
+        487,
+        488,
+        490,
+        491,
+        548,
+        551,
+        552,
+        709,
+        710,
+        815
+      ]
+    },
+    {
+      "id": "ultra_souls_2025-12-09",
+      "nombre": "Ultra Souls",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_souls.png",
+      "fecha_inicio": "2025-12-09",
+      "fecha_fin": "2025-12-12",
+      "caracteristicas": [
+        "G",
+        "N",
+        "GR",
+        "R"
+      ],
+      "gatos_ids": [
+        134,
+        135,
+        136,
+        137,
+        138,
+        203,
+        322,
+        451,
+        525,
+        633,
+        692,
+        769,
+        908
+      ]
+    },
+    {
+      "id": "elemental_pixies_2025-12-12",
+      "nombre": "Elemental Pixies (+Komori)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_pixies.png",
+      "fecha_inicio": "2025-12-12",
+      "fecha_fin": "2025-12-15",
+      "caracteristicas": [
+        "G",
+        "N",
+        "GR",
+        "R"
+      ],
+      "gatos_ids": [
+        359,
+        360,
+        361,
+        401,
+        478,
+        569,
+        631,
+        655,
+        719,
+        817
+      ]
+    },
+    {
+      "id": "evangelion_collab_gacha_2025-12-12",
+      "nombre": "Evangelion Collab Gacha (+Mass Production EVA, Moonshade Kaworu)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_evangelion.png",
+      "fecha_inicio": "2025-12-12",
+      "fecha_fin": "2025-12-22",
+      "caracteristicas": [
+        "G"
+      ],
+      "gatos_ids": [
+        406,
+        407,
+        408,
+        409,
+        410,
+        412,
+        413,
+        415,
+        489,
+        547,
+        549,
+        550,
+        552,
+        814,
+        815
+      ]
+    },
+    {
+      "id": "evangelion_collab_gacha_2nd_2025-12-12",
+      "nombre": "Evangelion Collab Gacha 2nd (+Moonshade Kaworu)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_evangelion_2nd.png",
+      "fecha_inicio": "2025-12-12",
+      "fecha_fin": "2025-12-22",
+      "caracteristicas": [
+        "G"
+      ],
+      "gatos_ids": [
+        406,
+        407,
+        408,
+        411,
+        414,
+        416,
+        487,
+        488,
+        490,
+        491,
+        548,
+        551,
+        552,
+        709,
+        710,
+        815
+      ]
+    },
+    {
+      "id": "evangelion_collab_gacha_2025-12-15",
+      "nombre": "Evangelion Collab Gacha (+Mass Production EVA, Moonshade Kaworu)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_evangelion.png",
+      "fecha_inicio": "2025-12-15",
+      "fecha_fin": "2025-12-22",
+      "caracteristicas": [
+        "P"
+      ],
+      "gatos_ids": [
+        406,
+        407,
+        408,
+        409,
+        410,
+        412,
+        413,
+        415,
+        489,
+        547,
+        549,
+        550,
+        552,
+        814,
+        815
+      ]
+    },
+    {
+      "id": "evangelion_collab_gacha_2nd_2025-12-15",
+      "nombre": "Evangelion Collab Gacha 2nd (+Moonshade Kaworu)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_evangelion_2nd.png",
+      "fecha_inicio": "2025-12-15",
+      "fecha_fin": "2025-12-22",
+      "caracteristicas": [
+        "P"
+      ],
+      "gatos_ids": [
+        406,
+        407,
+        408,
+        411,
+        414,
+        416,
+        487,
+        488,
+        490,
+        491,
+        548,
+        551,
+        552,
+        709,
+        710,
+        815
+      ]
+    }
+  ],
   "eventos": [
     {
       "id": "ev_metal",
@@ -14,5 +316,5 @@
       }
     }
   ],
-  "ultima_actualizacion": "2025-12-03T13:47:57.759734"
+  "ultima_actualizacion": "2025-12-03T16:12:19.252240"
 }
