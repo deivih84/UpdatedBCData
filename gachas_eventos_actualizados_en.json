@@ -6,24 +6,9 @@
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_evangelion.png",
       "fecha_inicio": "2025-12-05",
       "fecha_fin": "2025-12-22",
-      "caracteristicas": [
-        "P"
-      ],
+      "caracteristicas": ["P"],
       "gatos_ids": [
-        406,
-        407,
-        408,
-        409,
-        410,
-        412,
-        413,
-        415,
-        489,
-        547,
-        549,
-        550,
-        552,
-        814,
+        406, 407, 408, 409, 410, 412, 413, 415, 489, 547, 549, 550, 552, 814,
         815
       ]
     },
@@ -33,26 +18,10 @@
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_evangelion_2nd.png",
       "fecha_inicio": "2025-12-05",
       "fecha_fin": "2025-12-22",
-      "caracteristicas": [
-        "P"
-      ],
+      "caracteristicas": ["P"],
       "gatos_ids": [
-        406,
-        407,
-        408,
-        411,
-        414,
-        416,
-        487,
-        488,
-        490,
-        491,
-        548,
-        551,
-        552,
-        709,
-        710,
-        815
+        406, 407, 408, 411, 414, 416, 487, 488, 490, 491, 548, 551, 552, 709,
+        710, 815
       ]
     },
     {
@@ -61,27 +30,8 @@
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_dynamites.png",
       "fecha_inicio": "2025-12-05",
       "fecha_fin": "2025-12-09",
-      "caracteristicas": [
-        "P",
-        "N",
-        "GR",
-        "R"
-      ],
-      "gatos_ids": [
-        42,
-        43,
-        44,
-        57,
-        59,
-        143,
-        427,
-        455,
-        519,
-        617,
-        668,
-        763,
-        912
-      ]
+      "caracteristicas": ["P", "N", "GR", "R"],
+      "gatos_ids": [42, 43, 44, 57, 59, 143, 427, 455, 519, 617, 668, 763, 912]
     },
     {
       "id": "evangelion_collab_gacha_2025-12-09",
@@ -89,24 +39,9 @@
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_evangelion.png",
       "fecha_inicio": "2025-12-09",
       "fecha_fin": "2025-12-22",
-      "caracteristicas": [
-        "G"
-      ],
+      "caracteristicas": ["G"],
       "gatos_ids": [
-        406,
-        407,
-        408,
-        409,
-        410,
-        412,
-        413,
-        415,
-        489,
-        547,
-        549,
-        550,
-        552,
-        814,
+        406, 407, 408, 409, 410, 412, 413, 415, 489, 547, 549, 550, 552, 814,
         815
       ]
     },
@@ -116,26 +51,10 @@
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_evangelion_2nd.png",
       "fecha_inicio": "2025-12-09",
       "fecha_fin": "2025-12-22",
-      "caracteristicas": [
-        "G"
-      ],
+      "caracteristicas": ["G"],
       "gatos_ids": [
-        406,
-        407,
-        408,
-        411,
-        414,
-        416,
-        487,
-        488,
-        490,
-        491,
-        548,
-        551,
-        552,
-        709,
-        710,
-        815
+        406, 407, 408, 411, 414, 416, 487, 488, 490, 491, 548, 551, 552, 709,
+        710, 815
       ]
     },
     {
@@ -144,26 +63,9 @@
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_souls.png",
       "fecha_inicio": "2025-12-09",
       "fecha_fin": "2025-12-12",
-      "caracteristicas": [
-        "G",
-        "N",
-        "GR",
-        "R"
-      ],
+      "caracteristicas": ["G", "N", "GR", "R"],
       "gatos_ids": [
-        134,
-        135,
-        136,
-        137,
-        138,
-        203,
-        322,
-        451,
-        525,
-        633,
-        692,
-        769,
-        908
+        134, 135, 136, 137, 138, 203, 322, 451, 525, 633, 692, 769, 908
       ]
     },
     {
@@ -172,24 +74,8 @@
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_pixies.png",
       "fecha_inicio": "2025-12-12",
       "fecha_fin": "2025-12-15",
-      "caracteristicas": [
-        "G",
-        "N",
-        "GR",
-        "R"
-      ],
-      "gatos_ids": [
-        359,
-        360,
-        361,
-        401,
-        478,
-        569,
-        631,
-        655,
-        719,
-        817
-      ]
+      "caracteristicas": ["G", "N", "GR", "R"],
+      "gatos_ids": [359, 360, 361, 401, 478, 569, 631, 655, 719, 817]
     },
     {
       "id": "evangelion_collab_gacha_2025-12-12",
@@ -197,24 +83,9 @@
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_evangelion.png",
       "fecha_inicio": "2025-12-12",
       "fecha_fin": "2025-12-22",
-      "caracteristicas": [
-        "G"
-      ],
+      "caracteristicas": ["G"],
       "gatos_ids": [
-        406,
-        407,
-        408,
-        409,
-        410,
-        412,
-        413,
-        415,
-        489,
-        547,
-        549,
-        550,
-        552,
-        814,
+        406, 407, 408, 409, 410, 412, 413, 415, 489, 547, 549, 550, 552, 814,
         815
       ]
     },
@@ -224,26 +95,10 @@
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_evangelion_2nd.png",
       "fecha_inicio": "2025-12-12",
       "fecha_fin": "2025-12-22",
-      "caracteristicas": [
-        "G"
-      ],
+      "caracteristicas": ["G"],
       "gatos_ids": [
-        406,
-        407,
-        408,
-        411,
-        414,
-        416,
-        487,
-        488,
-        490,
-        491,
-        548,
-        551,
-        552,
-        709,
-        710,
-        815
+        406, 407, 408, 411, 414, 416, 487, 488, 490, 491, 548, 551, 552, 709,
+        710, 815
       ]
     },
     {
@@ -252,24 +107,9 @@
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_evangelion.png",
       "fecha_inicio": "2025-12-15",
       "fecha_fin": "2025-12-22",
-      "caracteristicas": [
-        "P"
-      ],
+      "caracteristicas": ["P"],
       "gatos_ids": [
-        406,
-        407,
-        408,
-        409,
-        410,
-        412,
-        413,
-        415,
-        489,
-        547,
-        549,
-        550,
-        552,
-        814,
+        406, 407, 408, 409, 410, 412, 413, 415, 489, 547, 549, 550, 552, 814,
         815
       ]
     },
@@ -279,26 +119,49 @@
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_evangelion_2nd.png",
       "fecha_inicio": "2025-12-15",
       "fecha_fin": "2025-12-22",
-      "caracteristicas": [
-        "P"
-      ],
+      "caracteristicas": ["P"],
       "gatos_ids": [
-        406,
-        407,
-        408,
-        411,
-        414,
-        416,
-        487,
-        488,
-        490,
-        491,
-        548,
-        551,
-        552,
-        709,
-        710,
-        815
+        406, 407, 408, 411, 414, 416, 487, 488, 490, 491, 548, 551, 552, 709,
+        710, 815
+      ]
+    },
+    {
+      "id": "example_platinum",
+      "nombre": "Platinum Capsules",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_platinum.png",
+      "fecha_inicio": "2025-01-01",
+      "fecha_fin": "2027-01-04",
+      "caracteristicas": [],
+      "gatos_ids": [
+        34, 42, 43, 44, 57, 59, 71, 72, 73, 75, 76, 83, 84, 85, 86, 87, 105,
+        106, 107, 124, 125, 134, 135, 136, 137, 138, 143, 158, 159, 168, 169,
+        170, 171, 177, 194, 195, 196, 203, 212, 226, 240, 257, 258, 259, 261,
+        269, 271, 272, 283, 286, 304, 305, 306, 316, 318, 322, 333, 338, 351,
+        355, 359, 360, 361, 378, 380, 396, 397, 401, 417, 427, 431, 436, 439,
+        441, 496, 502, 505, 519, 525, 529, 533, 534, 543, 546, 559, 569, 585,
+        594, 609, 612, 617, 618, 619, 620, 625, 631, 632, 633, 634, 641, 642,
+        647, 649, 655, 657, 660, 668, 674, 686, 690, 692, 698, 705, 712, 715,
+        719, 723, 733, 754, 760, 763, 769, 774, 779, 781, 787, 799, 811, 817
+      ]
+    },
+    {
+      "id": "example_legend",
+      "nombre": "Legend Capsules",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_legend.png",
+      "fecha_inicio": "2025-01-01",
+      "fecha_fin": "2027-01-04",
+      "caracteristicas": [],
+      "gatos_ids": [
+        34, 42, 43, 44, 57, 59, 71, 72, 73, 75, 76, 83, 84, 85, 86, 87, 105,
+        106, 107, 124, 125, 134, 135, 136, 137, 138, 143, 158, 159, 168, 169,
+        170, 171, 177, 194, 195, 196, 203, 212, 226, 240, 257, 258, 259, 261,
+        269, 271, 272, 283, 286, 304, 305, 306, 316, 318, 322, 333, 338, 351,
+        355, 359, 360, 361, 378, 380, 396, 397, 401, 417, 427, 431, 436, 439,
+        441, 448, 449, 450, 451, 455, 461, 463, 478, 481, 493, 496, 502, 505,
+        519, 525, 529, 533, 534, 543, 546, 559, 569, 585, 586, 594, 609, 612,
+        617, 618, 619, 620, 625, 631, 632, 633, 634, 641, 642, 647, 649, 655,
+        657, 660, 668, 674, 686, 690, 692, 698, 705, 712, 715, 719, 723, 731,
+        733, 738, 754, 760, 763, 769, 774, 779, 781, 787, 799, 811, 817
       ]
     }
   ],
@@ -309,10 +172,7 @@
       "descripcion": "Texto largo aqui",
       "fecha_inicio": "2025-12-05",
       "contenido_detallado": {
-        "enemigos": [
-          "Metal Doge",
-          "Sir Metal Seal"
-        ]
+        "enemigos": ["Metal Doge", "Sir Metal Seal"]
       }
     }
   ],
