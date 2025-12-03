@@ -288,6 +288,24 @@
     "gatos_ids": [173,174]
   },
   {
+    "id": "example_evangelion",
+    "nombre": "Evangelion Collab Gacha",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_evangelion.png",
+    "fecha_inicio": "2025-01-01",
+    "fecha_fin": "2025-01-04",
+    "caracteristicas": [],
+    "gatos_ids": [406,407,408,409,410,412,413,415,489,547,549,550,552,814,815]
+  },
+  {
+    "id": "example_evangelion_2nd",
+    "nombre": "Evangelion Collab Gacha 2nd",
+    "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_evangelion_2nd.png",
+    "fecha_inicio": "2025-01-01",
+    "fecha_fin": "2025-01-04",
+    "caracteristicas": [],
+    "gatos_ids": [406,407,408,411,414,416,487,488,490,491,548,551,552,709,710,815]
+  },
+  {
     "id": "example_halloween",
     "nombre": "Halloween Gacha",
     "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_halloween.png",
