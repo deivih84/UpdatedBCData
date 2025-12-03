@@ -1,94 +1,11 @@
 {
   "gachas": [
     {
-      "id": "dragon_emperors_2025_12_01",
-      "nombre": "Dragon Emperors",
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_dragons.png",
-      "fecha_inicio": "2025-12-01",
-      "fecha_fin": "2025-12-05",
-      "caracteristicas": [
-        "P",
-        "N",
-        "GR",
-        "R"
-      ],
-      "gatos_ids": [
-        83,
-        84,
-        85,
-        86,
-        87,
-        177,
-        396,
-        450,
-        505,
-        620,
-        660,
-        760
-      ]
-    },
-    {
-      "id": "ultra_souls_2025_12_01",
-      "nombre": "Ultra Souls",
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_souls.png",
-      "fecha_inicio": "2025-12-01",
-      "fecha_fin": "2025-12-05",
-      "caracteristicas": [
-        "P",
-        "N",
-        "GR",
-        "R"
-      ],
-      "gatos_ids": [
-        134,
-        135,
-        136,
-        137,
-        138,
-        203,
-        322,
-        451,
-        525,
-        633,
-        692,
-        769,
-        908
-      ]
-    },
-    {
-      "id": "the_almighties_2025_12_01",
-      "nombre": "The Almighties (+Victorious Skanda)",
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_almighties.png",
-      "fecha_inicio": "2025-12-01",
-      "fecha_fin": "2025-12-05",
-      "caracteristicas": [
-        "P",
-        "N",
-        "GR",
-        "R"
-      ],
-      "gatos_ids": [
-        257,
-        258,
-        259,
-        271,
-        272,
-        316,
-        439,
-        493,
-        534,
-        642,
-        723,
-        811,
-        911
-      ]
-    },
-    {
       "id": "platinum_capsules_2026",
       "nombre": "Platinum Capsules",
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_platinum.png",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_platinum.png",
       "fecha_inicio": "2025-01-01",
-      "fecha_fin": "2026-12-31",
+      "fecha_fin": "2027-12-31",
       "caracteristicas": [],
       "gatos_ids": [
         34,
@@ -225,7 +142,7 @@
     {
       "id": "legend_capsules_2026",
       "nombre": "Legend Capsules",
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/banner_gatcha_legend.png",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_legend.png",
       "fecha_inicio": "2025-01-01",
       "fecha_fin": "2026-12-31",
       "caracteristicas": [],
