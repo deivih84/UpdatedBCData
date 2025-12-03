@@ -126,7 +126,7 @@
       ]
     },
     {
-      "id": "example_platinum",
+      "id": "platinum_capsules_2025-01-01",
       "nombre": "Platinum Capsules",
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_platinum.png",
       "fecha_inicio": "2025-01-01",
@@ -145,7 +145,7 @@
       ]
     },
     {
-      "id": "example_legend",
+      "id": "legend_capsules_2025-01-01",
       "nombre": "Legend Capsules",
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_legend.png",
       "fecha_inicio": "2025-01-01",
