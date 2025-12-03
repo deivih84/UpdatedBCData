@@ -1,5 +1,265 @@
 {
-  "gachas": [],
+  "gachas": [
+    {
+      "id": "epicfest_2025-11-21",
+      "nombre": "Epicfest (+Victorious Skanda)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_epicfest.png",
+      "fecha_inicio": "2025-11-21",
+      "fecha_fin": "2025-12-03",
+      "caracteristicas": [
+        "L"
+      ],
+      "gatos_ids": [
+        333,
+        378,
+        441,
+        543,
+        609,
+        657,
+        705,
+        738,
+        787
+      ]
+    },
+    {
+      "id": "iron_legion_2025-11-21",
+      "nombre": "Iron Legion (+Mighty Morta-Loncha)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_iron.png",
+      "fecha_inicio": "2025-11-21",
+      "fecha_fin": "2025-12-03",
+      "caracteristicas": [
+        "L",
+        "P",
+        "N",
+        "GR",
+        "R"
+      ],
+      "gatos_ids": [
+        304,
+        305,
+        306,
+        355,
+        417,
+        463,
+        594,
+        632,
+        674,
+        715,
+        799,
+        909
+      ]
+    },
+    {
+      "id": "galaxy_gals_2025-11-21",
+      "nombre": "Galaxy Gals",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_gals.png",
+      "fecha_inicio": "2025-11-21",
+      "fecha_fin": "2025-12-03",
+      "caracteristicas": [
+        "L",
+        "P",
+        "N",
+        "GR",
+        "R"
+      ],
+      "gatos_ids": [
+        75,
+        76,
+        105,
+        106,
+        107,
+        159,
+        351,
+        449,
+        502,
+        619,
+        647,
+        733,
+        830,
+        910
+      ]
+    },
+    {
+      "id": "colossus_busters_2025-11-24",
+      "nombre": "Colossus Busters",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_colossus_busters.png",
+      "fecha_inicio": "2025-11-24",
+      "fecha_fin": "2025-12-03",
+      "caracteristicas": [
+        "S",
+        "N",
+        "R"
+      ],
+      "gatos_ids": [
+        647,
+        649,
+        655,
+        660,
+        668,
+        674,
+        682,
+        686
+      ]
+    },
+    {
+      "id": "wave_busters_2025-11-24",
+      "nombre": "Wave Busters",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_wave_busters.png",
+      "fecha_inicio": "2025-11-24",
+      "fecha_fin": "2025-12-03",
+      "caracteristicas": [
+        "S",
+        "N",
+        "R"
+      ],
+      "gatos_ids": [
+        43,
+        72,
+        194,
+        240,
+        258,
+        436,
+        519,
+        559
+      ]
+    },
+    {
+      "id": "dark_heroes_2025-11-28",
+      "nombre": "Dark Heroes",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_heroes.png",
+      "fecha_inicio": "2025-11-28",
+      "fecha_fin": "2025-12-01",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ],
+      "gatos_ids": [
+        194,
+        195,
+        196,
+        212,
+        226,
+        261,
+        431,
+        481,
+        533,
+        634,
+        698,
+        774,
+        903
+      ]
+    },
+    {
+      "id": "girls_&_monsters_2025-11-28",
+      "nombre": "Girls & Monsters",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_spooky_cuties.png",
+      "fecha_inicio": "2025-11-28",
+      "fecha_fin": "2025-12-01",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ],
+      "gatos_ids": [
+        334,
+        335,
+        336,
+        357,
+        358,
+        544,
+        607,
+        682,
+        725,
+        824
+      ]
+    },
+    {
+      "id": "dragon_emperors_2025-12-01",
+      "nombre": "Dragon Emperors",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_dragons.png",
+      "fecha_inicio": "2025-12-01",
+      "fecha_fin": "2025-12-03",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ],
+      "gatos_ids": [
+        83,
+        84,
+        85,
+        86,
+        87,
+        177,
+        396,
+        450,
+        505,
+        620,
+        660,
+        760
+      ]
+    },
+    {
+      "id": "ultra_souls_2025-12-01",
+      "nombre": "Ultra Souls",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_souls.png",
+      "fecha_inicio": "2025-12-01",
+      "fecha_fin": "2025-12-03",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ],
+      "gatos_ids": [
+        134,
+        135,
+        136,
+        137,
+        138,
+        203,
+        322,
+        451,
+        525,
+        633,
+        692,
+        769,
+        908
+      ]
+    },
+    {
+      "id": "the_almighties_2025-12-01",
+      "nombre": "The Almighties (+Victorious Skanda)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_almighties.png",
+      "fecha_inicio": "2025-12-01",
+      "fecha_fin": "2025-12-03",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ],
+      "gatos_ids": [
+        257,
+        258,
+        259,
+        271,
+        272,
+        316,
+        439,
+        493,
+        534,
+        642,
+        723,
+        811,
+        911
+      ]
+    }
+  ],
   "eventos": [
     {
       "id": "ev_metal",
@@ -14,5 +274,5 @@
       }
     }
   ],
-  "ultima_actualizacion": "2025-12-03T00:52:07.420712"
+  "ultima_actualizacion": "2025-12-03T01:53:11.648917"
 }
