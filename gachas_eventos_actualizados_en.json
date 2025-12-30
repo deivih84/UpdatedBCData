@@ -162,7 +162,8 @@
         754,
         902
       ]
-    },    {
+    },
+    {
       "id": "platinum_capsules_2025-01-01",
       "nombre": "Platinum Capsules",
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_platinum.png",
@@ -452,6 +453,166 @@
         811,
         817
       ]
+    },
+    {
+      "id": "dark_heroes_2025-12-30",
+      "nombre": "Dark Heroes",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_heroes.png",
+      "fecha_inicio": "2025-12-30",
+      "fecha_fin": "2026-01-06",
+      "caracteristicas": [
+        "L",
+        "P",
+        "N",
+        "GR",
+        "R"
+      ],
+      "gatos_ids": [
+        194,
+        195,
+        196,
+        212,
+        226,
+        261,
+        431,
+        481,
+        533,
+        634,
+        698,
+        774,
+        903
+      ]
+    },
+    {
+      "id": "download_anniversary_gacha_2025-12-30",
+      "nombre": "Download Anniversary Gacha",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_best_of_the_best.png",
+      "fecha_inicio": "2025-12-30",
+      "fecha_fin": "2025-12-30",
+      "caracteristicas": [
+        "L"
+      ],
+      "gatos_ids": [
+        76,
+        125,
+        143,
+        168,
+        336,
+        396,
+        435,
+        520,
+        569,
+        642,
+        692,
+        698,
+        715,
+        758
+      ]
+    },
+    {
+      "id": "download_anniversary_gacha_2025-12-30",
+      "nombre": "Download Anniversary Gacha",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_best_of_the_best.png",
+      "fecha_inicio": "2025-12-30",
+      "fecha_fin": "2026-01-09",
+      "caracteristicas": [
+        "L"
+      ],
+      "gatos_ids": [
+        76,
+        125,
+        143,
+        168,
+        336,
+        396,
+        435,
+        520,
+        569,
+        642,
+        692,
+        698,
+        715,
+        758
+      ]
+    },
+    {
+      "id": "dragon_emperors_2025-12-30",
+      "nombre": "Dragon Emperors",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_dragons.png",
+      "fecha_inicio": "2025-12-30",
+      "fecha_fin": "2026-01-09",
+      "caracteristicas": [
+        "L",
+        "P",
+        "N",
+        "GR",
+        "R"
+      ],
+      "gatos_ids": [
+        83,
+        84,
+        85,
+        86,
+        87,
+        177,
+        396,
+        450,
+        505,
+        620,
+        660,
+        760
+      ]
+    },
+    {
+      "id": "the_almighties_2025-12-30",
+      "nombre": "The Almighties (+Victorious Skanda)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_almighties.png",
+      "fecha_inicio": "2025-12-30",
+      "fecha_fin": "2026-01-09",
+      "caracteristicas": [
+        "L",
+        "P",
+        "N",
+        "GR",
+        "R"
+      ],
+      "gatos_ids": [
+        257,
+        258,
+        259,
+        271,
+        272,
+        316,
+        439,
+        493,
+        534,
+        642,
+        723,
+        811,
+        911
+      ]
+    },
+    {
+      "id": "uberfest_2025-12-30",
+      "nombre": "Uberfest (+Komori)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_uberfest.png",
+      "fecha_inicio": "2025-12-30",
+      "fecha_fin": "2026-01-06",
+      "caracteristicas": [
+        "L"
+      ],
+      "gatos_ids": [
+        269,
+        318,
+        380,
+        529,
+        585,
+        641,
+        690,
+        731,
+        779,
+        837
+      ]
     }
   ],
   "eventos": [
@@ -468,5 +629,5 @@
       }
     }
   ],
-  "ultima_actualizacion": "2025-12-23T21:15:15.823029"
+  "ultima_actualizacion": "2025-12-30T11:52:56.395568"
 }
