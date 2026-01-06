@@ -9,22 +9,6 @@
       "caracteristicas": ["L", "P", "N", "GR", "R"]
     },
     {
-      "id": "platinum_capsules_2025-01-01",
-      "nombre": "Platinum Capsules",
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_platinum.png",
-      "fecha_inicio": "2025-01-01",
-      "fecha_fin": "2027-01-04",
-      "caracteristicas": []
-    },
-    {
-      "id": "legend_capsules_2025-01-01",
-      "nombre": "Legend Capsules",
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_legend.png",
-      "fecha_inicio": "2025-01-01",
-      "fecha_fin": "2027-01-04",
-      "caracteristicas": []
-    },
-    {
       "id": "download_anniversary_gacha_2026-01-01",
       "nombre": "Download Anniversary Gacha",
       "fecha_inicio": "2026-01-01",
@@ -65,6 +49,22 @@
       "fecha_inicio": "2026-01-01",
       "fecha_fin": "2026-01-06",
       "caracteristicas": ["L"]
+    },
+        {
+      "id": "platinum_capsules_2025-01-01",
+      "nombre": "Platinum Capsules",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_platinum.png",
+      "fecha_inicio": "2025-01-01",
+      "fecha_fin": "2027-01-04",
+      "caracteristicas": []
+    },
+    {
+      "id": "legend_capsules_2025-01-01",
+      "nombre": "Legend Capsules",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_legend.png",
+      "fecha_inicio": "2025-01-01",
+      "fecha_fin": "2027-01-04",
+      "caracteristicas": []
     }
   ],
   "eventos": [
