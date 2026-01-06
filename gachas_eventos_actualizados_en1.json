@@ -406,6 +406,63 @@
       "caracteristicas": [
         "L"
       ]
+    },
+    {
+      "id": "dark_heroes_2026-01-01",
+      "nombre": "Dark Heroes",
+      "fecha_inicio": "2026-01-01",
+      "fecha_fin": "2026-01-06",
+      "caracteristicas": [
+        "L",
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "download_anniversary_gacha_2026-01-06",
+      "nombre": "Download Anniversary Gacha",
+      "fecha_inicio": "2026-01-06",
+      "fecha_fin": "2026-01-09",
+      "caracteristicas": [
+        "L"
+      ]
+    },
+    {
+      "id": "dragon_emperors_2026-01-06",
+      "nombre": "Dragon Emperors",
+      "fecha_inicio": "2026-01-06",
+      "fecha_fin": "2026-01-09",
+      "caracteristicas": [
+        "L",
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "the_almighties_2026-01-06",
+      "nombre": "The Almighties (+Victorious Skanda)",
+      "fecha_inicio": "2026-01-06",
+      "fecha_fin": "2026-01-09",
+      "caracteristicas": [
+        "L",
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "uberfest_2026-01-01",
+      "nombre": "Uberfest (+Komori)",
+      "fecha_inicio": "2026-01-01",
+      "fecha_fin": "2026-01-06",
+      "caracteristicas": [
+        "L"
+      ]
     }
   ],
   "eventos": [
@@ -422,5 +479,5 @@
       }
     }
   ],
-  "ultima_actualizacion": "2026-01-06T01:08:13.623006"
+  "ultima_actualizacion": "2026-01-06T01:38:33.244811"
 }
