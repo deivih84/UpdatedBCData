@@ -3,7 +3,6 @@
     {
       "id": "galaxy_gals_2026-12-25",
       "nombre": "Galaxy Gals",
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_gals.png",
       "fecha_inicio": "2025-12-25",
       "fecha_fin": "2025-12-29",
       "caracteristicas": ["L", "P", "N", "GR", "R"]
@@ -53,7 +52,6 @@
         {
       "id": "platinum_capsules_2025-01-01",
       "nombre": "Platinum Capsules",
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_platinum.png",
       "fecha_inicio": "2025-01-01",
       "fecha_fin": "2027-01-04",
       "caracteristicas": []
@@ -61,7 +59,6 @@
     {
       "id": "legend_capsules_2025-01-01",
       "nombre": "Legend Capsules",
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_legend.png",
       "fecha_inicio": "2025-01-01",
       "fecha_fin": "2027-01-04",
       "caracteristicas": []
