@@ -1,5 +1,68 @@
 {
   "gachas": [
+    {
+      "id": "dragon_emperors_2026-01-15",
+      "nombre": "Dragon Emperors",
+      "fecha_inicio": "2026-01-15",
+      "fecha_fin": "2026-01-17",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "iron_legion_2026-01-12",
+      "nombre": "Iron Legion (+Mighty Morta-Loncha)",
+      "fecha_inicio": "2026-01-12",
+      "fecha_fin": "2026-01-15",
+      "caracteristicas": [
+        "L",
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "luga_families_2026-01-17",
+      "nombre": "Luga Families",
+      "fecha_inicio": "2026-01-17",
+      "fecha_fin": "2026-01-19",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "the_almighties_2026-01-10",
+      "nombre": "The Almighties (+Victorious Skanda)",
+      "fecha_inicio": "2026-01-10",
+      "fecha_fin": "2026-01-12",
+      "caracteristicas": [
+        "L",
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "wargods_vajiras_2026-01-08",
+      "nombre": "Wargods Vajiras",
+      "fecha_inicio": "2026-01-08",
+      "fecha_fin": "2026-01-10",
+      "caracteristicas": [
+        "L",
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    }
   ],
   "eventos": [
     {
@@ -15,5 +78,5 @@
       }
     }
   ],
-  "ultima_actualizacion": "2025-12-23T18:57:59.437499"
+  "ultima_actualizacion": "2026-01-08T11:33:07.534351"
 }
