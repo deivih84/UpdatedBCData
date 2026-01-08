@@ -5,51 +5,81 @@
       "nombre": "Galaxy Gals",
       "fecha_inicio": "2025-12-25",
       "fecha_fin": "2025-12-29",
-      "caracteristicas": ["L", "P", "N", "GR", "R"]
+      "caracteristicas": [
+        "L",
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
     },
     {
       "id": "download_anniversary_gacha_2026-01-01",
       "nombre": "Download Anniversary Gacha",
       "fecha_inicio": "2026-01-01",
       "fecha_fin": "2026-01-06",
-      "caracteristicas": ["L"]
+      "caracteristicas": [
+        "L"
+      ]
     },
     {
       "id": "dark_heroes_2026-01-01",
       "nombre": "Dark Heroes",
       "fecha_inicio": "2026-01-01",
       "fecha_fin": "2026-01-06",
-      "caracteristicas": ["L", "P", "N", "GR", "R"]
+      "caracteristicas": [
+        "L",
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
     },
     {
       "id": "download_anniversary_gacha_2026-01-06",
       "nombre": "Download Anniversary Gacha",
       "fecha_inicio": "2026-01-06",
       "fecha_fin": "2026-01-09",
-      "caracteristicas": ["L"]
+      "caracteristicas": [
+        "L"
+      ]
     },
     {
       "id": "dragon_emperors_2026-01-06",
       "nombre": "Dragon Emperors",
       "fecha_inicio": "2026-01-06",
       "fecha_fin": "2026-01-09",
-      "caracteristicas": ["L", "P", "N", "GR", "R"]
+      "caracteristicas": [
+        "L",
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
     },
     {
       "id": "the_almighties_2026-01-06",
       "nombre": "The Almighties (+Victorious Skanda)",
       "fecha_inicio": "2026-01-06",
       "fecha_fin": "2026-01-09",
-      "caracteristicas": ["L", "P", "N", "GR", "R"]
+      "caracteristicas": [
+        "L",
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
     },
     {
       "id": "uberfest_2026-01-01",
       "nombre": "Uberfest (+Komori)",
       "fecha_inicio": "2026-01-01",
       "fecha_fin": "2026-01-06",
-      "caracteristicas": ["L"]
+      "caracteristicas": [
+        "L"
+      ]
     },
-        {
+    {
       "id": "platinum_capsules_2025-01-01",
       "nombre": "Platinum Capsules",
       "fecha_inicio": "2025-01-01",
@@ -62,6 +92,162 @@
       "fecha_inicio": "2025-01-01",
       "fecha_fin": "2027-01-04",
       "caracteristicas": []
+    },
+    {
+      "id": "elemental_pixies_2026-01-19",
+      "nombre": "Elemental Pixies (+Komori)",
+      "fecha_inicio": "2026-01-19",
+      "fecha_fin": "2026-01-23",
+      "caracteristicas": [
+        "G",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "girls_&_monsters_2026-01-23",
+      "nombre": "Girls & Monsters (+Sorceress Sidmi)",
+      "fecha_inicio": "2026-01-23",
+      "fecha_fin": "2026-01-26",
+      "caracteristicas": [
+        "G",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "iron_legion_2026-01-26",
+      "nombre": "Iron Legion (+Mighty Morta-Loncha)",
+      "fecha_inicio": "2026-01-26",
+      "fecha_fin": "2026-01-30",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "luga_families_2026-01-26",
+      "nombre": "Luga Families",
+      "fecha_inicio": "2026-01-26",
+      "fecha_fin": "2026-01-30",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "street_fighter_gacha_(blue_team)_2026-01-09",
+      "nombre": "Street Fighter Gacha (Blue Team) (+Juri)",
+      "fecha_inicio": "2026-01-09",
+      "fecha_fin": "2026-01-16",
+      "caracteristicas": [
+        "P"
+      ]
+    },
+    {
+      "id": "street_fighter_gacha_(blue_team)_2026-01-16",
+      "nombre": "Street Fighter Gacha (Blue Team) (+Juri)",
+      "fecha_inicio": "2026-01-16",
+      "fecha_fin": "2026-01-19",
+      "caracteristicas": [
+        "P"
+      ]
+    },
+    {
+      "id": "street_fighter_gacha_(blue_team)_2026-01-19",
+      "nombre": "Street Fighter Gacha (Blue Team) (+Juri)",
+      "fecha_inicio": "2026-01-19",
+      "fecha_fin": "2026-01-23",
+      "caracteristicas": [
+        "G"
+      ]
+    },
+    {
+      "id": "street_fighter_gacha_(blue_team)_2026-01-23",
+      "nombre": "Street Fighter Gacha (Blue Team) (+Juri)",
+      "fecha_inicio": "2026-01-23",
+      "fecha_fin": "2026-01-26",
+      "caracteristicas": [
+        "G"
+      ]
+    },
+    {
+      "id": "street_fighter_gacha_(red_team)_2026-01-09",
+      "nombre": "Street Fighter Gacha (Red Team) (+Cammy)",
+      "fecha_inicio": "2026-01-09",
+      "fecha_fin": "2026-01-16",
+      "caracteristicas": [
+        "P"
+      ]
+    },
+    {
+      "id": "street_fighter_gacha_(red_team)_2026-01-16",
+      "nombre": "Street Fighter Gacha (Red Team) (+Cammy)",
+      "fecha_inicio": "2026-01-16",
+      "fecha_fin": "2026-01-19",
+      "caracteristicas": [
+        "P"
+      ]
+    },
+    {
+      "id": "street_fighter_gacha_(red_team)_2026-01-19",
+      "nombre": "Street Fighter Gacha (Red Team) (+Cammy)",
+      "fecha_inicio": "2026-01-19",
+      "fecha_fin": "2026-01-23",
+      "caracteristicas": [
+        "G"
+      ]
+    },
+    {
+      "id": "street_fighter_gacha_(red_team)_2026-01-23",
+      "nombre": "Street Fighter Gacha (Red Team) (+Cammy)",
+      "fecha_inicio": "2026-01-23",
+      "fecha_fin": "2026-01-26",
+      "caracteristicas": [
+        "G"
+      ]
+    },
+    {
+      "id": "the_dynamites_2026-01-13",
+      "nombre": "The Dynamites",
+      "fecha_inicio": "2026-01-13",
+      "fecha_fin": "2026-01-16",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "ultra_souls_2026-01-09",
+      "nombre": "Ultra Souls",
+      "fecha_inicio": "2026-01-09",
+      "fecha_fin": "2026-01-13",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "wargods_vajiras_2026-01-26",
+      "nombre": "Wargods Vajiras",
+      "fecha_inicio": "2026-01-26",
+      "fecha_fin": "2026-01-30",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
     }
   ],
   "eventos": [
@@ -71,9 +257,12 @@
       "descripcion": "Texto largo aqui",
       "fecha_inicio": "2025-12-05",
       "contenido_detallado": {
-        "enemigos": ["Metal Doge", "Sir Metal Seal"]
+        "enemigos": [
+          "Metal Doge",
+          "Sir Metal Seal"
+        ]
       }
     }
   ],
-  "ultima_actualizacion": "2026-01-06T01:38:33.244811"
+  "ultima_actualizacion": "2026-01-08T11:14:54.700815"
 }
