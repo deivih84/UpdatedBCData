@@ -304,6 +304,147 @@
         660,
         760
       ]
+    },
+    {
+      "id": "dragon_emperors_2026-01-15",
+      "nombre": "Dragon Emperors",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_dragons.png",
+      "fecha_inicio": "2026-01-15",
+      "fecha_fin": "2026-01-17",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ],
+      "gatos_ids": [
+        83,
+        84,
+        85,
+        86,
+        87,
+        177,
+        396,
+        450,
+        505,
+        620,
+        660,
+        760
+      ]
+    },
+    {
+      "id": "iron_legion_2026-01-12",
+      "nombre": "Iron Legion (+Mighty Morta-Loncha)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_iron.png",
+      "fecha_inicio": "2026-01-12",
+      "fecha_fin": "2026-01-15",
+      "caracteristicas": [
+        "L",
+        "P",
+        "N",
+        "GR",
+        "R"
+      ],
+      "gatos_ids": [
+        304,
+        305,
+        306,
+        355,
+        417,
+        463,
+        594,
+        632,
+        674,
+        715,
+        799,
+        909
+      ]
+    },
+    {
+      "id": "luga_families_2026-01-17",
+      "nombre": "Luga Families",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_lugas.png",
+      "fecha_inicio": "2026-01-17",
+      "fecha_fin": "2026-01-19",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ],
+      "gatos_ids": [
+        34,
+        168,
+        169,
+        170,
+        171,
+        240,
+        436,
+        461,
+        546,
+        625,
+        712,
+        781,
+        915
+      ]
+    },
+    {
+      "id": "the_almighties_2026-01-10",
+      "nombre": "The Almighties (+Victorious Skanda)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_almighties.png",
+      "fecha_inicio": "2026-01-10",
+      "fecha_fin": "2026-01-12",
+      "caracteristicas": [
+        "L",
+        "P",
+        "N",
+        "GR",
+        "R"
+      ],
+      "gatos_ids": [
+        257,
+        258,
+        259,
+        271,
+        272,
+        316,
+        439,
+        493,
+        534,
+        642,
+        723,
+        811,
+        911
+      ]
+    },
+    {
+      "id": "wargods_vajiras_2026-01-08",
+      "nombre": "Wargods Vajiras",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_vajiras.png",
+      "fecha_inicio": "2026-01-08",
+      "fecha_fin": "2026-01-10",
+      "caracteristicas": [
+        "L",
+        "P",
+        "N",
+        "GR",
+        "R"
+      ],
+      "gatos_ids": [
+        71,
+        72,
+        73,
+        124,
+        125,
+        158,
+        338,
+        448,
+        496,
+        618,
+        649,
+        754,
+        902
+      ]
     }
   ],
   "eventos": [
@@ -320,5 +461,5 @@
       }
     }
   ],
-  "ultima_actualizacion": "2025-12-23T18:57:59.437499"
+  "ultima_actualizacion": "2026-01-08T11:32:46.461509"
 }
