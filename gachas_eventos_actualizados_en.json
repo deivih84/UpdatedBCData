@@ -828,6 +828,174 @@
         754,
         902
       ]
+    },
+    {
+      "id": "street_fighter_gacha_(blue_team)_2026-01-09",
+      "nombre": "Street Fighter Gacha (Blue Team) (+Juri)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_street_fighter_blue.png",
+      "fecha_inicio": "2026-01-09",
+      "fecha_fin": "2026-01-16",
+      "caracteristicas": [
+        "P"
+      ],
+      "gatos_ids": [
+        827,
+        681,
+        575,
+        574,
+        571,
+        517,
+        516,
+        515,
+        510
+      ]
+    },
+    {
+      "id": "street_fighter_gacha_(blue_team)_2026-01-16",
+      "nombre": "Street Fighter Gacha (Blue Team) (+Juri)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_street_fighter_blue.png",
+      "fecha_inicio": "2026-01-16",
+      "fecha_fin": "2026-01-19",
+      "caracteristicas": [
+        "P"
+      ],
+      "gatos_ids": [
+        827,
+        681,
+        575,
+        574,
+        571,
+        517,
+        516,
+        515,
+        510
+      ]
+    },
+    {
+      "id": "street_fighter_gacha_(blue_team)_2026-01-19",
+      "nombre": "Street Fighter Gacha (Blue Team) (+Juri)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_street_fighter_blue.png",
+      "fecha_inicio": "2026-01-19",
+      "fecha_fin": "2026-01-23",
+      "caracteristicas": [
+        "G"
+      ],
+      "gatos_ids": [
+        827,
+        681,
+        575,
+        574,
+        571,
+        517,
+        516,
+        515,
+        510
+      ]
+    },
+    {
+      "id": "street_fighter_gacha_(blue_team)_2026-01-23",
+      "nombre": "Street Fighter Gacha (Blue Team) (+Juri)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_street_fighter_blue.png",
+      "fecha_inicio": "2026-01-23",
+      "fecha_fin": "2026-01-26",
+      "caracteristicas": [
+        "G"
+      ],
+      "gatos_ids": [
+        827,
+        681,
+        575,
+        574,
+        571,
+        517,
+        516,
+        515,
+        510
+      ]
+    },
+    {
+      "id": "street_fighter_gacha_(red_team)_2026-01-09",
+      "nombre": "Street Fighter Gacha (Red Team) (+Cammy)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_street_fighter_red.png",
+      "fecha_inicio": "2026-01-09",
+      "fecha_fin": "2026-01-16",
+      "caracteristicas": [
+        "P"
+      ],
+      "gatos_ids": [
+        826,
+        680,
+        573,
+        572,
+        514,
+        513,
+        512,
+        511,
+        510
+      ]
+    },
+    {
+      "id": "street_fighter_gacha_(red_team)_2026-01-16",
+      "nombre": "Street Fighter Gacha (Red Team) (+Cammy)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_street_fighter_red.png",
+      "fecha_inicio": "2026-01-16",
+      "fecha_fin": "2026-01-19",
+      "caracteristicas": [
+        "P"
+      ],
+      "gatos_ids": [
+        826,
+        680,
+        573,
+        572,
+        514,
+        513,
+        512,
+        511,
+        510
+      ]
+    },
+    {
+      "id": "street_fighter_gacha_(red_team)_2026-01-19",
+      "nombre": "Street Fighter Gacha (Red Team) (+Cammy)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_street_fighter_red.png",
+      "fecha_inicio": "2026-01-19",
+      "fecha_fin": "2026-01-23",
+      "caracteristicas": [
+        "G"
+      ],
+      "gatos_ids": [
+        826,
+        680,
+        573,
+        572,
+        514,
+        513,
+        512,
+        511,
+        510
+      ]
+    },
+    {
+      "id": "street_fighter_gacha_(red_team)_2026-01-23",
+      "nombre": "Street Fighter Gacha (Red Team) (+Cammy)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_street_fighter_red.png",
+      "fecha_inicio": "2026-01-23",
+      "fecha_fin": "2026-01-26",
+      "caracteristicas": [
+        "G"
+      ],
+      "gatos_ids": [
+        826,
+        680,
+        573,
+        572,
+        514,
+        513,
+        512,
+        511,
+        510
+      ]
     }
   ],
   "eventos": [
@@ -844,5 +1012,5 @@
       }
     }
   ],
-  "ultima_actualizacion": "2026-01-08T11:11:14.282928"
+  "ultima_actualizacion": "2026-01-10T03:38:18.943988"
 }
