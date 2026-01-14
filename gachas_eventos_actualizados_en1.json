@@ -242,12 +242,21 @@
       "nombre": "Wargods Vajiras",
       "fecha_inicio": "2026-01-26",
       "fecha_fin": "2026-01-30",
-      "caracteristicas": [
-        "P",
-        "N",
-        "GR",
-        "R"
-      ]
+      "caracteristicas": ["P", "N", "GR", "R"]
+    },
+    {
+      "id": "platinum_capsules_2025-01-01",
+      "nombre": "Platinum Capsules",
+      "fecha_inicio": "2025-01-01",
+      "fecha_fin": "2027-01-04",
+      "caracteristicas": []
+    },
+    {
+      "id": "legend_capsules_2025-01-01",
+      "nombre": "Legend Capsules",
+      "fecha_inicio": "2025-01-01",
+      "fecha_fin": "2027-01-04",
+      "caracteristicas": []
     }
   ],
   "eventos": [
