@@ -242,7 +242,12 @@
       "nombre": "Wargods Vajiras",
       "fecha_inicio": "2026-01-26",
       "fecha_fin": "2026-01-30",
-      "caracteristicas": ["P", "N", "GR", "R"]
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
     },
     {
       "id": "platinum_capsules_2025-01-01",
@@ -271,7 +276,61 @@
           "Sir Metal Seal"
         ]
       }
+    },
+    {
+      "id": "arena_of_destiny_2026-01-09",
+      "nombre": "Arena of Destiny",
+      "caracteristicas": [
+        "Battle in the arena!"
+      ],
+      "fecha_inicio": "2026-01-09",
+      "fecha_fin": "2026-01-26"
+    },
+    {
+      "id": "street_fighter_(easy),_street_fighter_(normal),_street_fighter_(hard),_street_fighter:_very_hard_2026-01-09",
+      "nombre": "Street Fighter (Easy), Street Fighter (Normal), Street Fighter (Hard), Street Fighter: VERY HARD",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-01-09",
+      "fecha_fin": "2026-01-26"
+    },
+    {
+      "id": "new_challenger_(11th_/_12:00_~_14:00_|_12th_/_03:00_~_05:00_|_17th_/_18:00_~_20:00_|_19th_/_12:00_~_14:00_|_23rd_/_00:00_~_02:00_|_25th_/_12:00_~_14:00_|_26th_/_03:00_~_05:00)_2026-01-09",
+      "nombre": "New Challenger (11th / 12:00 ~ 14:00 | 12th / 03:00 ~ 05:00 | 17th / 18:00 ~ 20:00 | 19th / 12:00 ~ 14:00 | 23rd / 00:00 ~ 02:00 | 25th / 12:00 ~ 14:00 | 26th / 03:00 ~ 05:00)",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-01-09",
+      "fecha_fin": "2026-01-26"
+    },
+    {
+      "id": "new_challenger_(10th_/_18:00_~_20:00_|_12th_/_12:00_~_14:00_|_16th_/_12:00_~_14:00_|_18th_/_00:00_~_02:00_|_19th_/_21:00_~_23:00_|_24th_/_18:00_~_20:00)_2026-01-09",
+      "nombre": "New Challenger (10th / 18:00 ~ 20:00 | 12th / 12:00 ~ 14:00 | 16th / 12:00 ~ 14:00 | 18th / 00:00 ~ 02:00 | 19th / 21:00 ~ 23:00 | 24th / 18:00 ~ 20:00)",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-01-09",
+      "fecha_fin": "2026-01-26"
+    },
+    {
+      "id": "new_challenger_(11th_/_12:00_~_14:00_|_13th_/_12:00_~_14:00_|_17th_/_18:00_~_20:00_|_20th_/_21:00_~_23:00_|_23rd_/_00:00_~_02:00_|_25th_/_12:00_~_14:00)_2026-01-09",
+      "nombre": "New Challenger (11th / 12:00 ~ 14:00 | 13th / 12:00 ~ 14:00 | 17th / 18:00 ~ 20:00 | 20th / 21:00 ~ 23:00 | 23rd / 00:00 ~ 02:00 | 25th / 12:00 ~ 14:00)",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-01-09",
+      "fecha_fin": "2026-01-26"
+    },
+    {
+      "id": "new_challenger_(10th_/_18:00_~_20:00_|_13th_/_03:00_~_05:00_|_16th_/_12:00_~_14:00_|_18th_/_00:00_~_02:00_|_20th_/_06:00_~_08:00_|_24th_/_18:00_~_20:00)_2026-01-09",
+      "nombre": "New Challenger (10th / 18:00 ~ 20:00 | 13th / 03:00 ~ 05:00 | 16th / 12:00 ~ 14:00 | 18th / 00:00 ~ 02:00 | 20th / 06:00 ~ 08:00 | 24th / 18:00 ~ 20:00)",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-01-09",
+      "fecha_fin": "2026-01-26"
     }
   ],
-  "ultima_actualizacion": "2026-01-08T11:14:54.700815"
+  "ultima_actualizacion": "2026-01-15T01:20:21.701372"
 }
