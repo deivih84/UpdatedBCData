@@ -330,7 +330,115 @@
       ],
       "fecha_inicio": "2026-01-09",
       "fecha_fin": "2026-01-26"
+    },
+    {
+      "id": "new_challenger_2026-01-09",
+      "nombre": "New Challenger",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-01-09",
+      "fecha_fin": "2026-01-26"
+    },
+    {
+      "id": "gigahaniwan_strikes!_2026-01-12",
+      "nombre": "Gigahaniwan Strikes!",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-01-12",
+      "fecha_fin": "2026-01-19"
+    },
+    {
+      "id": "xp_festival_2026-01-16",
+      "nombre": "XP Festival",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-01-16",
+      "fecha_fin": "2026-01-30"
+    },
+    {
+      "id": "xp_bonanza!_(tuesday_/_08:00_~_10:00_|_friday_/_16:00_~_18:00_|_thursday_/_22:00_~_24:00)_2026-01-16",
+      "nombre": "XP Bonanza! (Tuesday / 08:00 ~ 10:00 | Friday / 16:00 ~ 18:00 | Thursday / 22:00 ~ 24:00)",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-01-16",
+      "fecha_fin": "2026-01-30"
+    },
+    {
+      "id": "duel_stages_challenge_2026-01-16",
+      "nombre": "Duel Stages Challenge",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-01-16",
+      "fecha_fin": "2026-01-23"
+    },
+    {
+      "id": "xp_harvest_(easy),_xp_harvest_(normal),_xp_harvest_(hard),_xp_harvest_(veteran)_2026-01-16",
+      "nombre": "XP Harvest (Easy), XP Harvest (Normal), XP Harvest (Hard), XP Harvest (Veteran)",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-01-16",
+      "fecha_fin": "2026-01-23"
+    },
+    {
+      "id": "arena_of_destiny_2026-01-16",
+      "nombre": "Arena of Destiny",
+      "caracteristicas": [
+        "Battle in the arena!"
+      ],
+      "fecha_inicio": "2026-01-16",
+      "fecha_fin": "2026-02-02"
+    },
+    {
+      "id": "catfruit_festival_2026-01-17",
+      "nombre": "Catfruit Festival",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-01-17",
+      "fecha_fin": "2026-01-18"
+    },
+    {
+      "id": "tag_arena_challenge_2026-01-23",
+      "nombre": "Tag Arena Challenge",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-01-23",
+      "fecha_fin": "2026-01-30"
+    },
+    {
+      "id": "cats_eye_cave_2026-01-23",
+      "nombre": "Cats Eye Cave",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-01-23",
+      "fecha_fin": "2026-01-30"
+    },
+    {
+      "id": "catfruit_buffet_(08:00_~_10:00,_12:00_~_14:00,_19:00_~_21:00)_2026-01-24",
+      "nombre": "Catfruit Buffet (08:00 ~ 10:00, 12:00 ~ 14:00, 19:00 ~ 21:00)",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-01-24",
+      "fecha_fin": "2026-01-15"
+    },
+    {
+      "id": "attack_of_the_omens_2026-01-26",
+      "nombre": "Attack of the Omens",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-01-26",
+      "fecha_fin": "2026-02-02"
     }
   ],
-  "ultima_actualizacion": "2026-01-15T01:20:21.701372"
+  "ultima_actualizacion": "2026-01-15T01:23:38.520115"
 }
