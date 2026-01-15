@@ -288,24 +288,6 @@
       "fecha_fin": "2026-01-23"
     },
     {
-      "id": "arena_of_destiny_2026-01-16",
-      "nombre": "Arena of Destiny",
-      "caracteristicas": [
-        "Battle in the arena!"
-      ],
-      "fecha_inicio": "2026-01-16",
-      "fecha_fin": "2026-02-02"
-    },
-    {
-      "id": "tag_arena_challenge_2026-01-23",
-      "nombre": "Tag Arena Challenge",
-      "caracteristicas": [
-        "No description available."
-      ],
-      "fecha_inicio": "2026-01-23",
-      "fecha_fin": "2026-01-30"
-    },
-    {
       "id": "cats_eye_cave_2026-01-23",
       "nombre": "Cats Eye Cave",
       "caracteristicas": [
