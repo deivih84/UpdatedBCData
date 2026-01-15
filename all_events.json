@@ -1,0 +1,94 @@
+{
+  "events": [
+    {
+      "nombre": "Heavenly Tower",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_heavenly_tower.png",
+      "descripcion": "Climb the tower to earn rewards!"
+    },
+    {
+      "nombre": "Legend Quest",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_legend_quest.png",
+      "descripcion": "Challenge random stages!"
+    },
+    {
+      "nombre": "Catfruit Buffet",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_catfruit_buffet.png",
+      "descripcion": "Collect all types of Catfruit!"
+    },
+    {
+      "nombre": "Arena of Destiny",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_arena_of_destiny.png",
+      "descripcion": "Battle in the arena!"
+    },
+    {
+      "nombre": "Street Fighter",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_street_fighter.png",
+      "descripcion": "Street Fighter Collaboration Event"
+    },
+    {
+      "nombre": "Evangelion",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_evangelion.png",
+      "descripcion": "Evangelion Collaboration Event"
+    },
+    {
+      "nombre": "Monthly Event (January)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/monthly/event_monthly_1.png",
+      "descripcion": "January Monthly Stages"
+    },
+    {
+      "nombre": "Monthly Event (February)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/monthly/event_monthly_2.png",
+      "descripcion": "February Monthly Stages"
+    },
+    {
+      "nombre": "Monthly Event (March)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/monthly/event_monthly_3.png",
+      "descripcion": "March Monthly Stages"
+    },
+    {
+      "nombre": "Monthly Event (April)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/monthly/event_monthly_4.png",
+      "descripcion": "April Monthly Stages"
+    },
+    {
+      "nombre": "Monthly Event (May)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/monthly/event_monthly_5.png",
+      "descripcion": "May Monthly Stages"
+    },
+    {
+      "nombre": "Monthly Event (June)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/monthly/event_monthly_6.png",
+      "descripcion": "June Monthly Stages"
+    },
+    {
+      "nombre": "Monthly Event (July)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/monthly/event_monthly_7.png",
+      "descripcion": "July Monthly Stages"
+    },
+    {
+      "nombre": "Monthly Event (August)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/monthly/event_monthly_8.png",
+      "descripcion": "August Monthly Stages"
+    },
+    {
+      "nombre": "Monthly Event (September)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/monthly/event_monthly_9.png",
+      "descripcion": "September Monthly Stages"
+    },
+    {
+      "nombre": "Monthly Event (October)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/monthly/event_monthly_10.png",
+      "descripcion": "October Monthly Stages"
+    },
+    {
+      "nombre": "Monthly Event (November)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/monthly/event_monthly_11.png",
+      "descripcion": "November Monthly Stages"
+    },
+    {
+      "nombre": "Monthly Event (December)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/monthly/event_monthly_12.png",
+      "descripcion": "December Monthly Stages"
+    }
+  ]
+}
