@@ -80,20 +80,6 @@
       ]
     },
     {
-      "id": "platinum_capsules_2025-01-01",
-      "nombre": "Platinum Capsules",
-      "fecha_inicio": "2025-01-01",
-      "fecha_fin": "2027-01-04",
-      "caracteristicas": []
-    },
-    {
-      "id": "legend_capsules_2025-01-01",
-      "nombre": "Legend Capsules",
-      "fecha_inicio": "2025-01-01",
-      "fecha_fin": "2027-01-04",
-      "caracteristicas": []
-    },
-    {
       "id": "elemental_pixies_2026-01-19",
       "nombre": "Elemental Pixies (+Komori)",
       "fecha_inicio": "2026-01-19",
@@ -329,7 +315,7 @@
       "fecha_fin": "2026-01-30"
     },
     {
-      "id": "catfruit_buffet_2026-01-24",
+      "id": "catfruit_buffet_(08:00_~_10:00,_12:00_~_14:00,_19:00_~_21:00)_2026-01-24",
       "nombre": "Catfruit Buffet",
       "caracteristicas": [
         "No description available."
