@@ -62,6 +62,86 @@
         "GR",
         "R"
       ]
+    },
+    {
+      "id": "air_busters_2026-01-26",
+      "nombre": "Air Busters",
+      "fecha_inicio": "2026-01-26",
+      "fecha_fin": "2026-01-28",
+      "caracteristicas": [
+        "S",
+        "N",
+        "R"
+      ]
+    },
+    {
+      "id": "colossus_busters_2026-01-28",
+      "nombre": "Colossus Busters",
+      "fecha_inicio": "2026-01-28",
+      "fecha_fin": "2026-01-30",
+      "caracteristicas": [
+        "S",
+        "N",
+        "R"
+      ]
+    },
+    {
+      "id": "elemental_pixies_2026-01-19",
+      "nombre": "Elemental Pixies (+Komori)",
+      "fecha_inicio": "2026-01-19",
+      "fecha_fin": "2026-01-21",
+      "caracteristicas": [
+        "G",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "iron_legion_2026-01-23",
+      "nombre": "Iron Legion (+Mighty Morta-Loncha)",
+      "fecha_inicio": "2026-01-23",
+      "fecha_fin": "2026-01-26",
+      "caracteristicas": [
+        "G",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "red_busters_2026-01-26",
+      "nombre": "Red Busters (+Sharpshooter Saki, Hevijak the Wicked)",
+      "fecha_inicio": "2026-01-26",
+      "fecha_fin": "2026-01-30",
+      "caracteristicas": [
+        "S",
+        "N",
+        "R"
+      ]
+    },
+    {
+      "id": "the_dynamites_2026-01-21",
+      "nombre": "The Dynamites",
+      "fecha_inicio": "2026-01-21",
+      "fecha_fin": "2026-01-23",
+      "caracteristicas": [
+        "G",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "wave_busters_2026-01-28",
+      "nombre": "Wave Busters",
+      "fecha_inicio": "2026-01-28",
+      "fecha_fin": "2026-01-30",
+      "caracteristicas": [
+        "S",
+        "N",
+        "R"
+      ]
     }
   ],
   "eventos": [
@@ -78,5 +158,5 @@
       }
     }
   ],
-  "ultima_actualizacion": "2026-01-08T11:33:07.534351"
+  "ultima_actualizacion": "2026-01-17T00:33:58.790356"
 }
