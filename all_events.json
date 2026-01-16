@@ -28,7 +28,7 @@
     {
       "nombre": "Duel Stages Challenge",
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_duel_stages.png",
-      "descripcion": "It's high noon, time for a showdown!"
+      "descripcion": "It's high noon, time for a showdown!\nDuel Stages Challenge (決闘チャレンジ, Kettō Charenji, Duel Challenge) is an event added in Version 11.6. It consists of all Duel Stages in a single map. Progress made in Duel Stages Challenge will reset when the event ends.\nEach stage has a Cat Deploy Limit and enemy limit of 1. Taking over 15 minutes to beat any one stage will cause an Assassin Bear to spawn."
     },
     {
       "nombre": "Attack of the Omens",
