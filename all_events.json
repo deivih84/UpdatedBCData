@@ -31,6 +31,46 @@
       "descripcion": "It's high noon, time for a showdown!"
     },
     {
+      "nombre": "Attack of the Omens",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_omens.png",
+      "descripcion": "Attack of the Omens contains a total of 20 No Continues levels, called Three Omens. After beating a Three Omens, the player must wait for 30 minutes before they may proceed to the next one. Rewards for the first completion of a Three Omens can include XP, Tickets, Catamins and Materials. The enemy layout changes after the 10th level, with the strength magnifications and enemy base's HP increasing per level."
+    },
+    {
+      "nombre": "Gigahaniwan Strikes!",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_gigahaniwan.png",
+      "descripcion": "Gigahaniwan Strikes! contains a total of 20 No Continues levels, called Excavation Lvs. After beating an Excavation Lv, the player must wait for 30 minutes before they may proceed to the next one. The player may choose to bank up to 3 Excavation Lvs at one time by waiting for 90 minutes, allowing them to beat all 3 Lvs at one go. Rewards for the first completion of an Excavation Lv can include XP, Tickets, Catamins and Materials. Every 10 Excavation Lvs plays out the same, but the strength magnifications and enemy base's HP are increased with each level."
+    },
+    {
+      "nombre": "Le'Grim Strikes!",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_le_grim.png",
+      "descripcion": "Le'Grim Strikes contains a total of 20 No Continues levels, called Rampage Lvs. After beating a Rampage Lv, the player must wait for 30 minutes before they may proceed to the next one. Rewards for the first completion of a Rampage Lv can include XP, Tickets, Catamins and Materials. Every 10 Rampage Lvs plays out the same, but the strength magnifications and enemy base's HP are increased with each level. "
+    },
+    {
+      "nombre": "Mega Menace",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_mooth.png",
+      "descripcion": "Mega Menace contains a total of 20 No Continues levels, called On Mighty Wings Lvs. After beating three On Mighty Wings Lvs, the player must wait for 30 minutes before they may proceed to the next one (may have 3 clears after 90 minutes). Rewards for the first completion of an On Mighty Wings Lv can include XP, Tickets, Catamins and Materials. Every 10 On Mighty Wings Lvs plays out the same, but the strength magnifications and enemy base's HP are increased with each level."
+    },
+    {
+      "nombre": "Baron Seal",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_seal.png",
+      "descripcion": "Baron Seal Strikes contains a total of 20 No Continues levels, called Red Alerts. After beating a Red Alert, the player must wait for 30 minutes before they may proceed to the next one. Rewards for the first completion of a Red Alert can include XP, Tickets, Catamins and Materials. Every 20 Red Alerts play out the same, but the strength magnifications and enemy base's HP are increased with each level. "
+    },
+    {
+      "nombre": "Big Peng Z Strikes",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_peng_z.png",
+      "descripcion": "Big Peng Z Strikes contains a total of 20 No Continues levels, called Wandering Lvs. After beating a Wandering Lv, the player must wait for 30 minutes before they may proceed to the next one. Rewards for the first completion of a Wandering Lv can include XP, Tickets, Catamins and Materials. Every 10 Wandering Lvs plays out the same, but the strength magnifications and enemy base's HP are increased with each level."
+    },
+    {
+      "nombre": "Divine Archangel Strikes",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_archangel.png",
+      "descripcion": "Divine Archangel Strikes contains a total of 20 No Continues levels, each called Blessing. After beating a level, the player must wait for 30 minutes before they may proceed to the next one. Rewards for the first completion of a level can include XP, Tickets, Catamins and Materials. Every 10 levels plays out the same, but the strength magnifications and enemy base's HP are increased with each level."
+    },
+    {
+      "nombre": "Horrorpotamus",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_horrorpotamous.png",
+      "descripcion": "Horrorpotamus contains a total of 20 No Continues levels, called Cosmic Juggernaut Lvs. After beating three Cosmic Juggernaut Lvs, the player must wait for 90 minutes before they may proceed to the next one. (30 minutes for one available) Rewards for the first completion of a Cosmic Juggernaut Lv can include XP, Tickets, Catamins and Materials. Every 20 Cosmic Juggernaut Lvs plays out the same, but the strength magnifications and enemy base's HP are increased with each level."
+    },
+    {
       "nombre": "Street Fighter Collab",
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_street_fighter.png",
       "descripcion": "Are your Cats a match for these mighty fighters?\nThe Street Fighter x The Battle Cats collab event is on,\nJanuary 9 (11:00AM) through January 26, 2026 (10:59AM)\n\n・New units in two Collab Capsule Sets!\nAiming to be the best in the world, the fighters have arrived!\nNew Uber Rare units Juri (BLUE TEAM) and Cammy (RED TEAM) have been added along with Super Rare units Zangief Cat and Jamie Cat!\nTap the banner in the Rare Capsules to see the character lineup and their abilities!\n\n※ The units shown above will be available only during this event. Please be aware that there is a chance that you may also collect non-collab characters from collab event banners.\n※ The units shown above will be available only from the collab banners at the Rare Capsules. Tap the banner at the top of the screen to switch between BLUE TEAM and RED TEAM capsules sets.\n\n・Collab Stages in The Battle Cats!\nBattle the world's strongest fighters in limited collab stages!\nStreet Fighter characters appear as enemies!\nAlso, all stages have had their clear rewards reset!\nVisit the Legend Stages/Event Stages during this collab event to test your Cats at Street Fighter collab maps!\n\n・Collab Stage \"Street Fighter\"\nTravel the world in search of the strongest fighters! There are three difficulty levels to challenge: EASY, NORMAL, and HARD!\n\nClear these collab stages for a chance to earn Ryu Cat, only available to collect during this event!\nGet a higher chance of earning Ryu Cat from later stages!\n\nAlso, stage rewards have been reset!\nStage rewards are available to collect once again for anyone that has cleared these stages in a previous collab event!\n\n※ Tap the Timed Score button at the bottom left of the Map menu to check available rewards.\n※ Ryu Cat can be unlocked from the Rare Unit section of the Upgrade menu.\n※ Use a Treasure Radar for a guaranteed chance to earn Ryu Cat as a drop reward upon Victory.\n※ You cannot collect Ryu Cat as a reward again if already earned from a previous event.\n\n・Collab Stage \"New Challenger\"\nNew challengers have arrived!\nVisit the Stories of Legend/Event Stages at the times below during this collab event to test your Cats at the New Challenger collab map! New stages featuring Juri and Cammy have been added!\n\n12:00AM - 1:59AM, 3:00AM - 4:59AM, 6:00AM - 7:59AM, 9:00AM - 10:59AM, 12:00PM - 1:59PM, 3:00PM - 4:59PM, 6:00PM - 7:59PM, 9:00PM - 10:59PM\n\nThe fighters shown below will appear randomly on the following days:\nMonday: Ryu, Blanka, Balrog, Cammy\nTuesday: Chun-Li, Dhalsim, Vega, Juri\nWednesday: Guile, Ken, Sagat, Sakura\nThursday: Zangief, E. Honda, M. Bison, Luke\nFriday, Saturday, and Sunday feature ALL fighters, and with two stage difficulty levels each!\n\nDefeat 4 fighters on any difficulty to face a new, stronger challenger!\nDefeat this mysterious and powerful challenger for a chance to earn a limited unit!\n\n※ Check the Event Calendar in the Cat Base to see the dates each stage will appear on.\n※ Use a Treasure Radar for a guaranteed chance to earn drop rewards upon Victory.\n※ You cannot collect limited units as rewards again if already earned from a previous event.\n\n・Collab Stage \"Street Fighter - VERY HARD -\"\nStreet Fighter - VERY HARD - can be challenged after clearing a certain stage!\nStand your ground and face down the strongest challengers!\n\n・The \"I Seek the Strongest\" map is available in the Arena of Honor at the Catclaw Dojo!\nWho is the strongest fighter on Earth?!\nTest your skill against Street Fighter collab characters in collab-limited event stages!\n\nVisit the Catclaw Dojo during this collab event to put your Cats to the test in the \"I Seek the Strongest\" map!\n\nClimb to the highest tiers of power as your scores are measured against all other Battle Cats players! Can you make it to the top 10%?\nTry as many times as you like before the event ends, and earn special rewards when your final high score determines your skill tier.\nTap the Rewards List button to see what you might win as you climb the rankings!\nTake on the onslaught of fighters and aim for a high ranking!\n\n※ Rewards may take a short time to be delivered after your final ranking tier is determined. Thanks for your patience!\n※ Your Ranking Result will be shown in the Catclaw Dojo, but rewards will be claimed by visiting the Mailbox menu from the Battle Cats title screen.\n※ Rewards will expire and become unclaimable 30 days after delivery.\n※ Network connection is required to play the Arena of Honor. Your score and ranking will be reset when the event ends.\n※ Accounts flagged for hacking or modding will have their Arena scores invalidated and may receive a playing ban.\n※ Empire of Cats Ch. 1 must be cleared before the Catclaw Dojo will be available to access.\n\n・Collab-limited Missions and Log-in Stamps available!\nStreet Fighter 6 Collab Special Missions have been added to the Catnip Challenges!\nClear limited Special missions to earn Cat Tickets!\nLimited log-in stamps are available during the collab event!\nLog in during the collab event to earn one stamp each day!\nLog in for 5 days to earn collab-limited Special unit Chun-Li Cat!\nDon't forget to log in each day to collect other useful item rewards!\n\n※ Limited-time Special Missions will only appear in the Catnip Challenges until the end of the event. You must accept all rewards before the mission disappears at the end of the Catnip Challenges event!\n※Once you have unlocked Chun-Li Cat, activate her by visiting the Special Cats section of the Upgrade menu.\n※If you have earned Chun-Li Cat from a previous event, you will not be able to unlock her again.\n※ There are 17 log-in stamps for this event.\n\nCheck out the link below for more on Street Fighter 6!\nhttps://www.streetfighter.com/6/en-us/\n\n©CAPCOM"
@@ -41,10 +81,7 @@
       "descripcion": "Evangelion Collaboration Event"
     },
 
-
-
-
-
+    
     {
       "nombre": "Monthly Event (January)",
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/monthly/event_monthly_1.png",
