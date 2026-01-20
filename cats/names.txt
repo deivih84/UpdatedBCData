@@ -1,0 +1,840 @@
+0 	N 	Cat 	Macho Cat / Mohawk Cat 	Beginning - automatically given
+1 	N 	Tank Cat 	Wall Cat / Eraser Cat 	Empire of Cats (stage 1) - requires 0 XP to unlock (used to be 500 XP)
+2 	N 	Axe Cat 	Brave Cat / Dark Cat 	Empire of Cats (stage 3) - requires 0 XP or a Normal Cat Capsule to unlock
+3 	N 	Gross Cat 	Sexy Legs Cat / Macho Leg Cat 	Empire of Cats (stage 6) - requires 0 XP or a Normal Cat Capsule to unlock
+4 	N 	Cow Cat 	Giraffe Cat / Lion Cat 	Empire of Cats (stage 9) - requires 4,000 XP or a Normal Cat Capsule to unlock
+5 	N 	Bird Cat 	UFO Cat / The Flying Cat 	Empire of Cats (stage 12) - requires 5,000 XP or a Normal Cat Capsule to unlock
+6 	N 	Fish Cat 	Whale Cat / Island Cat 	Empire of Cats (stage 16) - requires 6,000 XP or a Normal Cat Capsule to unlock
+7 	N 	Lizard Cat 	Dragon Cat / King Dragon Cat 	Empire of Cats (stage 20) - requires 7,000 XP or a Normal Cat Capsule to unlock
+8 	N 	Titan Cat 	Mythical Titan Cat / Jamiera Cat 	Empire of Cats (stage 24) - requires 8,000 XP or a Normal Cat Capsule to unlock
+9 	EX 	Actress Cat 	Mother Cat / Beefcake Cat 	Empire of Cats (stage 7) - requires 150 Cat Food to unlock
+10 	EX 	Kung Fu Cat 	Drunken Master Cat / Dancer Cat 	Empire of Cats (stage 36) - requires 240 Cat Food to unlock
+11 	EX 	Mr. 	Super Mr. / Hyper Mr. 	Empire of Cats (stage 11) - requires 160 Cat Food to unlock
+12 	EX 	Bondage Cat 	Bondage CatNEO / Ultimate Bondage Cat 	Empire of Cats (stage 29) - requires 150 Cat Food to unlock
+13 	EX 	Dom Cat 	Executioner / Dark Lazer 	Empire of Cats (stage 32) - requires 150 Cat Food to unlock
+14 	EX 	Cats in a Box 	Cat Gang / Heavy Assault C.A.T. 	Empire of Cats (stage 20) - requires 90 Cat Food to unlock
+15 	EX 	Panties Cat 	Leaf Cat / Lollycat 	Empire of Cats (stage 35) - requires 90 Cat Food to unlock
+16 	EX 	Moneko 	Miss MONEKO / Superstar MONEKO 	Empire of Cats - complete Chapter 1: The Battle Cats Rising
+17 	EX 	Tricycle Cat 	Biker Cat / Unicycle Cat 	Daily Login Reward
+18 	EX 	Ninja Cat 	Ninja Frog Cat / Flying Ninja Cat 	Empire of Cats (stage 6) - requires 50 Cat Food to unlock
+19 	EX 	Zombie Cat 	Devil Cat / Skelecat 	Empire of Cats (stage 16) - requires 120 Cat Food to unlock
+20 	EX 	Samurai Cat 	Knight Cat / Pastry Cat 	Empire of Cats (stage 12) - requires 90 Cat Food to unlock
+21 	EX 	Sumo Cat 	Madame Sumo / Riceball Cat 	Empire of Cats (stage 9) - requires 150 Cat Food to unlock
+22 	EX 	Boogie Cat 	Samba Cat / Gato Amigo 	Empire of Cats (stage 24) - requires 90 Cat Food to unlock
+23 	EX 	Skirt Cat 	Tights Cat / Loincloth Cat 	Empire of Cats (stage 23) - requires 90 Cat Food to unlock
+24 	EX 	Valkyrie Cat 	True Valkyrie Cat / Holy Valkyrie Cat 	Empire of Cats - complete Chapter 2: The Emperor of the Darkness
+25 	EX 	Bahamut Cat 	Crazed Bahamut Cat / Awakened Bahamut Cat 	Empire of Cats - complete Chapter 3: Revival of Bahamut-Cat
+26 	EX 	Kerihime 	Full color Kerihime / Bridal Princess Punt 	Daily Login - Princess Punt Sweets Collaboration
+27 	EX 	Cat Princess 	Cat Princess beauty 	Drop - Princess Punt
+28 	EX 	Capsule Cat 	Cramped Cats 	Serial Code - Nyanko Great War! Strap 1 (Removed) Campaign - MattShea Collaboration
+29 	EX 	Masked Cat 	Luchador Cat 	Serial Code - Ichiban Kuji Lottery Nyanko Daisensou Double Chance Campaign
+30 	SR 	Bodhisattva Cat 	Avalokitesvara Cat / Tathagata Cat 	Rare Cat Capsule
+31 	SR 	Delinquent Cat 	Angry Delinquent Cat / Ultra Delinquent Cat 	Rare Cat Capsule
+32 	SR 	Hip Hop Cat 	Dancing Flasher Cat / Can Can Cat 	Rare Cat Capsule
+33 	SR 	Kotatsu Cat 	Sadako Cat / Octopus Cat 	Rare Cat Capsule
+34 	UR 	Nekoluga 	Unknown Cat / Ultralan Pasalan 	Rare Cat Capsule - Tales of the Nekoluga
+35 	SR 	Nerd Cat 	Hacker Cat / Cyberpunk Cat 	Rare Cat Capsule
+36 	SR 	Swimmer Cat 	Butterfly Cat / Fishman Cat 	Rare Cat Capsule
+37 	RR 	Pogo Cat 	Masai Cat / Jiangshi Cat 	Rare Cat Capsule
+38 	RR 	Wheel Cat 	Solar Cat / Chill Cat 	Rare Cat Capsule
+39 	SR 	Apple Cat 	Face Cat / iCat 	Rare Cat Capsule
+40 	SR 	Bath Cat 	Sexy Bathtub Cat / Luxury Bath Cat 	Rare Cat Capsule
+41 	RR 	Salon Cat 	Paris Cat / Cyborg Cat 	Rare Cat Capsule
+42 	UR 	Ice Cat 	Ice Queen Cat / Ice Crystal Cat 	Rare Cat Capsule - The Dynamites
+43 	UR 	Cat Machine 	Cat Machine Mk 2 / Cat Machine Mk 3 	Rare Cat Capsule - The Dynamites
+44 	UR 	Lesser Demon Cat 	Greater Demon Cat / Greater Balrog Cat 	Rare Cat Capsule - The Dynamites
+45 	EX 	Maiko Cat 	Geisha Cat 	Serial Code - Nyanko Ecology Report
+46 	RR 	Jurassic Cat 	Jurassic Cat Sitter / Catasaurus 	Rare Cat Capsule
+47 	RR 	Viking Cat 	Thor Cat / Maximum the Fighter 	Rare Cat Capsule
+48 	RR 	Pirate Cat 	Captain Cat / Dread Pirate Catley 	Rare Cat Capsule
+49 	RR 	Thief Cat 	Phantom Thief Cat / Goemon Cat 	Rare Cat Capsule
+50 	RR 	Bishop Cat 	Monk Cat / Sanzo Cat 	Rare Cat Capsule
+51 	RR 	Fortune Teller Cat 	Fisherman Cat / Doctor Cat 	Rare Cat Capsule
+52 	RR 	Shaman Cat 	Necromancer Cat / Necro-Dancer Cat 	Rare Cat Capsule
+53 	UR 	Evangelist Cat 	Filibuster Cat 	Serial Code (Removed)
+54 	EX 	Type 10 	Cat Transportation Type 10 	Drop - Hometown Self-Defense Force
+55 	RR 	Witch Cat 	Sorceress Cat / Enchantress Cat 	Rare Cat Capsule
+56 	RR 	Archer Cat 	Cupid Cat / Cataur 	Rare Cat Capsule
+57 	UR 	Marauder Cat 	Berserker Cat / Paladin Cat 	Rare Cat Capsule - The Dynamites
+58 	RR 	Swordsman Cat 	Sword Master Cat / Elemental Duelist Cat 	Rare Cat Capsule
+59 	UR 	Baby Cat 	Baby Cats / Cats in the Cradle / Cats in the Stroller 	Rare Cat Capsule - The Dynamites
+60 	RR 	Bronze Cat 	Michelangelo Cat / Quizmaster Cat 	Drop - Heaven of Darkness
+61 	SR 	Sushi Cat 	Fried Shrimp Cat / Roe Cat 	Rare Cat Capsule
+62 	EX 	Toy Machine Cat 	Vendor Cat 	Serial Code - Nyanko Great War! Strap 2
+63 	RR 	Sports Day Cat 	Kidnapper Cats / Rampage Cats 	Drop - Autumn = Sports Day!
+64 	RR 	Swordsman 	Swordsman Johnny 	Rare Cat Capsule - Princess Punt Sweets Collaboration
+65 	RR 	Cow Princess 	Giraffe Princess 	Rare Cat Capsule - Princess Punt Sweets Collaboration
+66 	UR 	PPT48 	Dark PPT48 / PPT46 	Rare Cat Capsule - Princess Punt Sweets Collaboration
+67 	RR 	Li'l Gau 	Li'l Gau Gau / Crystal Li'l Gau Gau 	Rare Cat Capsule - Princess Punt Sweets Collaboration
+68 	SR 	Reaper 	Reaper 999 / Judgment 	Rare Cat Capsule - Princess Punt Sweets Collaboration
+69 	SR 	Sleeping Beauty Punt 	Sleeping Beauty Punt II / Oversleeping Beauty Punt 	Drop from a Collaboration - Alluring Princess
+70 	RR 	Salaryman Cat 	Grudge Cat / Ritual Cat 	Drop - Loving Labor
+71 	UR 	Sanada Yukimura 	Wargod Yukimura / Immortal Yukimura 	Rare Cat Capsule - Sengoku Wargods Vajiras
+72 	UR 	Maeda Keiji 	Wargod Keiji / Immortal Keiji 	Rare Cat Capsule - Sengoku Wargods Vajiras
+73 	UR 	Oda Nobunaga 	Wargod Nobunaga / Immortal Nobunaga / Phantasmal Nobunaga 	Rare Cat Capsule - Sengoku Wargods Vajiras
+74 	RR 	Reindeer Fish Cat 	Sashimi Cat / Xmas Pudding Cat 	Drop - Jingle Cat Bell
+75 	UR 	Windy 	Windy, type α / Divine Windy / Ultimate Windy 	Rare Cat Capsule - Cyber Academy Galaxy Gals
+76 	UR 	Thundia 	Thundia, type β / Divine Thundia / Ultimate Thundia 	Rare Cat Capsule - Cyber Academy Galaxy Gals
+77 	RR 	Droid Cat 	Droid Cat Mk 2 / SpringDroid 	Drop - To the Future
+78 	RR 	Space Cat 	Major Space Cat / Space Marine Cat 	Drop - Crimson Catastrophe
+79 	RR 	Adult Cat 	Sick Cat / Prisoner Cat 	Drop - Happy New Year?
+80 	RR 	Evil Cat 	Gentleman Cat / Gentleman Bros. 	Drop - Ritual Happiness
+81 	RR 	Doll Cats 	Cat-o-tron / Nyalladin 	Drop - Bears be Bare
+82 	EX 	Blue Shinobi 	Orange Shinobi 	Serial Code - Nyanko Great War! Strap Set (Removed) Event Cat Capsule - Lunar New Year
+83 	UR 	Sodom 	Earth King Sodom / God-Emperor Sodom 	Rare Cat Capsule - Lords of Destruction Dragon Emperors
+84 	UR 	Megidora 	Holy Dragon Megidora / God-Emperor Megidora 	Rare Cat Capsule - Lords of Destruction Dragon Emperors
+85 	UR 	Vars 	Dragon King Vars / God-Emperor Vars 	Rare Cat Capsule - Lords of Destruction Dragon Emperors
+86 	UR 	Kamukura 	God Dragon Kamukura / God-Emperor Kamukura 	Rare Cat Capsule - Lords of Destruction Dragon Emperors
+87 	UR 	Raiden 	Dragonslayer Raiden / God-Emperor Raiden 	Rare Cat Capsule - Lords of Destruction Dragon Emperors
+88 	RR 	Rope Jump Cat 	Pair Rope Jump Cat / Noodle Cats 	Drop - Peerless
+89 	UR 	Nimue 	Neutralization Type Nimue 	Rare Cat Capsule - Million Arthur Collaboration
+90 	UR 	Monkey King 	SSS Monkey King 	Rare Cat Capsule - Dragon Poker Collaboration
+91 	SR 	Crazed Cat 	Crazed Macho Cat / Manic Mohawk Cat 	Drop - The Crazed Cat
+92 	SR 	Crazed Tank Cat 	Crazed Wall Cat / Manic Eraser Cat 	Drop - The Crazed Tank
+93 	SR 	Crazed Axe Cat 	Crazed Brave Cat / Manic Dark Cat 	Drop - The Crazed Axe
+94 	SR 	Crazed Gross Cat 	Crazed Sexy Legs Cat / Manic Macho Legs 	Drop - The Crazed Gross
+95 	SR 	Crazed Cow Cat 	Crazed Giraffe Cat / Manic Lion Cat 	Drop - The Crazed Cow
+96 	SR 	Crazed Bird Cat 	Crazed UFO Cat / Manic Flying Cat 	Drop - The Crazed Bird
+97 	SR 	Crazed Fish Cat 	Crazed Whale Cat / Manic Island Cat 	Drop - The Crazed Fish
+98 	SR 	Crazed Lizard Cat 	Crazed Dragon Cat / Manic King Dragon 	Drop - The Crazed Lizard
+99 	SR 	Crazed Titan Cat 	Crazed M. Titan Cat / Manic Jamiera Cat 	Drop - The Crazed Titan
+100 	RR 	Maiden Cat 	Sportsgirl Cat / Wrestling Cat 	Drop - Teacher! It's Spring!
+101 	EX 	Clone Elle 	Clone Elle CC 	External App - Million Arthur Collaboration
+102 	EX 	Red Marron 	Red Marron CC 	External App - Dragon Poker Collaboration
+103 	EX 	Cabaret Cat 	Mega Cat / Mega Cat EX 	Drop - Final Boss Strikes?!
+104 	RR 	Koi Cat 	Gross Koi Cat / Kiss and Koi 	Drop - Love is Sickness
+105 	UR 	Kuu 	Kuu, type γ / Divine Kuu 	Rare Cat Capsule - Cyber Academy Galaxy Gals
+106 	UR 	Kai 	Kai, type μ / Divine Kai 	Rare Cat Capsule - Cyber Academy Galaxy Gals
+107 	UR 	Coppermine 	Coppermine, type κ / Divine Coppermine 	Rare Cat Capsule - Cyber Academy Galaxy Gals
+108 	EX 	Cat Bros 	Secret Base 	Drop - For The Fans
+109 	RR 	Madam Bride 	Madam King / Madam the Savannah 	Drop - The Forbidden Bride
+110 	RR 	Celesse 	Celesse CC 	Rare Cat Capsule - Merc Storia Collaboration
+111 	RR 	Nono 	Nono CC / Frolicking Nono CC 	Rare Cat Capsule - Merc Storia Collaboration
+112 	RR 	Olga 	Olga CC 	Rare Cat Capsule - Merc Storia Collaboration
+113 	RR 	Norn 	Norn CC 	Rare Cat Capsule - Merc Storia Collaboration
+114 	RR 	Yoichi 	Yoichi CC 	Rare Cat Capsule - Merc Storia Collaboration
+115 	RR 	Serum 	Serum CC 	Rare Cat Capsule - Merc Storia Collaboration
+116 	RR 	Fuu 	Fuu CC 	Rare Cat Capsule - Merc Storia Collaboration
+117 	SR 	Aura 	Aura CC 	Rare Cat Capsule - Merc Storia Collaboration
+118 	SR 	Rei 	Rei CC 	Rare Cat Capsule - Merc Storia Collaboration
+119 	UR 	Wyvern 	Wyvern Cat / Wyvern and Alec 	Rare Cat Capsule - Merc Storia Collaboration
+120 	EX 	Healer 	Healer CC / Healer Cat CC 	Drop - Merc Storia: Inferno/Merc Storia: Showdown
+121 	EX 	Merc 	Merc CC / Merc & Cat CC 	Daily Login - Merc Storia Collaboration
+122 	RR 	Vacation Queen 	Office Lady Cat / Call Center Cat 	Drop - Never Summer!
+123 	EX 	Bean Cats 	Brah Cats / Val Val Cat 	Empire of Cats (stage 23)
+124 	UR 	Date Masamune 	Wargod Masamune / Immortal Masamune 	Rare Cat Capsule - Sengoku Wargods Vajiras
+125 	UR 	Takeda Shingen 	Wargod Shingen / Immortal Shingen 	Rare Cat Capsule - Sengoku Wargods Vajiras
+126 	RR 	Clockwork Cat 	Puppetmaster Cat / Puppetmaster & Charley 	Drop - Wrath of Heaven
+127 	EX 	Flower Cat 	Cooldown Cat / Bombercat 	Easter Egg - drag the door knob in the main menu until unlocking
+128 	RR 	Vengeful Cat 	Groucho Cat / Kite Cat 	Drop - Ghostly Houseguests
+129 	SR 	Gold Cat 	Gold Macho Cat / Glittering Macho Cat 	Rare Cat Capsule
+130 	EX 	Ururun Wolf 	Ururun Cat / Awakened Ururun 	Drop - The Great Escaper
+131 	SR 	Neneko 	Miss NENEKO 	Rare Cat Capsule
+132 	RR 	Kung Fu Cat X 	Drunken Master Cat X / Iron Claw X 	Drop - Old Guys About Town
+133 	EX 	Hikakin 	Bikyakin / Mukyakin 	Serial Code (Removed) Drop - Hikakin Advent
+134 	UR 	Urashima Taro 	Guardian Gamereon / King Gamereon 	Rare Cat Capsule - Ancient Heroes Ultra Souls
+135 	UR 	The Grateful Crane 	Super Galaxy Cosmo / Ultima Galaxy Cosmo / Supernova Cosmo 	Rare Cat Capsule - Ancient Heroes Ultra Souls
+136 	UR 	Momotaro 	The Peach Angels / The Peach Devils 	Rare Cat Capsule - Ancient Heroes Ultra Souls
+137 	UR 	Kasa Jizo 	Jizo's Moving Castle / Jizo's Mega-Castle / Ultra Kasa Jizo 	Rare Cat Capsule - Ancient Heroes Ultra Souls
+138 	UR 	Princess Kaguya 	The Death Moon / The Chaos Moon / Ultra Kaguya 	Rare Cat Capsule - Ancient Heroes Ultra Souls
+139 	EX 	Nekondo 	Nekondo HG / Nekondo SP 	Drop - Korean Special Stage
+140 	EX 	Squish Ball Cat 	Muscleman Cat 	Serial Code - Nyanko Great War! Funyuu Funyuu Mascot! (Removed) Drop - Watch & Earn
+141 	EX 	God 	Secret God 	Serial Code - Nyanko Ecology Report Special Edition (Removed) Daily Login - 11 1/2 Year Anniversary
+142 	EX 	Tutorial Cat 	Behind Tutorial 	Serial Code - Tutorial Collaboration (Removed)
+143 	UR 	Nurse Cat 	Heartful Nurse Cat / Joyful Nurse Cat 	Rare Cat Capsule - The Dynamites
+144 	SR 	Cat Base Mini 	Cat Base Jr. / Cat Base Ultra 	Rare Cat Capsule
+145 	RR 	Cat Gunslinger 	Cat Eastwood / Rodeo Cat 	Rare Cat Capsule
+146 	RR 	Stilts Cat 	Totem Cat / Acrobat Cats 	Rare Cat Capsule
+147 	RR 	Tin Cat 	Plane Cat / Robocat 	Rare Cat Capsule
+148 	RR 	Rocker Cat 	Artist Cat / Ramen Cat 	Rare Cat Capsule
+149 	RR 	Mer-Cat 	Commando Cat / Cameraman Cat 	Rare Cat Capsule
+150 	SR 	Juliet Cat 	Princess Juliet Cat / Juliet the Maiko 	Rare Cat Capsule
+151 	SR 	Weightlifter Cat 	Ring Girl Cat / Pizza Cat 	Rare Cat Capsule
+152 	SR 	Figure Skating Cats 	Drama Cats / Slapstick Cats 	Rare Cat Capsule
+153 	SR 	Cat Toaster 	Cat Projector / Catophone 	Rare Cat Capsule
+154 	RR 	Hoop Cat 	Showoff Cat / Hoopmaster Cat 	Drop - Sweet Irony
+155 	UR 	Chicken Cat 	Rooster Cat 	Removed
+156 	RR 	Dragon League Swordsman 	Dragon League Witch 	Drop - Dragon League Collaboration
+157 	EX 	Nubobo 	Gorubo 	External App - Dragon League Collaboration
+158 	UR 	Uesugi Kenshin 	Wargod Kenshin / Immortal Kenshin / Hellrider Kenshin 	Rare Cat Capsule - Sengoku Wargods Vajiras
+159 	UR 	Kalisa 	Kalisa, type χ / Divine Kalisa 	Rare Cat Capsule - Cyber Academy Galaxy Gals
+160 	SR 	Yurinchi 	Phoenix Yurinchi / Gekirinchi 	Rare Cat Capsule - Princess Punt Sweets Collaboration
+161 	UR 	Crazed Princess Punt 	Crazed Princess Punt CC / Manic Princess Punt 	Rare Cat Capsule - Princess Punt Sweets Collaboration
+162 	EX 	Sho Ayanokoji 	Shoyan & Cat 	Serial Code - Kishidan Collaboration
+163 	EX 	Hikaru Saotome 	Hikaru & Cat 	Serial Code - Kishidan Collaboration
+164 	EX 	Hitomi Saionji 	Tommy & Cat 	Serial Code - Kishidan Collaboration
+165 	EX 	Hoshi Grandmarnier 	Ranma & Cat 	Serial Code - Kishidan Collaboration
+166 	EX 	Shouchikubai Shiratori 	Matsu & Cat 	Serial Code - Kishidan Collaboration
+167 	RR 	Yankee Cat 	Sukeban Cat 	Drop - Super Clash!! Kishidan
+168 	UR 	Asiluga 	Asilan Pasalan / Assassinlan Pasalan 	Rare Cat Capsule - Tales of the Nekoluga
+169 	UR 	Kubiluga 	Kubilan Pasalan / E. Kubilan Pasalan 	Rare Cat Capsule - Tales of the Nekoluga
+170 	UR 	Tecoluga 	Tesalan Pasalan / Lufalan Pasalan 	Rare Cat Capsule - Tales of the Nekoluga
+171 	UR 	Balaluga 	Balalan Pasalan / Piccolan Pasalan 	Rare Cat Capsule - Tales of the Nekoluga
+172 	EX 	Li'l Nyandam 	Dark Emperor Catdam / Schoolbus Nyandam 	Drop - Saint Red Fox
+173 	SR 	Baby Mola 	Young Man Mola / Citizen Mola 	Rare Cat Capsule - Survive! Mola Mola! Collaboration
+174 	UR 	Mola King 	Living Legend / Master of the Pacific 	Rare Cat Capsule - Survive! Mola Mola! Collaboration
+175 	EX 	Meowla Meowla 	Catorpedo 	Drop - Survive! Mola Mola!
+176 	RR 	Marshmallow Cat 	Creepmallow 	Drop - War on Valentines
+177 	UR 	Dioramos 	Archdragon Dioramos / God-Emperor Dioramos / Ascendant Dioramos 	Rare Cat Capsule - Lords of Destruction Dragon Emperors
+178 	EX 	Mob Cat 	Yakuza Vampire 	Serial Code - Yakuza Apocalypse Collaboration
+179 	RR 	Takuya & Yuki 	Takuya, Yuki & Cat / Takuya & Lovely Yuki 	Drop - Annihilated City
+180 	UR 	Mystery Girl Yuki 	Mystery Yuki & Cat / Mystery Catgirl Yuki 	Rare Cat Capsule - Shoumetsu Toshi Collaboration
+181 	EX 	Yuki Cat 	Lovely Yuki Cat 	Daily Login - Shoumetsu Toshi Collaboration
+182 	EX 	Cuckoo Crew 12 	Cuckoo Crew 12+1 	Serial Code (Removed)
+183 	RR 	Cat Kart R 	Cat Kart G / Cat Kart P 	Drop - The Battle Cats POP!
+184 	EX 	Mr. Ninja 	Mint 	Event Cat Capsule - What's in the Box
+185 	UR 	Hearscht 	Hearscht CC / Revolutionary Hearscht CC 	Rare Cat Capsule - Merc Storia Collaboration
+186 	UR 	Cornelia 	Cornelia CC 	Rare Cat Capsule - Merc Storia Collaboration
+187 	UR 	Juvens 	Juvens CC / Holiday Juvens CC 	Rare Cat Capsule - Merc Storia Collaboration
+188 	UR 	Mystica 	Mystica CC / Savior Mystica CC 	Rare Cat Capsule - Merc Storia Collaboration
+189 	SR 	Alois 	Alois CC 	Rare Cat Capsule - Merc Storia Collaboration
+190 	SR 	Citrouille 	Citrouille CC 	Rare Cat Capsule - Merc Storia Collaboration
+191 	EX 	Titi 	Titi CC / Titi Cat CC 	Daily Login - Merc Storia Collaoration
+192 	EX 	Yamaoka Minori 	Queen Minori 	Serial Code (Removed)
+193 	EX 	Nakamura Kanae 	Queen Kanae 	Serial Code (Removed)
+194 	UR 	Akira 	Shadow Akira / Inferno Akira 	Rare Cat Capsule - Justice Strikes Back! Dark Heroes
+195 	UR 	Mekako Saionji 	Dr. Mekako / Mission Control Mekako 	Rare Cat Capsule - Justice Strikes Back! Dark Heroes
+196 	UR 	Catman 	Dark Catman / Ultimate Catman 	Rare Cat Capsule - Justice Strikes Back! Dark Heroes
+197 	RR 	Psychocat 	Neo Psychocat / Corrupted Psychocat 	Rare Cat Capsule
+198 	RR 	Onmyoji Cat 	Magica Cat / Thaumaturge Cat 	Rare Cat Capsule
+199 	SR 	Surfer Cat 	Castaway Cat / Seafarer Cat 	Rare Cat Capsule
+200 	SR 	Metal Cat 	Metal Macho 	Rare Cat Capsule
+201 	RR 	Drumcorps Cat 	Banner Cat / Mochi Cat 	Drop - Dimension of Despair
+202 	EX 	Baozi Cat 	Big Baozi 	Drop - Baozi ★ Q Bomb Strikes (TW) Event Cat Capsule - Lunar New Year (JP)
+203 	UR 	Kachi-Kachi 	Fire Squad Kachiyama / Kachiyama Assault Brigade 	Rare Cat Capsule - Ancient Heroes Ultra Souls
+204 	EX 	Felyne 	Felyne & Melynx 	External App - Monster Hunter Collaboration
+205 	EX 	Sheria - Kirin 	Sheria - KirinX 	Event Cat Capsule] - Monster Hunter Collaboration
+206 	EX 	Rathalos 	Rathalos & Cat 	Event Cat Capsule - Monster Hunter Collaboration
+207 	EX 	Rathian 	Rathian & Cat 	Event Cat Capsule - Monster Hunter Collaboration
+208 	EX 	Kirin Cat 	Kirin Cat Kirin 	Event Cat Capsule - Monster Hunter Collaboration
+209 	EX 	Li'l Cat 	Li'l Macho Cat / Li'l Mohawk Cat 	Event Capsule
+210 	EX 	Li'l Tank Cat 	Li'l Wall Cat / Li'l Eraser Cat 	Event Capsule
+211 	EX 	Li'l Axe Cat 	Li'l Brave Cat / Li'l Dark Cat 	Event Capsule
+212 	UR 	The White Rabbit 	The Black Cat / The Grey Fox / The Spectral Cat 	Rare Cat Capsule - Justice Strikes Back! Dark Heroes
+213 	EX 	Catburger 	Cat Royale / Value Meal Cat 	Drop - Minced Meet-Up
+214 	RR 	HYAKUTARO 	HYAKUTARO CC 	Drop - Metal Slug Defense/Super Metal Slug Defense
+215 	RR 	MARCO 	MARCO CC 	Rare Cat Capsule - Metal Slug Defense Collaboration
+216 	RR 	TARMA 	TARMA CC 	Rare Cat Capsule - Metal Slug Defense Collaboration
+217 	RR 	ERI 	ERI CC 	Rare Cat Capsule - Metal Slug Defense Collaboration
+218 	RR 	FIO 	FIO CC 	Rare Cat Capsule - Metal Slug Defense Collaboration
+219 	SR 	SV-001 	SV-001 CC 	Rare Cat Capsule - Metal Slug Defense Collaboration
+220 	SR 	ALLEN O'NEIL 	ALLEN O'NEIL CC 	Rare Cat Capsule - Metal Slug Defense Collaboration
+221 	RR 	MARS PEOPLE 	MARS PEOPLE CC 	Rare Cat Capsule - Metal Slug Defense Collaboration
+222 	UR 	HUGE HERMIT 	HUGE HERMIT CC / GOLDEN HUGE HERMIT CC 	Rare Cat Capsule - Metal Slug Defense Collaboration
+223 	UR 	JUPITER KING 	JUPITER KING CC / GOLDEN JUPITER CC 	Rare Cat Capsule - Metal Slug Defense Collaboration
+224 	UR 	DONALD MORDEN 	GENERAL MORDEN / GOLDEN MORDEN CC 	Rare Cat Capsule - Metal Slug Defense Collaboration
+225 	UR 	HI-DO 	HI-DO CC / HI-DO MK III 	Rare Cat Capsule - Metal Slug Defense Collaboration
+226 	UR 	Warlock and Pierre 	Dark Merchant Babil / Mad Doctor Klay 	Rare Cat Capsule - Justice Strikes Back! Dark Heroes
+227 	RR 	Pumpcat 	Cat O'Lantern / Harbinger Cat 	Drop - #02 Sugar Struggle
+228 	SR 	Gloomy Neneko 	Witchy Neneko / Costumed Witchy Neneko 	Rare Cat Capsule - Halloween Capsules
+229 	UR 	Hallowindy 	Hallowindy, type α 	Rare Cat Capsule - Halloween Capsules
+230 	UR 	Spooky Thundia 	Spooky Thundia, type β 	Rare Cat Capsule - Halloween Capsules
+231 	EX 	Oden 	Oden CC 	Drop - Divine! Yurudrasil!
+232 	RR 	Junior God of Light - Valkyrie 	Junior God of Light - Valkyrie CC 	Rare Cat Capsule - YuruDora Collaboration
+233 	RR 	Junior God Brynhildr 	Junior God Brynhildr CC 	Rare Cat Capsule - YuruDora Collaboration
+234 	RR 	Junior God Suruzu 	Junior God Suruzu CC 	Rare Cat Capsule - YuruDora Collaboration
+235 	SR 	Goddess of Abundance - Freya 	Goddess of Abundance - Freya CC 	Rare Cat Capsule - YuruDora Collaboration
+236 	UR 	God of War - Odin 	God of War - Odin CC 	Rare Cat Capsule - YuruDora Collaboration
+237 	SR 	Freshman Cat Jobs 	Prof. Cat Jobs / Headmaster Cat Jobs 	Rare Cat Capsule
+238 	SR 	Rich Cat III 	Rich Cat Sr. / Richest Cat 	Rare Cat Capsule
+239 	SR 	Sniper the Recruit 	Sniper the Heavy / Sniper the Deadeye 	Rare Cat Capsule
+240 	UR 	Togeluga 	Togelan Pasalan / Shishilan Pasalan 	Rare Cat Capsule - Tales of the Nekoluga
+241 	UR 	Frosty Kai 	Frosty Kai, type μ / Frostspirit Kai, type μ 	Rare Cat Capsule - Xmas Gals
+242 	UR 	Santa Kuu 	Santa Kuu, type γ 	Rare Cat Capsule - Xmas Gals
+243 	UR 	Holy Coppermine 	Holy Coppermine, type κ 	Rare Cat Capsule - Xmas Gals
+244 	RR 	A Gift of Cats 	Cat's Gift 	Drop - Night 1: Santa Claws at Work
+245 	EX 	Li'l Gross Cat 	Li'l Sexy Legs Cat / Li'l Macho Legs Cat 	Event Capsule
+246 	EX 	Li'l Cow Cat 	Li'l Giraffe Cat / Li'l Lion Cat 	Event Capsule
+247 	EX 	Li'l Bird Cat 	Li'l UFO Cat / Li'l Flying Cat 	Event Capsule
+248 	EX 	Undead Cat 	Bake-Nyanko / Extra-Life Cat 	Event Cat Capsule - June Bride of the Devil (Removed)
+249 	RR 	Castle Guard 	Sailor Swordsman / Wise Swordsman 	Drop - Castle and Dragon
+250 	RR 	Castle Horseman 	Forest Horsemen Cavalry / Black Thunder Rider 	Drop - Castle and Dragon
+251 	RR 	Ashura 	Warrior Ashura / Kabuki Ashura 	Drop - Castle and Dragon
+252 	RR 	Battle Balloon 	Pirate Battle Balloon / Battle UFO 	Drop - Castle and Dragon
+253 	RR 	Dragon Rider 	Horn Dragon Rider / Flame Dragon Rider 	Drop - Castle and Dragon
+254 	RR 	Pretty Cat 	Lovely Pretty Cat / Cyber Pretty Cat 	Drop - Castle and Dragon
+255 	RR 	Cyclops 	Cyclops of Steel / 4D Cyclops 	Drop - Castle and Dragon
+256 	EX 	Golem 	Rabbit Golem / Volcano Golem 	Daily Login - Castle & Dragon Collaboration
+257 	UR 	Thunder God Zeus 	The Majestic Zeus / Almighty Zeus 	Rare Cat Capsule - The Almighties
+258 	UR 	Anubis the Protector 	Anubis the Unblemished / Almighty Anubis 	Rare Cat Capsule - The Almighties
+259 	UR 	Radiant Aphrodite 	Megaphrodite / Almighty Aphrodite 	Rare Cat Capsule - The Almighties
+260 	SR 	Catway 	Drone Cat / Time Traveller Cat 	Drop - Clionel Ascendant
+261 	UR 	Hayabusa 	Oni Hayabusa / Akuma Hayabusa 	Rare Cat Capsule - Justice Strikes Back! Dark Heroes
+262 	EX 	Nyamusu 	Neko Nyamusu 	Event Cat Capsule - Nebaaru-kun and Nyanpazuru Collaboration
+263 	EX 	Pochi 	Tank Pochi 	Event Cat Capsule - Nebaaru-kun and Nyanpazuru Collaboration
+264 	EX 	Kuromi 	Kuromi and Cats 	Event Cat Capsule - Nebaaru-kun and Nyanpazuru Collaboration
+265 	EX 	Setsuko 	Setsuko Love Mackerel 	Event Cat Capsule - Nebaaru-kun and Nyanpazuru Collaboration
+266 	EX 	Nebaaru-kun 	Nebaaru-kun and Cat 	Event Cat Capsule - Nebaaru-kun and Nyanpazuru Collaboration
+267 	SR 	Catornado 	Hurricat / Catyphoon 	Drop - Red Sky at Morning
+268 	EX 	Red Riding Mina 	Crimson Mina / Awakened Mina 	Drop - Learned to Love
+269 	UR 	Baby Gao 	Mighty Lord Gao 	Rare Cat Capsule - UBERFEST
+270 	UR 	Crazed Yuki 	Crazed Yuki & Cat / Crazed Catgirl Yuki 	Rare Cat Capsule - Shoumetsu Toshi Collaboration
+271 	UR 	Shining Amaterasu 	Glorious Amaterasu / Almighty Amaterasu 	Rare Cat Capsule - The Almighties
+272 	UR 	Splendid Ganesha 	Exalted Ganesha / Almighty Ganesha 	Rare Cat Capsule - The Almighties
+273 	SR 	Cheerleader Cat 	Waitress Cat / Soba Cat 	Drop - The Rolling Dead
+274 	UR 	Tropical Kalisa 	Tropical Kalisa, type X 	Rare Cat Capsule - Gals of Summer Blue Ocean
+275 	UR 	Midsummer Rabbit 	Midsummer Cat / Brightsummer Cat 	Rare Cat Capsule - Gals of Summer Blue Ocean
+276 	SR 	Sunny Neneko 	Seaside Neneko / Early Summer Neneko 	Rare Cat Capsule - Gals of Summer Sunshine/Gals of Summer Blue Ocean
+277 	RR 	Funghi 	Funghi 'n' Cat 	Drop - A Fungal Challenge
+278 	EX 	Tanky 	Tanky 'n' Cat 	Daily Login - Neo Mushroom Garden Collaboration
+279 	EX 	White Cat 	Gross White Cat 	Daily Login - Neo Mushroom Garden Collaboration
+280 	EX 	Fortressy 	Castley 	Daily Login - Neo Mushroom Garden Collaboration
+281 	RR 	Futenyan 	Massaging Futenyan 	Drop - Futenyan Appears
+282 	RR 	Awa-Odori Cat 	So-Ran Cat / Gorgeous Groovin' Cat 	Drop - Summer Diary
+283 	UR 	Pai-Pai 	Pai-Pai Z / Pai-Pai DX 	Rare Cat Capsule - Red Busters
+284 	SR 	Express Cat 	Maglev Cat / Bullet Train Cat 	Drop - River Styx
+285 	EX 	Crazed Baozi Cat 	Crazed Big Baozi Cat 	Daily Login
+286 	UR 	Strike Unit R.E.I. 	Assault Unit R.E.I. / Flight Unit R.E.I. 	Rare Cat Capsule - Air Busters
+287 	SR 	Little Leaguer Cat 	Major Leaguer Cat / Golfer Cat 	Drop - Queen's Coronation
+288 	UR 	Madoka Kaname 	Madoka & Cat / Ultimate Madoka 	Rare Cat Capsule - Puella Magi Madoka Magica Collaboration
+289 	UR 	Homura Akemi 	Homura & Cat / Devil Homura 	Rare Cat Capsule - Puella Magi Madoka Magica Collaboration
+290 	UR 	Sayaka Miki 	Sayaka & Cat 	Rare Cat Capsule - Puella Magi Madoka Magica Collaboration
+291 	UR 	Mami Tomoe 	Mami & Cat 	Rare Cat Capsule - Puella Magi Madoka Magica Collaboration
+292 	UR 	Kyoko Sakura 	Kyoko & Cat 	Rare Cat Capsule - Puella Magi Madoka Magica Collaboration
+293 	SR 	Kyubey 	Kyubey & Cat 	Rare Cat Capsule - Puella Magi Madoka Magica Collaboration
+294 	RR 	Madoka Cat 	Magical Girl Madoka Cat 	Rare Cat Capsule - Puella Magi Madoka Magica Collaboration
+295 	RR 	Homura Cat 	Magical Girl Homura Cat 	Rare Cat Capsule - Puella Magi Madoka Magica Collaboration
+296 	RR 	Sayaka Cat 	Magical Girl Sayaka Cat 	Rare Cat Capsule - Puella Magi Madoka Magica Collaboration
+297 	RR 	Mami Cat 	Magical Girl Mami Cat 	Rare Cat Capsule - Puella Magi Madoka Magica Collaboration
+298 	RR 	Kyoko Cat 	Magical Girl Kyoko Cat 	Rare Cat Capsule - Puella Magi Madoka Magica Collaboration
+299 	RR 	Li'l Madoka 	Li'l Magical Girl Madoka / Li'l Ultimate Madoka 	Drop - Be A Magical Girl
+300 	EX 	Li'l Homura 	Li'l Magical Girl Homura / Li'l Devil Homura 	Campaign - Puella Magi Madoka Magica Collaboration
+301 	RR 	Kyubey Cat 	Tank Kyubey Cat 	Drop - Be A Magical Girl II
+302 	UR 	Lilith Cat 	Succubus Cat / Queen Succubus Cat 	Rare Cat Capsule - Halloween Capsules
+303 	RR 	Food Stall Cat 	Delivery Cat / Cafeteria Cat 	Drop - A Cultured Festival
+304 	UR 	Mighty Kat-A-Pult 	CAT-6 Siege Engine / CAT-8 Behemoth / CAT-10 Gigapult 	Rare Cat Capsule - Frontline Assault Iron Legion
+305 	UR 	Mighty Drednot 	B.C.S. Lionheart / B.C.S. Tigerclaw / B.C.S. Beartooth 	Rare Cat Capsule - Frontline Assault Iron Legion
+306 	UR 	Mighty Bomburr 	NEK-0 Sky Fortress / NEK-02 Air Citadel / NEK-03 Cloud Emperor 	Rare Cat Capsule - Frontline Assault Iron Legion
+307 	SR 	Vaulter Cat 	Polevaulter Cat / Housewife Cat 	Rare Cat Capsule
+308 	RR 	Gardener Cat 	Lumbercat / Weedwacker Cat 	Rare Cat Capsule
+309 	EX 	Neko Hakase 	Neko Hakase and Cat 	Drop - Charge! Cat Busters
+310 	UR 	Yuletide Nurse 	Yule Knight Nurse / Xmas Spirit Nurse 	Rare Cat Capsule - Xmas Gals
+311 	EX 	Li'l Fish Cat 	Li'l Whale Cat / Li'l Island Cat 	Event Capsule
+312 	EX 	Li'l Lizard Cat 	Li'l Dragon Cat / Li'l King Dragon Cat 	Event Capsule
+313 	EX 	Li'l Titan Cat 	Li'l Mythical Titan / Li'l Jamiera Cat 	Event Capsule
+314 	SR 	Years-End Neneko 	New Year Neneko / Festive New Year Neneko 	Rare Cat Capsule - Lunar New Year's Capsules
+315 	RR 	PIKOTARO 	NEKOTARO 	Drop - PPAP
+316 	UR 	Wrathful Poseidon 	Valiant Poseidon / Almighty Poseidon 	Rare Cat Capsule - The Almighties
+317 	EX 	CPAC 	PPAP 	Campaign - Pikotaro Collaboration
+318 	UR 	Miko Mitama 	Mitama the Oracle 	Rare Cat Capsule - UBERFEST
+319 	RR 	Killer Cat 	True Killer Cat / Radical Cat 	Drop - Horde of Cats
+320 	RR 	Hiroshi Mihara 	One Two Three ~ Hara Idols Cat / Idol Mihara & Cat 	Drop - Chasing Dream Idols
+321 	EX 	Nazousagi 	Miya Ōdō Rabbit 	Easter Egg - pat the Cat on the Cat Base menu during Nazousagi Collaboration
+322 	UR 	Sarukani 	Rock Revengers / The One-Hit Wonders 	Rare Cat Capsule - Ancient Heroes Ultra Souls
+323 	EX 	Miyamoku Musashi 	Heroic Musashi / Awakened Musashi 	Drop - Multiversal Studios
+324 	RR 	Curling Cat 	Cleanerbot Cat / Green Shell Cat 	Drop - Dead on Debut
+325 	RR 	Welterweight Cat 	Heavyweight Cat / Ectoweight Cat 	Rare Cat Capsule
+326 	UR 	Mobius 	Miraculous Mobius 	Rare Cat Capsule - Crash Fever Collaboration
+327 	SR 	Belial 	Reckless Belial 	Rare Cat Capsule - Crash Fever Collaboration
+328 	EX 	Happy 100 	Heartful Happy 100 	Daily Login - Crash Fever Collaboration
+329 	RR 	Eggy Cat 	Easter Cat / Easter Egg Cat 	Drop - Spring Sprang Sprung
+330 	UR 	Springtime Kenshin 	Full-Bloom Kenshin / Spring Breeze Kenshin 	Rare Cat Capsule - Easter Carnival
+331 	UR 	Bunny & Canard 	Disciple Psychoduck / Malevolent Mad-Duck 	Rare Cat Capsule - Easter Carnival
+332 	SR 	Easter Neneko 	Hoppity Neneko / Blossoming Neneko 	Rare Cat Capsule - Easter Carnival
+333 	UR 	Shadow Gao 	Diabolic Gao 	Rare Cat Capsule - EPICFEST
+334 	UR 	Trickster Himeyuri 	Himeyuri Ninetails / Fox Queen Himeyuri 	Rare Cat Capsule - Girls & Monsters: Angels of Terror
+335 	UR 	Sea Maiden Ruri 	Sea Mistress Ruri / Mer-Queen Ruri 	Rare Cat Capsule - Girls & Monsters: Angels of Terror
+336 	UR 	Queen Reika 	Pharaoh Reika / Eternal Reika 	Rare Cat Capsule - Girls & Monsters: Angels of Terror
+337 	UR 	HMS Princess 	HMS Princess CC / HMS Princess II CC 	Rare Cat Capsule - Princess Punt Sweets Collaboration
+338 	UR 	Imagawa Yoshimoto 	Wargod Yoshimoto / Immortal Yoshimoto 	Rare Cat Capsule - Sengoku Wargods Vajiras
+339 	EX 	Iron Wall Cat 	N/A 	Ototo Corps
+340 	RR 	Redhead Yuki Cat 	Redhead Lovely Yuki Cat / Redhead Muscled Yuki Cat 	Drop - The Lost World
+341 	UR 	Lost World Yuki 	Lost World Yuki & Cat / Lost World Catgirl Yuki 	Rare Cat Capsule - Shoumetsu Toshi Collaboration
+342 	EX 	Maneki Cat 	Neo Maneki Cat 	Event Capsule - Medal King's Palace
+343 	RR 	Slug Jockey Cat 	Slugcat 	Drop - Sliming to Victory
+344 	SR 	Orthos 	Orthos CC / Artist Orthos CC 	Rare Cat Capsule - Merc Storia Collaboration
+345 	UR 	Michelia 	Michelia CC / Naptime Michelia CC 	Rare Cat Capsule - Merc Storia Collaboration
+346 	UR 	Todomeki 	Todomeki CC 	Rare Cat Capsule - Merc Storia Collaboration
+347 	EX 	Gudetama Cat 	Gude Omelette Cat / Gudebene Cat 	Campaign - Gudetama Collaboration
+348 	RR 	Gudetama Plate 	Gudetama Bacon Plate 	Rare Cat Capsule - Gudetama Collaboration
+349 	SR 	Gudegude Pudding 	Gudegude à la mode 	Rare Cat Capsule - Gudetama Collaboration
+350 	UR 	Nisetama Army 	Nisetama Cat Army 	Rare Cat Capsule - Gudetama Collaboration
+351 	UR 	Twinstars 	Twinstars, type Φ / Divine Twinstars 	Rare Cat Capsule - Cyber Academy Galaxy Gals
+352 	EX 	Hermit Cat 	Grandmaster Cat / Masked Grandmaster Cat 	Catnip Challenges - Clear Floor 30 of Heavenly Tower
+353 	RR 	Cat Slave Chocolate 	Cat and Chocolate / Chocolate Cat 	Drop - Slave Cat King
+354 	UR 	Seashore Kai 	Seashore Kai, type μ 	Rare Cat Capsule - Gaals of Summer Sunshine
+355 	UR 	Mighty Rekon Korps 	Orbital Platform Armageddon / Orbital Annihilator Ragnarok 	Rare Cat Capsule - Frontline Assault Iron Legion
+356 	EX 	Nora 	Awakened Nora 	Daily Stamp - Nippon Shinryaku Hiroku Collaboration
+357 	UR 	Wolfchild Deale 	Wolf Princess Deale / Jester Queen Deale 	Rare Cat Capsule - Girls & Monsters: Angels of Terror
+358 	UR 	Graveflower Verbena 	Verbena the Bride / Opulent Verbena 	Rare Cat Capsule - Girls & Monsters: Angels of Terror
+359 	UR 	Bora 	Bazibon / Bazibastra / Bazifenix 	Rare Cat Capsule - Nature's Guardians Elemental Pixies
+360 	UR 	Mizli 	Marinmizu / Mizuririn / Mizunade 	Rare Cat Capsule - Nature's Guardians Elemental Pixies
+361 	UR 	Aer 	Erphuan / Aervanta / Aervantex 	Rare Cat Capsule - Nature's Guardians Elemental Pixies
+362 	UR 	Saber 	Saber CC / Saber Alter CC 	Rare Cat Capsule - Fate/Stay Night: Heaven's Feel: Heaven's Feel Collaboration
+363 	UR 	Rin Tohsaka 	Rin Tohsaka CC 	Rare Cat Capsule - Fate/Stay Night: Heaven's Feel: Heaven's Feel Collaboration
+364 	UR 	Illyasviel 	Illyasviel CC 	Rare Cat Capsule - Fate/Stay Night: Heaven's Feel: Heaven's Feel Collaboration
+365 	UR 	Archer 	Archer CC 	Rare Cat Capsule - Fate/Stay Night: Heaven's Feel: Heaven's Feel Collaboration
+366 	UR 	Lancer 	Lancer CC 	Rare Cat Capsule - Fate/Stay Night: Heaven's Feel: Heaven's Feel Collaboration
+367 	UR 	Rider 	Rider CC 	Rare Cat Capsule - Fate/Stay Night: Heaven's Feel: Heaven's Feel Collaboration
+368 	UR 	Gilgamesh 	Gilgamesh CC 	Rare Cat Capsule - Fate/Stay Night: Heaven's Feel: Heaven's Feel Collaboration
+369 	EX 	Saber the Cat 	Heroic Spirit Saber Cat / Saber Alter Cat 	Daily Login - Fate/Stay Night: Heaven's Feel: Heaven's Feel Collaboration
+370 	RR 	Sakura the Cat 	Apron Sakura Cat / Dreaming Sakura Cat 	Rare Cat Capsule - Fate/Stay Night: Heaven's Feel: Heaven's Feel Collaboration
+371 	RR 	Rin the Cat 	Mage Rin Cat 	Rare Cat Capsule - Fate/Stay Night: Heaven's Feel: Heaven's Feel Collaboration
+372 	RR 	Illya the Cat 	Snow Faerie Illya 	Rare Cat Capsule - Fate/Stay Night: Heaven's Feel: Heaven's Feel Collaboration
+373 	RR 	Li'l Shirou 	Li'l Shirou CC 	Drop - The Holy Grail War
+374 	EX 	Li'l Sakura 	Li'l Sakura CC 	Campaign - Fate/Stay Night: Heaven's Feel: Heaven's Feel Collaboration
+375 	EX 	Coin Cat 	Macho Coin Cat 	Event Capsule - Medal King's Palace
+376 	RR 	Rover Cat 	Rover Cat Mk II / Catellite 	Rare Cat Capsule
+377 	SR 	Fencer Cat 	Kendo Cat / The Kitty of Liberty 	Rare Cat Capsule
+378 	UR 	Dark Mitama 	Gothic Mitama 	Rare Cat Capsule - EPICFEST
+379 	RR 	Volley Cat 	Ballet Cat / Curry Cat 	Drop - The 2nd Dimension
+380 	UR 	D'artanyan 	Meow-sketeer 	Rare Cat Capsule - UBERFEST
+381 	EX 	Farmer Cat 	Harvest Cat 	Event Capsule - Summer Break Cats
+382 	RR 	Glass Cat 	Macho Glass Cat / Macho Crystal Cat 	Drop - King Wahwah's Revenge
+383 	EX 	Masked Yulala 	Mystic Yulala / Spiritual Yulala 	Catnip Challenges - Clear Floor 40 of Heavenly Tower
+384 	EX 	Satori Hikami & Cat 	Satori Hikami & Cat CC 	Campaign - Power Pro Baseball Collaboration Event
+385 	RR 	Akio Yabe 	Akio Yabe CC / Akio & Gunder CC 	Drop - Sophomore Summer
+386 	RR 	Sairi Nijitani 	Sairi Nijitani CC 	Drop - Date Chance: Sairi
+387 	RR 	Misaki Konno 	Misaki Konno CC 	Drop - Date Chance: Misaki
+388 	RR 	Ren Katagiri 	Ren Katagiri CC 	Drop - Date Chance: Ren
+389 	RR 	Karin Nekozuka 	Karin Nekozuka CC 	Drop - Date Chance: Karin
+390 	SR 	Aoi Hayakawa 	Aoi Hayakawa CC / Baseball Mask α 	Rare Cat Capsule - Power Pro Baseball Collaboration
+391 	SR 	Mizuki Tachibana 	Mizuki Tachibana CC / Baseball Mask β 	Rare Cat Capsule - Power Pro Baseball Collaboration
+392 	SR 	Hijiri Rokudo 	Hijiri Rokudo CC / Baseball Mask γ 	Rare Cat Capsule - Power Pro Baseball Collaboration
+393 	UR 	Saki Nijima 	Saki Nijima CC / Samba Saki CC 	Rare Cat Capsule - Power Pro Baseball Collaboration
+394 	UR 	Subaru Hoshi 	Subaru Hoshi CC / Dark Subaru CC 	Rare Cat Capsule - Power Pro Baseball Collaboration
+395 	UR 	Miyabi Oyama 	Miyabi Oyama CC / Baseball Mask δ 	Rare Cat Capsule - Power Pro Baseball Collaboration
+396 	UR 	Ganglion 	Ganglion the Ancient / Ganglion the Unleashed 	Rare Cat Capsule - Lords of Destruction Dragon Emperors
+397 	UR 	Sakura Sonic 	Afterschool Sakura / Sacred Blade Sakura / Sacred Blade Sakura Z 	Rare Cat Capsule - Metal Busters
+398 	EX 	Honeyto-kun 	Honeyto-kun & Cat 	Campaign - Honey Toast Café Akihabara Collaboration
+399 	RR 	Mentori 	Mentori CC 	Drop - Mentori's Masterplan
+400 	EX 	Imoto 	Imoto CC 	Campaign - Mentori Collaboration
+401 	UR 	Voli 	Volta / Gigavolta 	Rare Cat Capsule - Nature's Guardians Elemental Pixies
+402 	RR 	Shinji & Cat 	Plug Suit Shinji / Plug Suit Shinji Black 	Drop - Evangelion Activates!
+403 	EX 	Gendo & Fuyutsuki Cats 	Moon Gendo & Fuyutsuki Cats 	Daily Login - Neon Genesis Evangelion Collaboration
+404 	RR 	Giraffe Unit-01 	Giraffe Unit-02 	Drop - The 9th Angel Strikes!
+405 	EX 	Kaworu & Cat 	Plug Suit Kaworu / Moon Kaworu 	Campaign - Neon Genesis Evangelion Collaboration
+406 	RR 	Rei Cat 	Ayanami Cat (TBC) 	Rare Cat Capsule - Neon Genesis Evangelion Collaboration
+407 	RR 	Asuka Cat 	Apron Asuka 	Rare Cat Capsule - Neon Genesis Evangelion Collaboration
+408 	RR 	Mari Cat 	Special Ops Mari 	Rare Cat Capsule - Neon Genesis Evangelion Collaboration
+409 	SR 	Rei Ayanami 	Plug Suit Rei / Reunion Li'l Rei 	Rare Cat Capsule - Neon Genesis Evangelion Collaboration
+410 	SR 	Asuka Langley 	Plug Suit Asuka / Eyepatch Li'l Asuka 	Rare Cat Capsule - Neon Genesis Evangelion Collaboration
+411 	SR 	Mari Illustrious 	Plug Suit Mari 	Rare Cat Capsule - Neon Genesis Evangelion Collaboration
+412 	UR 	EVA Unit-00 	EVA Unit-00 & Cat 	Rare Cat Capsule - Neon Genesis Evangelion Collaboration
+413 	UR 	EVA Unit-01 	EVA Unit-01 & Cat / Determined Unit-01 & Cat 	Rare Cat Capsule - Neon Genesis Evangelion Collaboration
+414 	UR 	EVA Unit-02 	EVA Unit-02 & Cat / Unit-02, Code 777 	Rare Cat Capsule - Neon Genesis Evangelion Collaboration
+415 	UR 	Shinji Cat 	Toji & Kensuke Cats 	Rare Cat Capsule - Neon Genesis Evangelion Collaboration
+416 	UR 	Moon Operators 	NERV Moon 	Rare Cat Capsule - Neon Genesis Evangelion Collaboration
+417 	UR 	Mighty Thermae D-Lux 	Subterra Guardians / Subterra Sentinels 	Rare Cat Capsule - Frontline Assault Iron Legion
+418 	EX 	Crazed Moneko 	Corrupted Moneko 	Drop - Crazed Moneko
+419 	RR 	Pokota 	Pokota CC 	Drop - Poko Forest Friends!
+420 	RR 	Ovis 	Ovis CC 	Drop - Poko Forest Friends!
+421 	RR 	Coco 	Coco CC 	Drop - Poko Forest Friends!
+422 	RR 	Moe Uzumasa & Cat 	Moe Uzumasa & Cat CC 	Drop - Moe Uzumasa School Attendance
+423 	RR 	Saki Matsuga & Cat 	Saki Matsuga & Cat CC 	Drop - Saki Matsuga School Attendance
+424 	RR 	Misa Ono & Cat 	Misa Ono & Cat CC 	Drop - Misa Ono School Attendance
+425 	EX 	Rei Uzumasa & Cat 	Rei Uzumasa & Cat CC 	Campaign - Get On! Kyoto City Subway Collaboration
+426 	EX 	Mecha-Bun 	Mecha-Bun Mk II / Ultimate Mecha-Bun 	Drop - Eldritch Forces
+427 	UR 	Cat Clan Heroes 	Cat Guild Heroes / Cat Quest Heroes 	Rare Cat Capsule - The Dynamites
+428 	RR 	Souma Cat 	Stylish Souma Cat 	Rare Cat Capsule - Shoumetsu Toshi Collaboration
+429 	SR 	Otaku Geek Cat 	Hacker Geek Cat 	Rare Cat Capsule - Shoumetsu Toshi Collaboration
+430 	UR 	Gude-Cat Machine 	Gude-Cat Machine - Egg 	Rare Cat Capsule - Gudetama Collaboration
+431 	UR 	Detective Vigler 	Inspector Gabriel / Section Chief Gravicci / Arcane Commissioner Gravicci 	Rare Cat Capsule - Justice Strikes Back! Dark Heroes
+432 	RR 	Betakkuma 	Black Betakkuma 	Drop - Groove Like A Bear
+433 	EX 	Nekokkuma 	Killer Nekokkuma 	Campaign - Betakkuma Collaboration
+434 	EX 	White Swordsman Cat 	Black Swordsman Cat 	Campaign - Castle & Dragon Collaboration (Removed)
+435 	UR 	Li'l Valkyrie 	Wind Dancer Valkyrie 	Rare Cat Capsule - Best of the Best
+436 	UR 	Nobiluga 	Nobilan Pasalan / Mystican Pasalan 	Rare Cat Capsule - Tales of the Nekoluga
+437 	EX 	Cat God the Great 	Cat God the Awesome / Cat God the Golden 	Cats of the Cosmos - complete Chapter 2: The Passion of Catgod
+438 	UR 	Waverider Kuu 	Waverider Kuu, type γ 	Rare Cat Capsule - Gals of Summer Sunshine
+439 	UR 	Empress Chronos 	Chronos the Infinite / Almighty Chronos 	Rare Cat Capsule - The Almighties
+440 	UR 	Bebe 	Nagisa & Cat / Law of Cycles Nagisa 	Rare Cat Capsule - Puella Magi Madoka Magica Collaboration
+441 	UR 	D'arktanyan 	Valiant D'arktanyan 	Rare Cat Capsule - EPICFEST
+442 	RR 	Lone Cat and Kitten 	Vendor Cat and Kitten / Tourist Cat 	Drop - Deeply Dreaming
+443 	SR 	Driller Cat 	Power Driller Cat / Neo Driller Cat 	Rare Cat Capsule
+444 	SR 	Piledriver Cat 	Power Piledriver Cat / Neo Piledriver Cat 	Rare Cat Capsule
+445 	SR 	Cutter Cat 	Power Cutter Cat / Neo Cutter Cat 	Rare Cat Capsule
+446 	SR 	Backhoe Cat 	Power Backhoe Cat / Neo Backhoe Cat 	Rare Cat Capsule
+447 	SR 	Miter Saw Cat 	Power Saw Cat / Neo Saw Cat 	Rare Cat Capsule
+448 	LR 	Musashi Miyamoto 	Wargod Miyamoto / Immortal Miyamoto 	Rare Cat Capsule - Sengoku Wargods Vajiras
+449 	LR 	Headmistress Jeanne 	Headmistress Jeanne ψ 	Rare Cat Capsule - Cyber Academy Galaxy Gals
+450 	LR 	High Lord Babel 	Babel the Darkflame / God-Emperor Babel 	Rare Cat Capsule - Lords of Destruction Dragon Emperors
+451 	LR 	Ushiwakamaru 	Colossal Benkei 	Rare Cat Capsule - Ancient Heroes Ultra Souls
+452 	RR 	Primordial Cat 	Modern Cat / Future Cat 	Drop - Typhoon Nemo
+453 	EX 	Kitarou 	GeGeGe no Kitarou 	External App - Yuru-i GeGeGe no Kitarou: Youkai Dotabata Daisensou Collaboration
+454 	EX 	Medama-Oyaji 	Bathing Oyaji 	External App- Yuru-i GeGeGe no Kitarou: Youkai Dotabata Daisensou Collaboration
+455 	LR 	Wonder MOMOCO 	Cutie MOMOCO 	Rare Cat Capsule - The Dynamites
+456 	UR 	Sakura Matou 	Sakura Matou CC / Dark Sakura CC 	Rare Cat Capsule - Fate/Stay Night: Heaven's Feel Collaboration
+457 	EX 	Shirou the Cat 	Novice Mage Shirou Cat 	Daily Login - Fate/Stay Night: Heaven's Feel: Heaven's Feel Collaboration
+458 	RR 	Archer the Cat 	Heroic Spirit Archer Cat 	Rare Cat Capsule - Fate/Stay Night: Heaven's Feel: Heaven's Feel Collaboration
+459 	RR 	Rider the Cat 	Heroic Spirit Rider Cat 	Rare Cat Capsule - Fate/Stay Night: Heaven's Feel Collaboration
+460 	SR 	Kotomine & Gilgamesh Cats 	Gilgamesh & Kotomine Cats 	Rare Cat Capsule - Fate/Stay Night: Heaven's Feel Collaboration
+461 	LR 	Legeluga 	Legelan Pasalan 	Rare Cat Capsule - Tales of the Nekoluga
+462 	EX 	Filibuster Cat X 	Filibuster Cat Y / Metafilibuster 	Cats of the Cosmos - complete Chapter 3: Even Stars Burn Out's Filibuster Invasion
+463 	LR 	Mighty Kristul Muu 	Doom Engine Pandora 	Rare Cat Capsule - Frontline Assault Iron Legion
+464 	EX 	Dogumaru 	Doguemon / Reborn Warrior Doguemon 	Drop - Primitive Souls
+465 	RR 	Maji Cat & Cat Tour Group 	Maji Cat & Cat Tour Taiwan 	Drop - Treasure Island With Maji Cat!
+466 	LR 	Black Zeus 	Dark Lord Zeus 	Rare Cat Capsule - Bikkuriman Collaboration
+467 	UR 	Super Zeus 	All-Powerful Super Zeus / Super S-Zeus 	Rare Cat Capsule - Bikkuriman Collaboration
+468 	UR 	Holy Phoenix 	Holy Warrior Phoenix / Head Rococo 	Rare Cat Capsule - Bikkuriman Collaboration
+469 	UR 	Super Devil 	Imposter Super Devil / Super D-Devil 	Rare Cat Capsule - Bikkuriman Collaboration
+470 	UR 	Satanmaria 	Wondermaria 	Rare Cat Capsule - Bikkuriman Collaboration
+471 	UR 	Heracrist 	Perfect Heracrist / Dark Heracrist 	Rare Cat Capsule - Bikkuriman Collaboration
+472 	SR 	Fiendish Nero 	Beastly Nero / Huge Nero 	Rare Cat Capsule - Bikkuriman Collaboration
+473 	RR 	Prince Yamato 	Holy Yamato / Rampaging Yamato 	Drop - Spirit War
+474 	EX 	Rosary Angel 	Cross Angel / Strike Angel 	Event Capsule - Bikkuriman Collaboration
+475 	EX 	Wakamiko Cat 	Warrior King Cat 	Event Capsule - Bikkuriman Collaboration
+476 	EX 	Cat Devil 	Infernal Cat 	Event Capsule - Bikkuriman Collaboration
+477 	EX 	Nekonosuke 	Old Guardian Cat 	Event Capsule - Bikkuriman Collaboration
+478 	LR 	Lumina 	Luminalia 	Rare Cat Capsule - Nature's Guardians Elemental Pixies
+479 	EX 	Gummy Cat 	Lucky Cat / Gummy Cat Soda 	Special Sale
+480 	RR 	Neko-Musume 	Cat Neko-Musume 	Drop - Yuru-i! Neko-Musume Attacks!
+481 	LR 	Doktor Heaven 	Professor Abyss 	Rare Cat Capsule - Justice Strikes Back! Dark Heroes
+482 	UR 	Benevolent Souma 	Souma & Cat / Cat-Eared Souma 	Rare Cat Capsule - Shoumetsu Toshi Collaboration
+483 	RR 	Kano & Souma 	Kano & Souma & Cat 	Drop - The World Beyond
+484 	UR 	Li'l Valkyrie Dark 	Dark Rider Valkyrie 	Rare Cat Capsule - NEO Best of the Best
+485 	UR 	Calette 	Calette CC 	Rare Cat Capsule - Princess Punt Sweets Collaboration
+486 	SR 	Hina 	Swordswoman Hina 	Rare Cat Capsule - Princess Punt Sweets Collaboration
+487 	UR 	EVA Unit-08 	EVA Unit-08 & Cat 	Rare Cat Capsule - Evangelion Collaboration
+488 	UR 	AAA Wunder 	NNN Wunder / Vanished NNN Wunder 	Rare Cat Capsule - Evangelion Collaboration
+489 	SR 	Misato Katsuragi 	Captain Misato 	Rare Cat Capsule - Evangelion Collaboration
+490 	SR 	Ritsuko Akagi 	First Officer Ritsuko 	Rare Cat Capsule - Evangelion Collaboration
+491 	SR 	Rei Ayanami (???) 	Awakened Ayanami 	Rare Cat Capsule - Evangelion Collaboration
+492 	RR 	HAPPI 	HAPPI & Maji Cat / HAPPI & Maji Cat & Cat 	Drop - Kaohsiung Rapid Transit Red Line
+493 	LR 	Gaia the Creator 	Gaia the Supreme 	Rare Cat Capsule - The Almighties
+494 	UR 	Seabreeze Coppermine 	Seabreeze Coppermine, type κ 	Rare Cat Capsule - Gals of Summer Sunshine
+495 	RR 	Matador Cat 	Flamenco Cat / Bellydance Cat 	Rare Cat Capsule
+496 	UR 	Narita Kaihime 	Wargod Kaihime / Immortal Kaihime 	Rare Cat Capsule - Sengoku Wargods Vajiras
+497 	EX 	Shakurel Cat 	Shakurel Macho Cat 	Daily Login - Shakurel Planet Collaboration Event
+498 	EX 	Shakurel Lion 	Shakurel Lion CC 	Special Sale - Shakurel Planet Collaboration Event
+499 	EX 	Shakurel Tiger 	Shakurel Tiger CC 	Special Sale - Shakurel Planet Collaboration Event
+500 	EX 	Shakurel Panda 	Shakurel Panda CC 	Special Sale - Shakurel Planet Collaboration Event
+501 	RR 	Cat Bros 	Baka Cat Bros 	Drop - The Battle Cats Unite!
+502 	UR 	Myrcia 	Myrcia, type ξ / Divine Myrcia 	Rare Cat Capsule - Cyber Academy Galaxy Gals
+503 	RR 	2D Cat 	3D Cat 	Drop - Dot Heroes
+504 	EX 	Fatherly Cat (Shopkeeper) 	Fatherly Cat (Active Service) 	External App - The Burgle Cats
+505 	UR 	Relentless Gladios 	Gladios the Annihilator / God-Emperor Gladios 	Rare Cat Capsule - Lords of Destruction Dragon Emperors
+506 	UR 	Eyewaltz 	Eyewaltz CC / Nameless Eyewaltz CC 	Rare Cat Capsule - Merc Storia
+507 	RR 	Mightycat 	Supercat 	Drop - Blue Impact
+508 	RR 	Ryu Cat 	Ryu Cat CC 	Drop - Street Fighter (Easy)/Street Fighter (Normal)/Street Fighter (Hard)
+509 	EX 	Chun-Li Cat 	Chun-Li Cat CC 	Daily Login - Street Fighter Collaboration
+510 	LR 	Akuma 	Akuma CC 	Rare Cat Capsule - Street Fighter Collaboration Event/Street Fighter Collaboration Event
+511 	UR 	Ryu 	Ryu CC / Kage 	Rare Cat Capsule - Street Fighter Collaboration Event
+512 	UR 	Chun-Li 	Chun-Li CC 	Rare Cat Capsule - Street Fighter Collaboration Event
+513 	UR 	Guile 	Guile CC 	Rare Cat Capsule - Street Fighter Collaboration Event
+514 	UR 	Zangief 	Zangief CC 	Rare Cat Capsule - Street Fighter Collaboration Event
+515 	UR 	Blanka 	Blanka CC 	Rare Cat Capsule - Street Fighter Collaboration Event
+516 	UR 	Dhalsim 	Dhalsim CC 	Rare Cat Capsule - Street Fighter Collaboration Event
+517 	UR 	Ken 	Ken CC / Crimson King of Battle Ken 	Rare Cat Capsule - Street Fighter Collaboration Event
+518 	RR 	Akuma Giraffe 	Akuma Lion 	Drop - #New Challenger
+519 	UR 	Lasvoss 	Ultimate Lasvoss / Lasvoss Reborn 	Rare Cat Capsule - The Dynamites
+520 	SR 	Good-Luck Ebisu 	Bad-Luck Ebisu 	Rare Cat Capsule - Best of the Best & NEO Best of the Best
+521 	RR 	Medusa Cat 	Twintail Medusa Cat / Naga Cat 	Drop - Courts of Torment
+522 	SR 	Nymph Cat 	Medalist Cat / Fiend Cat 	Rare Cat Capsule
+523 	RR 	Wushu Cat 	Sifu Cat / Shigong Cat 	Rare Cat Capsule
+524 	RR 	Sorakara 	Sorakara & Cat 	Drop - 7th Anniversary ★ Tokyo Skytree
+525 	UR 	Kintaro 	Kinrangers RoboForce / Kinrangers GigaForce 	Rare Cat Capsule - Ancient Heroes Ultra Souls
+526 	UR 	Snow Angel Twinstars 	Snow Angel Twinstars, type Φ 	Rare Cat Capsule - Xmas Gals
+527 	RR 	Slime Cat 	Jellycat / Jelly Dumpling Cat 	Drop - The Old Queen
+528 	RR 	Cossack Cat 	Vodka Cat / Royal Guard Cat 	Drop - Papuu's Paradise
+529 	UR 	Kasli the Scourge 	Ritual Saint Kasli 	Rare Cat Capsule - UBERFEST
+530 	UR 	Herme 	Herme CC 	Rare Cat Capsule - Princess Punt Sweets Collaboration
+531 	RR 	Teacher BearCat 	Assassin BearCat / Cadaver BearCat 	Drop - Bottom of the Swamp
+532 	EX 	Urs & Fenrir 	Urs & Minka / Awakened Urs 	Drop - Lifesaving Shovel
+533 	UR 	Sharpshooter Saki 	Nighthunter Saki / Bad Blaster Saki 	Rare Cat Capsule - Justice Strikes Back! Dark Heroes
+534 	UR 	Hades the Punisher 	Hades the Deathdealer / Almighty Hades 	Rare Cat Capsule - The Almighties
+535 	UR 	Hatsune Miku 	Hatsune Miku CC 	Rare Cat Capsule - Hatsune Miku Collaboration
+536 	UR 	Sakura Miku 	Sakura Miku CC 	Rare Cat Capsule - Hatsune Miku Collaboration
+537 	UR 	Kagamine Rin & Len 	Kagamine Rin & Len CC 	Rare Cat Capsule - Hatsune Miku Collaboration
+538 	RR 	Miku Cat 	Miku Cat CC 	Drop - Hatsune Miku
+539 	RR 	Rugby Cat 	Quarterback Cat / Gridiron Cat 	Drop - Wanwan's Glory
+540 	RR 	U.F.O. Cat 	Yakisoba U.F.O. Cat 	Drop - U.F.O. Strikes!
+541 	EX 	Yakisoba Cat 	Splendid!Thick!Big!Cat 	Daily Login - Nissin U.F.O. Collaboration
+542 	EX 	Cat Boy 	Cat Student 	Campaign - Battle Cats TV
+543 	UR 	Kasli the Bane 	Kasli, Daughter of Chaos 	Rare Cat Capsule - EPICFEST
+544 	LR 	Kyosaka Nanaho 	True Kyosaka Nanaho 	Rare Cat Capsule - Girls & Monsters: Angels of Terror
+545 	RR 	Phantom Cat 	Miasma Cat / Bubble Cat 	Drop - Z-Onel Rises!
+546 	UR 	Papaluga 	Papalan Pasalan / Sukelan Kakulan 	Rare Cat Capsule - Tales of the Nekoluga
+547 	UR 	Night Oracle Rei 	Heavenly Herald Rei 	Rare Cat Capsule - 2nd Neon Genesis Evangelion Gacha
+548 	UR 	The 4th Angel 	4th Angel Cat 	Rare Cat Capsule - 2nd Neon Genesis Evangelion Gacha
+549 	UR 	The 6th Angel 	6th Angel Cat 	Rare Cat Capsule - 2nd Neon Genesis Evangelion Gacha
+550 	UR 	The 10th Angel 	10th Angel Cat 	Rare Cat Capsule - 2nd Neon Genesis Evangelion Gacha
+551 	UR 	The 9th Angel 	9th Angel Cat 	Rare Cat Capsule - 2nd Neon Genesis Evangelion Gacha
+552 	RR 	Kaworu Cat 	Moon Kaworu Cat 	Rare Cat Capsule - 2nd Neon Genesis Evangelion Gacha
+553 	RR 	Bakery Cat 	Boomerang Cat / Fried Chicken Cat 	Drop - First Errand
+554 	EX 	Master Uril 	Mystic Uril / Esoteric Uril 	Drop - Heavenly Tower Floor 50
+555 	UR 	Shaman Khan 	All-Loving Shaman Khan 	Rare Cat Capsule - Bikkuriman Collaboration
+556 	SR 	Holy Knight Alibaba 	Holy King Alibaba / Ghost Alibaba 	Rare Cat Capsule - Bikkuriman Collaboration
+557 	EX 	Heavenly Jack 	Heavenly Lord Jack 	Event Capsule - Bikkuriman Collaboration
+558 	EX 	Gacha Cat 	Lucky Gacha Cat 	Special Sale
+559 	UR 	Hell Warden Emma 	Hell Sentinel Emma / Hell Commissioner Emma 	Rare Cat Capsule - Wave Busters
+560 	UR 	Megurine Luka 	Megurine Luka CC 	Rare Cat Capsule - Hatsune Miku Collaboration
+561 	SR 	MEIKO & Cat 	MEIKO & Cat CC 	Rare Cat Capsule - Hatsune Miku Collaboration
+562 	RR 	Luka Cat 	Luka Cat CC 	Rare Cat Capsule - Hatsune Miku Collaboration
+563 	UR 	Squirtgun Saki 	Aquabuster Saki / Aquablaster Saki 	Rare Cat Capsule - Gals of Summer Blue Ocean
+564 	UR 	Summerluga 	Bikinilan Pasalan / Fabulous Pasalan 	Rare Cat Capsule - Gals of Summer Sunshine
+565 	SR 	Suntan Cat 	Macho Suntan Cat / Permed Suntan Cat 	Rare Cat Capsule - Gals of Summer Sunshine/Gals of Summer Blue Ocean
+566 	SR 	Lifeguard Cats 	Sweet Bro Cats / Gelato Bro Cats 	Rare Cat Capsule - Gals of Summer Sunshine/Gals of Summer Blue Ocean
+567 	EX 	Li'l Clops Cat Egg 	Li'l Clops Cat / Lightning Li'l Clops Cat 	Special Sale - Castle & Dragon Collaboration
+568 	EX 	Idi:N 	Idi:N2 / Idi:NX 	Laboratory of Relics 4-crown – Eldritch Forces Invasion
+569 	UR 	Gravi 	Gravolo / Gravolodon 	Rare Cat Capsule - Nature's Guardians Elemental Pixies
+570 	UR 	Skull Rider Vars 	Nightmare King Vars / Halloween Knight Vars 	Rare Cat Capsule - Halloween Capsules
+571 	UR 	E. Honda 	E. Honda CC 	Rare Cat Capsule - Street Fighter Collaboration Event
+572 	UR 	Balrog 	Balrog CC 	Rare Cat Capsule - Street Fighter Collaboration Event
+573 	UR 	Vega 	Vega CC 	Rare Cat Capsule - Street Fighter Collaboration Event
+574 	UR 	Sagat 	Sagat CC 	Rare Cat Capsule - Street Fighter Collaboration Event
+575 	UR 	M. Bison 	M. Bison CC 	Rare Cat Capsule - Street Fighter Collaboration Event
+576 	SR 	C. Honda 	C. Honda CC 	Rare Cat Capsule - Street Fighter Collaboration Event/Street Fighter Collaboration Event
+577 	RR 	Balrog Cat 	Balrog Cat CC 	Rare Cat Capsule - Street Fighter Collaboration Event/Street Fighter Collaboration Event
+578 	RR 	Vega Cat 	Vega Cat CC 	Rare Cat Capsule - Street Fighter Collaboration Event/Street Fighter Collaboration Event
+579 	RR 	Sagat Cat 	Sagat Cat CC 	Rare Cat Capsule - Street Fighter Collaboration Event/Street Fighter Collaboration Event
+580 	RR 	M. Bison Cat 	M. Bison Cat CC 	Rare Cat Capsule - Street Fighter Collaboration Event/Street Fighter Collaboration Event
+581 	RR 	Stone Cat 	Boulder Cat 	Drop - Prelude to Ruin
+582 	UR 	Hatsune Miku: MM2020 Osaka 	Hatsune Miku CC: MM2020 Osaka 	Rare Cat Capsule - Hatsune Miku Collaboration
+583 	UR 	Hatsune Miku: MM2020 Tokyo 	Hatsune Miku CC: MM2020 Tokyo 	Rare Cat Capsule - Hatsune Miku Collaboration
+584 	UR 	Keiji Claus 	Maeda Christmas / Maeda Christmas DX 	Rare Cat Capsule - Xmas Gals
+585 	UR 	Baby Garu 	Mighty Aegis Garu 	Rare Cat Capsule - UBERFEST
+586 	LR 	Emperor Cat 	Tyrant Cat 	Rare Cat Capsule - Dynasty Fest
+587 	UR 	Sweet Aphrodite 	Chocoladite 	Rare Cat Capsule - Valentine Gals
+588 	UR 	First-Love Myrcia 	First-Love Myrcia ξ 	Rare Cat Capsule - Valentine Gals
+589 	SR 	Valentine's Neneko 	Sweetheart Neneko / True Love Neneko 	Rare Cat Capsule - Valentine Gals
+590 	UR 	Snow Miku 2021 	Snow Miku CC 2021 	Rare Cat Capsule - Hatsune Miku Collaboration
+591 	SR 	KAITO & Cat 	KAITO & Cat CC 	Rare Cat Capsule - Hatsune Miku Collaboration
+592 	RR 	Neko Rin 	Neko Rin CC 	Rare Cat Capsule - Hatsune Miku Collaboration
+593 	RR 	Neko Len 	Neko Len CC 	Rare Cat Capsule - Hatsune Miku Collaboration
+594 	UR 	Mighty Aethur Ltd. 	Atlantis Logistix / Ultra Atlantis Logistix 	Rare Cat Capsule - Frontline Assault Iron Legion
+595 	UR 	Blooming Kamukura 	Everbloom Kamukura / Everbloom Lord Kamukura 	Rare Cat Capsule - Easter Carnival
+596 	UR 	Ranma Saotome (M) 	Ranma Saotome (F) 	Rare Cat Capsule - Ranma 1/2 Collaboration
+597 	UR 	Akane Tendo 	Akane Tendo (Gi) 	Rare Cat Capsule - Ranma 1/2 Collaboration
+598 	UR 	Ryoga Hibiki (Pig) 	Ryoga Hibiki 	Rare Cat Capsule - Ranma 1/2 Collaboration
+599 	UR 	Shampoo (Cat) 	Shampoo 	Rare Cat Capsule - Ranma 1/2 Collaboration
+600 	UR 	Mousse (Duck) 	Mousse 	Rare Cat Capsule - Ranma 1/2 Collaboration
+601 	SR 	Happosai 	Happosai (Lewd) 	Rare Cat Capsule - Ranma 1/2 Collaboration
+602 	SR 	Ukyo Kuonji (GR) 	Ukyo Kuonji 	Rare Cat Capsule - Ranma 1/2 Collaboration
+603 	SR 	Tatewaki Kuno (Gi) 	Tatewaki Kuno 	Rare Cat Capsule - Ranma 1/2 Collaboration
+604 	RR 	Ranma Cat (M) 	Ranma Cat (F) 	Drop - Rumble in the Tendo Dojo
+605 	RR 	Akane Cat 	Akane Cat (Gi) 	Rare Cat Capsule - Ranma 1/2 Collaboration
+606 	EX 	Panda Cat 	Genma Cat 	Campaign - Ranma 1/2 Collaboration
+607 	UR 	Adventurer Kanna 	Swashbuckler Kanna / Fabled Adventure Girl Kanna 	Rare Cat Capsule - Girls & Monsters: Angels of Terror
+608 	EX 	Wafer Cat 	Wafer Cat XL 	Special Sale
+609 	UR 	Dark Aegis Garu 	Dark Beastlord Garu 	Rare Cat Capsule - EPICFEST
+610 	EX 	Gold Brick Cat 	King Ingot Cat / King Nekokhamen 	Daily Login - 1/2 Anniversary
+611 	RR 	Godzilla Cat 	Shin Godzilla Cat 	Drop - Godzilla vs Cats
+612 	UR 	Princess Cat 	Empress Cat 	Rare Cat Capsule - RoyalFest
+613 	EX 	Elder Mask Doron 	Cat Mask Doron / Awakened Doron 	Drop - The Face of God
+614 	UR 	Kaguya of the Coast 	The Southern Sun / The Southern Sunflare 	Rare Cat Capsules - Gals of Summer Blue Ocean
+615 	EX 	Kabuto Cat 	Golden Kabuto Cat 	Event Cat Capsule - Summer Break Cats
+616 	EX 	Kuwagata Cat 	King Kuwagata Cat 	Event Cat Capsule - Summer Break Cats
+617 	UR 	Summoner Satoru 	Dark Summoner Satoru / Devil Hunter Satoru 	Rare Cat Capsules - The Dynamites
+618 	UR 	Shiro Amakusa 	Wargod Amakusa / Immortal Amakusa 	Rare Cat Capsules - Sengoku Wargods Vajiras
+619 	UR 	Lilin 	Lilin π / Divine Lilin π 	Rare Cat Capsules - Cyber Academy Galaxy Gals
+620 	UR 	Hevijak the Wicked 	Wicked King Hevijak / God-Emperor Hevijak 	Rare Cat Capsules - Lords of Destruction Dragon Emperors
+621 	RR 	Aku Researcher 	Evil Aku Researcher / Cat Researcher 	Drop - The Great Diablo
+622 	EX 	Jagando Jr. 	Lord of Ruin Jagando Jr. 	The Aku Realms - Mount Aku Invasion
+623 	RR 	Pied Piper Cat 	Komuso Cat / Brass Cat 	Drop - Temptation's Symphony
+624 	UR 	Kunio-kun 	Dodgeball Kunio-kun 	Rare Cat Capsules - River City Clash Capsules Red Team
+625 	UR 	Furiluga 	Furilan Pasalan / Ragelan Pasalan 	Rare Cat Capsules - Tales of the Nekoluga
+626 	EX 	Cat Giraffe Modoki 	Suruma Cat Giraffe Modoki 	Event Cat Capsule - JRA Collaboration
+627 	EX 	Catnip Tricky 	Tenma Catnip Tricky 	Event Cat Capsule - JRA Collaboration
+628 	EX 	Catnip Dragon 	Famous Catnip Dragon 	Event Cat Capsule - JRA Collaboration
+629 	SR 	Brainwashed Cat 	Brainwashed Macho Cat / Brainwashed Mohawk Cat 	Rare Cat Capsule - Seasonal Gacha Banners
+630 	RR 	Calligraphy Cat 	Tea Master Cat 	Drop - Rashomon
+631 	UR 	Yamii 	Yaminoir / Yaminora 	Rare Cat Capsule - Nature's Guardians Elemental Pixies
+632 	UR 	Mighty Deth-Troy-R 	Siege Walker Diabolosa / Obliterator Diabolosa 	Rare Cat Capsule - Frontline Assault Iron Legion
+633 	UR 	Shitakiri Sparrow 	Chunchun Haunters / Grand Chunchun Haunters 	Rare Cat Capsule - Ancient Heroes Ultra Souls
+634 	UR 	White Knight Cyclops 	Black Knight Kyklops / Demon Knight Kyklops 	Rare Cat Capsule - Justice Strikes Back! Dark Heroes
+635 	EX 	Million-Dollar Cat 	Hundred-Million-Dollar Cat 	Event Capsule - Medal King's Palace
+636 	SR 	Brainwashed Tank Cat 	Brainwashed Wall Cat / Brainwashed Eraser Cat 	Rare Cat Capsule - Seasonal Gacha Banners
+637 	EX 	Sora & Cat 	Sora & Cat CC 	Catnip Challenges - K.R.T. Girls Collaboration
+638 	RR 	Nana & Cat 	Nana & Cat CC 	Drop - Kaohsiung Metro Red Line
+639 	RR 	Emilia & Cat 	Emilia & Cat CC 	Drop - Kaohsiung Metro Light Line
+640 	EX 	Ann & Cat 	Ann & Cat CC 	Daily Login - K.R.T. Girls Collaboration
+641 	UR 	Iz the Dancer 	Iz the Alluring Dancer 	Rare Cat Capsule - UBERFEST
+642 	UR 	Lucifer the Fallen 	Grand Lucifer / Almighty Lucifer 	Rare Cat Capsule - The Almighties The Majestic Zeus
+643 	N 	Superfeline 	Superfeline II / True Superfeline 	Cat Capsule - Cat Capsule+
+644 	UR 	Sweet Love Mekako 	Bittersweet Mekako / Minty Love Mekako 	Rare Cat Capsule - Valentine Gals
+645 	SR 	Brainwashed Axe Cat 	Brainwashed Brave Cat / Brainwashed Dark Cat 	Rare Cat Capsule - Seasonal Gacha Banners
+646 	EX 	Firecracker Cat 	Macho Firecracker Cat 	Event Cat Capsule - Lunar New Year
+647 	UR 	Huntress Terun 	Huntress Terun ζ / Divine Huntress Terun ζ 	Rare Cat Capsule - Cyber Academy Galaxy Gals
+648 	UR 	Lovestruck Lesser Demon 	Lovestruck Greater Demon 	Rare Cat Capsule - White Day
+649 	UR 	Hattori Hanzo 	Wargod Hanzo / Immortal Hanzo 	Rare Cat Capsule - Sengoku Wargods Vajiras
+650 	EX 	Secret Crush Cat 	Girlfriend Cat 	Event Cat Capsule - Heartbeat Catcademy
+651 	EX 	Tomboy Lion Cat 	Iron-Masked Lion Cat 	Event Cat Capsule - Heartbeat Catcademy
+652 	EX 	Chalkboard Eraser Cat 	Chalkboard Punk Cat 	Event Cat Capsule - Heartbeat Catcademy
+653 	EX 	Elder Beast Naala 	Storm Beast Naala / Awakened Naala 	Drop - Behemoth's Peak
+654 	SR 	Brainwashed Gross Cat 	Brainwashed Sexy Legs Cat / Brainwashed Macho Legs Cat 	Rare Cat Capsule - Seasonal Gacha Banners
+655 	UR 	Bliza 	Blizana / Blizarena 	Rare Cat Capsule - Nature's Guardians Elemental Pixies
+656 	EX 	Ancient Egg: N001 	Mystic Egg: N001 / Haniwa Cat 	Drop - Empress' Excavation 1
+657 	UR 	Iz the Dancer of Grief 	Iz the Lady of Mourning 	Rare Cat Capsule - EPICFEST
+658 	RR 	Ancient Egg: N101 	Cinnabar Egg: N101 / Courier Cat 	Catnip Challenges
+659 	RR 	Ancient Egg: N102 	Teal Egg: N102 / Catarzan 	Catnip Challenges
+660 	UR 	Sea Serpent Daliasan 	Sea King Daliasan / God-Emperor Daliasan 	Rare Cat Capsule - Lords of Destruction Dragon Emperors
+661 	UR 	Chronos the Bride 	Wedding Chronos 	Rare Cat Capsule - June Bride
+662 	SR 	Brainwashed Cow Cat 	Brainwashed Giraffe Cat / Brainwashed Lion Cat 	Rare Cat Capsule - Seasonal Gacha Banners
+663 	RR 	Ancient Egg: N103 	Black Egg: N103 / Gas Mask Cat 	Catnip Challenges
+664 	RR 	Ancient Egg: N104 	Green Egg: N104 / Surgeon Cat 	Catnip Challenges
+665 	EX 	Ancient Egg: N201 	Dark Egg: N201 / Exorcist Cat 	Event Capsule - June Bride of the Devil
+666 	UR 	Night Beach Lilin 	Night Beach Lilinπ 	Rare Cat Capsule - Gals of Summer Blue Ocean
+667 	SR 	Brainwashed Bird Cat 	Brainwashed UFO Cat / Brainwashed Flying Cat 	Rare Cat Capsule - Seasonal Gacha Banners
+668 	UR 	Cat Tengu 	Grand Yokai Tengu / Immortal Master Tengu 	Rare Cat Capsule - The Dynamites
+669 	EX 	Ancient Egg: N003 	Evil Egg: N003 / Cat Cactus 	Drop - Empress' Excavation 2
+670 	EX 	Ancient Egg: N202 	Cinnabar Egg: N202 / Armored Firefly Cat 	Event Cat Capsule - Summer Break Cats
+671 	UR 	Ranma Saotome (Leotard) 	Ranma Saotome (Cheer) 	Rare Cat Capsule - Ranma 1/2 Collaboration
+672 	SR 	Genma Saotome (Panda) 	Genma Saotome 	Rare Cat Capsule - Ranma 1/2 Collaboration
+673 	UR 	Cheetah Cat 	N/A 	Unobtainable
+674 	UR 	Mighty Carrowsell 	Extraterrestrial Envanz / Extradimensional Envanz 	Rare Cat Capsule - Frontline Assault Iron Legion
+675 	RR 	Ancient Egg: N105 	Teal Egg: N105 / Racquet Cat 	Catnip Challenges
+676 	RR 	Ancient Egg: N106 	Amber Egg: N106 / Mushroom Cat 	Catnip Challenges
+677 	RR 	Osamu Mikumo & Cat 	Osamu Mikumo & Cat CC 	Drop - Battle! Tamakoma Second's Leader
+678 	RR 	Yuma Kuga & Cat 	Yuma Kuga & Cat CC 	Drop - Battle! Tamakoma Second's Ace
+679 	EX 	Chika Amatori & Cat 	Chika Amatori & Cat CC 	Daily Login - World Trigger 1/2 Collaboration
+680 	UR 	Sakura 	Sakura CC 	Rare Cat Capsule - Street Fighter Collaboration Event
+681 	UR 	Luke 	Luke CC 	Rare Cat Capsule - Street Fighter Collaboration Event
+682 	UR 	Spectral Goth Vega 	Illusory Guardian Vega / Lady of Deception Vega 	Rare Cat Capsule - Girls & Monsters: Angels of Terror
+683 	UR 	Count Yukimura 	Nosferatu Yukimura / Vampiric Yukimura 	Rare Cat Capsule - Halloween gacha event
+684 	SR 	Brainwashed Fish Cat 	Brainwashed Whale Cat / Brainwashed Island Cat 	Rare Cat Capsule - Seasonal Gacha Banners
+685 	EX 	Ancient Egg: N004 	Mystic Egg: N004 / Supercar Cat 	Drop - Empress' Excavation 3
+686 	UR 	Goddess of Light Sirius 	Goddess of Sunrise Sirius 	Rare Cat Capsule - Colossus Busters
+687 	UR 	Reindeer Terun 	Reindeer Terunζ 	Rare Cat Capsule - Xmas Gals
+688 	SR 	Brainwashed Lizard Cat 	Brainwashed Dragon Cat / Brainwashed King Dragon Cat 	Rare Cat Capsule - Seasonal Gacha Banners
+689 	EX 	Meditation Cat 	Paragon Cat 	Event Cat Capsule - Medal King's Palace
+690 	UR 	Child of Destiny Phono 	King of Destiny Phonoa 	Rare Cat Capsule - UBERFEST
+691 	EX 	Ancient Egg: N000 	Elder Egg: N000 / Ape Lord Luza 	Drop - Revival of Origin
+692 	UR 	Issun Boshi 	Oni Landshaker Kozuchimaru / Oni Battlepod Kozuchimaru 	Rare Cat Capsule - Ancient Heroes Ultra Souls
+693 	UR 	White Butler Vigler 	Black Butler Vigler 	Rare Cat Capsule - White Day Capsules
+694 	SR 	Brainwashed Titan Cat 	Brainwashed Mythic Titan / Brainwashed Jamiera Cat 	Rare Cat Capsule - Seasonal Gacha Banners
+695 	RR 	Killer Tank Cat 	True Killer Tank Cat 	Drop - Horde of Cats
+696 	EX 	Class Rep Cat 	Stealth Class Rep Cat 	Event Cat Capsule - Heartbeat Catcademy
+697 	RR 	Ancient Egg: N107 	Violet Egg: N107 / Cat Chief 	Catnip Challenges
+698 	UR 	Thunder Jack 	Bloody Jack / Lightning Jack 	Rare Cat Capsule - Justice Strikes Back! Dark Heroes
+699 	UR 	Rabbit Satoru 	Rabbit Champion Satoru 	Rare Cat Capsule - Easter gacha event
+700 	EX 	Ancient Egg: N005 	Mystic Egg: N005 / Hitman Cat 	Drop - Empress' Excavation 4
+701 	RR 	Kamen Rider Cat 	Shin Kamen Rider Cat 	Drop - Rescue! Kamen Rider Cat
+702 	RR 	Cat Godzilla 	Shin Cat Godzilla 	Drop - Rescue! Godzilla Cat
+703 	RR 	Evangelion Cat 	Shin Evangelion Cat 	Drop - Rescue! Evangelion Cat
+704 	RR 	Ultraman Cat 	Shin Ultraman Cat 	Drop - Rescue! Ultraman Cat
+705 	UR 	King of Doom Phono 	King of Extinction Phono 	Rare Cat Capsule - EPICFEST
+706 	SR 	Ancient Egg: N108 	Teal Egg: N108 / Soap Cat 	Catnip Challenges
+707 	RR 	Ancient Egg: N109 	Dark Egg: N109 / Barrel Cat 	Catnip Challenges
+708 	RR 	Jetpack Cat 	Kinjirou Cat 	Drop - Reign of the Tyrant
+709 	UR 	One-Eyed Asuka 	Blue-Eyed Asuka 	Rare Cat Capsule - Neon Genesis Evangelion Collaboration
+710 	UR 	EVA Unit-13 	EVA Unit-13 & Cat 	Rare Cat Capsule - Neon Genesis Evangelion Collaboration
+711 	UR 	Betrothed Balaluga 	Betrothed Pasalan 	Rare Cat Capsule - June Bride
+712 	UR 	Kaoluga 	Kaolan Pasalan / 712-3 	Rare Cat Capsule - Tales of the Nekoluga
+713 	EX 	Ancient Egg: N203 	Violet Egg: N203 / Clown Cat 	Event Cat Capsule - June Bride of the Devil
+714 	UR 	Coastal Explorer Kanna 	Deep-Diver Kanna 	Rare Cat Capsule - Gals of Summer Sunshine
+715 	UR 	Mighty Sphinx Korps 	Attack Battalion Convoys / Hyper Battalion Convoys 	Rare Cat Capsule - Frontline Assault Iron Legion
+716 	SR 	Ancient Egg: N111 	Mystic Egg: N111 / Cop Cat 	Catnip Challenges
+717 	RR 	Ancient Egg: N110 	Amber Egg: N110 / Farmboy Cat 	Catnip Challenges
+718 	RR 	Maize Cat 	Cone Cat 	Drop - Invasion of the Swamplord
+719 	UR 	Tekachi 	Tetsukachi 	Rare Cat Capsule - Nature's Guardians Elemental Pixies
+720 	EX 	Ancient Egg: N006 	Devil Egg: N006 / Fallen Bear Cat 	Drop - Empress' Excavation 5
+721 	UR 	High School Kingpin Riki 	Dodgeball Riki 	Rare Cat Capsules - River City Clash Capsules White Team
+722 	UR 	Hatsune Miku XVI 	Hatsune Miku XVI CC 	Rare Cat Capsule - Hatsune Miku Collaboration
+723 	UR 	Lightmother Aset 	Nefer Aset / Almighty Aset 	Rare Cat Capsule - The Almighties
+724 	RR 	Ancient Egg: N112 	Mystic Egg: N112 / Cat Egg Pod 	Catnip Challenges
+725 	UR 	Ninja Girl Tomoe 	Gourmand Ninja Girl Tomoe 	Rare Cat Capsule - Girls & Monsters: Angels of Terror
+726 	EX 	Medal King 	Medal Emperor 	Event Cat Capsule - Medal King's Palace
+727 	UR 	SOL DAE ROKKER 	SOL DAE ROKKER CC 	Rare Cat Capsule - Metal Slug Defense Collaboration
+728 	EX 	Master of Mind Soractes 	Master of Mind Catcrates 	Drop - Adherence to Virtue
+729 	EX 	Summon 1 	N/A 	Spirit of Master of Mind Soractes
+730 	EX 	Ancient Egg: N204 	Cinnabar Egg: N204 / Lion Dancer Cat 	Event Cat Capsule - Lunar New Year
+731 	LR 	Daybreaker Izanagi 	Dawnbringer Izanagi 	Rare Cat Capsule - UBERFEST
+732 	LR 	Summon 2 	N/A 	Spirit of Daybreaker Izanagi
+733 	UR 	Pegasa 	Pegasa ν 	Rare Cat Capsule - Cyber Academy Galaxy Gals
+734 	UR 	Summon 3 	N/A 	Spirit of Pegasa
+735 	EX 	Principal Cat 	Midlife Crisis Cat 	Special Sale - Heartbeat Catcademy
+736 	UR 	Frozen Rose Cat 	Arctic Bloom Cat 	Rare Cat Capsule - White Day Capsules
+737 	UR 	Floral Kalisa 	Floral Kalisa, type X 	Rare Cat Capsule - Easter Carnival
+738 	LR 	Izanami of Dusk 	Izanami of Eventide 	Rare Cat Capsule - EPICFEST
+739 	LR 	Summon 4 	N/A 	Spirit of Izanami of Dusk
+740 	EX 	Trash Cat 	Mimic Cat 	Catnip Challenges - 88.88 Million Downloads
+741 	UR 	Voluptuous Peony - Daji 	Daji & Cat 	Rare Cat Capsule - Tower of Saviors Collaboration
+742 	RR 	Mollyanna Cat 	Mesmerizing Tune - Mollyanna 	Rare Cat Capsule - Tower of Saviors Collaboration
+743 	RR 	Madhead 	Madhead Cat 	Drop - Battle with Madhead!
+744 	EX 	Felix the Cat Duke Cat 	Mercenary Leader Felix Cat 	Stamp Reward - Tower of Saviors Collaboration
+745 	EX 	Dotty Cat 	Birthday Dotty Cat 	Special Sale - Tower of Saviors Collaboration
+746 	UR 	Kenshin Himura 	Kenshin Himura CC 	Rare Cat Capsule - Rurouni Kenshin Collaboration
+747 	UR 	Sanosuke Sagara 	Sanosuke Sagara CC 	Rare Cat Capsule - Rurouni Kenshin Collaboration
+748 	UR 	Aoshi Shinomori 	Aoshi Shinomori CC 	Rare Cat Capsule - Rurouni Kenshin Collaboration
+749 	UR 	Hajime Saito 	Hajime Saito CC 	Rare Cat Capsule - Rurouni Kenshin Collaboration
+750 	SR 	Li'l Kaoru 	Li'l Kaoru CC 	Rare Cat Capsule - Rurouni Kenshin Collaboration
+751 	SR 	Li'l Yahiko 	Li'l Yahiko CC 	Rare Cat Capsule - Rurouni Kenshin Collaboration
+752 	RR 	Kenshin Cat 	Battosai Cat 	Drop - Rurouni Kenshin
+753 	EX 	Kaoru Cat 	Swordscat Kaoru 	Stamp Reward - Rurouni Kenshin Collaboration
+754 	UR 	Akechi Mitsuhide 	Wargod Mitsuhide 	Rare Cat Capsule - Sengoku Wargods Vajiras
+755 	UR 	Summon 5 	N/A 	Spirit of Akechi Mitsuhide
+756 	UR 	Cake Machine 	Wedding Cake Machine 	Rare Cat Capsule - June Bride
+757 	EX 	Ancient Egg: N205 	Violet Egg: N205 / Bride Cat 	Event Cat Capsule - June Bride of the Devil
+758 	UR 	Trixi the Merc 	Trixi the Revenant 	Rare Cat Capsule - Best of the Best
+759 	UR 	Music Fest Thundia 	Music Fest Thundia β 	Rare Cat Capsule - Gals of Summer Blue Ocean
+760 	UR 	Gunduros 	Ballistic Dragon Gunduros 	Rare Cat Capsule - Lords of Destruction Dragon Emperors
+761 	UR 	Summon 6 	N/A 	Spirit of Gunduros
+762 	UR 	Heavenly God Super Zeus 	Giga Almighty God Super Zeus 	Rare Cat Capsule - Bikkuriman Collaboration Event
+763 	UR 	Dynasaurus Cat 	Mecha Dynasaurus Cat 	Rare Cat Capsule - The Dynamites
+764 	UR 	Summon 7 	N/A 	Spirit of Dynasaurus Cat
+765 	EX 	Ancient Egg: N206 	Cinnabar Egg: N206 / Clam Cat 	Event Cat Capsule - Summer Break Cats Castaway
+766 	EX 	Sardine 	Sardine CC 	Event Cat Capsule - Summer Break Cats Castaway
+767 	EX 	Squid 	Squid CC 	Event Cat Capsule - Summer Break Cats Castaway
+768 	UR 	Taitenki 	Taitenki CC 	Rare Cat Capsule - Merc Storia Collaboration
+769 	UR 	Hanasaka Cat 	Ravenous Cherry 	Rare Cat Capsule - Ancient Heroes Ultra Souls
+770 	UR 	Summon 8 	N/A 	Spirit of Hanasaka Cat
+771 	EX 	Master of Life Dr. Nova 	Master of Life Catnova 	Sacred Forest 4-crown – Revival of Origin Invasion
+772 	UR 	Pumpkin Sodom 	Sodom-o'-Lantern 	Rare Cat Capsule - Halloween Capsules
+773 	SR 	Mummy Sumo 	Mama Mummy Sumo 	Rare Cat Capsule - Halloween Capsules
+774 	UR 	Mech Patrol Axel 	Steel Sergeant Axel 	Rare Cat Capsule - Justice Strikes Back! Dark Heroes
+775 	UR 	Summon 9 	N/A 	Spirit of Mech Patrol Axel
+776 	EX 	Lieutenant Cat 	Commander Cat 	Catnip Challenges - Road to Unification
+777 	UR 	Winter General Kaihime 	Winter Commander Kaihime 	Rare Cat Capsule - Xmas Gals
+778 	UR 	Madoka Cat & Homura 	Magical Cat☆ Magica 	Rare Cat Capsule - Puella Magi Madoka Magica Collaboration
+779 	UR 	Celestial Child Luna 	Salvation's Daughter Lunacia 	Rare Cat Capsule - UBERFEST
+780 	RR 	Bowler Cat 	Dodgeballer Cat 	Drop - Hunt for the Xenobeast
+781 	UR 	Mamoluga 	Mamolan Pasalan 	Rare Cat Capsule - Tales of the Nekoluga
+782 	UR 	Summon 10 	N/A 	Spirit of Mamoluga
+783 	UR 	Koneko 	Superstar Koneko 	Rare Cat Capsule - Best of the Best: Milestone Edition
+784 	EX 	Choco Capsule 	ChocoSurp Cat F 	Special Sale
+785 	RR 	Killer Gross Cat 	True Killer Gross Cat 	Drop - Horde of Cats
+786 	UR 	The Amazing Catman 	Illusionist Catman 	Rare Cat Capsule - White Day Capsules
+787 	UR 	Netherworld Nymph Lunacia 	Death's Daughter Lunacia 	Rare Cat Capsule - EPICFEST
+788 	EX 	Stealth Cat 	Surprise Stealth Cat 	?
+789 	UR 	Baki Hanma 	Baki Hanma CC 	Rare Cat Capsule - Baki Hanma Collaboration
+790 	UR 	Retsu Kaioh 	Retsu Kaioh CC 	Rare Cat Capsule - Baki Hanma Collaboration
+791 	UR 	Kaoru Hanayama 	Kaoru Hanayama CC 	Rare Cat Capsule - Baki Hanma Collaboration
+792 	UR 	Katsumi Orochi 	Katsumi Orochi CC 	Rare Cat Capsule - Baki Hanma Collaboration
+793 	UR 	Jack Hammer 	Jack Hammer CC 	Rare Cat Capsule - Baki Hanma Collaboration
+794 	SR 	Ogre Cat 	Ogre Cat Face 	Rare Cat Capsule - Baki Hanma Collaboration
+795 	EX 	Li'l Baki 	Li'l Baki CC 	Stamp Reward - Baki Hanma Collaboration Event
+796 	EX 	Baki Cat 	Baki Cat CC 	Event Capsule - Baki Hanma Collaboration
+797 	EX 	Kaioh Cat 	Kaioh Cat CC 	Event Capsule - Baki Hanma Collaboration
+798 	EX 	Doppo Cat 	Doppo Cat CC 	Event Capsule - Baki Hanma Collaboration
+799 	UR 	Mighty Morta-Loncha 	Grandiose Gunhauzer 	Rare Cat Capsule - Frontline Assault Iron Legion
+800 	UR 	Summon 11 	N/A 	Spirit of Mighty Morta-Loncha
+801 	EX 	Master of Logic Newton 	Master of Logic Mewton 	Drop - Immeasurable Power
+802 	EX 	Summon 12 	N/A 	Spirit of Master of Logic Newton
+803 	UR 	Sonic 	Sonic & Cat 	Rare Cat Capsule - Sonic the Hedgehog Collaboration
+804 	UR 	Tails 	Tails & Cat 	Rare Cat Capsule - Sonic the Hedgehog Collaboration
+805 	UR 	Knuckles 	Knuckles & Cat 	Rare Cat Capsule - Sonic the Hedgehog Collaboration
+806 	UR 	Shadow 	Shadow & Cat 	Rare Cat Capsule - Sonic the Hedgehog Collaboration
+807 	RR 	Sonic Cat 	Sonic Cat CC 	Drop - Green Hill Zone
+808 	EX 	Tails Cat 	Tails Cat CC 	Stamp Reward - Sonic the Hedgehog Collaboration
+809 	RR 	Shadow Cat 	Shadow Cat CC 	Rare Cat Capsule - Sonic the Hedgehog Collaboration
+810 	UR 	Agent Staal 	Edgemaster Staal 	Rare Cat Capsule - NEO Best of the Best
+811 	UR 	Victorious Skanda 	Zeta Skanda 	Rare Cat Capsule - The Almighties
+812 	UR 	Summon 13 	N/A 	Spirit of Victorious Skanda
+813 	EX 	Tasmanian Giant Crab 	Tasmanian Giant Crab CC 	Event Cat Capsule - Summer Break Cats Castaway
+814 	UR 	Mass Production EVA 	Mass Production EVA-Cat 	Rare Cat Capsule - Neon Genesis Evangelion Collaboration
+815 	LR 	Moonshade Kaworu 	Moon Disciple Kaworu 	Rare Cat Capsule - Neon Genesis Evangelion Collaboration
+816 	LR 	Summon 14 	N/A 	Spirit of Moonshade Kaworu
+817 	UR 	Komori 	Moririn 	Rare Cat Capsule - Nature's Guardians Elemental Pixies
+818 	UR 	Summon 15 	N/A 	Spirit of Komori
+819 	RR 	Carpenter Cat 	Rapper Cat 	Drop - Jumbo Invasion
+820 	UR 	Seaside Pegasa 	Seaside Pegasa v 	Rare Cat Capsule - Gals of Summer Sunshine
+821 	UR 	Summon 16 	N/A 	Spirit of Seaside Pegasa
+822 	EX 	Consultant Cat 	Business Partner Cat 	Event Cat Capsule - Summer Break Cats Paradise
+823 	EX 	Manager Cat & Clerk Cat 	Manager Cat & Clerk Cat CC 	Nyanko Daishoten Online
+824 	UR 	Sorceress Sidmi 	Flame Mage Sidmi 	Rare Cat Capsule - Girls & Monsters: Angels of Terror
+825 	UR 	Summon 17 	N/A 	Spirit of Sorceress Sidmi
+826 	UR 	Cammy 	Cammy CC 	Rare Cat Capsule - Street Fighter Collaboration
+827 	UR 	Juri 	Juri CC 	Rare Cat Capsule - Street Fighter Collaboration
+828 	SR 	Zangief Cat 	Zangief Cat CC 	Rare Cat Capsule - Street Fighter Collaboration
+829 	SR 	Jamie Cat 	Jamie Cat CC 	Rare Cat Capsule - Street Fighter Collaboration
+830 	UR 	Raclesa the Lioness 	Raclesa Σ 	Rare Cat Capsule - Cyber Academy Galaxy Gals
+831 	EX 	Scarf Cat 	Red Cat 	Event Cat Capsule - Ranger Cats
+832 	EX 	Hat Cat 	Blue Cat 	Gamatoto Expedition
+833 	EX 	Helmet Cat 	Yellow Cat 	Catnip Challenges - ?
+834 	EX 	Goggle Cat 	Green Cat 	?
+835 	EX 	Ribbon Cat 	Pink Cat 	?
+836 	UR 	Nyanko-Oh 	Super Great Nyanko-Oh DX 	Catnip Challenges - ?
+837 	UR 	837-1 	837-2 / 837-3 	?
+838 	UR 	838-1 	N/A 	?
+839 	UR 	839-1 	N/A 	?
