@@ -10492,8 +10492,8 @@
         "840": {
             "info": {
                 "rarity": "UR",
-                "name_basic": "840-1",
-                "names_evolved": "840-2",
+                "name_basic": "Tanjirō Kamado",
+                "names_evolved": "Tanjirō Kamado CC",
                 "obtain_method": "Rare Cat Capsule - Demon Slayer Collaboration"
             },
             "stats": [
@@ -10504,8 +10504,8 @@
         "841": {
             "info": {
                 "rarity": "UR",
-                "name_basic": "841-1",
-                "names_evolved": "841-2",
+                "name_basic": "Nezuko Kamado",
+                "names_evolved": "Nezuko Kamado CC",
                 "obtain_method": "Rare Cat Capsule - Demon Slayer Collaboration"
             },
             "stats": [
@@ -10516,8 +10516,8 @@
         "842": {
             "info": {
                 "rarity": "UR",
-                "name_basic": "842-1",
-                "names_evolved": "842-2",
+                "name_basic": "Zenitsu Agatsuma",
+                "names_evolved": "Zenitsu Agatsuma CC",
                 "obtain_method": "Rare Cat Capsule - Demon Slayer Collaboration"
             },
             "stats": [
@@ -10528,8 +10528,8 @@
         "843": {
             "info": {
                 "rarity": "UR",
-                "name_basic": "843-1",
-                "names_evolved": "843-2",
+                "name_basic": "Inosuke Hashibira",
+                "names_evolved": "Inosuke Hashibira CC",
                 "obtain_method": "Rare Cat Capsule - Demon Slayer Collaboration"
             },
             "stats": [
@@ -10540,8 +10540,8 @@
         "844": {
             "info": {
                 "rarity": "UR",
-                "name_basic": "844-1",
-                "names_evolved": "844-2",
+                "name_basic": "Giyū Tomioka",
+                "names_evolved": "Giyū Tomioka CC",
                 "obtain_method": "Rare Cat Capsule - Demon Slayer Collaboration"
             },
             "stats": [
@@ -10552,8 +10552,8 @@
         "845": {
             "info": {
                 "rarity": "UR",
-                "name_basic": "845-1",
-                "names_evolved": "845-2",
+                "name_basic": "Shinobu Kochō",
+                "names_evolved": "Shinobu Kochō CC",
                 "obtain_method": "Rare Cat Capsule - Demon Slayer Collaboration"
             },
             "stats": [
@@ -10564,8 +10564,8 @@
         "846": {
             "info": {
                 "rarity": "UR",
-                "name_basic": "846-1",
-                "names_evolved": "846-2",
+                "name_basic": "Kyōjurō Rengoku",
+                "names_evolved": "Kyōjurō Rengoku CC",
                 "obtain_method": "Rare Cat Capsule - Demon Slayer Collaboration"
             },
             "stats": [
@@ -10576,8 +10576,8 @@
         "847": {
             "info": {
                 "rarity": "SR",
-                "name_basic": "847-1",
-                "names_evolved": "847-2",
+                "name_basic": "Li'l Sakonji Urokodaki",
+                "names_evolved": "Li'l Sakonji Urokodaki CC",
                 "obtain_method": "Rare Cat Capsule - Demon Slayer Collaboration"
             },
             "stats": [
@@ -10588,8 +10588,8 @@
         "848": {
             "info": {
                 "rarity": "RR",
-                "name_basic": "848-1",
-                "names_evolved": "848-2",
+                "name_basic": "Tanjirō Cat",
+                "names_evolved": "Tanjirō Cat CC",
                 "obtain_method": "?"
             },
             "stats": [
@@ -10600,9 +10600,9 @@
         "849": {
             "info": {
                 "rarity": "EX",
-                "name_basic": "849-1",
-                "names_evolved": "849-2",
-                "obtain_method": "?"
+                "name_basic": "Nezuko Cat",
+                "names_evolved": "Nezuko Cat CC",
+                "obtain_method": "Stamp Reward - Demon Slayer Collaboration Event"
             },
             "stats": [
                 [620,2,10,50,0,220,390,260,0,320,0,0,1,5,0,9,1,0,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0],
