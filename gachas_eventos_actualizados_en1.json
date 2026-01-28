@@ -1,30 +1,6 @@
 {
   "gachas": [
     {
-      "id": "elemental_pixies_2026-01-19",
-      "nombre": "Elemental Pixies (+Komori)",
-      "fecha_inicio": "2026-01-19",
-      "fecha_fin": "2026-01-23",
-      "caracteristicas": [
-        "G",
-        "N",
-        "GR",
-        "R"
-      ]
-    },
-    {
-      "id": "girls_&_monsters_2026-01-23",
-      "nombre": "Girls & Monsters (+Sorceress Sidmi)",
-      "fecha_inicio": "2026-01-23",
-      "fecha_fin": "2026-01-26",
-      "caracteristicas": [
-        "G",
-        "N",
-        "GR",
-        "R"
-      ]
-    },
-    {
       "id": "iron_legion_2026-01-26",
       "nombre": "Iron Legion (+Mighty Morta-Loncha)",
       "fecha_inicio": "2026-01-26",
@@ -41,111 +17,6 @@
       "nombre": "Luga Families",
       "fecha_inicio": "2026-01-26",
       "fecha_fin": "2026-01-30",
-      "caracteristicas": [
-        "P",
-        "N",
-        "GR",
-        "R"
-      ]
-    },
-    {
-      "id": "epicfest_(+Komori)_2026-01-16",
-      "nombre": "Epicfest (+Komori)",
-      "fecha_inicio": "2026-01-16",
-      "fecha_fin": "2026-01-19",
-      "caracteristicas": [
-        "P"
-      ]
-    },
-    {
-      "id": "street_fighter_gacha_(blue_team)_2026-01-09",
-      "nombre": "Street Fighter Gacha (Blue Team) (+Juri)",
-      "fecha_inicio": "2026-01-09",
-      "fecha_fin": "2026-01-16",
-      "caracteristicas": [
-        "P"
-      ]
-    },
-    {
-      "id": "street_fighter_gacha_(blue_team)_2026-01-16",
-      "nombre": "Street Fighter Gacha (Blue Team) (+Juri)",
-      "fecha_inicio": "2026-01-16",
-      "fecha_fin": "2026-01-19",
-      "caracteristicas": [
-        "P"
-      ]
-    },
-    {
-      "id": "street_fighter_gacha_(blue_team)_2026-01-19",
-      "nombre": "Street Fighter Gacha (Blue Team) (+Juri)",
-      "fecha_inicio": "2026-01-19",
-      "fecha_fin": "2026-01-23",
-      "caracteristicas": [
-        "G"
-      ]
-    },
-    {
-      "id": "street_fighter_gacha_(blue_team)_2026-01-23",
-      "nombre": "Street Fighter Gacha (Blue Team) (+Juri)",
-      "fecha_inicio": "2026-01-23",
-      "fecha_fin": "2026-01-26",
-      "caracteristicas": [
-        "G"
-      ]
-    },
-    {
-      "id": "street_fighter_gacha_(red_team)_2026-01-09",
-      "nombre": "Street Fighter Gacha (Red Team) (+Cammy)",
-      "fecha_inicio": "2026-01-09",
-      "fecha_fin": "2026-01-16",
-      "caracteristicas": [
-        "P"
-      ]
-    },
-    {
-      "id": "street_fighter_gacha_(red_team)_2026-01-16",
-      "nombre": "Street Fighter Gacha (Red Team) (+Cammy)",
-      "fecha_inicio": "2026-01-16",
-      "fecha_fin": "2026-01-19",
-      "caracteristicas": [
-        "P"
-      ]
-    },
-    {
-      "id": "street_fighter_gacha_(red_team)_2026-01-19",
-      "nombre": "Street Fighter Gacha (Red Team) (+Cammy)",
-      "fecha_inicio": "2026-01-19",
-      "fecha_fin": "2026-01-23",
-      "caracteristicas": [
-        "G"
-      ]
-    },
-    {
-      "id": "street_fighter_gacha_(red_team)_2026-01-23",
-      "nombre": "Street Fighter Gacha (Red Team) (+Cammy)",
-      "fecha_inicio": "2026-01-23",
-      "fecha_fin": "2026-01-26",
-      "caracteristicas": [
-        "G"
-      ]
-    },
-    {
-      "id": "the_dynamites_2026-01-13",
-      "nombre": "The Dynamites",
-      "fecha_inicio": "2026-01-13",
-      "fecha_fin": "2026-01-16",
-      "caracteristicas": [
-        "P",
-        "N",
-        "GR",
-        "R"
-      ]
-    },
-    {
-      "id": "ultra_souls_2026-01-09",
-      "nombre": "Ultra Souls",
-      "fecha_inicio": "2026-01-09",
-      "fecha_fin": "2026-01-13",
       "caracteristicas": [
         "P",
         "N",
@@ -217,33 +88,6 @@
   ],
   "eventos": [
     {
-      "id": "arena_of_destiny_2026-01-09",
-      "nombre": "Arena of Destiny",
-      "caracteristicas": [
-        "Battle in the arena!"
-      ],
-      "fecha_inicio": "2026-01-09",
-      "fecha_fin": "2026-01-26"
-    },
-    {
-      "id": "street_fighter_(easy),_street_fighter_(normal),_street_fighter_(hard),_street_fighter:_very_hard_2026-01-09",
-      "nombre": "Street Fighter Collab",
-      "caracteristicas": [
-        "No description available."
-      ],
-      "fecha_inicio": "2026-01-09",
-      "fecha_fin": "2026-01-26"
-    },
-    {
-      "id": "gigahaniwan_strikes!_2026-01-12",
-      "nombre": "Gigahaniwan Strikes!",
-      "caracteristicas": [
-        "https://youtu.be/fmzmSJPHXGw"
-      ],
-      "fecha_inicio": "2026-01-12",
-      "fecha_fin": "2026-01-19"
-    },
-    {
       "id": "duel_stages_challenge_2026-01-16",
       "nombre": "Duel Stages Challenge",
       "caracteristicas": [
@@ -277,7 +121,7 @@
         "No description available."
       ],
       "fecha_inicio": "2026-01-24",
-      "fecha_fin": "2026-01-15"
+      "fecha_fin": "2026-01-30"
     },
     {
       "id": "attack_of_the_omens_2026-01-26",
@@ -307,8 +151,8 @@
       "fecha_fin": "2026-03-09"
     },
     {
-      "id": "lunar_new_year's_gifts_galore!_(00:00_~_24:00)_2026-01-30",
-      "nombre": "Lunar New Year's Gifts Galore! (00:00 ~ 24:00)",
+      "id": "lunar_new_year_2026-01-30",
+      "nombre": "Lunar New Year's Celebration event!",
       "caracteristicas": [
         "No description available."
       ],
@@ -325,78 +169,6 @@
       "fecha_fin": "2026-03-09"
     },
     {
-      "id": "top_5_most_seen_enemies,_2025!_2026-01-30",
-      "nombre": "Top 5 Most Seen Enemies, 2025!",
-      "caracteristicas": [
-        "No description available."
-      ],
-      "fecha_inicio": "2026-01-30",
-      "fecha_fin": "2026-02-13"
-    },
-    {
-      "id": "memories_of_2025_2026-01-30",
-      "nombre": "Memories of 2025",
-      "caracteristicas": [
-        "No description available."
-      ],
-      "fecha_inicio": "2026-01-30",
-      "fecha_fin": "2026-02-13"
-    },
-    {
-      "id": "crimson_catastrophe,_crimson_vengeance,_peerless,_peerless_too,_wrath_of_heaven,_wrath_of_the_divine,_red_sky_at_morning,_red_sky_at_night,_the_2nd_dimension,_the_3rd_dimension,_the_great_diablo,_the_greatest_diablo_2026-01-30",
-      "nombre": "Crimson Catastrophe, Crimson Vengeance, Peerless, Peerless Too, Wrath of Heaven, Wrath of the Divine, Red Sky at Morning, Red Sky at Night, The 2nd Dimension, The 3rd Dimension, The Great Diablo, The Greatest Diablo",
-      "caracteristicas": [
-        "No description available."
-      ],
-      "fecha_inicio": "2026-01-30",
-      "fecha_fin": "2026-02-13"
-    },
-    {
-      "id": "clionel_ascendant,_clionel_dominant,_river_styx,_river_acheron,_king_wahwah's_revenge,_king_wahwah's_return,_deeply_dreaming,_a_deeper_dream,_the_angel_&_the_demon,_the_king_&_the_maiden,_the_king_&_the_angel_2026-01-30",
-      "nombre": "Clionel Ascendant, Clionel Dominant, River Styx, River Acheron, King Wahwah's Revenge, King Wahwah's Return, Deeply Dreaming, A Deeper Dream, The Angel & The Demon, The King & The Maiden, The King & The Angel",
-      "caracteristicas": [
-        "No description available."
-      ],
-      "fecha_inicio": "2026-01-30",
-      "fecha_fin": "2026-02-13"
-    },
-    {
-      "id": "courts_of_torment,_courts_of_agony,_first_errand,_neo_first_errand,_wanwan's_glory,_neo_wanwan's_glory,_z-onel_rises!,_the_tortoise_and_the_baby,_the_prince_and_the_revenant_2026-01-30",
-      "nombre": "Courts of Torment, Courts of Agony, First Errand, NEO First Errand, Wanwan's Glory, NEO Wanwan's Glory, Z-Onel Rises!, The Tortoise and the Baby, The Prince and the Revenant",
-      "caracteristicas": [
-        "No description available."
-      ],
-      "fecha_inicio": "2026-01-30",
-      "fecha_fin": "2026-02-13"
-    },
-    {
-      "id": "adult_cat_awakes!,_evil_cat_awakes!,_doll_cats_awake!_2026-01-30",
-      "nombre": "Adult Cat Awakes!, Evil Cat Awakes!, Doll Cats Awake!",
-      "caracteristicas": [
-        "No description available."
-      ],
-      "fecha_inicio": "2026-01-30",
-      "fecha_fin": "2026-02-09"
-    },
-    {
-      "id": "event_all-stars_super_present_dx_(06:00_~_09:00,_12:00_~_15:00,_19:00_~_23:00)_2026-01-30",
-      "nombre": "Event All-Stars Super Present DX (06:00 ~ 09:00, 12:00 ~ 15:00, 19:00 ~ 23:00)",
-      "caracteristicas": [
-        "No description available."
-      ],
-      "fecha_inicio": "2026-01-30",
-      "fecha_fin": "2026-02-13"
-    },
-    {
-      "id": "monthly_event_all-stars__grateful_gathering_2026-01-30",
-      "nombre": "Monthly Event All-Stars  Grateful Gathering",
-      "caracteristicas": [
-        "No description available."
-      ],
-      "fecha_inicio": "2026-01-30",
-      "fecha_fin": "2026-03-09"
-    },
-    {
       "id": "cybear's_vengeance_2026-01-30",
       "nombre": "Cybear's Vengeance",
       "caracteristicas": [
@@ -406,35 +178,8 @@
       "fecha_fin": "2026-02-08"
     },
     {
-      "id": "eoc_treasure_festival_(every_even_day)_2026-01-30",
-      "nombre": "EoC Treasure Festival (Every Even Day)",
-      "caracteristicas": [
-        "No description available."
-      ],
-      "fecha_inicio": "2026-01-30",
-      "fecha_fin": "2026-03-08"
-    },
-    {
-      "id": "grand_xp_harvest_(easy),_grand_xp_harvest_(normal),_grand_xp_harvest_(hard),_5015_2026-01-30",
-      "nombre": "Grand XP Harvest (Easy), Grand XP Harvest (Normal), Grand XP Harvest (Hard), 5015",
-      "caracteristicas": [
-        "No description available."
-      ],
-      "fecha_inicio": "2026-01-30",
-      "fecha_fin": "2026-02-06"
-    },
-    {
-      "id": "ex_unit_half_discount_2026-01-30",
-      "nombre": "EX Unit Half Discount",
-      "caracteristicas": [
-        "No description available."
-      ],
-      "fecha_inicio": "2026-01-30",
-      "fecha_fin": "2026-03-09"
-    },
-    {
       "id": "777_slot_2026-01-30",
-      "nombre": "777 Slot",
+      "nombre": "777 Wildcat Slots",
       "caracteristicas": [
         "No description available."
       ],
