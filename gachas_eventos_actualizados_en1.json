@@ -178,6 +178,41 @@
       "fecha_inicio": "2025-01-01",
       "fecha_fin": "2027-01-04",
       "caracteristicas": []
+    },
+    {
+      "id": "dark_heroes_2026-01-30",
+      "nombre": "Dark Heroes",
+      "fecha_inicio": "2026-01-30",
+      "fecha_fin": "2026-02-02",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "galaxy_gals_2026-02-02",
+      "nombre": "Galaxy Gals",
+      "fecha_inicio": "2026-02-02",
+      "fecha_fin": "2026-02-05",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "red_busters_2026-01-30",
+      "nombre": "Red Busters (+Sharpshooter Saki, Hevijak the Wicked)",
+      "fecha_inicio": "2026-01-30",
+      "fecha_fin": "2026-02-21",
+      "caracteristicas": [
+        "S",
+        "N",
+        "R"
+      ]
     }
   ],
   "eventos": [
@@ -407,5 +442,5 @@
       "fecha_fin": "2026-02-12"
     }
   ],
-  "ultima_actualizacion": "2026-01-28T14:16:25.641930"
+  "ultima_actualizacion": "2026-01-28T14:16:59.747016"
 }
