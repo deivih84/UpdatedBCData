@@ -996,6 +996,90 @@
         511,
         510
       ]
+    },
+    {
+      "id": "dark_heroes_2026-01-30",
+      "nombre": "Dark Heroes",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_heroes.png",
+      "fecha_inicio": "2026-01-30",
+      "fecha_fin": "2026-02-02",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ],
+      "gatos_ids": [
+        194,
+        195,
+        196,
+        212,
+        226,
+        261,
+        431,
+        481,
+        533,
+        634,
+        698,
+        774,
+        903
+      ]
+    },
+    {
+      "id": "galaxy_gals_2026-02-02",
+      "nombre": "Galaxy Gals",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_gals.png",
+      "fecha_inicio": "2026-02-02",
+      "fecha_fin": "2026-02-05",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ],
+      "gatos_ids": [
+        75,
+        76,
+        105,
+        106,
+        107,
+        159,
+        351,
+        449,
+        502,
+        619,
+        647,
+        733,
+        830,
+        910
+      ]
+    },
+    {
+      "id": "red_busters_2026-01-30",
+      "nombre": "Red Busters (+Sharpshooter Saki, Hevijak the Wicked)",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_red_busters.png",
+      "fecha_inicio": "2026-01-30",
+      "fecha_fin": "2026-02-21",
+      "caracteristicas": [
+        "S",
+        "N",
+        "R"
+      ],
+      "gatos_ids": [
+        42,
+        43,
+        76,
+        86,
+        87,
+        105,
+        124,
+        136,
+        212,
+        283,
+        305,
+        533,
+        620
+      ]
     }
   ],
   "eventos": [
@@ -1012,5 +1096,5 @@
       }
     }
   ],
-  "ultima_actualizacion": "2026-01-10T03:38:18.943988"
+  "ultima_actualizacion": "2026-01-28T14:14:48.507840"
 }
