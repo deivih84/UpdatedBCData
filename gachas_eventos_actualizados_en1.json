@@ -72,20 +72,6 @@
       ]
     },
     {
-      "id": "platinum_capsules_2025-01-01",
-      "nombre": "Platinum Capsules",
-      "fecha_inicio": "2025-01-01",
-      "fecha_fin": "2027-01-04",
-      "caracteristicas": []
-    },
-    {
-      "id": "legend_capsules_2025-01-01",
-      "nombre": "Legend Capsules",
-      "fecha_inicio": "2025-01-01",
-      "fecha_fin": "2027-01-04",
-      "caracteristicas": []
-    },
-    {
       "id": "best_of_the_best_gacha_2026-02-05",
       "nombre": "Best of the Best Gacha",
       "fecha_inicio": "2026-02-05",
@@ -118,6 +104,20 @@
       "nombre": "Ultra Selection Gacha",
       "fecha_inicio": "2026-02-10",
       "fecha_fin": "2026-02-13",
+      "caracteristicas": []
+    },
+    {
+      "id": "platinum_capsules_2025-01-01",
+      "nombre": "Platinum Capsules",
+      "fecha_inicio": "2025-01-01",
+      "fecha_fin": "2027-01-04",
+      "caracteristicas": []
+    },
+    {
+      "id": "legend_capsules_2025-01-01",
+      "nombre": "Legend Capsules",
+      "fecha_inicio": "2025-01-01",
+      "fecha_fin": "2027-01-04",
       "caracteristicas": []
     }
   ],
