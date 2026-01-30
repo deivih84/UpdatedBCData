@@ -71,11 +71,6 @@
         "R"
       ]
     },
-
-
-
-
-
     {
       "id": "platinum_capsules_2025-01-01",
       "nombre": "Platinum Capsules",
@@ -88,6 +83,41 @@
       "nombre": "Legend Capsules",
       "fecha_inicio": "2025-01-01",
       "fecha_fin": "2027-01-04",
+      "caracteristicas": []
+    },
+    {
+      "id": "best_of_the_best_gacha_2026-02-05",
+      "nombre": "Best of the Best Gacha",
+      "fecha_inicio": "2026-02-05",
+      "fecha_fin": "2026-02-10",
+      "caracteristicas": []
+    },
+    {
+      "id": "miracle_selection_gacha_2026-02-10",
+      "nombre": "Miracle Selection Gacha",
+      "fecha_inicio": "2026-02-10",
+      "fecha_fin": "2026-02-13",
+      "caracteristicas": []
+    },
+    {
+      "id": "neo_best_of_the_best_gacha_2026-02-05",
+      "nombre": "Neo Best of the Best Gacha",
+      "fecha_inicio": "2026-02-05",
+      "fecha_fin": "2026-02-10",
+      "caracteristicas": []
+    },
+    {
+      "id": "uberfest_2026-01-30",
+      "nombre": "Uberfest (+Komori)",
+      "fecha_inicio": "2026-01-30",
+      "fecha_fin": "2026-02-05",
+      "caracteristicas": []
+    },
+    {
+      "id": "ultra_selection_gacha_2026-02-10",
+      "nombre": "Ultra Selection Gacha",
+      "fecha_inicio": "2026-02-10",
+      "fecha_fin": "2026-02-13",
       "caracteristicas": []
     }
   ],
@@ -192,5 +222,5 @@
       "fecha_fin": "2026-02-12"
     }
   ],
-  "ultima_actualizacion": "2026-01-28T14:16:59.747016"
+  "ultima_actualizacion": "2026-01-30T02:06:10.253156"
 }
