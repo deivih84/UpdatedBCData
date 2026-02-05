@@ -207,7 +207,115 @@
       ],
       "fecha_inicio": "2026-01-26",
       "fecha_fin": "2026-02-02"
+    },
+    {
+      "id": "\u9b3c\u6bba\u968a_\u5165\u968a\u8a66\u9a13_2026-01-30",
+      "nombre": "\u9b3c\u6bba\u968a \u5165\u968a\u8a66\u9a13",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-01-30",
+      "fecha_fin": "2026-02-16"
+    },
+    {
+      "id": "\u90a3\u7530\u8718\u86db\u5c71\u306e\u6226\u3044_2026-01-30",
+      "nombre": "\u90a3\u7530\u8718\u86db\u5c71\u306e\u6226\u3044",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-01-30",
+      "fecha_fin": "2026-02-16"
+    },
+    {
+      "id": "\u30e9\u30f3\u30ad\u30f3\u30b0\u306e\u9593_2026-01-30",
+      "nombre": "\u30e9\u30f3\u30ad\u30f3\u30b0\u306e\u9593",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-01-30",
+      "fecha_fin": "2026-02-16"
+    },
+    {
+      "id": "divine_archangel_strikes_2026-01-30",
+      "nombre": "Divine Archangel Strikes",
+      "caracteristicas": [
+        "Divine Archangel Strikes contains a total of 20 No Continues levels, each called Blessing. After beating a level, the player must wait for 30 minutes before they may proceed to the next one. Rewards for the first completion of a level can include XP, Tickets, Catamins and Materials. Every 10 levels plays out the same, but the strength magnifications and enemy base's HP are increased with each level."
+      ],
+      "fecha_inicio": "2026-01-30",
+      "fecha_fin": "2026-02-06"
+    },
+    {
+      "id": "xp_harvest_(easy)_2026-01-30",
+      "nombre": "XP Harvest (Easy)",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-01-30",
+      "fecha_fin": "2026-02-16"
+    },
+    {
+      "id": "otherworld_colosseum_2026-02-01",
+      "nombre": "Otherworld Colosseum",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-02-01",
+      "fecha_fin": "2026-02-16"
+    },
+    {
+      "id": "\u7279\u5225\u4efb\u52d9\uff01\u9b3c\u5316\u30af\u30de\u5148\u751f\u8a0e\u4f10_2026-02-02",
+      "nombre": "\u7279\u5225\u4efb\u52d9\uff01\u9b3c\u5316\u30af\u30de\u5148\u751f\u8a0e\u4f10",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-02-02",
+      "fecha_fin": "2026-02-16"
+    },
+    {
+      "id": "\u7279\u5225\u4efb\u52d9\uff01\u7d2f\u8a0e\u4f10_2026-02-04",
+      "nombre": "\u7279\u5225\u4efb\u52d9\uff01\u7d2f\u8a0e\u4f10",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-02-04",
+      "fecha_fin": "2026-02-16"
+    },
+    {
+      "id": "\u7121\u9650\u5217\u8eca\u306e\u6226\u3044_2026-02-05",
+      "nombre": "\u7121\u9650\u5217\u8eca\u306e\u6226\u3044",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-02-05",
+      "fecha_fin": "2026-02-16"
+    },
+    {
+      "id": "\u7279\u5225\u4efb\u52d9\uff01\u9b58\u5922\u8a0e\u4f10_2026-02-07",
+      "nombre": "\u7279\u5225\u4efb\u52d9\uff01\u9b58\u5922\u8a0e\u4f10",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-02-07",
+      "fecha_fin": "2026-02-16"
+    },
+    {
+      "id": "\u5f37\u8972\uff01\u7317\u7aa9\u5ea7\u3068\u306e\u6226\u3044_2026-02-09",
+      "nombre": "\u5f37\u8972\uff01\u7317\u7aa9\u5ea7\u3068\u306e\u6226\u3044",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-02-09",
+      "fecha_fin": "2026-02-16"
+    },
+    {
+      "id": "\u7279\u5225\u4efb\u52d9\uff01\u7317\u7aa9\u5ea7\u8a0e\u4f10_2026-02-09",
+      "nombre": "\u7279\u5225\u4efb\u52d9\uff01\u7317\u7aa9\u5ea7\u8a0e\u4f10",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-02-09",
+      "fecha_fin": "2026-02-16"
     }
   ],
-  "ultima_actualizacion": "2026-01-17T00:33:58.790356"
+  "ultima_actualizacion": "2026-02-05T19:47:44.895729"
 }
