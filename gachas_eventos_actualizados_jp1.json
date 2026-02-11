@@ -13,6 +13,61 @@
       "fecha_inicio": "2025-01-01",
       "fecha_fin": "2027-01-04",
       "caracteristicas": []
+    },
+    {
+      "id": "dark_heroes_2026-02-01",
+      "nombre": "Dark Heroes",
+      "fecha_inicio": "2026-02-01",
+      "fecha_fin": "2026-02-04",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "galaxy_gals_2026-01-30",
+      "nombre": "Galaxy Gals (+)",
+      "fecha_inicio": "2026-01-30",
+      "fecha_fin": "2026-02-01",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "the_almighties_2026-02-08",
+      "nombre": "The Almighties (+Victorious Skanda)",
+      "fecha_inicio": "2026-02-08",
+      "fecha_fin": "2026-02-11",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "uberfest_2026-02-01",
+      "nombre": "Uberfest (+Squire Luno)",
+      "fecha_inicio": "2026-02-01",
+      "fecha_fin": "2026-02-04",
+      "caracteristicas": []
+    },
+    {
+      "id": "wargods_vajiras_2026-02-06",
+      "nombre": "Wargods Vajiras",
+      "fecha_inicio": "2026-02-06",
+      "fecha_fin": "2026-02-08",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
     }
   ],
   "eventos": [
@@ -125,5 +180,5 @@
       "fecha_fin": "2026-02-16"
     }
   ],
-  "ultima_actualizacion": "2026-02-05T19:47:44.895729"
+  "ultima_actualizacion": "2026-02-05T19:51:03.974891"
 }
