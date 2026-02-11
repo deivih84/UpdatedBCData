@@ -158,6 +158,15 @@
         "GR",
         "R"
       ]
+    },
+    {
+      "id": "new_unit_squire_luno_added!_special_capsules_featuring_powerful_limited_units!_2026-02-13",
+      "nombre": "New unit Squire Luno added! Special Capsules featuring powerful limited units!",
+      "fecha_inicio": "2026-02-13",
+      "fecha_fin": "2026-02-21",
+      "caracteristicas": [
+        "L"
+      ]
     }
   ],
   "eventos": [
@@ -261,5 +270,5 @@
       "fecha_fin": "2026-02-12"
     }
   ],
-  "ultima_actualizacion": "2026-02-12T00:25:01.322716"
+  "ultima_actualizacion": "2026-02-12T00:31:29.842457"
 }
