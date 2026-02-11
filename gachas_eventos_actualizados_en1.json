@@ -119,6 +119,45 @@
       "fecha_inicio": "2025-01-01",
       "fecha_fin": "2027-01-04",
       "caracteristicas": []
+    },
+    {
+      "id": "dragon_emperors_2026-02-16",
+      "nombre": "Dragon Emperors",
+      "fecha_inicio": "2026-02-16",
+      "fecha_fin": "2026-02-18",
+      "caracteristicas": [
+        "L",
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "the_almighties_2026-02-13",
+      "nombre": "The Almighties (+Victorious Skanda)",
+      "fecha_inicio": "2026-02-13",
+      "fecha_fin": "2026-02-16",
+      "caracteristicas": [
+        "L",
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "ultra_souls_2026-02-18",
+      "nombre": "Ultra Souls",
+      "fecha_inicio": "2026-02-18",
+      "fecha_fin": "2026-02-21",
+      "caracteristicas": [
+        "L",
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
     }
   ],
   "eventos": [
@@ -222,5 +261,5 @@
       "fecha_fin": "2026-02-12"
     }
   ],
-  "ultima_actualizacion": "2026-01-30T02:06:10.253156"
+  "ultima_actualizacion": "2026-02-12T00:25:01.322716"
 }
