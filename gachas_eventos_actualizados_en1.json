@@ -107,20 +107,6 @@
       "caracteristicas": []
     },
     {
-      "id": "platinum_capsules_2025-01-01",
-      "nombre": "Platinum Capsules",
-      "fecha_inicio": "2025-01-01",
-      "fecha_fin": "2027-01-04",
-      "caracteristicas": []
-    },
-    {
-      "id": "legend_capsules_2025-01-01",
-      "nombre": "Legend Capsules",
-      "fecha_inicio": "2025-01-01",
-      "fecha_fin": "2027-01-04",
-      "caracteristicas": []
-    },
-    {
       "id": "dragon_emperors_2026-02-16",
       "nombre": "Dragon Emperors",
       "fecha_inicio": "2026-02-16",
@@ -167,6 +153,20 @@
       "caracteristicas": [
         "L"
       ]
+    },
+    {
+      "id": "platinum_capsules_2025-01-01",
+      "nombre": "Platinum Capsules",
+      "fecha_inicio": "2025-01-01",
+      "fecha_fin": "2027-01-04",
+      "caracteristicas": []
+    },
+    {
+      "id": "legend_capsules_2025-01-01",
+      "nombre": "Legend Capsules",
+      "fecha_inicio": "2025-01-01",
+      "fecha_fin": "2027-01-04",
+      "caracteristicas": []
     }
   ],
   "eventos": [
