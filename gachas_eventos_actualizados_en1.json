@@ -279,6 +279,15 @@
       "fecha_fin": "2026-03-09"
     },
     {
+      "id": "heavenly_tower_2026-02-13",
+      "nombre": "Heavenly Tower",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-02-13",
+      "fecha_fin": "2026-03-09"
+    },
+    {
       "id": "final_boss_strikes_2026-02-16",
       "nombre": "Final Boss Strikes?!",
       "caracteristicas": [
@@ -286,15 +295,6 @@
       ],
       "fecha_inicio": "2026-02-16",
       "fecha_fin": "2026-02-17"
-    },
-    {
-      "id": "new_year's_bling_2026-02-13",
-      "nombre": "New Year's Bling",
-      "caracteristicas": [
-        "No description available."
-      ],
-      "fecha_inicio": "2026-02-13",
-      "fecha_fin": "2026-03-09"
     },
     {
       "id": "go_go_graduates!_2026-02-13",
@@ -331,15 +331,6 @@
       ],
       "fecha_inicio": "2026-02-16",
       "fecha_fin": "2026-03-02"
-    },
-    {
-      "id": "cats_eye_caverns_2026-02-20",
-      "nombre": "Cats Eye Caverns",
-      "caracteristicas": [
-        "No description available."
-      ],
-      "fecha_inicio": "2026-02-20",
-      "fecha_fin": "2026-02-27"
     },
     {
       "id": "catfruit_buffet_(08:00_~_10:00,_12:00_~_14:00,_19:00_~_21:00)_2026-02-21",
