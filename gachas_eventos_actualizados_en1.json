@@ -268,7 +268,187 @@
       ],
       "fecha_inicio": "2026-01-30",
       "fecha_fin": "2026-02-12"
+    },
+    {
+      "id": "all-stars_stages_2026-02-13",
+      "nombre": "All-Stars Stages",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-02-13",
+      "fecha_fin": "2026-03-09"
+    },
+    {
+      "id": "777_slot_2026-02-13",
+      "nombre": "777 Slot",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-02-13",
+      "fecha_fin": "2026-03-09"
+    },
+    {
+      "id": "cover_of_darkness_2026-02-13",
+      "nombre": "Cover of Darkness",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-02-13",
+      "fecha_fin": "2026-03-09"
+    },
+    {
+      "id": "lunar_new_year_sale_scuffle_2026-02-13",
+      "nombre": "Lunar New Year Sale Scuffle",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-02-13",
+      "fecha_fin": "2026-03-09"
+    },
+    {
+      "id": "snow_doges_2026-02-13",
+      "nombre": "Snow Doges",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-02-13",
+      "fecha_fin": "2026-03-09"
+    },
+    {
+      "id": "a_colossal_new_year!_2026-02-13",
+      "nombre": "A Colossal New Year!",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-02-13",
+      "fecha_fin": "2026-03-09"
+    },
+    {
+      "id": "new_year's_bling_2026-02-13",
+      "nombre": "New Year's Bling",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-02-13",
+      "fecha_fin": "2026-03-09"
+    },
+    {
+      "id": "heaven_of_darkness,_neo_darkness_heaven,_sweet_irony,_bitter_irony,_dimension_of_despair,_dimension_of_delirium,_the_rolling_dead,_the_dead_keep_rolling,_typhoon_nemo,_typhoon_nihil_2026-02-13",
+      "nombre": "Heaven of Darkness, NEO Darkness Heaven, Sweet Irony, Bitter Irony, Dimension of Despair, Dimension of Delirium, The Rolling Dead, The Dead Keep Rolling, Typhoon Nemo, Typhoon Nihil",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-02-13",
+      "fecha_fin": "2026-03-09"
+    },
+    {
+      "id": "queen's_coronation,_queen's_condemnation,_dead_on_debut,_dead_by_encore,_blue_impact,_the_queen_&_the_dead,_the_dead_&_the_bloated,_the_queen_&_the_maiden_2026-02-13",
+      "nombre": "Queen's Coronation, Queen's Condemnation, Dead on Debut, Dead by Encore, Blue Impact, The Queen & The Dead, The Dead & The Bloated, The Queen & The Maiden",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-02-13",
+      "fecha_fin": "2026-03-09"
+    },
+    {
+      "id": "the_old_queen,_the_eldest_queen,_papuu's_paradise,_papuu's_paradox,_the_queen_and_the_saint_2026-02-13",
+      "nombre": "The Old Queen, The Eldest Queen, Papuu's Paradise, Papuu's Paradox, The Queen and the Saint",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-02-13",
+      "fecha_fin": "2026-03-09"
+    },
+    {
+      "id": "grand_xp_harvest_(easy),_grand_xp_harvest_(normal),_grand_xp_harvest_(hard),_5015_2026-02-13",
+      "nombre": "Grand XP Harvest (Easy), Grand XP Harvest (Normal), Grand XP Harvest (Hard), 5015",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-02-13",
+      "fecha_fin": "2026-02-20"
+    },
+    {
+      "id": "go_go_graduates!_2026-02-13",
+      "nombre": "Go Go Graduates!",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-02-13",
+      "fecha_fin": "2026-03-02"
+    },
+    {
+      "id": "arena_of_honor_2026-02-13",
+      "nombre": "Arena of Honor",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-02-13",
+      "fecha_fin": "2026-02-28"
+    },
+    {
+      "id": "catfruit_festival_2026-02-14",
+      "nombre": "Catfruit Festival",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-02-14",
+      "fecha_fin": "2026-02-15"
+    },
+    {
+      "id": "arena_of_destiny_2026-02-16",
+      "nombre": "Arena of Destiny",
+      "caracteristicas": [
+        "Introduced in Version 14.3 adds a new gimmick where applying status effects grant more points than killing enemies. More points will be awarded for units with fewer target Traits (not counting those gained from Talents). This rewards for this dojo are Treasure Chests, which contain exclusive Talent Orbs that can grant special abilities to the units that are given them."
+      ],
+      "fecha_inicio": "2026-02-16",
+      "fecha_fin": "2026-03-02"
+    },
+    {
+      "id": "cats_eye_caverns_2026-02-20",
+      "nombre": "Cats Eye Caverns",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-02-20",
+      "fecha_fin": "2026-02-27"
+    },
+    {
+      "id": "catfruit_buffet_(08:00_~_10:00,_12:00_~_14:00,_19:00_~_21:00)_2026-02-21",
+      "nombre": "Catfruit Buffet (08:00 ~ 10:00, 12:00 ~ 14:00, 19:00 ~ 21:00)",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-02-21",
+      "fecha_fin": "2026-02-14"
+    },
+    {
+      "id": "baron_seal_strikes_2026-02-23",
+      "nombre": "Baron Seal Strikes",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-02-23",
+      "fecha_fin": "2026-03-02"
+    },
+    {
+      "id": "grand_xp_harvest_(easy),_grand_xp_harvest_(normal),_grand_xp_harvest_(hard),_5015_2026-02-27",
+      "nombre": "Grand XP Harvest (Easy), Grand XP Harvest (Normal), Grand XP Harvest (Hard), 5015",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-02-27",
+      "fecha_fin": "2026-03-09"
+    },
+    {
+      "id": "catfruit_festival_2026-02-28",
+      "nombre": "Catfruit Festival",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-02-28",
+      "fecha_fin": "2026-03-01"
     }
   ],
-  "ultima_actualizacion": "2026-02-12T00:31:29.842457"
+  "ultima_actualizacion": "2026-02-14T01:40:40.988056"
 }
