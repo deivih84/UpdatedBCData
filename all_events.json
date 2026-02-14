@@ -21,6 +21,11 @@
       "descripcion": "This event contains three stages, each stage is a trip to all Growing Stage of the same difficulty labeled on each stage, in sequence: Growing Green, Growing Purple, Growing Red, Growing Blue and finally Growing Yellow, which is ended with the Catfruit Jubilee. After the player clears one Growing Stage, a message will show up to ask if the player wants to continue on the next Growing Stage. The player can play a total of six stages, and it costs 500 energy per play. "
     },
     {
+      "nombre": "Catfruit Festival",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_catfruit_festival.png",
+      "descripcion": "This event contains three stages, each stage is a trip to all Growing Stage of the same difficulty labeled on each stage, in sequence: Growing Green, Growing Purple, Growing Red, Growing Blue and finally Growing Yellow, which is ended with the Catfruit Jubilee. After the player clears one Growing Stage, a message will show up to ask if the player wants to continue on the next Growing Stage. The player can play a total of six stages, and it costs 500 energy per play. "
+    },
+    {
       "nombre": "Cats Eye Cave",
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_empty.png",
       "descripcion": "No info :) this is a Gamatoto expedition area that gives Catseyes as rewards.",
@@ -31,6 +36,12 @@
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_arena_of_destiny.png",
       "descripcion": "Introduced in Version 14.3 adds a new gimmick where applying status effects grant more points than killing enemies. More points will be awarded for units with fewer target Traits (not counting those gained from Talents). This rewards for this dojo are Treasure Chests, which contain exclusive Talent Orbs that can grant special abilities to the units that are given them.",
       "url": "https://battlecats.miraheze.org/wiki/Ranking_Dojo#Arena_of_Destiny"
+    },
+    {
+      "nombre": "Arena of Honor",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_arena_of_honor.png",
+      "descripcion": "Ranking Dojo (ネコ道場ランキングイベント, Neko Dōjō Rankingu Ibento, Cat Dojo Ranking Event) is an event that first appeared from July 31st to August 7th, 2017. This event was officially added in the Version 6.3 Update. The Ranking Dojo is accessed from the Catclaw Dojo menu, so the player needs to unlock the Catclaw Dojo feature in order to participate by completing Chapter 1 of Empire of Cats.",
+      "url": "https://battlecats.miraheze.org/wiki/Ranking_Dojo#About_Ranking_Dojo"
     },
     {
       "nombre": "Duel Stages Challenge",
@@ -66,6 +77,12 @@
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_cybear_vengeance.png",
       "descripcion": "Forged to Kill (Deadly) is the only stage in Cybear's Vengeance. Upon completion, it will always drop five Cat Tickets. Like Facing Danger, Cybear's Vengeance can only be beaten once per appearance, limiting Cat Ticket farming. This map usually appears during special occasions such as Christmas, New Year, or the game's anniversary. It was added in Version 8.0.\nYou must clear Into the Future Chapter 1 in order to have access to this stage.",
       "url": "https://battlecats.miraheze.org/wiki/Forged_to_Kill_(Deadly)"
+    },
+    {
+      "nombre": "Final Boss Strikes?!",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_final_boss.png",
+      "descripcion": "A limited stage appears! Take on Final Boss Strikes?! and unlock the mighty hero Cabaret Cat upon victory!\nThen, challenge the extra-tough map Cabaret Cat Awakens! and clear the stage for a chance to reveal Cabaret Cat's ultimate True Form!\nDuring this event, visit the Legend/Event Stages section from The Battle Cats' title menu to access Final Boss Strikes?! and Cabaret Cat Awakens!\nDon't miss out your chance to acquire transcendent opulence!\nAvailable only on January 31st between 12:00am and 11:59pm!\n\n\n※ Cabaret Cat must first be upgraded to level 20 or higher before it can be evolved to its True Form.\n※ You may still unlock access to Cabaret Cat's True Form by clearing Cabaret Cat Awakens!, even if you have not yet acquired the actual Cabaret Cat unit yet.\n※ If Final Boss Strikes?! and Cabaret Cat Awakens! do not appear at the time listed, please make sure that The Battle Cats app has been updated to the most recent version available.",
+      "url": "https://battlecats.miraheze.org/wiki/Final_Boss_Strikes%3F!_Collaboration_Event"
     },
     {
       "nombre": "The March of Flames",
@@ -106,7 +123,7 @@
       "url": "https://youtu.be/pcv96VOj_RU"
     },
     {
-      "nombre": "Baron Seal",
+      "nombre": "Baron Seal Strikes",
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_seal.png",
       "descripcion": "Baron Seal Strikes contains a total of 20 No Continues levels, called Red Alerts. After beating a Red Alert, the player must wait for 30 minutes before they may proceed to the next one. Rewards for the first completion of a Red Alert can include XP, Tickets, Catamins and Materials. Every 20 Red Alerts play out the same, but the strength magnifications and enemy base's HP are increased with each level. ",
       "url": "https://youtu.be/iBflzd4tFus"
