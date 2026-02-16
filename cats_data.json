@@ -10614,9 +10614,9 @@
         "850": {
             "info": {
                 "rarity": "UR",
-                "name_basic": "Unknown",
-                "names_evolved": "",
-                "obtain_method": ""
+                "name_basic": "風魔小太郎",
+                "names_evolved": "蛇神・風魔小太郎",
+                "obtain_method": "Rare Cat Capsule - Sengoku Wargods Vajiras"
             },
             "stats": [
                 [3500,4,42,350,0,410,2650,1950,0,320,1,0,1,10,0,9,0,1,0,0,1,0,0,0,0,0,0,100,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,350,0,45,0,1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,50,1640,0,0],
@@ -10626,8 +10626,8 @@
         "851": {
             "info": {
                 "rarity": "RR",
-                "name_basic": "Unknown",
-                "names_evolved": "",
+                "name_basic": "Newspaper Cat",
+                "names_evolved": "Sale Cat",
                 "obtain_method": ""
             },
             "stats": [
@@ -10638,8 +10638,8 @@
         "852": {
             "info": {
                 "rarity": "RR",
-                "name_basic": "Unknown",
-                "names_evolved": "",
+                "name_basic": "Killer Cow Cat",
+                "names_evolved": "True Killer Cow Cat",
                 "obtain_method": ""
             },
             "stats": [
@@ -10650,8 +10650,8 @@
         "853": {
             "info": {
                 "rarity": "EX",
-                "name_basic": "Unknown",
-                "names_evolved": "",
+                "name_basic": "オカルトネコ",
+                "names_evolved": "ギャルネコ",
                 "obtain_method": ""
             },
             "stats": [
