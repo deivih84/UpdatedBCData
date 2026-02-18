@@ -358,7 +358,43 @@
       ],
       "fecha_inicio": "2026-02-28",
       "fecha_fin": "2026-03-01"
+    },
+    {
+      "id": "evangelion_activates!,_decisive_battle!_2026-02-21",
+      "nombre": "EVANGELION Activates!, Decisive Battle!",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-02-21",
+      "fecha_fin": "2026-02-25"
+    },
+    {
+      "id": "the_9th_angel_strikes!_2026-02-21",
+      "nombre": "The 9th Angel Strikes!",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-02-21",
+      "fecha_fin": "2026-02-25"
+    },
+    {
+      "id": "the_10th_angel_strikes!_2026-02-21",
+      "nombre": "The 10th Angel Strikes!",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-02-21",
+      "fecha_fin": "2026-02-25"
+    },
+    {
+      "id": "eva_unit-13_strikes!_2026-02-21",
+      "nombre": "EVA Unit-13 Strikes!",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-02-21",
+      "fecha_fin": "2026-02-25"
     }
   ],
-  "ultima_actualizacion": "2026-02-14T01:40:40.988056"
+  "ultima_actualizacion": "2026-02-18T23:35:55.548802"
 }
