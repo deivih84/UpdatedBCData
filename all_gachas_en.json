@@ -447,26 +447,26 @@
         {
             "nombre": "Evangelion Collab Gacha",
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_evangelion.png",
-            "rareChance": 0,
-            "supaChance": 0,
-            "uberChance": 0,
-            "legendChance": 0,
-            "rares": [],
-            "super_rares": [],
-            "ubers": [],
-            "legends": []
+            "rareChance":6970,
+            "supaChance":2500,
+            "uberChance":500,
+            "legendChance":30,
+            "rares": [406, 407, 408, 552, 523, 495, 376, 325, 308, 198, 197, 149, 148, 147, 146, 145, 58, 56, 55, 52, 51, 50, 49, 48, 47, 46, 41, 38, 37],
+            "super_rares": [409, 410, 489, 522, 377, 307, 199, 153, 152, 151, 150, 61, 40, 39, 36, 35, 33, 32, 31, 30],
+            "ubers": [814, 412, 413, 415, 547, 549, 550],
+            "legends": [815]
         },
         {
             "nombre": "Evangelion Collab Gacha 2nd",
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_evangelion_2nd.png",
-            "rareChance": 0,
-            "supaChance": 0,
-            "uberChance": 0,
-            "legendChance": 0,
-            "rares": [],
-            "super_rares": [],
-            "ubers": [],
-            "legends": []
+            "rareChance":6970,
+            "supaChance":2500,
+            "uberChance":500,
+            "legendChance":30,
+            "rares": [406, 407, 408, 552, 523, 495, 376, 325, 308, 198, 197, 149, 148, 147, 146, 145, 58, 56, 55, 52, 51, 50, 49, 48, 47, 46, 41, 38, 37],
+            "super_rares": [411, 490, 491, 522, 377, 307, 199, 153, 152, 151, 150, 61, 40, 39, 36, 35, 33, 32, 31, 30],
+            "ubers": [414, 416, 487, 488, 548, 551, 709, 710],
+            "legends": [815]
         },
         {
             "nombre": "Summer Break Survival Capsules",
