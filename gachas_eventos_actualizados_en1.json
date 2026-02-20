@@ -1,66 +1,6 @@
 {
   "gachas": [
     {
-      "id": "iron_legion_2026-01-26",
-      "nombre": "Iron Legion (+Mighty Morta-Loncha)",
-      "fecha_inicio": "2026-01-26",
-      "fecha_fin": "2026-01-30",
-      "caracteristicas": [
-        "P",
-        "N",
-        "GR",
-        "R"
-      ]
-    },
-    {
-      "id": "luga_families_2026-01-26",
-      "nombre": "Luga Families",
-      "fecha_inicio": "2026-01-26",
-      "fecha_fin": "2026-01-30",
-      "caracteristicas": [
-        "P",
-        "N",
-        "GR",
-        "R"
-      ]
-    },
-    {
-      "id": "wargods_vajiras_2026-01-26",
-      "nombre": "Wargods Vajiras",
-      "fecha_inicio": "2026-01-26",
-      "fecha_fin": "2026-01-30",
-      "caracteristicas": [
-        "P",
-        "N",
-        "GR",
-        "R"
-      ]
-    },
-    {
-      "id": "dark_heroes_2026-01-30",
-      "nombre": "Dark Heroes",
-      "fecha_inicio": "2026-01-30",
-      "fecha_fin": "2026-02-02",
-      "caracteristicas": [
-        "P",
-        "N",
-        "GR",
-        "R"
-      ]
-    },
-    {
-      "id": "galaxy_gals_2026-02-02",
-      "nombre": "Galaxy Gals",
-      "fecha_inicio": "2026-02-02",
-      "fecha_fin": "2026-02-05",
-      "caracteristicas": [
-        "P",
-        "N",
-        "GR",
-        "R"
-      ]
-    },
-    {
       "id": "red_busters_2026-01-30",
       "nombre": "Red Busters (+Sharpshooter Saki, Hevijak the Wicked)",
       "fecha_inicio": "2026-01-30",
@@ -68,67 +8,6 @@
       "caracteristicas": [
         "S",
         "N",
-        "R"
-      ]
-    },
-    {
-      "id": "best_of_the_best_gacha_2026-02-05",
-      "nombre": "Best of the Best Gacha",
-      "fecha_inicio": "2026-02-05",
-      "fecha_fin": "2026-02-10",
-      "caracteristicas": []
-    },
-    {
-      "id": "miracle_selection_gacha_2026-02-10",
-      "nombre": "Miracle 4 Selection Gacha",
-      "fecha_inicio": "2026-02-10",
-      "fecha_fin": "2026-02-13",
-      "caracteristicas": []
-    },
-    {
-      "id": "neo_best_of_the_best_gacha_2026-02-05",
-      "nombre": "Neo Best of the Best Gacha",
-      "fecha_inicio": "2026-02-05",
-      "fecha_fin": "2026-02-10",
-      "caracteristicas": []
-    },
-    {
-      "id": "uberfest_2026-01-30",
-      "nombre": "Uberfest (+Komori)",
-      "fecha_inicio": "2026-01-30",
-      "fecha_fin": "2026-02-05",
-      "caracteristicas": []
-    },
-    {
-      "id": "ultra_selection_gacha_2026-02-10",
-      "nombre": "Ultra 4 Selection Gacha",
-      "fecha_inicio": "2026-02-10",
-      "fecha_fin": "2026-02-13",
-      "caracteristicas": []
-    },
-    {
-      "id": "dragon_emperors_2026-02-16",
-      "nombre": "Dragon Emperors",
-      "fecha_inicio": "2026-02-16",
-      "fecha_fin": "2026-02-18",
-      "caracteristicas": [
-        "L",
-        "P",
-        "N",
-        "GR",
-        "R"
-      ]
-    },
-    {
-      "id": "the_almighties_2026-02-13",
-      "nombre": "The Almighties (+Victorious Skanda)",
-      "fecha_inicio": "2026-02-13",
-      "fecha_fin": "2026-02-16",
-      "caracteristicas": [
-        "L",
-        "P",
-        "N",
-        "GR",
         "R"
       ]
     },
@@ -153,20 +32,6 @@
       "caracteristicas": [
         "L"
       ]
-    },
-    {
-      "id": "platinum_capsules_2025-01-01",
-      "nombre": "Platinum Capsules",
-      "fecha_inicio": "2025-01-01",
-      "fecha_fin": "2027-01-04",
-      "caracteristicas": []
-    },
-    {
-      "id": "legend_capsules_2025-01-01",
-      "nombre": "Legend Capsules",
-      "fecha_inicio": "2025-01-01",
-      "fecha_fin": "2027-01-04",
-      "caracteristicas": []
     },
     {
       "id": "evangelion_collab_gacha_2026-02-21",
@@ -200,6 +65,20 @@
         "GR",
         "R"
       ]
+    },
+    {
+      "id": "platinum_capsules_2025-01-01",
+      "nombre": "Platinum Capsules",
+      "fecha_inicio": "2025-01-01",
+      "fecha_fin": "2027-01-04",
+      "caracteristicas": []
+    },
+    {
+      "id": "legend_capsules_2025-01-01",
+      "nombre": "Legend Capsules",
+      "fecha_inicio": "2025-01-01",
+      "fecha_fin": "2027-01-04",
+      "caracteristicas": []
     }
   ],
   "eventos": [
