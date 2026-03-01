@@ -336,39 +336,12 @@
       "fecha_fin": "2026-03-09"
     },
     {
-      "id": "attack_of_the_lonely_hearts,_from_your_junior,_war_on_valentines_2026-03-02",
-      "nombre": "Attack of the Lonely Hearts, From Your Junior, War on Valentines",
+      "id": "war_on_valentines_2026-03-02",
+      "nombre": "War on Valentines",
       "caracteristicas": [
         "No description available."
       ],
       "fecha_inicio": "2026-03-02",
-      "fecha_fin": "2026-03-16"
-    },
-    {
-      "id": "from_your_senpai_2026-03-06",
-      "nombre": "From Your Senpai",
-      "caracteristicas": [
-        "No description available."
-      ],
-      "fecha_inicio": "2026-03-06",
-      "fecha_fin": "2026-03-16"
-    },
-    {
-      "id": "eoc/itf/cotc/weekend_stage_half_energy_cost_2026-03-09",
-      "nombre": "Eoc/ItF/CotC/Weekend Stage Half Energy Cost",
-      "caracteristicas": [
-        "No description available."
-      ],
-      "fecha_inicio": "2026-03-09",
-      "fecha_fin": "2026-03-23"
-    },
-    {
-      "id": "from_a_childhood_friend_2026-03-09",
-      "nombre": "From A Childhood Friend",
-      "caracteristicas": [
-        "No description available."
-      ],
-      "fecha_inicio": "2026-03-09",
       "fecha_fin": "2026-03-16"
     },
     {
@@ -379,33 +352,6 @@
       ],
       "fecha_inicio": "2026-03-09",
       "fecha_fin": "2026-03-16"
-    },
-    {
-      "id": "eoc_treasure_festival_(every_even_day)_2026-03-10",
-      "nombre": "EoC Treasure Festival (Every Even Day)",
-      "caracteristicas": [
-        "No description available."
-      ],
-      "fecha_inicio": "2026-03-10",
-      "fecha_fin": "2026-03-22"
-    },
-    {
-      "id": "itf_treasure_festival_(every_odd_day)_2026-03-11",
-      "nombre": "ItF Treasure Festival (Every Odd Day)",
-      "caracteristicas": [
-        "No description available."
-      ],
-      "fecha_inicio": "2026-03-11",
-      "fecha_fin": "2026-03-23"
-    },
-    {
-      "id": "cotc_treasure_festival_(12th,_15th,_18th,_21st)_2026-03-12",
-      "nombre": "CotC Treasure Festival (12th, 15th, 18th, 21st)",
-      "caracteristicas": [
-        "No description available."
-      ],
-      "fecha_inicio": "2026-03-12",
-      "fecha_fin": "2026-03-21"
     }
   ],
   "ultima_actualizacion": "2026-03-01T23:44:18.123263"

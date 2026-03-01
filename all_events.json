@@ -98,12 +98,25 @@
       "url": "https://battlecats.miraheze.org/wiki/The_March_of_Flames"
     },
     {
+      "nombre": "Machines in Revolt",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_machines_in_revolt.png",
+      "descripcion": "Machines in Revolt (機械の反乱軍, Kikai no Hanrangun, Rebel Army of Machines) is a set of special stages that was added in Version 12.6. It is unlocked after clearing Empire of Cats Chapter 1. Each stage features Metal Enemies and has a Cat Ticket as a reward.\n\nClear stages in the special map Machines in Revolt to earn up to 10 Cat Tickets as you face off against the Metal enemies attacking the remnants of a destroyed city! Visit Event Stages/Stories of Legend and select to take on this challenge!\nOn between June 10th (11:00am) and June 17th (10:59am)!\n\nSave the future from the onslaught of the coming machines!\n\n\n※ After clearing a stage, there will be a short cooldown period before you are able to challenge the next stage.\n※ Spending a Catamin A will allow you to skip the stage cooldown period and challenge the next stage immediately.\n※ If the event does not appear, please make sure that you are updated to the latest version of the Battle Cats app. ",
+      "url": "https://battlecats.miraheze.org/wiki/Machines_in_Revolt"
+    },
+
+    {
       "nombre": "Update 1.2",
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_update_1.2.png",
       "descripcion": "- Changed App Icon\n- Changed App Name to The Battle Stats: Many people suggested it 🤓\n- NEW SEED TRACKER SECTION\n- NEW SEED FINDER SECTION\n- New comparison section in CompareScreen\n- New events on home screen with information\n- Fixed Gacha details\n- App size 51Mb → 19Mb\n- Now displays max level and cost for each talent\n- Fixed missing icons for cats from eggs and spirits\n- Fixed stats for Idi and Wyvern\n- Fixed many bugs from the previous version\n- Added a Thank You section for those who contributed ideas in the first video\n",
       "url": "https://youtu.be/jasCdshbR9Q?si=vALFE-hOF0wy2YG7"
     },
 
+    {
+      "nombre": "War on Valentines",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_war_on_valentines.png",
+      "descripcion": "\n\nWar on Valentines (僕らのバレンタイン戦争, Bokura no Barentain Sensō, Our Valentine's Day War) is the Valentine's Day event in The Battle Cats. It was added in Version 11.2.\n\nWill this be the year you receive the gift of true love? The Battle Cats' Valentines Day event is on now!\n・March 10th, 2025 (11:00am) thru March 24th, 2025 (10:59am)\n\n● Limited Valentines Day Stages and Events!\nEnjoy the sweetest gift of limited stages and other exciting events! Visit the Legend/Event Stages in The Battle Cats app to check out all the fun for yourself! Also, all stages have had their rewards reset!\n\n● Valentine Day Gauntlet Challenge!\nVisit the Event/Legend Stages during this Cats in Love event to take on gauntlet challenge stage series A Colossal Valentines!\nFight your way through 20 Choco Chaos stages, each one tougher than the last, with bigger and better rewards the further you go!\n\n※ After clearing a stage from this map, there will be a brief cooldown period before the next gauntlet stage can be accessed.\n※ By spending a Catamin A, you may bypass the cooldown period before the stage can be challenged again.\n\n・Limited Stages: Gifts of True Love?!\n2 vs 2 special stages, just for Valentines!\nClear the stage to get Cat Tickets or a Rare Ticket as rewards!\nThen on March 14h at 11:00am, and again on March 17 at 11:00am, more stages will appear!\nWill you accept these token of affection, or...?\n\n・Limited Stage: "War on Valentines"\nClearing any stage will give you a small chance of collecting the limited-edition character "Marshmallow Cat" as a drop reward!\n\nLater stages in the map will give you an even better chance, or you can use a Treasure Radar to immediately receive the reward upon stage clear!\nIn addition, a new difficulty level has been added!\n\n※ Users who have previously cleared the stages in this event will not be eligible for Cat Food rewards already received.\n※ After unlocking Marshmallow Cat, you can activate it by visiting the Rare Cat section of the Upgrade menu.\n\n●Login every day during the Event for bonus login rewards!\nStarting March 11 until March 24, get one new stamp on your first login each day to unlock bigger and better rewards, including a Rare Ticket and useful in-game items!\n\n※You must upgrade to the most recent versions of The Battle Cats app to access event content and collect rewards.\n",
+      "url": "https://battlecats.miraheze.org/wiki/War_on_Valentines#From_Your_Senpai"
+    },
 
     {
       "nombre": "Attack of the Omens",
