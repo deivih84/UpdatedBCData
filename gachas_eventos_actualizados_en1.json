@@ -79,6 +79,24 @@
       "fecha_inicio": "2025-01-01",
       "fecha_fin": "2027-01-04",
       "caracteristicas": []
+    },
+    {
+      "id": "excellent_selection_gacha_2026-02-25",
+      "nombre": "Excellent Selection Gacha",
+      "fecha_inicio": "2026-02-25",
+      "fecha_fin": "2026-02-27",
+      "caracteristicas": [
+        "L"
+      ]
+    },
+    {
+      "id": "excellent_selection_gacha_2026-02-27",
+      "nombre": "Excellent Selection Gacha",
+      "fecha_inicio": "2026-02-27",
+      "fecha_fin": "2026-03-02",
+      "caracteristicas": [
+        "L"
+      ]
     }
   ],
   "eventos": [
@@ -308,5 +326,5 @@
       "fecha_fin": "2026-02-25"
     }
   ],
-  "ultima_actualizacion": "2026-02-18T23:36:17.615848"
+  "ultima_actualizacion": "2026-03-01T23:21:08.708061"
 }
