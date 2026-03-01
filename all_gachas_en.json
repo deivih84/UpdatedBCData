@@ -73,7 +73,7 @@
             "legends": [493]
         },
         {
-            "nombre": "New unit \"Sorceress Sidmi\" added!",
+            "nombre": "New unit \"Sorceress Sidmi\" added! Spooky beauties from beyond!",
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_spooky_cuties.png",
             "rareChance":6970,
             "supaChance":2500,
@@ -361,7 +361,7 @@
             "legends": []
         },
         {
-            "nombre": "Valentine",
+            "nombre": "Valentine Gacha",
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_valentine_gals.png",
             "rareChance":7000,
             "supaChance":2500,
