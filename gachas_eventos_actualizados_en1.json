@@ -97,6 +97,61 @@
       "caracteristicas": [
         "L"
       ]
+    },
+    {
+      "id": "elemental_pixies_2026-03-02",
+      "nombre": "Elemental Pixies (+Komori)",
+      "fecha_inicio": "2026-03-02",
+      "fecha_fin": "2026-03-06",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "epicfest_2026-03-06",
+      "nombre": "Epicfest (+Komori)",
+      "fecha_inicio": "2026-03-06",
+      "fecha_fin": "2026-03-09",
+      "caracteristicas": []
+    },
+    {
+      "id": "iron_legion_2026-03-09",
+      "nombre": "Iron Legion (+Mighty Morta-Loncha)",
+      "fecha_inicio": "2026-03-09",
+      "fecha_fin": "2026-03-13",
+      "caracteristicas": [
+        "G",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "luga_families_2026-03-09",
+      "nombre": "Luga Families",
+      "fecha_inicio": "2026-03-09",
+      "fecha_fin": "2026-03-13",
+      "caracteristicas": [
+        "G",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "wargods_vajiras_2026-03-06",
+      "nombre": "Wargods Vajiras",
+      "fecha_inicio": "2026-03-06",
+      "fecha_fin": "2026-03-09",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
     }
   ],
   "eventos": [
@@ -326,5 +381,5 @@
       "fecha_fin": "2026-02-25"
     }
   ],
-  "ultima_actualizacion": "2026-03-01T23:21:08.708061"
+  "ultima_actualizacion": "2026-03-01T23:22:32.876632"
 }
