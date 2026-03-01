@@ -140,6 +140,15 @@
       ]
     },
     {
+      "id": "new_unit_squire_luno_added!_\u2605uber_rare_drop_rate_up!_2026-02-27",
+      "nombre": "New unit Squire Luno added! \u2605Uber Rare drop rate UP!",
+      "fecha_inicio": "2026-02-27",
+      "fecha_fin": "2026-03-02",
+      "caracteristicas": [
+        "L"
+      ]
+    },
+    {
       "id": "platinum_capsules_2025-01-01",
       "nombre": "Platinum Capsules",
       "fecha_inicio": "2025-01-01",
@@ -152,15 +161,6 @@
       "fecha_inicio": "2025-01-01",
       "fecha_fin": "2027-01-04",
       "caracteristicas": []
-    },
-    {
-      "id": "new_unit_squire_luno_added!_\u2605uber_rare_drop_rate_up!_2026-02-27",
-      "nombre": "New unit Squire Luno added! \u2605Uber Rare drop rate UP!",
-      "fecha_inicio": "2026-02-27",
-      "fecha_fin": "2026-03-02",
-      "caracteristicas": [
-        "L"
-      ]
     }
   ],
   "eventos": [
