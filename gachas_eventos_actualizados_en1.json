@@ -152,6 +152,15 @@
       "fecha_inicio": "2025-01-01",
       "fecha_fin": "2027-01-04",
       "caracteristicas": []
+    },
+    {
+      "id": "new_unit_squire_luno_added!_\u2605uber_rare_drop_rate_up!_2026-02-27",
+      "nombre": "New unit Squire Luno added! \u2605Uber Rare drop rate UP!",
+      "fecha_inicio": "2026-02-27",
+      "fecha_fin": "2026-03-02",
+      "caracteristicas": [
+        "L"
+      ]
     }
   ],
   "eventos": [
@@ -354,5 +363,5 @@
       "fecha_fin": "2026-03-16"
     }
   ],
-  "ultima_actualizacion": "2026-03-01T23:44:18.123263"
+  "ultima_actualizacion": "2026-03-02T00:04:09.296351"
 }
