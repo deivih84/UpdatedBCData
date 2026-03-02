@@ -149,6 +149,45 @@
       ]
     },
     {
+      "id": "valentine_gacha_2026-03-02",
+      "nombre": "Valentine Gacha (+Brainwashed Titan Cat)",
+      "fecha_inicio": "2026-03-02",
+      "fecha_fin": "2026-03-06",
+      "caracteristicas": [
+        "P"
+      ]
+    },
+    {
+      "id": "valentine_gacha_2026-03-06",
+      "nombre": "Valentine Gacha (+Brainwashed Titan Cat)",
+      "fecha_inicio": "2026-03-06",
+      "fecha_fin": "2026-03-09",
+      "caracteristicas": [
+        "P"
+      ]
+    },
+    {
+      "id": "valentine_gacha_2026-03-09",
+      "nombre": "Valentine Gacha (+Brainwashed Titan Cat)",
+      "fecha_inicio": "2026-03-09",
+      "fecha_fin": "2026-03-16",
+      "caracteristicas": [
+        "G"
+      ]
+    },
+    {
+      "id": "new_unit_\"sorceress_sidmi\"_added!_spooky_beauties_from_beyond!_2026-03-02",
+      "nombre": "New unit \"Sorceress Sidmi\" added! Spooky beauties from beyond!",
+      "fecha_inicio": "2026-03-02",
+      "fecha_fin": "2026-03-06",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
       "id": "platinum_capsules_2025-01-01",
       "nombre": "Platinum Capsules",
       "fecha_inicio": "2025-01-01",
