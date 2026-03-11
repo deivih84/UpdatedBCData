@@ -1,34 +1,6 @@
 {
   "gachas": [
     {
-      "id": "excellent_selection_gacha_2026-02-27",
-      "nombre": "Excellent Selection Gacha",
-      "fecha_inicio": "2026-02-27",
-      "fecha_fin": "2026-03-02",
-      "caracteristicas": [
-        "L"
-      ]
-    },
-    {
-      "id": "elemental_pixies_2026-03-02",
-      "nombre": "Elemental Pixies (+Komori)",
-      "fecha_inicio": "2026-03-02",
-      "fecha_fin": "2026-03-06",
-      "caracteristicas": [
-        "P",
-        "N",
-        "GR",
-        "R"
-      ]
-    },
-    {
-      "id": "epicfest_2026-03-06",
-      "nombre": "Epicfest (+Komori)",
-      "fecha_inicio": "2026-03-06",
-      "fecha_fin": "2026-03-09",
-      "caracteristicas": []
-    },
-    {
       "id": "iron_legion_2026-03-09",
       "nombre": "Iron Legion (+Mighty Morta-Loncha)",
       "fecha_inicio": "2026-03-09",
