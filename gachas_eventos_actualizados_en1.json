@@ -191,6 +191,15 @@
       "fecha_fin": "2026-03-16"
     },
     {
+      "id": "kimetsu_no_yaiba_collab_event_2026-03-13",
+      "nombre": "Kimetsu no Yaiba Collab Event",
+      "caracteristicas": [
+        "A collaboration event between Nyanko Daisensou and the popular shonen anime known as Demon Slayer (鬼滅の刃, Kimetsu no Yaiba, Demon Slayer) was originally held from January 30th, 2026 to February 16th, 2026. The collaboration includes an exclusive Rare Gacha, stages, Catnip Challenges and stamps going on during collaboration period. The anime is published by Shueisha. "
+      ],
+      "fecha_inicio": "2026-03-13",
+      "fecha_fin": "2026-03-30"
+    },
+    {
       "id": "divine_archangel_strikes_2026-03-09",
       "nombre": "Divine Archangel Strikes",
       "caracteristicas": [
@@ -233,15 +242,6 @@
         "No description available."
       ],
       "fecha_inicio": "2026-03-23",
-      "fecha_fin": "2026-03-30"
-    },
-    {
-      "id": "kimetsu_no_yaiba_collab_event_2026-03-13",
-      "nombre": "Kimetsu no Yaiba Collab Event",
-      "caracteristicas": [
-        "A collaboration event between Nyanko Daisensou and the popular shonen anime known as Demon Slayer (鬼滅の刃, Kimetsu no Yaiba, Demon Slayer) was originally held from January 30th, 2026 to February 16th, 2026. The collaboration includes an exclusive Rare Gacha, stages, Catnip Challenges and stamps going on during collaboration period. The anime is published by Shueisha. "
-      ],
-      "fecha_inicio": "2026-03-13",
       "fecha_fin": "2026-03-30"
     }
   ],
