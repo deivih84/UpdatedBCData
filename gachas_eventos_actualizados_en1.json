@@ -200,6 +200,42 @@
       "fecha_fin": "2026-03-16"
     },
     {
+      "id": "legend_quest_2026-03-16",
+      "nombre": "Legend Quest",
+      "caracteristicas": [
+        "Legend Quest is a map somewhat similar to Heavenly Tower, with 48 stages known as LEVELs. Each LEVEL is a random Stories of Legend stage that provides a partially randomized lineup. All LEVELs are No Continues, and exiting a battle within 10 seconds will not refund items, Crowns or energy."
+      ],
+      "fecha_inicio": "2026-03-16",
+      "fecha_fin": "2026-03-30"
+    },
+    {
+      "id": "arena_of_honor_2026-03-16",
+      "nombre": "Arena of Honor",
+      "caracteristicas": [
+        "Ranking Dojo (\u30cd\u30b3\u9053\u5834\u30e9\u30f3\u30ad\u30f3\u30b0\u30a4\u30d9\u30f3\u30c8, Neko D\u014dj\u014d Rankingu Ibento, Cat Dojo Ranking Event) is an event that first appeared from July 31st to August 7th, 2017. This event was officially added in the Version 6.3 Update. The Ranking Dojo is accessed from the Catclaw Dojo menu, so the player needs to unlock the Catclaw Dojo feature in order to participate by completing Chapter 1 of Empire of Cats."
+      ],
+      "fecha_inicio": "2026-03-16",
+      "fecha_fin": "2026-04-02"
+    },
+    {
+      "id": "catfruit_buffet_(08:00_~_10:00,_12:00_~_14:00,_19:00_~_21:00)_2026-03-21",
+      "nombre": "Catfruit Buffet (08:00 ~ 10:00, 12:00 ~ 14:00, 19:00 ~ 21:00)",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-03-21",
+      "fecha_fin": "2026-03-11"
+    },
+    {
+      "id": "le'grim_strikes_2026-03-23",
+      "nombre": "Le'Grim Strikes",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-03-23",
+      "fecha_fin": "2026-03-30"
+    },
+    {
       "id": "kimetsu_no_yaiba_collab_event_2026-03-13",
       "nombre": "Kimetsu no Yaiba Collab Event",
       "caracteristicas": [
@@ -209,5 +245,5 @@
       "fecha_fin": "2026-03-30"
     }
   ],
-  "ultima_actualizacion": "2026-03-11T15:45:02.448908"
+  "ultima_actualizacion": "2026-03-11T21:34:28.777060"
 }
