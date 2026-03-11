@@ -1,8 +1,7 @@
 {
     "metadata": {
         "version": "15.1",
-        "app_version": 1.3,
-        "last_update": "2026-02-16 15:47:31",
+        "last_update": "2026-03-11 14:33:16",
         "total_units": 854
     },
     "units": {
@@ -5701,8 +5700,8 @@
         "449": {
             "info": {
                 "rarity": "LR",
-                "name_basic": "Headmistress Jeanne",
-                "names_evolved": "Headmistress Jeanne ψ / 449-3",
+                "name_basic": "Jeanne",
+                "names_evolved": "Jeanne ψ / Divine Jeanne ψ",
                 "obtain_method": "Rare Cat Capsule - Cyber Academy Galaxy Gals"
             },
             "stats": [
@@ -10376,7 +10375,7 @@
         "830": {
             "info": {
                 "rarity": "UR",
-                "name_basic": "Raclesa the Lioness",
+                "name_basic": "Raclesa",
                 "names_evolved": "Raclesa Σ",
                 "obtain_method": "Rare Cat Capsule - Cyber Academy Galaxy Gals"
             },
