@@ -151,6 +151,33 @@
       "caracteristicas": [
         "P"
       ]
+    },
+    {
+      "id": "get_limited_heroes_from_demon_slayer:_kimetsu_no_yaiba_collab_capsules!_tap_for_info!_2026-03-13",
+      "nombre": "Get limited heroes from Demon Slayer: Kimetsu no Yaiba Collab Capsules! Tap for info!",
+      "fecha_inicio": "2026-03-13",
+      "fecha_fin": "2026-03-23",
+      "caracteristicas": [
+        "P"
+      ]
+    },
+    {
+      "id": "get_limited_heroes_from_demon_slayer:_kimetsu_no_yaiba_collab_capsules!_tap_for_info!_2026-03-23",
+      "nombre": "Get limited heroes from Demon Slayer: Kimetsu no Yaiba Collab Capsules! Tap for info!",
+      "fecha_inicio": "2026-03-23",
+      "fecha_fin": "2026-03-27",
+      "caracteristicas": [
+        "G"
+      ]
+    },
+    {
+      "id": "get_limited_heroes_from_demon_slayer:_kimetsu_no_yaiba_collab_capsules!_tap_for_info!_2026-03-27",
+      "nombre": "Get limited heroes from Demon Slayer: Kimetsu no Yaiba Collab Capsules! Tap for info!",
+      "fecha_inicio": "2026-03-27",
+      "fecha_fin": "2026-03-30",
+      "caracteristicas": [
+        "G"
+      ]
     }
   ],
   "eventos": [
@@ -173,5 +200,5 @@
       "fecha_fin": "2026-03-16"
     }
   ],
-  "ultima_actualizacion": "2026-03-11T15:43:52.098415"
+  "ultima_actualizacion": "2026-03-11T15:45:02.448908"
 }
