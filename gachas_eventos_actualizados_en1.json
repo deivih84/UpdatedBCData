@@ -46,6 +46,111 @@
       "fecha_inicio": "2025-01-01",
       "fecha_fin": "2027-01-04",
       "caracteristicas": []
+    },
+    {
+      "id": "dark_heroes_2026-03-16",
+      "nombre": "Dark Heroes",
+      "fecha_inicio": "2026-03-16",
+      "fecha_fin": "2026-03-19",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "dragon_emperors_2026-03-16",
+      "nombre": "Dragon Emperors",
+      "fecha_inicio": "2026-03-16",
+      "fecha_fin": "2026-03-19",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "elemental_pixies_2026-03-23",
+      "nombre": "Elemental Pixies (+Komori)",
+      "fecha_inicio": "2026-03-23",
+      "fecha_fin": "2026-03-27",
+      "caracteristicas": [
+        "G",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "galaxy_gals_2026-03-13",
+      "nombre": "Galaxy Gals",
+      "fecha_inicio": "2026-03-13",
+      "fecha_fin": "2026-03-16",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "galaxy_gals_2026-03-27",
+      "nombre": "Galaxy Gals (+)",
+      "fecha_inicio": "2026-03-27",
+      "fecha_fin": "2026-03-30",
+      "caracteristicas": [
+        "G",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "the_almighties_2026-03-19",
+      "nombre": "The Almighties (+Victorious Skanda)",
+      "fecha_inicio": "2026-03-19",
+      "fecha_fin": "2026-03-23",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "the_dynamites_2026-03-23",
+      "nombre": "The Dynamites",
+      "fecha_inicio": "2026-03-23",
+      "fecha_fin": "2026-03-27",
+      "caracteristicas": [
+        "G",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "ultra_souls_2026-03-19",
+      "nombre": "Ultra Souls",
+      "fecha_inicio": "2026-03-19",
+      "fecha_fin": "2026-03-23",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "valentine_gacha_2026-03-13",
+      "nombre": "Valentine Gacha (+Brainwashed Titan Cat)",
+      "fecha_inicio": "2026-03-13",
+      "fecha_fin": "2026-03-16",
+      "caracteristicas": [
+        "P"
+      ]
     }
   ],
   "eventos": [
@@ -68,5 +173,5 @@
       "fecha_fin": "2026-03-16"
     }
   ],
-  "ultima_actualizacion": "2026-03-02T00:04:09.296351"
+  "ultima_actualizacion": "2026-03-11T15:43:52.098415"
 }
