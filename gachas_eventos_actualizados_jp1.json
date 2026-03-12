@@ -68,6 +68,37 @@
         "GR",
         "R"
       ]
+    },
+    {
+      "id": "epicfest_2026-03-13",
+      "nombre": "Epicfest (+)",
+      "fecha_inicio": "2026-03-13",
+      "fecha_fin": "2026-03-16",
+      "caracteristicas": []
+    },
+    {
+      "id": "iron_legion_2026-03-16",
+      "nombre": "Iron Legion (+Mighty Morta-Loncha)",
+      "fecha_inicio": "2026-03-16",
+      "fecha_fin": "2026-03-18",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "the_dynamites_2026-03-13",
+      "nombre": "The Dynamites",
+      "fecha_inicio": "2026-03-13",
+      "fecha_fin": "2026-03-16",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
     }
   ],
   "eventos": [
@@ -180,5 +211,5 @@
       "fecha_fin": "2026-02-16"
     }
   ],
-  "ultima_actualizacion": "2026-02-05T19:51:03.974891"
+  "ultima_actualizacion": "2026-03-12T20:20:06.886804"
 }
