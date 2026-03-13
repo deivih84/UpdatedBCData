@@ -68,6 +68,37 @@
         "GR",
         "R"
       ]
+    },
+    {
+      "id": "epicfest_2026-03-13",
+      "nombre": "Epicfest (+)",
+      "fecha_inicio": "2026-03-13",
+      "fecha_fin": "2026-03-16",
+      "caracteristicas": []
+    },
+    {
+      "id": "iron_legion_2026-03-16",
+      "nombre": "Iron Legion (+Mighty Morta-Loncha)",
+      "fecha_inicio": "2026-03-16",
+      "fecha_fin": "2026-03-18",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "the_dynamites_2026-03-13",
+      "nombre": "The Dynamites",
+      "fecha_inicio": "2026-03-13",
+      "fecha_fin": "2026-03-16",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
     }
   ],
   "eventos": [
@@ -178,7 +209,61 @@
       ],
       "fecha_inicio": "2026-02-09",
       "fecha_fin": "2026-02-16"
+    },
+    {
+      "id": "attack_of_the_omens_2026-03-13",
+      "nombre": "Attack of the Omens",
+      "caracteristicas": [
+        "Attack of the Omens contains a total of 20 No Continues levels, called Three Omens. After beating a Three Omens, the player must wait for 30 minutes before they may proceed to the next one. Rewards for the first completion of a Three Omens can include XP, Tickets, Catamins and Materials. The enemy layout changes after the 10th level, with the strength magnifications and enemy base's HP increasing per level."
+      ],
+      "fecha_inicio": "2026-03-13",
+      "fecha_fin": "2026-03-20"
+    },
+    {
+      "id": "weekend:_confession,_weekend_~another_confession~_2026-03-14",
+      "nombre": "Weekend: Confession, Weekend ~Another Confession~",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-03-14",
+      "fecha_fin": "2026-03-15"
+    },
+    {
+      "id": "season_3:_field_trip_2026-03-16",
+      "nombre": "Season 3: Field Trip",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-03-16",
+      "fecha_fin": "2026-03-30"
+    },
+    {
+      "id": "after_school\uff5e\u604b\u6587\uff5e_(monday,_tuesday,_wednesday,_thursday,_friday_/_17:00_~_24:00)_2026-03-16",
+      "nombre": "After School\uff5e\u604b\u6587\uff5e (Monday, Tuesday, Wednesday, Thursday, Friday / 17:00 ~ 24:00)",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-03-16",
+      "fecha_fin": "2026-03-20"
+    },
+    {
+      "id": "white_day_scratch_2026-03-16",
+      "nombre": "White Day Scratch",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-03-16",
+      "fecha_fin": "2026-03-22"
+    },
+    {
+      "id": "000011-043_2026-03-16",
+      "nombre": "000011-043",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-03-16",
+      "fecha_fin": "2026-04-01"
     }
   ],
-  "ultima_actualizacion": "2026-02-05T19:51:03.974891"
+  "ultima_actualizacion": "2026-03-12T20:20:41.598764"
 }
