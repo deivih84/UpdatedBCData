@@ -372,7 +372,30 @@
             "ubers": [158, 212, 357, 619, 587, 588, 644],
             "legends": []
         },
-        
+        {
+            "nombre": "Halloween Gacha",
+            "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_halloween.png",
+            "rareChance": 0,
+            "supaChance": 0,
+            "uberChance": 0,
+            "legendChance": 0,
+            "rares": [],
+            "super_rares": [],
+            "ubers": [],
+            "legends": []
+        },
+        {
+            "nombre": "Halloween Party",
+            "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_halloween_party.png",
+            "rareChance": 0,
+            "supaChance": 0,
+            "uberChance": 0,
+            "legendChance": 0,
+            "rares": [],
+            "super_rares": [],
+            "ubers": [],
+            "legends": []
+        },
         {
             "nombre": "Platinum Capsules",
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_platinum.png",
@@ -446,30 +469,6 @@
             "legends": []
         },
         {
-            "nombre": "Halloween Gacha",
-            "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_halloween.png",
-            "rareChance": 0,
-            "supaChance": 0,
-            "uberChance": 0,
-            "legendChance": 0,
-            "rares": [],
-            "super_rares": [],
-            "ubers": [],
-            "legends": []
-        },
-        {
-            "nombre": "Halloween Party",
-            "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_halloween_party.png",
-            "rareChance": 0,
-            "supaChance": 0,
-            "uberChance": 0,
-            "legendChance": 0,
-            "rares": [],
-            "super_rares": [],
-            "ubers": [],
-            "legends": []
-        },
-        {
             "nombre": "Evangelion Collab Gacha",
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_evangelion.png",
             "rareChance":6970,
@@ -492,6 +491,30 @@
             "super_rares": [411, 490, 491, 522, 377, 307, 199, 153, 152, 151, 150, 61, 40, 39, 36, 35, 33, 32, 31, 30],
             "ubers": [414, 416, 487, 488, 548, 551, 709, 710],
             "legends": [815]
+        },
+        {
+            "nombre": "Sonic Collab Gacha",
+            "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_sonic.png",
+            "rareChance":7000,
+            "supaChance":2500,
+            "uberChance":500,
+            "legendChance":0,
+            "rares": [809, 523, 495, 376, 325, 308, 198, 197, 149, 148, 147, 146, 145, 58, 56, 55, 52, 51, 50, 49, 48, 47, 46, 41, 38, 37],
+            "super_rares": [522, 377, 307, 199, 153, 152, 151, 150, 61, 40, 39, 36, 35, 33, 32, 31, 30],
+            "ubers": [803, 804, 805, 806],
+            "legends": []
+        },
+        {
+            "nombre": "Madoka Magica Collab Gacha",
+            "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_madoka_magica.png",
+            "rareChance":7000,
+            "supaChance":2500,
+            "uberChance":500,
+            "legendChance":0,
+            "rares": [298, 297, 296, 295, 294, 523, 495, 376, 325, 308, 198, 197, 149, 148, 147, 146, 145, 58, 56, 55, 52, 51, 50, 49, 48, 47, 46, 41, 38, 37],
+            "super_rares": [293, 522, 377, 307, 199, 153, 152, 151, 150, 61, 40, 39, 36, 35, 33, 32, 31, 30],
+            "ubers": [778, 440, 292, 291, 290, 289, 288],
+            "legends": []
         },
         {
             "nombre": "Summer Break Survival Capsules",
