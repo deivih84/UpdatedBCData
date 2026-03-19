@@ -187,6 +187,12 @@
     },
 
     
+
+    {
+      "nombre": "Meownesday",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_meownesday.png",
+      "descripcion": "Every Wednesday is now MEOWNESDAY!\nAvailable all day on Wednesdays from 12:00AM until 11:59PM!\n\n50% off upgrades for one unit!\nOne unit will be chosen at random to have their upgrade XP costs halved every week!\n\n    Units will be chosen after clearing Empire of Cats Ch. 1.\n    Only units that have not reached Lv. 30 will be chosen.\n    XP needed to Evolve a unit does not apply for the discount.\n    Units with the 50% off XP cost will display blue XP values.\n    If the 50% off discount is not applied, please return to the Cat Base and re-enter the Upgrade Menu.\n\n・Treasure Fest available!\nTreasure Fest features increased drop rates for Treasures for a limited time in Empire of Cats, Into the Future, and Cats of the Cosmos!\nCollect Treasures to gain effects that will help in battle and other scenarios!\n\n・Catfruit Buffet available!\nStages with plentiful Catfruit drops are available!\nPlay them all to unlock "Catfruit Jubilee"!\n\nReward(s): Catfruit (Purple, Red, Blue, Green, Yellow, Epic), Catfruit Seed (Purple, Red, Blue, Green, Yellow)\n\nOn every Wednesday at 8:00AM until 9:59AM / 12:00PM until 1:59PM / 7:00PM until 8:59PM\n・These stages can only be played after clearing Empire of Cats Ch. 3.\n\n・Half-off Energy costs for double the play time!\nStages in Empire of Cats, Into the Future, Cats of the Cosmos, Stories of Legend, and Uncanny Legends have their energy costs halved!\n\n・Avoid losing energy after a defeat!\nEnergy spent on Crazed, Maniac, and XP stages will not be lost after a defeat!\nNow's your chance to push through any particularly challenging stages without fear of losing precious energy!\n\n    Stages where a defeat will not cost you energy will be denoted with a special icon.\n    Energy will still be lost after suffering a defeat in an Continuation stage.\n\n・Limited GAMATOTO Expedition Areas\nYou can send your Gamatoto adventurer to the limited areas XP Harvest for huge XP rewards!\nEarn TONS of XP and power up your units to new heights!\n\n・Special Meownesday log-in bonuses!\nEarn Leadership to restore your spent energy!"
+    },
     {
       "nombre": "Monthly Event (January)",
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/monthly/event_monthly_1.png",
