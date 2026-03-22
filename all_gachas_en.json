@@ -73,7 +73,8 @@
             "legends": [493]
         },
         {
-            "nombre": "New unit \"Sorceress Sidmi\" added! Spooky beauties from beyond!",
+            "nombre": "Spooky Cuties",
+            "aliases": ["New unit \"Sorceress Sidmi\" added! Spooky beauties from beyond!"],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_spooky_cuties.png",
             "rareChance":6970,
             "supaChance":2500,
@@ -193,7 +194,8 @@
             "legends": []
         },
         {
-            "nombre": "New unit Squire Luno added! ★Uber Rare drop rate UP!",
+            "nombre": "Uberfest",
+            "aliases": ["New unit Squire Luno added! ★Uber Rare drop rate UP!"],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_uberfest.png",
             "rareChance":6470,
             "supaChance":2600,
@@ -217,7 +219,8 @@
             "legends": [738]
         },
         {
-            "nombre": "New unit Squire Luno added! Special Capsules featuring powerful limited units!",
+            "nombre": "Superfest",
+            "aliases": ["New unit Squire Luno added! Special Capsules featuring powerful limited units!"],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_superfest.png",
             "rareChance":6470,
             "supaChance":2500,
