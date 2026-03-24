@@ -169,6 +169,18 @@
       "fecha_inicio": "2025-01-01",
       "fecha_fin": "2027-01-04",
       "caracteristicas": []
+    },
+    {
+      "id": "spooky_cuties_2026-03-27",
+      "nombre": "New unit Sorceress Sidmi added! Spooky beauties from beyond!",
+      "fecha_inicio": "2026-03-27",
+      "fecha_fin": "2026-03-30",
+      "caracteristicas": [
+        "G",
+        "N",
+        "GR",
+        "R"
+      ]
     }
   ],
   "eventos": [
@@ -185,7 +197,7 @@
       "id": "kimetsu_no_yaiba_collab_event_2026-03-13",
       "nombre": "Kimetsu no Yaiba Collab Event",
       "caracteristicas": [
-        "A collaboration event between Nyanko Daisensou and the popular shonen anime known as Demon Slayer (鬼滅の刃, Kimetsu no Yaiba, Demon Slayer) was originally held from January 30th, 2026 to February 16th, 2026. The collaboration includes an exclusive Rare Gacha, stages, Catnip Challenges and stamps going on during collaboration period. The anime is published by Shueisha. "
+        "A collaboration event between Nyanko Daisensou and the popular shonen anime known as Demon Slayer (\u9b3c\u6ec5\u306e\u5203, Kimetsu no Yaiba, Demon Slayer) was originally held from January 30th, 2026 to February 16th, 2026. The collaboration includes an exclusive Rare Gacha, stages, Catnip Challenges and stamps going on during collaboration period. The anime is published by Shueisha. "
       ],
       "fecha_inicio": "2026-03-13",
       "fecha_fin": "2026-03-30"
@@ -236,5 +248,5 @@
       "fecha_fin": "2026-03-30"
     }
   ],
-  "ultima_actualizacion": "2026-03-11T21:34:28.777060"
+  "ultima_actualizacion": "2026-03-25T00:10:46.398832"
 }
