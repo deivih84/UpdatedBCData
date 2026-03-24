@@ -169,18 +169,6 @@
       "fecha_inicio": "2025-01-01",
       "fecha_fin": "2027-01-04",
       "caracteristicas": []
-    },
-    {
-      "id": "spooky_cuties_2026-03-27",
-      "nombre": "New unit Sorceress Sidmi added! Spooky beauties from beyond!",
-      "fecha_inicio": "2026-03-27",
-      "fecha_fin": "2026-03-30",
-      "caracteristicas": [
-        "G",
-        "N",
-        "GR",
-        "R"
-      ]
     }
   ],
   "eventos": [
