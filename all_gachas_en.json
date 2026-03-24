@@ -2,6 +2,9 @@
     "gachas": [
         {
             "nombre": "The Dynamites",
+            "aliases": [
+                "The Dynamites"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_dynamites.png",
             "rareChance": 6970,
             "supaChance": 2500,
@@ -14,6 +17,9 @@
         },
         {
             "nombre": "Elemental Pixies",
+            "aliases": [
+                "Elemental Pixies"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_pixies.png",
             "rareChance": 6970,
             "supaChance": 2500,
@@ -26,6 +32,9 @@
         },
         {
             "nombre": "Dark Heroes",
+            "aliases": [
+                "Dark Heroes"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_heroes.png",
             "rareChance": 6970,
             "supaChance": 2500,
@@ -38,6 +47,9 @@
         },
         {
             "nombre": "Luga Families",
+            "aliases": [
+                "Luga Families"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_lugas.png",
             "rareChance": 6970,
             "supaChance": 2500,
@@ -50,6 +62,9 @@
         },
         {
             "nombre": "Ultra Souls",
+            "aliases": [
+                "Ultra Souls"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_souls.png",
             "rareChance": 6970,
             "supaChance": 2500,
@@ -62,6 +77,9 @@
         },
         {
             "nombre": "The Almighties",
+            "aliases": [
+                "The Almighties"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_almighties.png",
             "rareChance": 6970,
             "supaChance": 2500,
@@ -74,7 +92,9 @@
         },
         {
             "nombre": "Spooky Cuties",
-            "aliases": ["New unit \"Sorceress Sidmi\" added! Spooky beauties from beyond!"],
+            "aliases": [
+                "New unit \"Sorceress Sidmi\" added! Spooky beauties from beyond!"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_spooky_cuties.png",
             "rareChance":6970,
             "supaChance":2500,
@@ -87,6 +107,9 @@
         },
         {
             "nombre": "Dragon Emperors",
+            "aliases": [
+                "Dragon Emperors"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_dragons.png",
             "rareChance": 6970,
             "supaChance": 2500,
@@ -99,6 +122,9 @@
         },
         {
             "nombre": "Wargods Vajiras",
+            "aliases": [
+                "Wargods Vajiras"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_vajiras.png",
             "rareChance": 6970,
             "supaChance": 2500,
@@ -111,6 +137,9 @@
         },
         {
             "nombre": "Galaxy Gals",
+            "aliases": [
+                "Galaxy Gals"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_gals.png",
             "rareChance": 6970,
             "supaChance": 2500,
@@ -123,6 +152,9 @@
         },
         {
             "nombre": "Iron Legion",
+            "aliases": [
+                "Iron Legion"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_iron.png",
             "rareChance": 6970,
             "supaChance": 2500,
@@ -135,6 +167,9 @@
         },
         {
             "nombre": "Red Busters",
+            "aliases": [
+                "Red Busters"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_red_busters.png",
             "rareChance": 7000,
             "supaChance": 2500,
@@ -147,6 +182,9 @@
         },
         {
             "nombre": "Air Busters",
+            "aliases": [
+                "Air Busters"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_air_busters.png",
             "rareChance": 7000,
             "supaChance": 2500,
@@ -159,6 +197,9 @@
         },
         {
             "nombre": "Metal Busters",
+            "aliases": [
+                "Metal Busters"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_metal_busters.png",
             "rareChance": 7000,
             "supaChance": 2500,
@@ -171,6 +212,9 @@
         },
         {
             "nombre": "Wave Busters",
+            "aliases": [
+                "Wave Busters"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_wave_busters.png",
             "rareChance": 7000,
             "supaChance": 2500,
@@ -183,6 +227,9 @@
         },
         {
             "nombre": "Colossus Busters",
+            "aliases": [
+                "Colossus Busters"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_colossus_busters.png",
             "rareChance": 7000,
             "supaChance": 2500,
@@ -195,7 +242,9 @@
         },
         {
             "nombre": "Uberfest",
-            "aliases": ["New unit Squire Luno added! ★Uber Rare drop rate UP!"],
+            "aliases": [
+                "New unit Squire Luno added! ★Uber Rare drop rate UP!"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_uberfest.png",
             "rareChance":6470,
             "supaChance":2600,
@@ -208,6 +257,9 @@
         },
         {
             "nombre": "Epicfest",
+            "aliases": [
+                "Epicfest"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_epicfest.png",
             "rareChance": 6470,
             "supaChance": 2600,
@@ -220,7 +272,9 @@
         },
         {
             "nombre": "Superfest",
-            "aliases": ["New unit Squire Luno added! Special Capsules featuring powerful limited units!"],
+            "aliases": [
+                "New unit Squire Luno added! Special Capsules featuring powerful limited units!"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_superfest.png",
             "rareChance":6470,
             "supaChance":2500,
@@ -233,6 +287,9 @@
         },
         {
             "nombre": "Busterfest",
+            "aliases": [
+                "Busterfest"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_busterfest.png",
             "rareChance": 0,
             "supaChance": 0,
@@ -245,6 +302,9 @@
         },
         {
             "nombre": "Royalfest",
+            "aliases": [
+                "Royalfest"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_royalfest.png",
             "rareChance": 0,
             "supaChance": 0,
@@ -257,6 +317,9 @@
         },
         {
             "nombre": "Dynastyfest",
+            "aliases": [
+                "Dynastyfest"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_dynastyfest.png",
             "rareChance": 0,
             "supaChance": 0,
@@ -269,6 +332,9 @@
         },
         {
             "nombre": "Ultra 4 Selection Gacha",
+            "aliases": [
+                "Ultra 4 Selection Gacha"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_ultra4_selection.png",
             "rareChance":6970,
             "supaChance":2500,
@@ -281,6 +347,9 @@
         },
         {
             "nombre": "Miracle 4 Selection Gacha",
+            "aliases": [
+                "Miracle 4 Selection Gacha"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_miracle4_selection.png",
             "rareChance":6970,
             "supaChance":2500,
@@ -293,6 +362,9 @@
         },
         {
             "nombre": "Excellent Selection Gacha",
+            "aliases": [
+                "Excellent Selection Gacha"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_excellent4_selection.png",
             "rareChance":6970,
             "supaChance":2500,
@@ -305,6 +377,9 @@
         },
         {
             "nombre": "Neo Best of the Best Gacha",
+            "aliases": [
+                "Neo Best of the Best Gacha"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_neo_best_of_the_best.png",
             "rareChance":7000,
             "supaChance":2500,
@@ -317,6 +392,9 @@
         },
         {
             "nombre": "Best of the Best Gacha",
+            "aliases": [
+                "Best of the Best Gacha"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_best_of_the_best.png",
             "rareChance":7000,
             "supaChance":2500,
@@ -329,6 +407,9 @@
         },
         {
             "nombre": "Download Anniversary Gacha",
+            "aliases": [
+                "Download Anniversary Gacha"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_best_of_the_best_milestone.png",
             "rareChance": 6930,
             "supaChance": 2500,
@@ -341,6 +422,9 @@
         },
         {
             "nombre": "Gals of Summer Sunshine",
+            "aliases": [
+                "Gals of Summer Sunshine"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_gals_of_summer_sunshine.png",
             "rareChance": 0,
             "supaChance": 0,
@@ -353,6 +437,9 @@
         },
         {
             "nombre": "Gals of Summer Blue Ocean",
+            "aliases": [
+                "Gals of Summer Blue Ocean"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_gals_of_summer_blue_ocean.png",
             "rareChance": 0,
             "supaChance": 0,
@@ -365,6 +452,9 @@
         },
         {
             "nombre": "Valentine Gacha",
+            "aliases": [
+                "Valentine Gacha"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_valentine_gals.png",
             "rareChance":7000,
             "supaChance":2500,
@@ -377,6 +467,9 @@
         },
         {
             "nombre": "Halloween Gacha",
+            "aliases": [
+                "Halloween Gacha"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_halloween.png",
             "rareChance": 0,
             "supaChance": 0,
@@ -389,6 +482,9 @@
         },
         {
             "nombre": "Halloween Party",
+            "aliases": [
+                "Halloween Party"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_halloween_party.png",
             "rareChance": 0,
             "supaChance": 0,
@@ -401,6 +497,9 @@
         },
         {
             "nombre": "Platinum Capsules",
+            "aliases": [
+                "Platinum Capsules"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_platinum.png",
             "rareChance":0,
             "supaChance":0,
@@ -413,6 +512,9 @@
         },
         {
             "nombre": "Legend Capsules",
+            "aliases": [
+                "Legend Capsules"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_legend.png",
             "rareChance":0,
             "supaChance":0,
@@ -425,6 +527,9 @@
         },
         {
             "nombre": "Mola Mola Collab Gacha",
+            "aliases": [
+                "Mola Mola Collab Gacha"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_mola_mola.png",
             "rareChance": 7000,
             "supaChance": 2500,
@@ -437,6 +542,9 @@
         },
         {
             "nombre": "Street Fighter Gacha (Blue Team)",
+            "aliases": [
+                "Street Fighter Gacha (Blue Team)"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_street_fighter_blue.png",
             "rareChance":6970,
             "supaChance":2500,
@@ -449,6 +557,9 @@
         },
         {
             "nombre": "Street Fighter Gacha (Red Team)",
+            "aliases": [
+                "Street Fighter Gacha (Red Team)"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_street_fighter_red.png",
             "rareChance":6970,
             "supaChance":2500,
@@ -461,6 +572,9 @@
         },
         {
             "nombre": "Kimetsu no Yaiba Collab Capsules!",
+            "aliases": [
+                "Kimetsu no Yaiba Collab Capsules!"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_demon_slayer.png",
             "rareChance":7000,
             "supaChance":2500,
@@ -473,6 +587,9 @@
         },
         {
             "nombre": "Evangelion Collab Gacha",
+            "aliases": [
+                "Evangelion Collab Gacha"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_evangelion.png",
             "rareChance":6970,
             "supaChance":2500,
@@ -485,6 +602,9 @@
         },
         {
             "nombre": "Evangelion Collab Gacha 2nd",
+            "aliases": [
+                "Evangelion Collab Gacha 2nd"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_evangelion_2nd.png",
             "rareChance":6970,
             "supaChance":2500,
@@ -497,6 +617,9 @@
         },
         {
             "nombre": "Sonic Collab Gacha",
+            "aliases": [
+                "Sonic Collab Gacha"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_sonic.png",
             "rareChance":7000,
             "supaChance":2500,
@@ -509,6 +632,9 @@
         },
         {
             "nombre": "Madoka Magica Collab Gacha",
+            "aliases": [
+                "Madoka Magica Collab Gacha"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_madoka.png",
             "rareChance":7000,
             "supaChance":2500,
@@ -521,6 +647,9 @@
         },
         {
             "nombre": "Summer Break Survival Capsules",
+            "aliases": [
+                "Summer Break Survival Capsules"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_summer_break.png",
             "rareChance": 0,
             "supaChance": 0,
@@ -533,6 +662,9 @@
         },
         {
             "nombre": "Medal King's Palace Capsules",
+            "aliases": [
+                "Medal King's Palace Capsules"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_medal_king_capsules.png",
             "rareChance": 0,
             "supaChance": 0,
@@ -545,6 +677,9 @@
         },
         {
             "nombre": "Summer Break Capsules Paradise",
+            "aliases": [
+                "Summer Break Capsules Paradise"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_summer_break_paradise.png",
             "rareChance": 0,
             "supaChance": 0,
@@ -557,6 +692,9 @@
         },
         {
             "nombre": "Premium Fair",
+            "aliases": [
+                "Premium Fair"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_premium_fair.png",
             "rareChance": 0,
             "supaChance": 0,
@@ -569,6 +707,9 @@
         },
         {
             "nombre": "Best of the Best Gacha",
+            "aliases": [
+                "Best of the Best Gacha"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_best_of_the_best.png",
             "rareChance": 6970,
             "supaChance": 2500,
@@ -581,6 +722,9 @@
         },
         {
             "nombre": "Neo Best of the Best Gacha",
+            "aliases": [
+                "Neo Best of the Best Gacha"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_neo_best_of_the_best.png",
             "rareChance": 6970,
             "supaChance": 2500,
@@ -593,6 +737,9 @@
         },
         {
             "nombre": "Ultra Selection Gacha",
+            "aliases": [
+                "Ultra Selection Gacha"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_ultra4_selection.png",
             "rareChance":6970,
             "supaChance":2500,
@@ -605,6 +752,9 @@
         },
         {
             "nombre": "Miracle Selection Gacha",
+            "aliases": [
+                "Miracle Selection Gacha"
+            ],
             "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_miracle4_selection.png",
             "rareChance": 6970,
             "supaChance": 2500,
