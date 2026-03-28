@@ -157,20 +157,6 @@
       ]
     },
     {
-      "id": "platinum_capsules_2025-01-01",
-      "nombre": "Platinum Capsules",
-      "fecha_inicio": "2025-01-01",
-      "fecha_fin": "2027-01-04",
-      "caracteristicas": []
-    },
-    {
-      "id": "legend_capsules_2025-01-01",
-      "nombre": "Legend Capsules",
-      "fecha_inicio": "2025-01-01",
-      "fecha_fin": "2027-01-04",
-      "caracteristicas": []
-    },
-    {
       "id": "spooky_cuties_2026-03-27",
       "nombre": "Spooky Cuties",
       "fecha_inicio": "2026-03-27",
@@ -420,6 +406,20 @@
       "caracteristicas": [
         "P"
       ]
+    },
+    {
+      "id": "platinum_capsules_2025-01-01",
+      "nombre": "Platinum Capsules",
+      "fecha_inicio": "2025-01-01",
+      "fecha_fin": "2027-01-04",
+      "caracteristicas": []
+    },
+    {
+      "id": "legend_capsules_2025-01-01",
+      "nombre": "Legend Capsules",
+      "fecha_inicio": "2025-01-01",
+      "fecha_fin": "2027-01-04",
+      "caracteristicas": []
     }
   ],
   "eventos": [
