@@ -316,6 +316,13 @@
       ]
     },
     {
+      "id": "uberfest_2026-04-03",
+      "nombre": "Uberfest",
+      "fecha_inicio": "2026-04-03",
+      "fecha_fin": "2026-04-06",
+      "caracteristicas": []
+    },
+    {
       "id": "wargods_vajiras_2026-03-30",
       "nombre": "Wargods Vajiras",
       "fecha_inicio": "2026-03-30",
@@ -419,13 +426,6 @@
       "nombre": "Legend Capsules",
       "fecha_inicio": "2025-01-01",
       "fecha_fin": "2027-01-04",
-      "caracteristicas": []
-    },
-    {
-      "id": "uberfest_2026-04-03",
-      "nombre": "Uberfest",
-      "fecha_inicio": "2026-04-03",
-      "fecha_fin": "2026-04-06",
       "caracteristicas": []
     }
   ],
