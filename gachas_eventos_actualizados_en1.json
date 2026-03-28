@@ -420,6 +420,13 @@
       "fecha_inicio": "2025-01-01",
       "fecha_fin": "2027-01-04",
       "caracteristicas": []
+    },
+    {
+      "id": "uberfest_2026-04-03",
+      "nombre": "Uberfest",
+      "fecha_inicio": "2026-04-03",
+      "fecha_fin": "2026-04-06",
+      "caracteristicas": []
     }
   ],
   "eventos": [
@@ -487,5 +494,5 @@
       "fecha_fin": "2026-03-30"
     }
   ],
-  "ultima_actualizacion": "2026-03-29T00:14:38.494823"
+  "ultima_actualizacion": "2026-03-29T00:22:41.740812"
 }
