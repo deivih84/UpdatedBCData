@@ -351,6 +351,75 @@
         "N",
         "R"
       ]
+    },
+    {
+      "id": "galaxy_gals_2026-04-13",
+      "nombre": "Galaxy Gals",
+      "fecha_inicio": "2026-04-13",
+      "fecha_fin": "2026-04-15",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "iron_legion_2026-04-15",
+      "nombre": "Iron Legion",
+      "fecha_inicio": "2026-04-15",
+      "fecha_fin": "2026-04-17",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "luga_families_2026-04-15",
+      "nombre": "Luga Families",
+      "fecha_inicio": "2026-04-15",
+      "fecha_fin": "2026-04-17",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "spooky_cuties_2026-04-10",
+      "nombre": "Spooky Cuties",
+      "fecha_inicio": "2026-04-10",
+      "fecha_fin": "2026-04-13",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "wargods_vajiras_2026-04-13",
+      "nombre": "Wargods Vajiras",
+      "fecha_inicio": "2026-04-13",
+      "fecha_fin": "2026-04-15",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "white_day_gacha_2026-04-13",
+      "nombre": "White Day Gacha",
+      "fecha_inicio": "2026-04-13",
+      "fecha_fin": "2026-04-27",
+      "caracteristicas": [
+        "P"
+      ]
     }
   ],
   "eventos": [
@@ -418,5 +487,5 @@
       "fecha_fin": "2026-03-30"
     }
   ],
-  "ultima_actualizacion": "2026-03-29T00:13:31.520713"
+  "ultima_actualizacion": "2026-03-29T00:14:38.494823"
 }
