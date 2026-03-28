@@ -181,6 +181,176 @@
         "GR",
         "R"
       ]
+    },
+    {
+      "id": "air_busters_2026-04-06",
+      "nombre": "Air Busters",
+      "fecha_inicio": "2026-04-06",
+      "fecha_fin": "2026-04-08",
+      "caracteristicas": [
+        "S",
+        "N",
+        "R"
+      ]
+    },
+    {
+      "id": "colossus_busters_2026-04-08",
+      "nombre": "Colossus Busters",
+      "fecha_inicio": "2026-04-08",
+      "fecha_fin": "2026-04-10",
+      "caracteristicas": [
+        "S",
+        "N",
+        "R"
+      ]
+    },
+    {
+      "id": "dark_heroes_2026-04-01",
+      "nombre": "Dark Heroes",
+      "fecha_inicio": "2026-04-01",
+      "fecha_fin": "2026-04-03",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "dragon_emperors_2026-04-01",
+      "nombre": "Dragon Emperors",
+      "fecha_inicio": "2026-04-01",
+      "fecha_fin": "2026-04-03",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "dynastyfest_2026-04-10",
+      "nombre": "Dynastyfest",
+      "fecha_inicio": "2026-04-10",
+      "fecha_fin": "2026-04-13",
+      "caracteristicas": []
+    },
+    {
+      "id": "elemental_pixies_2026-04-10",
+      "nombre": "Elemental Pixies",
+      "fecha_inicio": "2026-04-10",
+      "fecha_fin": "2026-04-13",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "iron_legion_2026-03-30",
+      "nombre": "Iron Legion",
+      "fecha_inicio": "2026-03-30",
+      "fecha_fin": "2026-04-01",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "luga_families_2026-03-30",
+      "nombre": "Luga Families",
+      "fecha_inicio": "2026-03-30",
+      "fecha_fin": "2026-04-01",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "metal_busters_2026-04-06",
+      "nombre": "Metal Busters",
+      "fecha_inicio": "2026-04-06",
+      "fecha_fin": "2026-04-08",
+      "caracteristicas": [
+        "S",
+        "N",
+        "R"
+      ]
+    },
+    {
+      "id": "red_busters_2026-04-06",
+      "nombre": "Red Busters",
+      "fecha_inicio": "2026-04-06",
+      "fecha_fin": "2026-04-08",
+      "caracteristicas": [
+        "S",
+        "N",
+        "R"
+      ]
+    },
+    {
+      "id": "the_almighties_2026-04-01",
+      "nombre": "The Almighties",
+      "fecha_inicio": "2026-04-01",
+      "fecha_fin": "2026-04-03",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "the_dynamites_2026-04-03",
+      "nombre": "The Dynamites",
+      "fecha_inicio": "2026-04-03",
+      "fecha_fin": "2026-04-06",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "ultra_souls_2026-04-03",
+      "nombre": "Ultra Souls",
+      "fecha_inicio": "2026-04-03",
+      "fecha_fin": "2026-04-06",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "wargods_vajiras_2026-03-30",
+      "nombre": "Wargods Vajiras",
+      "fecha_inicio": "2026-03-30",
+      "fecha_fin": "2026-04-01",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "wave_busters_2026-04-08",
+      "nombre": "Wave Busters",
+      "fecha_inicio": "2026-04-08",
+      "fecha_fin": "2026-04-10",
+      "caracteristicas": [
+        "S",
+        "N",
+        "R"
+      ]
     }
   ],
   "eventos": [
@@ -248,5 +418,5 @@
       "fecha_fin": "2026-03-30"
     }
   ],
-  "ultima_actualizacion": "2026-03-25T00:20:36.367321"
+  "ultima_actualizacion": "2026-03-29T00:13:31.520713"
 }
