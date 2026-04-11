@@ -492,7 +492,61 @@
       ],
       "fecha_inicio": "2026-03-23",
       "fecha_fin": "2026-03-30"
+    },
+    {
+      "id": "season_1:_school_days_2026-03-30",
+      "nombre": "Season 1: School Days",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-03-30",
+      "fecha_fin": "2026-04-27"
+    },
+    {
+      "id": "after_school:_love_letters_(monday,_tuesday,_wednesday,_thursday,_friday_/_17:00_~_24:00)_2026-03-30",
+      "nombre": "After School: Love Letters (Monday, Tuesday, Wednesday, Thursday, Friday / 17:00 ~ 24:00)",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-03-30",
+      "fecha_fin": "2026-04-03"
+    },
+    {
+      "id": "white_day_scratch_2026-03-30",
+      "nombre": "White Day Scratch",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-03-30",
+      "fecha_fin": "2026-04-05"
+    },
+    {
+      "id": "heavenly_tower,_infernal_tower_2026-03-30",
+      "nombre": "Heavenly Tower, Infernal Tower",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-03-30",
+      "fecha_fin": "2026-04-27"
+    },
+    {
+      "id": "resident_undead_2026-03-30",
+      "nombre": "Resident Undead",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-03-30",
+      "fecha_fin": "2026-04-06"
+    },
+    {
+      "id": "the_grand_deep_2026-03-30",
+      "nombre": "The Grand Deep",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-03-30",
+      "fecha_fin": "2026-04-20"
     }
   ],
-  "ultima_actualizacion": "2026-03-29T00:22:41.740812"
+  "ultima_actualizacion": "2026-04-11T14:57:05.498587"
 }
