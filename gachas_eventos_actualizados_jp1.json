@@ -263,7 +263,16 @@
       ],
       "fecha_inicio": "2026-03-16",
       "fecha_fin": "2026-04-01"
+    },
+    {
+      "id": "\u6975\u30e9\u30f3\u30ad\u30f3\u30b0\u306e\u9593_2026-04-16",
+      "nombre": "\u6975\u30e9\u30f3\u30ad\u30f3\u30b0\u306e\u9593",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-04-16",
+      "fecha_fin": "2026-05-01"
     }
   ],
-  "ultima_actualizacion": "2026-03-12T20:20:41.598764"
+  "ultima_actualizacion": "2026-04-11T14:57:26.053880"
 }
