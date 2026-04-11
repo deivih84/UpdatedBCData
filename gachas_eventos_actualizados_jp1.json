@@ -99,6 +99,42 @@
         "GR",
         "R"
       ]
+    },
+    {
+      "id": "galaxy_gals_2026-04-13",
+      "nombre": "Galaxy Gals",
+      "fecha_inicio": "2026-04-13",
+      "fecha_fin": "2026-04-15",
+      "caracteristicas": [
+        "G",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "luga_families_2026-04-11",
+      "nombre": "Luga Families",
+      "fecha_inicio": "2026-04-11",
+      "fecha_fin": "2026-04-13",
+      "caracteristicas": [
+        "G",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "the_almighties_2026-04-15",
+      "nombre": "The Almighties",
+      "fecha_inicio": "2026-04-15",
+      "fecha_fin": "2026-04-17",
+      "caracteristicas": [
+        "G",
+        "N",
+        "GR",
+        "R"
+      ]
     }
   ],
   "eventos": [
@@ -274,5 +310,5 @@
       "fecha_fin": "2026-05-01"
     }
   ],
-  "ultima_actualizacion": "2026-04-11T14:57:26.053880"
+  "ultima_actualizacion": "2026-04-11T14:57:46.276541"
 }
