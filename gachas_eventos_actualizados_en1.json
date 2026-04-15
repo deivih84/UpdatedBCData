@@ -427,6 +427,133 @@
       "fecha_inicio": "2025-01-01",
       "fecha_fin": "2027-01-04",
       "caracteristicas": []
+    },
+    {
+      "id": "dark_heroes_2026-04-24",
+      "nombre": "Dark Heroes",
+      "fecha_inicio": "2026-04-24",
+      "fecha_fin": "2026-04-27",
+      "caracteristicas": [
+        "G",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "dragon_emperors_2026-04-17",
+      "nombre": "Dragon Emperors",
+      "fecha_inicio": "2026-04-17",
+      "fecha_fin": "2026-04-20",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "elemental_pixies_2026-04-20",
+      "nombre": "Elemental Pixies",
+      "fecha_inicio": "2026-04-20",
+      "fecha_fin": "2026-04-22",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "epicfest_2026-04-17",
+      "nombre": "Epicfest",
+      "fecha_inicio": "2026-04-17",
+      "fecha_fin": "2026-04-20",
+      "caracteristicas": []
+    },
+    {
+      "id": "the_almighties_2026-04-22",
+      "nombre": "The Almighties",
+      "fecha_inicio": "2026-04-22",
+      "fecha_fin": "2026-04-24",
+      "caracteristicas": [
+        "G",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "the_dynamites_2026-04-20",
+      "nombre": "The Dynamites",
+      "fecha_inicio": "2026-04-20",
+      "fecha_fin": "2026-04-22",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "ultra_souls_2026-04-22",
+      "nombre": "Ultra Souls",
+      "fecha_inicio": "2026-04-22",
+      "fecha_fin": "2026-04-24",
+      "caracteristicas": [
+        "G",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "wargods_vajiras_2026-04-24",
+      "nombre": "Wargods Vajiras",
+      "fecha_inicio": "2026-04-24",
+      "fecha_fin": "2026-04-27",
+      "caracteristicas": [
+        "G",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "white_day_gacha_2026-04-17",
+      "nombre": "White Day Gacha",
+      "fecha_inicio": "2026-04-17",
+      "fecha_fin": "2026-04-20",
+      "caracteristicas": [
+        "P"
+      ]
+    },
+    {
+      "id": "white_day_gacha_2026-04-20",
+      "nombre": "White Day Gacha",
+      "fecha_inicio": "2026-04-20",
+      "fecha_fin": "2026-04-22",
+      "caracteristicas": [
+        "P"
+      ]
+    },
+    {
+      "id": "white_day_gacha_2026-04-22",
+      "nombre": "White Day Gacha",
+      "fecha_inicio": "2026-04-22",
+      "fecha_fin": "2026-04-24",
+      "caracteristicas": [
+        "G"
+      ]
+    },
+    {
+      "id": "white_day_gacha_2026-04-24",
+      "nombre": "White Day Gacha",
+      "fecha_inicio": "2026-04-24",
+      "fecha_fin": "2026-04-27",
+      "caracteristicas": [
+        "G"
+      ]
     }
   ],
   "eventos": [
@@ -467,5 +594,5 @@
       "fecha_fin": "2026-04-20"
     }
   ],
-  "ultima_actualizacion": "2026-04-11T14:57:05.498587"
+  "ultima_actualizacion": "2026-04-15T20:39:47.560540"
 }
