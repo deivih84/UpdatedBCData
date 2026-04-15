@@ -594,24 +594,6 @@
       "fecha_fin": "2026-04-20"
     },
     {
-      "id": "xp_festival_2026-04-17",
-      "nombre": "XP Festival",
-      "caracteristicas": [
-        "No description available."
-      ],
-      "fecha_inicio": "2026-04-17",
-      "fecha_fin": "2026-05-08"
-    },
-    {
-      "id": "xp_bonanza!_(tuesday_/_08:00_~_10:00_|_friday_/_16:00_~_18:00_|_thursday_/_22:00_~_24:00)_2026-04-17",
-      "nombre": "XP Bonanza! (Tuesday / 08:00 ~ 10:00 | Friday / 16:00 ~ 18:00 | Thursday / 22:00 ~ 24:00)",
-      "caracteristicas": [
-        "No description available."
-      ],
-      "fecha_inicio": "2026-04-17",
-      "fecha_fin": "2026-05-08"
-    },
-    {
       "id": "duel_stages_challenge_2026-04-17",
       "nombre": "Duel Stages Challenge",
       "caracteristicas": [
@@ -621,49 +603,13 @@
       "fecha_fin": "2026-04-27"
     },
     {
-      "id": "xp_harvest_(easy),_xp_harvest_(normal),_xp_harvest_(hard),_xp_harvest_(veteran)_2026-04-17",
-      "nombre": "XP Harvest (Easy), XP Harvest (Normal), XP Harvest (Hard), XP Harvest (Veteran)",
-      "caracteristicas": [
-        "No description available."
-      ],
-      "fecha_inicio": "2026-04-17",
-      "fecha_fin": "2026-04-27"
-    },
-    {
       "id": "catfruit_buffet_(08:00_~_10:00,_12:00_~_14:00,_19:00_~_21:00)_2026-04-18",
-      "nombre": "Catfruit Buffet (08:00 ~ 10:00, 12:00 ~ 14:00, 19:00 ~ 21:00)",
+      "nombre": "Catfruit Buffet",
       "caracteristicas": [
         "No description available."
       ],
       "fecha_inicio": "2026-04-18",
       "fecha_fin": "2026-04-15"
-    },
-    {
-      "id": "weekend:_confession,_weekend_~another_confession~_2026-04-18",
-      "nombre": "Weekend: Confession, Weekend ~Another Confession~",
-      "caracteristicas": [
-        "No description available."
-      ],
-      "fecha_inicio": "2026-04-18",
-      "fecha_fin": "2026-04-19"
-    },
-    {
-      "id": "season_4:_graduation_day,_after_story_~graduation_day~_2026-04-20",
-      "nombre": "Season 4: Graduation Day, After Story ~Graduation Day~",
-      "caracteristicas": [
-        "No description available."
-      ],
-      "fecha_inicio": "2026-04-20",
-      "fecha_fin": "2026-04-27"
-    },
-    {
-      "id": "white_day_scratch_2026-04-20",
-      "nombre": "White Day Scratch",
-      "caracteristicas": [
-        "No description available."
-      ],
-      "fecha_inicio": "2026-04-20",
-      "fecha_fin": "2026-04-27"
     },
     {
       "id": "mega_menace_2026-04-20",
