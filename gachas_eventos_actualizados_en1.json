@@ -592,7 +592,106 @@
       ],
       "fecha_inicio": "2026-03-30",
       "fecha_fin": "2026-04-20"
+    },
+    {
+      "id": "xp_festival_2026-04-17",
+      "nombre": "XP Festival",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-04-17",
+      "fecha_fin": "2026-05-08"
+    },
+    {
+      "id": "xp_bonanza!_(tuesday_/_08:00_~_10:00_|_friday_/_16:00_~_18:00_|_thursday_/_22:00_~_24:00)_2026-04-17",
+      "nombre": "XP Bonanza! (Tuesday / 08:00 ~ 10:00 | Friday / 16:00 ~ 18:00 | Thursday / 22:00 ~ 24:00)",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-04-17",
+      "fecha_fin": "2026-05-08"
+    },
+    {
+      "id": "duel_stages_challenge_2026-04-17",
+      "nombre": "Duel Stages Challenge",
+      "caracteristicas": [
+        "It's high noon, time for a showdown!\nDuel Stages Challenge (\u6c7a\u95d8\u30c1\u30e3\u30ec\u30f3\u30b8, Kett\u014d Charenji, Duel Challenge) is an event added in Version 11.6. It consists of all Duel Stages in a single map. Progress made in Duel Stages Challenge will reset when the event ends.\nEach stage has a Cat Deploy Limit and enemy limit of 1. Taking over 15 minutes to beat any one stage will cause an Assassin Bear to spawn."
+      ],
+      "fecha_inicio": "2026-04-17",
+      "fecha_fin": "2026-04-27"
+    },
+    {
+      "id": "xp_harvest_(easy),_xp_harvest_(normal),_xp_harvest_(hard),_xp_harvest_(veteran)_2026-04-17",
+      "nombre": "XP Harvest (Easy), XP Harvest (Normal), XP Harvest (Hard), XP Harvest (Veteran)",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-04-17",
+      "fecha_fin": "2026-04-27"
+    },
+    {
+      "id": "catfruit_buffet_(08:00_~_10:00,_12:00_~_14:00,_19:00_~_21:00)_2026-04-18",
+      "nombre": "Catfruit Buffet (08:00 ~ 10:00, 12:00 ~ 14:00, 19:00 ~ 21:00)",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-04-18",
+      "fecha_fin": "2026-04-15"
+    },
+    {
+      "id": "weekend:_confession,_weekend_~another_confession~_2026-04-18",
+      "nombre": "Weekend: Confession, Weekend ~Another Confession~",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-04-18",
+      "fecha_fin": "2026-04-19"
+    },
+    {
+      "id": "season_4:_graduation_day,_after_story_~graduation_day~_2026-04-20",
+      "nombre": "Season 4: Graduation Day, After Story ~Graduation Day~",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-04-20",
+      "fecha_fin": "2026-04-27"
+    },
+    {
+      "id": "white_day_scratch_2026-04-20",
+      "nombre": "White Day Scratch",
+      "caracteristicas": [
+        "No description available."
+      ],
+      "fecha_inicio": "2026-04-20",
+      "fecha_fin": "2026-04-27"
+    },
+    {
+      "id": "mega_menace_2026-04-20",
+      "nombre": "Mega Menace",
+      "caracteristicas": [
+        "Mega Menace contains a total of 20 No Continues levels, called On Mighty Wings Lvs. After beating three On Mighty Wings Lvs, the player must wait for 30 minutes before they may proceed to the next one (may have 3 clears after 90 minutes). Rewards for the first completion of an On Mighty Wings Lv can include XP, Tickets, Catamins and Materials. Every 10 On Mighty Wings Lvs plays out the same, but the strength magnifications and enemy base's HP are increased with each level."
+      ],
+      "fecha_inicio": "2026-04-20",
+      "fecha_fin": "2026-04-27"
+    },
+    {
+      "id": "tag_arena_challenge_2026-04-27",
+      "nombre": "Tag Arena Challenge",
+      "caracteristicas": [
+        "Tag Arena Challenge (\u30bf\u30c3\u30b0\u95d8\u6280\u30c1\u30e3\u30ec\u30f3\u30b8, Taggu T\u014dgi Charenji, Tag Team Challenge) is a map added in Version 11.6. It consists of all Tag Arena Stages combined into a single map, along with three new stages. Progress made in Tag Arena Challenge will reset when the event ends.\nThere are three stages per map, each with a Cat Deploy Limit and enemy limit of 2. Taking over 15 minutes to beat any stage will cause an Assassin Bear to spawn. As opposed to the Duel Stages Challenge, most of the enemies can spawn multiple times."
+      ],
+      "fecha_inicio": "2026-04-27",
+      "fecha_fin": "2026-05-08"
+    },
+    {
+      "id": "cats_eye_cave_2026-04-27",
+      "nombre": "Cats Eye Cave",
+      "caracteristicas": [
+        "No info :) this is a Gamatoto expedition area that gives Catseyes as rewards."
+      ],
+      "fecha_inicio": "2026-04-27",
+      "fecha_fin": "2026-05-08"
     }
   ],
-  "ultima_actualizacion": "2026-04-15T20:39:47.560540"
+  "ultima_actualizacion": "2026-04-15T20:44:29.104988"
 }
