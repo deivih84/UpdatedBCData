@@ -275,6 +275,46 @@
         "GR",
         "R"
       ]
+    },
+    {
+      "id": "easter_gacha_2026-04-27",
+      "nombre": "Easter Gacha",
+      "fecha_inicio": "2026-04-27",
+      "fecha_fin": "2026-05-01",
+      "caracteristicas": [
+        "L",
+        "P"
+      ]
+    },
+    {
+      "id": "easter_gacha_2026-05-01",
+      "nombre": "Easter Gacha",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-05-04",
+      "caracteristicas": [
+        "L",
+        "P"
+      ]
+    },
+    {
+      "id": "easter_gacha_2026-05-04",
+      "nombre": "Easter Gacha",
+      "fecha_inicio": "2026-05-04",
+      "fecha_fin": "2026-05-06",
+      "caracteristicas": [
+        "L",
+        "P"
+      ]
+    },
+    {
+      "id": "easter_gacha_2026-05-06",
+      "nombre": "Easter Gacha",
+      "fecha_inicio": "2026-05-06",
+      "fecha_fin": "2026-05-11",
+      "caracteristicas": [
+        "G",
+        "L"
+      ]
     }
   ],
   "eventos": [
@@ -360,5 +400,5 @@
       "fecha_fin": "2026-05-08"
     }
   ],
-  "ultima_actualizacion": "2026-04-27T15:49:30.620004"
+  "ultima_actualizacion": "2026-04-27T16:05:27.764166"
 }
