@@ -382,6 +382,13 @@
       "fecha_inicio": "2025-01-01",
       "fecha_fin": "2027-01-04",
       "caracteristicas": []
+    },
+    {
+      "id": "epicfest_2026-05-15",
+      "nombre": "Epicfest",
+      "fecha_inicio": "2026-05-15",
+      "fecha_fin": "2026-05-18",
+      "caracteristicas": []
     }
   ],
   "eventos": [
@@ -467,5 +474,5 @@
       "fecha_fin": "2026-05-08"
     }
   ],
-  "ultima_actualizacion": "2026-04-27T16:16:03.470432"
+  "ultima_actualizacion": "2026-04-27T20:26:25.179904"
 }
