@@ -125,6 +125,156 @@
       "caracteristicas": [
         "G"
       ]
+    },
+    {
+      "id": "dark_heroes_2026-05-01",
+      "nombre": "Dark Heroes",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-05-04",
+      "caracteristicas": [
+        "L",
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "download_anniversary_gacha_2026-05-11",
+      "nombre": "Download Anniversary Gacha",
+      "fecha_inicio": "2026-05-11",
+      "fecha_fin": "2026-06-01",
+      "caracteristicas": []
+    },
+    {
+      "id": "dragon_emperors_2026-05-04",
+      "nombre": "Dragon Emperors",
+      "fecha_inicio": "2026-05-04",
+      "fecha_fin": "2026-05-06",
+      "caracteristicas": [
+        "L",
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "elemental_pixies_2026-05-06",
+      "nombre": "Elemental Pixies",
+      "fecha_inicio": "2026-05-06",
+      "fecha_fin": "2026-05-08",
+      "caracteristicas": [
+        "G",
+        "L",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "galaxy_gals_2026-04-27",
+      "nombre": "Galaxy Gals",
+      "fecha_inicio": "2026-04-27",
+      "fecha_fin": "2026-04-29",
+      "caracteristicas": [
+        "L",
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "galaxy_gals_2026-05-08",
+      "nombre": "Galaxy Gals",
+      "fecha_inicio": "2026-05-08",
+      "fecha_fin": "2026-05-11",
+      "caracteristicas": [
+        "G",
+        "L",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "iron_legion_2026-04-29",
+      "nombre": "Iron Legion",
+      "fecha_inicio": "2026-04-29",
+      "fecha_fin": "2026-05-01",
+      "caracteristicas": [
+        "L",
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "luga_families_2026-04-29",
+      "nombre": "Luga Families",
+      "fecha_inicio": "2026-04-29",
+      "fecha_fin": "2026-05-01",
+      "caracteristicas": [
+        "L",
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "spooky_cuties_2026-04-27",
+      "nombre": "Spooky Cuties",
+      "fecha_inicio": "2026-04-27",
+      "fecha_fin": "2026-04-29",
+      "caracteristicas": [
+        "L",
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "spooky_cuties_2026-05-08",
+      "nombre": "Spooky Cuties",
+      "fecha_inicio": "2026-05-08",
+      "fecha_fin": "2026-05-11",
+      "caracteristicas": [
+        "G",
+        "L",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "the_almighties_2026-05-04",
+      "nombre": "The Almighties",
+      "fecha_inicio": "2026-05-04",
+      "fecha_fin": "2026-05-06",
+      "caracteristicas": [
+        "L",
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "the_dynamites_2026-05-06",
+      "nombre": "The Dynamites",
+      "fecha_inicio": "2026-05-06",
+      "fecha_fin": "2026-05-08",
+      "caracteristicas": [
+        "G",
+        "L",
+        "N",
+        "GR",
+        "R"
+      ]
     }
   ],
   "eventos": [
@@ -210,5 +360,5 @@
       "fecha_fin": "2026-05-08"
     }
   ],
-  "ultima_actualizacion": "2026-04-15T20:44:29.104988"
+  "ultima_actualizacion": "2026-04-27T15:49:30.620004"
 }
