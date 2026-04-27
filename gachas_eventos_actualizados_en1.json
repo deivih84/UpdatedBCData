@@ -315,6 +315,73 @@
         "G",
         "L"
       ]
+    },
+    {
+      "id": "download_anniversary_gacha_2026-05-15",
+      "nombre": "Download Anniversary Gacha",
+      "fecha_inicio": "2026-05-15",
+      "fecha_fin": "2026-06-01",
+      "caracteristicas": []
+    },
+    {
+      "id": "dragon_emperors_2026-05-15",
+      "nombre": "Dragon Emperors",
+      "fecha_inicio": "2026-05-15",
+      "fecha_fin": "2026-05-18",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "iron_legion_2026-05-13",
+      "nombre": "Iron Legion",
+      "fecha_inicio": "2026-05-13",
+      "fecha_fin": "2026-05-15",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "luga_families_2026-05-13",
+      "nombre": "Luga Families",
+      "fecha_inicio": "2026-05-13",
+      "fecha_fin": "2026-05-15",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "ultra_souls_2026-05-11",
+      "nombre": "Ultra Souls",
+      "fecha_inicio": "2026-05-11",
+      "fecha_fin": "2026-05-13",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
+    },
+    {
+      "id": "wargods_vajiras_2026-05-11",
+      "nombre": "Wargods Vajiras",
+      "fecha_inicio": "2026-05-11",
+      "fecha_fin": "2026-05-13",
+      "caracteristicas": [
+        "P",
+        "N",
+        "GR",
+        "R"
+      ]
     }
   ],
   "eventos": [
@@ -400,5 +467,5 @@
       "fecha_fin": "2026-05-08"
     }
   ],
-  "ultima_actualizacion": "2026-04-27T16:05:27.764166"
+  "ultima_actualizacion": "2026-04-27T16:16:03.470432"
 }
