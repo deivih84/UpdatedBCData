@@ -218,7 +218,20 @@
                 "rarity": "EX",
                 "name_basic": "Moneko",
                 "names_evolved": "Miss MONEKO / Superstar MONEKO",
-                "obtain_method": "Empire of Cats - complete Chapter 1: The Battle Cats Rising"
+                "obtain_method": "Empire of Cats - complete Chapter 1: The Battle Cats Rising",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 500000,
+                        "materials": [
+                            [31,3],
+                            [32,3],
+                            [34,3],
+                            [43,1],
+                            [164,1]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [600,4,5,400,50,160,99,999,0,320,0,0,0,28,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -579,7 +592,20 @@
                 "rarity": "RR",
                 "name_basic": "Pogo Cat",
                 "names_evolved": "Masai Cat / Jiangshi Cat",
-                "obtain_method": "Rare Cat Capsule"
+                "obtain_method": "Rare Cat Capsule",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [30,2],
+                            [31,3],
+                            [34,3],
+                            [38,1],
+                            [37,1]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [300,3,10,65,15,150,240,140,0,320,0,0,0,16,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,0,0,0,0,0,0,0,0,0],
@@ -592,7 +618,20 @@
                 "rarity": "RR",
                 "name_basic": "Wheel Cat",
                 "names_evolved": "Solar Cat / Chill Cat",
-                "obtain_method": "Rare Cat Capsule"
+                "obtain_method": "Rare Cat Capsule",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [33,2],
+                            [30,1],
+                            [31,3],
+                            [34,2],
+                            [37,2]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [600,2,9,220,20,170,700,300,0,320,0,0,1,29,0,9,0,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -657,7 +696,20 @@
                 "rarity": "RR",
                 "name_basic": "Salon Cat",
                 "names_evolved": "Paris Cat / Cyborg Cat",
-                "obtain_method": "Rare Cat Capsule"
+                "obtain_method": "Rare Cat Capsule",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [33,3],
+                            [30,2],
+                            [34,3],
+                            [36,1],
+                            [37,1]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [480,3,10,180,60,350,600,165,0,320,0,0,1,7,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0],
@@ -760,7 +812,20 @@
                 "rarity": "RR",
                 "name_basic": "Jurassic Cat",
                 "names_evolved": "Jurassic Cat Sitter / Catasaurus",
-                "obtain_method": "Rare Cat Capsule"
+                "obtain_method": "Rare Cat Capsule",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [30,3],
+                            [32,2],
+                            [34,3],
+                            [38,1],
+                            [36,1]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [570,3,12,73,6,150,350,240,0,320,0,0,0,16,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -773,7 +838,20 @@
                 "rarity": "RR",
                 "name_basic": "Viking Cat",
                 "names_evolved": "Thor Cat / Maximum the Fighter",
-                "obtain_method": "Rare Cat Capsule"
+                "obtain_method": "Rare Cat Capsule",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [33,2],
+                            [30,3],
+                            [32,2],
+                            [34,1],
+                            [36,2]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [665,3,11,80,5,140,350,190,0,320,1,0,0,16,0,9,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -786,7 +864,20 @@
                 "rarity": "RR",
                 "name_basic": "Pirate Cat",
                 "names_evolved": "Captain Cat / Dread Pirate Catley",
-                "obtain_method": "Rare Cat Capsule"
+                "obtain_method": "Rare Cat Capsule",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [33,3],
+                            [30,2],
+                            [32,2],
+                            [34,1],
+                            [36,2]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [305,3,8,33,18,270,340,220,0,320,1,0,0,10,0,9,0,0,0,0,0,0,0,0,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -799,7 +890,20 @@
                 "rarity": "RR",
                 "name_basic": "Thief Cat",
                 "names_evolved": "Phantom Thief Cat / Goemon Cat",
-                "obtain_method": "Rare Cat Capsule"
+                "obtain_method": "Rare Cat Capsule",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [33,3],
+                            [31,3],
+                            [32,2],
+                            [38,1],
+                            [35,1]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [462,3,13,54,8,170,330,210,0,320,0,0,0,15,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -812,7 +916,20 @@
                 "rarity": "RR",
                 "name_basic": "Bishop Cat",
                 "names_evolved": "Monk Cat / Sanzo Cat",
-                "obtain_method": "Rare Cat Capsule"
+                "obtain_method": "Rare Cat Capsule",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [30,1],
+                            [31,2],
+                            [32,2],
+                            [34,3],
+                            [38,2]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [380,3,10,37,11,200,330,190,0,320,0,0,0,8,0,9,1,0,0,0,0,0,0,0,0,0,0,20,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -825,7 +942,20 @@
                 "rarity": "RR",
                 "name_basic": "Fortune Teller Cat",
                 "names_evolved": "Fisherman Cat / Doctor Cat",
-                "obtain_method": "Rare Cat Capsule"
+                "obtain_method": "Rare Cat Capsule",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [30,1],
+                            [31,3],
+                            [32,2],
+                            [34,2],
+                            [38,2]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [325,3,9,36,15,240,340,210,0,320,0,0,0,11,0,9,1,0,0,0,0,0,0,0,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -838,7 +968,20 @@
                 "rarity": "RR",
                 "name_basic": "Shaman Cat",
                 "names_evolved": "Necromancer Cat / Necro-Dancer Cat",
-                "obtain_method": "Rare Cat Capsule"
+                "obtain_method": "Rare Cat Capsule",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [30,3],
+                            [31,2],
+                            [32,2],
+                            [34,1],
+                            [38,2]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [316,3,10,45,16,250,340,220,0,320,0,0,0,23,0,9,1,0,0,0,0,0,0,0,0,20,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -875,7 +1018,20 @@
                 "rarity": "RR",
                 "name_basic": "Witch Cat",
                 "names_evolved": "Sorceress Cat / Enchantress Cat",
-                "obtain_method": "Rare Cat Capsule"
+                "obtain_method": "Rare Cat Capsule",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [33,3],
+                            [30,2],
+                            [32,2],
+                            [34,1],
+                            [36,2]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [380,3,10,37,11,200,330,190,0,320,1,0,0,22,0,9,0,0,0,0,0,0,0,0,0,0,0,20,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -888,7 +1044,20 @@
                 "rarity": "RR",
                 "name_basic": "Archer Cat",
                 "names_evolved": "Cupid Cat / Cataur",
-                "obtain_method": "Rare Cat Capsule"
+                "obtain_method": "Rare Cat Capsule",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [30,1],
+                            [31,2],
+                            [32,3],
+                            [34,2],
+                            [38,2]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [180,3,10,98,15,340,820,300,0,320,0,0,0,43,0,9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -927,7 +1096,20 @@
                 "rarity": "RR",
                 "name_basic": "Swordsman Cat",
                 "names_evolved": "Sword Master Cat / Elemental Duelist Cat",
-                "obtain_method": "Rare Cat Capsule"
+                "obtain_method": "Rare Cat Capsule",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [33,3],
+                            [30,2],
+                            [32,2],
+                            [34,1],
+                            [36,2]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [550,3,11,100,5,155,420,200,0,320,1,0,0,8,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -1086,7 +1268,18 @@
                 "rarity": "RR",
                 "name_basic": "Li'l Gau",
                 "names_evolved": "Li'l Gau Gau / Crystal Li'l Gau Gau",
-                "obtain_method": "Rare Cat Capsule - Princess Punt Sweets Collaboration"
+                "obtain_method": "Rare Cat Capsule - Princess Punt Sweets Collaboration",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [30,2],
+                            [32,1],
+                            [34,1]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [600,1,8,200,30,110,200,165,0,320,0,0,0,56,0,9,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -1860,7 +2053,18 @@
                 "rarity": "RR",
                 "name_basic": "Nono",
                 "names_evolved": "Nono CC / Frolicking Nono CC",
-                "obtain_method": "Rare Cat Capsule - Merc Storia Collaboration"
+                "obtain_method": "Rare Cat Capsule - Merc Storia Collaboration",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [30,2],
+                            [32,1],
+                            [33,1]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [638,1,11,30,45,190,210,165,0,320,0,0,0,22,0,9,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0],
@@ -2020,7 +2224,18 @@
                 "rarity": "EX",
                 "name_basic": "Bean Cats",
                 "names_evolved": "Brah Cats / Val Val Cat",
-                "obtain_method": "Empire of Cats (stage 23)"
+                "obtain_method": "Empire of Cats (stage 23)",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [31,3],
+                            [36,3],
+                            [168,1]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [255,3,8,55,30,230,330,274,0,320,1,0,0,40,0,9,0,0,0,0,0,0,0,0,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -2147,7 +2362,20 @@
                 "rarity": "EX",
                 "name_basic": "Ururun Wolf",
                 "names_evolved": "Ururun Cat / Awakened Ururun",
-                "obtain_method": "Drop - The Great Escaper"
+                "obtain_method": "Drop - The Great Escaper",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 1000000,
+                        "materials": [
+                            [33,5],
+                            [30,5],
+                            [32,5],
+                            [34,5],
+                            [42,1]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [1400,4,8,900,20,440,3300,2550,0,320,1,0,1,68,0,9,1,1,0,1,1,1,1,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
@@ -2454,7 +2682,20 @@
                 "rarity": "RR",
                 "name_basic": "Cat Gunslinger",
                 "names_evolved": "Cat Eastwood / Rodeo Cat",
-                "obtain_method": "Rare Cat Capsule"
+                "obtain_method": "Rare Cat Capsule",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [33,1],
+                            [31,2],
+                            [32,3],
+                            [34,2],
+                            [35,2]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [310,3,9,80,0,290,430,230,0,320,0,0,0,4,0,9,0,1,0,0,0,0,0,0,0,0,0,30,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -2467,7 +2708,20 @@
                 "rarity": "RR",
                 "name_basic": "Stilts Cat",
                 "names_evolved": "Totem Cat / Acrobat Cats",
-                "obtain_method": "Rare Cat Capsule"
+                "obtain_method": "Rare Cat Capsule",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [33,3],
+                            [30,1],
+                            [31,2],
+                            [32,2],
+                            [39,2]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [335,3,6,46,30,310,380,260,0,320,0,0,0,17,0,9,0,0,0,0,1,0,0,0,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -2480,7 +2734,20 @@
                 "rarity": "RR",
                 "name_basic": "Tin Cat",
                 "names_evolved": "Plane Cat / Robocat",
-                "obtain_method": "Rare Cat Capsule"
+                "obtain_method": "Rare Cat Capsule",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [33,3],
+                            [31,2],
+                            [32,2],
+                            [34,1],
+                            [35,2]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [605,3,8,77,20,295,340,230,0,320,0,0,0,25,0,9,0,1,0,0,0,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -2493,7 +2760,20 @@
                 "rarity": "RR",
                 "name_basic": "Rocker Cat",
                 "names_evolved": "Artist Cat / Ramen Cat",
-                "obtain_method": "Rare Cat Capsule"
+                "obtain_method": "Rare Cat Capsule",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [33,3],
+                            [30,2],
+                            [31,2],
+                            [32,1],
+                            [39,2]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [450,1,8,32,0,120,210,190,0,320,0,0,0,5,0,9,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -2506,7 +2786,20 @@
                 "rarity": "RR",
                 "name_basic": "Mer-Cat",
                 "names_evolved": "Commando Cat / Cameraman Cat",
-                "obtain_method": "Rare Cat Capsule"
+                "obtain_method": "Rare Cat Capsule",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [30,2],
+                            [31,3],
+                            [32,1],
+                            [34,2],
+                            [38,2]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [320,4,4,270,40,190,360,190,0,320,0,0,0,25,0,9,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -2955,7 +3248,20 @@
                 "rarity": "EX",
                 "name_basic": "Li'l Nyandam",
                 "names_evolved": "Dark Emperor Catdam / Schoolbus Nyandam",
-                "obtain_method": "Drop - Saint Red Fox"
+                "obtain_method": "Drop - Saint Red Fox",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 1000000,
+                        "materials": [
+                            [38,5],
+                            [35,5],
+                            [37,5],
+                            [39,5],
+                            [42,1]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [1200,2,5,920,180,551,2900,2650,0,320,1,0,1,77,0,9,1,1,1,1,1,1,1,0,0,0,0,30,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
@@ -3394,7 +3700,20 @@
                 "rarity": "RR",
                 "name_basic": "Psychocat",
                 "names_evolved": "Neo Psychocat / Corrupted Psychocat",
-                "obtain_method": "Rare Cat Capsule"
+                "obtain_method": "Rare Cat Capsule",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [33,3],
+                            [30,2],
+                            [31,2],
+                            [34,1],
+                            [37,2]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [380,3,6,50,20,365,350,250,0,320,0,0,0,66,0,9,0,0,0,0,0,1,0,0,0,0,0,50,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -3407,7 +3726,20 @@
                 "rarity": "RR",
                 "name_basic": "Onmyoji Cat",
                 "names_evolved": "Magica Cat / Thaumaturge Cat",
-                "obtain_method": "Rare Cat Capsule"
+                "obtain_method": "Rare Cat Capsule",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [30,2],
+                            [31,1],
+                            [32,2],
+                            [34,3],
+                            [38,2]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [350,3,8,30,14,310,340,310,0,320,1,0,0,93,0,9,1,1,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,200,50,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
@@ -3645,7 +3977,16 @@
                 "rarity": "EX",
                 "name_basic": "Catburger",
                 "names_evolved": "Cat Royale / Value Meal Cat",
-                "obtain_method": "Drop - Minced Meet-Up"
+                "obtain_method": "Drop - Minced Meet-Up",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 20000,
+                        "materials": [
+                            [31,1]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [110,3,9,8,15,140,50,75,0,320,0,0,0,10,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -3876,7 +4217,18 @@
                 "rarity": "RR",
                 "name_basic": "Pumpcat",
                 "names_evolved": "Cat O'Lantern / Harbinger Cat",
-                "obtain_method": "Drop - #02 Sugar Struggle"
+                "obtain_method": "Drop - #02 Sugar Struggle",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [167,20],
+                            [170,15],
+                            [171,1]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [120,2,8,8,15,140,60,75,0,320,0,0,0,15,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -4205,7 +4557,18 @@
                 "rarity": "EX",
                 "name_basic": "Undead Cat",
                 "names_evolved": "Bake-Nyanko / Extra-Life Cat",
-                "obtain_method": "Event Cat Capsule - June Bride of the Devil (Removed)"
+                "obtain_method": "Event Cat Capsule - June Bride of the Devil (Removed)",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 20000,
+                        "materials": [
+                            [33,5],
+                            [30,5],
+                            [31,5]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [380,3,10,50,0,220,360,220,0,320,0,0,0,4,0,9,0,0,0,0,0,0,1,0,0,0,0,20,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -4503,7 +4866,19 @@
                 "rarity": "EX",
                 "name_basic": "Red Riding Mina",
                 "names_evolved": "Crimson Mina / Awakened Mina",
-                "obtain_method": "Drop - Learned to Love"
+                "obtain_method": "Drop - Learned to Love",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 1000000,
+                        "materials": [
+                            [31,10],
+                            [36,10],
+                            [40,5],
+                            [42,1]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [1200,4,10,600,60,435,2600,1600,0,320,0,0,1,76,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,300,300,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -4733,7 +5108,18 @@
                 "rarity": "RR",
                 "name_basic": "Awa-Odori Cat",
                 "names_evolved": "So-Ran Cat / Gorgeous Groovin' Cat",
-                "obtain_method": "Drop - Summer Diary"
+                "obtain_method": "Drop - Summer Diary",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [168,20],
+                            [170,15],
+                            [171,1]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [150,3,8,12,15,140,50,75,0,320,0,0,0,14,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -5200,7 +5586,20 @@
                 "rarity": "RR",
                 "name_basic": "Gardener Cat",
                 "names_evolved": "Lumbercat / Weedwacker Cat",
-                "obtain_method": "Rare Cat Capsule"
+                "obtain_method": "Rare Cat Capsule",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [33,1],
+                            [31,2],
+                            [32,3],
+                            [34,2],
+                            [35,2]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [400,3,9,15,0,200,360,300,0,320,0,0,0,1,0,9,0,0,0,0,0,0,1,0,0,5,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -5373,7 +5772,20 @@
                 "rarity": "RR",
                 "name_basic": "Killer Cat",
                 "names_evolved": "True Killer Cat / Radical Cat",
-                "obtain_method": "Drop - Horde of Cats"
+                "obtain_method": "Drop - Horde of Cats",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [167,3],
+                            [168,3],
+                            [169,3],
+                            [170,3],
+                            [171,3]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [100,3,10,8,15,140,5000,75,0,320,0,0,0,8,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -5437,7 +5849,20 @@
                 "rarity": "EX",
                 "name_basic": "Miyamoku Musashi",
                 "names_evolved": "Heroic Musashi / Awakened Musashi",
-                "obtain_method": "Drop - Multiversal Studios"
+                "obtain_method": "Drop - Multiversal Studios",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 1000000,
+                        "materials": [
+                            [38,10],
+                            [35,10],
+                            [37,10],
+                            [39,10],
+                            [42,1]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [1900,3,5,1900,114,400,3200,2400,0,320,0,0,1,42,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -5463,7 +5888,20 @@
                 "rarity": "RR",
                 "name_basic": "Welterweight Cat",
                 "names_evolved": "Heavyweight Cat / Ectoweight Cat",
-                "obtain_method": "Rare Cat Capsule"
+                "obtain_method": "Rare Cat Capsule",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [33,2],
+                            [31,2],
+                            [32,1],
+                            [34,3],
+                            [35,2]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [360,3,9,15,20,250,360,270,0,320,0,0,0,2,0,9,0,0,0,0,0,0,1,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,-1,0,4,58,8,16,1,1,1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -6285,7 +6723,18 @@
                 "rarity": "RR",
                 "name_basic": "Sakura the Cat",
                 "names_evolved": "Apron Sakura Cat / Dreaming Sakura Cat",
-                "obtain_method": "Rare Cat Capsule - Fate/Stay Night: Heaven's Feel: Heaven's Feel Collaboration"
+                "obtain_method": "Rare Cat Capsule - Fate/Stay Night: Heaven's Feel: Heaven's Feel Collaboration",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [30,2],
+                            [31,1],
+                            [32,1]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [820,4,10,127,0,165,360,250,0,320,0,0,0,22,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -6358,7 +6807,20 @@
                 "rarity": "RR",
                 "name_basic": "Rover Cat",
                 "names_evolved": "Rover Cat Mk II / Catellite",
-                "obtain_method": "Rare Cat Capsule"
+                "obtain_method": "Rare Cat Capsule",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [33,2],
+                            [30,3],
+                            [31,1],
+                            [34,2],
+                            [37,2]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [600,1,10,200,36,120,200,190,0,320,0,0,0,20,0,9,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0],
@@ -7151,7 +7613,20 @@
                 "rarity": "EX",
                 "name_basic": "Mecha-Bun",
                 "names_evolved": "Mecha-Bun Mk II / Ultimate Mecha-Bun",
-                "obtain_method": "Drop - Eldritch Forces"
+                "obtain_method": "Drop - Eldritch Forces",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 1000000,
+                        "materials": [
+                            [33,5],
+                            [32,5],
+                            [34,5],
+                            [40,10],
+                            [42,1]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [3200,2,23,400,0,190,2400,1400,0,320,0,0,1,20,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -7345,7 +7820,16 @@
                 "rarity": "EX",
                 "name_basic": "Cat God the Great",
                 "names_evolved": "Cat God the Awesome / Cat God the Golden",
-                "obtain_method": "Cats of the Cosmos - complete Chapter 2: The Passion of Catgod"
+                "obtain_method": "Cats of the Cosmos - complete Chapter 2: The Passion of Catgod",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 1000000,
+                        "materials": [
+                            [44,1]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [1500,1,3,30,410,350,2222,4444,0,320,1,0,1,90,0,0,1,1,0,1,1,1,1,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,850,-1700,0,0,0,0,0,0,0,0,0,-1,0,-1,0,30,3000,150,300,1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
@@ -7556,7 +8040,17 @@
                 "rarity": "LR",
                 "name_basic": "Musashi Miyamoto",
                 "names_evolved": "Wargod Miyamoto / Immortal Miyamoto",
-                "obtain_method": "Rare Cat Capsule - Sengoku Wargods Vajiras"
+                "obtain_method": "Rare Cat Capsule - Sengoku Wargods Vajiras",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 3000000,
+                        "materials": [
+                            [37,5],
+                            [181,1]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [4880,4,10,599,0,400,2850,1500,0,320,0,0,0,9,0,5,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,599,0,32,0,1,1,0,-1,10,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0],
@@ -7569,7 +8063,18 @@
                 "rarity": "LR",
                 "name_basic": "Jeanne",
                 "names_evolved": "Jeanne ψ / Divine Jeanne ψ",
-                "obtain_method": "Rare Cat Capsule - Cyber Academy Galaxy Gals"
+                "obtain_method": "Rare Cat Capsule - Cyber Academy Galaxy Gals",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 3000000,
+                        "materials": [
+                            [36,5],
+                            [38,3],
+                            [182,1]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [3200,4,20,660,0,400,3220,1880,0,320,1,0,1,48,0,9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,200,350,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,10,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0],
@@ -7582,7 +8087,19 @@
                 "rarity": "LR",
                 "name_basic": "High Lord Babel",
                 "names_evolved": "Babel the Darkflame / God-Emperor Babel",
-                "obtain_method": "Rare Cat Capsule - Lords of Destruction Dragon Emperors"
+                "obtain_method": "Rare Cat Capsule - Lords of Destruction Dragon Emperors",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 3000000,
+                        "materials": [
+                            [38,5],
+                            [36,5],
+                            [180,1],
+                            [182,1]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [15000,2,8,5000,124,390,4500,2500,0,320,1,0,1,113,0,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,10,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -7738,7 +8255,18 @@
                 "rarity": "EX",
                 "name_basic": "Filibuster Cat X",
                 "names_evolved": "Filibuster Cat Y / Metafilibuster",
-                "obtain_method": "Cats of the Cosmos - complete Chapter 3: Even Stars Burn Out's Filibuster Invasion"
+                "obtain_method": "Cats of the Cosmos - complete Chapter 3: Even Stars Burn Out's Filibuster Invasion",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 1000000,
+                        "materials": [
+                            [184,5],
+                            [180,2],
+                            [183,1]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [1600,1,7,1000,110,575,2500,2400,0,320,0,0,1,360,0,9,0,0,0,1,0,0,0,0,0,100,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,575,-1075,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -7763,7 +8291,17 @@
                 "rarity": "EX",
                 "name_basic": "Dogumaru",
                 "names_evolved": "Doguemon / Reborn Warrior Doguemon",
-                "obtain_method": "Drop - Primitive Souls"
+                "obtain_method": "Drop - Primitive Souls",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 1000000,
+                        "materials": [
+                            [170,10],
+                            [184,3]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [3600,2,15,2100,63,350,2600,1700,0,320,0,0,1,102,0,9,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -8006,7 +8544,20 @@
                 "rarity": "EX",
                 "name_basic": "Gummy Cat",
                 "names_evolved": "Lucky Cat / Gummy Cat Soda",
-                "obtain_method": "Special Sale"
+                "obtain_method": "Special Sale",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [167,5],
+                            [168,5],
+                            [169,5],
+                            [170,5],
+                            [171,5]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [1000,1000,9,1,15,140,100,222,0,320,0,0,0,8,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -8225,7 +8776,20 @@
                 "rarity": "RR",
                 "name_basic": "Matador Cat",
                 "names_evolved": "Flamenco Cat / Bellydance Cat",
-                "obtain_method": "Rare Cat Capsule"
+                "obtain_method": "Rare Cat Capsule",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [43,1],
+                            [33,1],
+                            [31,3],
+                            [32,2],
+                            [36,2]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [675,3,14,140,0,190,360,190,0,320,1,0,0,34,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30,60,0,0,0,0,0,0,0,0,0,0,0],
@@ -8660,7 +9224,20 @@
                 "rarity": "RR",
                 "name_basic": "Wushu Cat",
                 "names_evolved": "Sifu Cat / Shigong Cat",
-                "obtain_method": "Rare Cat Capsule"
+                "obtain_method": "Rare Cat Capsule",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [30,3],
+                            [31,2],
+                            [32,2],
+                            [34,1],
+                            [38,2]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [510,1,9,73,0,120,240,220,0,320,0,0,0,10,0,9,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,-1,0,73,73,20,35,1,1,1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -8786,7 +9363,18 @@
                 "rarity": "EX",
                 "name_basic": "Urs & Fenrir",
                 "names_evolved": "Urs & Minka / Awakened Urs",
-                "obtain_method": "Drop - Lifesaving Shovel"
+                "obtain_method": "Drop - Lifesaving Shovel",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 1000000,
+                        "materials": [
+                            [167,5],
+                            [168,5],
+                            [184,3]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [1800,4,8,1100,20,445,3250,2600,0,320,1,0,1,68,0,9,1,1,0,1,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,20,90,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0],
@@ -9319,7 +9907,20 @@
                 "rarity": "EX",
                 "name_basic": "Li'l Clops Cat Egg",
                 "names_evolved": "Li'l Clops Cat / Lightning Li'l Clops Cat",
-                "obtain_method": "Special Sale - Castle & Dragon Collaboration"
+                "obtain_method": "Special Sale - Castle & Dragon Collaboration",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [38,3],
+                            [35,3],
+                            [36,3],
+                            [37,3],
+                            [39,3]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [100,1,1,8,32,100,360,400,0,320,0,0,0,2,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -9332,7 +9933,17 @@
                 "rarity": "EX",
                 "name_basic": "Idi:N",
                 "names_evolved": "Idi:N2 / Idi:NX",
-                "obtain_method": "Laboratory of Relics 4-crown – Eldritch Forces Invasion"
+                "obtain_method": "Laboratory of Relics 4-crown – Eldritch Forces Invasion",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 1000000,
+                        "materials": [
+                            [183,3],
+                            [184,5]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [1200,5,44,2800,0,175,2800,1500,0,320,0,0,1,4,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0],
@@ -9927,7 +10538,16 @@
                 "rarity": "EX",
                 "name_basic": "Gold Brick Cat",
                 "names_evolved": "King Ingot Cat / King Nekokhamen",
-                "obtain_method": "Daily Login - 1/2 Anniversary"
+                "obtain_method": "Daily Login - 1/2 Anniversary",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 1000000,
+                        "materials": [
+                            [44,1]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [250,1,8,2,29,110,100,120,0,320,0,0,1,11,0,9,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -9964,7 +10584,17 @@
                 "rarity": "EX",
                 "name_basic": "Elder Mask Doron",
                 "names_evolved": "Cat Mask Doron / Awakened Doron",
-                "obtain_method": "Drop - The Face of God"
+                "obtain_method": "Drop - The Face of God",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 1000000,
+                        "materials": [
+                            [169,10],
+                            [184,3]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [22222,1,20,777,0,400,1200,920,0,320,0,0,1,76,0,9,0,0,0,0,0,0,0,0,0,100,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,600,-1600,1,0,1,1,1,1,0,0,0,1,0,-1,2,0,0,0,0,1,0,0,-1,-1,0,0,0,0,0,0,0,1,0,0,1,1,0,0,0,0,0,0,100,1600,2400,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -10607,7 +11237,17 @@
                 "rarity": "EX",
                 "name_basic": "Elder Beast Naala",
                 "names_evolved": "Storm Beast Naala / Awakened Naala",
-                "obtain_method": "Drop - Behemoth's Peak"
+                "obtain_method": "Drop - Behemoth's Peak",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 1000000,
+                        "materials": [
+                            [171,10],
+                            [184,3]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [4200,2,16,1680,46,300,3000,1950,0,320,0,0,1,40,0,9,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,30,90,50,0,0,0,0,1,300,1,0,0,0,0,0,0,0,0,-1,0,-1,0,1680,1680,60,80,1,1,1,-1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,300,200,1,500,200,0,0,0],
@@ -10657,7 +11297,17 @@
                 "rarity": "EX",
                 "name_basic": "Ancient Egg: N001",
                 "names_evolved": "Mystic Egg: N001 / Haniwa Cat",
-                "obtain_method": "Drop - Empress' Excavation 1"
+                "obtain_method": "Drop - Empress' Excavation 1",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [167,10],
+                            [168,10]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [100,1,5,2,220,100,120,100,0,320,0,0,0,32,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -10682,7 +11332,17 @@
                 "rarity": "RR",
                 "name_basic": "Ancient Egg: N101",
                 "names_evolved": "Cinnabar Egg: N101 / Courier Cat",
-                "obtain_method": "Catnip Challenges"
+                "obtain_method": "Catnip Challenges",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [167,5],
+                            [168,5]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [100,1,5,2,220,100,120,100,0,320,0,0,0,32,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -10695,7 +11355,17 @@
                 "rarity": "RR",
                 "name_basic": "Ancient Egg: N102",
                 "names_evolved": "Teal Egg: N102 / Catarzan",
-                "obtain_method": "Catnip Challenges"
+                "obtain_method": "Catnip Challenges",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [169,5],
+                            [170,5]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [100,1,5,2,220,100,120,100,0,320,0,0,0,32,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -10757,7 +11427,18 @@
                 "rarity": "RR",
                 "name_basic": "Ancient Egg: N103",
                 "names_evolved": "Black Egg: N103 / Gas Mask Cat",
-                "obtain_method": "Catnip Challenges"
+                "obtain_method": "Catnip Challenges",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [167,15],
+                            [168,15],
+                            [169,1]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [100,1,5,2,220,100,120,100,0,320,0,0,0,32,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -10770,7 +11451,18 @@
                 "rarity": "RR",
                 "name_basic": "Ancient Egg: N104",
                 "names_evolved": "Green Egg: N104 / Surgeon Cat",
-                "obtain_method": "Catnip Challenges"
+                "obtain_method": "Catnip Challenges",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [169,13],
+                            [170,13],
+                            [171,1]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [100,1,5,2,220,100,120,100,0,320,0,0,0,32,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -10783,7 +11475,17 @@
                 "rarity": "EX",
                 "name_basic": "Ancient Egg: N201",
                 "names_evolved": "Dark Egg: N201 / Exorcist Cat",
-                "obtain_method": "Event Capsule - June Bride of the Devil"
+                "obtain_method": "Event Capsule - June Bride of the Devil",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [167,10],
+                            [168,10]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [100,1,5,2,220,100,120,100,0,320,0,0,0,32,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -10845,7 +11547,20 @@
                 "rarity": "EX",
                 "name_basic": "Ancient Egg: N003",
                 "names_evolved": "Evil Egg: N003 / Cat Cactus",
-                "obtain_method": "Drop - Empress' Excavation 2"
+                "obtain_method": "Drop - Empress' Excavation 2",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [167,10],
+                            [168,10],
+                            [169,10],
+                            [170,10],
+                            [171,10]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [100,1,5,2,220,100,120,100,0,320,0,0,0,32,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -10858,7 +11573,17 @@
                 "rarity": "EX",
                 "name_basic": "Ancient Egg: N202",
                 "names_evolved": "Cinnabar Egg: N202 / Armored Firefly Cat",
-                "obtain_method": "Event Cat Capsule - Summer Break Cats"
+                "obtain_method": "Event Cat Capsule - Summer Break Cats",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [167,10],
+                            [168,10]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [100,1,5,2,220,100,120,100,0,320,0,0,0,32,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -10934,7 +11659,18 @@
                 "rarity": "RR",
                 "name_basic": "Ancient Egg: N105",
                 "names_evolved": "Teal Egg: N105 / Racquet Cat",
-                "obtain_method": "Catnip Challenges"
+                "obtain_method": "Catnip Challenges",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [167,15],
+                            [168,15],
+                            [171,1]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [100,1,5,2,220,100,120,100,0,320,0,0,0,32,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -10947,7 +11683,18 @@
                 "rarity": "RR",
                 "name_basic": "Ancient Egg: N106",
                 "names_evolved": "Amber Egg: N106 / Mushroom Cat",
-                "obtain_method": "Catnip Challenges"
+                "obtain_method": "Catnip Challenges",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [169,13],
+                            [170,13],
+                            [171,1]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [100,1,5,2,220,100,120,100,0,320,0,0,0,32,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -11084,7 +11831,20 @@
                 "rarity": "EX",
                 "name_basic": "Ancient Egg: N004",
                 "names_evolved": "Mystic Egg: N004 / Supercar Cat",
-                "obtain_method": "Drop - Empress' Excavation 3"
+                "obtain_method": "Drop - Empress' Excavation 3",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [167,12],
+                            [168,11],
+                            [169,10],
+                            [170,9],
+                            [171,8]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [100,1,5,2,220,100,120,100,0,320,0,0,0,32,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -11158,7 +11918,20 @@
                 "rarity": "EX",
                 "name_basic": "Ancient Egg: N000",
                 "names_evolved": "Elder Egg: N000 / Ape Lord Luza",
-                "obtain_method": "Drop - Revival of Origin"
+                "obtain_method": "Drop - Revival of Origin",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 1000000,
+                        "materials": [
+                            [179,2],
+                            [180,2],
+                            [181,2],
+                            [182,2],
+                            [183,2]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [100,1,5,2,220,100,120,100,0,320,0,0,0,32,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -11243,7 +12016,18 @@
                 "rarity": "RR",
                 "name_basic": "Ancient Egg: N107",
                 "names_evolved": "Violet Egg: N107 / Cat Chief",
-                "obtain_method": "Catnip Challenges"
+                "obtain_method": "Catnip Challenges",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [167,15],
+                            [169,13],
+                            [171,1]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [100,1,5,2,220,100,120,100,0,320,0,0,0,32,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -11292,7 +12076,20 @@
                 "rarity": "EX",
                 "name_basic": "Ancient Egg: N005",
                 "names_evolved": "Mystic Egg: N005 / Hitman Cat",
-                "obtain_method": "Drop - Empress' Excavation 4"
+                "obtain_method": "Drop - Empress' Excavation 4",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [167,8],
+                            [168,9],
+                            [169,10],
+                            [170,11],
+                            [171,12]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [100,1,5,2,220,100,120,100,0,320,0,0,0,32,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -11389,7 +12186,18 @@
                 "rarity": "RR",
                 "name_basic": "Ancient Egg: N109",
                 "names_evolved": "Dark Egg: N109 / Barrel Cat",
-                "obtain_method": "Catnip Challenges"
+                "obtain_method": "Catnip Challenges",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [167,15],
+                            [168,15],
+                            [171,1]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [100,1,5,2,220,100,120,100,0,320,0,0,0,32,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -11476,7 +12284,17 @@
                 "rarity": "EX",
                 "name_basic": "Ancient Egg: N203",
                 "names_evolved": "Violet Egg: N203 / Clown Cat",
-                "obtain_method": "Event Cat Capsule - June Bride of the Devil"
+                "obtain_method": "Event Cat Capsule - June Bride of the Devil",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [167,10],
+                            [168,10]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [100,1,5,2,220,100,120,100,0,320,0,0,0,32,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -11550,7 +12368,18 @@
                 "rarity": "RR",
                 "name_basic": "Ancient Egg: N110",
                 "names_evolved": "Amber Egg: N110 / Farmboy Cat",
-                "obtain_method": "Catnip Challenges"
+                "obtain_method": "Catnip Challenges",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [167,20],
+                            [180,2],
+                            [181,2]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [100,1,5,2,220,100,120,100,0,320,0,0,0,32,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -11601,7 +12430,20 @@
                 "rarity": "EX",
                 "name_basic": "Ancient Egg: N006",
                 "names_evolved": "Devil Egg: N006 / Fallen Bear Cat",
-                "obtain_method": "Drop - Empress' Excavation 5"
+                "obtain_method": "Drop - Empress' Excavation 5",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [167,15],
+                            [169,15],
+                            [180,2],
+                            [182,2],
+                            [183,1]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [100,1,5,2,220,100,120,100,0,320,0,0,0,32,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -11661,7 +12503,19 @@
                 "rarity": "RR",
                 "name_basic": "Ancient Egg: N112",
                 "names_evolved": "Mystic Egg: N112 / Cat Egg Pod",
-                "obtain_method": "Catnip Challenges"
+                "obtain_method": "Catnip Challenges",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [168,15],
+                            [170,15],
+                            [179,2],
+                            [181,2]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [100,1,5,2,220,100,120,100,0,320,0,0,0,32,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -11733,7 +12587,17 @@
                 "rarity": "EX",
                 "name_basic": "Ancient Egg: N204",
                 "names_evolved": "Cinnabar Egg: N204 / Lion Dancer Cat",
-                "obtain_method": "Event Cat Capsule - Lunar New Year"
+                "obtain_method": "Event Cat Capsule - Lunar New Year",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [167,10],
+                            [168,10]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [100,1,5,2,220,100,120,100,0,320,0,0,0,32,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0],
@@ -12054,7 +12918,17 @@
                 "rarity": "EX",
                 "name_basic": "Ancient Egg: N205",
                 "names_evolved": "Violet Egg: N205 / Bride Cat",
-                "obtain_method": "Event Cat Capsule - June Bride of the Devil"
+                "obtain_method": "Event Cat Capsule - June Bride of the Devil",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [167,10],
+                            [168,10]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [100,1,5,2,220,100,120,100,0,320,0,0,0,32,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0],
@@ -12149,7 +13023,17 @@
                 "rarity": "EX",
                 "name_basic": "Ancient Egg: N206",
                 "names_evolved": "Cinnabar Egg: N206 / Clam Cat",
-                "obtain_method": "Event Cat Capsule - Summer Break Cats Castaway"
+                "obtain_method": "Event Cat Capsule - Summer Break Cats Castaway",
+                "evolution": {
+                    "true_form": {
+                        "level": 30,
+                        "xp": 200000,
+                        "materials": [
+                            [167,10],
+                            [168,10]
+                        ]
+                    }
+                }
             },
             "stats": [
                 [100,1,5,2,220,100,120,100,0,320,0,0,0,32,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0],
