@@ -359,20 +359,18 @@ def parse_gatya_tsv(content):
             start_d = datetime.strptime(start_date, "%Y-%m-%d").date()
             end_d   = datetime.strptime(end_date,   "%Y-%m-%d").date()
 
-            # Skip entries outside the schedule window
-            if end_d < cutoff_past or start_d > cutoff_future:
-                continue
-
-            # Skip permanent capsules (Legend/Platinum Caps with near-infinite end dates)
-            if (end_d - today).days > MAX_END_DAYS:
+            # Skip entries outside the schedule window (but keep permanent ones)
+            is_permanent = (end_d - today).days > MAX_END_DAYS
+            if not is_permanent and (end_d < cutoff_past or start_d > cutoff_future):
                 continue
 
             gacha_entries = _extract_gacha_entries(cols)
             if gacha_entries:
                 rows.append({
-                    "start_date": start_date,
-                    "end_date":   end_date,
-                    "entries":    gacha_entries,
+                    "start_date":   start_date,
+                    "end_date":     end_date,
+                    "entries":      gacha_entries,
+                    "is_permanent": is_permanent,
                 })
 
         except (ValueError, IndexError):
@@ -501,7 +499,8 @@ def main():
     # 4. Build gacha list — one output entry per (name, end_date) per TSV row
     #    Each TSV row can have multiple gacha entries (e.g. three Uber Fest banners).
     #    We emit one output record per distinct name per row.
-    gachas = []
+    gachas     = []   # regular (time-limited) banners
+    permanents = []   # always-available capsules (Legend/Platinum Caps etc.)
 
     for row in rows:
         seen_names = set()
@@ -556,9 +555,10 @@ def main():
             seen_names.add(canonical)
 
             characteristics = _build_characteristics(entry)
-            gachas.append(_build_entry(canonical, row["start_date"], row["end_date"], characteristics))
+            target = permanents if row.get("is_permanent") else gachas
+            target.append(_build_entry(canonical, row["start_date"], row["end_date"], characteristics))
 
-    # 5. Sort + deduplicate
+    # 5. Sort + deduplicate regular banners
     gachas.sort(key=lambda x: x["fecha_inicio"])
 
     # Primary dedup: for the same (nombre, fecha_fin), keep only the entry with
@@ -582,6 +582,25 @@ def main():
     # Secondary dedup: drop exact id duplicates
     seen_ids, unique = set(), []
     for g in sorted(best.values(), key=lambda x: x["fecha_inicio"]):
+        if g["id"] not in seen_ids:
+            seen_ids.add(g["id"])
+            unique.append(g)
+
+    # 5b. Deduplicate permanent capsules — one entry per name (pick latest start_date)
+    perm_best = {}   # nombre -> entry with latest start_date
+    perm_chars = {}  # nombre -> set of chars
+    for g in permanents:
+        name = g["nombre"]
+        chars = set(g["caracteristicas"])
+        if name not in perm_best or g["fecha_inicio"] > perm_best[name]["fecha_inicio"]:
+            perm_best[name] = g
+        perm_chars.setdefault(name, set()).update(chars)
+
+    for name, g in perm_best.items():
+        g["caracteristicas"] = sorted(perm_chars[name])
+
+    # Append permanents at end, sorted by name descending (Platinum before Legend)
+    for g in sorted(perm_best.values(), key=lambda x: x["nombre"], reverse=True):
         if g["id"] not in seen_ids:
             seen_ids.add(g["id"])
             unique.append(g)
