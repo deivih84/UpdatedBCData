@@ -6,27 +6,11 @@
       "fecha_inicio": "2026-04-13",
       "fecha_fin": "2026-04-27",
       "caracteristicas": [
-        "P"
-      ]
-    },
-    {
-      "id": "elemental_pixies_2026-04-20",
-      "nombre": "Elemental Pixies",
-      "fecha_inicio": "2026-04-20",
-      "fecha_fin": "2026-04-22",
-      "caracteristicas": [
+        "G",
+        "Guaranteed",
         "P",
-        "N",
-        "GR",
-        "R"
+        "Platinum Shard"
       ]
-    },
-    {
-      "id": "epicfest_2026-04-17",
-      "nombre": "Epicfest",
-      "fecha_inicio": "2026-04-17",
-      "fecha_fin": "2026-04-20",
-      "caracteristicas": []
     },
     {
       "id": "the_almighties_2026-04-22",
@@ -35,21 +19,7 @@
       "fecha_fin": "2026-04-24",
       "caracteristicas": [
         "G",
-        "N",
-        "GR",
-        "R"
-      ]
-    },
-    {
-      "id": "the_dynamites_2026-04-20",
-      "nombre": "The Dynamites",
-      "fecha_inicio": "2026-04-20",
-      "fecha_fin": "2026-04-22",
-      "caracteristicas": [
-        "P",
-        "N",
-        "GR",
-        "R"
+        "Guaranteed"
       ]
     },
     {
@@ -59,9 +29,7 @@
       "fecha_fin": "2026-04-24",
       "caracteristicas": [
         "G",
-        "N",
-        "GR",
-        "R"
+        "Guaranteed"
       ]
     },
     {
@@ -71,143 +39,38 @@
       "fecha_fin": "2026-04-27",
       "caracteristicas": [
         "G",
-        "N",
-        "GR",
-        "R"
+        "Guaranteed"
       ]
     },
     {
-      "id": "white_day_gacha_2026-04-17",
-      "nombre": "White Day Gacha",
-      "fecha_inicio": "2026-04-17",
-      "fecha_fin": "2026-04-20",
-      "caracteristicas": [
-        "P"
-      ]
-    },
-    {
-      "id": "white_day_gacha_2026-04-20",
-      "nombre": "White Day Gacha",
-      "fecha_inicio": "2026-04-20",
-      "fecha_fin": "2026-04-22",
-      "caracteristicas": [
-        "P"
-      ]
-    },
-    {
-      "id": "white_day_gacha_2026-04-22",
-      "nombre": "White Day Gacha",
-      "fecha_inicio": "2026-04-22",
-      "fecha_fin": "2026-04-24",
-      "caracteristicas": [
-        "G"
-      ]
-    },
-    {
-      "id": "white_day_gacha_2026-04-24",
-      "nombre": "White Day Gacha",
+      "id": "dark_heroes_2026-04-24",
+      "nombre": "Dark Heroes",
       "fecha_inicio": "2026-04-24",
       "fecha_fin": "2026-04-27",
       "caracteristicas": [
-        "G"
+        "G",
+        "Guaranteed"
       ]
     },
     {
-      "id": "dark_heroes_2026-05-01",
-      "nombre": "Dark Heroes",
-      "fecha_inicio": "2026-05-01",
-      "fecha_fin": "2026-05-04",
-      "caracteristicas": [
-        "L",
-        "P",
-        "N",
-        "GR",
-        "R"
-      ]
-    },
-    {
-      "id": "download_anniversary_gacha_2026-05-11",
-      "nombre": "Download Anniversary Gacha",
-      "fecha_inicio": "2026-05-11",
-      "fecha_fin": "2026-06-01",
+      "id": "limited_capsules_2026-04-27",
+      "nombre": "Limited Capsules",
+      "fecha_inicio": "2026-04-27",
+      "fecha_fin": "2026-05-08",
       "caracteristicas": []
     },
     {
-      "id": "dragon_emperors_2026-05-04",
-      "nombre": "Dragon Emperors",
-      "fecha_inicio": "2026-05-04",
-      "fecha_fin": "2026-05-06",
-      "caracteristicas": [
-        "L",
-        "P",
-        "N",
-        "GR",
-        "R"
-      ]
-    },
-    {
-      "id": "elemental_pixies_2026-05-06",
-      "nombre": "Elemental Pixies",
-      "fecha_inicio": "2026-05-06",
-      "fecha_fin": "2026-05-08",
-      "caracteristicas": [
-        "G",
-        "L",
-        "N",
-        "GR",
-        "R"
-      ]
-    },
-    {
-      "id": "galaxy_gals_2026-04-27",
-      "nombre": "Galaxy Gals",
+      "id": "easter_gacha_2026-04-27",
+      "nombre": "Easter Gacha",
       "fecha_inicio": "2026-04-27",
-      "fecha_fin": "2026-04-29",
-      "caracteristicas": [
-        "L",
-        "P",
-        "N",
-        "GR",
-        "R"
-      ]
-    },
-    {
-      "id": "galaxy_gals_2026-05-08",
-      "nombre": "Galaxy Gals",
-      "fecha_inicio": "2026-05-08",
       "fecha_fin": "2026-05-11",
       "caracteristicas": [
         "G",
+        "Guaranteed",
         "L",
-        "N",
-        "GR",
-        "R"
-      ]
-    },
-    {
-      "id": "iron_legion_2026-04-29",
-      "nombre": "Iron Legion",
-      "fecha_inicio": "2026-04-29",
-      "fecha_fin": "2026-05-01",
-      "caracteristicas": [
-        "L",
+        "Lucky Ticket",
         "P",
-        "N",
-        "GR",
-        "R"
-      ]
-    },
-    {
-      "id": "luga_families_2026-04-29",
-      "nombre": "Luga Families",
-      "fecha_inicio": "2026-04-29",
-      "fecha_fin": "2026-05-01",
-      "caracteristicas": [
-        "L",
-        "P",
-        "N",
-        "GR",
-        "R"
+        "Platinum Shard"
       ]
     },
     {
@@ -217,23 +80,79 @@
       "fecha_fin": "2026-04-29",
       "caracteristicas": [
         "L",
+        "Lucky Ticket",
         "P",
-        "N",
-        "GR",
-        "R"
+        "Platinum Shard"
       ]
     },
     {
-      "id": "spooky_cuties_2026-05-08",
-      "nombre": "Spooky Cuties",
-      "fecha_inicio": "2026-05-08",
-      "fecha_fin": "2026-05-11",
+      "id": "galaxy_gals_2026-04-27",
+      "nombre": "Galaxy Gals",
+      "fecha_inicio": "2026-04-27",
+      "fecha_fin": "2026-04-29",
       "caracteristicas": [
-        "G",
         "L",
-        "N",
-        "GR",
-        "R"
+        "Lucky Ticket",
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "luga_families_2026-04-29",
+      "nombre": "Luga Families",
+      "fecha_inicio": "2026-04-29",
+      "fecha_fin": "2026-05-01",
+      "caracteristicas": [
+        "L",
+        "Lucky Ticket",
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "iron_legion_2026-04-29",
+      "nombre": "Iron Legion",
+      "fecha_inicio": "2026-04-29",
+      "fecha_fin": "2026-05-01",
+      "caracteristicas": [
+        "L",
+        "Lucky Ticket",
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "uberfest_2026-05-01",
+      "nombre": "Uberfest",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-05-04",
+      "caracteristicas": [
+        "L",
+        "Lucky Ticket"
+      ]
+    },
+    {
+      "id": "dark_heroes_2026-05-01",
+      "nombre": "Dark Heroes",
+      "fecha_inicio": "2026-05-01",
+      "fecha_fin": "2026-05-04",
+      "caracteristicas": [
+        "L",
+        "Lucky Ticket",
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "dragon_emperors_2026-05-04",
+      "nombre": "Dragon Emperors",
+      "fecha_inicio": "2026-05-04",
+      "fecha_fin": "2026-05-06",
+      "caracteristicas": [
+        "L",
+        "Lucky Ticket",
+        "P",
+        "Platinum Shard"
       ]
     },
     {
@@ -243,10 +162,9 @@
       "fecha_fin": "2026-05-06",
       "caracteristicas": [
         "L",
+        "Lucky Ticket",
         "P",
-        "N",
-        "GR",
-        "R"
+        "Platinum Shard"
       ]
     },
     {
@@ -256,105 +174,54 @@
       "fecha_fin": "2026-05-08",
       "caracteristicas": [
         "G",
+        "Guaranteed",
         "L",
-        "N",
-        "GR",
-        "R"
+        "Lucky Ticket"
       ]
     },
     {
-      "id": "easter_gacha_2026-04-27",
-      "nombre": "Easter Gacha",
-      "fecha_inicio": "2026-04-27",
-      "fecha_fin": "2026-05-01",
-      "caracteristicas": [
-        "L",
-        "P"
-      ]
-    },
-    {
-      "id": "easter_gacha_2026-05-01",
-      "nombre": "Easter Gacha",
-      "fecha_inicio": "2026-05-01",
-      "fecha_fin": "2026-05-04",
-      "caracteristicas": [
-        "L",
-        "P"
-      ]
-    },
-    {
-      "id": "easter_gacha_2026-05-04",
-      "nombre": "Easter Gacha",
-      "fecha_inicio": "2026-05-04",
-      "fecha_fin": "2026-05-06",
-      "caracteristicas": [
-        "L",
-        "P"
-      ]
-    },
-    {
-      "id": "easter_gacha_2026-05-06",
-      "nombre": "Easter Gacha",
+      "id": "elemental_pixies_2026-05-06",
+      "nombre": "Elemental Pixies",
       "fecha_inicio": "2026-05-06",
+      "fecha_fin": "2026-05-08",
+      "caracteristicas": [
+        "G",
+        "Guaranteed",
+        "L",
+        "Lucky Ticket"
+      ]
+    },
+    {
+      "id": "galaxy_gals_2026-05-08",
+      "nombre": "Galaxy Gals",
+      "fecha_inicio": "2026-05-08",
       "fecha_fin": "2026-05-11",
       "caracteristicas": [
         "G",
-        "L"
+        "Guaranteed",
+        "L",
+        "Lucky Ticket"
       ]
     },
     {
-      "id": "download_anniversary_gacha_2026-05-15",
+      "id": "spooky_cuties_2026-05-08",
+      "nombre": "Spooky Cuties",
+      "fecha_inicio": "2026-05-08",
+      "fecha_fin": "2026-05-11",
+      "caracteristicas": [
+        "G",
+        "Guaranteed",
+        "L",
+        "Lucky Ticket"
+      ]
+    },
+    {
+      "id": "download_anniversary_gacha_2026-05-11",
       "nombre": "Download Anniversary Gacha",
-      "fecha_inicio": "2026-05-15",
-      "fecha_fin": "2026-06-01",
-      "caracteristicas": []
-    },
-    {
-      "id": "dragon_emperors_2026-05-15",
-      "nombre": "Dragon Emperors",
-      "fecha_inicio": "2026-05-15",
-      "fecha_fin": "2026-05-18",
-      "caracteristicas": [
-        "P",
-        "N",
-        "GR",
-        "R"
-      ]
-    },
-    {
-      "id": "iron_legion_2026-05-13",
-      "nombre": "Iron Legion",
-      "fecha_inicio": "2026-05-13",
-      "fecha_fin": "2026-05-15",
-      "caracteristicas": [
-        "P",
-        "N",
-        "GR",
-        "R"
-      ]
-    },
-    {
-      "id": "luga_families_2026-05-13",
-      "nombre": "Luga Families",
-      "fecha_inicio": "2026-05-13",
-      "fecha_fin": "2026-05-15",
-      "caracteristicas": [
-        "P",
-        "N",
-        "GR",
-        "R"
-      ]
-    },
-    {
-      "id": "ultra_souls_2026-05-11",
-      "nombre": "Ultra Souls",
       "fecha_inicio": "2026-05-11",
-      "fecha_fin": "2026-05-13",
+      "fecha_fin": "2026-06-01",
       "caracteristicas": [
-        "P",
-        "N",
-        "GR",
-        "R"
+        "Legend Rare"
       ]
     },
     {
@@ -364,9 +231,37 @@
       "fecha_fin": "2026-05-13",
       "caracteristicas": [
         "P",
-        "N",
-        "GR",
-        "R"
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "ultra_souls_2026-05-11",
+      "nombre": "Ultra Souls",
+      "fecha_inicio": "2026-05-11",
+      "fecha_fin": "2026-05-13",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "iron_legion_2026-05-13",
+      "nombre": "Iron Legion",
+      "fecha_inicio": "2026-05-13",
+      "fecha_fin": "2026-05-15",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "luga_families_2026-05-13",
+      "nombre": "Luga Families",
+      "fecha_inicio": "2026-05-13",
+      "fecha_fin": "2026-05-15",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
       ]
     },
     {
@@ -377,18 +272,14 @@
       "caracteristicas": []
     },
     {
-      "id": "platinum_capsules_2025-01-01",
-      "nombre": "Platinum Capsules",
-      "fecha_inicio": "2025-01-01",
-      "fecha_fin": "2027-01-04",
-      "caracteristicas": []
-    },
-    {
-      "id": "legend_capsules_2025-01-01",
-      "nombre": "Legend Capsules",
-      "fecha_inicio": "2025-01-01",
-      "fecha_fin": "2027-01-04",
-      "caracteristicas": []
+      "id": "dragon_emperors_2026-05-15",
+      "nombre": "Dragon Emperors",
+      "fecha_inicio": "2026-05-15",
+      "fecha_fin": "2026-05-18",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
     }
   ],
   "eventos": [
@@ -432,7 +323,7 @@
       "id": "duel_stages_challenge_2026-04-17",
       "nombre": "Duel Stages Challenge",
       "caracteristicas": [
-        "It's high noon, time for a showdown!\nDuel Stages Challenge (\u6c7a\u95d8\u30c1\u30e3\u30ec\u30f3\u30b8, Kett\u014d Charenji, Duel Challenge) is an event added in Version 11.6. It consists of all Duel Stages in a single map. Progress made in Duel Stages Challenge will reset when the event ends.\nEach stage has a Cat Deploy Limit and enemy limit of 1. Taking over 15 minutes to beat any one stage will cause an Assassin Bear to spawn."
+        "It's high noon, time for a showdown!\nDuel Stages Challenge (決闘チャレンジ, Kettō Charenji, Duel Challenge) is an event added in Version 11.6. It consists of all Duel Stages in a single map. Progress made in Duel Stages Challenge will reset when the event ends.\nEach stage has a Cat Deploy Limit and enemy limit of 1. Taking over 15 minutes to beat any one stage will cause an Assassin Bear to spawn."
       ],
       "fecha_inicio": "2026-04-17",
       "fecha_fin": "2026-04-27"
@@ -459,7 +350,7 @@
       "id": "tag_arena_challenge_2026-04-27",
       "nombre": "Tag Arena Challenge",
       "caracteristicas": [
-        "Tag Arena Challenge (\u30bf\u30c3\u30b0\u95d8\u6280\u30c1\u30e3\u30ec\u30f3\u30b8, Taggu T\u014dgi Charenji, Tag Team Challenge) is a map added in Version 11.6. It consists of all Tag Arena Stages combined into a single map, along with three new stages. Progress made in Tag Arena Challenge will reset when the event ends.\nThere are three stages per map, each with a Cat Deploy Limit and enemy limit of 2. Taking over 15 minutes to beat any stage will cause an Assassin Bear to spawn. As opposed to the Duel Stages Challenge, most of the enemies can spawn multiple times."
+        "Tag Arena Challenge (タッグ闘技チャレンジ, Taggu Tōgi Charenji, Tag Team Challenge) is a map added in Version 11.6. It consists of all Tag Arena Stages combined into a single map, along with three new stages. Progress made in Tag Arena Challenge will reset when the event ends.\nThere are three stages per map, each with a Cat Deploy Limit and enemy limit of 2. Taking over 15 minutes to beat any stage will cause an Assassin Bear to spawn. As opposed to the Duel Stages Challenge, most of the enemies can spawn multiple times."
       ],
       "fecha_inicio": "2026-04-27",
       "fecha_fin": "2026-05-08"
@@ -474,5 +365,5 @@
       "fecha_fin": "2026-05-08"
     }
   ],
-  "ultima_actualizacion": "2026-04-27T20:26:25.179904"
+  "ultima_actualizacion": "2026-05-09T18:22:12Z"
 }
