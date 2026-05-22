@@ -1,6 +1,15 @@
 {
   "gachas": [
     {
+      "id": "download_anniversary_gacha_2026-05-11",
+      "nombre": "Download Anniversary Gacha",
+      "fecha_inicio": "2026-05-11",
+      "fecha_fin": "2026-06-01",
+      "caracteristicas": [
+        "Legend Rare"
+      ]
+    },
+    {
       "id": "iron_legion_2026-05-13",
       "nombre": "Iron Legion",
       "fecha_inicio": "2026-05-13",
@@ -79,7 +88,7 @@
     },
     {
       "id": "limited_capsules_2026-05-21",
-      "nombre": "Download Anniversary Gacha",
+      "nombre": "Limited Capsules",
       "fecha_inicio": "2026-05-21",
       "fecha_fin": "2026-06-01",
       "caracteristicas": []
@@ -259,5 +268,5 @@
       "fecha_fin": "2026-05-08"
     }
   ],
-  "ultima_actualizacion": "2026-05-21T19:44:25Z"
+  "ultima_actualizacion": "2026-05-22T02:33:47Z"
 }
