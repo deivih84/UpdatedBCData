@@ -1,3 +1,7 @@
 bot_updater_events.py
 bot_updater_gachas.py
 gatya_raw.tsv
+__pycache__/
+*.pyc
+.bc_state.json
+.bc_sale_raw.tsv
