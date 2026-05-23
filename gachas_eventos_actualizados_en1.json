@@ -484,13 +484,11 @@
       "fecha_fin": "2026-05-15"
     },
     {
-      "id": "gigahaniwan_strikes_2026-05-04",
-      "nombre": "Gigahaniwan Strikes!",
-      "caracteristicas": [
-        "Gigahaniwan Strikes! contains a total of 20 No Continues levels, called Excavation Lvs. After beating an Excavation Lv, the player must wait for 30 minutes before they may proceed to the next one. The player may choose to bank up to 3 Excavation Lvs at one time by waiting for 90 minutes, allowing them to beat all 3 Lvs at one go. Rewards for the first completion of an Excavation Lv can include XP, Tickets, Catamins and Materials. Every 10 Excavation Lvs plays out the same, but the strength magnifications and enemy base's HP are increased with each level."
-      ],
-      "fecha_inicio": "2026-05-04",
-      "fecha_fin": "2026-05-11"
+      "id": "attack_of_the_omens_2026-05-04",
+      "nombre": "Attack of the Omens",
+      "caracteristicas": [],
+      "fecha_inicio": "2026-05-18",
+      "fecha_fin": "2026-05-25"
     },
     {
       "id": "discover_easter_s_wonders_2026-05-04",
