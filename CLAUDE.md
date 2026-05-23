@@ -5,31 +5,57 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## Running the bots
 
 ```bash
-# Bot combinado (gachas + eventos juntos)
+# Fetch gachas directamente de Ponos (sin Discord)
+python fetch_bc_schedule.py
+
+# Fetch eventos directamente de Ponos + historial Discord REST (sin bot activo)
+python fetch_bc_events.py
+
+# Bot combinado (gachas + eventos juntos) — requiere Discord bot activo
 python bot_updater1.py
 
-# Bot solo gachas (version refactorizada con aliases)
+# Bot solo gachas (version refactorizada con aliases) — requiere Discord bot activo
 python bot_updater_gachas.py
 
-# Bot solo eventos
+# Bot solo eventos — requiere Discord bot activo
 python bot_updater_events.py
 
 # Bot legacy (gachas con plantillas hardcodeadas)
 python bot_updater.py
 ```
 
-Dependencies: `discord.py`, `PyGithub`. Install with:
+Dependencies:
 ```bash
-pip install discord.py PyGithub
+pip install requests discord.py PyGithub
 ```
+
+`fetch_bc_schedule.py` y `fetch_bc_events.py` solo necesitan `requests`. Los bots Discord necesitan además `discord.py` y `PyGithub`.
 
 No test suite exists in this project.
 
 ## Architecture
 
-This repo is a **Battle Cats game data updater**. A Discord bot listens to a specific channel where another bot posts game schedule data, parses it, and pushes structured JSON to GitHub.
+This repo is a **Battle Cats game data updater**. Actualiza un JSON con el calendario de gachas y eventos del juego, sin necesidad de Discord en los scripts modernos.
 
-### Data flow
+### Data flow — scripts modernos (sin Discord activo)
+
+**Gachas** (`fetch_bc_schedule.py`):
+1. Crea una cuenta anónima BC en `nyanko-backups.ponosgames.com` (se guarda en `.bc_state.json`)
+2. Obtiene JWT token via `nyanko-auth.ponosgames.com`
+3. Descarga `gatya.tsv` de `nyanko-events.ponosgames.com/battlecatsen_production/`
+4. Parsea el TSV (estructura de secciones + entradas con nombre en posición +14/+16)
+5. Escribe la sección `gachas` de `gachas_eventos_actualizados_en1.json`
+
+**Eventos** (`fetch_bc_events.py`):
+1. Misma auth JWT → descarga `sale.tsv` (mismo servidor que gatya.tsv)
+2. Parsea `sale.tsv` extrayendo pack IDs de entradas time-limited (no permanentes)
+3. Mapea pack IDs a nombres via campo `event_id` en `all_events.json` (si existe)
+4. Lee historial de mensajes del canal Discord `1445468966989332563` via REST API (GET, sin bot activo)
+5. Parsea mensajes de PackPack bot con el mismo regex que `bot_updater_events.py`
+6. Merge inteligente: dedup por solapamiento de nombre + fecha_inicio, disc > ponos > old
+7. Escribe la sección `eventos` de `gachas_eventos_actualizados_en1.json`
+
+### Data flow — bots Discord (legacy, requieren bot activo)
 
 1. A source bot posts schedule messages to Discord channel `1445468966989332563`
 2. The updater bot detects the region marker (`EN Event Data Found` / `JP Event Data Found`) to set `region_actual`
@@ -42,10 +68,15 @@ This repo is a **Battle Cats game data updater**. A Discord bot listens to a spe
 - `all_events.json` — master list of events with `nombre`, `imagen_url`, `descripcion`, optional `url`
 - `all_gachas_jp.json` — JP equivalent of gachas
 
+### Archivos temporales (gitignored)
+
+- `.bc_state.json` — cuenta BC anónima y JWT token (generado por `fetch_bc_schedule.py` / `fetch_bc_events.py`)
+- `.bc_sale_raw.tsv` — dump raw del `sale.tsv` de Ponos (para debugging)
+
 ### Output (live schedule) files
 
 - `gachas_eventos_actualizados_en.json` / `gachas_eventos_actualizados_jp.json` — used by `bot_updater.py` (legacy)
-- `gachas_eventos_actualizados_en1.json` / `gachas_eventos_actualizados_jp1.json` — used by `bot_updater1.py`, `bot_updater_gachas.py`, `bot_updater_events.py` (current)
+- `gachas_eventos_actualizados_en1.json` / `gachas_eventos_actualizados_jp1.json` — used by `fetch_bc_schedule.py`, `fetch_bc_events.py`, `bot_updater1.py`, `bot_updater_gachas.py`, `bot_updater_events.py` (current)
 
 Each output file has a top-level structure:
 ```json
@@ -58,16 +89,22 @@ Each output file has a top-level structure:
 
 IDs are generated as `nombre_snake_case_YYYY-MM-DD` (start date).
 
-### Bot script differences
+### Script differences
 
-| Script | Gacha source | Alias support | Gacha detail (imagen_url, gatos_ids) |
-|---|---|---|---|
-| `bot_updater.py` | Hardcoded `PLANTILLAS_GACHA` dict | No | Yes (legacy) |
-| `bot_updater1.py` | `all_gachas_en.json` | No | No |
-| `bot_updater_gachas.py` | `all_gachas_en.json` via `aliases` field | Yes | No |
-| `bot_updater_events.py` | `all_events.json` | No | N/A |
+| Script | Requiere Discord | Fuente gachas | Fuente eventos | Alias support |
+|---|---|---|---|---|
+| `fetch_bc_schedule.py` | No | Ponos `gatya.tsv` (JWT) | — | Via `all_gachas_en.json` |
+| `fetch_bc_events.py` | No (solo REST) | Ponos `sale.tsv` (JWT) | Discord historial REST | Via `all_events.json` |
+| `bot_updater.py` | Sí (bot activo) | Hardcoded dict | — | No |
+| `bot_updater1.py` | Sí (bot activo) | `all_gachas_en.json` | `all_events.json` | No |
+| `bot_updater_gachas.py` | Sí (bot activo) | `all_gachas_en.json` | — | Sí |
+| `bot_updater_events.py` | Sí (bot activo) | — | `all_events.json` | No |
 
-`bot_updater_gachas.py` is the most up-to-date gacha bot — it resolves aliases to canonical names before generating IDs.
+`fetch_bc_schedule.py` y `fetch_bc_events.py` son los scripts recomendados — no requieren bot activo en Discord.
+
+### Expandir mapeo de eventos (sale.tsv)
+
+`sale.tsv` contiene pack IDs numéricos sin nombres. Para mapear un ID a un nombre, añade `"event_id": <id>` a la entrada correspondiente en `all_events.json`. El script imprime los IDs detectados al ejecutarse.
 
 ### Date parsing logic
 
