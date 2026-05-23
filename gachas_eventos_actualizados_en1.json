@@ -1,5 +1,190 @@
 {
-  "gachas": [],
+  "gachas": [
+    {
+      "id": "download_anniversary_gacha_2026-05-11",
+      "nombre": "Download Anniversary Gacha",
+      "fecha_inicio": "2026-05-11",
+      "fecha_fin": "2026-06-01",
+      "caracteristicas": [
+        "Legend Rare"
+      ]
+    },
+    {
+      "id": "iron_legion_2026-05-13",
+      "nombre": "Iron Legion",
+      "fecha_inicio": "2026-05-13",
+      "fecha_fin": "2026-05-15",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "luga_families_2026-05-13",
+      "nombre": "Luga Families",
+      "fecha_inicio": "2026-05-13",
+      "fecha_fin": "2026-05-15",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "epicfest_2026-05-15",
+      "nombre": "Epicfest",
+      "fecha_inicio": "2026-05-15",
+      "fecha_fin": "2026-05-18",
+      "caracteristicas": []
+    },
+    {
+      "id": "dragon_emperors_2026-05-15",
+      "nombre": "Dragon Emperors",
+      "fecha_inicio": "2026-05-15",
+      "fecha_fin": "2026-05-18",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "the_almighties_2026-05-18",
+      "nombre": "The Almighties",
+      "fecha_inicio": "2026-05-18",
+      "fecha_fin": "2026-05-20",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "dark_heroes_2026-05-18",
+      "nombre": "Dark Heroes",
+      "fecha_inicio": "2026-05-18",
+      "fecha_fin": "2026-05-20",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "the_dynamites_2026-05-20",
+      "nombre": "The Dynamites",
+      "fecha_inicio": "2026-05-20",
+      "fecha_fin": "2026-05-22",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "elemental_pixies_2026-05-20",
+      "nombre": "Elemental Pixies",
+      "fecha_inicio": "2026-05-20",
+      "fecha_fin": "2026-05-22",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "limited_capsules_2026-05-21",
+      "nombre": "Limited Capsules",
+      "fecha_inicio": "2026-05-21",
+      "fecha_fin": "2026-06-01",
+      "caracteristicas": []
+    },
+    {
+      "id": "galaxy_gals_2026-05-22",
+      "nombre": "Galaxy Gals",
+      "fecha_inicio": "2026-05-22",
+      "fecha_fin": "2026-05-25",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "spooky_cuties_2026-05-22",
+      "nombre": "Spooky Cuties",
+      "fecha_inicio": "2026-05-22",
+      "fecha_fin": "2026-05-25",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "ultra_souls_2026-05-25",
+      "nombre": "Ultra Souls",
+      "fecha_inicio": "2026-05-25",
+      "fecha_fin": "2026-05-27",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "wargods_vajiras_2026-05-25",
+      "nombre": "Wargods Vajiras",
+      "fecha_inicio": "2026-05-25",
+      "fecha_fin": "2026-05-27",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "luga_families_2026-05-27",
+      "nombre": "Luga Families",
+      "fecha_inicio": "2026-05-27",
+      "fecha_fin": "2026-05-29",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "iron_legion_2026-05-27",
+      "nombre": "Iron Legion",
+      "fecha_inicio": "2026-05-27",
+      "fecha_fin": "2026-05-29",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "uberfest_2026-05-29",
+      "nombre": "Uberfest",
+      "fecha_inicio": "2026-05-29",
+      "fecha_fin": "2026-06-01",
+      "caracteristicas": []
+    },
+    {
+      "id": "dark_heroes_2026-05-29",
+      "nombre": "Dark Heroes",
+      "fecha_inicio": "2026-05-29",
+      "fecha_fin": "2026-06-01",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "platinum_capsules_2026-04-24",
+      "nombre": "Platinum Capsules",
+      "fecha_inicio": "2026-04-24",
+      "fecha_fin": "2030-01-01",
+      "caracteristicas": []
+    },
+    {
+      "id": "legend_capsules_2026-04-24",
+      "nombre": "Legend Capsules",
+      "fecha_inicio": "2026-04-24",
+      "fecha_fin": "2030-01-01",
+      "caracteristicas": []
+    }
+  ],
   "eventos": [
     {
       "id": "evangelion_activates_decisive_battle_2026-02-21",
@@ -523,5 +708,5 @@
       "fecha_fin": "2026-06-02"
     }
   ],
-  "ultima_actualizacion": "2026-05-23T16:11:54Z"
+  "ultima_actualizacion": "2026-05-23T18:57:22Z"
 }
