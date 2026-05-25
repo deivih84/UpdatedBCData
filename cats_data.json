@@ -1,8 +1,8 @@
 {
     "metadata": {
         "version": "15.3",
-        "last_update": "2026-04-23 18:16:23",
-        "total_units": 861
+        "last_update": "2026-05-26 00:36:19",
+        "total_units": 865
     },
     "units": {
         "000": {
@@ -722,7 +722,7 @@
                 "rarity": "UR",
                 "name_basic": "Ice Cat",
                 "names_evolved": "Ice Queen Cat / Ice Crystal Cat",
-                "obtain_method": "Rare Cat Capsule - The Dynamites",
+                "obtain_method": "Rare Cat Capsule - THE DYNAMITES",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -748,7 +748,7 @@
                 "rarity": "UR",
                 "name_basic": "Cat Machine",
                 "names_evolved": "Cat Machine Mk 2 / Cat Machine Mk 3",
-                "obtain_method": "Rare Cat Capsule - The Dynamites",
+                "obtain_method": "Rare Cat Capsule - THE DYNAMITES",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -774,7 +774,7 @@
                 "rarity": "UR",
                 "name_basic": "Lesser Demon Cat",
                 "names_evolved": "Greater Demon Cat / Greater Balrog Cat",
-                "obtain_method": "Rare Cat Capsule - The Dynamites",
+                "obtain_method": "Rare Cat Capsule - THE DYNAMITES",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -1070,7 +1070,7 @@
                 "rarity": "UR",
                 "name_basic": "Marauder Cat",
                 "names_evolved": "Berserker Cat / Paladin Cat",
-                "obtain_method": "Rare Cat Capsule - The Dynamites",
+                "obtain_method": "Rare Cat Capsule - THE DYNAMITES",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -1122,7 +1122,7 @@
                 "rarity": "UR",
                 "name_basic": "Baby Cat",
                 "names_evolved": "Baby Cats / Cats in the Cradle / Cats in the Stroller",
-                "obtain_method": "Rare Cat Capsule - The Dynamites",
+                "obtain_method": "Rare Cat Capsule - THE DYNAMITES",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -1441,7 +1441,7 @@
             "info": {
                 "rarity": "UR",
                 "name_basic": "Windy",
-                "names_evolved": "Windy, type α / Divine Windy / Ultimate Windy",
+                "names_evolved": "Windy, type α / Divine Windy α / Ultimate Windy α",
                 "obtain_method": "Rare Cat Capsule - Cyber Academy Galaxy Gals",
                 "evolution": {
                     "true_form": {
@@ -1477,7 +1477,7 @@
             "info": {
                 "rarity": "UR",
                 "name_basic": "Thundia",
-                "names_evolved": "Thundia, type β / Divine Thundia / Ultimate Thundia",
+                "names_evolved": "Thundia, type β / Divine Thundia β / Ultimate Thundia β",
                 "obtain_method": "Rare Cat Capsule - Cyber Academy Galaxy Gals",
                 "evolution": {
                     "true_form": {
@@ -1591,7 +1591,7 @@
                 "rarity": "UR",
                 "name_basic": "Sodom",
                 "names_evolved": "Earth King Sodom / God-Emperor Sodom",
-                "obtain_method": "Rare Cat Capsule - Lords of Destruction Dragon Emperors",
+                "obtain_method": "Rare Cat Capsule - Lords of Destruction DRAGON EMPERORS",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -1617,7 +1617,7 @@
                 "rarity": "UR",
                 "name_basic": "Megidora",
                 "names_evolved": "Holy Dragon Megidora / God-Emperor Megidora",
-                "obtain_method": "Rare Cat Capsule - Lords of Destruction Dragon Emperors",
+                "obtain_method": "Rare Cat Capsule - Lords of Destruction DRAGON EMPERORS",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -1643,7 +1643,7 @@
                 "rarity": "UR",
                 "name_basic": "Vars",
                 "names_evolved": "Dragon King Vars / God-Emperor Vars",
-                "obtain_method": "Rare Cat Capsule - Lords of Destruction Dragon Emperors",
+                "obtain_method": "Rare Cat Capsule - Lords of Destruction DRAGON EMPERORS",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -1669,7 +1669,7 @@
                 "rarity": "UR",
                 "name_basic": "Kamukura",
                 "names_evolved": "God Dragon Kamukura / God-Emperor Kamukura",
-                "obtain_method": "Rare Cat Capsule - Lords of Destruction Dragon Emperors",
+                "obtain_method": "Rare Cat Capsule - Lords of Destruction DRAGON EMPERORS",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -1695,7 +1695,7 @@
                 "rarity": "UR",
                 "name_basic": "Raiden",
                 "names_evolved": "Dragonslayer Raiden / God-Emperor Raiden",
-                "obtain_method": "Rare Cat Capsule - Lords of Destruction Dragon Emperors",
+                "obtain_method": "Rare Cat Capsule - Lords of Destruction DRAGON EMPERORS",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -1937,7 +1937,7 @@
             "info": {
                 "rarity": "UR",
                 "name_basic": "Kuu",
-                "names_evolved": "Kuu, type γ / Divine Kuu",
+                "names_evolved": "Kuu, type γ / Divine Kuu γ",
                 "obtain_method": "Rare Cat Capsule - Cyber Academy Galaxy Gals",
                 "evolution": {
                     "true_form": {
@@ -1963,7 +1963,7 @@
             "info": {
                 "rarity": "UR",
                 "name_basic": "Kai",
-                "names_evolved": "Kai, type μ / Divine Kai",
+                "names_evolved": "Kai, type μ / Divine Kai μ",
                 "obtain_method": "Rare Cat Capsule - Cyber Academy Galaxy Gals",
                 "evolution": {
                     "true_form": {
@@ -1989,7 +1989,7 @@
             "info": {
                 "rarity": "UR",
                 "name_basic": "Coppermine",
-                "names_evolved": "Coppermine, type κ / Divine Coppermine",
+                "names_evolved": "Coppermine, type κ / Divine Coppermine κ",
                 "obtain_method": "Rare Cat Capsule - Cyber Academy Galaxy Gals",
                 "evolution": {
                     "true_form": {
@@ -2426,7 +2426,7 @@
                 "rarity": "UR",
                 "name_basic": "Urashima Taro",
                 "names_evolved": "Guardian Gamereon / King Gamereon",
-                "obtain_method": "Rare Cat Capsule - Ancient Heroes Ultra Souls",
+                "obtain_method": "Rare Cat Capsule - Ancient Heroes ULTRA SOULS",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -2452,7 +2452,7 @@
                 "rarity": "UR",
                 "name_basic": "The Grateful Crane",
                 "names_evolved": "Super Galaxy Cosmo / Ultima Galaxy Cosmo / Supernova Cosmo",
-                "obtain_method": "Rare Cat Capsule - Ancient Heroes Ultra Souls",
+                "obtain_method": "Rare Cat Capsule - Ancient Heroes ULTRA SOULS",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -2484,7 +2484,7 @@
                 "rarity": "UR",
                 "name_basic": "Momotaro",
                 "names_evolved": "The Peach Angels / The Peach Devils",
-                "obtain_method": "Rare Cat Capsule - Ancient Heroes Ultra Souls",
+                "obtain_method": "Rare Cat Capsule - Ancient Heroes ULTRA SOULS",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -2510,7 +2510,7 @@
                 "rarity": "UR",
                 "name_basic": "Kasa Jizo",
                 "names_evolved": "Jizo's Moving Castle / Jizo's Mega-Castle / Ultra Kasa Jizo",
-                "obtain_method": "Rare Cat Capsule - Ancient Heroes Ultra Souls",
+                "obtain_method": "Rare Cat Capsule - Ancient Heroes ULTRA SOULS",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -2547,7 +2547,7 @@
                 "rarity": "UR",
                 "name_basic": "Princess Kaguya",
                 "names_evolved": "The Death Moon / The Chaos Moon / Ultra Kaguya",
-                "obtain_method": "Rare Cat Capsule - Ancient Heroes Ultra Souls",
+                "obtain_method": "Rare Cat Capsule - Ancient Heroes ULTRA SOULS",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -2633,7 +2633,7 @@
                 "rarity": "UR",
                 "name_basic": "Nurse Cat",
                 "names_evolved": "Heartful Nurse Cat / Joyful Nurse Cat",
-                "obtain_method": "Rare Cat Capsule - The Dynamites",
+                "obtain_method": "Rare Cat Capsule - THE DYNAMITES",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -3342,7 +3342,7 @@
                 "rarity": "UR",
                 "name_basic": "Dioramos",
                 "names_evolved": "Archdragon Dioramos / God-Emperor Dioramos / Ascendant Dioramos",
-                "obtain_method": "Rare Cat Capsule - Lords of Destruction Dragon Emperors",
+                "obtain_method": "Rare Cat Capsule - Lords of Destruction DRAGON EMPERORS",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -3815,7 +3815,7 @@
                 "rarity": "UR",
                 "name_basic": "Kachi-Kachi",
                 "names_evolved": "Fire Squad Kachiyama / Kachiyama Assault Brigade",
-                "obtain_method": "Rare Cat Capsule - Ancient Heroes Ultra Souls",
+                "obtain_method": "Rare Cat Capsule - Ancient Heroes ULTRA SOULS",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -5132,7 +5132,7 @@
                 "rarity": "UR",
                 "name_basic": "Pai-Pai",
                 "names_evolved": "Pai-Pai Z / Pai-Pai DX",
-                "obtain_method": "Rare Cat Capsule - Red Busters",
+                "obtain_method": "Rare Cat Capsule - RED BUSTERS",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -5180,7 +5180,7 @@
                 "rarity": "UR",
                 "name_basic": "Strike Unit R.E.I.",
                 "names_evolved": "Assault Unit R.E.I. / Flight Unit R.E.I.",
-                "obtain_method": "Rare Cat Capsule - Air Busters",
+                "obtain_method": "Rare Cat Capsule - AIR BUSTERS",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -5448,7 +5448,7 @@
                 "rarity": "UR",
                 "name_basic": "Mighty Kat-A-Pult",
                 "names_evolved": "CAT-6 Siege Engine / CAT-8 Behemoth / CAT-10 Gigapult",
-                "obtain_method": "Rare Cat Capsule - Frontline Assault Iron Legion",
+                "obtain_method": "Rare Cat Capsule - Frontline Assault IRON LEGION",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -5485,7 +5485,7 @@
                 "rarity": "UR",
                 "name_basic": "Mighty Drednot",
                 "names_evolved": "B.C.S. Lionheart / B.C.S. Tigerclaw / B.C.S. Beartooth",
-                "obtain_method": "Rare Cat Capsule - Frontline Assault Iron Legion",
+                "obtain_method": "Rare Cat Capsule - Frontline Assault IRON LEGION",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -5523,7 +5523,7 @@
                 "rarity": "UR",
                 "name_basic": "Mighty Bomburr",
                 "names_evolved": "NEK-0 Sky Fortress / NEK-02 Air Citadel / NEK-03 Cloud Emperor",
-                "obtain_method": "Rare Cat Capsule - Frontline Assault Iron Legion",
+                "obtain_method": "Rare Cat Capsule - Frontline Assault IRON LEGION",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -5823,7 +5823,7 @@
                 "rarity": "UR",
                 "name_basic": "Sarukani",
                 "names_evolved": "Rock Revengers / The One-Hit Wonders",
-                "obtain_method": "Rare Cat Capsule - Ancient Heroes Ultra Souls",
+                "obtain_method": "Rare Cat Capsule - Ancient Heroes ULTRA SOULS",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -6353,7 +6353,7 @@
             "info": {
                 "rarity": "UR",
                 "name_basic": "Twinstars",
-                "names_evolved": "Twinstars, type Φ / Divine Twinstars",
+                "names_evolved": "Twinstars, type Φ / Divine Twinstars Φ",
                 "obtain_method": "Rare Cat Capsule - Cyber Academy Galaxy Gals",
                 "evolution": {
                     "true_form": {
@@ -6418,7 +6418,7 @@
                 "rarity": "UR",
                 "name_basic": "Mighty Rekon Korps",
                 "names_evolved": "Orbital Platform Armageddon / Orbital Annihilator Ragnarok",
-                "obtain_method": "Rare Cat Capsule - Frontline Assault Iron Legion",
+                "obtain_method": "Rare Cat Capsule - Frontline Assault IRON LEGION",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -6508,7 +6508,7 @@
                 "rarity": "UR",
                 "name_basic": "Bora",
                 "names_evolved": "Bazibon / Bazibastra / Bazifenix",
-                "obtain_method": "Rare Cat Capsule - Nature's Guardians Elemental Pixies",
+                "obtain_method": "Rare Cat Capsule - Nature's Guardians ELEMENTAL PIXIES",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -6543,7 +6543,7 @@
                 "rarity": "UR",
                 "name_basic": "Mizli",
                 "names_evolved": "Marinmizu / Mizuririn / Mizunade",
-                "obtain_method": "Rare Cat Capsule - Nature's Guardians Elemental Pixies",
+                "obtain_method": "Rare Cat Capsule - Nature's Guardians ELEMENTAL PIXIES",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -6580,7 +6580,7 @@
                 "rarity": "UR",
                 "name_basic": "Aer",
                 "names_evolved": "Erphuan / Aervanta / Aervantex",
-                "obtain_method": "Rare Cat Capsule - Nature's Guardians Elemental Pixies",
+                "obtain_method": "Rare Cat Capsule - Nature's Guardians ELEMENTAL PIXIES",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -7145,7 +7145,7 @@
                 "rarity": "UR",
                 "name_basic": "Ganglion",
                 "names_evolved": "Ganglion the Ancient / Ganglion the Unleashed",
-                "obtain_method": "Rare Cat Capsule - Lords of Destruction Dragon Emperors",
+                "obtain_method": "Rare Cat Capsule - Lords of Destruction DRAGON EMPERORS",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -7171,7 +7171,7 @@
                 "rarity": "UR",
                 "name_basic": "Sakura Sonic",
                 "names_evolved": "Afterschool Sakura / Sacred Blade Sakura / Sacred Blade Sakura Z",
-                "obtain_method": "Rare Cat Capsule - Metal Busters",
+                "obtain_method": "Rare Cat Capsule - METAL BUSTERS",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -7240,7 +7240,7 @@
                 "rarity": "UR",
                 "name_basic": "Voli",
                 "names_evolved": "Volta / Gigavolta",
-                "obtain_method": "Rare Cat Capsule - Nature's Guardians Elemental Pixies",
+                "obtain_method": "Rare Cat Capsule - Nature's Guardians ELEMENTAL PIXIES",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -7491,7 +7491,7 @@
                 "rarity": "UR",
                 "name_basic": "Mighty Thermae D-Lux",
                 "names_evolved": "Subterra Guardians / Subterra Sentinels",
-                "obtain_method": "Rare Cat Capsule - Frontline Assault Iron Legion",
+                "obtain_method": "Rare Cat Capsule - Frontline Assault IRON LEGION",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -7638,8 +7638,8 @@
             "info": {
                 "rarity": "UR",
                 "name_basic": "Cat Clan Heroes",
-                "names_evolved": "Cat Guild Heroes / Cat Quest Heroes / 427-4",
-                "obtain_method": "Rare Cat Capsule - The Dynamites",
+                "names_evolved": "Cat Guild Heroes / Cat Quest Heroes / Heavenly Cat Heroes",
+                "obtain_method": "Rare Cat Capsule - THE DYNAMITES",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -8062,7 +8062,7 @@
             "info": {
                 "rarity": "LR",
                 "name_basic": "Jeanne",
-                "names_evolved": "Jeanne ψ / Divine Jeanne ψ",
+                "names_evolved": "Jeanne, type ψ / Divine Jeanne ψ",
                 "obtain_method": "Rare Cat Capsule - Cyber Academy Galaxy Gals",
                 "evolution": {
                     "true_form": {
@@ -8087,7 +8087,7 @@
                 "rarity": "LR",
                 "name_basic": "High Lord Babel",
                 "names_evolved": "Babel the Darkflame / God-Emperor Babel",
-                "obtain_method": "Rare Cat Capsule - Lords of Destruction Dragon Emperors",
+                "obtain_method": "Rare Cat Capsule - Lords of Destruction DRAGON EMPERORS",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -8112,7 +8112,7 @@
                 "rarity": "LR",
                 "name_basic": "Ushiwakamaru",
                 "names_evolved": "Colossal Benkei",
-                "obtain_method": "Rare Cat Capsule - Ancient Heroes Ultra Souls"
+                "obtain_method": "Rare Cat Capsule - Ancient Heroes ULTRA SOULS"
             },
             "stats": [
                 [990,2,12,570,43,250,550,220,0,320,0,0,1,23,0,9,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,11,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
@@ -8161,7 +8161,7 @@
                 "rarity": "LR",
                 "name_basic": "Wonder MOMOCO",
                 "names_evolved": "Cutie MOMOCO",
-                "obtain_method": "Rare Cat Capsule - The Dynamites"
+                "obtain_method": "Rare Cat Capsule - THE DYNAMITES"
             },
             "stats": [
                 [4000,2,13,300,0,375,3000,2000,0,320,1,0,1,28,8,9,0,1,0,0,1,0,0,0,0,100,60,0,0,0,0,0,0,0,0,100,8,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,-1,0,-1,0,600,2700,55,100,1,0,0,-1,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
@@ -8279,7 +8279,7 @@
                 "rarity": "LR",
                 "name_basic": "Mighty Kristul Muu",
                 "names_evolved": "Doom Engine Pandora",
-                "obtain_method": "Rare Cat Capsule - Frontline Assault Iron Legion"
+                "obtain_method": "Rare Cat Capsule - Frontline Assault IRON LEGION"
             },
             "stats": [
                 [9000,1,1,1800,47,400,3100,2750,0,320,0,0,1,51,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,400,-850,0,1,0,0,0,0,1,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,10,0,0,0,0,0,0,0,0,0,0,0,0,0,1],
@@ -8532,7 +8532,7 @@
                 "rarity": "LR",
                 "name_basic": "Lumina",
                 "names_evolved": "Luminalia",
-                "obtain_method": "Rare Cat Capsule - Nature's Guardians Elemental Pixies"
+                "obtain_method": "Rare Cat Capsule - Nature's Guardians ELEMENTAL PIXIES"
             },
             "stats": [
                 [1250,3,32,500,48,330,740,350,0,320,0,0,1,41,0,9,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,150,50,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,11,0,0,50,0,0,0,0,1,0,0,0,0,1,0],
@@ -8801,7 +8801,7 @@
             "info": {
                 "rarity": "UR",
                 "name_basic": "Narita Kaihime",
-                "names_evolved": "Wargod Kaihime / Immortal Kaihime",
+                "names_evolved": "Wargod Kaihime / Immortal Kaihime / 496-4",
                 "obtain_method": "Rare Cat Capsule - Sengoku Wargods Vajiras",
                 "evolution": {
                     "true_form": {
@@ -8813,6 +8813,17 @@
                             [36,1],
                             [39,1],
                             [40,5]
+                        ]
+                    },
+                    "ultra_form": {
+                        "level": 60,
+                        "xp": 2000000,
+                        "materials": [
+                            [179,1],
+                            [180,1],
+                            [181,1],
+                            [182,1],
+                            [43,5]
                         ]
                     }
                 }
@@ -8887,7 +8898,7 @@
             "info": {
                 "rarity": "UR",
                 "name_basic": "Myrcia",
-                "names_evolved": "Myrcia, type ξ / Divine Myrcia",
+                "names_evolved": "Myrcia, type ξ / Divine Myrcia ξ",
                 "obtain_method": "Rare Cat Capsule - Cyber Academy Galaxy Gals",
                 "evolution": {
                     "true_form": {
@@ -8938,7 +8949,7 @@
                 "rarity": "UR",
                 "name_basic": "Relentless Gladios",
                 "names_evolved": "Gladios the Annihilator / God-Emperor Gladios",
-                "obtain_method": "Rare Cat Capsule - Lords of Destruction Dragon Emperors",
+                "obtain_method": "Rare Cat Capsule - Lords of Destruction DRAGON EMPERORS",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -9152,7 +9163,7 @@
                 "rarity": "UR",
                 "name_basic": "Lasvoss",
                 "names_evolved": "Ultimate Lasvoss / Lasvoss Reborn",
-                "obtain_method": "Rare Cat Capsule - The Dynamites",
+                "obtain_method": "Rare Cat Capsule - THE DYNAMITES",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -9262,7 +9273,7 @@
                 "rarity": "UR",
                 "name_basic": "Kintaro",
                 "names_evolved": "Kinrangers RoboForce / Kinrangers GigaForce",
-                "obtain_method": "Rare Cat Capsule - Ancient Heroes Ultra Souls",
+                "obtain_method": "Rare Cat Capsule - Ancient Heroes ULTRA SOULS",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -9748,7 +9759,7 @@
                 "rarity": "UR",
                 "name_basic": "Hell Warden Emma",
                 "names_evolved": "Hell Sentinel Emma / Hell Commissioner Emma",
-                "obtain_method": "Rare Cat Capsule - Wave Busters",
+                "obtain_method": "Rare Cat Capsule - WAVE BUSTERS",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -9956,7 +9967,7 @@
                 "rarity": "UR",
                 "name_basic": "Gravi",
                 "names_evolved": "Gravolo / Gravolodon",
-                "obtain_method": "Rare Cat Capsule - Nature's Guardians Elemental Pixies",
+                "obtain_method": "Rare Cat Capsule - Nature's Guardians ELEMENTAL PIXIES",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -10306,7 +10317,7 @@
                 "rarity": "UR",
                 "name_basic": "Mighty Aethur Ltd.",
                 "names_evolved": "Atlantis Logistix / Ultra Atlantis Logistix",
-                "obtain_method": "Rare Cat Capsule - Frontline Assault Iron Legion",
+                "obtain_method": "Rare Cat Capsule - Frontline Assault IRON LEGION",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -10654,7 +10665,7 @@
                 "rarity": "UR",
                 "name_basic": "Summoner Satoru",
                 "names_evolved": "Dark Summoner Satoru / Devil Hunter Satoru",
-                "obtain_method": "Rare Cat Capsules - The Dynamites",
+                "obtain_method": "Rare Cat Capsules - THE DYNAMITES",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -10699,7 +10710,7 @@
             "info": {
                 "rarity": "UR",
                 "name_basic": "Lilin",
-                "names_evolved": "Lilin π / Divine Lilin π",
+                "names_evolved": "Lilin, type π / Divine Lilin π",
                 "obtain_method": "Rare Cat Capsules - Cyber Academy Galaxy Gals",
                 "evolution": {
                     "true_form": {
@@ -10723,7 +10734,7 @@
                 "rarity": "UR",
                 "name_basic": "Hevijak the Wicked",
                 "names_evolved": "Wicked King Hevijak / God-Emperor Hevijak",
-                "obtain_method": "Rare Cat Capsules - Lords of Destruction Dragon Emperors",
+                "obtain_method": "Rare Cat Capsules - Lords of Destruction DRAGON EMPERORS",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -10880,7 +10891,7 @@
                 "rarity": "UR",
                 "name_basic": "Yamii",
                 "names_evolved": "Yaminoir / Yaminora",
-                "obtain_method": "Rare Cat Capsule - Nature's Guardians Elemental Pixies",
+                "obtain_method": "Rare Cat Capsule - Nature's Guardians ELEMENTAL PIXIES",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -10903,7 +10914,7 @@
                 "rarity": "UR",
                 "name_basic": "Mighty Deth-Troy-R",
                 "names_evolved": "Siege Walker Diabolosa / Obliterator Diabolosa",
-                "obtain_method": "Rare Cat Capsule - Frontline Assault Iron Legion",
+                "obtain_method": "Rare Cat Capsule - Frontline Assault IRON LEGION",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -10926,7 +10937,7 @@
                 "rarity": "UR",
                 "name_basic": "Shitakiri Sparrow",
                 "names_evolved": "Chunchun Haunters / Grand Chunchun Haunters",
-                "obtain_method": "Rare Cat Capsule - Ancient Heroes Ultra Souls",
+                "obtain_method": "Rare Cat Capsule - Ancient Heroes ULTRA SOULS",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -11139,8 +11150,8 @@
         "647": {
             "info": {
                 "rarity": "UR",
-                "name_basic": "Huntress Terun",
-                "names_evolved": "Huntress Terun ζ / Divine Huntress Terun ζ",
+                "name_basic": "Terun",
+                "names_evolved": "Terun, type ζ / Divine Terun ζ",
                 "obtain_method": "Rare Cat Capsule - Cyber Academy Galaxy Gals",
                 "evolution": {
                     "true_form": {
@@ -11273,7 +11284,7 @@
                 "rarity": "UR",
                 "name_basic": "Bliza",
                 "names_evolved": "Blizana / Blizarena",
-                "obtain_method": "Rare Cat Capsule - Nature's Guardians Elemental Pixies",
+                "obtain_method": "Rare Cat Capsule - Nature's Guardians ELEMENTAL PIXIES",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -11378,7 +11389,7 @@
                 "rarity": "UR",
                 "name_basic": "Sea Serpent Daliasan",
                 "names_evolved": "Sea King Daliasan / God-Emperor Daliasan",
-                "obtain_method": "Rare Cat Capsule - Lords of Destruction Dragon Emperors",
+                "obtain_method": "Rare Cat Capsule - Lords of Destruction DRAGON EMPERORS",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -11426,7 +11437,7 @@
             "info": {
                 "rarity": "RR",
                 "name_basic": "Ancient Egg: N103",
-                "names_evolved": "Black Egg: N103 / Gas Mask Cat",
+                "names_evolved": "Dark Egg: N103 / Gas Mask Cat",
                 "obtain_method": "Catnip Challenges",
                 "evolution": {
                     "true_form": {
@@ -11523,7 +11534,7 @@
                 "rarity": "UR",
                 "name_basic": "Cat Tengu",
                 "names_evolved": "Grand Yokai Tengu / Immortal Master Tengu",
-                "obtain_method": "Rare Cat Capsule - The Dynamites",
+                "obtain_method": "Rare Cat Capsule - THE DYNAMITES",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -11633,7 +11644,7 @@
                 "rarity": "UR",
                 "name_basic": "Mighty Carrowsell",
                 "names_evolved": "Extraterrestrial Envanz / Extradimensional Envanz",
-                "obtain_method": "Rare Cat Capsule - Frontline Assault Iron Legion",
+                "obtain_method": "Rare Cat Capsule - Frontline Assault IRON LEGION",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -11944,7 +11955,7 @@
                 "rarity": "UR",
                 "name_basic": "Issun Boshi",
                 "names_evolved": "Oni Landshaker Kozuchimaru / Oni Battlepod Kozuchimaru",
-                "obtain_method": "Rare Cat Capsule - Ancient Heroes Ultra Souls",
+                "obtain_method": "Rare Cat Capsule - Ancient Heroes ULTRA SOULS",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -12319,7 +12330,7 @@
                 "rarity": "UR",
                 "name_basic": "Mighty Sphinx Korps",
                 "names_evolved": "Attack Battalion Convoys / Hyper Battalion Convoys",
-                "obtain_method": "Rare Cat Capsule - Frontline Assault Iron Legion",
+                "obtain_method": "Rare Cat Capsule - Frontline Assault IRON LEGION",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -12403,8 +12414,8 @@
             "info": {
                 "rarity": "UR",
                 "name_basic": "Tekachi",
-                "names_evolved": "Tetsukachi / 719-3",
-                "obtain_method": "Rare Cat Capsule - Nature's Guardians Elemental Pixies",
+                "names_evolved": "Tetsukachi / Adamankachi",
+                "obtain_method": "Rare Cat Capsule - Nature's Guardians ELEMENTAL PIXIES",
                 "evolution": {
                     "true_form": {
                         "level": 30,
@@ -12632,7 +12643,7 @@
             "info": {
                 "rarity": "UR",
                 "name_basic": "Pegasa",
-                "names_evolved": "Pegasa ν",
+                "names_evolved": "Pegasa, type ν",
                 "obtain_method": "Rare Cat Capsule - Cyber Academy Galaxy Gals"
             },
             "stats": [
@@ -12965,7 +12976,7 @@
                 "rarity": "UR",
                 "name_basic": "Gunduros",
                 "names_evolved": "Ballistic Dragon Gunduros",
-                "obtain_method": "Rare Cat Capsule - Lords of Destruction Dragon Emperors"
+                "obtain_method": "Rare Cat Capsule - Lords of Destruction DRAGON EMPERORS"
             },
             "stats": [
                 [5500,2,4,3300,105,500,3950,2300,0,320,0,0,1,222,0,9,0,1,0,0,0,1,0,0,50,0,0,50,240,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,761,1,0],
@@ -13000,7 +13011,7 @@
                 "rarity": "UR",
                 "name_basic": "Dynasaurus Cat",
                 "names_evolved": "Mecha Dynasaurus Cat",
-                "obtain_method": "Rare Cat Capsule - The Dynamites"
+                "obtain_method": "Rare Cat Capsule - THE DYNAMITES"
             },
             "stats": [
                 [4000,4,5,700,85,350,2800,1600,0,320,0,0,1,55,0,9,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,150,550,0,0,1,0,0,0,0,0,0,-1,0,-1,0,700,700,65,75,1,1,1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,150,550,1,150,550,0,0,0,0,0,764,0,0],
@@ -13082,7 +13093,7 @@
                 "rarity": "UR",
                 "name_basic": "Hanasaka Cat",
                 "names_evolved": "Ravenous Cherry",
-                "obtain_method": "Rare Cat Capsule - Ancient Heroes Ultra Souls"
+                "obtain_method": "Rare Cat Capsule - Ancient Heroes ULTRA SOULS"
             },
             "stats": [
                 [1330,1,8,230,55,160,510,270,0,320,0,0,1,30,0,9,0,0,0,0,1,0,1,0,0,30,60,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,160,-160,0,0,0,0,0,0,1,0,0,-1,0,-1,0,230,650,50,100,1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,-160,160,1,160,-320,0,0,0,0,0,-1,0,0],
@@ -13439,7 +13450,7 @@
                 "rarity": "UR",
                 "name_basic": "Mighty Morta-Loncha",
                 "names_evolved": "Grandiose Gunhauzer",
-                "obtain_method": "Rare Cat Capsule - Frontline Assault Iron Legion"
+                "obtain_method": "Rare Cat Capsule - Frontline Assault IRON LEGION"
             },
             "stats": [
                 [6000,4,5,1450,75,465,3100,2800,0,320,0,0,1,69,0,0,0,0,0,0,0,0,1,0,0,50,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,800,0,0,100,1860,0,0],
@@ -13651,7 +13662,7 @@
                 "rarity": "UR",
                 "name_basic": "Komori",
                 "names_evolved": "Moririn",
-                "obtain_method": "Rare Cat Capsule - Nature's Guardians Elemental Pixies"
+                "obtain_method": "Rare Cat Capsule - Nature's Guardians ELEMENTAL PIXIES"
             },
             "stats": [
                 [1200,3,12,500,0,330,730,400,0,320,0,0,1,66,0,9,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,50,120,0,0,0,1,0,0,0,0,0,0,0,1,5,30,0,0,-1,0,0,0,0,0,0],
@@ -13803,7 +13814,7 @@
             "info": {
                 "rarity": "UR",
                 "name_basic": "Raclesa",
-                "names_evolved": "Raclesa Σ",
+                "names_evolved": "Raclesa, type Σ",
                 "obtain_method": "Rare Cat Capsule - Cyber Academy Galaxy Gals"
             },
             "stats": [
@@ -14090,7 +14101,7 @@
                 "rarity": "EX",
                 "name_basic": "Master of Selection Darvin",
                 "names_evolved": "Master of Selection Clawvin",
-                "obtain_method": "Drop - Endless Forms Most Beautiful (30% chance)"
+                "obtain_method": "Drop - Endless Forms Most Beautiful"
             },
             "stats": [
                 [5500,3,4,1300,80,300,3200,2200,0,320,1,0,1,62,0,9,0,0,0,0,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,100,120,50,0,0,0,0,1,300,0,0,0,0,0,0,0,0,0,-1,0,-1,0,800,0,81,0,1,1,0,-1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,120,0,0,0,0,0,1,301,200,0,0,0,0,0,0,0,0,855,1,0,0,0,0,0],
@@ -14102,7 +14113,7 @@
                 "rarity": "EX",
                 "name_basic": "Darvin Spirit",
                 "names_evolved": "N/A",
-                "obtain_method": "Conjured by Master of Selection Darvin (854)"
+                "obtain_method": "Spirit of Master of Selection Darvin"
             },
             "stats": [
                 [100,1,0,2700,0,800,0,0,0,320,1,0,1,41,9,9,1,1,1,1,1,1,1,0,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,2,0,0,0,0,1,0,0,-1,-1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0]
@@ -14112,7 +14123,7 @@
             "info": {
                 "rarity": "RR",
                 "name_basic": "Nyanko Village Cat",
-                "names_evolved": "Nyanko Village CatCC",
+                "names_evolved": "Nyanko Village Cat CC",
                 "obtain_method": "Drop - Puzzle Bonanza! Nyanko Village"
             },
             "stats": [
@@ -14125,7 +14136,7 @@
                 "rarity": "EX",
                 "name_basic": "Barista Cat",
                 "names_evolved": "Silver Cat",
-                "obtain_method": "Drop - Fascinating Fallen Tower (Floor 10)"
+                "obtain_method": "Drop - Floor 10 of the Fascinating Fallen Tower"
             },
             "stats": [
                 [1120,2,20,52,0,290,750,470,0,320,0,0,0,1,0,9,0,0,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,10,200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0],
@@ -14137,7 +14148,7 @@
                 "rarity": "EX",
                 "name_basic": "Commander Cat",
                 "names_evolved": "Gold Cat",
-                "obtain_method": "Drop - Fascinating Fallen Tower (Floor 20)"
+                "obtain_method": "Drop - Floor 20 of the Fascinating Fallen Tower"
             },
             "stats": [
                 [560,3,10,120,30,310,500,510,0,320,0,0,1,45,0,9,0,0,0,0,1,0,0,0,40,0,0,0,0,0,0,0,0,0,0,100,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30,60,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0],
@@ -14159,12 +14170,77 @@
         "860": {
             "info": {
                 "rarity": "UR",
-                "name_basic": "Lunos Spirit",
+                "name_basic": "Summon 21",
                 "names_evolved": "N/A",
-                "obtain_method": "Conjured by Lone Moon Lunos (859)"
+                "obtain_method": "Spirit of Lone Moon Lunos"
             },
             "stats": [
                 [100,1,0,2700,0,800,0,0,0,320,0,0,1,41,9,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,100,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,-1,2,0,0,0,0,1,0,0,-1,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0]
+            ]
+        },
+        "861": {
+            "info": {
+                "rarity": "UR",
+                "name_basic": "861-1",
+                "names_evolved": "861-2 / 861-3",
+                "obtain_method": "?"
+            },
+            "stats": [
+                [5000,4,14,1850,90,455,3700,2300,0,320,1,0,1,51,0,9,0,0,0,0,0,0,0,0,0,0,0,100,60,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,275,400,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0],
+                [6000,4,14,2250,90,455,3700,2300,0,320,1,0,1,51,0,9,0,0,0,0,0,0,0,0,0,0,0,100,60,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,275,400,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0],
+                [6000,4,14,2250,90,455,3700,2300,0,320,1,0,1,51,0,9,0,0,0,0,0,0,0,0,0,0,0,100,60,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,275,400,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0]
+            ]
+        },
+        "862": {
+            "info": {
+                "rarity": "UR",
+                "name_basic": "862-1",
+                "names_evolved": "862-2 / 862-3",
+                "obtain_method": "?"
+            },
+            "stats": [
+                [2800,4,9,700,45,450,3300,2300,0,320,1,0,1,8,0,9,0,0,0,0,0,0,1,0,0,0,0,100,30,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0],
+                [3300,4,9,950,45,450,3300,2300,0,320,1,0,1,8,0,9,0,0,0,0,0,0,1,0,0,0,0,100,60,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0],
+                [3300,4,9,950,45,450,3300,2300,0,320,1,0,1,8,0,9,0,0,0,0,0,0,1,0,0,0,0,100,60,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0]
+            ]
+        },
+        "863": {
+            "info": {
+                "rarity": "UR",
+                "name_basic": "863-1",
+                "names_evolved": "863-2 / 863-3",
+                "obtain_method": "?"
+            },
+            "stats": [
+                [620,3,12,360,70,300,480,300,0,320,0,0,1,40,0,9,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0],
+                [780,3,12,450,70,300,480,300,0,320,0,0,1,40,0,9,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0],
+                [780,3,12,450,70,300,480,300,0,320,0,0,1,40,0,9,0,0,0,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0]
+            ]
+        },
+        "864": {
+            "info": {
+                "rarity": "UR",
+                "name_basic": "864-1",
+                "names_evolved": "864-2 / 864-3",
+                "obtain_method": "?"
+            },
+            "stats": [
+                [3200,3,12,2400,108,560,3200,2700,0,320,0,0,1,154,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,4,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,-1,0,-1,0,2400,0,159,0,1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0],
+                [4000,3,12,3000,108,560,3200,2700,0,320,0,0,1,154,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,4,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,-1,0,-1,0,3000,0,159,0,1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0],
+                [4000,3,12,3000,108,560,3200,2700,0,320,0,0,1,154,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100,4,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,-1,0,-1,0,3000,0,159,0,1,1,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0]
+            ]
+        },
+        "865": {
+            "info": {
+                "rarity": "UR",
+                "name_basic": "865-1",
+                "names_evolved": "865-2 / 865-3",
+                "obtain_method": "?"
+            },
+            "stats": [
+                [1360,5,40,480,0,500,2500,1450,0,320,0,0,1,34,0,9,1,0,0,0,0,1,0,0,0,100,30,0,0,0,0,0,0,0,0,0,0,100,75,50,0,0,0,0,350,350,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,60,60,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0],
+                [1700,5,40,600,0,500,2500,1450,0,320,0,0,1,34,0,9,1,0,0,0,0,1,0,0,0,100,30,0,0,0,0,0,0,0,0,0,0,100,75,50,0,0,0,0,350,350,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,60,60,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0],
+                [1700,5,40,600,0,500,2500,1450,0,320,0,0,1,34,0,9,1,0,0,0,0,1,0,0,0,100,30,0,0,0,0,0,0,0,0,0,0,100,75,50,0,0,0,0,350,350,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,60,60,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0]
             ]
         }
     }
