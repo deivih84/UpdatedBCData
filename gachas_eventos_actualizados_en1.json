@@ -1,42 +1,6 @@
 {
   "gachas": [
     {
-      "id": "download_anniversary_gacha_2026-05-11",
-      "nombre": "Download Anniversary Gacha",
-      "fecha_inicio": "2026-05-11",
-      "fecha_fin": "2026-06-01",
-      "caracteristicas": [
-        "Legend Rare"
-      ]
-    },
-    {
-      "id": "limited_capsules_2026-05-21",
-      "nombre": "Limited Capsules",
-      "fecha_inicio": "2026-05-21",
-      "fecha_fin": "2026-06-01",
-      "caracteristicas": []
-    },
-    {
-      "id": "luga_families_2026-05-27",
-      "nombre": "Luga Families",
-      "fecha_inicio": "2026-05-27",
-      "fecha_fin": "2026-05-29",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "iron_legion_2026-05-27",
-      "nombre": "Iron Legion",
-      "fecha_inicio": "2026-05-27",
-      "fecha_fin": "2026-05-29",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
       "id": "uberfest_2026-05-29",
       "nombre": "Uberfest",
       "fecha_inicio": "2026-05-29",
