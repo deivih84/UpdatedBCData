@@ -144,18 +144,6 @@
       ]
     },
     {
-      "id": "a_chance_to_earn_special_units_2026-06-08",
-      "nombre": "A chance to earn special units!",
-      "fecha_inicio": "2026-06-08",
-      "fecha_fin": "2026-06-19",
-      "caracteristicas": [
-        "5",
-        "5 Capsules",
-        "L",
-        "Lucky Ticket"
-      ]
-    },
-    {
       "id": "spooky_cuties_2026-06-08",
       "nombre": "Spooky Cuties",
       "fecha_inicio": "2026-06-08",
@@ -941,5 +929,5 @@
       "fecha_fin": "2026-07-02"
     }
   ],
-  "ultima_actualizacion": "2026-06-09T02:12:14Z"
+  "ultima_actualizacion": "2026-06-09T09:25:48Z"
 }
