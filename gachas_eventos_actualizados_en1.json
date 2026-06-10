@@ -927,6 +927,15 @@
       ],
       "fecha_inicio": "2026-06-16",
       "fecha_fin": "2026-07-02"
+    },
+    {
+      "id": "version_15_4_is_out_2026-06-10",
+      "nombre": "Version 15.4 is out!!",
+      "caracteristicas": [
+        "Japanese: May 25th, 2026\nInternational: June 10th, 2026"
+      ],
+      "fecha_inicio": "2026-06-10",
+      "fecha_fin": "2026-07-02"
     }
   ],
   "ultima_actualizacion": "2026-06-10T09:41:41Z"
