@@ -192,6 +192,18 @@
       ]
     },
     {
+      "id": "a_chance_to_earn_special_units_2026-06-11",
+      "nombre": "A chance to earn special units!",
+      "fecha_inicio": "2026-06-11",
+      "fecha_fin": "2026-06-19",
+      "caracteristicas": [
+        "5",
+        "5 Capsules",
+        "L",
+        "Lucky Ticket"
+      ]
+    },
+    {
       "id": "the_dynamites_2026-06-12",
       "nombre": "The Dynamites",
       "fecha_inicio": "2026-06-12",
@@ -527,5 +539,5 @@
       "fecha_fin": "2026-07-02"
     }
   ],
-  "ultima_actualizacion": "2026-06-10T20:13:48Z"
+  "ultima_actualizacion": "2026-06-11T02:45:53Z"
 }
