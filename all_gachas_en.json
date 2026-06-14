@@ -3811,11 +3811,13 @@
         "A chance to earn special units!"
       ],
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_capsule_clearance.png",
-      "rareChance": 7000,
+      "rareChance": 6800,
       "supaChance": 2500,
-      "uberChance": 500,
+      "uberChance": 700,
       "legendChance": 0,
       "rares": [
+        523,
+        495,
         376,
         325,
         308,
@@ -3841,15 +3843,9 @@
         37
       ],
       "super_rares": [
+        522,
         377,
         307,
-        239,
-        238,
-        237,
-        200,
-        144,
-        131,
-        129,
         199,
         153,
         152,
@@ -3866,17 +3862,11 @@
         30
       ],
       "ubers": [
-        305,
-        283,
-        212,
-        136,
-        124,
-        105,
-        87,
-        86,
-        76,
-        43,
-        42
+        229,
+        230,
+        241,
+        242,
+        243
       ],
       "legends": []
     }
