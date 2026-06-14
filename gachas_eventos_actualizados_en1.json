@@ -192,8 +192,8 @@
       ]
     },
     {
-      "id": "a_chance_to_earn_special_units_2026-06-11",
-      "nombre": "A chance to earn special units!",
+      "id": "capsule_clearance_2026-06-11",
+      "nombre": "Capsule Clearance",
       "fecha_inicio": "2026-06-11",
       "fecha_fin": "2026-06-19",
       "caracteristicas": [
@@ -539,5 +539,5 @@
       "fecha_fin": "2026-07-02"
     }
   ],
-  "ultima_actualizacion": "2026-06-14T19:10:46Z"
+  "ultima_actualizacion": "2026-06-14T22:46:08Z"
 }
