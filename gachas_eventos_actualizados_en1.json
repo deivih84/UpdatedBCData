@@ -95,8 +95,8 @@
       ]
     },
     {
-      "id": "13_year_celebration_ultra_selection_2026-06-22",
-      "nombre": "13 Year Celebration: Ultra Selection!",
+      "id": "ultra_4_selection_gacha_2026-06-22",
+      "nombre": "Ultra 4 Selection Gacha",
       "fecha_inicio": "2026-06-22",
       "fecha_fin": "2026-06-26",
       "caracteristicas": [
@@ -160,15 +160,15 @@
       "caracteristicas": []
     },
     {
-      "id": "trixi_joins_the_13th_anniversary_capsules_2026-06-26",
-      "nombre": "Trixi joins the 13th anniversary Capsules!",
+      "id": "best_of_the_best_gacha_2026-06-26",
+      "nombre": "Best of the Best Gacha",
       "fecha_inicio": "2026-06-26",
       "fecha_fin": "2026-07-03",
       "caracteristicas": []
     },
     {
-      "id": "agent_staal_joins_the_13th_anniversary_capsules_2026-06-26",
-      "nombre": "Agent Staal joins the 13th anniversary Capsules!",
+      "id": "neo_best_of_the_best_gacha_2026-06-26",
+      "nombre": "Neo Best of the Best Gacha",
       "fecha_inicio": "2026-06-26",
       "fecha_fin": "2026-07-03",
       "caracteristicas": []
@@ -457,5 +457,5 @@
       "fecha_fin": "2026-07-02"
     }
   ],
-  "ultima_actualizacion": "2026-06-17T14:53:06Z"
+  "ultima_actualizacion": "2026-06-17T23:02:07Z"
 }

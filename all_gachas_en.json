@@ -514,6 +514,7 @@
     {
       "nombre": "Spooky Cuties",
       "aliases": [
+        "Spooky Cuties",
         "New unit Sorceress Sidmi added! Spooky beauties from beyond!"
       ],
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_spooky_cuties.png",
@@ -770,7 +771,8 @@
       "nombre": "Galaxy Gals",
       "aliases": [
         "Galaxy Gals",
-        "Cosmic cuties"
+        "Cosmic cuties",
+        "New unit Raclesa the Lioness  added! Cosmic cuties"
       ],
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_gals.png",
       "rareChance": 6970,
@@ -1562,6 +1564,8 @@
         30
       ],
       "ubers": [
+        850,
+        830,
         817,
         811,
         799,
@@ -2018,7 +2022,8 @@
     {
       "nombre": "Ultra 4 Selection Gacha",
       "aliases": [
-        "Ultra 4 Selection Gacha"
+        "Ultra 4 Selection Gacha",
+        "13 Year Celebration: Ultra Selection!"
       ],
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_ultra4_selection.png",
       "rareChance": 6970,
@@ -2233,7 +2238,8 @@
     {
       "nombre": "Neo Best of the Best Gacha",
       "aliases": [
-        "Neo Best of the Best Gacha"
+        "Neo Best of the Best Gacha",
+        "Agent Staal joins the 13th anniversary Capsules!"
       ],
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_neo_best_of_the_best.png",
       "rareChance": 7000,
@@ -2288,17 +2294,17 @@
         30
       ],
       "ubers": [
-        169,
+        158,
+        240,
+        351,
+        655,
         617,
-        71,
-        107,
-        505,
-        135,
-        226,
-        316,
-        799,
-        682,
-        361,
+        83,
+        525,
+        634,
+        439,
+        594,
+        830,
         810,
         484
       ],
@@ -2307,7 +2313,8 @@
     {
       "nombre": "Best of the Best Gacha",
       "aliases": [
-        "Best of the Best Gacha"
+        "Best of the Best Gacha",
+        "Trixi joins the 13th anniversary Capsules!"
       ],
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_best_of_the_best.png",
       "rareChance": 7000,
@@ -2362,17 +2369,17 @@
         30
       ],
       "ubers": [
-        781,
-        42,
-        73,
-        75,
-        660,
-        138,
-        261,
-        271,
-        632,
-        725,
-        817,
+        124,
+        625,
+        502,
+        360,
+        59,
+        86,
+        322,
+        226,
+        723,
+        306,
+        607,
         758,
         435
       ],
