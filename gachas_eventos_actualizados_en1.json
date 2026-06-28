@@ -210,9 +210,11 @@
   ],
   "eventos": [
     {
-      "id": "arena_of_destiny_talent_tournament_2026-06-16",
-      "nombre": "Arena of Destiny (Talent Tournament)",
-      "caracteristicas": [],
+      "id": "arena_of_destiny_2026-06-16",
+      "nombre": "Arena of Destiny",
+      "caracteristicas": [
+        "Introduced in Version 14.3 adds a new gimmick where applying status effects grant more points than killing enemies. More points will be awarded for units with fewer target Traits (not counting those gained from Talents). This rewards for this dojo are Treasure Chests, which contain exclusive Talent Orbs that can grant special abilities to the units that are given them."
+      ],
       "fecha_inicio": "2026-06-16",
       "fecha_fin": "2026-07-02"
     },
@@ -235,53 +237,11 @@
       "fecha_fin": "2026-08-03"
     },
     {
-      "id": "birthday_present_2026-06-19",
-      "nombre": "Birthday Present!",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-06-19",
-      "fecha_fin": "2026-08-03"
-    },
-    {
-      "id": "ep_1_heroes_of_justice_2026-06-19",
-      "nombre": "Ep. 1: Heroes of Justice!",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-06-19",
-      "fecha_fin": "2026-08-03"
-    },
-    {
       "id": "eoc_itf_cotc_half_energy_cost_2026-06-19",
       "nombre": "EoC/ItF/CotC Half Energy Cost",
       "caracteristicas": [],
       "fecha_inicio": "2026-06-19",
       "fecha_fin": "2026-08-03"
-    },
-    {
-      "id": "event_all_stars_super_present_dx_2026-06-19",
-      "nombre": "Event All-Stars Super Present DX",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-06-19",
-      "fecha_fin": "2026-07-03"
-    },
-    {
-      "id": "treasure_festival_empire_2026-06-19",
-      "nombre": "Treasure Festival (Empire)",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-06-19",
-      "fecha_fin": "2026-08-03"
-    },
-    {
-      "id": "treasure_festival_future_2026-06-19",
-      "nombre": "Treasure Festival (Future)",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-06-19",
-      "fecha_fin": "2026-08-03"
-    },
-    {
-      "id": "treasure_festival_cosmos_2026-06-19",
-      "nombre": "Treasure Festival (Cosmos)",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-06-19",
-      "fecha_fin": "2026-07-31"
     },
     {
       "id": "heavenly_tower_2026-06-19",
@@ -293,111 +253,6 @@
       "fecha_fin": "2026-07-17"
     },
     {
-      "id": "infernal_tower_2026-06-19",
-      "nombre": "Infernal Tower",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-06-19",
-      "fecha_fin": "2026-07-17"
-    },
-    {
-      "id": "ep_2_the_face_of_evil_2026-06-26",
-      "nombre": "Ep. 2: The Face of Evil",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-06-26",
-      "fecha_fin": "2026-08-03"
-    },
-    {
-      "id": "shooting_range_2026-06-26",
-      "nombre": "Shooting Range",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-06-26",
-      "fecha_fin": "2026-08-03"
-    },
-    {
-      "id": "crimson_catastrophe_2026-06-26",
-      "nombre": "Crimson Catastrophe",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-06-26",
-      "fecha_fin": "2026-07-03"
-    },
-    {
-      "id": "crimson_vengeance_2026-06-26",
-      "nombre": "Crimson Vengeance",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-06-26",
-      "fecha_fin": "2026-07-03"
-    },
-    {
-      "id": "peerless_2026-06-26",
-      "nombre": "Peerless",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-06-26",
-      "fecha_fin": "2026-07-03"
-    },
-    {
-      "id": "peerless_too_2026-06-26",
-      "nombre": "Peerless Too",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-06-26",
-      "fecha_fin": "2026-07-03"
-    },
-    {
-      "id": "wrath_of_heaven_2026-06-26",
-      "nombre": "Wrath of Heaven",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-06-26",
-      "fecha_fin": "2026-07-03"
-    },
-    {
-      "id": "wrath_of_the_divine_2026-06-26",
-      "nombre": "Wrath of the Divine",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-06-26",
-      "fecha_fin": "2026-07-03"
-    },
-    {
-      "id": "red_sky_at_morning_2026-06-26",
-      "nombre": "Red Sky at Morning",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-06-26",
-      "fecha_fin": "2026-07-03"
-    },
-    {
-      "id": "red_sky_at_night_2026-06-26",
-      "nombre": "Red Sky at Night",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-06-26",
-      "fecha_fin": "2026-07-03"
-    },
-    {
-      "id": "the_2nd_dimension_2026-06-26",
-      "nombre": "The 2nd Dimension",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-06-26",
-      "fecha_fin": "2026-07-03"
-    },
-    {
-      "id": "the_3rd_dimension_2026-06-26",
-      "nombre": "The 3rd Dimension",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-06-26",
-      "fecha_fin": "2026-07-03"
-    },
-    {
-      "id": "the_great_diablo_2026-06-26",
-      "nombre": "The Great Diablo",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-06-26",
-      "fecha_fin": "2026-07-03"
-    },
-    {
-      "id": "the_greatest_diablo_2026-06-26",
-      "nombre": "The Greatest Diablo",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-06-26",
-      "fecha_fin": "2026-07-03"
-    },
-    {
       "id": "cybear_s_vengeance_2026-06-26",
       "nombre": "Cybear's Vengeance",
       "caracteristicas": [
@@ -405,13 +260,6 @@
       ],
       "fecha_inicio": "2026-06-26",
       "fecha_fin": "2026-07-02"
-    },
-    {
-      "id": "cats_eye_caverns_2026-06-26",
-      "nombre": "Cats Eye Caverns",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-06-26",
-      "fecha_fin": "2026-07-03"
     },
     {
       "id": "divine_archangel_strikes_2026-06-29",
@@ -475,14 +323,7 @@
       ],
       "fecha_inicio": "2026-07-24",
       "fecha_fin": "2026-08-03"
-    },
-    {
-      "id": "treasure_festival_cosmos_2026-08-01",
-      "nombre": "Treasure Festival (Cosmos)",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-08-01",
-      "fecha_fin": "2026-08-03"
     }
   ],
-  "ultima_actualizacion": "2026-06-28T19:49:43Z"
+  "ultima_actualizacion": "2026-06-28T20:42:54Z"
 }

@@ -692,8 +692,15 @@ def _build_event_entry(nombre, start, end, descripcion=""):
     }
 
 
+def _event_lookup_key(nombre):
+    key = re.sub(r"\s*\([^)]*\)\s*$", "", nombre).strip().lower()
+    return key
+
+
 def _metadata_for_name(nombre, by_name):
-    return by_name.get(nombre.lower()) if by_name else None
+    if not by_name:
+        return None
+    return by_name.get(nombre.lower()) or by_name.get(_event_lookup_key(nombre))
 
 
 def build_bcdata_events(sale_rows, resolver, by_name):
@@ -717,6 +724,8 @@ def build_bcdata_events(sale_rows, resolver, by_name):
                 continue
 
             meta = _metadata_for_name(hit.name, by_name)
+            if not meta and hit.source != "Manual":
+                continue
             nombre = meta["nombre"] if meta else hit.name
             desc = meta.get("descripcion", "") if meta else ""
             key = (pack_id, nombre, row["start_date"], row["end_date"])
@@ -728,6 +737,30 @@ def build_bcdata_events(sale_rows, resolver, by_name):
             ))
 
     return bcdata_events, resolved_ids
+
+
+def _names_overlap(a, b):
+    al, bl = a.lower(), b.lower()
+    return al == bl or al in bl or bl in al or al[:15] == bl[:15]
+
+
+def filter_kept_old_events(old_events, seen_ids, new_names_by_date, by_name, today=None):
+    kept_old = []
+    for ev in old_events:
+        if ev["id"] in seen_ids:
+            continue
+        if not _metadata_for_name(ev["nombre"], by_name):
+            continue
+        names_same_day = new_names_by_date.get(ev["fecha_inicio"], [])
+        if any(_names_overlap(ev["nombre"], dn) for dn in names_same_day):
+            continue
+        kept_old.append(ev)
+
+    return filter_relevant_event_entries(
+        kept_old,
+        today=today,
+        max_start_age_days=30,
+    )
 
 # ---------------------------------------------------------------------------
 # Main
@@ -836,31 +869,15 @@ def main():
         except Exception:
             pass
 
-    # Deduplicate old entries against new ones.
-    # Check both by ID and by (fecha_inicio, name_overlap) to catch cases where
-    # the Discord name is a superset of the old name (e.g. "Heavenly Tower, Infernal Tower"
-    # vs old "Heavenly Tower") or where old IDs used a different slug format.
-    def _names_overlap(a, b):
-        al, bl = a.lower(), b.lower()
-        return al == bl or al in bl or bl in al or al[:15] == bl[:15]
-
     new_names_by_date = {}  # fecha_inicio -> [nombre, ...]
     for ev in bcdata_events + enriched_discord:
         new_names_by_date.setdefault(ev["fecha_inicio"], []).append(ev["nombre"])
 
-    kept_old = []
-    for ev in existing.get("eventos", []):
-        if ev["id"] in seen_ids:
-            continue
-        # Drop if a discord entry covers the same day with an overlapping name
-        names_same_day = new_names_by_date.get(ev["fecha_inicio"], [])
-        if any(_names_overlap(ev["nombre"], dn) for dn in names_same_day):
-            continue
-        kept_old.append(ev)
-
-    kept_old = filter_relevant_event_entries(
-        kept_old,
-        max_start_age_days=30,
+    kept_old = filter_kept_old_events(
+        existing.get("eventos", []),
+        seen_ids,
+        new_names_by_date,
+        by_name,
     )
 
     final_eventos = sorted(

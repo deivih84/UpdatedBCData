@@ -125,6 +125,43 @@ class EventMetadataTests(unittest.TestCase):
 
         self.assertEqual(report["summary"]["unknown_event_ids"], 0)
 
+    def test_build_bcdata_events_keeps_only_recognized_events_from_all_day_data(self):
+        class Resolver:
+            def best_hit(self, event_id):
+                return {
+                    7000: EventNameHit(7000, "Heavenly Tower", "All_day_event", 10),
+                    9326: EventNameHit(9326, "Crimson Catastrophe", "All_day_event", 10),
+                    9328: EventNameHit(9328, "Peerless", "All_day_event", 10),
+                    11041: EventNameHit(11041, "Arena of Destiny (Talent Tournament)", "All_day_event", 10),
+                }.get(event_id)
+
+            def is_calendar_hit(self, hit):
+                return hit.source == "All_day_event"
+
+        sale_rows = [{
+            "start_date": "2026-06-26",
+            "end_date": "2026-07-03",
+            "pack_ids": [7000, 9326, 9328, 11041],
+        }]
+        by_name = {
+            "heavenly tower": {
+                "nombre": "Heavenly Tower",
+                "descripcion": "Tower event",
+            },
+            "arena of destiny": {
+                "nombre": "Arena of Destiny",
+                "descripcion": "Dojo event",
+            },
+        }
+
+        bcdata_events, resolved_ids = events.build_bcdata_events(sale_rows, Resolver(), by_name)
+
+        self.assertEqual(
+            [ev["nombre"] for ev in bcdata_events],
+            ["Heavenly Tower", "Arena of Destiny"],
+        )
+        self.assertEqual(resolved_ids, {7000, 9326, 9328, 11041})
+
     def test_filter_relevant_events_removes_entries_that_already_ended(self):
         events_to_filter = [
             {"nombre": "Ended", "fecha_inicio": "2026-06-01", "fecha_fin": "2026-06-19"},
@@ -146,6 +183,33 @@ class EventMetadataTests(unittest.TestCase):
         )
 
         self.assertEqual([ev["nombre"] for ev in recent], ["Recent Discord"])
+
+    def test_filter_kept_old_events_keeps_only_recognized_metadata(self):
+        old_events = [
+            {
+                "id": "heavenly_tower_2026-06-19",
+                "nombre": "Heavenly Tower",
+                "fecha_inicio": "2026-06-19",
+                "fecha_fin": "2026-07-17",
+            },
+            {
+                "id": "crimson_catastrophe_2026-06-26",
+                "nombre": "Crimson Catastrophe",
+                "fecha_inicio": "2026-06-26",
+                "fecha_fin": "2026-07-03",
+            },
+        ]
+        by_name = {"heavenly tower": {"nombre": "Heavenly Tower"}}
+
+        kept = events.filter_kept_old_events(
+            old_events,
+            seen_ids=set(),
+            new_names_by_date={},
+            by_name=by_name,
+            today=events._parse_iso_date("2026-06-28"),
+        )
+
+        self.assertEqual([ev["nombre"] for ev in kept], ["Heavenly Tower"])
 
 
 if __name__ == "__main__":
