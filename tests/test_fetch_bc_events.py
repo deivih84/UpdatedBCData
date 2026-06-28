@@ -4,6 +4,7 @@ import unittest
 from pathlib import Path
 
 import fetch_bc_events as events
+from bc_event_name_resolver import EventNameHit
 
 
 class EventMetadataTests(unittest.TestCase):
@@ -89,6 +90,62 @@ class EventMetadataTests(unittest.TestCase):
         self.assertEqual(second["event_id"], 777)
         self.assertEqual(second["candidates"][0]["nombre"], "Otherworld Colosseum")
         self.assertEqual(second["candidates"][0]["confidence"], "date_overlap")
+
+    def test_build_bcdata_events_adds_calendar_hits_and_skips_mission_only_hits(self):
+        class Resolver:
+            def best_hit(self, event_id):
+                return {
+                    1417: EventNameHit(1417, "Birthday Present!", "All_day_event", 10),
+                    9641: EventNameHit(9641, "Special Mission", "Mission_Name", 60),
+                }.get(event_id)
+
+            def is_calendar_hit(self, hit):
+                return hit.source != "Mission_Name"
+
+        sale_rows = [{
+            "start_date": "2026-06-19",
+            "end_date": "2026-08-03",
+            "pack_ids": [1417, 9641],
+        }]
+        by_name = {
+            "birthday present!": {
+                "nombre": "Birthday Present!",
+                "descripcion": "Login reward stage",
+            }
+        }
+
+        bcdata_events, resolved_ids = events.build_bcdata_events(sale_rows, Resolver(), by_name)
+
+        self.assertEqual(len(bcdata_events), 1)
+        self.assertEqual(bcdata_events[0]["nombre"], "Birthday Present!")
+        self.assertEqual(bcdata_events[0]["caracteristicas"], ["Login reward stage"])
+        self.assertEqual(resolved_ids, {1417, 9641})
+
+        report = events.build_unknown_event_report(sale_rows, {}, [], by_name, resolved_ids=resolved_ids)
+
+        self.assertEqual(report["summary"]["unknown_event_ids"], 0)
+
+    def test_filter_relevant_events_removes_entries_that_already_ended(self):
+        events_to_filter = [
+            {"nombre": "Ended", "fecha_inicio": "2026-06-01", "fecha_fin": "2026-06-19"},
+            {"nombre": "Active", "fecha_inicio": "2026-06-19", "fecha_fin": "2026-08-03"},
+            {"nombre": "Future", "fecha_inicio": "2026-07-01", "fecha_fin": "2026-07-15"},
+        ]
+
+        filtered = events.filter_relevant_event_entries(events_to_filter, today=events._parse_iso_date("2026-06-28"))
+
+        self.assertEqual([ev["nombre"] for ev in filtered], ["Active", "Future"])
+
+        recent = events.filter_relevant_event_entries(
+            [
+                {"nombre": "Stale Discord", "start_date": "2026-03-21", "end_date": "2026-06-28"},
+                {"nombre": "Recent Discord", "start_date": "2026-06-19", "end_date": "2026-08-03"},
+            ],
+            today=events._parse_iso_date("2026-06-28"),
+            max_start_age_days=30,
+        )
+
+        self.assertEqual([ev["nombre"] for ev in recent], ["Recent Discord"])
 
 
 if __name__ == "__main__":

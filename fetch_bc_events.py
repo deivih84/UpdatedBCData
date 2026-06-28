@@ -31,6 +31,8 @@ try:
 except ImportError:
     sys.exit("Missing dependency: pip install requests")
 
+from bc_event_name_resolver import BCEventNameResolver
+
 # ---------------------------------------------------------------------------
 # Constants
 # ---------------------------------------------------------------------------
@@ -70,7 +72,7 @@ STATE_FILE    = SCRIPT_DIR / ".bc_state.json"
 SALE_RAW_FILE = SCRIPT_DIR / ".bc_sale_raw.tsv"
 UNKNOWN_REPORT_FILE = SCRIPT_DIR / "unknown_event_ids.json"
 
-WINDOW_PAST_DAYS   = 30
+WINDOW_PAST_DAYS   = 0
 WINDOW_FUTURE_DAYS = 180
 
 # ---------------------------------------------------------------------------
@@ -310,7 +312,7 @@ def parse_sale_tsv(content):
 
     if unknown_ids:
         print(f"  Found pack IDs in sale.tsv: {sorted(unknown_ids)}")
-        print(f"  Add 'event_id' or 'event_ids' fields to all_events.json to map these to event names.")
+        print("  These IDs will be resolved through all_events.json and the local BCData index.")
 
     return rows
 
@@ -347,6 +349,30 @@ def _parse_iso_date(value):
 def _date_ranges_overlap(a_start, a_end, b_start, b_end):
     return _parse_iso_date(a_start) <= _parse_iso_date(b_end) and \
         _parse_iso_date(b_start) <= _parse_iso_date(a_end)
+
+
+def _entry_end_date(item):
+    return item.get("fecha_fin") or item.get("end_date")
+
+
+def _entry_start_date(item):
+    return item.get("fecha_inicio") or item.get("start_date")
+
+
+def filter_relevant_event_entries(items, today=None, max_start_age_days=None):
+    today = today or datetime.now(timezone.utc).date()
+    filtered = []
+    start_cutoff = today - timedelta(days=max_start_age_days) if max_start_age_days is not None else None
+    for item in items:
+        end_value = _entry_end_date(item)
+        if not end_value or _parse_iso_date(end_value) < today:
+            continue
+        if start_cutoff is not None:
+            start_value = _entry_start_date(item)
+            if not start_value or _parse_iso_date(start_value) < start_cutoff:
+                continue
+        filtered.append(item)
+    return filtered
 
 
 def _dedupe_dicts(items, key_fields):
@@ -395,17 +421,18 @@ def _candidate_events_for_occurrences(occurrences, discord_events):
     return candidates[:8]
 
 
-def build_unknown_event_report(sale_rows, by_id, discord_events, by_name=None):
+def build_unknown_event_report(sale_rows, by_id, discord_events, by_name=None, resolved_ids=None):
     """
     Build a review-friendly report for event IDs and names that need metadata.
 
     Unknown Ponos IDs are grouped by ID and paired with Discord candidates using
     exact date matches first, then overlapping date ranges.
     """
+    resolved_ids = set(resolved_ids or [])
     unknown_by_id = {}
     for row in sale_rows:
         for pack_id in row["pack_ids"]:
-            if pack_id in by_id:
+            if pack_id in by_id or pack_id in resolved_ids:
                 continue
             unknown_by_id.setdefault(pack_id, []).append({
                 "start_date": row["start_date"],
@@ -664,6 +691,44 @@ def _build_event_entry(nombre, start, end, descripcion=""):
         "fecha_fin":       end,
     }
 
+
+def _metadata_for_name(nombre, by_name):
+    return by_name.get(nombre.lower()) if by_name else None
+
+
+def build_bcdata_events(sale_rows, resolver, by_name):
+    """
+    Convert BCData-resolved sale.tsv IDs into calendar entries.
+
+    Mission-only IDs are considered resolved for diagnostics, but are not shown
+    as standalone calendar cards because they are usually too granular.
+    """
+    bcdata_events = []
+    resolved_ids = set()
+    seen = set()
+
+    for row in sale_rows:
+        for pack_id in row["pack_ids"]:
+            hit = resolver.best_hit(pack_id)
+            if not hit:
+                continue
+            resolved_ids.add(pack_id)
+            if not resolver.is_calendar_hit(hit):
+                continue
+
+            meta = _metadata_for_name(hit.name, by_name)
+            nombre = meta["nombre"] if meta else hit.name
+            desc = meta.get("descripcion", "") if meta else ""
+            key = (pack_id, nombre, row["start_date"], row["end_date"])
+            if key in seen:
+                continue
+            seen.add(key)
+            bcdata_events.append(_build_event_entry(
+                nombre, row["start_date"], row["end_date"], desc
+            ))
+
+    return bcdata_events, resolved_ids
+
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
@@ -685,6 +750,11 @@ def main():
 
     # 3. Load event name DB
     by_id, by_name = load_event_db()
+    bcdata_resolver = BCEventNameResolver()
+    if bcdata_resolver.available:
+        print(f"  BCData resolver: {bcdata_resolver.version_dir.name} ({len(bcdata_resolver.by_id)} IDs indexed)")
+    else:
+        print("  BCData resolver: not available (manual overrides only)")
 
     # 4. Build events from sale.tsv (ID-mapped entries)
     ponos_events = []
@@ -701,11 +771,27 @@ def main():
 
     print(f"  sale.tsv -> {len(ponos_events)} named events (via event_id mapping)")
 
+    bcdata_events, bcdata_resolved_ids = build_bcdata_events(
+        sale_rows, bcdata_resolver, by_name
+    )
+    print(f"  sale.tsv -> {len(bcdata_events)} named events (via BCData resolver)")
+
     # 5. Fetch events from Discord channel history (REST, no active bot)
     print("Fetching event schedule from Discord channel history...")
     discord_events = fetch_discord_events(by_name)
+    discord_events = filter_relevant_event_entries(
+        discord_events,
+        max_start_age_days=30,
+    )
 
-    unknown_report = build_unknown_event_report(sale_rows, by_id, discord_events, by_name)
+    known_ponos_ids = set(by_id)
+    unknown_report = build_unknown_event_report(
+        sale_rows,
+        by_id,
+        discord_events,
+        by_name,
+        resolved_ids=bcdata_resolved_ids | known_ponos_ids,
+    )
     write_unknown_event_report(unknown_report)
     print(
         f"  Review report: {UNKNOWN_REPORT_FILE.name} "
@@ -721,11 +807,16 @@ def main():
             ev["nombre"], ev["start_date"], ev["end_date"], desc
         ))
 
-    # 6. Merge: ponos_events (dated) takes priority, discord fills names
+    # 6. Merge: ponos_events (dated) takes priority, BCData/Discord fill names
     seen_ids = set()
     all_events = []
 
     for ev in ponos_events:
+        if ev["id"] not in seen_ids:
+            seen_ids.add(ev["id"])
+            all_events.append(ev)
+
+    for ev in bcdata_events:
         if ev["id"] not in seen_ids:
             seen_ids.add(ev["id"])
             all_events.append(ev)
@@ -753,22 +844,27 @@ def main():
         al, bl = a.lower(), b.lower()
         return al == bl or al in bl or bl in al or al[:15] == bl[:15]
 
-    disc_by_date = {}  # fecha_inicio -> [nombre, ...]
-    for ev in enriched_discord:
-        disc_by_date.setdefault(ev["fecha_inicio"], []).append(ev["nombre"])
+    new_names_by_date = {}  # fecha_inicio -> [nombre, ...]
+    for ev in bcdata_events + enriched_discord:
+        new_names_by_date.setdefault(ev["fecha_inicio"], []).append(ev["nombre"])
 
     kept_old = []
     for ev in existing.get("eventos", []):
         if ev["id"] in seen_ids:
             continue
         # Drop if a discord entry covers the same day with an overlapping name
-        disc_names_same_day = disc_by_date.get(ev["fecha_inicio"], [])
-        if any(_names_overlap(ev["nombre"], dn) for dn in disc_names_same_day):
+        names_same_day = new_names_by_date.get(ev["fecha_inicio"], [])
+        if any(_names_overlap(ev["nombre"], dn) for dn in names_same_day):
             continue
         kept_old.append(ev)
 
+    kept_old = filter_relevant_event_entries(
+        kept_old,
+        max_start_age_days=30,
+    )
+
     final_eventos = sorted(
-        all_events + kept_old,
+        filter_relevant_event_entries(all_events + kept_old),
         key=lambda x: x["fecha_inicio"]
     )
 
@@ -786,11 +882,14 @@ def main():
 
     # 8. Summary
     ponos_ids   = {e["id"] for e in ponos_events}
+    bcdata_ids  = {e["id"] for e in bcdata_events}
     discord_ids = {e["id"] for e in enriched_discord}
     print("\nEvent schedule:")
     for ev in final_eventos:
         if ev["id"] in ponos_ids:
             src = "(ponos)"
+        elif ev["id"] in bcdata_ids:
+            src = "(bcdata)"
         elif ev["id"] in discord_ids:
             src = "(disc) "
         else:
