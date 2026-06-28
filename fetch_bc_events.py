@@ -68,6 +68,7 @@ EVENTS_FILE   = SCRIPT_DIR / "all_events.json"
 OUTPUT_FILE   = SCRIPT_DIR / "gachas_eventos_actualizados_en1.json"
 STATE_FILE    = SCRIPT_DIR / ".bc_state.json"
 SALE_RAW_FILE = SCRIPT_DIR / ".bc_sale_raw.tsv"
+UNKNOWN_REPORT_FILE = SCRIPT_DIR / "unknown_event_ids.json"
 
 WINDOW_PAST_DAYS   = 30
 WINDOW_FUTURE_DAYS = 180
@@ -309,7 +310,7 @@ def parse_sale_tsv(content):
 
     if unknown_ids:
         print(f"  Found pack IDs in sale.tsv: {sorted(unknown_ids)}")
-        print(f"  Add 'event_id' fields to all_events.json to map these to event names.")
+        print(f"  Add 'event_id' or 'event_ids' fields to all_events.json to map these to event names.")
 
     return rows
 
@@ -320,8 +321,8 @@ def parse_sale_tsv(content):
 def load_event_db():
     """
     Returns:
-      by_id    {int event_id -> event_dict}
-      by_name  {name_lower  -> event_dict}
+      by_id    {int event_id/one of event_ids -> event_dict}
+      by_name  {name_or_alias_lower -> event_dict}
     """
     by_id   = {}
     by_name = {}
@@ -329,9 +330,142 @@ def load_event_db():
         data = json.loads(EVENTS_FILE.read_text(encoding="utf-8"))
         for ev in data.get("events", []):
             by_name[ev["nombre"].lower()] = ev
+            for alias in ev.get("aliases", []):
+                if alias:
+                    by_name[str(alias).lower()] = ev
             if "event_id" in ev:
                 by_id[int(ev["event_id"])] = ev
+            for event_id in ev.get("event_ids", []):
+                by_id[int(event_id)] = ev
     return by_id, by_name
+
+
+def _parse_iso_date(value):
+    return datetime.strptime(value, "%Y-%m-%d").date()
+
+
+def _date_ranges_overlap(a_start, a_end, b_start, b_end):
+    return _parse_iso_date(a_start) <= _parse_iso_date(b_end) and \
+        _parse_iso_date(b_start) <= _parse_iso_date(a_end)
+
+
+def _dedupe_dicts(items, key_fields):
+    seen = set()
+    unique = []
+    for item in items:
+        key = tuple(item.get(field) for field in key_fields)
+        if key in seen:
+            continue
+        seen.add(key)
+        unique.append(item)
+    return unique
+
+
+def _candidate_events_for_occurrences(occurrences, discord_events):
+    candidates = []
+    for occurrence in occurrences:
+        for ev in discord_events:
+            if occurrence["start_date"] == ev["start_date"] and occurrence["end_date"] == ev["end_date"]:
+                confidence = "exact_dates"
+            elif _date_ranges_overlap(
+                occurrence["start_date"], occurrence["end_date"],
+                ev["start_date"], ev["end_date"],
+            ):
+                confidence = "date_overlap"
+            else:
+                continue
+
+            candidates.append({
+                "nombre": ev["nombre"],
+                "fecha_inicio": ev["start_date"],
+                "fecha_fin": ev["end_date"],
+                "confidence": confidence,
+            })
+
+    confidence_rank = {"exact_dates": 0, "date_overlap": 1}
+    candidates = _dedupe_dicts(
+        candidates,
+        ("nombre", "fecha_inicio", "fecha_fin", "confidence"),
+    )
+    candidates.sort(key=lambda x: (
+        confidence_rank.get(x["confidence"], 99),
+        x["fecha_inicio"],
+        x["nombre"].lower(),
+    ))
+    return candidates[:8]
+
+
+def build_unknown_event_report(sale_rows, by_id, discord_events, by_name=None):
+    """
+    Build a review-friendly report for event IDs and names that need metadata.
+
+    Unknown Ponos IDs are grouped by ID and paired with Discord candidates using
+    exact date matches first, then overlapping date ranges.
+    """
+    unknown_by_id = {}
+    for row in sale_rows:
+        for pack_id in row["pack_ids"]:
+            if pack_id in by_id:
+                continue
+            unknown_by_id.setdefault(pack_id, []).append({
+                "start_date": row["start_date"],
+                "end_date": row["end_date"],
+                "row_pack_ids": row["pack_ids"],
+            })
+
+    unknown_entries = []
+    sorted_unknown_ids = sorted(
+        unknown_by_id,
+        key=lambda pack_id: (
+            min(item["start_date"] for item in unknown_by_id[pack_id]),
+            pack_id,
+        ),
+    )
+    for pack_id in sorted_unknown_ids:
+        occurrences = _dedupe_dicts(
+            sorted(unknown_by_id[pack_id], key=lambda x: (x["start_date"], x["end_date"])),
+            ("start_date", "end_date"),
+        )
+        unknown_entries.append({
+            "event_id": pack_id,
+            "status": "needs_mapping",
+            "occurrences": occurrences,
+            "candidates": _candidate_events_for_occurrences(occurrences, discord_events),
+        })
+
+    missing_names = []
+    if by_name is not None:
+        known_names = set(by_name)
+        for ev in discord_events:
+            if ev["nombre"].lower() in known_names:
+                continue
+            missing_names.append({
+                "nombre": ev["nombre"],
+                "fecha_inicio": ev["start_date"],
+                "fecha_fin": ev["end_date"],
+                "status": "needs_metadata",
+            })
+        missing_names = _dedupe_dicts(
+            sorted(missing_names, key=lambda x: (x["nombre"].lower(), x["fecha_inicio"])),
+            ("nombre", "fecha_inicio", "fecha_fin"),
+        )
+
+    return {
+        "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "summary": {
+            "unknown_event_ids": len(unknown_entries),
+            "discord_names_missing_metadata": len(missing_names),
+        },
+        "unknown_event_ids": unknown_entries,
+        "discord_names_missing_metadata": missing_names,
+    }
+
+
+def write_unknown_event_report(report):
+    UNKNOWN_REPORT_FILE.write_text(
+        json.dumps(report, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
 
 # ---------------------------------------------------------------------------
 # Discord REST API — read channel history (no active bot needed)
@@ -570,6 +704,14 @@ def main():
     # 5. Fetch events from Discord channel history (REST, no active bot)
     print("Fetching event schedule from Discord channel history...")
     discord_events = fetch_discord_events(by_name)
+
+    unknown_report = build_unknown_event_report(sale_rows, by_id, discord_events, by_name)
+    write_unknown_event_report(unknown_report)
+    print(
+        f"  Review report: {UNKNOWN_REPORT_FILE.name} "
+        f"({unknown_report['summary']['unknown_event_ids']} unmapped IDs, "
+        f"{unknown_report['summary']['discord_names_missing_metadata']} names missing metadata)"
+    )
 
     enriched_discord = []
     for ev in discord_events:

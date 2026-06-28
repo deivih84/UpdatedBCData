@@ -1,0 +1,5218 @@
+{
+  "generated_at": "2026-06-28T18:37:06Z",
+  "summary": {
+    "unknown_event_ids": 111,
+    "discord_names_missing_metadata": 49
+  },
+  "unknown_event_ids": [
+    {
+      "event_id": 8000,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-03-09",
+          "end_date": "2026-08-16",
+          "row_pack_ids": [
+            8000,
+            8001,
+            8002,
+            8003,
+            8004,
+            8005,
+            8006,
+            8007,
+            8009,
+            8011
+          ]
+        },
+        {
+          "start_date": "2026-03-16",
+          "end_date": "2026-08-23",
+          "row_pack_ids": [
+            8000,
+            8001,
+            8002,
+            8003,
+            8004,
+            8005,
+            8006,
+            8007,
+            8008,
+            8010
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Attack of the Lonely Hearts, From Your Junior, War on Valentines",
+          "fecha_inicio": "2026-03-02",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Machines in Revolt",
+          "fecha_inicio": "2026-03-02",
+          "fecha_fin": "2026-03-09",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "From Your Senpai",
+          "fecha_inicio": "2026-03-06",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Divine Archangel Strikes",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Eoc/ItF/CotC/Weekend Stage Half Energy Cost",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-23",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "From A Childhood Friend",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "EoC Treasure Festival (Every Even Day)",
+          "fecha_inicio": "2026-03-10",
+          "fecha_fin": "2026-03-22",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "ItF Treasure Festival (Every Odd Day)",
+          "fecha_inicio": "2026-03-11",
+          "fecha_fin": "2026-03-23",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 8001,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-03-09",
+          "end_date": "2026-08-16",
+          "row_pack_ids": [
+            8000,
+            8001,
+            8002,
+            8003,
+            8004,
+            8005,
+            8006,
+            8007,
+            8009,
+            8011
+          ]
+        },
+        {
+          "start_date": "2026-03-16",
+          "end_date": "2026-08-23",
+          "row_pack_ids": [
+            8000,
+            8001,
+            8002,
+            8003,
+            8004,
+            8005,
+            8006,
+            8007,
+            8008,
+            8010
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Attack of the Lonely Hearts, From Your Junior, War on Valentines",
+          "fecha_inicio": "2026-03-02",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Machines in Revolt",
+          "fecha_inicio": "2026-03-02",
+          "fecha_fin": "2026-03-09",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "From Your Senpai",
+          "fecha_inicio": "2026-03-06",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Divine Archangel Strikes",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Eoc/ItF/CotC/Weekend Stage Half Energy Cost",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-23",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "From A Childhood Friend",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "EoC Treasure Festival (Every Even Day)",
+          "fecha_inicio": "2026-03-10",
+          "fecha_fin": "2026-03-22",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "ItF Treasure Festival (Every Odd Day)",
+          "fecha_inicio": "2026-03-11",
+          "fecha_fin": "2026-03-23",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 8002,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-03-09",
+          "end_date": "2026-08-16",
+          "row_pack_ids": [
+            8000,
+            8001,
+            8002,
+            8003,
+            8004,
+            8005,
+            8006,
+            8007,
+            8009,
+            8011
+          ]
+        },
+        {
+          "start_date": "2026-03-16",
+          "end_date": "2026-08-23",
+          "row_pack_ids": [
+            8000,
+            8001,
+            8002,
+            8003,
+            8004,
+            8005,
+            8006,
+            8007,
+            8008,
+            8010
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Attack of the Lonely Hearts, From Your Junior, War on Valentines",
+          "fecha_inicio": "2026-03-02",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Machines in Revolt",
+          "fecha_inicio": "2026-03-02",
+          "fecha_fin": "2026-03-09",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "From Your Senpai",
+          "fecha_inicio": "2026-03-06",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Divine Archangel Strikes",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Eoc/ItF/CotC/Weekend Stage Half Energy Cost",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-23",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "From A Childhood Friend",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "EoC Treasure Festival (Every Even Day)",
+          "fecha_inicio": "2026-03-10",
+          "fecha_fin": "2026-03-22",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "ItF Treasure Festival (Every Odd Day)",
+          "fecha_inicio": "2026-03-11",
+          "fecha_fin": "2026-03-23",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 8003,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-03-09",
+          "end_date": "2026-08-16",
+          "row_pack_ids": [
+            8000,
+            8001,
+            8002,
+            8003,
+            8004,
+            8005,
+            8006,
+            8007,
+            8009,
+            8011
+          ]
+        },
+        {
+          "start_date": "2026-03-16",
+          "end_date": "2026-08-23",
+          "row_pack_ids": [
+            8000,
+            8001,
+            8002,
+            8003,
+            8004,
+            8005,
+            8006,
+            8007,
+            8008,
+            8010
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Attack of the Lonely Hearts, From Your Junior, War on Valentines",
+          "fecha_inicio": "2026-03-02",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Machines in Revolt",
+          "fecha_inicio": "2026-03-02",
+          "fecha_fin": "2026-03-09",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "From Your Senpai",
+          "fecha_inicio": "2026-03-06",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Divine Archangel Strikes",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Eoc/ItF/CotC/Weekend Stage Half Energy Cost",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-23",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "From A Childhood Friend",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "EoC Treasure Festival (Every Even Day)",
+          "fecha_inicio": "2026-03-10",
+          "fecha_fin": "2026-03-22",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "ItF Treasure Festival (Every Odd Day)",
+          "fecha_inicio": "2026-03-11",
+          "fecha_fin": "2026-03-23",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 8004,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-03-09",
+          "end_date": "2026-08-16",
+          "row_pack_ids": [
+            8000,
+            8001,
+            8002,
+            8003,
+            8004,
+            8005,
+            8006,
+            8007,
+            8009,
+            8011
+          ]
+        },
+        {
+          "start_date": "2026-03-16",
+          "end_date": "2026-08-23",
+          "row_pack_ids": [
+            8000,
+            8001,
+            8002,
+            8003,
+            8004,
+            8005,
+            8006,
+            8007,
+            8008,
+            8010
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Attack of the Lonely Hearts, From Your Junior, War on Valentines",
+          "fecha_inicio": "2026-03-02",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Machines in Revolt",
+          "fecha_inicio": "2026-03-02",
+          "fecha_fin": "2026-03-09",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "From Your Senpai",
+          "fecha_inicio": "2026-03-06",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Divine Archangel Strikes",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Eoc/ItF/CotC/Weekend Stage Half Energy Cost",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-23",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "From A Childhood Friend",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "EoC Treasure Festival (Every Even Day)",
+          "fecha_inicio": "2026-03-10",
+          "fecha_fin": "2026-03-22",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "ItF Treasure Festival (Every Odd Day)",
+          "fecha_inicio": "2026-03-11",
+          "fecha_fin": "2026-03-23",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 8005,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-03-09",
+          "end_date": "2026-08-16",
+          "row_pack_ids": [
+            8000,
+            8001,
+            8002,
+            8003,
+            8004,
+            8005,
+            8006,
+            8007,
+            8009,
+            8011
+          ]
+        },
+        {
+          "start_date": "2026-03-16",
+          "end_date": "2026-08-23",
+          "row_pack_ids": [
+            8000,
+            8001,
+            8002,
+            8003,
+            8004,
+            8005,
+            8006,
+            8007,
+            8008,
+            8010
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Attack of the Lonely Hearts, From Your Junior, War on Valentines",
+          "fecha_inicio": "2026-03-02",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Machines in Revolt",
+          "fecha_inicio": "2026-03-02",
+          "fecha_fin": "2026-03-09",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "From Your Senpai",
+          "fecha_inicio": "2026-03-06",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Divine Archangel Strikes",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Eoc/ItF/CotC/Weekend Stage Half Energy Cost",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-23",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "From A Childhood Friend",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "EoC Treasure Festival (Every Even Day)",
+          "fecha_inicio": "2026-03-10",
+          "fecha_fin": "2026-03-22",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "ItF Treasure Festival (Every Odd Day)",
+          "fecha_inicio": "2026-03-11",
+          "fecha_fin": "2026-03-23",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 8006,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-03-09",
+          "end_date": "2026-08-16",
+          "row_pack_ids": [
+            8000,
+            8001,
+            8002,
+            8003,
+            8004,
+            8005,
+            8006,
+            8007,
+            8009,
+            8011
+          ]
+        },
+        {
+          "start_date": "2026-03-16",
+          "end_date": "2026-08-23",
+          "row_pack_ids": [
+            8000,
+            8001,
+            8002,
+            8003,
+            8004,
+            8005,
+            8006,
+            8007,
+            8008,
+            8010
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Attack of the Lonely Hearts, From Your Junior, War on Valentines",
+          "fecha_inicio": "2026-03-02",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Machines in Revolt",
+          "fecha_inicio": "2026-03-02",
+          "fecha_fin": "2026-03-09",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "From Your Senpai",
+          "fecha_inicio": "2026-03-06",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Divine Archangel Strikes",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Eoc/ItF/CotC/Weekend Stage Half Energy Cost",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-23",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "From A Childhood Friend",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "EoC Treasure Festival (Every Even Day)",
+          "fecha_inicio": "2026-03-10",
+          "fecha_fin": "2026-03-22",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "ItF Treasure Festival (Every Odd Day)",
+          "fecha_inicio": "2026-03-11",
+          "fecha_fin": "2026-03-23",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 8007,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-03-09",
+          "end_date": "2026-08-16",
+          "row_pack_ids": [
+            8000,
+            8001,
+            8002,
+            8003,
+            8004,
+            8005,
+            8006,
+            8007,
+            8009,
+            8011
+          ]
+        },
+        {
+          "start_date": "2026-03-16",
+          "end_date": "2026-08-23",
+          "row_pack_ids": [
+            8000,
+            8001,
+            8002,
+            8003,
+            8004,
+            8005,
+            8006,
+            8007,
+            8008,
+            8010
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Attack of the Lonely Hearts, From Your Junior, War on Valentines",
+          "fecha_inicio": "2026-03-02",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Machines in Revolt",
+          "fecha_inicio": "2026-03-02",
+          "fecha_fin": "2026-03-09",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "From Your Senpai",
+          "fecha_inicio": "2026-03-06",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Divine Archangel Strikes",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Eoc/ItF/CotC/Weekend Stage Half Energy Cost",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-23",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "From A Childhood Friend",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "EoC Treasure Festival (Every Even Day)",
+          "fecha_inicio": "2026-03-10",
+          "fecha_fin": "2026-03-22",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "ItF Treasure Festival (Every Odd Day)",
+          "fecha_inicio": "2026-03-11",
+          "fecha_fin": "2026-03-23",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 8009,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-03-09",
+          "end_date": "2026-08-16",
+          "row_pack_ids": [
+            8000,
+            8001,
+            8002,
+            8003,
+            8004,
+            8005,
+            8006,
+            8007,
+            8009,
+            8011
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Attack of the Lonely Hearts, From Your Junior, War on Valentines",
+          "fecha_inicio": "2026-03-02",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Machines in Revolt",
+          "fecha_inicio": "2026-03-02",
+          "fecha_fin": "2026-03-09",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "From Your Senpai",
+          "fecha_inicio": "2026-03-06",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Divine Archangel Strikes",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Eoc/ItF/CotC/Weekend Stage Half Energy Cost",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-23",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "From A Childhood Friend",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "EoC Treasure Festival (Every Even Day)",
+          "fecha_inicio": "2026-03-10",
+          "fecha_fin": "2026-03-22",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "ItF Treasure Festival (Every Odd Day)",
+          "fecha_inicio": "2026-03-11",
+          "fecha_fin": "2026-03-23",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 8011,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-03-09",
+          "end_date": "2026-08-16",
+          "row_pack_ids": [
+            8000,
+            8001,
+            8002,
+            8003,
+            8004,
+            8005,
+            8006,
+            8007,
+            8009,
+            8011
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Attack of the Lonely Hearts, From Your Junior, War on Valentines",
+          "fecha_inicio": "2026-03-02",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Machines in Revolt",
+          "fecha_inicio": "2026-03-02",
+          "fecha_fin": "2026-03-09",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "From Your Senpai",
+          "fecha_inicio": "2026-03-06",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Divine Archangel Strikes",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Eoc/ItF/CotC/Weekend Stage Half Energy Cost",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-23",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "From A Childhood Friend",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "EoC Treasure Festival (Every Even Day)",
+          "fecha_inicio": "2026-03-10",
+          "fecha_fin": "2026-03-22",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "ItF Treasure Festival (Every Odd Day)",
+          "fecha_inicio": "2026-03-11",
+          "fecha_fin": "2026-03-23",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 8008,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-03-16",
+          "end_date": "2026-08-23",
+          "row_pack_ids": [
+            8000,
+            8001,
+            8002,
+            8003,
+            8004,
+            8005,
+            8006,
+            8007,
+            8008,
+            8010
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Attack of the Lonely Hearts, From Your Junior, War on Valentines",
+          "fecha_inicio": "2026-03-02",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "From Your Senpai",
+          "fecha_inicio": "2026-03-06",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Divine Archangel Strikes",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Eoc/ItF/CotC/Weekend Stage Half Energy Cost",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-23",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "From A Childhood Friend",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "EoC Treasure Festival (Every Even Day)",
+          "fecha_inicio": "2026-03-10",
+          "fecha_fin": "2026-03-22",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "ItF Treasure Festival (Every Odd Day)",
+          "fecha_inicio": "2026-03-11",
+          "fecha_fin": "2026-03-23",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "CotC Treasure Festival (12th, 15th, 18th, 21st)",
+          "fecha_inicio": "2026-03-12",
+          "fecha_fin": "2026-03-21",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 8010,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-03-16",
+          "end_date": "2026-08-23",
+          "row_pack_ids": [
+            8000,
+            8001,
+            8002,
+            8003,
+            8004,
+            8005,
+            8006,
+            8007,
+            8008,
+            8010
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Attack of the Lonely Hearts, From Your Junior, War on Valentines",
+          "fecha_inicio": "2026-03-02",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "From Your Senpai",
+          "fecha_inicio": "2026-03-06",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Divine Archangel Strikes",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Eoc/ItF/CotC/Weekend Stage Half Energy Cost",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-23",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "From A Childhood Friend",
+          "fecha_inicio": "2026-03-09",
+          "fecha_fin": "2026-03-16",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "EoC Treasure Festival (Every Even Day)",
+          "fecha_inicio": "2026-03-10",
+          "fecha_fin": "2026-03-22",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "ItF Treasure Festival (Every Odd Day)",
+          "fecha_inicio": "2026-03-11",
+          "fecha_fin": "2026-03-23",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "CotC Treasure Festival (12th, 15th, 18th, 21st)",
+          "fecha_inicio": "2026-03-12",
+          "fecha_fin": "2026-03-21",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 1,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-01",
+          "end_date": "2026-06-19",
+          "row_pack_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            50,
+            51,
+            700,
+            701,
+            702
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "111M Celebration Gifts Galore!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "111M Download Celebration!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Builders Festival",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Fireworks Spectacular!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Arena of Destiny",
+          "fecha_inicio": "2026-05-16",
+          "fecha_fin": "2026-06-02",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Cats Eye Cave",
+          "fecha_inicio": "2026-05-21",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 2,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-01",
+          "end_date": "2026-06-19",
+          "row_pack_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            50,
+            51,
+            700,
+            701,
+            702
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "111M Celebration Gifts Galore!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "111M Download Celebration!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Builders Festival",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Fireworks Spectacular!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Arena of Destiny",
+          "fecha_inicio": "2026-05-16",
+          "fecha_fin": "2026-06-02",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Cats Eye Cave",
+          "fecha_inicio": "2026-05-21",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 3,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-01",
+          "end_date": "2026-06-19",
+          "row_pack_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            50,
+            51,
+            700,
+            701,
+            702
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "111M Celebration Gifts Galore!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "111M Download Celebration!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Builders Festival",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Fireworks Spectacular!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Arena of Destiny",
+          "fecha_inicio": "2026-05-16",
+          "fecha_fin": "2026-06-02",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Cats Eye Cave",
+          "fecha_inicio": "2026-05-21",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 4,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-01",
+          "end_date": "2026-06-19",
+          "row_pack_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            50,
+            51,
+            700,
+            701,
+            702
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "111M Celebration Gifts Galore!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "111M Download Celebration!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Builders Festival",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Fireworks Spectacular!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Arena of Destiny",
+          "fecha_inicio": "2026-05-16",
+          "fecha_fin": "2026-06-02",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Cats Eye Cave",
+          "fecha_inicio": "2026-05-21",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 5,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-01",
+          "end_date": "2026-06-19",
+          "row_pack_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            50,
+            51,
+            700,
+            701,
+            702
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "111M Celebration Gifts Galore!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "111M Download Celebration!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Builders Festival",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Fireworks Spectacular!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Arena of Destiny",
+          "fecha_inicio": "2026-05-16",
+          "fecha_fin": "2026-06-02",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Cats Eye Cave",
+          "fecha_inicio": "2026-05-21",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 6,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-01",
+          "end_date": "2026-06-19",
+          "row_pack_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            50,
+            51,
+            700,
+            701,
+            702
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "111M Celebration Gifts Galore!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "111M Download Celebration!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Builders Festival",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Fireworks Spectacular!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Arena of Destiny",
+          "fecha_inicio": "2026-05-16",
+          "fecha_fin": "2026-06-02",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Cats Eye Cave",
+          "fecha_inicio": "2026-05-21",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 7,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-01",
+          "end_date": "2026-06-19",
+          "row_pack_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            50,
+            51,
+            700,
+            701,
+            702
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "111M Celebration Gifts Galore!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "111M Download Celebration!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Builders Festival",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Fireworks Spectacular!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Arena of Destiny",
+          "fecha_inicio": "2026-05-16",
+          "fecha_fin": "2026-06-02",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Cats Eye Cave",
+          "fecha_inicio": "2026-05-21",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 8,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-01",
+          "end_date": "2026-06-19",
+          "row_pack_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            50,
+            51,
+            700,
+            701,
+            702
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "111M Celebration Gifts Galore!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "111M Download Celebration!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Builders Festival",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Fireworks Spectacular!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Arena of Destiny",
+          "fecha_inicio": "2026-05-16",
+          "fecha_fin": "2026-06-02",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Cats Eye Cave",
+          "fecha_inicio": "2026-05-21",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 9,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-01",
+          "end_date": "2026-06-19",
+          "row_pack_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            50,
+            51,
+            700,
+            701,
+            702
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "111M Celebration Gifts Galore!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "111M Download Celebration!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Builders Festival",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Fireworks Spectacular!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Arena of Destiny",
+          "fecha_inicio": "2026-05-16",
+          "fecha_fin": "2026-06-02",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Cats Eye Cave",
+          "fecha_inicio": "2026-05-21",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 10,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-01",
+          "end_date": "2026-06-19",
+          "row_pack_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            50,
+            51,
+            700,
+            701,
+            702
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "111M Celebration Gifts Galore!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "111M Download Celebration!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Builders Festival",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Fireworks Spectacular!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Arena of Destiny",
+          "fecha_inicio": "2026-05-16",
+          "fecha_fin": "2026-06-02",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Cats Eye Cave",
+          "fecha_inicio": "2026-05-21",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 50,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-01",
+          "end_date": "2026-06-19",
+          "row_pack_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            50,
+            51,
+            700,
+            701,
+            702
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "111M Celebration Gifts Galore!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "111M Download Celebration!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Builders Festival",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Fireworks Spectacular!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Arena of Destiny",
+          "fecha_inicio": "2026-05-16",
+          "fecha_fin": "2026-06-02",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Cats Eye Cave",
+          "fecha_inicio": "2026-05-21",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 51,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-01",
+          "end_date": "2026-06-19",
+          "row_pack_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            50,
+            51,
+            700,
+            701,
+            702
+          ]
+        },
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-08-03",
+          "row_pack_ids": [
+            51
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "111M Celebration Gifts Galore!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "111M Download Celebration!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Builders Festival",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Fireworks Spectacular!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Arena of Destiny",
+          "fecha_inicio": "2026-05-16",
+          "fecha_fin": "2026-06-02",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Cats Eye Cave",
+          "fecha_inicio": "2026-05-21",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 700,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-01",
+          "end_date": "2026-06-19",
+          "row_pack_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            50,
+            51,
+            700,
+            701,
+            702
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "111M Celebration Gifts Galore!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "111M Download Celebration!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Builders Festival",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Fireworks Spectacular!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Arena of Destiny",
+          "fecha_inicio": "2026-05-16",
+          "fecha_fin": "2026-06-02",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Cats Eye Cave",
+          "fecha_inicio": "2026-05-21",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 701,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-01",
+          "end_date": "2026-06-19",
+          "row_pack_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            50,
+            51,
+            700,
+            701,
+            702
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "111M Celebration Gifts Galore!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "111M Download Celebration!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Builders Festival",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Fireworks Spectacular!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Arena of Destiny",
+          "fecha_inicio": "2026-05-16",
+          "fecha_fin": "2026-06-02",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Cats Eye Cave",
+          "fecha_inicio": "2026-05-21",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 702,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-01",
+          "end_date": "2026-06-19",
+          "row_pack_ids": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            50,
+            51,
+            700,
+            701,
+            702
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "111M Celebration Gifts Galore!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "111M Download Celebration!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Builders Festival",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Fireworks Spectacular!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Arena of Destiny",
+          "fecha_inicio": "2026-05-16",
+          "fecha_fin": "2026-06-02",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Cats Eye Cave",
+          "fecha_inicio": "2026-05-21",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 1402,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-01",
+          "end_date": "2026-06-19",
+          "row_pack_ids": [
+            1402
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "111M Celebration Gifts Galore!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "111M Download Celebration!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Builders Festival",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Fireworks Spectacular!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Arena of Destiny",
+          "fecha_inicio": "2026-05-16",
+          "fecha_fin": "2026-06-02",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Cats Eye Cave",
+          "fecha_inicio": "2026-05-21",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 11001,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-01",
+          "end_date": "2026-06-19",
+          "row_pack_ids": [
+            11001
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "111M Celebration Gifts Galore!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "111M Download Celebration!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Builders Festival",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Fireworks Spectacular!",
+          "fecha_inicio": "2026-05-11",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Arena of Destiny",
+          "fecha_inicio": "2026-05-16",
+          "fecha_fin": "2026-06-02",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Cats Eye Cave",
+          "fecha_inicio": "2026-05-21",
+          "fecha_fin": "2026-06-01",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 1164,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-08",
+          "end_date": "2026-06-26",
+          "row_pack_ids": [
+            1164
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 9085,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-08",
+          "end_date": "2026-06-26",
+          "row_pack_ids": [
+            9085,
+            9086,
+            9087
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 9086,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-08",
+          "end_date": "2026-06-26",
+          "row_pack_ids": [
+            9085,
+            9086,
+            9087
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 9087,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-08",
+          "end_date": "2026-06-26",
+          "row_pack_ids": [
+            9085,
+            9086,
+            9087
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 9685,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-15",
+          "end_date": "2026-06-19",
+          "row_pack_ids": [
+            9685
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 18103,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-15",
+          "end_date": "2026-06-19",
+          "row_pack_ids": [
+            18103
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 24020,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-15",
+          "end_date": "2026-06-22",
+          "row_pack_ids": [
+            24020
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 11041,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-16",
+          "end_date": "2026-07-02",
+          "row_pack_ids": [
+            11041
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 100,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-08-03",
+          "row_pack_ids": [
+            100
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 101,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-08-03",
+          "row_pack_ids": [
+            101
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 102,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-08-03",
+          "row_pack_ids": [
+            102,
+            3000,
+            3001,
+            3002,
+            3003,
+            3004,
+            3005,
+            3006,
+            3007,
+            3008
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 104,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-07-31",
+          "row_pack_ids": [
+            104
+          ]
+        },
+        {
+          "start_date": "2026-08-01",
+          "end_date": "2026-08-03",
+          "row_pack_ids": [
+            104
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 1173,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-06-25",
+          "row_pack_ids": [
+            1173
+          ]
+        },
+        {
+          "start_date": "2026-06-26",
+          "end_date": "2026-07-02",
+          "row_pack_ids": [
+            1173
+          ]
+        },
+        {
+          "start_date": "2026-07-03",
+          "end_date": "2026-07-09",
+          "row_pack_ids": [
+            1173
+          ]
+        },
+        {
+          "start_date": "2026-07-10",
+          "end_date": "2026-07-16",
+          "row_pack_ids": [
+            1173
+          ]
+        },
+        {
+          "start_date": "2026-07-17",
+          "end_date": "2026-07-23",
+          "row_pack_ids": [
+            1173
+          ]
+        },
+        {
+          "start_date": "2026-07-24",
+          "end_date": "2026-08-03",
+          "row_pack_ids": [
+            1173
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 1182,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-07-03",
+          "row_pack_ids": [
+            1182
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 1412,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-08-03",
+          "row_pack_ids": [
+            1412
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 1417,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-08-03",
+          "row_pack_ids": [
+            1417
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 3000,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-08-03",
+          "row_pack_ids": [
+            102,
+            3000,
+            3001,
+            3002,
+            3003,
+            3004,
+            3005,
+            3006,
+            3007,
+            3008
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 3001,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-08-03",
+          "row_pack_ids": [
+            102,
+            3000,
+            3001,
+            3002,
+            3003,
+            3004,
+            3005,
+            3006,
+            3007,
+            3008
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 3002,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-08-03",
+          "row_pack_ids": [
+            102,
+            3000,
+            3001,
+            3002,
+            3003,
+            3004,
+            3005,
+            3006,
+            3007,
+            3008
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 3003,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-08-03",
+          "row_pack_ids": [
+            102,
+            3000,
+            3001,
+            3002,
+            3003,
+            3004,
+            3005,
+            3006,
+            3007,
+            3008
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 3004,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-08-03",
+          "row_pack_ids": [
+            102,
+            3000,
+            3001,
+            3002,
+            3003,
+            3004,
+            3005,
+            3006,
+            3007,
+            3008
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 3005,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-08-03",
+          "row_pack_ids": [
+            102,
+            3000,
+            3001,
+            3002,
+            3003,
+            3004,
+            3005,
+            3006,
+            3007,
+            3008
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 3006,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-08-03",
+          "row_pack_ids": [
+            102,
+            3000,
+            3001,
+            3002,
+            3003,
+            3004,
+            3005,
+            3006,
+            3007,
+            3008
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 3007,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-08-03",
+          "row_pack_ids": [
+            102,
+            3000,
+            3001,
+            3002,
+            3003,
+            3004,
+            3005,
+            3006,
+            3007,
+            3008
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 3008,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-08-03",
+          "row_pack_ids": [
+            102,
+            3000,
+            3001,
+            3002,
+            3003,
+            3004,
+            3005,
+            3006,
+            3007,
+            3008
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 5008,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-06-26",
+          "row_pack_ids": [
+            5008,
+            5009,
+            5010,
+            5015
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 5009,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-06-26",
+          "row_pack_ids": [
+            5008,
+            5009,
+            5010,
+            5015
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 5010,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-06-26",
+          "row_pack_ids": [
+            5008,
+            5009,
+            5010,
+            5015
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 5015,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-06-26",
+          "row_pack_ids": [
+            5008,
+            5009,
+            5010,
+            5015
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 7000,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-07-17",
+          "row_pack_ids": [
+            7000,
+            7006
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 7006,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-07-17",
+          "row_pack_ids": [
+            7000,
+            7006
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 9000,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-07-17",
+          "row_pack_ids": [
+            9000,
+            9028,
+            9222,
+            9305,
+            9379,
+            9467
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 9028,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-07-17",
+          "row_pack_ids": [
+            9000,
+            9028,
+            9222,
+            9305,
+            9379,
+            9467
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 9222,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-07-17",
+          "row_pack_ids": [
+            9000,
+            9028,
+            9222,
+            9305,
+            9379,
+            9467
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 9305,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-07-17",
+          "row_pack_ids": [
+            9000,
+            9028,
+            9222,
+            9305,
+            9379,
+            9467
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 9379,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-07-17",
+          "row_pack_ids": [
+            9000,
+            9028,
+            9222,
+            9305,
+            9379,
+            9467
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 9467,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-07-17",
+          "row_pack_ids": [
+            9000,
+            9028,
+            9222,
+            9305,
+            9379,
+            9467
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 9544,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-08-03",
+          "row_pack_ids": [
+            9641,
+            9642,
+            9643,
+            9644,
+            9645,
+            9544,
+            9545
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 9545,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-08-03",
+          "row_pack_ids": [
+            9641,
+            9642,
+            9643,
+            9644,
+            9645,
+            9544,
+            9545
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 9641,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-08-03",
+          "row_pack_ids": [
+            9641,
+            9642,
+            9643,
+            9644,
+            9645,
+            9544,
+            9545
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 9642,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-08-03",
+          "row_pack_ids": [
+            9641,
+            9642,
+            9643,
+            9644,
+            9645,
+            9544,
+            9545
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 9643,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-08-03",
+          "row_pack_ids": [
+            9641,
+            9642,
+            9643,
+            9644,
+            9645,
+            9544,
+            9545
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 9644,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-08-03",
+          "row_pack_ids": [
+            9641,
+            9642,
+            9643,
+            9644,
+            9645,
+            9544,
+            9545
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 9645,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-08-03",
+          "row_pack_ids": [
+            9641,
+            9642,
+            9643,
+            9644,
+            9645,
+            9544,
+            9545
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 15082,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-08-03",
+          "row_pack_ids": [
+            15082
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 18007,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-19",
+          "end_date": "2026-07-01",
+          "row_pack_ids": [
+            18007
+          ]
+        },
+        {
+          "start_date": "2026-07-02",
+          "end_date": "2026-07-14",
+          "row_pack_ids": [
+            18007
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 1014,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-26",
+          "end_date": "2026-07-03",
+          "row_pack_ids": [
+            1014,
+            1169,
+            1016,
+            1176,
+            1039,
+            1185,
+            1096,
+            1195,
+            1157,
+            1203,
+            1259,
+            1342
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 1016,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-26",
+          "end_date": "2026-07-03",
+          "row_pack_ids": [
+            1014,
+            1169,
+            1016,
+            1176,
+            1039,
+            1185,
+            1096,
+            1195,
+            1157,
+            1203,
+            1259,
+            1342
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 1039,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-26",
+          "end_date": "2026-07-03",
+          "row_pack_ids": [
+            1014,
+            1169,
+            1016,
+            1176,
+            1039,
+            1185,
+            1096,
+            1195,
+            1157,
+            1203,
+            1259,
+            1342
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 1096,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-26",
+          "end_date": "2026-07-03",
+          "row_pack_ids": [
+            1014,
+            1169,
+            1016,
+            1176,
+            1039,
+            1185,
+            1096,
+            1195,
+            1157,
+            1203,
+            1259,
+            1342
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 1157,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-26",
+          "end_date": "2026-07-03",
+          "row_pack_ids": [
+            1014,
+            1169,
+            1016,
+            1176,
+            1039,
+            1185,
+            1096,
+            1195,
+            1157,
+            1203,
+            1259,
+            1342
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 1169,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-26",
+          "end_date": "2026-07-03",
+          "row_pack_ids": [
+            1014,
+            1169,
+            1016,
+            1176,
+            1039,
+            1185,
+            1096,
+            1195,
+            1157,
+            1203,
+            1259,
+            1342
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 1176,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-26",
+          "end_date": "2026-07-03",
+          "row_pack_ids": [
+            1014,
+            1169,
+            1016,
+            1176,
+            1039,
+            1185,
+            1096,
+            1195,
+            1157,
+            1203,
+            1259,
+            1342
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 1185,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-26",
+          "end_date": "2026-07-03",
+          "row_pack_ids": [
+            1014,
+            1169,
+            1016,
+            1176,
+            1039,
+            1185,
+            1096,
+            1195,
+            1157,
+            1203,
+            1259,
+            1342
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 1195,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-26",
+          "end_date": "2026-07-03",
+          "row_pack_ids": [
+            1014,
+            1169,
+            1016,
+            1176,
+            1039,
+            1185,
+            1096,
+            1195,
+            1157,
+            1203,
+            1259,
+            1342
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 1203,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-26",
+          "end_date": "2026-07-03",
+          "row_pack_ids": [
+            1014,
+            1169,
+            1016,
+            1176,
+            1039,
+            1185,
+            1096,
+            1195,
+            1157,
+            1203,
+            1259,
+            1342
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 1259,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-26",
+          "end_date": "2026-07-03",
+          "row_pack_ids": [
+            1014,
+            1169,
+            1016,
+            1176,
+            1039,
+            1185,
+            1096,
+            1195,
+            1157,
+            1203,
+            1259,
+            1342
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 1342,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-26",
+          "end_date": "2026-07-03",
+          "row_pack_ids": [
+            1014,
+            1169,
+            1016,
+            1176,
+            1039,
+            1185,
+            1096,
+            1195,
+            1157,
+            1203,
+            1259,
+            1342
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 5011,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-26",
+          "end_date": "2026-07-03",
+          "row_pack_ids": [
+            5011
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 5014,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-26",
+          "end_date": "2026-08-03",
+          "row_pack_ids": [
+            5014
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 9326,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-26",
+          "end_date": "2026-07-03",
+          "row_pack_ids": [
+            9326,
+            9328,
+            9330,
+            9332,
+            9334,
+            9336,
+            9338,
+            9340,
+            9342,
+            9344,
+            9424
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 9328,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-26",
+          "end_date": "2026-07-03",
+          "row_pack_ids": [
+            9326,
+            9328,
+            9330,
+            9332,
+            9334,
+            9336,
+            9338,
+            9340,
+            9342,
+            9344,
+            9424
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 9330,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-26",
+          "end_date": "2026-07-03",
+          "row_pack_ids": [
+            9326,
+            9328,
+            9330,
+            9332,
+            9334,
+            9336,
+            9338,
+            9340,
+            9342,
+            9344,
+            9424
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 9332,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-26",
+          "end_date": "2026-07-03",
+          "row_pack_ids": [
+            9326,
+            9328,
+            9330,
+            9332,
+            9334,
+            9336,
+            9338,
+            9340,
+            9342,
+            9344,
+            9424
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 9334,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-26",
+          "end_date": "2026-07-03",
+          "row_pack_ids": [
+            9326,
+            9328,
+            9330,
+            9332,
+            9334,
+            9336,
+            9338,
+            9340,
+            9342,
+            9344,
+            9424
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 9336,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-26",
+          "end_date": "2026-07-03",
+          "row_pack_ids": [
+            9326,
+            9328,
+            9330,
+            9332,
+            9334,
+            9336,
+            9338,
+            9340,
+            9342,
+            9344,
+            9424
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 9338,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-26",
+          "end_date": "2026-07-03",
+          "row_pack_ids": [
+            9326,
+            9328,
+            9330,
+            9332,
+            9334,
+            9336,
+            9338,
+            9340,
+            9342,
+            9344,
+            9424
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 9340,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-26",
+          "end_date": "2026-07-03",
+          "row_pack_ids": [
+            9326,
+            9328,
+            9330,
+            9332,
+            9334,
+            9336,
+            9338,
+            9340,
+            9342,
+            9344,
+            9424
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 9342,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-26",
+          "end_date": "2026-07-03",
+          "row_pack_ids": [
+            9326,
+            9328,
+            9330,
+            9332,
+            9334,
+            9336,
+            9338,
+            9340,
+            9342,
+            9344,
+            9424
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 9344,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-26",
+          "end_date": "2026-07-03",
+          "row_pack_ids": [
+            9326,
+            9328,
+            9330,
+            9332,
+            9334,
+            9336,
+            9338,
+            9340,
+            9342,
+            9344,
+            9424
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 9424,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-26",
+          "end_date": "2026-07-03",
+          "row_pack_ids": [
+            9326,
+            9328,
+            9330,
+            9332,
+            9334,
+            9336,
+            9338,
+            9340,
+            9342,
+            9344,
+            9424
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 9546,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-26",
+          "end_date": "2026-08-03",
+          "row_pack_ids": [
+            9646,
+            9647,
+            9546,
+            9547
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 9547,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-26",
+          "end_date": "2026-08-03",
+          "row_pack_ids": [
+            9646,
+            9647,
+            9546,
+            9547
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 9646,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-26",
+          "end_date": "2026-08-03",
+          "row_pack_ids": [
+            9646,
+            9647,
+            9546,
+            9547
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 9647,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-26",
+          "end_date": "2026-08-03",
+          "row_pack_ids": [
+            9646,
+            9647,
+            9546,
+            9547
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 24075,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-26",
+          "end_date": "2026-08-03",
+          "row_pack_ids": [
+            24075
+          ]
+        }
+      ],
+      "candidates": [
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-03-21",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        },
+        {
+          "nombre": "Catfruit Buffet",
+          "fecha_inicio": "2026-04-18",
+          "fecha_fin": "2026-06-28",
+          "confidence": "date_overlap"
+        }
+      ]
+    },
+    {
+      "event_id": 24037,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-06-29",
+          "end_date": "2026-07-06",
+          "row_pack_ids": [
+            24037
+          ]
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "event_id": 9493,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-07-01",
+          "end_date": "2026-07-15",
+          "row_pack_ids": [
+            9493,
+            9494,
+            9495,
+            9496
+          ]
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "event_id": 9494,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-07-01",
+          "end_date": "2026-07-15",
+          "row_pack_ids": [
+            9493,
+            9494,
+            9495,
+            9496
+          ]
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "event_id": 9495,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-07-01",
+          "end_date": "2026-07-15",
+          "row_pack_ids": [
+            9493,
+            9494,
+            9495,
+            9496
+          ]
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "event_id": 9496,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-07-01",
+          "end_date": "2026-07-15",
+          "row_pack_ids": [
+            9493,
+            9494,
+            9495,
+            9496
+          ]
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "event_id": 36021,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-07-01",
+          "end_date": "2026-07-15",
+          "row_pack_ids": [
+            36021
+          ]
+        }
+      ],
+      "candidates": []
+    }
+  ],
+  "discord_names_missing_metadata": [
+    {
+      "nombre": "111M Celebration Gifts Galore!",
+      "fecha_inicio": "2026-05-11",
+      "fecha_fin": "2026-06-01",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "After School: Love Letters",
+      "fecha_inicio": "2026-03-30",
+      "fecha_fin": "2026-04-03",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "After School: Love Letters",
+      "fecha_inicio": "2026-04-06",
+      "fecha_fin": "2026-04-10",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "Akaza Strikes!",
+      "fecha_inicio": "2026-03-23",
+      "fecha_fin": "2026-03-30",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "Arena of Power",
+      "fecha_inicio": "2026-04-04",
+      "fecha_fin": "2026-04-25",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "Attack of the Lonely Hearts, From Your Junior, War on Valentines",
+      "fecha_inicio": "2026-03-02",
+      "fecha_fin": "2026-03-16",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "Battle at Mt. Natagumo",
+      "fecha_inicio": "2026-03-13",
+      "fecha_fin": "2026-03-30",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "Builders Festival",
+      "fecha_inicio": "2026-05-11",
+      "fecha_fin": "2026-06-01",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "CotC Treasure Festival (12th, 15th, 18th, 21st)",
+      "fecha_inicio": "2026-03-12",
+      "fecha_fin": "2026-03-21",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "Demon Slayer Corps Final Selection",
+      "fecha_inicio": "2026-03-13",
+      "fecha_fin": "2026-03-30",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "Discover Easter's Wonders!",
+      "fecha_inicio": "2026-05-04",
+      "fecha_fin": "2026-05-11",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "EoC Treasure Festival (Every Even Day)",
+      "fecha_inicio": "2026-03-10",
+      "fecha_fin": "2026-03-22",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "Eoc/ItF/CotC/Weekend Stage Half Energy Cost",
+      "fecha_inicio": "2026-03-09",
+      "fecha_fin": "2026-03-23",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "Fireworks Spectacular!",
+      "fecha_inicio": "2026-05-11",
+      "fecha_fin": "2026-06-01",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "From A Childhood Friend",
+      "fecha_inicio": "2026-03-09",
+      "fecha_fin": "2026-03-16",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "From Your Senpai",
+      "fecha_inicio": "2026-03-06",
+      "fecha_fin": "2026-03-16",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "Heavenly Tower, Infernal Tower",
+      "fecha_inicio": "2026-03-30",
+      "fecha_fin": "2026-04-27",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "Invasion of Poultrio",
+      "fecha_inicio": "2026-04-13",
+      "fecha_fin": "2026-04-18",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "ItF Treasure Festival (Every Odd Day)",
+      "fecha_inicio": "2026-03-11",
+      "fecha_fin": "2026-03-23",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "Mission: Slay Akaza!",
+      "fecha_inicio": "2026-03-23",
+      "fecha_fin": "2026-03-30",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "Mission: Slay Enmu!",
+      "fecha_inicio": "2026-03-21",
+      "fecha_fin": "2026-03-30",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "Mission: Slay Rui!",
+      "fecha_inicio": "2026-03-18",
+      "fecha_fin": "2026-03-30",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "Mission: Slay the Demon Teacher Bear!",
+      "fecha_inicio": "2026-03-16",
+      "fecha_fin": "2026-03-30",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "Mugen Train",
+      "fecha_inicio": "2026-03-19",
+      "fecha_fin": "2026-03-30",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "Season 2: Heartbeat Festival",
+      "fecha_inicio": "2026-04-06",
+      "fecha_fin": "2026-04-27",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "Season 3: Field Trip",
+      "fecha_inicio": "2026-04-13",
+      "fecha_fin": "2026-04-27",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "Season 4: Graduation Day, After Story ~Graduation Day~",
+      "fecha_inicio": "2026-04-20",
+      "fecha_fin": "2026-04-27",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "Spring Sprang Sprung, Eggy Cat Awakens!, Suffering Spring!",
+      "fecha_inicio": "2026-04-27",
+      "fecha_fin": "2026-05-11",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "The Midas Touch",
+      "fecha_inicio": "2026-04-27",
+      "fecha_fin": "2026-05-11",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "Weekend: Confession, Weekend ~Another Confession~",
+      "fecha_inicio": "2026-04-04",
+      "fecha_fin": "2026-04-05",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "Weekend: Confession, Weekend ~Another Confession~",
+      "fecha_inicio": "2026-04-11",
+      "fecha_fin": "2026-04-12",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "Weekend: Confession, Weekend ~Another Confession~",
+      "fecha_inicio": "2026-04-18",
+      "fecha_fin": "2026-04-19",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "White Day Scratch",
+      "fecha_inicio": "2026-03-30",
+      "fecha_fin": "2026-04-05",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "White Day Scratch",
+      "fecha_inicio": "2026-04-06",
+      "fecha_fin": "2026-04-12",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "White Day Scratch",
+      "fecha_inicio": "2026-04-13",
+      "fecha_fin": "2026-04-19",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "White Day Scratch",
+      "fecha_inicio": "2026-04-20",
+      "fecha_fin": "2026-04-27",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "XP Bonanza!",
+      "fecha_inicio": "2026-04-17",
+      "fecha_fin": "2026-05-08",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "XP Festival",
+      "fecha_inicio": "2026-04-17",
+      "fecha_fin": "2026-05-08",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "XP Harvest (Easy), XP Harvest (Normal), XP Harvest (Hard), XP Harvest (Veteran)",
+      "fecha_inicio": "2026-04-17",
+      "fecha_fin": "2026-04-27",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "XP Harvest (Easy), XP Harvest (Normal), XP Harvest (Hard), XP Harvest (Veteran)",
+      "fecha_inicio": "2026-05-11",
+      "fecha_fin": "2026-05-21",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "ランキングの間",
+      "fecha_inicio": "2026-03-13",
+      "fecha_fin": "2026-03-30",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "強襲！猗窩座との戦い",
+      "fecha_inicio": "2026-03-23",
+      "fecha_fin": "2026-03-30",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "無限列車の戦い",
+      "fecha_inicio": "2026-03-19",
+      "fecha_fin": "2026-03-30",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "特別任務！猗窩座討伐",
+      "fecha_inicio": "2026-03-23",
+      "fecha_fin": "2026-03-30",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "特別任務！累討伐",
+      "fecha_inicio": "2026-03-18",
+      "fecha_fin": "2026-03-30",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "特別任務！鬼化クマ先生討伐",
+      "fecha_inicio": "2026-03-16",
+      "fecha_fin": "2026-03-30",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "特別任務！魘夢討伐",
+      "fecha_inicio": "2026-03-21",
+      "fecha_fin": "2026-03-30",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "那田蜘蛛山の戦い",
+      "fecha_inicio": "2026-03-13",
+      "fecha_fin": "2026-03-30",
+      "status": "needs_metadata"
+    },
+    {
+      "nombre": "鬼殺隊 入隊試験",
+      "fecha_inicio": "2026-03-13",
+      "fecha_fin": "2026-03-30",
+      "status": "needs_metadata"
+    }
+  ]
+}

@@ -84,6 +84,28 @@
       "url": "https://battlecats.miraheze.org/wiki/Wildcat_Slots"
     },
     {
+      "nombre": "13th Anniversary",
+      "aliases": [
+        "13th Anniversary",
+        "Anniversary/13th Year",
+        "Celebrate 13 Years of The Battle Cats!"
+      ],
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_13th_anniversary.png",
+      "descripcion": "Celebrate 13 Years of The Battle Cats! This anniversary campaign runs in the English version from June 19th, 2026 to August 3rd, 2026, bringing the Nyanko Rangers theme, 13th Anniversary stages, Birthday Present!, special missions, Treasure Festivals, limited Gamatoto areas, Catfruit/Catseye item capsules, login stamps, and the return of Wildcat Slots II with huge Cat Food rewards.",
+      "url": "https://battlecats.miraheze.org/wiki/Anniversary/13th_Year"
+    },
+    {
+      "nombre": "Wildcat Slots",
+      "aliases": [
+        "Wildcat Slots",
+        "Wildcat Slots II",
+        "13th Anniversary Wildcat Slots II"
+      ],
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_wildcat_slots.png",
+      "descripcion": "The Wildcat Slots is a free slot machine event accessed from the Cat Base menu during anniversaries and other special campaigns. Players can spin during each appearance for guaranteed Cat Food rewards on the first pull, with later anniversary versions increasing the first-spin payout such as 900 Cat Food for the 9th Anniversary and 1,000 Cat Food for the 10th Anniversary.",
+      "url": "https://battlecats.miraheze.org/wiki/Wildcat_Slots"
+    },
+    {
       "nombre": "Cybear's Vengeance",
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_cybear_vengeance.png",
       "descripcion": "Forged to Kill (Deadly) is the only stage in Cybear's Vengeance. Upon completion, it will always drop five Cat Tickets. Like Facing Danger, Cybear's Vengeance can only be beaten once per appearance, limiting Cat Ticket farming. This map usually appears during special occasions such as Christmas, New Year, or the game's anniversary. It was added in Version 8.0.\nYou must clear Into the Future Chapter 1 in order to have access to this stage.",
