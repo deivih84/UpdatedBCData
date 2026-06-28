@@ -1,535 +1,232 @@
 {
-  "gachas": [],
-  "eventos": [
+  "gachas": [
     {
-      "id": "machines_in_revolt_2026-03-02",
-      "nombre": "Machines in Revolt",
+      "id": "capsule_clearance_2026-06-11",
+      "nombre": "Capsule Clearance",
+      "fecha_inicio": "2026-06-11",
+      "fecha_fin": "2026-06-19",
       "caracteristicas": [
-        "Machines in Revolt (機械の反乱軍, Kikai no Hanrangun, Rebel Army of Machines) is a set of special stages that was added in Version 12.6. It is unlocked after clearing Empire of Cats Chapter 1. Each stage features Metal Enemies and has a Cat Ticket as a reward.\n\nClear stages in the special map Machines in Revolt to earn up to 10 Cat Tickets as you face off against the Metal enemies attacking the remnants of a destroyed city! Visit Event Stages/Stories of Legend and select to take on this challenge!\nOn between June 10th (11:00am) and June 17th (10:59am)!\n\nSave the future from the onslaught of the coming machines!\n\n\n※ After clearing a stage, there will be a short cooldown period before you are able to challenge the next stage.\n※ Spending a Catamin A will allow you to skip the stage cooldown period and challenge the next stage immediately.\n※ If the event does not appear, please make sure that you are updated to the latest version of the Battle Cats app. "
-      ],
-      "fecha_inicio": "2026-03-02",
-      "fecha_fin": "2026-03-09"
+        "5",
+        "5 Capsules",
+        "L",
+        "Lucky Ticket"
+      ]
     },
     {
-      "id": "attack_of_the_lonely_hearts_from_your_junior_war_on_valentines_2026-03-02",
-      "nombre": "Attack of the Lonely Hearts, From Your Junior, War on Valentines",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-03-02",
-      "fecha_fin": "2026-03-16"
-    },
-    {
-      "id": "from_your_senpai_2026-03-06",
-      "nombre": "From Your Senpai",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-03-06",
-      "fecha_fin": "2026-03-16"
-    },
-    {
-      "id": "eoc_itf_cotc_weekend_stage_half_energy_cost_2026-03-09",
-      "nombre": "Eoc/ItF/CotC/Weekend Stage Half Energy Cost",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-03-09",
-      "fecha_fin": "2026-03-23"
-    },
-    {
-      "id": "from_a_childhood_friend_2026-03-09",
-      "nombre": "From A Childhood Friend",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-03-09",
-      "fecha_fin": "2026-03-16"
-    },
-    {
-      "id": "divine_archangel_strikes_2026-03-09",
-      "nombre": "Divine Archangel Strikes",
+      "id": "dark_heroes_2026-06-15",
+      "nombre": "Dark Heroes",
+      "fecha_inicio": "2026-06-15",
+      "fecha_fin": "2026-06-17",
       "caracteristicas": [
-        "Divine Archangel Strikes contains a total of 20 No Continues levels, each called Blessing. After beating a level, the player must wait for 30 minutes before they may proceed to the next one. Rewards for the first completion of a level can include XP, Tickets, Catamins and Materials. Every 10 levels plays out the same, but the strength magnifications and enemy base's HP are increased with each level."
-      ],
-      "fecha_inicio": "2026-03-09",
-      "fecha_fin": "2026-03-16"
+        "L",
+        "Lucky Ticket",
+        "P",
+        "Platinum Shard"
+      ]
     },
     {
-      "id": "eoc_treasure_festival_every_even_day_2026-03-10",
-      "nombre": "EoC Treasure Festival (Every Even Day)",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-03-10",
-      "fecha_fin": "2026-03-22"
-    },
-    {
-      "id": "itf_treasure_festival_every_odd_day_2026-03-11",
-      "nombre": "ItF Treasure Festival (Every Odd Day)",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-03-11",
-      "fecha_fin": "2026-03-23"
-    },
-    {
-      "id": "cotc_treasure_festival_12th_15th_18th_21st_2026-03-12",
-      "nombre": "CotC Treasure Festival (12th, 15th, 18th, 21st)",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-03-12",
-      "fecha_fin": "2026-03-21"
-    },
-    {
-      "id": "_2026-03-13",
-      "nombre": "鬼殺隊 入隊試験",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-03-13",
-      "fecha_fin": "2026-03-30"
-    },
-    {
-      "id": "demon_slayer_corps_final_selection_2026-03-13",
-      "nombre": "Demon Slayer Corps Final Selection",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-03-13",
-      "fecha_fin": "2026-03-30"
-    },
-    {
-      "id": "battle_at_mt_natagumo_2026-03-13",
-      "nombre": "Battle at Mt. Natagumo",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-03-13",
-      "fecha_fin": "2026-03-30"
-    },
-    {
-      "id": "arena_of_honor_2026-03-13",
-      "nombre": "Arena of Honor",
+      "id": "elemental_pixies_2026-06-15",
+      "nombre": "Elemental Pixies",
+      "fecha_inicio": "2026-06-15",
+      "fecha_fin": "2026-06-17",
       "caracteristicas": [
-        "Ranking Dojo (ネコ道場ランキングイベント, Neko Dōjō Rankingu Ibento, Cat Dojo Ranking Event) is an event that first appeared from July 31st to August 7th, 2017. This event was officially added in the Version 6.3 Update. The Ranking Dojo is accessed from the Catclaw Dojo menu, so the player needs to unlock the Catclaw Dojo feature in order to participate by completing Chapter 1 of Empire of Cats."
-      ],
-      "fecha_inicio": "2026-03-13",
-      "fecha_fin": "2026-03-30"
+        "L",
+        "Lucky Ticket",
+        "P",
+        "Platinum Shard"
+      ]
     },
     {
-      "id": "_2026-03-16",
-      "nombre": "特別任務！鬼化クマ先生討伐",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-03-16",
-      "fecha_fin": "2026-03-30"
-    },
-    {
-      "id": "legend_quest_2026-03-16",
-      "nombre": "Legend Quest",
+      "id": "luga_families_2026-06-17",
+      "nombre": "Luga Families",
+      "fecha_inicio": "2026-06-17",
+      "fecha_fin": "2026-06-19",
       "caracteristicas": [
-        "Legend Quest is a map somewhat similar to Heavenly Tower, with 48 stages known as LEVELs. Each LEVEL is a random Stories of Legend stage that provides a partially randomized lineup. All LEVELs are No Continues, and exiting a battle within 10 seconds will not refund items, Crowns or energy."
-      ],
-      "fecha_inicio": "2026-03-16",
-      "fecha_fin": "2026-03-30"
+        "L",
+        "Lucky Ticket",
+        "P",
+        "Platinum Shard"
+      ]
     },
     {
-      "id": "arena_of_honor_2026-03-16",
-      "nombre": "Arena of Honor",
+      "id": "iron_legion_2026-06-17",
+      "nombre": "Iron Legion",
+      "fecha_inicio": "2026-06-17",
+      "fecha_fin": "2026-06-19",
       "caracteristicas": [
-        "Ranking Dojo (ネコ道場ランキングイベント, Neko Dōjō Rankingu Ibento, Cat Dojo Ranking Event) is an event that first appeared from July 31st to August 7th, 2017. This event was officially added in the Version 6.3 Update. The Ranking Dojo is accessed from the Catclaw Dojo menu, so the player needs to unlock the Catclaw Dojo feature in order to participate by completing Chapter 1 of Empire of Cats."
-      ],
-      "fecha_inicio": "2026-03-16",
-      "fecha_fin": "2026-04-02"
+        "L",
+        "Lucky Ticket",
+        "P",
+        "Platinum Shard"
+      ]
     },
     {
-      "id": "mission_slay_the_demon_teacher_bear_2026-03-16",
-      "nombre": "Mission: Slay the Demon Teacher Bear!",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-03-16",
-      "fecha_fin": "2026-03-30"
-    },
-    {
-      "id": "_2026-03-18",
-      "nombre": "特別任務！累討伐",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-03-18",
-      "fecha_fin": "2026-03-30"
-    },
-    {
-      "id": "mission_slay_rui_2026-03-18",
-      "nombre": "Mission: Slay Rui!",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-03-18",
-      "fecha_fin": "2026-03-30"
-    },
-    {
-      "id": "_2026-03-19",
-      "nombre": "無限列車の戦い",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-03-19",
-      "fecha_fin": "2026-03-30"
-    },
-    {
-      "id": "mugen_train_2026-03-19",
-      "nombre": "Mugen Train",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-03-19",
-      "fecha_fin": "2026-03-30"
-    },
-    {
-      "id": "_2026-03-21",
-      "nombre": "特別任務！魘夢討伐",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-03-21",
-      "fecha_fin": "2026-03-30"
-    },
-    {
-      "id": "catfruit_buffet_2026-03-21",
-      "nombre": "Catfruit Buffet",
+      "id": "epicfest_2026-06-19",
+      "nombre": "Epicfest",
+      "fecha_inicio": "2026-06-19",
+      "fecha_fin": "2026-06-22",
       "caracteristicas": [
-        "This event contains three stages, each stage is a trip to all Growing Stage of the same difficulty labeled on each stage, in sequence: Growing Green, Growing Purple, Growing Red, Growing Blue and finally Growing Yellow, which is ended with the Catfruit Jubilee. After the player clears one Growing Stage, a message will show up to ask if the player wants to continue on the next Growing Stage. The player can play a total of six stages, and it costs 500 energy per play. "
-      ],
-      "fecha_inicio": "2026-03-21",
-      "fecha_fin": "2026-06-28"
+        "L",
+        "Lucky Ticket"
+      ]
     },
     {
-      "id": "mission_slay_enmu_2026-03-21",
-      "nombre": "Mission: Slay Enmu!",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-03-21",
-      "fecha_fin": "2026-03-30"
-    },
-    {
-      "id": "_2026-03-23",
-      "nombre": "強襲！猗窩座との戦い",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-03-23",
-      "fecha_fin": "2026-03-30"
-    },
-    {
-      "id": "le_grim_strikes_2026-03-23",
-      "nombre": "Le'Grim Strikes",
+      "id": "dragon_emperors_2026-06-19",
+      "nombre": "Dragon Emperors",
+      "fecha_inicio": "2026-06-19",
+      "fecha_fin": "2026-06-22",
       "caracteristicas": [
-        "Le'Grim Strikes contains a total of 20 No Continues levels, called Rampage Lvs. After beating a Rampage Lv, the player must wait for 30 minutes before they may proceed to the next one. Rewards for the first completion of a Rampage Lv can include XP, Tickets, Catamins and Materials. Every 10 Rampage Lvs plays out the same, but the strength magnifications and enemy base's HP are increased with each level. "
-      ],
-      "fecha_inicio": "2026-03-23",
-      "fecha_fin": "2026-03-30"
+        "L",
+        "Lucky Ticket",
+        "P",
+        "Platinum Shard"
+      ]
     },
     {
-      "id": "akaza_strikes_2026-03-23",
-      "nombre": "Akaza Strikes!",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-03-23",
-      "fecha_fin": "2026-03-30"
-    },
-    {
-      "id": "mission_slay_akaza_2026-03-23",
-      "nombre": "Mission: Slay Akaza!",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-03-23",
-      "fecha_fin": "2026-03-30"
-    },
-    {
-      "id": "season_1_school_days_2026-03-30",
-      "nombre": "Season 1: School Days",
+      "id": "spooky_cuties_2026-06-19",
+      "nombre": "Spooky Cuties",
+      "fecha_inicio": "2026-06-19",
+      "fecha_fin": "2026-06-22",
       "caracteristicas": [
-        "Season 1: School Days (Season1 ～学園生活～, Season1 ～Gakuen Seikatsu～, Season1 ~School Life~) is an event added in the Version 11.3 Update. Like all Gauntlets, progress made in Season 1: School Days will reset when the event ends. The bosses of this Gauntlet are many common enemies that the player encounters during main progress.\n\nSeason 1: School Days contains a total of 20 No Continues levels. After beating three stages, the player must wait for 90 minutes before they may proceed to the next one (30 minutes for one available). Rewards for each stage completion are Legendary Love Letters."
-      ],
-      "fecha_inicio": "2026-03-30",
-      "fecha_fin": "2026-04-27"
+        "L",
+        "Lucky Ticket",
+        "P",
+        "Platinum Shard"
+      ]
     },
     {
-      "id": "after_school_love_letters_2026-03-30",
-      "nombre": "After School: Love Letters",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-03-30",
-      "fecha_fin": "2026-04-03"
-    },
-    {
-      "id": "white_day_scratch_2026-03-30",
-      "nombre": "White Day Scratch",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-03-30",
-      "fecha_fin": "2026-04-05"
-    },
-    {
-      "id": "heavenly_tower_infernal_tower_2026-03-30",
-      "nombre": "Heavenly Tower, Infernal Tower",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-03-30",
-      "fecha_fin": "2026-04-27"
-    },
-    {
-      "id": "resident_undead_2026-03-30",
-      "nombre": "Resident Undead",
+      "id": "ultra_4_selection_gacha_2026-06-22",
+      "nombre": "Ultra 4 Selection Gacha",
+      "fecha_inicio": "2026-06-22",
+      "fecha_fin": "2026-06-26",
       "caracteristicas": [
-        "Resident Undead (住民の亡霊, Shūmin no Bourei, Resident Ghosts) is a set of special stages that was added in Version 12.6. It is unlocked after clearing Empire of Cats Chapter 1. Each stage features Undead Enemies and has a Cat Ticket as a reward.\n\nClear stages in the special map Resident Undead to earn up to 10 Cat Tickets as you face off against the Undead enemies attacking the remnants of a destroyed city! Visit Event Stages/Stories of Legend and select to take on this challenge!\nOn between June 10th (11:00am) and June 17th (10:59am)!\n\nSave the future from the onslaught of the coming machines!\n\n\n※ After clearing a stage, there will be a short cooldown period before you are able to challenge the next stage.\n※ Spending a Catamin A will allow you to skip the stage cooldown period and challenge the next stage immediately.\n※ If the event does not appear, please make sure that you are updated to the latest version of the Battle Cats app. "
-      ],
-      "fecha_inicio": "2026-03-30",
-      "fecha_fin": "2026-04-06"
+        "L",
+        "Lucky Ticket"
+      ]
     },
     {
-      "id": "the_grand_deep_2026-03-30",
-      "nombre": "The Grand Deep",
+      "id": "galaxy_gals_2026-06-22",
+      "nombre": "Galaxy Gals",
+      "fecha_inicio": "2026-06-22",
+      "fecha_fin": "2026-06-24",
       "caracteristicas": [
-        "The Underground Labyrinth (地底迷宮, Chitē Mēkyū, Underground Labyrinth), or The Grand Deep (グランドアビス Gurando Abisu, Grand Abyss) is a time-limited game mode that was added in Version 12.0. It is unlocked after Into the Future Chapter 3. It consists of 100 levels that the player can randomly challenge, and is one of the few sources of Dark Catseyes. Unlike most events, the Underground Labyrinth is accessed from its own button in the Main Menu, rather than being part of Legend Stages.\n\nUnderground Labyrinth is somewhat similar to Legend Quest, being an event map that appears on an unknown schedule for a period of time and consists of a randomly shuffled assortment of stages. While players may choose any Cat Units they want for each stage, a random selection of the player's cats become \"trapped\" when stages are won or lost, rendering them unusable within the Underground Labryinth for the remainder of the event. Once the event period is over, players will be ranked and receive rewards based on stage progress and units remaining, similar to the Ranking Dojo.\n\nThe player must equip 10 units before attempting any stage in the Underground Labyrinth. The enemy preview will show what enemies are in the stage rather than the usual question marks for new stages. If the player clears the stage, then a certain amount of their units will be \"trapped\", meaning they cannot be used on subsequent stages. There is also a 60% chance upon clearing the stage that a trapped cat unit can be \"rescued\"; the rescued unit can be chosen by the player and will have their trapped status removed.\n\nIf the player loses or exits the stage, then two units used will be trapped. Units trapped in this way cannot be rescued. Since the player must equip 10 units before attempting a stage, they must also swap out the trapped units. Additionally, equipped units become locked in your line-up after a stage is attempted, remaining in this state until they become trapped or the challenger can no longer progress. "
-      ],
-      "fecha_inicio": "2026-03-30",
-      "fecha_fin": "2026-04-20"
+        "L",
+        "Lucky Ticket",
+        "P",
+        "Platinum Shard"
+      ]
     },
     {
-      "id": "otherworld_colosseum_2026-04-01",
-      "nombre": "Otherworld Colosseum",
+      "id": "wargods_vajiras_2026-06-22",
+      "nombre": "Wargods Vajiras",
+      "fecha_inicio": "2026-06-22",
+      "fecha_fin": "2026-06-24",
       "caracteristicas": [
-        "Otherworld Colosseum (異次元コロシアム, Ijigen Koroshiamu, Extradimensional Colosseum) is an event added in the Version 13.5. It is unlocked after beating A New Legend. There are several different Otherworld Colosseum maps that share the same name, each consisting of 5 No Continues stages and 2 difficulty levels. The Otherworld Colosseum is one of the few sources of Dark Catseyes.\n\nFeatures a set of stages with a cycling ruleset. Beat back the oncoming interdimensional horde!\n\nMission Reward(s): Rare Ticket, Platinum Shard, Catseye [Dark].\n\n※ You must collect rewards from completed Otherworld Colosseum missions by tapping the Claim button. Even if mission conditions have been met, rewards will not be automatically collected.\n※ Tap the icon at bottom left of the Otherworld Colosseum stage select screen to confirm the battle rule in effect.\n※ Some CatCombos may not activate due to the current ruleset.\n※ You must clear the \"A New Legend\" map found in the Uncanny Legends section of the Legend Stages section to challenge the Otherworld Colosseum.\n\nEach Otherworld Colosseum map has a unique \"rule\" that applies during battle. Only one rule is applied per map.\n\nRule 1: Trust Fund. The player starts with 50,000¢ and cannot gain money from defeating enemies or by the Worker Cat. All units will start on their cooldown, and any money-related Cat Combos are prohibited.\nRule 2: Cooldown Equality. All units have their cooldown set to 16.67 seconds. Research Combos are prohibited.\nRule 3: Only One Rarity. Only one unit from each Rarity can be deployed at once. This only affects the battle, not creating the lineup.\nRule 4: Cheap Labor. All Cat Units have their cost set to 500¢.\nRule 5: Super Rare Sale. The cooldown time and deployment cost of Super Rare Cats has been set to 50% of their original time / cost.\nRule 6: Deploy Limit. The amount of units that can be deployed throughout the battle is limited to 60.\nRule 7: Special Clearance. The cooldown time and deployment cost of Special Cats has been set to 30% of their original time / cost.\nRule 8: Plus One: Uber. Deploying an Uber Rare Cat will summon another one 2 seconds after deploying the first one.\nRule 9: Mega Cat Cannon. The Cat Cannon will deal increased damage. This only affects the Default Cat Cannon.\nRule 10: Uniform Motion. All cats and enemies with at least 1 speed will have their speed set to a uniform value.\nRule 11: Plus One: Special. Deploying a Special Cat will summon another one 2 seconds after deploying the first one.\nRule 12: Uber Clearance. The cooldown time and deployment cost of Uber Rare Cats has been set to 50% of their original time and 5% of their original cost, but only a limited number of Uber Rare Cats can be deployed at a time.\nRule 13: Limited Stock. All units have their cooldown set to 16.67 seconds, and a maximum of 50 non-Conjured units can be deployed. Research Combos are prohibited.\nRule 14: Dirt Cheap. All Cat Units have their cost set to 10¢.\nRule 15: Pay Day. The player starts with 266,730¢ and cannot gain money from defeating enemies or by the Worker Cat. All units will start on their cooldown, and any money-related Cat Combos are prohibited. The cooldown time of Uber Rare Cats has been set to 20% of their original time.\nRule 16: Grand Battle. Ubers have double the cost and recharge time, but deploying one will spawn 3 of them.\nRule 17: High Speed. All units have their cost and recharge time set to 70%. All units with at least 1 speed will have their speed doubled.\nRule 18: Half-Off: S. Rare. Super rare cats have cost set to 50% and spawning one will spawn another shortly after.\nRule 19: 物価高騰 超激レア. Start with 60k money and don't get any more (like Trust Fund). Ubers cost twice as much as usual but only have 70% of the cooldown."
-      ],
-      "fecha_inicio": "2026-04-01",
-      "fecha_fin": "2026-04-15"
+        "L",
+        "Lucky Ticket",
+        "P",
+        "Platinum Shard"
+      ]
     },
     {
-      "id": "weekend_confession_weekend_another_confession_2026-04-04",
-      "nombre": "Weekend: Confession, Weekend ~Another Confession~",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-04-04",
-      "fecha_fin": "2026-04-05"
-    },
-    {
-      "id": "arena_of_power_2026-04-04",
-      "nombre": "Arena of Power",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-04-04",
-      "fecha_fin": "2026-04-25"
-    },
-    {
-      "id": "season_2_heartbeat_festival_2026-04-06",
-      "nombre": "Season 2: Heartbeat Festival",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-04-06",
-      "fecha_fin": "2026-04-27"
-    },
-    {
-      "id": "after_school_love_letters_2026-04-06",
-      "nombre": "After School: Love Letters",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-04-06",
-      "fecha_fin": "2026-04-10"
-    },
-    {
-      "id": "horrorpotamus_2026-04-06",
-      "nombre": "Horrorpotamus",
+      "id": "ultra_souls_2026-06-24",
+      "nombre": "Ultra Souls",
+      "fecha_inicio": "2026-06-24",
+      "fecha_fin": "2026-06-26",
       "caracteristicas": [
-        "Horrorpotamus contains a total of 20 No Continues levels, called Cosmic Juggernaut Lvs. After beating three Cosmic Juggernaut Lvs, the player must wait for 90 minutes before they may proceed to the next one. (30 minutes for one available) Rewards for the first completion of a Cosmic Juggernaut Lv can include XP, Tickets, Catamins and Materials. Every 20 Cosmic Juggernaut Lvs plays out the same, but the strength magnifications and enemy base's HP are increased with each level."
-      ],
-      "fecha_inicio": "2026-04-06",
-      "fecha_fin": "2026-04-13"
+        "L",
+        "Lucky Ticket",
+        "P",
+        "Platinum Shard"
+      ]
     },
     {
-      "id": "white_day_scratch_2026-04-06",
-      "nombre": "White Day Scratch",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-04-06",
-      "fecha_fin": "2026-04-12"
-    },
-    {
-      "id": "weekend_confession_weekend_another_confession_2026-04-11",
-      "nombre": "Weekend: Confession, Weekend ~Another Confession~",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-04-11",
-      "fecha_fin": "2026-04-12"
-    },
-    {
-      "id": "season_3_field_trip_2026-04-13",
-      "nombre": "Season 3: Field Trip",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-04-13",
-      "fecha_fin": "2026-04-27"
-    },
-    {
-      "id": "invasion_of_poultrio_2026-04-13",
-      "nombre": "Invasion of Poultrio",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-04-13",
-      "fecha_fin": "2026-04-18"
-    },
-    {
-      "id": "white_day_scratch_2026-04-13",
-      "nombre": "White Day Scratch",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-04-13",
-      "fecha_fin": "2026-04-19"
-    },
-    {
-      "id": "xp_festival_2026-04-17",
-      "nombre": "XP Festival",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-04-17",
-      "fecha_fin": "2026-05-08"
-    },
-    {
-      "id": "xp_bonanza_2026-04-17",
-      "nombre": "XP Bonanza!",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-04-17",
-      "fecha_fin": "2026-05-08"
-    },
-    {
-      "id": "duel_stages_challenge_2026-04-17",
-      "nombre": "Duel Stages Challenge",
+      "id": "the_dynamites_2026-06-24",
+      "nombre": "The Dynamites",
+      "fecha_inicio": "2026-06-24",
+      "fecha_fin": "2026-06-26",
       "caracteristicas": [
-        "It's high noon, time for a showdown!\nDuel Stages Challenge (決闘チャレンジ, Kettō Charenji, Duel Challenge) is an event added in Version 11.6. It consists of all Duel Stages in a single map. Progress made in Duel Stages Challenge will reset when the event ends.\nEach stage has a Cat Deploy Limit and enemy limit of 1. Taking over 15 minutes to beat any one stage will cause an Assassin Bear to spawn."
-      ],
-      "fecha_inicio": "2026-04-17",
-      "fecha_fin": "2026-04-27"
+        "L",
+        "Lucky Ticket",
+        "P",
+        "Platinum Shard"
+      ]
     },
     {
-      "id": "xp_harvest_easy_xp_harvest_normal_xp_harvest_hard_xp_harvest_veteran_2026-04-17",
-      "nombre": "XP Harvest (Easy), XP Harvest (Normal), XP Harvest (Hard), XP Harvest (Veteran)",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-04-17",
-      "fecha_fin": "2026-04-27"
+      "id": "limited_capsules_2026-06-26",
+      "nombre": "Limited Capsules",
+      "fecha_inicio": "2026-06-26",
+      "fecha_fin": "2026-07-03",
+      "caracteristicas": []
     },
     {
-      "id": "catfruit_buffet_2026-04-18",
-      "nombre": "Catfruit Buffet",
+      "id": "best_of_the_best_gacha_2026-06-26",
+      "nombre": "Best of the Best Gacha",
+      "fecha_inicio": "2026-06-26",
+      "fecha_fin": "2026-07-03",
+      "caracteristicas": []
+    },
+    {
+      "id": "neo_best_of_the_best_gacha_2026-06-26",
+      "nombre": "Neo Best of the Best Gacha",
+      "fecha_inicio": "2026-06-26",
+      "fecha_fin": "2026-07-03",
+      "caracteristicas": []
+    },
+    {
+      "id": "the_almighties_2026-06-26",
+      "nombre": "The Almighties",
+      "fecha_inicio": "2026-06-26",
+      "fecha_fin": "2026-06-30",
       "caracteristicas": [
-        "This event contains three stages, each stage is a trip to all Growing Stage of the same difficulty labeled on each stage, in sequence: Growing Green, Growing Purple, Growing Red, Growing Blue and finally Growing Yellow, which is ended with the Catfruit Jubilee. After the player clears one Growing Stage, a message will show up to ask if the player wants to continue on the next Growing Stage. The player can play a total of six stages, and it costs 500 energy per play. "
-      ],
-      "fecha_inicio": "2026-04-18",
-      "fecha_fin": "2026-06-28"
+        "P",
+        "Platinum Shard"
+      ]
     },
     {
-      "id": "weekend_confession_weekend_another_confession_2026-04-18",
-      "nombre": "Weekend: Confession, Weekend ~Another Confession~",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-04-18",
-      "fecha_fin": "2026-04-19"
-    },
-    {
-      "id": "season_4_graduation_day_after_story_graduation_day_2026-04-20",
-      "nombre": "Season 4: Graduation Day, After Story ~Graduation Day~",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-04-20",
-      "fecha_fin": "2026-04-27"
-    },
-    {
-      "id": "white_day_scratch_2026-04-20",
-      "nombre": "White Day Scratch",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-04-20",
-      "fecha_fin": "2026-04-27"
-    },
-    {
-      "id": "mega_menace_2026-04-20",
-      "nombre": "Mega Menace",
+      "id": "elemental_pixies_2026-06-30",
+      "nombre": "Elemental Pixies",
+      "fecha_inicio": "2026-06-30",
+      "fecha_fin": "2026-07-03",
       "caracteristicas": [
-        "Mega Menace contains a total of 20 No Continues levels, called On Mighty Wings Lvs. After beating three On Mighty Wings Lvs, the player must wait for 30 minutes before they may proceed to the next one (may have 3 clears after 90 minutes). Rewards for the first completion of an On Mighty Wings Lv can include XP, Tickets, Catamins and Materials. Every 10 On Mighty Wings Lvs plays out the same, but the strength magnifications and enemy base's HP are increased with each level."
-      ],
-      "fecha_inicio": "2026-04-20",
-      "fecha_fin": "2026-04-27"
+        "P",
+        "Platinum Shard"
+      ]
     },
     {
-      "id": "tag_arena_challenge_2026-04-27",
-      "nombre": "Tag Arena Challenge",
-      "caracteristicas": [
-        "Tag Arena Challenge (タッグ闘技チャレンジ, Taggu Tōgi Charenji, Tag Team Challenge) is a map added in Version 11.6. It consists of all Tag Arena Stages combined into a single map, along with three new stages. Progress made in Tag Arena Challenge will reset when the event ends.\nThere are three stages per map, each with a Cat Deploy Limit and enemy limit of 2. Taking over 15 minutes to beat any stage will cause an Assassin Bear to spawn. As opposed to the Duel Stages Challenge, most of the enemies can spawn multiple times."
-      ],
-      "fecha_inicio": "2026-04-27",
-      "fecha_fin": "2026-05-08"
+      "id": "platinum_capsules_2026-04-24",
+      "nombre": "Platinum Capsules",
+      "fecha_inicio": "2026-04-24",
+      "fecha_fin": "2030-01-01",
+      "caracteristicas": []
     },
     {
-      "id": "cats_eye_cave_2026-04-27",
-      "nombre": "Cats Eye Cave",
-      "caracteristicas": [
-        "No info :) this is a Gamatoto expedition area that gives Catseyes as rewards."
-      ],
-      "fecha_inicio": "2026-04-27",
-      "fecha_fin": "2026-05-08"
-    },
-    {
-      "id": "the_midas_touch_2026-04-27",
-      "nombre": "The Midas Touch",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-04-27",
-      "fecha_fin": "2026-05-11"
-    },
-    {
-      "id": "spring_sprang_sprung_eggy_cat_awakens_suffering_spring_2026-04-27",
-      "nombre": "Spring Sprang Sprung, Eggy Cat Awakens!, Suffering Spring!",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-04-27",
-      "fecha_fin": "2026-05-11"
-    },
-    {
-      "id": "arena_of_honor_2026-04-30",
-      "nombre": "Arena of Honor",
-      "caracteristicas": [
-        "Ranking Dojo (ネコ道場ランキングイベント, Neko Dōjō Rankingu Ibento, Cat Dojo Ranking Event) is an event that first appeared from July 31st to August 7th, 2017. This event was officially added in the Version 6.3 Update. The Ranking Dojo is accessed from the Catclaw Dojo menu, so the player needs to unlock the Catclaw Dojo feature in order to participate by completing Chapter 1 of Empire of Cats."
-      ],
-      "fecha_inicio": "2026-04-30",
-      "fecha_fin": "2026-05-14"
-    },
-    {
-      "id": "otherworld_colosseum_2026-05-01",
-      "nombre": "Otherworld Colosseum",
-      "caracteristicas": [
-        "Otherworld Colosseum (異次元コロシアム, Ijigen Koroshiamu, Extradimensional Colosseum) is an event added in the Version 13.5. It is unlocked after beating A New Legend. There are several different Otherworld Colosseum maps that share the same name, each consisting of 5 No Continues stages and 2 difficulty levels. The Otherworld Colosseum is one of the few sources of Dark Catseyes.\n\nFeatures a set of stages with a cycling ruleset. Beat back the oncoming interdimensional horde!\n\nMission Reward(s): Rare Ticket, Platinum Shard, Catseye [Dark].\n\n※ You must collect rewards from completed Otherworld Colosseum missions by tapping the Claim button. Even if mission conditions have been met, rewards will not be automatically collected.\n※ Tap the icon at bottom left of the Otherworld Colosseum stage select screen to confirm the battle rule in effect.\n※ Some CatCombos may not activate due to the current ruleset.\n※ You must clear the \"A New Legend\" map found in the Uncanny Legends section of the Legend Stages section to challenge the Otherworld Colosseum.\n\nEach Otherworld Colosseum map has a unique \"rule\" that applies during battle. Only one rule is applied per map.\n\nRule 1: Trust Fund. The player starts with 50,000¢ and cannot gain money from defeating enemies or by the Worker Cat. All units will start on their cooldown, and any money-related Cat Combos are prohibited.\nRule 2: Cooldown Equality. All units have their cooldown set to 16.67 seconds. Research Combos are prohibited.\nRule 3: Only One Rarity. Only one unit from each Rarity can be deployed at once. This only affects the battle, not creating the lineup.\nRule 4: Cheap Labor. All Cat Units have their cost set to 500¢.\nRule 5: Super Rare Sale. The cooldown time and deployment cost of Super Rare Cats has been set to 50% of their original time / cost.\nRule 6: Deploy Limit. The amount of units that can be deployed throughout the battle is limited to 60.\nRule 7: Special Clearance. The cooldown time and deployment cost of Special Cats has been set to 30% of their original time / cost.\nRule 8: Plus One: Uber. Deploying an Uber Rare Cat will summon another one 2 seconds after deploying the first one.\nRule 9: Mega Cat Cannon. The Cat Cannon will deal increased damage. This only affects the Default Cat Cannon.\nRule 10: Uniform Motion. All cats and enemies with at least 1 speed will have their speed set to a uniform value.\nRule 11: Plus One: Special. Deploying a Special Cat will summon another one 2 seconds after deploying the first one.\nRule 12: Uber Clearance. The cooldown time and deployment cost of Uber Rare Cats has been set to 50% of their original time and 5% of their original cost, but only a limited number of Uber Rare Cats can be deployed at a time.\nRule 13: Limited Stock. All units have their cooldown set to 16.67 seconds, and a maximum of 50 non-Conjured units can be deployed. Research Combos are prohibited.\nRule 14: Dirt Cheap. All Cat Units have their cost set to 10¢.\nRule 15: Pay Day. The player starts with 266,730¢ and cannot gain money from defeating enemies or by the Worker Cat. All units will start on their cooldown, and any money-related Cat Combos are prohibited. The cooldown time of Uber Rare Cats has been set to 20% of their original time.\nRule 16: Grand Battle. Ubers have double the cost and recharge time, but deploying one will spawn 3 of them.\nRule 17: High Speed. All units have their cost and recharge time set to 70%. All units with at least 1 speed will have their speed doubled.\nRule 18: Half-Off: S. Rare. Super rare cats have cost set to 50% and spawning one will spawn another shortly after.\nRule 19: 物価高騰 超激レア. Start with 60k money and don't get any more (like Trust Fund). Ubers cost twice as much as usual but only have 70% of the cooldown."
-      ],
-      "fecha_inicio": "2026-05-01",
-      "fecha_fin": "2026-05-15"
-    },
-    {
-      "id": "gigahaniwan_strikes_2026-05-04",
-      "nombre": "Gigahaniwan Strikes!",
-      "caracteristicas": [
-        "Gigahaniwan Strikes! contains a total of 20 No Continues levels, called Excavation Lvs. After beating an Excavation Lv, the player must wait for 30 minutes before they may proceed to the next one. The player may choose to bank up to 3 Excavation Lvs at one time by waiting for 90 minutes, allowing them to beat all 3 Lvs at one go. Rewards for the first completion of an Excavation Lv can include XP, Tickets, Catamins and Materials. Every 10 Excavation Lvs plays out the same, but the strength magnifications and enemy base's HP are increased with each level."
-      ],
-      "fecha_inicio": "2026-05-04",
-      "fecha_fin": "2026-05-11"
-    },
-    {
-      "id": "discover_easter_s_wonders_2026-05-04",
-      "nombre": "Discover Easter's Wonders!",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-05-04",
-      "fecha_fin": "2026-05-11"
-    },
-    {
-      "id": "builders_festival_2026-05-11",
-      "nombre": "Builders Festival",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-05-11",
-      "fecha_fin": "2026-06-01"
-    },
-    {
-      "id": "111m_celebration_gifts_galore_2026-05-11",
-      "nombre": "111M Celebration Gifts Galore!",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-05-11",
-      "fecha_fin": "2026-06-01"
-    },
-    {
-      "id": "111m_download_celebration_2026-05-11",
-      "nombre": "111M Download Celebration!",
-      "caracteristicas": [
-        "The Battle Cats has reached a massive 111,111,111 downloads worldwide! In thanks to all of our players, we've got special events available for a limited time!\nOn from May 11th (11:00am) until June 1st (10:59am)!\n\n・Limited DL Celebration Event Capsules!\nUse Legendary Starshines to access the special Event Capsules!\nFeaturing a rush of limited units and Featured Items!\nFeatured Item(s): Platinum Shard (up to 10)\nReward(s): 3 Limited Units, XP, Battle Items\nCollect all 10 Platinum Shard to get a Platinum Ticket and guarantee an Uber Rare unit!\n* The Event Capsules can only be used with Event Tickets earned in-game.\n* Event Capsules will be unavailable after the event ends and Event Tickets will be unusable.\n* Extra Event Tickets cannot be converted into items or XP.\n* Featured items will no longer appear in the Capsules once they have all been collected.\n\n・ Easier than ever upgrading during the 1/2 XP Campaign!\nHalf-off level-up and evolution costs for all Cats!\nGive your Cats a quick boost while you can!\nOn from May 21st (11:00am) until June 1st (10:59am)!\n* Halved XP costs are indicated by blue text during this campaign. If the half XP costs are not available, please return to the Cat Base and try again.\n\n● 111M DL Celebration Stamps now available!\nUp to 19 111,111,111 DL Celebration Login Stamps!\nRewards: 5 Rare Tickets, 5 Cat Tickets, Battle Items\n111,111,111 DL Celebration Missions\nReward(s): Rare Ticket, Cat Ticket, XP, Battle Items\n* Limited-time Special Missions will only be available until the end of the event. You must accept all rewards before the Missions disappear at the end of the event!\n\n● Download Celebration Stages on now!\nEarn Cat Tickets, XP, and items by clearing the Download Celebration Stages! Visit the Legend Stages from the title screen to access these limited-time stages!\n\n・111M Celebration Gifts Galore! on now!\nThe Battle Cats has hit 111,111,111 downloads and a new stage is available to celebrate, with a 20 Cat Food reward for clearing it!\nOnce this stage is cleared, it will be reset at 12AM the next day and can be cleared again for another 20 Cat Food reward!\nClear the stage every day during the event to earn up to 380 Cat Food!\n\n・111M DL Celebration event on now!\nWhen The Battle Cats hits 111,111,111 downloads, that means one thing - time to party with a spectacular festival!\nReward(s): Legendary Starshine\n* Once all stage attempts have been used, you will be able to retry after a certain amount of time has passed.\n* Using a Catamin A will immediately grant you another stage attempt.\n\n・Limited Map: \"Fireworks Spectacular\"\nThe Fireworks Gang gets ready to blast off in a tough new map!\nReward(s): Catseye (Legend, Dark), Rare Ticket, etc.\n※ This stage can be challenged at User Rank 1600 or higher.\n\n● Builder's Blitz!\nClear the stage to collect building materials needed for a better Cat Base! Visit Legend Stages/Event Stages during the times below to put your Cat Army to the test in the special stages Cavern of Comets, Strait of Wings, and Island of Ash!\n7:00am～8:59am / 12:00pm～1:59pm / 6:00pm～7:59pm / 10:00pm～11:59pm\n* These stages will become available once Empire of Cats Ch. 1 has been cleared.\n* Check the Event Calendar for event availability.\n\n● Limited GAMATOTO Expedition Areas\nOnly during this event, you can send your Gamatoto adventurer to the limited areas Catseye Cave and XP Harvest for a special set of Catseye rewards!\nXP Harvest (4 areas)\nOn from May 11th (11:00am) until May 21st (10:59am)!\nCatseye Cave\nOn from May 21st (11:00am) until June 1st (10:59am)!\n\n● Catfruit / Catseye Limited Item Capsule Events!\nAt the Capsule Menu, tap the buttons at top left to switch between standard Capsule events and the Catseye Limited Capsules & Catfruit Limited Capsules!\nCatseye Item Capsules\nOn from May 11th (11:00am) until May 21st (10:59am)!\nCatfruit Item Capsules\nOn from May 21st (11:00am) until June 1st (10:59am)!\n* Catseye Item Capsules drop Catseyes and XP.\n* Catfruit Item Capsules drop Catfruit, XP, and other items.\n* Catseye Item Capsules will appear in the Cat Capsules after reaching User Rank 1600.\n* Catfruit Item Capsules will appear in the Cat Capsules after clearing Empire of Cats Ch. 3. "
-      ],
-      "fecha_inicio": "2026-05-11",
-      "fecha_fin": "2026-06-01"
-    },
-    {
-      "id": "fireworks_spectacular_2026-05-11",
-      "nombre": "Fireworks Spectacular!",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-05-11",
-      "fecha_fin": "2026-06-01"
-    },
-    {
-      "id": "xp_harvest_easy_xp_harvest_normal_xp_harvest_hard_xp_harvest_veteran_2026-05-11",
-      "nombre": "XP Harvest (Easy), XP Harvest (Normal), XP Harvest (Hard), XP Harvest (Veteran)",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-05-11",
-      "fecha_fin": "2026-05-21"
-    },
-    {
-      "id": "arena_of_destiny_2026-05-16",
-      "nombre": "Arena of Destiny",
-      "caracteristicas": [
-        "Introduced in Version 14.3 adds a new gimmick where applying status effects grant more points than killing enemies. More points will be awarded for units with fewer target Traits (not counting those gained from Talents). This rewards for this dojo are Treasure Chests, which contain exclusive Talent Orbs that can grant special abilities to the units that are given them."
-      ],
-      "fecha_inicio": "2026-05-16",
-      "fecha_fin": "2026-06-02"
-    },
-    {
-      "id": "cats_eye_cave_2026-05-21",
-      "nombre": "Cats Eye Cave",
-      "caracteristicas": [
-        "No info :) this is a Gamatoto expedition area that gives Catseyes as rewards."
-      ],
-      "fecha_inicio": "2026-05-21",
-      "fecha_fin": "2026-06-01"
+      "id": "legend_capsules_2026-04-24",
+      "nombre": "Legend Capsules",
+      "fecha_inicio": "2026-04-24",
+      "fecha_fin": "2030-01-01",
+      "caracteristicas": []
     }
   ],
-  "ultima_actualizacion": "2026-06-28T18:37:06Z"
+  "eventos": [
+    {
+      "id": "13th_anniversary_2026-06-19",
+      "nombre": "13th Anniversary",
+      "caracteristicas": [
+        "Celebrate 13 Years of The Battle Cats! This anniversary campaign runs in the English version from June 19th, 2026 to August 3rd, 2026, bringing the Nyanko Rangers theme, 13th Anniversary stages, Birthday Present!, special missions, Treasure Festivals, limited Gamatoto areas, Catfruit/Catseye item capsules, login stamps, and the return of Wildcat Slots II with huge Cat Food rewards."
+      ],
+      "fecha_inicio": "2026-06-19",
+      "fecha_fin": "2026-08-03"
+    },
+    {
+      "id": "wildcat_slots_2026-06-19",
+      "nombre": "Wildcat Slots",
+      "caracteristicas": [
+        "The Wildcat Slots is a free slot machine event accessed from the Cat Base menu during anniversaries and other special campaigns. Players can spin during each appearance for guaranteed Cat Food rewards on the first pull, with later anniversary versions increasing the first-spin payout such as 900 Cat Food for the 9th Anniversary and 1,000 Cat Food for the 10th Anniversary."
+      ],
+      "fecha_inicio": "2026-06-19",
+      "fecha_fin": "2026-07-01"
+    }
+  ],
+  "ultima_actualizacion": "2026-06-28T18:59:32Z"
 }
