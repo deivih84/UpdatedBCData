@@ -43,6 +43,16 @@
       "url": "https://battlecats.miraheze.org/wiki/Catseye"
     },
     {
+      "nombre": "Cats Eye Caverns",
+      "aliases": [
+        "Cats Eye Caverns",
+        "Catseye Caverns"
+      ],
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_cats_eye_caverns.png",
+      "descripcion": "No info :) this is a Gamatoto expedition area that gives Catseyes as rewards.",
+      "url": "https://battlecats.miraheze.org/wiki/Catseye"
+    },
+    {
       "nombre": "Arena of Destiny",
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_arena_of_destiny.png",
       "descripcion": "Introduced in Version 14.3 adds a new gimmick where applying status effects grant more points than killing enemies. More points will be awarded for units with fewer target Traits (not counting those gained from Talents). This rewards for this dojo are Treasure Chests, which contain exclusive Talent Orbs that can grant special abilities to the units that are given them.",

@@ -68,6 +68,14 @@ This repo is a **Battle Cats game data updater**. Actualiza un JSON con el calen
 - `all_events.json` — master list of events with `nombre`, `imagen_url`, `descripcion`, optional `url`
 - `all_gachas_jp.json` — JP equivalent of gachas
 
+### Image update workflow
+
+Cuando el usuario pida actualizar fotos, copia las imagenes a dos destinos:
+- Repo publico para usuarios con versiones antiguas: `C:\Users\forex\Documents\GitHub\UpdatedBCData\images`
+  - Unidades: `images\cats\`
+  - Enemigos: `images\enemies\`
+- App para la proxima actualizacion: `C:\Users\forex\StudioProjects\CatStats\app\src\main\res\drawable\`
+
 ### Archivos temporales (gitignored)
 
 - `.bc_state.json` — cuenta BC anónima y JWT token (generado por `fetch_bc_schedule.py` / `fetch_bc_events.py`)
