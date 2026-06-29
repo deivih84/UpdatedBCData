@@ -14454,8 +14454,8 @@
     "866": {
       "info": {
         "rarity": "EX",
-        "name_basic": "パックマン",
-        "names_evolved": "パックマンネコ",
+        "name_basic": "Pac-Man",
+        "names_evolved": "Pac-Man Cat",
         "obtain_method": "Special Cat Capsule - Pac Man Collaboration"
       },
       "stats": [
@@ -14467,8 +14467,8 @@
     "867": {
       "info": {
         "rarity": "EX",
-        "name_basic": "ネコブリンキー",
-        "names_evolved": "ネコブリンキーCC",
+        "name_basic": "Blinky Cat",
+        "names_evolved": "Blinky Cat CC",
         "obtain_method": "Special Cat Capsule - Pac Man Collaboration"
       },
       "stats": [
@@ -14480,8 +14480,8 @@
     "868": {
       "info": {
         "rarity": "EX",
-        "name_basic": "ネコインキー",
-        "names_evolved": "ネコインキーCC",
+        "name_basic": "Inky Cat",
+        "names_evolved": "Inky Cat CC",
         "obtain_method": "Special Cat Capsule - Pac Man Collaboration"
       },
       "stats": [
