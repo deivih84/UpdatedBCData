@@ -363,6 +363,8 @@ def parse_gatya_tsv(content):
             is_permanent = (end_d - today).days > MAX_END_DAYS
             if not is_permanent and (end_d < cutoff_past or start_d > cutoff_future):
                 continue
+            if is_permanent and start_d > today:
+                start_date = today.strftime("%Y-%m-%d")
 
             gacha_entries = _extract_gacha_entries(cols)
             if gacha_entries:
