@@ -69,8 +69,8 @@
       ]
     },
     {
-      "id": "13_year_celebration_miracle_selection_2026-07-06",
-      "nombre": "13 Year Celebration: Miracle Selection!",
+      "id": "miracle_selection_gacha_2026-07-06",
+      "nombre": "Miracle Selection Gacha",
       "fecha_inicio": "2026-07-06",
       "fecha_fin": "2026-07-11",
       "caracteristicas": []
@@ -103,8 +103,8 @@
       "caracteristicas": []
     },
     {
-      "id": "new_units_added_to_june_bride_capsules_2026-07-10",
-      "nombre": "New units added to June Bride Capsules",
+      "id": "june_bride_2026-07-10",
+      "nombre": "June Bride",
       "fecha_inicio": "2026-07-10",
       "fecha_fin": "2026-07-29",
       "caracteristicas": [
@@ -123,8 +123,8 @@
       ]
     },
     {
-      "id": "new_unit_lone_moon_lunos_added_special_capsules_featuring_powerful_limited_units_2026-07-11",
-      "nombre": "New unit Lone Moon Lunos added! Special Capsules featuring powerful limited units!",
+      "id": "superfest_2026-07-11",
+      "nombre": "Superfest",
       "fecha_inicio": "2026-07-11",
       "fecha_fin": "2026-07-20",
       "caracteristicas": []
