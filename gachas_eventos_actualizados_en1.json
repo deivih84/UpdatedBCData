@@ -1,6 +1,13 @@
 {
   "gachas": [
     {
+      "id": "limited_capsules_2026-06-26",
+      "nombre": "Limited Capsules",
+      "fecha_inicio": "2026-06-26",
+      "fecha_fin": "2026-07-03",
+      "caracteristicas": []
+    },
+    {
       "id": "best_of_the_best_gacha_2026-06-26",
       "nombre": "Best of the Best Gacha",
       "fecha_inicio": "2026-06-26",
@@ -274,5 +281,5 @@
       "fecha_fin": "2026-08-03"
     }
   ],
-  "ultima_actualizacion": "2026-07-02T19:10:44Z"
+  "ultima_actualizacion": "2026-07-03T02:03:51Z"
 }
