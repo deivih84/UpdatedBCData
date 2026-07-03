@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "gameVersion": "15.5",
+  "region": "jp",
+  "status": "published",
+  "revision": 1,
+  "generatedAt": "2026-07-03 20:11:15",
+  "needsHumanReview": true,
+  "sourceHashes": {
+    "wiki_15_5_miraheze": "sha256:b84559b3fcfcd360ade3db9e01617349db352e28dfe6bbb78c8479d4c6f2313b"
+  },
+  "copy": {
+    "source": "wiki_manual",
+    "headline": "Battle Cats JP 15.5",
+    "shortIntro": "A JP-first update with Pac-Man collaboration content, new units, new forms, fresh talents, more stages, and a handful of progression rewards."
+  },
+  "sections": [
+    {
+      "type": "release_dates",
+      "title": "Release Status",
+      "summary": "Japanese release: June 29, 2026. International release is still listed as TBA on the wiki, so this summary is assigned to JP only.",
+      "items": [
+        {
+          "name": "Japanese: June 29, 2026"
+        },
+        {
+          "name": "International: TBA"
+        }
+      ]
+    },
+    {
+      "type": "new_cats",
+      "title": "New Cats",
+      "summary": "Five units were added, with CRO ids 866 through 870. The headline addition is the Pac-Man collaboration, plus a new Ancient Egg for Summer Break Cats Paradise.",
+      "items": [
+        {
+          "catId": 866,
+          "name": "Pac-Man"
+        },
+        {
+          "catId": 867,
+          "name": "Blinky Cat"
+        },
+        {
+          "catId": 868,
+          "name": "Inky Cat"
+        },
+        {
+          "catId": 869,
+          "name": "Cat #869"
+        },
+        {
+          "catId": 870,
+          "name": "Ancient Egg: N207",
+          "rarity": "Special"
+        }
+      ]
+    },
+    {
+      "type": "new_forms",
+      "title": "New Forms",
+      "summary": "Three True Forms and one Ultra Form were added. Mightycat gains speed plus Curse and Surge immunity, Ninja Girl Tomoe gets stronger control, Ancient Egg: N207 becomes a usable battle form, and Mighty Thermae D-Lux gets an Ultra Form with Relic targeting and Toxic immunity.",
+      "items": [
+        {
+          "name": "Mightycat",
+          "forms": [
+            "True Form"
+          ]
+        },
+        {
+          "name": "Ninja Girl Tomoe",
+          "forms": [
+            "True Form"
+          ]
+        },
+        {
+          "catId": 870,
+          "name": "Ancient Egg: N207",
+          "forms": [
+            "True Form"
+          ]
+        },
+        {
+          "name": "Mighty Thermae D-Lux",
+          "forms": [
+            "Ultra Form"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "talents",
+      "title": "Talents and Ultra Talents",
+      "summary": "Baby Mola and Hattori Hanzo received new Talent sets. Queen Reika received Ultra Talents, including Sage Slayer, Attack Frequency Up, and Slow.",
+      "items": [
+        {
+          "name": "Baby Mola"
+        },
+        {
+          "name": "Hattori Hanzo"
+        },
+        {
+          "name": "Queen Reika",
+          "forms": [
+            "Ultra Talents"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "new_enemies",
+      "title": "New Enemies",
+      "summary": "Pac-Man collaboration enemies and one new regular enemy were added.",
+      "items": [
+        {
+          "name": "Inky Doge"
+        },
+        {
+          "name": "Clyde Gory"
+        },
+        {
+          "name": "Pinky Teacher Bear"
+        },
+        {
+          "name": "Blinky Kory"
+        },
+        {
+          "name": "Gigantic Pac-Man"
+        },
+        {
+          "name": "Cherries"
+        },
+        {
+          "name": "E-785"
+        }
+      ]
+    },
+    {
+      "type": "new_stages",
+      "title": "Stages",
+      "summary": "The update adds new Zero Legends maps, event stages, Pac-Man collaboration stages and gauntlets, Abyssal stages, Otherworld Colosseum content, plus 2-crown additions and several stage reward/energy/XP adjustments.",
+      "items": [
+        {
+          "name": "Zero Legends: ZL 33 and ZL 34"
+        },
+        {
+          "name": "Pac-Man Collaboration Event"
+        },
+        {
+          "name": "Gigantic Pac-Man Gauntlet"
+        },
+        {
+          "name": "Abyssal: Temptation's Symphony and Rashomon"
+        },
+        {
+          "name": "Otherworld Colosseum updates"
+        }
+      ]
+    },
+    {
+      "type": "cat_combos",
+      "title": "Cat Combos",
+      "summary": "Two combos were added: one for Slow effect support and one Pac-Man combo for Resistant effect support.",
+      "items": [
+        {
+          "name": "Traffic Safety Week",
+          "forms": [
+            "Slow Effects Up (M)"
+          ]
+        },
+        {
+          "name": "Pac-Man Fever",
+          "forms": [
+            "Resistant Effects Up (Sm)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "misc",
+      "title": "Other Changes",
+      "summary": "New User Rank rewards were added at 27,700, 27,800 and 27,900. Several units had their plus-level caps raised, and Gross Cat plus Ninja Cat now unlock after Cambodia instead of Philippines.",
+      "items": [
+        {
+          "name": "27,700: +5 Legend Catseyes"
+        },
+        {
+          "name": "27,800: +5 Special Catseyes"
+        },
+        {
+          "name": "27,900: +5 Rare Catseyes"
+        },
+        {
+          "name": "Plus-level cap increases"
+        },
+        {
+          "name": "Earlier Gross Cat and Ninja Cat unlock"
+        }
+      ]
+    }
+  ],
+  "reviewNotes": [
+    "Manual one-off summary from https://battlecats.miraheze.org/wiki/Version_15.5_Update.",
+    "Marked for human review because this was not generated from the cats/stages/enemies data diff pipeline.",
+    "The wiki lists International as TBA, so this entry is JP only."
+  ]
+}

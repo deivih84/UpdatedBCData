@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "lastUpdate": "2026-07-03 20:11:15",
+  "regions": {
+    "en": {
+      "gameVersion": "15.4",
+      "summaryPath": "update_summaries/en/15.4.json",
+      "status": "published",
+      "sourceHashes": {
+        "wiki_15_4_miraheze": "sha256:a2526eb03936c0dfcf4ca0955ceab45f279fc5b03feee01cb86633186ad5f834"
+      }
+    },
+    "jp": {
+      "gameVersion": "15.5",
+      "summaryPath": "update_summaries/jp/15.5.json",
+      "status": "published",
+      "sourceHashes": {
+        "wiki_15_5_miraheze": "sha256:b84559b3fcfcd360ade3db9e01617349db352e28dfe6bbb78c8479d4c6f2313b"
+      }
+    }
+  }
+}

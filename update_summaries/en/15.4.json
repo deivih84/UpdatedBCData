@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "gameVersion": "15.4",
+  "region": "en",
+  "status": "published",
+  "revision": 1,
+  "generatedAt": "2026-07-03 20:11:15",
+  "needsHumanReview": true,
+  "sourceHashes": {
+    "wiki_15_4_miraheze": "sha256:a2526eb03936c0dfcf4ca0955ceab45f279fc5b03feee01cb86633186ad5f834"
+  },
+  "copy": {
+    "source": "wiki_manual",
+    "headline": "Battle Cats Global 15.4",
+    "shortIntro": "Global 15.4 brings the big Speed Up change, 13th Anniversary content, Fate collaboration additions, new forms, talents, stages, and text/name updates."
+  },
+  "sections": [
+    {
+      "type": "release_dates",
+      "title": "Release Status",
+      "summary": "Japanese release: May 25, 2026. International release: June 10, 2026.",
+      "items": [
+        {
+          "name": "Japanese: May 25, 2026"
+        },
+        {
+          "name": "International: June 10, 2026"
+        }
+      ]
+    },
+    {
+      "type": "quality_of_life",
+      "title": "Speed Up and Early Game",
+      "summary": "Infinite Speed Up and 3x Speed Up moved out of Gold Membership and became available to all players. Gold members now use Gold Cat CPUs for only 1 Cat CPU, and the old 30-day Beginner Daily Bonus was replaced with a 7-day version after beating Japan in Empire of Cats Chapter 1.",
+      "items": [
+        {
+          "name": "Infinite Speed Up for all players"
+        },
+        {
+          "name": "Consumable Speed Up activates 3x speed"
+        },
+        {
+          "name": "Gold Cat CPU battle skips cost 1 Cat CPU"
+        },
+        {
+          "name": "New 7-day Beginner Daily Bonus"
+        }
+      ]
+    },
+    {
+      "type": "new_cats",
+      "title": "New Cats",
+      "summary": "Five units were added, with CRO ids 861 through 865, including Dragon Emperors, June Bride, and Fate collaboration units.",
+      "items": [
+        {
+          "catId": 861,
+          "name": "Vornado"
+        },
+        {
+          "catId": 862,
+          "name": "Hanzo the Betrothed"
+        },
+        {
+          "catId": 863,
+          "name": "The Invisible Cat"
+        },
+        {
+          "catId": 864,
+          "name": "Shirou Emiya"
+        },
+        {
+          "catId": 865,
+          "name": "True Assassin"
+        }
+      ]
+    },
+    {
+      "type": "new_forms",
+      "title": "New Form",
+      "summary": "Narita Kaihime received an Ultra Form with higher HP, range, speed, Savage Blow chance, Explosion, and Sage Slayer.",
+      "items": [
+        {
+          "catId": 496,
+          "name": "Narita Kaihime",
+          "forms": [
+            "Ultra Form"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "talents",
+      "title": "Talents and Ultra Talents",
+      "summary": "Saber, Sakura Matou, and Mighty Carrowsell received Talents. Sharpshooter Saki received Ultra Talents, including Target Dark, Strengthen, and Explosion Immunity.",
+      "items": [
+        {
+          "name": "Saber"
+        },
+        {
+          "name": "Sakura Matou"
+        },
+        {
+          "name": "Mighty Carrowsell"
+        },
+        {
+          "name": "Sharpshooter Saki",
+          "forms": [
+            "Ultra Talents"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "new_enemies",
+      "title": "New Enemy",
+      "summary": "True Assassin was added as a new enemy.",
+      "items": [
+        {
+          "name": "True Assassin"
+        }
+      ]
+    },
+    {
+      "type": "new_stages",
+      "title": "Stages",
+      "summary": "The update adds New Horizon in Zero Legends, Fate collaboration stages, True Assassin Assault, Abyssal stages, Otherworld Colosseum and Ranking Dojo content, plus 2-crown additions and many reward/energy/XP adjustments.",
+      "items": [
+        {
+          "name": "Zero Legends: New Horizon"
+        },
+        {
+          "name": "Hidden Holy Grail War"
+        },
+        {
+          "name": "True Assassin Assault"
+        },
+        {
+          "name": "Abyssal: Bottom of the Swamp and Prelude to Evil"
+        },
+        {
+          "name": "Otherworld Colosseum and Ranking Dojo updates"
+        }
+      ]
+    },
+    {
+      "type": "cat_combos",
+      "title": "Cat Combo",
+      "summary": "One combo was added for Massive Damage effect support.",
+      "items": [
+        {
+          "name": "Wilderness Wail",
+          "forms": [
+            "Massive Damage Effects Up (Sm)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "misc",
+      "title": "Text, Rewards, and Anniversary Content",
+      "summary": "Global also receives 13th Anniversary content from JP 15.0, new User Rank rewards, several Ancient Egg plus-level cap increases, rewritten story openings/endings, description updates, and name changes such as Legend Cats becoming Mythic Cats.",
+      "items": [
+        {
+          "name": "13th Anniversary content"
+        },
+        {
+          "name": "User Rank rewards at 10, 27,400, 27,500 and 27,600"
+        },
+        {
+          "name": "Legend Cats renamed to Mythic Cats"
+        },
+        {
+          "name": "Kalisa and Newtone name updates"
+        },
+        {
+          "name": "Opening and ending text revisions"
+        }
+      ]
+    }
+  ],
+  "reviewNotes": [
+    "Manual one-off summary from https://battlecats.miraheze.org/wiki/Version_15.4_Update.",
+    "Marked for human review because this was not generated from the cats/stages/enemies data diff pipeline.",
+    "The user requested 15.4 for Global because 15.5 is not yet out for Global."
+  ]
+}
