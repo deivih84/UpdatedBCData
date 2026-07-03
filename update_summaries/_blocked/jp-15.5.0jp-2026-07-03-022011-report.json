@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "status": "blocked",
+  "region": "jp",
+  "detectedVersion": "15.5.0jp",
+  "generatedAt": "2026-07-03 02:20:11",
+  "errors": [
+    "No meaningful data change exists"
+  ],
+  "sourceHashes": {
+    "cats_data.json": "sha256:b3cd46b8594dbe55564cdaf8627151c7fa739b7da29a14e92b2c8faf62b16c3b",
+    "stages_data.json": "sha256:cd59fdbbe27ef9a038461678fba5556a0d3cb608ae9edede8a0ec95bb24b929c",
+    "enemies_data.json": "sha256:ac3a098792af56144edd314e0a1aa7d2a74769d4d9206eec24bad950e8584aa1",
+    "data_version.json": "sha256:495792547b46904201baef98358b0e19c8e2c6780abdba0b5ff197e2de21fbfa"
+  },
+  "suggestedNextAction": "Fix the failed source data or validation errors, then rerun build_update_summary.py."
+}
