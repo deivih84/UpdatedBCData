@@ -4,7 +4,7 @@
   "region": "en",
   "status": "published",
   "revision": 1,
-  "generatedAt": "2026-07-03 20:11:15",
+  "generatedAt": "2026-07-03 20:28:35",
   "needsHumanReview": true,
   "sourceHashes": {
     "wiki_15_4_miraheze": "sha256:a2526eb03936c0dfcf4ca0955ceab45f279fc5b03feee01cb86633186ad5f834"
@@ -94,19 +94,23 @@
       "summary": "Saber, Sakura Matou, and Mighty Carrowsell received Talents. Sharpshooter Saki received Ultra Talents, including Target Dark, Strengthen, and Explosion Immunity.",
       "items": [
         {
-          "name": "Saber"
+          "name": "Saber",
+          "catId": 362
         },
         {
-          "name": "Sakura Matou"
+          "name": "Sakura Matou",
+          "catId": 456
         },
         {
-          "name": "Mighty Carrowsell"
+          "name": "Mighty Carrowsell",
+          "catId": 674
         },
         {
           "name": "Sharpshooter Saki",
           "forms": [
             "Ultra Talents"
-          ]
+          ],
+          "catId": 533
         }
       ]
     },
@@ -181,6 +185,7 @@
   "reviewNotes": [
     "Manual one-off summary from https://battlecats.miraheze.org/wiki/Version_15.4_Update.",
     "Marked for human review because this was not generated from the cats/stages/enemies data diff pipeline.",
-    "The user requested 15.4 for Global because 15.5 is not yet out for Global."
+    "The user requested 15.4 for Global because 15.5 is not yet out for Global.",
+    "Cat ids enriched from cats_data.json so the app can render summary thumbnails."
   ]
 }
