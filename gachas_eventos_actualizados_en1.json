@@ -150,16 +150,16 @@
       ]
     },
     {
-      "id": "platinum_capsules_2026-07-09",
+      "id": "platinum_capsules_2026-07-10",
       "nombre": "Platinum Capsules",
-      "fecha_inicio": "2026-07-09",
+      "fecha_inicio": "2026-07-10",
       "fecha_fin": "2030-01-01",
       "caracteristicas": []
     },
     {
-      "id": "legend_capsules_2026-07-09",
+      "id": "legend_capsules_2026-07-10",
       "nombre": "Legend Capsules",
-      "fecha_inicio": "2026-07-09",
+      "fecha_inicio": "2026-07-10",
       "fecha_fin": "2030-01-01",
       "caracteristicas": []
     }
@@ -281,5 +281,5 @@
       "fecha_fin": "2026-08-03"
     }
   ],
-  "ultima_actualizacion": "2026-07-09T19:23:37Z"
+  "ultima_actualizacion": "2026-07-10T02:02:42Z"
 }
