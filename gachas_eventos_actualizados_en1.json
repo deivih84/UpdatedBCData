@@ -1,101 +1,6 @@
 {
   "gachas": [
     {
-      "id": "limited_capsules_2026-06-26",
-      "nombre": "Limited Capsules",
-      "fecha_inicio": "2026-06-26",
-      "fecha_fin": "2026-07-03",
-      "caracteristicas": []
-    },
-    {
-      "id": "best_of_the_best_gacha_2026-06-26",
-      "nombre": "Best of the Best Gacha",
-      "fecha_inicio": "2026-06-26",
-      "fecha_fin": "2026-07-03",
-      "caracteristicas": []
-    },
-    {
-      "id": "neo_best_of_the_best_gacha_2026-06-26",
-      "nombre": "Neo Best of the Best Gacha",
-      "fecha_inicio": "2026-06-26",
-      "fecha_fin": "2026-07-03",
-      "caracteristicas": []
-    },
-    {
-      "id": "the_almighties_2026-06-26",
-      "nombre": "The Almighties",
-      "fecha_inicio": "2026-06-26",
-      "fecha_fin": "2026-06-30",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "elemental_pixies_2026-06-30",
-      "nombre": "Elemental Pixies",
-      "fecha_inicio": "2026-06-30",
-      "fecha_fin": "2026-07-03",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "uberfest_2026-07-03",
-      "nombre": "Uberfest",
-      "fecha_inicio": "2026-07-03",
-      "fecha_fin": "2026-07-06",
-      "caracteristicas": []
-    },
-    {
-      "id": "iron_legion_2026-07-03",
-      "nombre": "Iron Legion",
-      "fecha_inicio": "2026-07-03",
-      "fecha_fin": "2026-07-07",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "luga_families_2026-07-03",
-      "nombre": "Luga Families",
-      "fecha_inicio": "2026-07-03",
-      "fecha_fin": "2026-07-07",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "miracle_selection_gacha_2026-07-06",
-      "nombre": "Miracle Selection Gacha",
-      "fecha_inicio": "2026-07-06",
-      "fecha_fin": "2026-07-11",
-      "caracteristicas": []
-    },
-    {
-      "id": "spooky_cuties_2026-07-07",
-      "nombre": "Spooky Cuties",
-      "fecha_inicio": "2026-07-07",
-      "fecha_fin": "2026-07-10",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "dragon_emperors_2026-07-07",
-      "nombre": "Dragon Emperors",
-      "fecha_inicio": "2026-07-07",
-      "fecha_fin": "2026-07-10",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
       "id": "limited_capsules_2026-07-10",
       "nombre": "Limited Capsules",
       "fecha_inicio": "2026-07-10",
@@ -108,16 +13,8 @@
       "fecha_inicio": "2026-07-10",
       "fecha_fin": "2026-07-29",
       "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "galaxy_gals_2026-07-10",
-      "nombre": "Galaxy Gals",
-      "fecha_inicio": "2026-07-10",
-      "fecha_fin": "2026-07-13",
-      "caracteristicas": [
+        "G",
+        "Guaranteed",
         "P",
         "Platinum Shard"
       ]
@@ -150,16 +47,194 @@
       ]
     },
     {
-      "id": "platinum_capsules_2026-07-11",
+      "id": "dark_heroes_2026-07-17",
+      "nombre": "Dark Heroes",
+      "fecha_inicio": "2026-07-17",
+      "fecha_fin": "2026-07-20",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "ultra_4_selection_gacha_2026-07-20",
+      "nombre": "Ultra 4 Selection Gacha",
+      "fecha_inicio": "2026-07-20",
+      "fecha_fin": "2026-07-24",
+      "caracteristicas": []
+    },
+    {
+      "id": "units_from_busters_sets_join_forces_2026-07-20",
+      "nombre": "Units from Busters sets join forces!",
+      "fecha_inicio": "2026-07-20",
+      "fecha_fin": "2026-07-24",
+      "caracteristicas": []
+    },
+    {
+      "id": "limited_capsules_2026-07-24",
+      "nombre": "Limited Capsules",
+      "fecha_inicio": "2026-07-24",
+      "fecha_fin": "2026-08-03",
+      "caracteristicas": []
+    },
+    {
+      "id": "new_unit_vornado_added_dragon_kings_of_overwhelming_power_2026-07-24",
+      "nombre": "New unit Vornado added! Dragon kings of overwhelming power!",
+      "fecha_inicio": "2026-07-24",
+      "fecha_fin": "2026-07-27",
+      "caracteristicas": [
+        "G",
+        "Guaranteed"
+      ]
+    },
+    {
+      "id": "the_almighties_2026-07-24",
+      "nombre": "The Almighties",
+      "fecha_inicio": "2026-07-24",
+      "fecha_fin": "2026-07-27",
+      "caracteristicas": [
+        "G",
+        "Guaranteed"
+      ]
+    },
+    {
+      "id": "the_dynamites_2026-07-27",
+      "nombre": "The Dynamites",
+      "fecha_inicio": "2026-07-27",
+      "fecha_fin": "2026-07-29",
+      "caracteristicas": [
+        "G",
+        "Guaranteed"
+      ]
+    },
+    {
+      "id": "elemental_pixies_2026-07-27",
+      "nombre": "Elemental Pixies",
+      "fecha_inicio": "2026-07-27",
+      "fecha_fin": "2026-07-29",
+      "caracteristicas": [
+        "G",
+        "Guaranteed"
+      ]
+    },
+    {
+      "id": "superfest_2026-07-29",
+      "nombre": "Superfest",
+      "fecha_inicio": "2026-07-29",
+      "fecha_fin": "2026-08-03",
+      "caracteristicas": []
+    },
+    {
+      "id": "luga_families_2026-07-29",
+      "nombre": "Luga Families",
+      "fecha_inicio": "2026-07-29",
+      "fecha_fin": "2026-08-01",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "iron_legion_2026-07-29",
+      "nombre": "Iron Legion",
+      "fecha_inicio": "2026-07-29",
+      "fecha_fin": "2026-08-01",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "galaxy_gals_2026-08-01",
+      "nombre": "Galaxy Gals",
+      "fecha_inicio": "2026-08-01",
+      "fecha_fin": "2026-08-03",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "spooky_cuties_2026-08-01",
+      "nombre": "Spooky Cuties",
+      "fecha_inicio": "2026-08-01",
+      "fecha_fin": "2026-08-03",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "ultra_souls_2026-08-03",
+      "nombre": "Ultra Souls",
+      "fecha_inicio": "2026-08-03",
+      "fecha_fin": "2026-08-05",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "dark_heroes_2026-08-03",
+      "nombre": "Dark Heroes",
+      "fecha_inicio": "2026-08-03",
+      "fecha_fin": "2026-08-05",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "wargods_vajiras_2026-08-03",
+      "nombre": "Wargods Vajiras",
+      "fecha_inicio": "2026-08-03",
+      "fecha_fin": "2026-08-05",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "the_dynamites_2026-08-05",
+      "nombre": "The Dynamites",
+      "fecha_inicio": "2026-08-05",
+      "fecha_fin": "2026-08-07",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "the_almighties_2026-08-05",
+      "nombre": "The Almighties",
+      "fecha_inicio": "2026-08-05",
+      "fecha_fin": "2026-08-07",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "vornado_added_dragon_kings_of_overwhelming_power_2026-08-05",
+      "nombre": "Vornado added! Dragon kings of overwhelming power!",
+      "fecha_inicio": "2026-08-05",
+      "fecha_fin": "2026-08-07",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "platinum_capsules_2026-07-15",
       "nombre": "Platinum Capsules",
-      "fecha_inicio": "2026-07-11",
+      "fecha_inicio": "2026-07-15",
       "fecha_fin": "2030-01-01",
       "caracteristicas": []
     },
     {
-      "id": "legend_capsules_2026-07-11",
+      "id": "legend_capsules_2026-07-15",
       "nombre": "Legend Capsules",
-      "fecha_inicio": "2026-07-11",
+      "fecha_inicio": "2026-07-15",
       "fecha_fin": "2030-01-01",
       "caracteristicas": []
     }
@@ -281,5 +356,5 @@
       "fecha_fin": "2026-08-03"
     }
   ],
-  "ultima_actualizacion": "2026-07-15T01:27:53Z"
+  "ultima_actualizacion": "2026-07-15T07:51:53Z"
 }
