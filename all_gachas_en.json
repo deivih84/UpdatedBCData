@@ -598,7 +598,9 @@
     {
       "nombre": "Dragon Emperors",
       "aliases": [
-        "Dragon Emperors"
+        "Dragon Emperors",
+        "New unit Vornado added! Dragon kings of overwhelming power!",
+        "Vornado added! Dragon kings of overwhelming power!"
       ],
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_dragons.png",
       "rareChance": 6970,
@@ -1880,7 +1882,8 @@
     {
       "nombre": "Busterfest",
       "aliases": [
-        "Busterfest"
+        "Busterfest",
+        "Units from Busters sets join forces!"
       ],
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_busterfest.png",
       "rareChance": 0,
