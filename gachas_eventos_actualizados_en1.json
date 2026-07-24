@@ -20,6 +20,43 @@
       ]
     },
     {
+      "id": "superfest_2026-07-11",
+      "nombre": "Superfest",
+      "fecha_inicio": "2026-07-11",
+      "fecha_fin": "2026-07-20",
+      "caracteristicas": []
+    },
+    {
+      "id": "wargods_vajiras_2026-07-13",
+      "nombre": "Wargods Vajiras",
+      "fecha_inicio": "2026-07-13",
+      "fecha_fin": "2026-07-15",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "ultra_souls_2026-07-15",
+      "nombre": "Ultra Souls",
+      "fecha_inicio": "2026-07-15",
+      "fecha_fin": "2026-07-17",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "dark_heroes_2026-07-17",
+      "nombre": "Dark Heroes",
+      "fecha_inicio": "2026-07-17",
+      "fecha_fin": "2026-07-20",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
       "id": "ultra_4_selection_gacha_2026-07-20",
       "nombre": "Ultra 4 Selection Gacha",
       "fecha_inicio": "2026-07-20",
@@ -310,5 +347,5 @@
       "fecha_fin": "2026-08-03"
     }
   ],
-  "ultima_actualizacion": "2026-07-24T08:09:09Z"
+  "ultima_actualizacion": "2026-07-24T13:18:57Z"
 }
