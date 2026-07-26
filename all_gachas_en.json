@@ -1887,13 +1887,13 @@
         "Units from Busters sets join forces!"
       ],
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_busterfest.png",
-      "rareChance": 0,
-      "supaChance": 0,
-      "uberChance": 0,
+      "rareChance": 6800,
+      "supaChance": 2500,
+      "uberChance": 700,
       "legendChance": 0,
-      "rares": [],
-      "super_rares": [],
-      "ubers": [],
+      "rares": [523, 495, 376, 325, 308, 198, 197, 149, 148, 147, 146, 145, 58, 56, 55, 52, 51, 50, 49, 48, 47, 46, 41, 38, 37],
+      "super_rares": [129, 131, 144, 200, 237, 238, 239, 522, 377, 307, 199, 153, 152, 151, 150, 61, 40, 39, 36, 35, 33, 32, 31, 30],
+      "ubers": [59, 75, 83, 84, 106, 107, 135, 143, 196, 286, 43, 72, 194, 240, 258, 436, 519, 559, 42, 76, 86, 87, 105, 124, 136, 212, 283, 305, 533, 620, 57, 138, 170, 261, 316, 358, 397, 715, 647, 649, 655, 660, 668, 674, 682, 686],
       "legends": []
     },
     {
@@ -1902,14 +1902,14 @@
         "Royalfest"
       ],
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_royalfest.png",
-      "rareChance": 0,
-      "supaChance": 0,
-      "uberChance": 0,
-      "legendChance": 0,
-      "rares": [],
-      "super_rares": [],
-      "ubers": [],
-      "legends": []
+      "rareChance": 6940,
+      "supaChance": 2500,
+      "uberChance": 500,
+      "legendChance": 60,
+      "rares": [523, 495, 376, 325, 308, 198, 197, 149, 148, 147, 146, 145, 58, 56, 55, 52, 51, 50, 49, 48, 47, 46, 41, 38, 37],
+      "super_rares": [522, 377, 307, 199, 153, 152, 151, 150, 61, 40, 39, 36, 35, 33, 32, 31, 30],
+      "ubers": [143, 496, 619, 633, 212, 271, 682, 302, 687, 714, 330, 644, 661, 612],
+      "legends": [448, 449, 450, 451, 455, 461, 463, 478, 481, 493, 544]
     },
     {
       "nombre": "Dynastyfest",
@@ -2480,13 +2480,13 @@
         "Gals of Summer Sunshine"
       ],
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_gals_of_summer_sunshine.png",
-      "rareChance": 0,
-      "supaChance": 0,
-      "uberChance": 0,
+      "rareChance": 7000,
+      "supaChance": 2500,
+      "uberChance": 500,
       "legendChance": 0,
-      "rares": [],
-      "super_rares": [],
-      "ubers": [],
+      "rares": [523, 495, 376, 325, 308, 198, 197, 149, 148, 147, 146, 145, 58, 56, 55, 52, 51, 50, 49, 48, 47, 46, 41, 38, 37],
+      "super_rares": [645, 667, 684, 276, 565, 566, 522, 377, 307, 199, 153, 152, 151, 150, 61, 40, 39, 36, 35, 33, 32, 31, 30],
+      "ubers": [820, 666, 563, 354, 438, 494],
       "legends": []
     },
     {
@@ -2495,13 +2495,13 @@
         "Gals of Summer Blue Ocean"
       ],
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_gals_of_summer_blue_ocean.png",
-      "rareChance": 0,
-      "supaChance": 0,
-      "uberChance": 0,
+      "rareChance": 7000,
+      "supaChance": 2500,
+      "uberChance": 500,
       "legendChance": 0,
-      "rares": [],
-      "super_rares": [],
-      "ubers": [],
+      "rares": [523, 495, 376, 325, 308, 198, 197, 149, 148, 147, 146, 145, 58, 56, 55, 52, 51, 50, 49, 48, 47, 46, 41, 38, 37],
+      "super_rares": [654, 688, 694, 276, 565, 566, 522, 377, 307, 199, 153, 152, 151, 150, 61, 40, 39, 36, 35, 33, 32, 31, 30],
+      "ubers": [275, 759, 714, 614, 564, 274],
       "legends": []
     },
     {
@@ -2720,13 +2720,13 @@
         "Halloween Gacha"
       ],
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_halloween.png",
-      "rareChance": 0,
-      "supaChance": 0,
-      "uberChance": 0,
+      "rareChance": 7000,
+      "supaChance": 2500,
+      "uberChance": 500,
       "legendChance": 0,
-      "rares": [],
-      "super_rares": [],
-      "ubers": [],
+      "rares": [523, 495, 376, 325, 308, 198, 197, 149, 148, 147, 146, 145, 58, 56, 55, 52, 51, 50, 49, 48, 47, 46, 41, 38, 37],
+      "super_rares": [773, 228, 629, 636, 662, 522, 377, 307, 199, 153, 152, 151, 150, 61, 40, 39, 36, 35, 33, 32, 31, 30],
+      "ubers": [772, 683, 229, 230, 302, 570],
       "legends": []
     },
     {
@@ -3646,6 +3646,7 @@
         "Summer Break Survival Capsules"
       ],
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_summer_break.png",
+      "gatos_ids": [765, 766, 767, 813],
       "rareChance": 0,
       "supaChance": 0,
       "uberChance": 0,
@@ -3661,6 +3662,7 @@
         "Medal King's Palace Capsules"
       ],
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_medal_king_capsules.png",
+      "gatos_ids": [342, 375, 635, 689, 726],
       "rareChance": 0,
       "supaChance": 0,
       "uberChance": 0,
@@ -3676,6 +3678,7 @@
         "Summer Break Capsules Paradise"
       ],
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_summer_break_paradise.png",
+      "gatos_ids": [342, 375, 822, 870],
       "rareChance": 0,
       "supaChance": 0,
       "uberChance": 0,
@@ -3706,13 +3709,13 @@
         "Best of the Best Gacha"
       ],
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_best_of_the_best.png",
-      "rareChance": 6970,
+      "rareChance": 7000,
       "supaChance": 2500,
       "uberChance": 500,
-      "legendChance": 30,
-      "rares": [],
-      "super_rares": [],
-      "ubers": [],
+      "legendChance": 0,
+      "rares": [523, 495, 376, 325, 308, 198, 197, 149, 148, 147, 146, 145, 58, 56, 55, 52, 51, 50, 49, 48, 47, 46, 41, 38, 37],
+      "super_rares": [520, 522, 377, 307, 199, 153, 152, 151, 150, 61, 40, 39, 36, 35, 33, 32, 31, 30],
+      "ubers": [124, 625, 502, 360, 59, 86, 322, 226, 723, 306, 607, 758, 435],
       "legends": []
     },
     {
@@ -3721,13 +3724,13 @@
         "Neo Best of the Best Gacha"
       ],
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_neo_best_of_the_best.png",
-      "rareChance": 6970,
+      "rareChance": 7000,
       "supaChance": 2500,
       "uberChance": 500,
-      "legendChance": 30,
-      "rares": [],
-      "super_rares": [],
-      "ubers": [],
+      "legendChance": 0,
+      "rares": [523, 495, 376, 325, 308, 198, 197, 149, 148, 147, 146, 145, 58, 56, 55, 52, 51, 50, 49, 48, 47, 46, 41, 38, 37],
+      "super_rares": [520, 522, 377, 307, 199, 153, 152, 151, 150, 61, 40, 39, 36, 35, 33, 32, 31, 30],
+      "ubers": [158, 240, 351, 655, 617, 83, 525, 634, 439, 594, 830, 810, 484],
       "legends": []
     },
     {
