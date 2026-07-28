@@ -1,6 +1,18 @@
 {
   "gachas": [
     {
+      "id": "june_bride_2026-07-10",
+      "nombre": "June Bride",
+      "fecha_inicio": "2026-07-10",
+      "fecha_fin": "2026-07-29",
+      "caracteristicas": [
+        "G",
+        "Guaranteed",
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
       "id": "the_dynamites_2026-07-27",
       "nombre": "The Dynamites",
       "fecha_inicio": "2026-07-27",
