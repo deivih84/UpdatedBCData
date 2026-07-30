@@ -1,6 +1,13 @@
 {
   "gachas": [
     {
+      "id": "limited_capsules_2026-07-10",
+      "nombre": "Limited Capsules",
+      "fecha_inicio": "2026-07-10",
+      "fecha_fin": "2026-07-17",
+      "caracteristicas": []
+    },
+    {
       "id": "june_bride_2026-07-10",
       "nombre": "June Bride",
       "fecha_inicio": "2026-07-10",
@@ -10,6 +17,84 @@
         "Guaranteed",
         "P",
         "Platinum Shard"
+      ]
+    },
+    {
+      "id": "superfest_2026-07-11",
+      "nombre": "Superfest",
+      "fecha_inicio": "2026-07-11",
+      "fecha_fin": "2026-07-20",
+      "caracteristicas": []
+    },
+    {
+      "id": "wargods_vajiras_2026-07-13",
+      "nombre": "Wargods Vajiras",
+      "fecha_inicio": "2026-07-13",
+      "fecha_fin": "2026-07-15",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "ultra_souls_2026-07-15",
+      "nombre": "Ultra Souls",
+      "fecha_inicio": "2026-07-15",
+      "fecha_fin": "2026-07-17",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "dark_heroes_2026-07-17",
+      "nombre": "Dark Heroes",
+      "fecha_inicio": "2026-07-17",
+      "fecha_fin": "2026-07-20",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "ultra_4_selection_gacha_2026-07-20",
+      "nombre": "Ultra 4 Selection Gacha",
+      "fecha_inicio": "2026-07-20",
+      "fecha_fin": "2026-07-24",
+      "caracteristicas": []
+    },
+    {
+      "id": "busterfest_2026-07-20",
+      "nombre": "Busterfest",
+      "fecha_inicio": "2026-07-20",
+      "fecha_fin": "2026-07-24",
+      "caracteristicas": []
+    },
+    {
+      "id": "limited_capsules_2026-07-24",
+      "nombre": "Limited Capsules",
+      "fecha_inicio": "2026-07-24",
+      "fecha_fin": "2026-08-03",
+      "caracteristicas": []
+    },
+    {
+      "id": "dragon_emperors_2026-07-24",
+      "nombre": "Dragon Emperors",
+      "fecha_inicio": "2026-07-24",
+      "fecha_fin": "2026-07-27",
+      "caracteristicas": [
+        "G",
+        "Guaranteed"
+      ]
+    },
+    {
+      "id": "the_almighties_2026-07-24",
+      "nombre": "The Almighties",
+      "fecha_inicio": "2026-07-24",
+      "fecha_fin": "2026-07-27",
+      "caracteristicas": [
+        "G",
+        "Guaranteed"
       ]
     },
     {
@@ -262,5 +347,5 @@
       "fecha_fin": "2026-08-03"
     }
   ],
-  "ultima_actualizacion": "2026-07-29T08:22:24Z"
+  "ultima_actualizacion": "2026-07-30T13:28:56Z"
 }
