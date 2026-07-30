@@ -98,6 +98,30 @@ class FestivalResolutionTests(unittest.TestCase):
 
         self.assertEqual(name, text)
 
+    def test_repository_catalog_resolves_current_and_previous_festivals(self):
+        by_id, alias_db = schedule._load_name_dbs()
+        current = festival_entry(
+            1061,
+            "Squire Luno added! Special Capsules featuring powerful limited units!",
+            2600,
+            900,
+        )
+        previous = festival_entry(
+            1051,
+            "New unit Lone Moon Lunos added! Special Capsules featuring powerful limited units!",
+            2500,
+            1000,
+        )
+
+        self.assertEqual(
+            schedule._resolve_gacha_name(current, by_id, alias_db),
+            "Uberfest",
+        )
+        self.assertEqual(
+            schedule._resolve_gacha_name(previous, by_id, alias_db),
+            "Superfest",
+        )
+
 
 if __name__ == "__main__":
     unittest.main()
