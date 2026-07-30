@@ -302,6 +302,10 @@ def _extract_gacha_entries(cols):
 
             additional_mask  = int(cols[idx + 3])
             uber_guarantee   = int(cols[idx + uber_guarantee_off]) if (idx + uber_guarantee_off) < len(cols) else 0
+            rare_chance       = int(cols[idx + 6])
+            super_chance      = int(cols[idx + 8])
+            uber_chance       = int(cols[idx + 10])
+            legend_chance     = int(cols[idx + 12])
             raw_name          = cols[idx + name_off] if (idx + name_off) < len(cols) else ""
             tsv_name, tsv_full = _clean_tsv_name(raw_name)
 
@@ -315,6 +319,10 @@ def _extract_gacha_entries(cols):
                 "lucky_ticket":    bool(additional_mask & MASK_LUCKY),
                 "platinum_shard":  bool(additional_mask & MASK_SHARD),
                 "capsule_5":       bool(additional_mask & MASK_CAPSULE),
+                "rare_chance":     rare_chance,
+                "super_chance":    super_chance,
+                "uber_chance":     uber_chance,
+                "legend_chance":   legend_chance,
             })
             idx += entry_width
 
@@ -416,6 +424,71 @@ def _load_name_dbs():
     return by_id, alias_db
 
 
+FESTIVAL_RATE_SIGNATURES = {
+    "Superfest": (2500, 1000, 30),
+    "Uberfest": (2600, 900, 30),
+    "Epicfest": (2600, 900, 30),
+}
+SPECIAL_FESTIVAL_TEXT = "special capsules featuring powerful limited units"
+
+
+def _festival_rate_matches(name, entry):
+    """Return whether a festival candidate matches the rates published by Ponos."""
+    expected = FESTIVAL_RATE_SIGNATURES.get(name)
+    if expected is None:
+        return True
+    actual = (
+        entry.get("super_chance"),
+        entry.get("uber_chance"),
+        entry.get("legend_chance"),
+    )
+    return actual == expected
+
+
+def _resolve_gacha_name(entry, by_id, alias_db):
+    """Resolve a canonical name without confusing festivals with different rates."""
+    def valid(candidate):
+        return candidate if candidate and _festival_rate_matches(candidate, entry) else None
+
+    canonical = valid(by_id.get(entry["gacha_id"]))
+
+    if canonical is None:
+        tsv_full = entry.get("tsv_full", "")
+        if tsv_full:
+            canonical = valid(alias_db.get(tsv_full.lower()))
+
+    if canonical is None:
+        tsv_name = entry.get("tsv_name", "")
+        if tsv_name:
+            canonical = valid(alias_db.get(tsv_name.lower()))
+
+    if canonical is None:
+        tsv_full_lower = entry.get("tsv_full", "").lower()
+        best_match_len = 0
+        for alias_lower, candidate in alias_db.items():
+            if len(alias_lower) < 8:
+                continue
+            if (tsv_full_lower.startswith(alias_lower)
+                    or alias_lower.startswith(tsv_full_lower)
+                    or alias_lower in tsv_full_lower
+                    or tsv_full_lower in alias_lower):
+                candidate = valid(candidate)
+                if candidate and len(alias_lower) > best_match_len:
+                    best_match_len = len(alias_lower)
+                    canonical = candidate
+
+    tsv_full_lower = entry.get("tsv_full", "").lower()
+    if (canonical is None
+            and SPECIAL_FESTIVAL_TEXT in tsv_full_lower
+            and _festival_rate_matches("Superfest", entry)):
+        canonical = "Superfest"
+
+    if canonical is None:
+        canonical = entry.get("tsv_name") or None
+
+    return canonical if canonical and _is_valid_name(canonical) else None
+
+
 def _is_valid_name(name):
     """Return False if name is empty, too short, garbled, or a sentence fragment."""
     if not name or len(name) < 2:
@@ -507,49 +580,8 @@ def main():
     for row in rows:
         seen_names = set()
         for entry in row["entries"]:
-            # Priority 1: gacha_id → canonical name (most reliable)
-            canonical = by_id.get(entry["gacha_id"])
-
-            # Priority 2: Alias lookup using the FULL TSV name (before ★/comma cut)
-            # This correctly resolves "New unit X added! ★Uber Rare drop rate UP!" → "Uberfest"
+            canonical = _resolve_gacha_name(entry, by_id, alias_db)
             if canonical is None:
-                tsv_full = entry.get("tsv_full", "")
-                if tsv_full:
-                    canonical = alias_db.get(tsv_full.lower())
-
-            # Priority 3: Alias lookup using the cleaned TSV name (after ★/comma cut)
-            if canonical is None:
-                tsv_name = entry["tsv_name"]
-                if tsv_name:
-                    canonical = alias_db.get(tsv_name.lower())
-
-            # Priority 4: Flexible alias match — covers prefix AND substring relationships.
-            # Examples:
-            #   TSV "New unit Squire Luno added!" → alias "New unit Squire Luno added! ★Uber..." (TSV is prefix of alias)
-            #   TSV "New unit Fuma Kotaro added! Masters of battle..." → alias "Masters of battle" (alias in TSV)
-            # Alias must be ≥8 chars to avoid false positives on short strings.
-            # Pick the longest matching alias for specificity.
-            if canonical is None:
-                tsv_full_lower = entry.get("tsv_full", "").lower()
-                if tsv_full_lower:
-                    best_match_len = 0
-                    for alias_lower, cname in alias_db.items():
-                        if len(alias_lower) < 8:
-                            continue
-                        if (tsv_full_lower.startswith(alias_lower) or
-                                alias_lower.startswith(tsv_full_lower) or
-                                alias_lower in tsv_full_lower or
-                                tsv_full_lower in alias_lower):
-                            if len(alias_lower) > best_match_len:
-                                best_match_len = len(alias_lower)
-                                canonical = cname
-
-            # Priority 5: Fall back to cleaned TSV name as-is (unknown banner)
-            if canonical is None:
-                canonical = entry["tsv_name"] or None
-
-            # Skip entries with no usable name or garbled names
-            if not canonical or not _is_valid_name(canonical):
                 continue
 
             if canonical in seen_names:
