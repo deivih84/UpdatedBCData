@@ -1,7 +1,7 @@
 {
     "metadata": {
         "version": "15.5.1",
-        "last_update": "2026-07-26 01:21:52",
+        "last_update": "2026-08-02 14:02:27",
         "total_units": 873
     },
     "units": {
@@ -7672,7 +7672,7 @@
             "info": {
                 "rarity": "UR",
                 "name_basic": "Mighty Thermae D-Lux",
-                "names_evolved": "Subterra Guardians / Subterra Sentinels / 417-4",
+                "names_evolved": "Subterra Guardians / Subterra Sentinels / Subterra Saviors",
                 "obtain_method": "Rare Cat Capsule - Frontline Assault IRON LEGION",
                 "evolution": {
                     "true_form": {
@@ -8368,7 +8368,7 @@
             "info": {
                 "rarity": "LR",
                 "name_basic": "Wonder MOMOCO",
-                "names_evolved": "Cutie MOMOCO / 455-3",
+                "names_evolved": "Cutie MOMOCO / Starlight MOMOCO",
                 "obtain_method": "Rare Cat Capsule - THE DYNAMITES",
                 "evolution": {
                     "true_form": {
@@ -9241,7 +9241,7 @@
             "info": {
                 "rarity": "RR",
                 "name_basic": "Mightycat",
-                "names_evolved": "Supercat / 507-3",
+                "names_evolved": "Supercat / Ironcat",
                 "obtain_method": "Drop - Blue Impact"
             },
             "stats": [
@@ -12843,7 +12843,7 @@
             "info": {
                 "rarity": "UR",
                 "name_basic": "Ninja Girl Tomoe",
-                "names_evolved": "Gourmand Ninja Girl Tomoe / 725-3",
+                "names_evolved": "Gourmand Ninja Girl Tomoe / Sugar Rush Shinobi Tomoe",
                 "obtain_method": "Rare Cat Capsule - Girls & Monsters: Angels of Terror",
                 "evolution": {
                     "true_form": {
@@ -14621,8 +14621,8 @@
         "869": {
             "info": {
                 "rarity": "UR",
-                "name_basic": "869-1",
-                "names_evolved": "869-2",
+                "name_basic": "Akane Tounji",
+                "names_evolved": "Let's Go! Akane",
                 "obtain_method": "Rare Cat Capsule - THE DYNAMITES"
             },
             "stats": [
@@ -14634,7 +14634,7 @@
             "info": {
                 "rarity": "EX",
                 "name_basic": "Ancient Egg: N207",
-                "names_evolved": "Dark Egg: N207 / 870-3",
+                "names_evolved": "Onyx Egg: N207 / Tycoon Cat",
                 "obtain_method": "Event Cat Capsule - Summer Break Cats Paradise",
                 "evolution": {
                     "true_form": {
@@ -14657,7 +14657,7 @@
             "info": {
                 "rarity": "EX",
                 "name_basic": "Ancient Egg: N208",
-                "names_evolved": "Green Egg: N208 / 871-3",
+                "names_evolved": "Green Egg: N208 / Combat Crawfish Cat",
                 "obtain_method": "Event Cat Capsule - Summer Break Cats",
                 "evolution": {
                     "true_form": {
@@ -14679,8 +14679,8 @@
         "872": {
             "info": {
                 "rarity": "UR",
-                "name_basic": "872-1",
-                "names_evolved": "872-2",
+                "name_basic": "Jungle Gourmet Tomoe",
+                "names_evolved": "Canopy Queen Tomoe",
                 "obtain_method": "Rare Cat Capsule - Gals of Summer Blue Ocean"
             },
             "stats": [
