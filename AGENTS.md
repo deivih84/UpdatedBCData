@@ -31,7 +31,33 @@ pip install requests discord.py PyGithub
 
 `fetch_bc_schedule.py` y `fetch_bc_events.py` solo necesitan `requests`. Los bots Discord necesitan además `discord.py` y `PyGithub`.
 
-No test suite exists in this project.
+Run the repository tests with
+`python -m unittest discover -s tests -p "test_*.py" -v`.
+
+## Mandatory cat-animation update
+
+A game-data update is incomplete until `update_cat_animations.py` succeeds.
+Run the normal `update_all.py` flow, or use `--only animations` for repair.
+PONOS packs are incremental: apply every unrecorded source in semantic-version
+order. Never replace an archive from one pack wholesale; merge entries and
+replace byte-different files only.
+
+Each `cats/<id>.zip` stores normalized entries as
+`<id>/<form>/<id>_<form>...`, where form is `f`, `c`, `s`, or `u`.
+`cats/manifest.json` records the SHA-256 and byte size of every ZIP plus all
+applied sources. Require `latestSource.gameVersion` to match the selected
+game-data version unless a documented region/version exception exists.
+
+Run both checks before reporting completion:
+
+```powershell
+python update_cat_animations.py --dry-run
+python -m unittest discover -s tests -p "test_*.py" -v
+```
+
+The second animation dry-run must report zero pending changes. Do not suppress
+declared-form warnings: source packages can intentionally omit forms, while
+every form actually stored in a ZIP must still validate as complete.
 
 ## Architecture
 
