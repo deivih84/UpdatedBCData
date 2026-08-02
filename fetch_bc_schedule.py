@@ -464,18 +464,19 @@ def _resolve_gacha_name(entry, by_id, alias_db):
 
     if canonical is None:
         tsv_full_lower = entry.get("tsv_full", "").lower()
-        best_match_len = 0
-        for alias_lower, candidate in alias_db.items():
-            if len(alias_lower) < 8:
-                continue
-            if (tsv_full_lower.startswith(alias_lower)
-                    or alias_lower.startswith(tsv_full_lower)
-                    or alias_lower in tsv_full_lower
-                    or tsv_full_lower in alias_lower):
-                candidate = valid(candidate)
-                if candidate and len(alias_lower) > best_match_len:
-                    best_match_len = len(alias_lower)
-                    canonical = candidate
+        if tsv_full_lower:
+            best_match_len = 0
+            for alias_lower, candidate in alias_db.items():
+                if len(alias_lower) < 8:
+                    continue
+                if (tsv_full_lower.startswith(alias_lower)
+                        or alias_lower.startswith(tsv_full_lower)
+                        or alias_lower in tsv_full_lower
+                        or tsv_full_lower in alias_lower):
+                    candidate = valid(candidate)
+                    if candidate and len(alias_lower) > best_match_len:
+                        best_match_len = len(alias_lower)
+                        canonical = candidate
 
     tsv_full_lower = entry.get("tsv_full", "").lower()
     if (canonical is None

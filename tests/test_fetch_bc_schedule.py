@@ -98,6 +98,16 @@ class FestivalResolutionTests(unittest.TestCase):
 
         self.assertEqual(name, text)
 
+    def test_does_not_match_aliases_when_tsv_name_is_empty(self):
+        entry = festival_entry(64, "", 0, 0, 0)
+        aliases = {
+            "new units added to june bride capsules ★ tap banner for info!": "June Bride",
+        }
+
+        name = schedule._resolve_gacha_name(entry, {}, aliases)
+
+        self.assertIsNone(name)
+
     def test_repository_catalog_resolves_current_and_previous_festivals(self):
         by_id, alias_db = schedule._load_name_dbs()
         current = festival_entry(
