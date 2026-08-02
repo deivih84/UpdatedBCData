@@ -1,6 +1,14 @@
 {
   "appliedSources": [
     {
+      "gameVersion": "15.1.1",
+      "region": "jp"
+    },
+    {
+      "gameVersion": "15.3.0",
+      "region": "jp"
+    },
+    {
       "gameVersion": "15.5.0",
       "region": "jp"
     },
