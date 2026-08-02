@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "gameVersion": "15.5",
+  "region": "en",
+  "status": "published",
+  "revision": 1,
+  "generatedAt": "2026-08-02 14:20:00",
+  "needsHumanReview": true,
+  "sourceHashes": {
+    "global_15_5_0_xapk": "sha256:8d015eac070598bd1b06f2d3c8312bab774bc03131c2de0c71dfa6e95ae73bbf",
+    "cats_data.json": "sha256:1ce464bf905dc09d01fb44ba1aa197403a233752d437568e6732fbb316426f43",
+    "enemies_data.json": "sha256:9dcf3cf7d4fa7a96a1db1d04b55d6b28901d17cf447b98c0739be7bc5aa7cbf8",
+    "stages_data.json": "sha256:9f9e16266b140beccd208182c3ff5085d8f82b8cdaf0300f8243c66b655b04e0",
+    "data_version.json": "sha256:a37f0557924203404a5c37a551a4075178ae3ad2a7f6a46b90944d3e4ab68c52"
+  },
+  "copy": {
+    "source": "game_data_manual",
+    "headline": "Battle Cats Global 15.5",
+    "shortIntro": "Global 15.5 brings the Pac-Man collaboration, seven new units, new forms and talents, more stages, and refreshed in-game text."
+  },
+  "sections": [
+    {
+      "type": "release_status",
+      "title": "Release Status",
+      "summary": "Global version 15.5.0 is now available. Its localized game data is included in the Global update notes.",
+      "items": [
+        {
+          "name": "Global: 15.5.0"
+        }
+      ]
+    },
+    {
+      "type": "new_cats",
+      "title": "New Cats",
+      "summary": "Seven units join the Global data set, led by the Pac-Man collaboration and new Summer Break Cats Paradise units.",
+      "items": [
+        {
+          "catId": 866,
+          "name": "Pac-Man"
+        },
+        {
+          "catId": 867,
+          "name": "Blinky Cat"
+        },
+        {
+          "catId": 868,
+          "name": "Inky Cat"
+        },
+        {
+          "catId": 869,
+          "name": "Akane Tounji"
+        },
+        {
+          "catId": 870,
+          "name": "Ancient Egg: N207",
+          "rarity": "Special"
+        },
+        {
+          "catId": 871,
+          "name": "Ancient Egg: N208",
+          "rarity": "Special"
+        },
+        {
+          "catId": 872,
+          "name": "Jungle Gourmet Tomoe"
+        }
+      ]
+    },
+    {
+      "type": "new_forms",
+      "title": "New Forms",
+      "summary": "Mightycat and Ninja Girl Tomoe gain new forms, the N207 and N208 Ancient Eggs gain battle forms, and Mighty Thermae D-Lux gains an Ultra Form.",
+      "items": [
+        {
+          "catId": 507,
+          "name": "Mightycat",
+          "forms": [
+            "True Form"
+          ]
+        },
+        {
+          "catId": 725,
+          "name": "Ninja Girl Tomoe",
+          "forms": [
+            "True Form"
+          ]
+        },
+        {
+          "catId": 870,
+          "name": "Ancient Egg: N207",
+          "forms": [
+            "True Form"
+          ]
+        },
+        {
+          "catId": 871,
+          "name": "Ancient Egg: N208",
+          "forms": [
+            "True Form"
+          ]
+        },
+        {
+          "catId": 417,
+          "name": "Mighty Thermae D-Lux",
+          "forms": [
+            "Ultra Form"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "talents",
+      "title": "Talents and Ultra Talents",
+      "summary": "Baby Mola and Hattori Hanzo receive Talents, while Queen Reika receives Ultra Talents.",
+      "items": [
+        {
+          "catId": 173,
+          "name": "Baby Mola"
+        },
+        {
+          "catId": 649,
+          "name": "Hattori Hanzo"
+        },
+        {
+          "catId": 336,
+          "name": "Queen Reika",
+          "forms": [
+            "Ultra Talents"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "new_enemies",
+      "title": "New Enemies",
+      "summary": "Pac-Man collaboration enemies and regular enemy additions arrive with the update.",
+      "items": [
+        {
+          "name": "Inky Doge"
+        },
+        {
+          "name": "Clyde Gory"
+        },
+        {
+          "name": "Pinky Teacher Bear"
+        },
+        {
+          "name": "Blinky Kory"
+        },
+        {
+          "name": "Gigantic Pac-Man"
+        },
+        {
+          "name": "Cherries"
+        },
+        {
+          "name": "E-785"
+        }
+      ]
+    },
+    {
+      "type": "new_stages",
+      "title": "Stages",
+      "summary": "The update adds Zero Legends maps, Pac-Man collaboration stages and gauntlets, Abyssal content, Otherworld Colosseum updates, and new event stages.",
+      "items": [
+        {
+          "name": "Zero Legends: ZL 33 and ZL 34"
+        },
+        {
+          "name": "Pac-Man Collaboration Event"
+        },
+        {
+          "name": "Gigantic Pac-Man Gauntlet"
+        },
+        {
+          "name": "Abyssal stages"
+        },
+        {
+          "name": "Otherworld Colosseum updates"
+        }
+      ]
+    },
+    {
+      "type": "cat_combos",
+      "title": "Cat Combos",
+      "summary": "Two new Cat Combos are included: Traffic Safety Week and Pac-Man Fever.",
+      "items": [
+        {
+          "name": "Traffic Safety Week",
+          "forms": [
+            "Slow Effects Up (M)"
+          ]
+        },
+        {
+          "name": "Pac-Man Fever",
+          "forms": [
+            "Resistant Effects Up (Sm)"
+          ]
+        }
+      ]
+    }
+  ],
+  "reviewNotes": [
+    "Global 15.5 summary based on the extracted 15.5.0 Global XAPK and the validated public 15.5.1 data set.",
+    "The Global localized data contains seven new unit IDs (866 through 872) relative to Global 15.4.1.",
+    "Marked for human review because release-note copy is manually curated from the verified game data."
+  ]
+}

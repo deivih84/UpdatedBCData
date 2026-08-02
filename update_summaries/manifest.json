@@ -1,13 +1,17 @@
 {
   "schemaVersion": 1,
-  "lastUpdate": "2026-07-03 20:11:15",
+  "lastUpdate": "2026-08-02 14:20:00",
   "regions": {
     "en": {
-      "gameVersion": "15.4",
-      "summaryPath": "update_summaries/en/15.4.json",
+      "gameVersion": "15.5",
+      "summaryPath": "update_summaries/en/15.5.json",
       "status": "published",
       "sourceHashes": {
-        "wiki_15_4_miraheze": "sha256:a2526eb03936c0dfcf4ca0955ceab45f279fc5b03feee01cb86633186ad5f834"
+        "global_15_5_0_xapk": "sha256:8d015eac070598bd1b06f2d3c8312bab774bc03131c2de0c71dfa6e95ae73bbf",
+        "cats_data.json": "sha256:1ce464bf905dc09d01fb44ba1aa197403a233752d437568e6732fbb316426f43",
+        "enemies_data.json": "sha256:9dcf3cf7d4fa7a96a1db1d04b55d6b28901d17cf447b98c0739be7bc5aa7cbf8",
+        "stages_data.json": "sha256:9f9e16266b140beccd208182c3ff5085d8f82b8cdaf0300f8243c66b655b04e0",
+        "data_version.json": "sha256:a37f0557924203404a5c37a551a4075178ae3ad2a7f6a46b90944d3e4ab68c52"
       }
     },
     "jp": {
