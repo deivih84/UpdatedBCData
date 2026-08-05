@@ -1,6 +1,13 @@
 {
   "gachas": [
     {
+      "id": "summer_break_cats_paradise_2026-08-03",
+      "nombre": "Summer Break Cats Paradise",
+      "fecha_inicio": "2026-08-03",
+      "fecha_fin": "2026-08-15",
+      "caracteristicas": []
+    },
+    {
       "id": "ultra_souls_2026-08-03",
       "nombre": "Ultra Souls",
       "fecha_inicio": "2026-08-03",
@@ -373,5 +380,5 @@
       "fecha_fin": "2026-08-03"
     }
   ],
-  "ultima_actualizacion": "2026-08-05T08:19:59Z"
+  "ultima_actualizacion": "2026-08-05T13:44:45Z"
 }
