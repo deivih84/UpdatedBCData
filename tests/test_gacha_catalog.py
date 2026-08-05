@@ -31,7 +31,33 @@ class GachaCatalogCorrectionTests(unittest.TestCase):
     def test_sunshine_pool_contains_only_sunshine_uber_rares(self):
         sunshine = next(banner for banner in self.catalog if banner["nombre"] == "Gals of Summer Sunshine")
 
-        self.assertEqual(sunshine["ubers"], [820, 714, 564, 438, 354, 275])
+        self.assertEqual(sunshine["ubers"], [820, 666, 563, 438, 354, 275])
+
+    def test_limited_capsules_resolves_to_summer_break_cats_paradise(self):
+        paradise = next(
+            (
+                banner for banner in self.catalog
+                if banner["nombre"] == "Summer Break Cats Paradise"
+            ),
+            None,
+        )
+
+        self.assertEqual(
+            None if paradise is None else (paradise["aliases"], paradise["gatos_ids"]),
+            (["Summer Break Capsules Paradise", "Limited Capsules"], [342, 375, 822, 870]),
+        )
+
+    def test_schedule_uses_canonical_summer_break_cats_paradise_entry(self):
+        entry = next(
+            entry for entry in self.schedule
+            if entry["fecha_inicio"] == "2026-08-15"
+            and entry["fecha_fin"] == "2026-08-28"
+        )
+
+        self.assertEqual(
+            (entry["id"], entry["nombre"]),
+            ("summer_break_cats_paradise_2026-08-15", "Summer Break Cats Paradise"),
+        )
 
     def test_epicfest_pool_contains_lunacia_and_lone_moon_lunos(self):
         epicfest = next(banner for banner in self.catalog if banner["nombre"] == "Epicfest")
