@@ -98,6 +98,20 @@ class FestivalResolutionTests(unittest.TestCase):
 
         self.assertEqual(name, text)
 
+    def test_repository_catalog_resolves_lone_moon_lunos_to_epicfest(self):
+        by_id, alias_db = schedule._load_name_dbs()
+        entry = festival_entry(
+            9996,
+            "Lone Moon Lunos added! Special Capsules featuring powerful limited units!",
+            2600,
+            900,
+        )
+
+        self.assertEqual(
+            schedule._resolve_gacha_name(entry, by_id, alias_db),
+            "Epicfest",
+        )
+
     def test_does_not_match_aliases_when_tsv_name_is_empty(self):
         entry = festival_entry(64, "", 0, 0, 0)
         aliases = {
