@@ -31,7 +31,7 @@ class GachaCatalogCorrectionTests(unittest.TestCase):
     def test_sunshine_pool_contains_only_sunshine_uber_rares(self):
         sunshine = next(banner for banner in self.catalog if banner["nombre"] == "Gals of Summer Sunshine")
 
-        self.assertEqual(sunshine["ubers"], [820, 666, 563, 438, 354, 275])
+        self.assertEqual(sunshine["ubers"], [275, 354, 438, 563, 666, 820])
 
     def test_limited_capsules_resolves_to_summer_break_cats_paradise(self):
         paradise = next(

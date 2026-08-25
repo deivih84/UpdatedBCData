@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "gameVersion": "15.6",
+  "region": "jp",
+  "status": "published",
+  "revision": 1,
+  "generatedAt": "2026-08-25 17:06:03",
+  "needsHumanReview": true,
+  "sourceHashes": {
+    "wiki_15_6_miraheze": "sha256:b812a8148f4a99bf89c8250842c4c266d1f6c8153a5c109d48cbc872bab92164"
+  },
+  "copy": {
+    "source": "wiki_manual",
+    "headline": "Battle Cats JP 15.6",
+    "shortIntro": "A JP-first update with three new unit records, Catman and Pegasa evolutions, new Talents, an Aku Sage enemy, Zero Legends content, Cat Combos, and progression rewards."
+  },
+  "sections": [
+    {
+      "type": "release_dates",
+      "title": "Release Status",
+      "summary": "Japanese release: August 24, 2026. The international release is still listed as TBA, so this summary is assigned to JP only.",
+      "items": [
+        { "name": "Japanese: August 24, 2026" },
+        { "name": "International: TBA" }
+      ]
+    },
+    {
+      "type": "new_cats",
+      "title": "New Cats",
+      "summary": "Version 15.6 adds playable Uber Rare records 873 and 874, commonly identified as Rock Koneko and Ryuichi, plus summoned unit record 875. The wiki still displays provisional numeric labels for these records.",
+      "items": [
+        { "catId": 873, "name": "Rock Koneko", "rarity": "Uber Rare" },
+        { "catId": 874, "name": "Ryuichi", "rarity": "Uber Rare" },
+        { "catId": 875, "name": "Summoned Unit #875", "rarity": "Uber Rare" }
+      ]
+    },
+    {
+      "type": "new_forms",
+      "title": "New Forms",
+      "summary": "Catman receives an Ultra Form with higher durability and damage, Angel targeting, Drain immunity, and a shorter attack cycle. Pegasa receives a True Form with more health, a longer Conjure Slow, Massive Damage, and Freeze immunity.",
+      "items": [
+        { "catId": 196, "name": "Catman", "forms": ["Ultra Form"] },
+        { "catId": 733, "name": "Divine Pegasa ν", "forms": ["True Form"] }
+      ]
+    },
+    {
+      "type": "talents",
+      "title": "Talents and Ultra Talents",
+      "summary": "Queen Succubus Cat and Blizarena gain Talent sets. Almighty Chronos gains Ultra Talents built around Surge, Surge immunity, and Colossus Slayer.",
+      "items": [
+        { "catId": 302, "name": "Queen Succubus Cat" },
+        { "catId": 655, "name": "Blizarena" },
+        { "catId": 439, "name": "Almighty Chronos", "forms": ["Ultra Talents"] }
+      ]
+    },
+    {
+      "type": "new_enemies",
+      "title": "New Enemies",
+      "summary": "Two enemy records were added: E-786, an Aku/Sage long-distance enemy with a shield and control effects, and E-787, a typeless enemy base.",
+      "items": [
+        { "name": "E-786 (Aku / Sage)" },
+        { "name": "E-787 (Enemy Base)" }
+      ]
+    },
+    {
+      "type": "new_stages",
+      "title": "Stages",
+      "summary": "The update adds ZL 35, new Otherworld Colosseum content and a Catclaw Dojo map. Candy Paradise and Secluded Cavy Island receive 2-crown difficulty, while several event and gauntlet rewards are rebalanced.",
+      "items": [
+        { "name": "Zero Legends: ZL 35" },
+        { "name": "Otherworld Colosseum additions" },
+        { "name": "Catclaw Dojo addition" },
+        { "name": "Candy Paradise and Secluded Cavy Island: 2 crowns" },
+        { "name": "Event and gauntlet reward adjustments" }
+      ]
+    },
+    {
+      "type": "cat_combos",
+      "title": "Cat Combos",
+      "summary": "Three combos were added, including two tied to unit 874 and a Cannon Recharge combo using Mamolan Pasalan and Meditation Cat.",
+      "items": [
+        { "name": "よくきたな！", "forms": ["Unit Speed Up (Sm)"] },
+        { "name": "いきてはかえさん！", "forms": ["Starting Money Up (Sm)"] },
+        { "name": "居残り組", "forms": ["Cannon Recharge Up (M)"] }
+      ]
+    },
+    {
+      "type": "misc",
+      "title": "Other Changes",
+      "summary": "New User Rank rewards appear at 28,000 through 28,200, three Special Cats receive higher plus-level caps, Saber Alter Cat gains Drain immunity, and device vibration support is added.",
+      "items": [
+        { "name": "28,000: +1 Rare Ticket" },
+        { "name": "28,100: +5 Super Rare Catseyes" },
+        { "name": "28,200: +5 Uber Rare Catseyes" },
+        { "name": "Fatherly Cat, Medal King, and Lieutenant Cat plus-level cap increases" },
+        { "name": "Saber Alter Cat: Drain Immunity" },
+        { "name": "Device vibration feature" }
+      ]
+    }
+  ],
+  "reviewNotes": [
+    "Manual summary based on https://battlecats.miraheze.org/wiki/Version_15.6_Update and the extracted JP 15.6.0 data.",
+    "Marked for human review because the wiki still uses numeric placeholder names for unit records 873 through 875 and enemy records 786 through 787.",
+    "The wiki lists International as TBA, so this entry is JP only.",
+    "Cat IDs were cross-checked against cats_data.json and enemy IDs against enemies_data.json."
+  ]
+}

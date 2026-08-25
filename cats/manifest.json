@@ -15,6 +15,10 @@
     {
       "gameVersion": "15.5.1",
       "region": "jp"
+    },
+    {
+      "gameVersion": "15.6.0",
+      "region": "jp"
     }
   ],
   "archives": {
@@ -451,8 +455,8 @@
       "size": 418016
     },
     "196": {
-      "sha256": "7864c78b67a740411b4090d03d464085da04da264f38dfb661c842446936588b",
-      "size": 346070
+      "sha256": "9da3ff002dd1132e3bfa6e49309850dfd5e360d73dfa9b7992c37003415232e7",
+      "size": 617541
     },
     "197": {
       "sha256": "cf50066ef6e55a25ad12a48efa538fd689a8f14efb3904f49c92d538b5a24052",
@@ -2839,8 +2843,8 @@
       "size": 25418
     },
     "733": {
-      "sha256": "dfd21ee27e4316d2947397d86ba749f1ab1ae818b5b9cdb993542df8ac40a893",
-      "size": 185015
+      "sha256": "5e7fc73c347734617d52ea7e205928e0073d4c0dae41d46bc044db13c276acc3",
+      "size": 302224
     },
     "734": {
       "sha256": "84730cbab5da68eb2d00ed03c20997efb9f7655110b9ac69b1911feea0942561",
@@ -3458,6 +3462,18 @@
       "sha256": "b8d615b605587ad60fb46f59f4c2dcf07085888b0358cfdbce8ee18456c14a88",
       "size": 184110
     },
+    "873": {
+      "sha256": "c84274178cfb4b52282117ad554b906fcf4ac7c267e8b86bdbd46c065579c521",
+      "size": 175375
+    },
+    "874": {
+      "sha256": "cb380903308cd7267797421de4f0be79f8f476e63235deb90a70096ae3792284",
+      "size": 10031
+    },
+    "875": {
+      "sha256": "bf23d8cb7521752c5d8d6f6375f517fa93090d0d2492b20f0452fbf7cabf70c7",
+      "size": 24701
+    },
     "88": {
       "sha256": "267d859a748a5df903912bacd57de61b9d681ae98f85a8056c8a62c5d2872e83",
       "size": 73885
@@ -3619,12 +3635,18 @@
     "871": [
       "f",
       "c"
+    ],
+    "873": [
+      "s"
+    ],
+    "874": [
+      "s"
     ]
   },
   "latestSource": {
-    "gameVersion": "15.5.1",
+    "gameVersion": "15.6.0",
     "region": "jp"
   },
-  "revision": "sha256:e9574c6974ac42c394354817f360355043b487d87e470ea3c9d9cac49565894a",
+  "revision": "sha256:38db949c1049c1fe1a65299d0f603a8dc0e7711fa140ab4b34d66562dcd60cce",
   "schemaVersion": 1
 }
