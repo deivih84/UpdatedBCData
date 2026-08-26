@@ -1,73 +1,6 @@
 {
   "gachas": [
     {
-      "id": "summer_break_cats_paradise_2026-08-03",
-      "nombre": "Summer Break Cats Paradise",
-      "fecha_inicio": "2026-08-03",
-      "fecha_fin": "2026-08-15",
-      "caracteristicas": []
-    },
-    {
-      "id": "ultra_souls_2026-08-03",
-      "nombre": "Ultra Souls",
-      "fecha_inicio": "2026-08-03",
-      "fecha_fin": "2026-08-05",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "dark_heroes_2026-08-03",
-      "nombre": "Dark Heroes",
-      "fecha_inicio": "2026-08-03",
-      "fecha_fin": "2026-08-05",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "wargods_vajiras_2026-08-03",
-      "nombre": "Wargods Vajiras",
-      "fecha_inicio": "2026-08-03",
-      "fecha_fin": "2026-08-05",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "the_dynamites_2026-08-05",
-      "nombre": "The Dynamites",
-      "fecha_inicio": "2026-08-05",
-      "fecha_fin": "2026-08-07",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "the_almighties_2026-08-05",
-      "nombre": "The Almighties",
-      "fecha_inicio": "2026-08-05",
-      "fecha_fin": "2026-08-07",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "dragon_emperors_2026-08-05",
-      "nombre": "Dragon Emperors",
-      "fecha_inicio": "2026-08-05",
-      "fecha_fin": "2026-08-07",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
       "id": "gals_of_summer_sunshine_2026-08-07",
       "nombre": "Gals of Summer Sunshine",
       "fecha_inicio": "2026-08-07",
@@ -82,132 +15,11 @@
       ]
     },
     {
-      "id": "elemental_pixies_2026-08-07",
-      "nombre": "Elemental Pixies",
-      "fecha_inicio": "2026-08-07",
-      "fecha_fin": "2026-08-10",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "luga_families_2026-08-07",
-      "nombre": "Luga Families",
-      "fecha_inicio": "2026-08-07",
-      "fecha_fin": "2026-08-10",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "iron_legion_2026-08-10",
-      "nombre": "Iron Legion",
-      "fecha_inicio": "2026-08-10",
-      "fecha_fin": "2026-08-12",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "galaxy_gals_2026-08-10",
-      "nombre": "Galaxy Gals",
-      "fecha_inicio": "2026-08-10",
-      "fecha_fin": "2026-08-12",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "spooky_cuties_2026-08-12",
-      "nombre": "Spooky Cuties",
-      "fecha_inicio": "2026-08-12",
-      "fecha_fin": "2026-08-14",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "wargods_vajiras_2026-08-12",
-      "nombre": "Wargods Vajiras",
-      "fecha_inicio": "2026-08-12",
-      "fecha_fin": "2026-08-14",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "epicfest_2026-08-14",
-      "nombre": "Epicfest",
-      "fecha_inicio": "2026-08-14",
-      "fecha_fin": "2026-08-21",
-      "caracteristicas": []
-    },
-    {
-      "id": "ultra_souls_2026-08-14",
-      "nombre": "Ultra Souls",
-      "fecha_inicio": "2026-08-14",
-      "fecha_fin": "2026-08-17",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
       "id": "summer_break_cats_paradise_2026-08-15",
       "nombre": "Summer Break Cats Paradise",
       "fecha_inicio": "2026-08-15",
       "fecha_fin": "2026-08-28",
       "caracteristicas": []
-    },
-    {
-      "id": "dragon_emperors_2026-08-17",
-      "nombre": "Dragon Emperors",
-      "fecha_inicio": "2026-08-17",
-      "fecha_fin": "2026-08-19",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "the_almighties_2026-08-19",
-      "nombre": "The Almighties",
-      "fecha_inicio": "2026-08-19",
-      "fecha_fin": "2026-08-21",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "luga_families_2026-08-21",
-      "nombre": "Luga Families",
-      "fecha_inicio": "2026-08-21",
-      "fecha_fin": "2026-08-24",
-      "caracteristicas": [
-        "G",
-        "Guaranteed",
-        "L",
-        "Lucky Ticket"
-      ]
-    },
-    {
-      "id": "iron_legion_2026-08-21",
-      "nombre": "Iron Legion",
-      "fecha_inicio": "2026-08-21",
-      "fecha_fin": "2026-08-24",
-      "caracteristicas": [
-        "G",
-        "Guaranteed",
-        "L",
-        "Lucky Ticket"
-      ]
     },
     {
       "id": "spooky_cuties_2026-08-24",
@@ -250,6 +62,95 @@
       "nombre": "Ultra Souls",
       "fecha_inicio": "2026-08-26",
       "fecha_fin": "2026-08-28",
+      "caracteristicas": [
+        "G",
+        "Guaranteed",
+        "L",
+        "Lucky Ticket"
+      ]
+    },
+    {
+      "id": "limited_summer_capsules_with_a_new_hero_tap_banner_for_info_2026-08-28",
+      "nombre": "Limited Summer capsules with a new hero! Tap banner for info!",
+      "fecha_inicio": "2026-08-28",
+      "fecha_fin": "2026-09-18",
+      "caracteristicas": [
+        "G",
+        "Guaranteed",
+        "L",
+        "Lucky Ticket",
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "survive_mola_mola_collab_capsules_2026-08-28",
+      "nombre": "Survive! Mola Mola! Collab Capsules!",
+      "fecha_inicio": "2026-08-28",
+      "fecha_fin": "2026-09-18",
+      "caracteristicas": [
+        "G",
+        "Guaranteed",
+        "L",
+        "Lucky Ticket",
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "elemental_pixies_2026-08-28",
+      "nombre": "Elemental Pixies",
+      "fecha_inicio": "2026-08-28",
+      "fecha_fin": "2026-08-31",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "dark_heroes_2026-08-31",
+      "nombre": "Dark Heroes",
+      "fecha_inicio": "2026-08-31",
+      "fecha_fin": "2026-09-02",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "the_dynamites_2026-09-02",
+      "nombre": "The Dynamites",
+      "fecha_inicio": "2026-09-02",
+      "fecha_fin": "2026-09-04",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "uberfest_2026-09-04",
+      "nombre": "Uberfest",
+      "fecha_inicio": "2026-09-04",
+      "fecha_fin": "2026-09-11",
+      "caracteristicas": []
+    },
+    {
+      "id": "dragon_emperors_2026-09-11",
+      "nombre": "Dragon Emperors",
+      "fecha_inicio": "2026-09-11",
+      "fecha_fin": "2026-09-14",
+      "caracteristicas": [
+        "G",
+        "Guaranteed",
+        "L",
+        "Lucky Ticket"
+      ]
+    },
+    {
+      "id": "the_almighties_2026-09-14",
+      "nombre": "The Almighties",
+      "fecha_inicio": "2026-09-14",
+      "fecha_fin": "2026-09-18",
       "caracteristicas": [
         "G",
         "Guaranteed",
@@ -346,5 +247,5 @@
       "fecha_fin": "2026-08-31"
     }
   ],
-  "ultima_actualizacion": "2026-08-26T00:44:18Z"
+  "ultima_actualizacion": "2026-08-26T06:32:06Z"
 }
