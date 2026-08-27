@@ -70,8 +70,8 @@
       ]
     },
     {
-      "id": "limited_summer_capsules_with_a_new_hero_tap_banner_for_info_2026-08-28",
-      "nombre": "Limited Summer capsules with a new hero! Tap banner for info!",
+      "id": "gals_of_summer_blue_ocean_2026-08-28",
+      "nombre": "Gals of Summer Blue Ocean",
       "fecha_inicio": "2026-08-28",
       "fecha_fin": "2026-09-18",
       "caracteristicas": [
@@ -84,8 +84,8 @@
       ]
     },
     {
-      "id": "survive_mola_mola_collab_capsules_2026-08-28",
-      "nombre": "Survive! Mola Mola! Collab Capsules!",
+      "id": "mola_mola_collab_gacha_2026-08-28",
+      "nombre": "Mola Mola Collab Gacha",
       "fecha_inicio": "2026-08-28",
       "fecha_fin": "2026-09-18",
       "caracteristicas": [
@@ -175,42 +175,6 @@
   ],
   "eventos": [
     {
-      "id": "otherworld_colosseum_2026-08-01",
-      "nombre": "Otherworld Colosseum",
-      "caracteristicas": [
-        "Otherworld Colosseum (異次元コロシアム, Ijigen Koroshiamu, Extradimensional Colosseum) is an event added in the Version 13.5. It is unlocked after beating A New Legend. There are several different Otherworld Colosseum maps that share the same name, each consisting of 5 No Continues stages and 2 difficulty levels. The Otherworld Colosseum is one of the few sources of Dark Catseyes.\n\nFeatures a set of stages with a cycling ruleset. Beat back the oncoming interdimensional horde!\n\nMission Reward(s): Rare Ticket, Platinum Shard, Catseye [Dark].\n\n※ You must collect rewards from completed Otherworld Colosseum missions by tapping the Claim button. Even if mission conditions have been met, rewards will not be automatically collected.\n※ Tap the icon at bottom left of the Otherworld Colosseum stage select screen to confirm the battle rule in effect.\n※ Some CatCombos may not activate due to the current ruleset.\n※ You must clear the \"A New Legend\" map found in the Uncanny Legends section of the Legend Stages section to challenge the Otherworld Colosseum.\n\nEach Otherworld Colosseum map has a unique \"rule\" that applies during battle. Only one rule is applied per map.\n\nRule 1: Trust Fund. The player starts with 50,000¢ and cannot gain money from defeating enemies or by the Worker Cat. All units will start on their cooldown, and any money-related Cat Combos are prohibited.\nRule 2: Cooldown Equality. All units have their cooldown set to 16.67 seconds. Research Combos are prohibited.\nRule 3: Only One Rarity. Only one unit from each Rarity can be deployed at once. This only affects the battle, not creating the lineup.\nRule 4: Cheap Labor. All Cat Units have their cost set to 500¢.\nRule 5: Super Rare Sale. The cooldown time and deployment cost of Super Rare Cats has been set to 50% of their original time / cost.\nRule 6: Deploy Limit. The amount of units that can be deployed throughout the battle is limited to 60.\nRule 7: Special Clearance. The cooldown time and deployment cost of Special Cats has been set to 30% of their original time / cost.\nRule 8: Plus One: Uber. Deploying an Uber Rare Cat will summon another one 2 seconds after deploying the first one.\nRule 9: Mega Cat Cannon. The Cat Cannon will deal increased damage. This only affects the Default Cat Cannon.\nRule 10: Uniform Motion. All cats and enemies with at least 1 speed will have their speed set to a uniform value.\nRule 11: Plus One: Special. Deploying a Special Cat will summon another one 2 seconds after deploying the first one.\nRule 12: Uber Clearance. The cooldown time and deployment cost of Uber Rare Cats has been set to 50% of their original time and 5% of their original cost, but only a limited number of Uber Rare Cats can be deployed at a time.\nRule 13: Limited Stock. All units have their cooldown set to 16.67 seconds, and a maximum of 50 non-Conjured units can be deployed. Research Combos are prohibited.\nRule 14: Dirt Cheap. All Cat Units have their cost set to 10¢.\nRule 15: Pay Day. The player starts with 266,730¢ and cannot gain money from defeating enemies or by the Worker Cat. All units will start on their cooldown, and any money-related Cat Combos are prohibited. The cooldown time of Uber Rare Cats has been set to 20% of their original time.\nRule 16: Grand Battle. Ubers have double the cost and recharge time, but deploying one will spawn 3 of them.\nRule 17: High Speed. All units have their cost and recharge time set to 70%. All units with at least 1 speed will have their speed doubled.\nRule 18: Half-Off: S. Rare. Super rare cats have cost set to 50% and spawning one will spawn another shortly after.\nRule 19: 物価高騰 超激レア. Start with 60k money and don't get any more (like Trust Fund). Ubers cost twice as much as usual but only have 70% of the cooldown."
-      ],
-      "fecha_inicio": "2026-08-01",
-      "fecha_fin": "2026-08-15"
-    },
-    {
-      "id": "resident_undead_2026-08-03",
-      "nombre": "Resident Undead",
-      "caracteristicas": [
-        "Resident Undead (住民の亡霊, Shūmin no Bourei, Resident Ghosts) is a set of special stages that was added in Version 12.6. It is unlocked after clearing Empire of Cats Chapter 1. Each stage features Undead Enemies and has a Cat Ticket as a reward.\n\nClear stages in the special map Resident Undead to earn up to 10 Cat Tickets as you face off against the Undead enemies attacking the remnants of a destroyed city! Visit Event Stages/Stories of Legend and select to take on this challenge!\nOn between June 10th (11:00am) and June 17th (10:59am)!\n\nSave the future from the onslaught of the coming machines!\n\n\n※ After clearing a stage, there will be a short cooldown period before you are able to challenge the next stage.\n※ Spending a Catamin A will allow you to skip the stage cooldown period and challenge the next stage immediately.\n※ If the event does not appear, please make sure that you are updated to the latest version of the Battle Cats app. "
-      ],
-      "fecha_inicio": "2026-08-03",
-      "fecha_fin": "2026-08-10"
-    },
-    {
-      "id": "duel_stages_challenge_2026-08-03",
-      "nombre": "Duel Stages Challenge",
-      "caracteristicas": [
-        "It's high noon, time for a showdown!\nDuel Stages Challenge (決闘チャレンジ, Kettō Charenji, Duel Challenge) is an event added in Version 11.6. It consists of all Duel Stages in a single map. Progress made in Duel Stages Challenge will reset when the event ends.\nEach stage has a Cat Deploy Limit and enemy limit of 1. Taking over 15 minutes to beat any one stage will cause an Assassin Bear to spawn."
-      ],
-      "fecha_inicio": "2026-08-03",
-      "fecha_fin": "2026-08-15"
-    },
-    {
-      "id": "mega_menace_2026-08-10",
-      "nombre": "Mega Menace",
-      "caracteristicas": [
-        "Mega Menace contains a total of 20 No Continues levels, called On Mighty Wings Lvs. After beating three On Mighty Wings Lvs, the player must wait for 30 minutes before they may proceed to the next one (may have 3 clears after 90 minutes). Rewards for the first completion of an On Mighty Wings Lv can include XP, Tickets, Catamins and Materials. Every 10 On Mighty Wings Lvs plays out the same, but the strength magnifications and enemy base's HP are increased with each level."
-      ],
-      "fecha_inicio": "2026-08-10",
-      "fecha_fin": "2026-08-17"
-    },
-    {
       "id": "tag_arena_challenge_2026-08-15",
       "nombre": "Tag Arena Challenge",
       "caracteristicas": [
@@ -245,7 +209,59 @@
       ],
       "fecha_inicio": "2026-08-24",
       "fecha_fin": "2026-08-31"
+    },
+    {
+      "id": "eoc_itf_cotc_half_energy_cost_2026-08-28",
+      "nombre": "EoC/ItF/CotC Half Energy Cost",
+      "caracteristicas": [],
+      "fecha_inicio": "2026-08-28",
+      "fecha_fin": "2026-10-05"
+    },
+    {
+      "id": "legend_quest_2026-08-28",
+      "nombre": "Legend Quest",
+      "caracteristicas": [
+        "Legend Quest is a map somewhat similar to Heavenly Tower, with 48 stages known as LEVELs. Each LEVEL is a random Stories of Legend stage that provides a partially randomized lineup. All LEVELs are No Continues, and exiting a battle within 10 seconds will not refund items, Crowns or energy."
+      ],
+      "fecha_inicio": "2026-08-28",
+      "fecha_fin": "2026-09-18"
+    },
+    {
+      "id": "arena_of_honor_2026-08-28",
+      "nombre": "Arena of Honor",
+      "caracteristicas": [
+        "Ranking Dojo (ネコ道場ランキングイベント, Neko Dōjō Rankingu Ibento, Cat Dojo Ranking Event) is an event that first appeared from July 31st to August 7th, 2017. This event was officially added in the Version 6.3 Update. The Ranking Dojo is accessed from the Catclaw Dojo menu, so the player needs to unlock the Catclaw Dojo feature in order to participate by completing Chapter 1 of Empire of Cats."
+      ],
+      "fecha_inicio": "2026-08-28",
+      "fecha_fin": "2026-09-18"
+    },
+    {
+      "id": "otherworld_colosseum_2026-09-01",
+      "nombre": "Otherworld Colosseum",
+      "caracteristicas": [
+        "Otherworld Colosseum (異次元コロシアム, Ijigen Koroshiamu, Extradimensional Colosseum) is an event added in the Version 13.5. It is unlocked after beating A New Legend. There are several different Otherworld Colosseum maps that share the same name, each consisting of 5 No Continues stages and 2 difficulty levels. The Otherworld Colosseum is one of the few sources of Dark Catseyes.\n\nFeatures a set of stages with a cycling ruleset. Beat back the oncoming interdimensional horde!\n\nMission Reward(s): Rare Ticket, Platinum Shard, Catseye [Dark].\n\n※ You must collect rewards from completed Otherworld Colosseum missions by tapping the Claim button. Even if mission conditions have been met, rewards will not be automatically collected.\n※ Tap the icon at bottom left of the Otherworld Colosseum stage select screen to confirm the battle rule in effect.\n※ Some CatCombos may not activate due to the current ruleset.\n※ You must clear the \"A New Legend\" map found in the Uncanny Legends section of the Legend Stages section to challenge the Otherworld Colosseum.\n\nEach Otherworld Colosseum map has a unique \"rule\" that applies during battle. Only one rule is applied per map.\n\nRule 1: Trust Fund. The player starts with 50,000¢ and cannot gain money from defeating enemies or by the Worker Cat. All units will start on their cooldown, and any money-related Cat Combos are prohibited.\nRule 2: Cooldown Equality. All units have their cooldown set to 16.67 seconds. Research Combos are prohibited.\nRule 3: Only One Rarity. Only one unit from each Rarity can be deployed at once. This only affects the battle, not creating the lineup.\nRule 4: Cheap Labor. All Cat Units have their cost set to 500¢.\nRule 5: Super Rare Sale. The cooldown time and deployment cost of Super Rare Cats has been set to 50% of their original time / cost.\nRule 6: Deploy Limit. The amount of units that can be deployed throughout the battle is limited to 60.\nRule 7: Special Clearance. The cooldown time and deployment cost of Special Cats has been set to 30% of their original time / cost.\nRule 8: Plus One: Uber. Deploying an Uber Rare Cat will summon another one 2 seconds after deploying the first one.\nRule 9: Mega Cat Cannon. The Cat Cannon will deal increased damage. This only affects the Default Cat Cannon.\nRule 10: Uniform Motion. All cats and enemies with at least 1 speed will have their speed set to a uniform value.\nRule 11: Plus One: Special. Deploying a Special Cat will summon another one 2 seconds after deploying the first one.\nRule 12: Uber Clearance. The cooldown time and deployment cost of Uber Rare Cats has been set to 50% of their original time and 5% of their original cost, but only a limited number of Uber Rare Cats can be deployed at a time.\nRule 13: Limited Stock. All units have their cooldown set to 16.67 seconds, and a maximum of 50 non-Conjured units can be deployed. Research Combos are prohibited.\nRule 14: Dirt Cheap. All Cat Units have their cost set to 10¢.\nRule 15: Pay Day. The player starts with 266,730¢ and cannot gain money from defeating enemies or by the Worker Cat. All units will start on their cooldown, and any money-related Cat Combos are prohibited. The cooldown time of Uber Rare Cats has been set to 20% of their original time.\nRule 16: Grand Battle. Ubers have double the cost and recharge time, but deploying one will spawn 3 of them.\nRule 17: High Speed. All units have their cost and recharge time set to 70%. All units with at least 1 speed will have their speed doubled.\nRule 18: Half-Off: S. Rare. Super rare cats have cost set to 50% and spawning one will spawn another shortly after.\nRule 19: 物価高騰 超激レア. Start with 60k money and don't get any more (like Trust Fund). Ubers cost twice as much as usual but only have 70% of the cooldown."
+      ],
+      "fecha_inicio": "2026-09-01",
+      "fecha_fin": "2026-09-15"
+    },
+    {
+      "id": "attack_of_the_omens_2026-09-07",
+      "nombre": "Attack of the Omens",
+      "caracteristicas": [
+        "Attack of the Omens contains a total of 20 No Continues levels, called Three Omens. After beating a Three Omens, the player must wait for 30 minutes before they may proceed to the next one. Rewards for the first completion of a Three Omens can include XP, Tickets, Catamins and Materials. The enemy layout changes after the 10th level, with the strength magnifications and enemy base's HP increasing per level."
+      ],
+      "fecha_inicio": "2026-09-07",
+      "fecha_fin": "2026-09-14"
+    },
+    {
+      "id": "arena_of_destiny_2026-09-16",
+      "nombre": "Arena of Destiny",
+      "caracteristicas": [
+        "Introduced in Version 14.3 adds a new gimmick where applying status effects grant more points than killing enemies. More points will be awarded for units with fewer target Traits (not counting those gained from Talents). This rewards for this dojo are Treasure Chests, which contain exclusive Talent Orbs that can grant special abilities to the units that are given them."
+      ],
+      "fecha_inicio": "2026-09-16",
+      "fecha_fin": "2026-10-03"
     }
   ],
-  "ultima_actualizacion": "2026-08-27T17:09:19Z"
+  "ultima_actualizacion": "2026-08-27T23:11:27Z"
 }

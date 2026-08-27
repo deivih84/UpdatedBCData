@@ -16,6 +16,8 @@ class GachaCatalogCorrectionTests(unittest.TestCase):
     def test_promotional_aliases_belong_to_canonical_banners(self):
         expected = {
             "Limited Summer capsules with a exciting hero! Tap banner for info!": "Gals of Summer Sunshine",
+            "Limited Summer capsules with a new hero! Tap banner for info!": "Gals of Summer Blue Ocean",
+            "Survive! Mola Mola! Collab Capsules!": "Mola Mola Collab Gacha",
             "Mamoluga added! Unstoppable Eldritch Cats(?)!": "Luga Families",
             "Mighty Morta-Loncha added! Ultimate anti-Zombie firepower!": "Iron Legion",
             "Lone Moon Lunos added! Special Capsules featuring powerful limited units!": "Epicfest",
@@ -32,6 +34,31 @@ class GachaCatalogCorrectionTests(unittest.TestCase):
         sunshine = next(banner for banner in self.catalog if banner["nombre"] == "Gals of Summer Sunshine")
 
         self.assertEqual(sunshine["ubers"], [275, 354, 438, 563, 666, 820])
+
+    def test_current_blue_ocean_pool_matches_ponos_event_1076(self):
+        blue_ocean = next(
+            banner for banner in self.catalog
+            if banner["nombre"] == "Gals of Summer Blue Ocean"
+        )
+
+        self.assertEqual(blue_ocean["ubers"], [872, 494, 759, 714, 614, 564, 274])
+        self.assertEqual(
+            tuple(len(blue_ocean[field]) for field in ("rares", "super_rares", "ubers", "legends")),
+            (25, 23, 7, 0),
+        )
+
+    def test_current_mola_mola_pool_matches_ponos_event_1002(self):
+        mola_mola = next(
+            banner for banner in self.catalog
+            if banner["nombre"] == "Mola Mola Collab Gacha"
+        )
+
+        self.assertEqual(mola_mola["ubers"], [174])
+        self.assertEqual(mola_mola["super_rares"][:8], [173, 237, 238, 239, 129, 131, 144, 200])
+        self.assertEqual(
+            tuple(len(mola_mola[field]) for field in ("rares", "super_rares", "ubers", "legends")),
+            (25, 25, 1, 0),
+        )
 
     def test_limited_capsules_resolves_to_summer_break_cats_paradise(self):
         paradise = next(
@@ -68,34 +95,14 @@ class GachaCatalogCorrectionTests(unittest.TestCase):
     def test_schedule_uses_canonical_names_for_corrected_campaigns(self):
         campaigns = [
             (
-                "limited_summer_capsules_with_a_exciting_hero_tap_banner_for_info_2026-08-07",
-                "gals_of_summer_sunshine_2026-08-07",
-                "Gals of Summer Sunshine",
+                "limited_summer_capsules_with_a_new_hero_tap_banner_for_info_2026-08-28",
+                "gals_of_summer_blue_ocean_2026-08-28",
+                "Gals of Summer Blue Ocean",
             ),
             (
-                "mamoluga_added_unstoppable_eldritch_cats_2026-08-07",
-                "luga_families_2026-08-07",
-                "Luga Families",
-            ),
-            (
-                "mighty_morta_loncha_added_ultimate_anti_zombie_firepower_2026-08-10",
-                "iron_legion_2026-08-10",
-                "Iron Legion",
-            ),
-            (
-                "lone_moon_lunos_added_special_capsules_featuring_powerful_limited_units_2026-08-14",
-                "epicfest_2026-08-14",
-                "Epicfest",
-            ),
-            (
-                "mamoluga_added_unstoppable_eldritch_cats_2026-08-21",
-                "luga_families_2026-08-21",
-                "Luga Families",
-            ),
-            (
-                "mighty_morta_loncha_added_ultimate_anti_zombie_firepower_2026-08-21",
-                "iron_legion_2026-08-21",
-                "Iron Legion",
+                "survive_mola_mola_collab_capsules_2026-08-28",
+                "mola_mola_collab_gacha_2026-08-28",
+                "Mola Mola Collab Gacha",
             ),
         ]
 
