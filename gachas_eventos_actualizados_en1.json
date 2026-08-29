@@ -175,24 +175,6 @@
   ],
   "eventos": [
     {
-      "id": "tag_arena_challenge_2026-08-15",
-      "nombre": "Tag Arena Challenge",
-      "caracteristicas": [
-        "Tag Arena Challenge (タッグ闘技チャレンジ, Taggu Tōgi Charenji, Tag Team Challenge) is a map added in Version 11.6. It consists of all Tag Arena Stages combined into a single map, along with three new stages. Progress made in Tag Arena Challenge will reset when the event ends.\nThere are three stages per map, each with a Cat Deploy Limit and enemy limit of 2. Taking over 15 minutes to beat any stage will cause an Assassin Bear to spawn. As opposed to the Duel Stages Challenge, most of the enemies can spawn multiple times."
-      ],
-      "fecha_inicio": "2026-08-15",
-      "fecha_fin": "2026-08-28"
-    },
-    {
-      "id": "cats_eye_cave_2026-08-15",
-      "nombre": "Cats Eye Cave",
-      "caracteristicas": [
-        "No info :) this is a Gamatoto expedition area that gives Catseyes as rewards."
-      ],
-      "fecha_inicio": "2026-08-15",
-      "fecha_fin": "2026-08-28"
-    },
-    {
       "id": "arena_of_destiny_2026-08-16",
       "nombre": "Arena of Destiny",
       "caracteristicas": [
@@ -209,6 +191,24 @@
       ],
       "fecha_inicio": "2026-08-24",
       "fecha_fin": "2026-08-31"
+    },
+    {
+      "id": "survive_mola_mola_2026-08-28",
+      "nombre": "Survive! Mola Mola!",
+      "caracteristicas": [
+        "Survive! Mola Mola! is a collaboration event between The Battle Cats and the mobile game Survive! Mola Mola!. It features limited collaboration stages, enemies and rewards, alongside the Mola Mola Collab Gacha containing Baby Mola and Mola King."
+      ],
+      "fecha_inicio": "2026-08-28",
+      "fecha_fin": "2026-09-18"
+    },
+    {
+      "id": "summer_break_cats_2026-08-28",
+      "nombre": "Summer Break Cats",
+      "caracteristicas": [
+        "Summer Break Cats is a seasonal event featuring a limited series of summer-themed stages and an Event Capsule. Playing its stages provides the event currency used to obtain its exclusive rewards and Cat Units."
+      ],
+      "fecha_inicio": "2026-08-28",
+      "fecha_fin": "2026-09-18"
     },
     {
       "id": "eoc_itf_cotc_half_energy_cost_2026-08-28",
@@ -263,5 +263,5 @@
       "fecha_fin": "2026-10-03"
     }
   ],
-  "ultima_actualizacion": "2026-08-27T23:11:27Z"
+  "ultima_actualizacion": "2026-08-29T14:24:31Z"
 }

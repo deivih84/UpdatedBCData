@@ -744,6 +744,26 @@ def _names_overlap(a, b):
     return al == bl or al in bl or bl in al or al[:15] == bl[:15]
 
 
+def dedupe_contained_event_ranges(entries):
+    """Drop partial ranges when a same-named full campaign contains them."""
+    deduped = []
+    for index, entry in enumerate(entries):
+        contained = any(
+            index != other_index
+            and entry["nombre"].lower() == other["nombre"].lower()
+            and other["fecha_inicio"] <= entry["fecha_inicio"]
+            and other["fecha_fin"] >= entry["fecha_fin"]
+            and (
+                other["fecha_inicio"] < entry["fecha_inicio"]
+                or other["fecha_fin"] > entry["fecha_fin"]
+            )
+            for other_index, other in enumerate(entries)
+        )
+        if not contained:
+            deduped.append(entry)
+    return deduped
+
+
 def filter_kept_old_events(old_events, seen_ids, new_names_by_date, by_name, today=None):
     kept_old = []
     for ev in old_events:
@@ -859,6 +879,7 @@ def main():
             seen_ids.add(ev["id"])
             all_events.append(ev)
 
+    all_events = dedupe_contained_event_ranges(all_events)
     all_events.sort(key=lambda x: x["fecha_inicio"])
 
     # 7. Load existing output, preserve gachas, replace eventos

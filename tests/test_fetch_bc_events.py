@@ -4,10 +4,54 @@ import unittest
 from pathlib import Path
 
 import fetch_bc_events as events
-from bc_event_name_resolver import EventNameHit
+from bc_event_name_resolver import BCEventNameResolver, EventNameHit
 
 
 class EventMetadataTests(unittest.TestCase):
+    def test_repository_resolves_current_mola_mola_and_summer_break_events(self):
+        by_id, by_name = events.load_event_db()
+        sale_rows = [{
+            "start_date": "2026-08-28",
+            "end_date": "2026-09-18",
+            "pack_ids": [2088, 24019],
+        }]
+
+        resolved, resolved_ids = events.build_bcdata_events(
+            sale_rows,
+            BCEventNameResolver(),
+            by_name,
+        )
+
+        self.assertEqual(by_id[18100]["nombre"], "Survive! Mola Mola!")
+        self.assertEqual(by_id[24019]["nombre"], "Summer Break Cats")
+        self.assertEqual(
+            [(item["nombre"], item["fecha_inicio"], item["fecha_fin"]) for item in resolved],
+            [
+                ("Survive! Mola Mola!", "2026-08-28", "2026-09-18"),
+                ("Summer Break Cats", "2026-08-28", "2026-09-18"),
+            ],
+        )
+        self.assertEqual(resolved_ids, {2088, 24019})
+
+    def test_dedupes_same_named_event_ranges_contained_by_full_campaign(self):
+        entries = [
+            events._build_event_entry("Survive! Mola Mola!", "2026-08-28", "2026-09-18"),
+            events._build_event_entry("Survive! Mola Mola!", "2026-08-28", "2026-09-03"),
+            events._build_event_entry("Survive! Mola Mola!", "2026-09-04", "2026-09-10"),
+            events._build_event_entry("Survive! Mola Mola!", "2026-09-11", "2026-09-18"),
+            events._build_event_entry("Summer Break Cats", "2026-08-28", "2026-09-18"),
+        ]
+
+        deduped = events.dedupe_contained_event_ranges(entries)
+
+        self.assertEqual(
+            [(item["nombre"], item["fecha_inicio"], item["fecha_fin"]) for item in deduped],
+            [
+                ("Survive! Mola Mola!", "2026-08-28", "2026-09-18"),
+                ("Summer Break Cats", "2026-08-28", "2026-09-18"),
+            ],
+        )
+
     def test_load_event_db_indexes_event_ids_and_aliases(self):
         with tempfile.TemporaryDirectory() as tmp:
             original_events_file = events.EVENTS_FILE

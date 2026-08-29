@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-27T23:11:27Z",
+  "generated_at": "2026-08-29T14:24:31Z",
   "summary": {
-    "unknown_event_ids": 5,
+    "unknown_event_ids": 3,
     "discord_names_missing_metadata": 0
   },
   "unknown_event_ids": [
@@ -9,26 +9,6 @@
       "event_id": 700,
       "status": "needs_mapping",
       "occurrences": [
-        {
-          "start_date": "2026-08-14",
-          "end_date": "2026-08-28",
-          "row_pack_ids": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            51,
-            700,
-            701,
-            702
-          ]
-        },
         {
           "start_date": "2026-09-04",
           "end_date": "2026-09-18",
@@ -57,26 +37,6 @@
       "status": "needs_mapping",
       "occurrences": [
         {
-          "start_date": "2026-08-14",
-          "end_date": "2026-08-28",
-          "row_pack_ids": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            51,
-            700,
-            701,
-            702
-          ]
-        },
-        {
           "start_date": "2026-09-04",
           "end_date": "2026-09-18",
           "row_pack_ids": [
@@ -104,26 +64,6 @@
       "status": "needs_mapping",
       "occurrences": [
         {
-          "start_date": "2026-08-14",
-          "end_date": "2026-08-28",
-          "row_pack_ids": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            51,
-            700,
-            701,
-            702
-          ]
-        },
-        {
           "start_date": "2026-09-04",
           "end_date": "2026-09-18",
           "row_pack_ids": [
@@ -141,48 +81,6 @@
             700,
             701,
             702
-          ]
-        }
-      ],
-      "candidates": []
-    },
-    {
-      "event_id": 18105,
-      "status": "needs_mapping",
-      "occurrences": [
-        {
-          "start_date": "2026-08-21",
-          "end_date": "2026-08-28",
-          "row_pack_ids": [
-            18105
-          ]
-        }
-      ],
-      "candidates": []
-    },
-    {
-      "event_id": 18100,
-      "status": "needs_mapping",
-      "occurrences": [
-        {
-          "start_date": "2026-08-28",
-          "end_date": "2026-09-03",
-          "row_pack_ids": [
-            18100
-          ]
-        },
-        {
-          "start_date": "2026-09-04",
-          "end_date": "2026-09-10",
-          "row_pack_ids": [
-            18100
-          ]
-        },
-        {
-          "start_date": "2026-09-11",
-          "end_date": "2026-09-18",
-          "row_pack_ids": [
-            18100
           ]
         }
       ],

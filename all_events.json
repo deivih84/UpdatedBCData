@@ -390,6 +390,21 @@
       "url": "https://battlecats.miraheze.org/wiki/Otherworld_Colosseum"
     },
     {
+      "nombre": "Survive! Mola Mola!",
+      "event_id": 18100,
+      "event_ids": [2088],
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_survive_mola_mola.png",
+      "descripcion": "Survive! Mola Mola! is a collaboration event between The Battle Cats and the mobile game Survive! Mola Mola!. It features limited collaboration stages, enemies and rewards, alongside the Mola Mola Collab Gacha containing Baby Mola and Mola King.",
+      "url": "https://battlecats.miraheze.org/wiki/Survive!_Mola_Mola!_Collaboration_Event"
+    },
+    {
+      "nombre": "Summer Break Cats",
+      "event_id": 24019,
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_summer_break_cats.png",
+      "descripcion": "Summer Break Cats is a seasonal event featuring a limited series of summer-themed stages and an Event Capsule. Playing its stages provides the event currency used to obtain its exclusive rewards and Cat Units.",
+      "url": "https://battlecats.miraheze.org/wiki/Summer_Break_Cats"
+    },
+    {
       "nombre": "Version 15.4 is out!!",
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_version_15_4.png",
       "descripcion": "Japanese: May 25th, 2026\nInternational: June 10th, 2026",
