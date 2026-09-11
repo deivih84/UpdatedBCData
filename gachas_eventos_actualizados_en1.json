@@ -1,75 +1,6 @@
 {
   "gachas": [
     {
-      "id": "gals_of_summer_sunshine_2026-08-07",
-      "nombre": "Gals of Summer Sunshine",
-      "fecha_inicio": "2026-08-07",
-      "fecha_fin": "2026-08-28",
-      "caracteristicas": [
-        "G",
-        "Guaranteed",
-        "L",
-        "Lucky Ticket",
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "summer_break_cats_paradise_2026-08-15",
-      "nombre": "Summer Break Cats Paradise",
-      "fecha_inicio": "2026-08-15",
-      "fecha_fin": "2026-08-28",
-      "caracteristicas": []
-    },
-    {
-      "id": "spooky_cuties_2026-08-24",
-      "nombre": "Spooky Cuties",
-      "fecha_inicio": "2026-08-24",
-      "fecha_fin": "2026-08-26",
-      "caracteristicas": [
-        "G",
-        "Guaranteed",
-        "L",
-        "Lucky Ticket"
-      ]
-    },
-    {
-      "id": "galaxy_gals_2026-08-24",
-      "nombre": "Galaxy Gals",
-      "fecha_inicio": "2026-08-24",
-      "fecha_fin": "2026-08-26",
-      "caracteristicas": [
-        "G",
-        "Guaranteed",
-        "L",
-        "Lucky Ticket"
-      ]
-    },
-    {
-      "id": "wargods_vajiras_2026-08-26",
-      "nombre": "Wargods Vajiras",
-      "fecha_inicio": "2026-08-26",
-      "fecha_fin": "2026-08-28",
-      "caracteristicas": [
-        "G",
-        "Guaranteed",
-        "L",
-        "Lucky Ticket"
-      ]
-    },
-    {
-      "id": "ultra_souls_2026-08-26",
-      "nombre": "Ultra Souls",
-      "fecha_inicio": "2026-08-26",
-      "fecha_fin": "2026-08-28",
-      "caracteristicas": [
-        "G",
-        "Guaranteed",
-        "L",
-        "Lucky Ticket"
-      ]
-    },
-    {
       "id": "gals_of_summer_blue_ocean_2026-08-28",
       "nombre": "Gals of Summer Blue Ocean",
       "fecha_inicio": "2026-08-28",
@@ -93,36 +24,6 @@
         "Guaranteed",
         "L",
         "Lucky Ticket",
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "elemental_pixies_2026-08-28",
-      "nombre": "Elemental Pixies",
-      "fecha_inicio": "2026-08-28",
-      "fecha_fin": "2026-08-31",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "dark_heroes_2026-08-31",
-      "nombre": "Dark Heroes",
-      "fecha_inicio": "2026-08-31",
-      "fecha_fin": "2026-09-02",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "the_dynamites_2026-09-02",
-      "nombre": "The Dynamites",
-      "fecha_inicio": "2026-09-02",
-      "fecha_fin": "2026-09-04",
-      "caracteristicas": [
         "P",
         "Platinum Shard"
       ]
@@ -263,5 +164,5 @@
       "fecha_fin": "2026-10-03"
     }
   ],
-  "ultima_actualizacion": "2026-09-10T20:14:48Z"
+  "ultima_actualizacion": "2026-09-11T02:10:12Z"
 }
