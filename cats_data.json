@@ -1,7 +1,7 @@
 {
     "metadata": {
         "version": "15.6.0",
-        "last_update": "2026-08-25 17:02:13",
+        "last_update": "2026-09-14 17:29:10",
         "total_units": 876
     },
     "units": {
@@ -263,7 +263,7 @@
             "info": {
                 "rarity": "EX",
                 "name_basic": "Ninja Cat",
-                "names_evolved": "Ninja Frog Cat / Flying Ninja Cat",
+                "names_evolved": "Frog Ninja Cat / Flying Ninja Cat",
                 "obtain_method": "Empire of Cats (stage 6) - requires 50 Cat Food to unlock"
             },
             "stats": [
@@ -3780,7 +3780,7 @@
             "info": {
                 "rarity": "UR",
                 "name_basic": "Catman",
-                "names_evolved": "Dark Catman / Ultimate Catman / 196-4",
+                "names_evolved": "Dark Catman / Ultimate Catman / Catman Forever",
                 "obtain_method": "Rare Cat Capsule - Justice Strikes Back! Dark Heroes",
                 "evolution": {
                     "true_form": {
@@ -9187,8 +9187,8 @@
         "504": {
             "info": {
                 "rarity": "EX",
-                "name_basic": "Fatherly Cat (Shopkeeper)",
-                "names_evolved": "Fatherly Cat (Active Service)",
+                "name_basic": "Burgle Boss Cat (Retired)",
+                "names_evolved": "Burgle Boss Cat (Prime)",
                 "obtain_method": "External App - The Burgle Cats"
             },
             "stats": [
@@ -10506,7 +10506,7 @@
             "info": {
                 "rarity": "UR",
                 "name_basic": "First-Love Myrcia",
-                "names_evolved": "First-Love Myrcia ξ",
+                "names_evolved": "First-Love Myrcia, type ξ",
                 "obtain_method": "Rare Cat Capsule - Valentine Gals"
             },
             "stats": [
@@ -11815,7 +11815,7 @@
             "info": {
                 "rarity": "UR",
                 "name_basic": "Night Beach Lilin",
-                "names_evolved": "Night Beach Lilinπ",
+                "names_evolved": "Night Beach Lilin, type π",
                 "obtain_method": "Rare Cat Capsule - Gals of Summer Blue Ocean"
             },
             "stats": [
@@ -12187,7 +12187,7 @@
             "info": {
                 "rarity": "UR",
                 "name_basic": "Reindeer Terun",
-                "names_evolved": "Reindeer Terunζ",
+                "names_evolved": "Reindeer Terun, type ζ",
                 "obtain_method": "Rare Cat Capsule - Xmas Gals"
             },
             "stats": [
@@ -13313,7 +13313,7 @@
             "info": {
                 "rarity": "UR",
                 "name_basic": "Music Fest Thundia",
-                "names_evolved": "Music Fest Thundia β",
+                "names_evolved": "Music Fest Thundia, type β",
                 "obtain_method": "Rare Cat Capsule - Gals of Summer Blue Ocean"
             },
             "stats": [
@@ -14055,7 +14055,7 @@
             "info": {
                 "rarity": "UR",
                 "name_basic": "Seaside Pegasa",
-                "names_evolved": "Seaside Pegasa v",
+                "names_evolved": "Seaside Pegasa, type v",
                 "obtain_method": "Rare Cat Capsule - Gals of Summer Sunshine"
             },
             "stats": [
@@ -14715,9 +14715,9 @@
         "873": {
             "info": {
                 "rarity": "UR",
-                "name_basic": "Rock Koneko",
-                "names_evolved": "Rockstar Koneko",
-                "obtain_method": "Rare Cat Capsule - Neo Best of the Best: Milestone Edition"
+                "name_basic": "Metal Maiden Koneko",
+                "names_evolved": "Sonic Siren Koneko",
+                "obtain_method": "Rare Cat Capsule - Best of the Best: Milestone Edition"
             },
             "stats": [
                 [2150,2,10,160,0,250,99,999,0,320,1,0,0,30,0,9,1,0,0,0,0,0,1,0,22,0,0,22,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,22,90,0,0,0,1,0,0,0,0,0,0,0,1,5,30,0,0,-1,1,0,100,1000,0,0,0,0],
@@ -14727,9 +14727,9 @@
         "874": {
             "info": {
                 "rarity": "UR",
-                "name_basic": "Ryūichi",
-                "names_evolved": "Ryūichi & Ryūji",
-                "obtain_method": "Rare Cat Capsules - River City Clash Capsules Red Team"
+                "name_basic": "Ryuichi",
+                "names_evolved": "Ryuichi & Ryuji",
+                "obtain_method": "Rare Cat Capsules - River City Clash Capsules Black Team"
             },
             "stats": [
                 [2000,4,20,770,40,550,2000,1650,0,320,1,0,1,21,6,9,1,1,1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,30,120,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,-1,0,0,0,0,0,1,0,0,-1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0,0],
@@ -14739,9 +14739,9 @@
         "875": {
             "info": {
                 "rarity": "UR",
-                "name_basic": "875-1",
+                "name_basic": "Summon 22",
                 "names_evolved": "N/A",
-                "obtain_method": "?"
+                "obtain_method": "Spirit of 733-3"
             },
             "stats": [
                 [100,1,0,2700,0,800,0,0,0,320,1,0,1,41,9,9,1,1,1,1,1,1,1,0,0,0,0,100,250,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,-1,2,0,0,0,0,1,0,0,-1,-1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0,0,0]

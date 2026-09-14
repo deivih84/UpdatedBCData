@@ -2,16 +2,16 @@ import json
 import unittest
 from pathlib import Path
 
+import fetch_bc_schedule as schedule
+
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG_PATH = ROOT / "all_gachas_en.json"
-SCHEDULE_PATH = ROOT / "gachas_eventos_actualizados_en1.json"
 
 
 class GachaCatalogCorrectionTests(unittest.TestCase):
     def setUp(self):
         self.catalog = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))["gachas"]
-        self.schedule = json.loads(SCHEDULE_PATH.read_text(encoding="utf-8"))["gachas"]
 
     def test_promotional_aliases_belong_to_canonical_banners(self):
         expected = {
@@ -74,16 +74,16 @@ class GachaCatalogCorrectionTests(unittest.TestCase):
             (["Summer Break Capsules Paradise", "Limited Capsules"], [342, 375, 822, 870]),
         )
 
-    def test_schedule_uses_canonical_summer_break_cats_paradise_entry(self):
-        entry = next(
-            entry for entry in self.schedule
-            if entry["fecha_inicio"] == "2026-08-15"
-            and entry["fecha_fin"] == "2026-08-28"
-        )
-
+    def test_catalog_resolves_summer_break_capsules_to_canonical_entry(self):
+        by_id, alias_db = schedule._load_name_dbs()
+        entry = {
+            "gacha_id": 9999,
+            "tsv_name": "Limited Capsules",
+            "tsv_full": "Limited Capsules",
+        }
         self.assertEqual(
-            (entry["id"], entry["nombre"]),
-            ("summer_break_cats_paradise_2026-08-15", "Summer Break Cats Paradise"),
+            schedule._resolve_gacha_name(entry, by_id, alias_db),
+            "Summer Break Cats Paradise",
         )
 
     def test_epicfest_pool_contains_lunacia_and_lone_moon_lunos(self):
@@ -92,26 +92,29 @@ class GachaCatalogCorrectionTests(unittest.TestCase):
         self.assertIn(787, epicfest["ubers"])
         self.assertIn(859, epicfest["ubers"])
 
-    def test_schedule_uses_canonical_names_for_corrected_campaigns(self):
+    def test_catalog_resolves_corrected_campaign_aliases(self):
+        by_id, alias_db = schedule._load_name_dbs()
         campaigns = [
             (
-                "limited_summer_capsules_with_a_new_hero_tap_banner_for_info_2026-08-28",
-                "gals_of_summer_blue_ocean_2026-08-28",
+                "Limited Summer capsules with a new hero! Tap banner for info!",
                 "Gals of Summer Blue Ocean",
             ),
             (
-                "survive_mola_mola_collab_capsules_2026-08-28",
-                "mola_mola_collab_gacha_2026-08-28",
+                "Survive! Mola Mola! Collab Capsules!",
                 "Mola Mola Collab Gacha",
             ),
         ]
 
-        for raw_id, canonical_id, canonical_name in campaigns:
-            entry = next(
-                entry for entry in self.schedule
-                if entry["id"] in (raw_id, canonical_id)
+        for raw_name, canonical_name in campaigns:
+            entry = {
+                "gacha_id": 9999,
+                "tsv_name": raw_name,
+                "tsv_full": raw_name,
+            }
+            self.assertEqual(
+                schedule._resolve_gacha_name(entry, by_id, alias_db),
+                canonical_name,
             )
-            self.assertEqual((entry["id"], entry["nombre"]), (canonical_id, canonical_name))
 
 
 if __name__ == "__main__":
