@@ -8,6 +8,29 @@ from bc_event_name_resolver import BCEventNameResolver, EventNameHit
 
 
 class EventMetadataTests(unittest.TestCase):
+    def test_repository_resolves_fate_collaboration_as_one_calendar_event(self):
+        by_id, by_name = events.load_event_db()
+        sale_rows = [{
+            "start_date": "2026-09-18",
+            "end_date": "2026-10-05",
+            "pack_ids": [2052, 27014],
+        }]
+
+        resolved, resolved_ids = events.build_bcdata_events(
+            sale_rows,
+            BCEventNameResolver(),
+            by_name,
+        )
+
+        expected_name = "Fate/Stay Night: Heaven's Feel Collaboration Event"
+        self.assertEqual(by_id[2052]["nombre"], expected_name)
+        self.assertEqual(by_name["the holy grail war"]["nombre"], expected_name)
+        self.assertEqual(
+            [(item["nombre"], item["fecha_inicio"], item["fecha_fin"]) for item in resolved],
+            [(expected_name, "2026-09-18", "2026-10-05")],
+        )
+        self.assertEqual(resolved_ids, {2052, 27014})
+
     def test_repository_resolves_current_mola_mola_and_summer_break_events(self):
         by_id, by_name = events.load_event_db()
         sale_rows = [{

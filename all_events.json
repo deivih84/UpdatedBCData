@@ -398,6 +398,18 @@
       "url": "https://battlecats.miraheze.org/wiki/Survive!_Mola_Mola!_Collaboration_Event"
     },
     {
+      "nombre": "Fate/Stay Night: Heaven's Feel Collaboration Event",
+      "aliases": [
+        "The Holy Grail War",
+        "Fate/stay night [HF]",
+        "Fate/Stay Night: Heaven's Feel"
+      ],
+      "event_id": 2052,
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_fate_stay_night.png",
+      "descripcion": "Fate/Stay Night: Heaven's Feel Collaboration Event is a crossover between The Battle Cats and the Fate/stay night: Heaven's Feel anime films. It features the limited collaboration capsule, Holy Grail War stages, daily Servant battles, Catnip Challenges and login rewards. The 2026 edition adds Shirou Emiya and True Assassin to the capsule lineup, along with The Hidden Grail War and True Assassin's Gauntlet stages.",
+      "url": "https://battlecats.miraheze.org/wiki/Fate/Stay_Night:_Heaven%27s_Feel_Collaboration_Event"
+    },
+    {
       "nombre": "Summer Break Cats",
       "event_id": 24019,
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_summer_break_cats.png",

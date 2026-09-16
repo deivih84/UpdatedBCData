@@ -21,6 +21,8 @@ class GachaCatalogCorrectionTests(unittest.TestCase):
             "Mamoluga added! Unstoppable Eldritch Cats(?)!": "Luga Families",
             "Mighty Morta-Loncha added! Ultimate anti-Zombie firepower!": "Iron Legion",
             "Lone Moon Lunos added! Special Capsules featuring powerful limited units!": "Epicfest",
+            "NEW Uber Rare heroes Shirou Emiya and True Assassin!": "Fate/Stay Night: Heaven's Feel Collaboration",
+            "Capsules featuring Colossus Slayer units!  With Increasing Capsules!": "Colossus Busters",
         }
         aliases = {
             alias: banner["nombre"]
@@ -29,6 +31,24 @@ class GachaCatalogCorrectionTests(unittest.TestCase):
         }
 
         self.assertEqual({alias: aliases.get(alias) for alias in expected}, expected)
+
+    def test_fate_heavens_feel_pool_matches_ponos_event_1081(self):
+        fate = next(
+            banner for banner in self.catalog
+            if banner["nombre"] == "Fate/Stay Night: Heaven's Feel Collaboration"
+        )
+
+        self.assertEqual(
+            (fate["rareChance"], fate["supaChance"], fate["uberChance"], fate["legendChance"]),
+            (7000, 2500, 500, 0),
+        )
+        self.assertEqual(fate["ubers"], [864, 865, 362, 363, 364, 365, 366, 367, 368, 456])
+        self.assertEqual(fate["super_rares"][0], 460)
+        self.assertEqual(fate["rares"][:5], [370, 371, 372, 458, 459])
+        self.assertEqual(
+            tuple(len(fate[field]) for field in ("rares", "super_rares", "ubers", "legends")),
+            (30, 18, 10, 0),
+        )
 
     def test_sunshine_pool_contains_only_sunshine_uber_rares(self):
         sunshine = next(banner for banner in self.catalog if banner["nombre"] == "Gals of Summer Sunshine")
@@ -102,6 +122,14 @@ class GachaCatalogCorrectionTests(unittest.TestCase):
             (
                 "Survive! Mola Mola! Collab Capsules!",
                 "Mola Mola Collab Gacha",
+            ),
+            (
+                "NEW Uber Rare heroes Shirou Emiya and True Assassin!",
+                "Fate/Stay Night: Heaven's Feel Collaboration",
+            ),
+            (
+                "Capsules featuring Colossus Slayer units!  With Increasing Capsules!",
+                "Colossus Busters",
             ),
         ]
 
