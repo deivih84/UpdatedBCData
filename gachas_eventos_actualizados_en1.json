@@ -29,25 +29,6 @@
       ]
     },
     {
-      "id": "uberfest_2026-09-04",
-      "nombre": "Uberfest",
-      "fecha_inicio": "2026-09-04",
-      "fecha_fin": "2026-09-11",
-      "caracteristicas": []
-    },
-    {
-      "id": "dragon_emperors_2026-09-11",
-      "nombre": "Dragon Emperors",
-      "fecha_inicio": "2026-09-11",
-      "fecha_fin": "2026-09-14",
-      "caracteristicas": [
-        "G",
-        "Guaranteed",
-        "L",
-        "Lucky Ticket"
-      ]
-    },
-    {
       "id": "the_almighties_2026-09-14",
       "nombre": "The Almighties",
       "fecha_inicio": "2026-09-14",
@@ -57,6 +38,105 @@
         "Guaranteed",
         "L",
         "Lucky Ticket"
+      ]
+    },
+    {
+      "id": "epicfest_2026-09-18",
+      "nombre": "Epicfest",
+      "fecha_inicio": "2026-09-18",
+      "fecha_fin": "2026-09-21",
+      "caracteristicas": []
+    },
+    {
+      "id": "new_uber_rare_heroes_shirou_emiya_and_true_assassin_2026-09-18",
+      "nombre": "NEW Uber Rare heroes Shirou Emiya and True Assassin!",
+      "fecha_inicio": "2026-09-18",
+      "fecha_fin": "2026-10-05",
+      "caracteristicas": [
+        "G",
+        "Guaranteed",
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "luga_families_2026-09-18",
+      "nombre": "Luga Families",
+      "fecha_inicio": "2026-09-18",
+      "fecha_fin": "2026-09-21",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "galaxy_gals_2026-09-21",
+      "nombre": "Galaxy Gals",
+      "fecha_inicio": "2026-09-21",
+      "fecha_fin": "2026-09-25",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "iron_legion_2026-09-21",
+      "nombre": "Iron Legion",
+      "fecha_inicio": "2026-09-21",
+      "fecha_fin": "2026-09-25",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "capsules_featuring_colossus_slayer_units_with_increasing_capsules_2026-09-25",
+      "nombre": "Capsules featuring Colossus Slayer units!  With Increasing Capsules!",
+      "fecha_inicio": "2026-09-25",
+      "fecha_fin": "2026-09-28",
+      "caracteristicas": [
+        "S",
+        "Step-Up"
+      ]
+    },
+    {
+      "id": "wave_busters_2026-09-25",
+      "nombre": "Wave Busters",
+      "fecha_inicio": "2026-09-25",
+      "fecha_fin": "2026-09-28",
+      "caracteristicas": [
+        "S",
+        "Step-Up"
+      ]
+    },
+    {
+      "id": "elemental_pixies_2026-09-28",
+      "nombre": "Elemental Pixies",
+      "fecha_inicio": "2026-09-28",
+      "fecha_fin": "2026-09-30",
+      "caracteristicas": [
+        "G",
+        "Guaranteed"
+      ]
+    },
+    {
+      "id": "dark_heroes_2026-09-30",
+      "nombre": "Dark Heroes",
+      "fecha_inicio": "2026-09-30",
+      "fecha_fin": "2026-10-02",
+      "caracteristicas": [
+        "G",
+        "Guaranteed"
+      ]
+    },
+    {
+      "id": "spooky_cuties_2026-10-02",
+      "nombre": "Spooky Cuties",
+      "fecha_inicio": "2026-10-02",
+      "fecha_fin": "2026-10-05",
+      "caracteristicas": [
+        "G",
+        "Guaranteed"
       ]
     },
     {
@@ -164,5 +244,5 @@
       "fecha_fin": "2026-10-03"
     }
   ],
-  "ultima_actualizacion": "2026-09-16T02:29:27Z"
+  "ultima_actualizacion": "2026-09-16T10:31:17Z"
 }
