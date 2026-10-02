@@ -1,53 +1,6 @@
 {
   "gachas": [
     {
-      "id": "gals_of_summer_blue_ocean_2026-08-28",
-      "nombre": "Gals of Summer Blue Ocean",
-      "fecha_inicio": "2026-08-28",
-      "fecha_fin": "2026-09-18",
-      "caracteristicas": [
-        "G",
-        "Guaranteed",
-        "L",
-        "Lucky Ticket",
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "mola_mola_collab_gacha_2026-08-28",
-      "nombre": "Mola Mola Collab Gacha",
-      "fecha_inicio": "2026-08-28",
-      "fecha_fin": "2026-09-18",
-      "caracteristicas": [
-        "G",
-        "Guaranteed",
-        "L",
-        "Lucky Ticket",
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "the_almighties_2026-09-14",
-      "nombre": "The Almighties",
-      "fecha_inicio": "2026-09-14",
-      "fecha_fin": "2026-09-18",
-      "caracteristicas": [
-        "G",
-        "Guaranteed",
-        "L",
-        "Lucky Ticket"
-      ]
-    },
-    {
-      "id": "epicfest_2026-09-18",
-      "nombre": "Epicfest",
-      "fecha_inicio": "2026-09-18",
-      "fecha_fin": "2026-09-21",
-      "caracteristicas": []
-    },
-    {
       "id": "fate_stay_night_heaven_s_feel_collaboration_2026-09-18",
       "nombre": "Fate/Stay Night: Heaven's Feel Collaboration",
       "fecha_inicio": "2026-09-18",
@@ -57,66 +10,6 @@
         "Guaranteed",
         "P",
         "Platinum Shard"
-      ]
-    },
-    {
-      "id": "luga_families_2026-09-18",
-      "nombre": "Luga Families",
-      "fecha_inicio": "2026-09-18",
-      "fecha_fin": "2026-09-21",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "galaxy_gals_2026-09-21",
-      "nombre": "Galaxy Gals",
-      "fecha_inicio": "2026-09-21",
-      "fecha_fin": "2026-09-25",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "iron_legion_2026-09-21",
-      "nombre": "Iron Legion",
-      "fecha_inicio": "2026-09-21",
-      "fecha_fin": "2026-09-25",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "colossus_busters_2026-09-25",
-      "nombre": "Colossus Busters",
-      "fecha_inicio": "2026-09-25",
-      "fecha_fin": "2026-09-28",
-      "caracteristicas": [
-        "S",
-        "Step-Up"
-      ]
-    },
-    {
-      "id": "wave_busters_2026-09-25",
-      "nombre": "Wave Busters",
-      "fecha_inicio": "2026-09-25",
-      "fecha_fin": "2026-09-28",
-      "caracteristicas": [
-        "S",
-        "Step-Up"
-      ]
-    },
-    {
-      "id": "elemental_pixies_2026-09-28",
-      "nombre": "Elemental Pixies",
-      "fecha_inicio": "2026-09-28",
-      "fecha_fin": "2026-09-30",
-      "caracteristicas": [
-        "G",
-        "Guaranteed"
       ]
     },
     {
@@ -140,16 +33,175 @@
       ]
     },
     {
-      "id": "platinum_capsules_2026-07-24",
+      "id": "summer_break_cats_paradise_2026-10-05",
+      "nombre": "Summer Break Cats Paradise",
+      "fecha_inicio": "2026-10-05",
+      "fecha_fin": "2026-10-17",
+      "caracteristicas": []
+    },
+    {
+      "id": "uberfest_2026-10-05",
+      "nombre": "Uberfest",
+      "fecha_inicio": "2026-10-05",
+      "fecha_fin": "2026-10-09",
+      "caracteristicas": []
+    },
+    {
+      "id": "limited_uber_rare_unit_metal_maiden_koneko_added_120m_dl_special_capsules_2026-10-05",
+      "nombre": "Limited Uber Rare unit Metal Maiden Koneko added! 120M DL Special Capsules!",
+      "fecha_inicio": "2026-10-05",
+      "fecha_fin": "2026-10-16",
+      "caracteristicas": [
+        "L",
+        "Lucky Ticket"
+      ]
+    },
+    {
+      "id": "the_dynamites_2026-10-05",
+      "nombre": "The Dynamites",
+      "fecha_inicio": "2026-10-05",
+      "fecha_fin": "2026-10-09",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "joining_forces_from_seasonal_sets_2026-10-09",
+      "nombre": "Joining forces from Seasonal sets",
+      "fecha_inicio": "2026-10-09",
+      "fecha_fin": "2026-10-13",
+      "caracteristicas": [
+        "L",
+        "Lucky Ticket"
+      ]
+    },
+    {
+      "id": "wargods_vajiras_2026-10-09",
+      "nombre": "Wargods Vajiras",
+      "fecha_inicio": "2026-10-09",
+      "fecha_fin": "2026-10-11",
+      "caracteristicas": [
+        "L",
+        "Lucky Ticket",
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "ultra_souls_2026-10-11",
+      "nombre": "Ultra Souls",
+      "fecha_inicio": "2026-10-11",
+      "fecha_fin": "2026-10-13",
+      "caracteristicas": [
+        "L",
+        "Lucky Ticket",
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "the_almighties_2026-10-13",
+      "nombre": "The Almighties",
+      "fecha_inicio": "2026-10-13",
+      "fecha_fin": "2026-10-16",
+      "caracteristicas": [
+        "L",
+        "Lucky Ticket",
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "dragon_emperors_2026-10-13",
+      "nombre": "Dragon Emperors",
+      "fecha_inicio": "2026-10-13",
+      "fecha_fin": "2026-10-16",
+      "caracteristicas": [
+        "L",
+        "Lucky Ticket",
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "new_unit_akane_tounji_added_an_awesome_variety_pack_of_crazy_cats_2026-10-16",
+      "nombre": "New unit Akane Tounji added! An awesome variety pack of crazy Cats!",
+      "fecha_inicio": "2026-10-16",
+      "fecha_fin": "2026-10-20",
+      "caracteristicas": [
+        "G",
+        "Guaranteed",
+        "L",
+        "Lucky Ticket"
+      ]
+    },
+    {
+      "id": "luga_families_2026-10-16",
+      "nombre": "Luga Families",
+      "fecha_inicio": "2026-10-16",
+      "fecha_fin": "2026-10-18",
+      "caracteristicas": [
+        "G",
+        "Guaranteed",
+        "L",
+        "Lucky Ticket"
+      ]
+    },
+    {
+      "id": "iron_legion_2026-10-16",
+      "nombre": "Iron Legion",
+      "fecha_inicio": "2026-10-16",
+      "fecha_fin": "2026-10-18",
+      "caracteristicas": [
+        "G",
+        "Guaranteed",
+        "L",
+        "Lucky Ticket"
+      ]
+    },
+    {
+      "id": "summer_break_cats_paradise_2026-10-17",
+      "nombre": "Summer Break Cats Paradise",
+      "fecha_inicio": "2026-10-17",
+      "fecha_fin": "2026-10-29",
+      "caracteristicas": []
+    },
+    {
+      "id": "galaxy_gals_2026-10-18",
+      "nombre": "Galaxy Gals",
+      "fecha_inicio": "2026-10-18",
+      "fecha_fin": "2026-10-20",
+      "caracteristicas": [
+        "G",
+        "Guaranteed",
+        "L",
+        "Lucky Ticket"
+      ]
+    },
+    {
+      "id": "wargods_vajiras_2026-10-18",
+      "nombre": "Wargods Vajiras",
+      "fecha_inicio": "2026-10-18",
+      "fecha_fin": "2026-10-20",
+      "caracteristicas": [
+        "G",
+        "Guaranteed",
+        "L",
+        "Lucky Ticket"
+      ]
+    },
+    {
+      "id": "platinum_capsules_2026-10-02",
       "nombre": "Platinum Capsules",
-      "fecha_inicio": "2026-07-24",
+      "fecha_inicio": "2026-10-02",
       "fecha_fin": "2030-01-01",
       "caracteristicas": []
     },
     {
-      "id": "legend_capsules_2026-07-24",
+      "id": "legend_capsules_2026-10-02",
       "nombre": "Legend Capsules",
-      "fecha_inicio": "2026-07-24",
+      "fecha_inicio": "2026-10-02",
       "fecha_fin": "2030-01-01",
       "caracteristicas": []
     }
@@ -251,5 +303,5 @@
       "fecha_fin": "2026-10-15"
     }
   ],
-  "ultima_actualizacion": "2026-10-01T12:06:16Z"
+  "ultima_actualizacion": "2026-10-02T03:15:13Z"
 }
