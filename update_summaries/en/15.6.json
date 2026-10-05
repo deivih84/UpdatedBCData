@@ -7,7 +7,7 @@
   "generatedAt": "2026-10-06 00:05:24",
   "needsHumanReview": true,
   "sourceHashes": {
-    "cats_data.json": "sha256:371bc86eb0591757d5334427eeaf6300c117857070860b9d6f83a63c359d6300",
+    "cats_data.json": "sha256:dd7caab9d76d12b91bfe3d53602fa8026e58fe160973e69c6ff7ebd3f84f1c42",
     "enemies_data.json": "sha256:e65b069aec2bd01e810f62430b0fec94c0f08858081afd9093d503547d61451c",
     "stages_data.json": "sha256:8d18f507207812fab6b8b6d6452b0f3f337492bed56ab594ae236b5ab05d81c0",
     "data_version.json": "sha256:df06c52da7c4d8dbe0238cadbbc0f50eeb265fe424f1fec7f1c6cbc1baf314a9",
