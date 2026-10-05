@@ -3,6 +3,8 @@ import unittest
 from pathlib import Path
 
 import fetch_bc_schedule as schedule
+from gacha_sources import POOL_FIELDS, RATE_FIELDS, parse_godfat_pool
+from gacha_catalog_sync import validate_pool
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -12,6 +14,25 @@ CATALOG_PATH = ROOT / "all_gachas_en.json"
 class GachaCatalogCorrectionTests(unittest.TestCase):
     def setUp(self):
         self.catalog = json.loads(CATALOG_PATH.read_text(encoding="utf-8"))["gachas"]
+        # Historical regressions exercise source parsing, not mutable live pools.
+        fixtures = json.loads((ROOT / "tests/fixtures/gacha_pools_2026_08.json").read_text(encoding="utf-8"))["gachas"]
+        self.historical_catalog = []
+        for fixture in fixtures:
+            event_id = "historical_fixture"
+            html = f'<select name="event"><option selected value="{event_id}">Fixture</option></select><div class="information">'
+            for label, ids_field, rate_field in zip(("Rare", "Super", "Uber", "Legendary"), POOL_FIELDS, RATE_FIELDS):
+                ids = fixture[ids_field]
+                html += f'<li>{label}: {fixture[rate_field] / 100:g}% ({len(ids)} cats)'
+                html += " ".join(f'<a href="/cats/{unit + 1}?seed=1">Cat</a>' for unit in ids)
+                html += '</li>'
+            html += '</div>'
+            self.historical_catalog.append({"nombre": fixture["nombre"], **parse_godfat_pool(html, event_id)})
+
+    def test_live_catalogue_has_valid_rarity_rates_and_pool_membership(self):
+        for banner in self.catalog:
+            if any(banner.get(field) for field in POOL_FIELDS):
+                validate_pool({"event_id": banner["nombre"],
+                               **{field: banner[field] for field in RATE_FIELDS}}, banner)
 
     def test_promotional_aliases_belong_to_canonical_banners(self):
         expected = {
@@ -32,9 +53,9 @@ class GachaCatalogCorrectionTests(unittest.TestCase):
 
         self.assertEqual({alias: aliases.get(alias) for alias in expected}, expected)
 
-    def test_fate_heavens_feel_pool_matches_ponos_event_1081(self):
+    def test_historical_fate_heavens_feel_pool_matches_ponos_event_1081(self):
         fate = next(
-            banner for banner in self.catalog
+            banner for banner in self.historical_catalog
             if banner["nombre"] == "Fate/Stay Night: Heaven's Feel Collaboration"
         )
 
@@ -50,14 +71,14 @@ class GachaCatalogCorrectionTests(unittest.TestCase):
             (30, 18, 10, 0),
         )
 
-    def test_sunshine_pool_contains_only_sunshine_uber_rares(self):
-        sunshine = next(banner for banner in self.catalog if banner["nombre"] == "Gals of Summer Sunshine")
+    def test_historical_sunshine_pool_contains_only_sunshine_uber_rares(self):
+        sunshine = next(banner for banner in self.historical_catalog if banner["nombre"] == "Gals of Summer Sunshine")
 
         self.assertEqual(sunshine["ubers"], [275, 354, 438, 563, 666, 820])
 
-    def test_current_blue_ocean_pool_matches_ponos_event_1076(self):
+    def test_historical_blue_ocean_pool_matches_ponos_event_1076(self):
         blue_ocean = next(
-            banner for banner in self.catalog
+            banner for banner in self.historical_catalog
             if banner["nombre"] == "Gals of Summer Blue Ocean"
         )
 
@@ -67,9 +88,9 @@ class GachaCatalogCorrectionTests(unittest.TestCase):
             (25, 23, 7, 0),
         )
 
-    def test_current_mola_mola_pool_matches_ponos_event_1002(self):
+    def test_historical_mola_mola_pool_matches_ponos_event_1002(self):
         mola_mola = next(
-            banner for banner in self.catalog
+            banner for banner in self.historical_catalog
             if banner["nombre"] == "Mola Mola Collab Gacha"
         )
 
@@ -106,8 +127,8 @@ class GachaCatalogCorrectionTests(unittest.TestCase):
             "Summer Break Cats Paradise",
         )
 
-    def test_epicfest_pool_contains_lunacia_and_lone_moon_lunos(self):
-        epicfest = next(banner for banner in self.catalog if banner["nombre"] == "Epicfest")
+    def test_historical_epicfest_pool_contains_lunacia_and_lone_moon_lunos(self):
+        epicfest = next(banner for banner in self.historical_catalog if banner["nombre"] == "Epicfest")
 
         self.assertIn(787, epicfest["ubers"])
         self.assertIn(859, epicfest["ubers"])

@@ -1,4 +1,6 @@
 import unittest
+from datetime import datetime, timezone
+from unittest.mock import patch
 
 import fetch_bc_schedule as schedule
 
@@ -15,6 +17,15 @@ def festival_entry(gacha_id, text, super_chance, uber_chance, legend_chance=30):
 
 
 class GachaEntryParsingTests(unittest.TestCase):
+    def test_future_permanent_pool_keeps_its_real_start_date(self):
+        cols = ["20261016", "1100", "20300101", "0", "150600", "999999", "0", "0",
+                "1", "1", "1071", "150", "0", "0", "0", "0", "0", "0", "0", "0",
+                "10000", "0", "0", "0", "Platinum Capsules"]
+        with patch.object(schedule, "datetime", wraps=datetime) as clock:
+            clock.now.return_value = datetime(2026, 10, 6, tzinfo=timezone.utc)
+            rows = schedule.parse_gatya_tsv("\t".join(cols))
+        self.assertEqual(rows[0]["start_date"], "2026-10-16")
+
     def test_extracts_rarity_rates_from_standard_gacha_entry(self):
         title = "Squire Luno added! Special Capsules featuring powerful limited units!"
         cols = [

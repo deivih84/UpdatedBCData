@@ -1,0 +1,68 @@
+{
+  "sources": {
+    "schedule": "PONOS gatya.tsv",
+    "pools": "BCData EN 15.6.0"
+  },
+  "changes": [],
+  "pending": [
+    {
+      "name": "Luga Families",
+      "gacha_id": 986,
+      "reason": "image_not_found"
+    }
+  ],
+  "images": [
+    {
+      "name": "The Dynamites",
+      "gacha_id": 942,
+      "file": "banner_en_942_24452d53b3e931f8.png"
+    },
+    {
+      "name": "The Dynamites (EN #1068)",
+      "gacha_id": 1068,
+      "file": "banner_en_1068_6830501bb396cf65.png"
+    },
+    {
+      "name": "Uberfest",
+      "gacha_id": 1061,
+      "file": "banner_en_1061_72dbdcc4c1eca744.png"
+    },
+    {
+      "name": "Download Anniversary Gacha",
+      "gacha_id": 1077,
+      "file": "banner_en_1077_4cf4ee9afc27b981.png"
+    },
+    {
+      "name": "Wargods Vajiras",
+      "gacha_id": 1043,
+      "file": "banner_en_1043_d366301477002d53.png"
+    },
+    {
+      "name": "Ultra Souls",
+      "gacha_id": 946,
+      "file": "banner_en_946_82b666d4eb839763.png"
+    },
+    {
+      "name": "The Almighties",
+      "gacha_id": 991,
+      "file": "banner_en_991_881d82df6e42331f.png"
+    },
+    {
+      "name": "Dragon Emperors",
+      "gacha_id": 1059,
+      "file": "banner_en_1059_90bb06f7ff5b8bf9.png"
+    },
+    {
+      "name": "Iron Legion",
+      "gacha_id": 979,
+      "file": "banner_en_979_b0e717abbb2dec08.png"
+    },
+    {
+      "name": "Galaxy Gals",
+      "gacha_id": 1021,
+      "file": "banner_en_1021_605521c758cd10a6.png"
+    }
+  ],
+  "errors": [],
+  "missingImages": []
+}

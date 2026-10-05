@@ -1,14 +1,19 @@
-name: Update BC Schedule
+name: Update BC Schedule and Banner Catalog
 
 on:
   schedule:
-    # Runs every 6 hours (00:00, 06:00, 12:00, 18:00 UTC)
-    - cron: "0 */6 * * *"
+    # Every six hours, away from the busiest minute at the top of the hour.
+    - cron: "17 */6 * * *"
   workflow_dispatch: # Allow manual trigger from GitHub UI
+
+concurrency:
+  group: bc-catalog-update
+  cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     permissions:
       contents: write  # Required to push commits
 
@@ -22,19 +27,34 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install -r requirements-gacha-sync.txt
+
+      - name: Synchronize banner catalog and images
+        run: python sync_gacha_catalog.py --online
 
       - name: Run schedule updater
         run: python fetch_bc_schedule.py
+
+      - name: Validate repository data and updater behavior
+        run: python -m unittest discover -s tests -p "test_*.py" -v
+
+      - name: Save banner sync report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: banner-sync-report
+          path: .gacha_sync_run.json
+          if-no-files-found: warn
+          retention-days: 30
 
       - name: Commit and push changes
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add gachas_eventos_actualizados_en1.json .bc_state.json gacha_id_cache.json
+          git add gachas_eventos_actualizados_en1.json all_gachas_en.json gacha_id_cache.json gacha_sync_state.json gacha_sync_report.json images/gacha/
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: update EN gacha schedule [skip ci]"
+            git commit -m "chore: sync EN banner catalog and schedule [skip ci]"
             git push
           fi

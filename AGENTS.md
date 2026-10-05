@@ -4,6 +4,19 @@ This file provides guidance to Codex (Codex.ai/code) when working with code in t
 
 ## Running the bots
 
+Automatic EN banner catalogue maintenance (pools, identities and artwork):
+
+```powershell
+pip install -r requirements-gacha-sync.txt
+python sync_gacha_catalog.py --dry-run
+python sync_gacha_catalog.py
+python fetch_bc_schedule.py
+```
+
+See `docs/gacha-sync.md`. Use `--online` on GitHub; local runs detect sibling
+BCData. Preserve distinct scheduled pool variants, do not assign pools by fuzzy
+names, and do not stage `.bc_state.json` or `.gacha_sync_run.json`.
+
 ```bash
 # Fetch gachas directamente de Ponos (sin Discord)
 python fetch_bc_schedule.py

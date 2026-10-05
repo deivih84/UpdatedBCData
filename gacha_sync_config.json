@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "seriesNames": {
+    "1": "The Dynamites",
+    "47": "Dynastyfest",
+    "70": "Download Anniversary Gacha"
+  },
+  "wikiNames": {
+    "Best of the Best Milestone Edition": "Download Anniversary Gacha",
+    "Dynasty Fest": "Dynastyfest",
+    "Sengoku Wargods Vajiras": "Wargods Vajiras",
+    "Tales of the Nekoluga": "Luga Families"
+  },
+  "publicImageBase": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/",
+  "appDrawables": "C:/Users/forex/StudioProjects/CatStats/app/src/main/res/drawable"
+}

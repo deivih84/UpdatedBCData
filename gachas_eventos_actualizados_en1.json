@@ -47,8 +47,8 @@
       "caracteristicas": []
     },
     {
-      "id": "limited_uber_rare_unit_metal_maiden_koneko_added_120m_dl_special_capsules_2026-10-05",
-      "nombre": "Limited Uber Rare unit Metal Maiden Koneko added! 120M DL Special Capsules!",
+      "id": "download_anniversary_gacha_2026-10-05",
+      "nombre": "Download Anniversary Gacha",
       "fecha_inicio": "2026-10-05",
       "fecha_fin": "2026-10-16",
       "caracteristicas": [
@@ -67,8 +67,8 @@
       ]
     },
     {
-      "id": "joining_forces_from_seasonal_sets_2026-10-09",
-      "nombre": "Joining forces from Seasonal sets",
+      "id": "dynastyfest_2026-10-09",
+      "nombre": "Dynastyfest",
       "fecha_inicio": "2026-10-09",
       "fecha_fin": "2026-10-13",
       "caracteristicas": [
@@ -125,8 +125,8 @@
       ]
     },
     {
-      "id": "new_unit_akane_tounji_added_an_awesome_variety_pack_of_crazy_cats_2026-10-16",
-      "nombre": "New unit Akane Tounji added! An awesome variety pack of crazy Cats!",
+      "id": "the_dynamites_en_1068_2026-10-16",
+      "nombre": "The Dynamites (EN #1068)",
       "fecha_inicio": "2026-10-16",
       "fecha_fin": "2026-10-20",
       "caracteristicas": [
@@ -192,16 +192,30 @@
       ]
     },
     {
-      "id": "platinum_capsules_2026-10-05",
-      "nombre": "Platinum Capsules",
-      "fecha_inicio": "2026-10-05",
+      "id": "platinum_capsules_en_1071_2026-10-16",
+      "nombre": "Platinum Capsules (EN #1071)",
+      "fecha_inicio": "2026-10-16",
       "fecha_fin": "2030-01-01",
       "caracteristicas": []
     },
     {
-      "id": "legend_capsules_2026-10-05",
+      "id": "platinum_capsules_2026-07-24",
+      "nombre": "Platinum Capsules",
+      "fecha_inicio": "2026-07-24",
+      "fecha_fin": "2030-01-01",
+      "caracteristicas": []
+    },
+    {
+      "id": "legend_capsules_en_1072_2026-10-16",
+      "nombre": "Legend Capsules (EN #1072)",
+      "fecha_inicio": "2026-10-16",
+      "fecha_fin": "2030-01-01",
+      "caracteristicas": []
+    },
+    {
+      "id": "legend_capsules_2026-07-24",
       "nombre": "Legend Capsules",
-      "fecha_inicio": "2026-10-05",
+      "fecha_inicio": "2026-07-24",
       "fecha_fin": "2030-01-01",
       "caracteristicas": []
     }
@@ -287,5 +301,5 @@
       "fecha_fin": "2026-10-29"
     }
   ],
-  "ultima_actualizacion": "2026-10-05T22:02:36Z"
+  "ultima_actualizacion": "2026-10-05T23:15:49Z"
 }
