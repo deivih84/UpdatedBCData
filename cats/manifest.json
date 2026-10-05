@@ -35,6 +35,10 @@
     {
       "gameVersion": "15.6.0",
       "region": "jp"
+    },
+    {
+      "gameVersion": "15.7.1",
+      "region": "jp"
     }
   ],
   "archives": {
@@ -1387,8 +1391,8 @@
       "size": 187659
     },
     "401": {
-      "sha256": "e4953bc03e6fec5a41e5f74f6000ac88a0c99e6b7c4bd010b55a27bc52736478",
-      "size": 487331
+      "sha256": "869508664c743f6a3676528ab75aa09a200bb22efc6cb63ac7e981b55f61ef8d",
+      "size": 806472
     },
     "402": {
       "sha256": "90741fc6d3e93c5595078251427ad10ce1b6c282cbc4ea4eb98c900ae5be6b26",
@@ -2915,8 +2919,8 @@
       "size": 35716
     },
     "746": {
-      "sha256": "449916b76ed2b022186009c80369794e54f20a40268beb814f8586bbece2ce89",
-      "size": 334420
+      "sha256": "fbc3c2b3730b8e7f690b38c4f029835d2dca05e7e189d40a6abcb9b3839bdbea",
+      "size": 434436
     },
     "747": {
       "sha256": "9d69e4212ceab67ea7e9a1da28e50539870288687cdbfeb955158d158ec403d0",
@@ -2951,8 +2955,8 @@
       "size": 37871
     },
     "754": {
-      "sha256": "dcb42328ce3dfd502f24562e356f40b672bc6e2a84c2dddfc380653eb2aa558f",
-      "size": 140651
+      "sha256": "1fafcef700e100b7d5ed56f3b54d914106840443dd3f90f2c87fb70dc198ba92",
+      "size": 264291
     },
     "755": {
       "sha256": "00803f1da0e9bcdd95f5c2b6f7ea81feeaa1dae7f885021eeab7d8b620d1b446",
@@ -3490,9 +3494,33 @@
       "sha256": "bf23d8cb7521752c5d8d6f6375f517fa93090d0d2492b20f0452fbf7cabf70c7",
       "size": 24701
     },
+    "876": {
+      "sha256": "a3abffe3dc48c8dfa451b0f8a4dc0ecf35de2373b5d4e9881c7edb62ddae7dd9",
+      "size": 28262
+    },
+    "877": {
+      "sha256": "298634372d7e56cd106017ced6d5407119aa0a21095c23861adaae2eee974f86",
+      "size": 112861
+    },
+    "878": {
+      "sha256": "e0d2c8f8c7182c28cac6d9e2898bb8d36ce5bdc5340018415010d62fb7f4fd63",
+      "size": 234929
+    },
+    "879": {
+      "sha256": "65f651b2609d02d232f28768cfdbc3ba23720b0e5ea8cdcd816dfabef6d69606",
+      "size": 132881
+    },
     "88": {
       "sha256": "267d859a748a5df903912bacd57de61b9d681ae98f85a8056c8a62c5d2872e83",
       "size": 73885
+    },
+    "880": {
+      "sha256": "5c8dee31a6636d899ca35a502c5df4135f78adc6c6146c23840e486fd1552d86",
+      "size": 545080
+    },
+    "881": {
+      "sha256": "bfcac5d848272afae84f270130906e8a0424594a4c9b395303dee997db8cb446",
+      "size": 485012
     },
     "89": {
       "sha256": "bd08d03c763f53c57dc2b7b01645d2d430a2667ec78ce089bd333418639d508f",
@@ -3651,12 +3679,27 @@
     "871": [
       "f",
       "c"
+    ],
+    "877": [
+      "s"
+    ],
+    "878": [
+      "s"
+    ],
+    "879": [
+      "s"
+    ],
+    "880": [
+      "s"
+    ],
+    "881": [
+      "s"
     ]
   },
   "latestSource": {
-    "gameVersion": "15.6.0",
+    "gameVersion": "15.7.1",
     "region": "jp"
   },
-  "revision": "sha256:e2ee436dc0401b84e6c6bfe78e4e160a8548b97305c73981714dc7c17b00608f",
+  "revision": "sha256:308c575a1771822668fb314275f636668377208e8f01205e4d6030369aec844f",
   "schemaVersion": 1
 }

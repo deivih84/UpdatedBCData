@@ -208,58 +208,6 @@
   ],
   "eventos": [
     {
-      "id": "survive_mola_mola_2026-08-28",
-      "nombre": "Survive! Mola Mola!",
-      "caracteristicas": [
-        "Survive! Mola Mola! is a collaboration event between The Battle Cats and the mobile game Survive! Mola Mola!. It features limited collaboration stages, enemies and rewards, alongside the Mola Mola Collab Gacha containing Baby Mola and Mola King."
-      ],
-      "fecha_inicio": "2026-08-28",
-      "fecha_fin": "2026-09-18"
-    },
-    {
-      "id": "summer_break_cats_2026-08-28",
-      "nombre": "Summer Break Cats",
-      "caracteristicas": [
-        "Summer Break Cats is a seasonal event featuring a limited series of summer-themed stages and an Event Capsule. Playing its stages provides the event currency used to obtain its exclusive rewards and Cat Units."
-      ],
-      "fecha_inicio": "2026-08-28",
-      "fecha_fin": "2026-09-18"
-    },
-    {
-      "id": "eoc_itf_cotc_half_energy_cost_2026-08-28",
-      "nombre": "EoC/ItF/CotC Half Energy Cost",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-08-28",
-      "fecha_fin": "2026-09-18"
-    },
-    {
-      "id": "legend_quest_2026-08-28",
-      "nombre": "Legend Quest",
-      "caracteristicas": [
-        "Legend Quest is a map somewhat similar to Heavenly Tower, with 48 stages known as LEVELs. Each LEVEL is a random Stories of Legend stage that provides a partially randomized lineup. All LEVELs are No Continues, and exiting a battle within 10 seconds will not refund items, Crowns or energy."
-      ],
-      "fecha_inicio": "2026-08-28",
-      "fecha_fin": "2026-09-18"
-    },
-    {
-      "id": "arena_of_honor_2026-08-28",
-      "nombre": "Arena of Honor",
-      "caracteristicas": [
-        "Ranking Dojo (ネコ道場ランキングイベント, Neko Dōjō Rankingu Ibento, Cat Dojo Ranking Event) is an event that first appeared from July 31st to August 7th, 2017. This event was officially added in the Version 6.3 Update. The Ranking Dojo is accessed from the Catclaw Dojo menu, so the player needs to unlock the Catclaw Dojo feature in order to participate by completing Chapter 1 of Empire of Cats."
-      ],
-      "fecha_inicio": "2026-08-28",
-      "fecha_fin": "2026-09-18"
-    },
-    {
-      "id": "arena_of_destiny_2026-09-16",
-      "nombre": "Arena of Destiny",
-      "caracteristicas": [
-        "Introduced in Version 14.3 adds a new gimmick where applying status effects grant more points than killing enemies. More points will be awarded for units with fewer target Traits (not counting those gained from Talents). This rewards for this dojo are Treasure Chests, which contain exclusive Talent Orbs that can grant special abilities to the units that are given them."
-      ],
-      "fecha_inicio": "2026-09-16",
-      "fecha_fin": "2026-10-03"
-    },
-    {
       "id": "fate_stay_night_heaven_s_feel_collaboration_event_2026-09-18",
       "nombre": "Fate/Stay Night: Heaven's Feel Collaboration Event",
       "caracteristicas": [
@@ -285,15 +233,6 @@
       "fecha_fin": "2026-10-05"
     },
     {
-      "id": "big_peng_z_strikes_2026-09-21",
-      "nombre": "Big Peng Z Strikes",
-      "caracteristicas": [
-        "Big Peng Z Strikes contains a total of 20 No Continues levels, called Wandering Lvs. After beating a Wandering Lv, the player must wait for 30 minutes before they may proceed to the next one. Rewards for the first completion of a Wandering Lv can include XP, Tickets, Catamins and Materials. Every 10 Wandering Lvs plays out the same, but the strength magnifications and enemy base's HP are increased with each level."
-      ],
-      "fecha_inicio": "2026-09-21",
-      "fecha_fin": "2026-09-28"
-    },
-    {
       "id": "otherworld_colosseum_2026-10-01",
       "nombre": "Otherworld Colosseum",
       "caracteristicas": [
@@ -301,7 +240,52 @@
       ],
       "fecha_inicio": "2026-10-01",
       "fecha_fin": "2026-10-15"
+    },
+    {
+      "id": "heavenly_tower_2026-10-05",
+      "nombre": "Heavenly Tower",
+      "caracteristicas": [
+        "The Heavenly Tower contains 50 stages, called Floors (階 Kai), with a wide variety of enemies including Cyclones, Enemy Cats, Advent Bosses and even event enemies from monthly and annual events. After completing a floor for the first time, the player will receive gifts including Battle Items, Catseyes, Catfruit, Tickets, Catamins, XP, Materials and Leaderships along with Hermit Cat, Masked Yulala and Master Uril upon defeating their respective counterparts on the 30th, 40th and 50th floors respectively, via the Catnip Challenges feature. "
+      ],
+      "fecha_inicio": "2026-10-05",
+      "fecha_fin": "2026-10-29"
+    },
+    {
+      "id": "baron_seal_strikes_2026-10-05",
+      "nombre": "Baron Seal Strikes",
+      "caracteristicas": [
+        "Baron Seal Strikes contains a total of 20 No Continues levels, called Red Alerts. After beating a Red Alert, the player must wait for 30 minutes before they may proceed to the next one. Rewards for the first completion of a Red Alert can include XP, Tickets, Catamins and Materials. Every 20 Red Alerts play out the same, but the strength magnifications and enemy base's HP are increased with each level. "
+      ],
+      "fecha_inicio": "2026-10-05",
+      "fecha_fin": "2026-10-12"
+    },
+    {
+      "id": "machines_in_revolt_2026-10-09",
+      "nombre": "Machines in Revolt",
+      "caracteristicas": [
+        "Machines in Revolt (機械の反乱軍, Kikai no Hanrangun, Rebel Army of Machines) is a set of special stages that was added in Version 12.6. It is unlocked after clearing Empire of Cats Chapter 1. Each stage features Metal Enemies and has a Cat Ticket as a reward.\n\nClear stages in the special map Machines in Revolt to earn up to 10 Cat Tickets as you face off against the Metal enemies attacking the remnants of a destroyed city! Visit Event Stages/Stories of Legend and select to take on this challenge!\nOn between June 10th (11:00am) and June 17th (10:59am)!\n\nSave the future from the onslaught of the coming machines!\n\n\n※ After clearing a stage, there will be a short cooldown period before you are able to challenge the next stage.\n※ Spending a Catamin A will allow you to skip the stage cooldown period and challenge the next stage immediately.\n※ If the event does not appear, please make sure that you are updated to the latest version of the Battle Cats app. "
+      ],
+      "fecha_inicio": "2026-10-09",
+      "fecha_fin": "2026-10-26"
+    },
+    {
+      "id": "arena_of_destiny_2026-10-16",
+      "nombre": "Arena of Destiny",
+      "caracteristicas": [
+        "Introduced in Version 14.3 adds a new gimmick where applying status effects grant more points than killing enemies. More points will be awarded for units with fewer target Traits (not counting those gained from Talents). This rewards for this dojo are Treasure Chests, which contain exclusive Talent Orbs that can grant special abilities to the units that are given them."
+      ],
+      "fecha_inicio": "2026-10-16",
+      "fecha_fin": "2026-11-02"
+    },
+    {
+      "id": "cats_eye_cave_2026-10-17",
+      "nombre": "Cats Eye Cave",
+      "caracteristicas": [
+        "No info :) this is a Gamatoto expedition area that gives Catseyes as rewards."
+      ],
+      "fecha_inicio": "2026-10-17",
+      "fecha_fin": "2026-10-29"
     }
   ],
-  "ultima_actualizacion": "2026-10-05T13:05:36Z"
+  "ultima_actualizacion": "2026-10-05T22:02:36Z"
 }

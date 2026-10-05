@@ -1,29 +1,31 @@
 {
   "schemaVersion": 1,
-  "lastUpdate": "2026-08-25 17:06:03",
+  "lastUpdate": "2026-10-06 00:05:24",
   "regions": {
     "en": {
-      "gameVersion": "15.5",
-      "summaryPath": "update_summaries/en/15.5.json",
+      "gameVersion": "15.6",
+      "summaryPath": "update_summaries/en/15.6.json",
       "status": "published",
       "sourceHashes": {
-        "global_15_5_0_xapk": "sha256:8d015eac070598bd1b06f2d3c8312bab774bc03131c2de0c71dfa6e95ae73bbf",
-        "cats_data.json": "sha256:1ce464bf905dc09d01fb44ba1aa197403a233752d437568e6732fbb316426f43",
-        "enemies_data.json": "sha256:9dcf3cf7d4fa7a96a1db1d04b55d6b28901d17cf447b98c0739be7bc5aa7cbf8",
-        "stages_data.json": "sha256:9f9e16266b140beccd208182c3ff5085d8f82b8cdaf0300f8243c66b655b04e0",
-        "data_version.json": "sha256:a37f0557924203404a5c37a551a4075178ae3ad2a7f6a46b90944d3e4ab68c52"
+        "cats_data.json": "sha256:371bc86eb0591757d5334427eeaf6300c117857070860b9d6f83a63c359d6300",
+        "enemies_data.json": "sha256:e65b069aec2bd01e810f62430b0fec94c0f08858081afd9093d503547d61451c",
+        "stages_data.json": "sha256:8d18f507207812fab6b8b6d6452b0f3f337492bed56ab594ae236b5ab05d81c0",
+        "data_version.json": "sha256:df06c52da7c4d8dbe0238cadbbc0f50eeb265fe424f1fec7f1c6cbc1baf314a9",
+        "global_15_6_0_xapk": "sha256:b335e7945530ef5426869615c7f1e996f813f81e347a4395d766f2de05f8d7e7",
+        "wiki_15_6": "sha256:a6e61383cd69a075647a7c022f1b245ab92639d7baae3180ee93acaef5435a97"
       }
     },
     "jp": {
-      "gameVersion": "15.6",
-      "summaryPath": "update_summaries/jp/15.6.json",
+      "gameVersion": "15.7",
+      "summaryPath": "update_summaries/jp/15.7.json",
       "status": "published",
       "sourceHashes": {
-        "wiki_15_6_miraheze": "sha256:b812a8148f4a99bf89c8250842c4c266d1f6c8153a5c109d48cbc872bab92164",
-        "cats_data.json": "sha256:5d7237646c9f7a65f2a73352b494bdc054a5c2aaf8d4baf368718a031034cb8a",
-        "enemies_data.json": "sha256:0cc49e2c11721b840fa25298370e0e95d725ec98ca88e3072ab87948b8ae535b",
-        "stages_data.json": "sha256:5bcb58072c56cbbccf44c5d181f27be3ddd8d55c89eb44668d5046d286402770",
-        "data_version.json": "sha256:50fb676aa72087e69b390ae31731dc7241bee88906e2c1265fdc595a3012a0b4"
+        "cats_data.json": "sha256:371bc86eb0591757d5334427eeaf6300c117857070860b9d6f83a63c359d6300",
+        "enemies_data.json": "sha256:e65b069aec2bd01e810f62430b0fec94c0f08858081afd9093d503547d61451c",
+        "stages_data.json": "sha256:8d18f507207812fab6b8b6d6452b0f3f337492bed56ab594ae236b5ab05d81c0",
+        "data_version.json": "sha256:df06c52da7c4d8dbe0238cadbbc0f50eeb265fe424f1fec7f1c6cbc1baf314a9",
+        "jp_15_7_1_xapk": "sha256:4a8fd70a7f4295444779ac0a5a793aa16b883e5c5c8176d135c990ab71f9865d",
+        "wiki_15_7": "sha256:ea5a87663a0da74c091b38a1aefd435edae4c463df62df968bf4143cac34d389"
       }
     }
   }

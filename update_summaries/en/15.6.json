@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "gameVersion": "15.6",
+  "region": "en",
+  "status": "published",
+  "revision": 1,
+  "generatedAt": "2026-10-06 00:05:24",
+  "needsHumanReview": true,
+  "sourceHashes": {
+    "cats_data.json": "sha256:371bc86eb0591757d5334427eeaf6300c117857070860b9d6f83a63c359d6300",
+    "enemies_data.json": "sha256:e65b069aec2bd01e810f62430b0fec94c0f08858081afd9093d503547d61451c",
+    "stages_data.json": "sha256:8d18f507207812fab6b8b6d6452b0f3f337492bed56ab594ae236b5ab05d81c0",
+    "data_version.json": "sha256:df06c52da7c4d8dbe0238cadbbc0f50eeb265fe424f1fec7f1c6cbc1baf314a9",
+    "global_15_6_0_xapk": "sha256:b335e7945530ef5426869615c7f1e996f813f81e347a4395d766f2de05f8d7e7",
+    "wiki_15_6": "sha256:a6e61383cd69a075647a7c022f1b245ab92639d7baae3180ee93acaef5435a97"
+  },
+  "copy": {
+    "source": "verified_game_data",
+    "headline": "Battle Cats Global 15.6",
+    "shortIntro": "Metal Maiden Koneko, new evolutions for Catman and Pegasa, Talents and Ultra Talents, new stages, and the international Fate collaboration content."
+  },
+  "sections": [
+    {
+      "type": "release_dates",
+      "title": "Release Status",
+      "summary": "Global release: September 14, 2026.",
+      "items": [
+        {
+          "name": "International: September 14, 2026"
+        },
+        {
+          "name": "Japanese: August 24, 2026"
+        }
+      ]
+    },
+    {
+      "type": "new_cats",
+      "title": "New Cats",
+      "summary": "Metal Maiden Koneko and Ryuichi join the unit data, alongside the spirit summoned by Divine Pegasa ν.",
+      "items": [
+        {
+          "catId": 873,
+          "name": "Metal Maiden Koneko",
+          "rarity": "Uber Rare"
+        },
+        {
+          "catId": 874,
+          "name": "Ryuichi",
+          "rarity": "Uber Rare"
+        },
+        {
+          "name": "Summoned spirit #875: Divine Pegasa ν"
+        }
+      ]
+    },
+    {
+      "type": "new_forms",
+      "title": "New Forms",
+      "summary": "Catman Forever gains Angel targeting and Drain immunity. Divine Pegasa ν gains Massive Damage and Freeze immunity.",
+      "items": [
+        {
+          "catId": 196,
+          "name": "Catman Forever",
+          "forms": [
+            "Ultra Form"
+          ]
+        },
+        {
+          "catId": 733,
+          "name": "Divine Pegasa ν",
+          "forms": [
+            "True Form"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "talents",
+      "title": "Talents and Ultra Talents",
+      "summary": "Queen Succubus Cat and Blizarena gain Talent sets. Almighty Chronos gains Ultra Talents built around Surge, Surge immunity, and Colossus Slayer.",
+      "items": [
+        {
+          "catId": 302,
+          "name": "Queen Succubus Cat"
+        },
+        {
+          "catId": 655,
+          "name": "Blizarena"
+        },
+        {
+          "catId": 439,
+          "name": "Almighty Chronos",
+          "forms": [
+            "Ultra Talents"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "new_enemies",
+      "title": "New Enemies",
+      "summary": "Two enemy records were added: E-786, an Aku/Sage long-distance enemy with a shield and control effects, and E-787, a typeless enemy base.",
+      "items": [
+        {
+          "name": "E-786 (Aku / Sage)"
+        },
+        {
+          "name": "E-787 (Enemy Base)"
+        }
+      ]
+    },
+    {
+      "type": "new_stages",
+      "title": "Stages",
+      "summary": "The update adds ZL 35, new Otherworld Colosseum content and a Catclaw Dojo map. Candy Paradise and Secluded Cavy Island receive 2-crown difficulty, while several event and gauntlet rewards are rebalanced.",
+      "items": [
+        {
+          "name": "Zero Legends: ZL 35"
+        },
+        {
+          "name": "Otherworld Colosseum additions"
+        },
+        {
+          "name": "Catclaw Dojo addition"
+        },
+        {
+          "name": "Candy Paradise and Secluded Cavy Island: 2 crowns"
+        },
+        {
+          "name": "Event and gauntlet reward adjustments"
+        }
+      ]
+    },
+    {
+      "type": "cat_combos",
+      "title": "Cat Combos",
+      "summary": "Three Cat Combos were added.",
+      "items": [
+        {
+          "name": "Well Done!",
+          "forms": [
+            "Unit Speed Up (Sm)"
+          ]
+        },
+        {
+          "name": "Go and Get It!",
+          "forms": [
+            "Starting Money Up (Sm)"
+          ]
+        },
+        {
+          "name": "Reserve Element",
+          "forms": [
+            "Cannon Recharge Up (M)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "misc",
+      "title": "Other Changes",
+      "summary": "New rank rewards, higher plus-level caps, Drain immunity for Saber Alter Cat, optional device vibration, and the international Fate collaboration content.",
+      "items": [
+        {
+          "name": "28,000: +1 Rare Ticket"
+        },
+        {
+          "name": "28,100: +5 Super Rare Catseyes"
+        },
+        {
+          "name": "28,200: +5 Uber Rare Catseyes"
+        },
+        {
+          "name": "Burgle Boss Cat (Retired), Medal King and Lieutenant Cat: higher plus-level caps"
+        },
+        {
+          "name": "Saber Alter Cat: Drain Immunity"
+        },
+        {
+          "name": "Optional device vibration"
+        },
+        {
+          "name": "Fate/stay night [Heaven’s Feel] collaboration content"
+        }
+      ]
+    }
+  ],
+  "reviewNotes": [
+    "Based on the extracted global 15.6.0 XAPK, not the newer JP-only 15.7 content.",
+    "The shared data assets use JP 15.7.1; this summary describes only the global 15.6 release.",
+    "Release information: https://battlecats.miraheze.org/wiki/Version_15.6_Update"
+  ]
+}

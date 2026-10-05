@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "gameVersion": "15.7",
+  "region": "jp",
+  "status": "published",
+  "revision": 1,
+  "generatedAt": "2026-10-06 00:05:24",
+  "needsHumanReview": true,
+  "sourceHashes": {
+    "cats_data.json": "sha256:371bc86eb0591757d5334427eeaf6300c117857070860b9d6f83a63c359d6300",
+    "enemies_data.json": "sha256:e65b069aec2bd01e810f62430b0fec94c0f08858081afd9093d503547d61451c",
+    "stages_data.json": "sha256:8d18f507207812fab6b8b6d6452b0f3f337492bed56ab594ae236b5ab05d81c0",
+    "data_version.json": "sha256:df06c52da7c4d8dbe0238cadbbc0f50eeb265fe424f1fec7f1c6cbc1baf314a9",
+    "jp_15_7_1_xapk": "sha256:4a8fd70a7f4295444779ac0a5a793aa16b883e5c5c8176d135c990ab71f9865d",
+    "wiki_15_7": "sha256:ea5a87663a0da74c091b38a1aefd435edae4c463df62df968bf4143cac34d389"
+  },
+  "copy": {
+    "source": "verified_game_data",
+    "headline": "Battle Cats JP 15.7",
+    "shortIntro": "Five playable Cats, a new spirit, three evolutions, expanded Ultra Talents, four collaboration enemies, new Zero Legends maps, and a Treasure Gauge."
+  },
+  "sections": [
+    {
+      "type": "release_dates",
+      "title": "Release Status",
+      "summary": "Released in Japan on October 5, 2026. International release is not yet announced.",
+      "items": [
+        {
+          "name": "Japanese: October 5, 2026"
+        },
+        {
+          "name": "International: TBD"
+        }
+      ]
+    },
+    {
+      "type": "new_cats",
+      "title": "New Cats",
+      "summary": "Five playable records and one summoned spirit were added. Japanese names are retained where no official global localization is available.",
+      "items": [
+        {
+          "catId": 877,
+          "name": "いなばの白うさぎ",
+          "rarity": "Uber Rare"
+        },
+        {
+          "catId": 878,
+          "name": "悠久山安慈",
+          "rarity": "Uber Rare"
+        },
+        {
+          "catId": 879,
+          "name": "瀬田宗次郎",
+          "rarity": "Uber Rare"
+        },
+        {
+          "catId": 880,
+          "name": "志々雄真実",
+          "rarity": "Uber Rare"
+        },
+        {
+          "catId": 881,
+          "name": "比古清十郎",
+          "rarity": "Legend Rare"
+        },
+        {
+          "name": "Summoned spirit #876: Immortal Mitsuhide"
+        }
+      ]
+    },
+    {
+      "type": "new_forms",
+      "title": "New Forms",
+      "summary": "Voli gains an Ultra Form. Akechi Mitsuhide and Kenshin Himura gain True Forms.",
+      "items": [
+        {
+          "catId": 401,
+          "name": "天雷の大精霊テラボルタ",
+          "forms": [
+            "Ultra Form"
+          ]
+        },
+        {
+          "catId": 754,
+          "name": "Immortal Mitsuhide",
+          "forms": [
+            "True Form"
+          ]
+        },
+        {
+          "catId": 746,
+          "name": "不殺の流浪人・緋村剣心",
+          "forms": [
+            "True Form"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "talents",
+      "title": "Talents and Ultra Talents",
+      "summary": "Tengu gains Talents; Coppermine, Masamune and Zeus receive additional Ultra Talents. The data now supports up to eleven slots.",
+      "items": [
+        {
+          "catId": 668,
+          "name": "Immortal Master Tengu"
+        },
+        {
+          "catId": 107,
+          "name": "Divine Coppermine κ",
+          "forms": [
+            "Ultra Talents"
+          ]
+        },
+        {
+          "catId": 124,
+          "name": "Immortal Masamune",
+          "forms": [
+            "Ultra Talents"
+          ]
+        },
+        {
+          "catId": 257,
+          "name": "Almighty Zeus",
+          "forms": [
+            "Ultra Talents"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "new_enemies",
+      "title": "New Enemies",
+      "summary": "Four Rurouni Kenshin collaboration enemies were added.",
+      "items": [
+        {
+          "enemyId": 788,
+          "name": "Anji Yukyuzan",
+          "traits": [
+            "Traitless"
+          ]
+        },
+        {
+          "enemyId": 789,
+          "name": "Sojiro Seta",
+          "traits": [
+            "Traitless"
+          ]
+        },
+        {
+          "enemyId": 790,
+          "name": "Makoto Shishio",
+          "traits": [
+            "Traitless"
+          ]
+        },
+        {
+          "enemyId": 791,
+          "name": "Seijuro Hiko",
+          "traits": [
+            "Traitless"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "new_stages",
+      "title": "Stages",
+      "summary": "Two Zero Legends maps, collaboration content, and additional crown difficulties are included.",
+      "items": [
+        {
+          "chapterId": "zl",
+          "subChapterId": "zl_35",
+          "name": "シュガーハイランド",
+          "stageCount": 6
+        },
+        {
+          "chapterId": "zl",
+          "subChapterId": "zl_36",
+          "name": "理想郷ビバラメン",
+          "stageCount": 6
+        },
+        {
+          "name": "Rurouni Kenshin collaboration additions"
+        },
+        {
+          "name": "Additional 2-crown Zero Legends stages"
+        }
+      ]
+    },
+    {
+      "type": "cat_combos",
+      "title": "Cat Combos",
+      "summary": "Two combos were added.",
+      "items": [
+        {
+          "name": "物理で除霊",
+          "forms": [
+            "Freeze Effects Up (Sm)"
+          ]
+        },
+        {
+          "name": "地獄の国盗り",
+          "forms": [
+            "Strengthen Effects Up (Sm)"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "misc",
+      "title": "Other Changes",
+      "summary": "A new Treasure Gauge guarantees a Superior Treasure when full. Zeus gains a production-time talent that affects every other deployment.",
+      "items": [
+        {
+          "name": "Treasure Gauge and treasure shortcut in stage selection"
+        },
+        {
+          "name": "28,300: +5 Legend Catseyes"
+        },
+        {
+          "name": "28,400: +5 Special Catseyes"
+        },
+        {
+          "name": "28,500: +5 Rare Catseyes"
+        },
+        {
+          "name": "Zeus Slow duration increased"
+        }
+      ]
+    }
+  ],
+  "reviewNotes": [
+    "Verified against the JP 15.7.1 XAPK; 882 unit records and 792 enemy records.",
+    "Japanese names are used for forms and units without official global names.",
+    "Third-form rows for units 877–881 duplicate the evolved forms; the source pack omits their s animations. Evolved thumbnails are provided as image aliases; animation warnings remain visible.",
+    "Release information: https://battlecats.miraheze.org/wiki/Version_15.7_Update"
+  ]
+}

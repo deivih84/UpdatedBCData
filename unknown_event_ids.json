@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-16T11:55:18Z",
+  "generated_at": "2026-10-05T22:02:36Z",
   "summary": {
-    "unknown_event_ids": 4,
+    "unknown_event_ids": 5,
     "discord_names_missing_metadata": 0
   },
   "unknown_event_ids": [
@@ -81,81 +81,63 @@
       "candidates": []
     },
     {
-      "event_id": 700,
+      "event_id": 18106,
       "status": "needs_mapping",
       "occurrences": [
         {
-          "start_date": "2026-09-04",
-          "end_date": "2026-09-18",
+          "start_date": "2026-10-05",
+          "end_date": "2026-10-11",
           "row_pack_ids": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            51,
-            700,
-            701,
-            702
+            18106
+          ]
+        },
+        {
+          "start_date": "2026-10-12",
+          "end_date": "2026-10-18",
+          "row_pack_ids": [
+            18106
           ]
         }
       ],
       "candidates": []
     },
     {
-      "event_id": 701,
+      "event_id": 41000,
       "status": "needs_mapping",
       "occurrences": [
         {
-          "start_date": "2026-09-04",
-          "end_date": "2026-09-18",
+          "start_date": "2026-10-12",
+          "end_date": "2026-10-26",
           "row_pack_ids": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            51,
-            700,
-            701,
-            702
+            41000
           ]
         }
       ],
       "candidates": []
     },
     {
-      "event_id": 702,
+      "event_id": 40000,
       "status": "needs_mapping",
       "occurrences": [
         {
-          "start_date": "2026-09-04",
-          "end_date": "2026-09-18",
+          "start_date": "2026-10-16",
+          "end_date": "2026-10-26",
           "row_pack_ids": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8,
-            9,
-            10,
-            51,
-            700,
-            701,
-            702
+            40000
+          ]
+        }
+      ],
+      "candidates": []
+    },
+    {
+      "event_id": 41001,
+      "status": "needs_mapping",
+      "occurrences": [
+        {
+          "start_date": "2026-10-16",
+          "end_date": "2026-10-26",
+          "row_pack_ids": [
+            41001
           ]
         }
       ],
