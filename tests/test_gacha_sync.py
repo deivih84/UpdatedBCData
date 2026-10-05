@@ -191,7 +191,7 @@ class PublishingTests(unittest.TestCase):
             repo, drawable = Path(folder) / "repo", Path(folder) / "drawable"
             drawable.mkdir()
             source = io.BytesIO()
-            Image.new("RGBA", (200, 50), "red").save(source, format="PNG")
+            Image.new("RGBA", (860, 240), "red").save(source, format="PNG")
             catalog = {"gachas": [banner()]}
             state = {"banners": {"100": {"name": "The Dynamites", "start_date": "2026-10-01"}}}
             report = {"images": [], "pending": []}

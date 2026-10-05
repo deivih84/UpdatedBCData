@@ -72,7 +72,8 @@ def run(args):
         for gid in sorted(ids):
             print(f"Artwork/name #{gid}", flush=True)
             option = game.get("options", {}).get(gid, state.get("banners", {}).get(str(gid), {}).get("option", {}))
-            metadata[gid] = source.metadata(gid, option)
+            fallback_id = config.get("seriesBannerIds", {}).get(str(option.get("seriesID", -1)))
+            metadata[gid] = source.metadata(gid, option, fallback_image_id=fallback_id)
             meta = metadata[gid]
             if meta.get("name") in config.get("wikiNames", {}):
                 meta["name"] = config["wikiNames"][meta["name"]]

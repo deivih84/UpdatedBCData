@@ -54,9 +54,19 @@ equivalencias de nombres canónicos de la wiki usa `wikiNames`. Los IDs de serie
 proceden de `GatyaData_Option_SetR.tsv`, no del número de pool. El siguiente run
 actualiza los datos sin volver a preguntar.
 
-Las imágenes se buscan por ID exacto del banner, imgID y serie en las APIs de
+Las imágenes se buscan por ID exacto del banner e imgID en las APIs de
 Miraheze/Fandom, prefiriendo el archivo EN cuando existe; una imagen de otro
 banner no se elige por parecido del título.
+Si esos archivos no existen, `seriesBannerIds` permite asociar explícitamente
+una serie con un banner completo de la wiki verificado previamente. Las series
+21 (Platinum), 46 (Legend) y 47 (Dynastyfest) usan los banners de sus páginas
+principales cuando falta la imagen del ID nuevo. Estos banners de familia no
+afirman representar las unidades del pool actual; las unidades se actualizan
+desde los datos del juego por separado.
+Los archivos `Gatya btn...` son botones del menú y no se seleccionan. Se exigen
+dimensiones de al menos 600×150 y una proporción horizontal entre 2:1 y 6:1,
+tanto en los metadatos de la wiki como al decodificar la descarga. Una imagen
+pequeña se descarta y se continúa con el siguiente candidato.
 Las altas exigen un nombre independiente del anuncio: página oficial o un único
 evento de la wiki que use la imagen encontrada. Las cápsulas N/E que incluyen
 objetos y otras rarezas quedan fuera del sincronizador de gachas raros R.

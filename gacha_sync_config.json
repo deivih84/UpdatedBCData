@@ -11,6 +11,11 @@
     "Sengoku Wargods Vajiras": "Wargods Vajiras",
     "Tales of the Nekoluga": "Luga Families"
   },
+  "seriesBannerIds": {
+    "21": 174,
+    "46": 640,
+    "47": 582
+  },
   "publicImageBase": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/",
   "appDrawables": "C:/Users/forex/StudioProjects/CatStats/app/src/main/res/drawable"
 }

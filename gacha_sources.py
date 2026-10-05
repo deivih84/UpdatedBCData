@@ -150,6 +150,14 @@ def parse_godfat_pool(html, event_id):
     return result
 
 
+def validate_banner_dimensions(width, height):
+    """Reject capsule-menu buttons and portraits, including enlarged squares."""
+    if (not isinstance(width, int) or not isinstance(height, int)
+            or not (600 <= width <= 4096 and 150 <= height <= 4096)
+            or not 2 <= width / height <= 6):
+        raise ValueError(f"Unexpected banner dimensions {width}x{height}")
+
+
 def png_bytes(data):
     """Fully decode network images and return a deterministic, verified PNG."""
     if len(data) > 12 * 1024 * 1024:
@@ -157,8 +165,7 @@ def png_bytes(data):
     try:
         with Image.open(io.BytesIO(data)) as image:
             width, height = image.size
-            if not (100 <= width <= 4096 and 30 <= height <= 4096):
-                raise ValueError(f"Unexpected banner dimensions {width}x{height}")
+            validate_banner_dimensions(width, height)
             image.load()
             output = io.BytesIO()
             image.convert("RGBA").save(output, format="PNG")
@@ -178,7 +185,7 @@ class BannerSource:
         response.raise_for_status()
         return parse_godfat_pool(response.text, event["event_id"])
 
-    def metadata(self, gid, option=None):
+    def metadata(self, gid, option=None, *, fallback_image_id=None):
         option = option or {}
         result = {"warnings": []}
         url = f"https://ponos.s3.dualstack.ap-northeast-1.amazonaws.com/information/appli/battlecats/gacha/rareenR{gid:03d}.html"
@@ -199,54 +206,72 @@ class BannerSource:
             pass
         titles = [f"File:Gatya bnr{gid} en.png", f"File:Gatya bnr{gid}.png"]
         image_id = option.get("imgID", -1)
-        series = option.get("seriesID", -1)
         if image_id >= 0 and image_id != gid:
             titles.extend([f"File:Gatya bnr{image_id} en.png", f"File:Gatya bnr{image_id}.png"])
-        if series >= 0:
-            titles.extend([f"File:Gatya btn{series} en.png", f"File:Gatya btn{series}.png"])
-        for api in WIKIS:
-            try:
-                response = self.session.get(api, params={"action": "query", "format": "json",
-                    "prop": "imageinfo", "iiprop": "url", "titles": "|".join(titles)}, timeout=25)
-                response.raise_for_status()
-                body = response.json()
-                if not isinstance(body, dict) or not isinstance(body.get("query"), dict):
-                    raise ValueError("Malformed wiki response")
-                pages = body["query"].get("pages", {})
-                if not isinstance(pages, dict) or any(not isinstance(page, dict) for page in pages.values()):
-                    raise ValueError("Malformed wiki image pages")
-                candidates = {page.get("title"): page for page in pages.values()}
-                for title in titles:
-                    page = candidates.get(title, {})
-                    infos = page.get("imageinfo", [])
-                    if not isinstance(infos, list) or any(not isinstance(info, dict) for info in infos):
-                        raise ValueError("Malformed wiki image metadata")
-                    if not infos:
-                        continue
-                    if not isinstance(infos[0].get("url"), str):
-                        raise ValueError("Malformed wiki image URL")
-                    result.update(image_url=infos[0]["url"], image_source=infos[0].get("descriptionurl", api))
-                    if not result.get("name"):
-                        usages = self.session.get(api, params={"action": "query", "format": "json",
-                            "list": "imageusage", "iutitle": title, "iunamespace": 0, "iulimit": 50}, timeout=25)
-                        usages.raise_for_status()
-                        data = usages.json()
-                        if not isinstance(data, dict) or not isinstance(data.get("query"), dict):
-                            raise ValueError("Malformed wiki image usage")
-                        usage_rows = data["query"].get("imageusage", [])
-                        if not isinstance(usage_rows, list) or any(
-                            not isinstance(row, dict) or not isinstance(row.get("title"), str)
-                            for row in usage_rows
-                        ):
-                            raise ValueError("Malformed wiki usage rows")
-                        names = {row["title"].split(" (Gacha Event)")[0]
-                                 for row in usage_rows
-                                 if " (Gacha Event)" in row["title"]}
-                        if len(names) == 1 and "continue" not in data:
-                            result.update(name=names.pop(), name_source=api)
-                    return result
-            except (requests.RequestException, ValueError, KeyError, TypeError):
-                result["warnings"].append("wiki_unavailable: " + api)
+        exact_titles = list(titles)
+        # Family artwork is an explicit, reviewed mapping, never a menu button.
+        if fallback_image_id is not None:
+            if not isinstance(fallback_image_id, int) or fallback_image_id < 0:
+                raise ValueError("Family banner ID must be a nonnegative integer")
+            titles.extend([f"File:Gatya bnr{fallback_image_id} en.png",
+                           f"File:Gatya bnr{fallback_image_id}.png"])
+        titles = list(dict.fromkeys(titles))
+        wiki_pages = {}
+        fallback_titles = [title for title in titles if title not in exact_titles]
+        for group in (exact_titles, fallback_titles):
+            if not group:
+                continue
+            for api in WIKIS:
+                try:
+                    if api not in wiki_pages:
+                        wiki_pages[api] = {}
+                        response = self.session.get(api, params={"action": "query", "format": "json",
+                            "prop": "imageinfo", "iiprop": "url|size", "titles": "|".join(titles)}, timeout=25)
+                        response.raise_for_status()
+                        body = response.json()
+                        if not isinstance(body, dict) or not isinstance(body.get("query"), dict):
+                            raise ValueError("Malformed wiki response")
+                        pages = body["query"].get("pages", {})
+                        if not isinstance(pages, dict) or any(not isinstance(page, dict) for page in pages.values()):
+                            raise ValueError("Malformed wiki image pages")
+                        wiki_pages[api] = {page.get("title"): page for page in pages.values()}
+                    candidates = wiki_pages[api]
+                    for title in group:
+                        page = candidates.get(title, {})
+                        infos = page.get("imageinfo", [])
+                        if not isinstance(infos, list) or any(not isinstance(info, dict) for info in infos):
+                            raise ValueError("Malformed wiki image metadata")
+                        if not infos:
+                            continue
+                        if not isinstance(infos[0].get("url"), str):
+                            raise ValueError("Malformed wiki image URL")
+                        try:
+                            validate_banner_dimensions(infos[0].get("width"), infos[0].get("height"))
+                        except ValueError:
+                            result["warnings"].append("image_rejected: " + title)
+                            continue
+                        result.update(image_url=infos[0]["url"], image_source=infos[0].get("descriptionurl", api))
+                        if not result.get("name"):
+                            usages = self.session.get(api, params={"action": "query", "format": "json",
+                                "list": "imageusage", "iutitle": title, "iunamespace": 0, "iulimit": 50}, timeout=25)
+                            usages.raise_for_status()
+                            data = usages.json()
+                            if not isinstance(data, dict) or not isinstance(data.get("query"), dict):
+                                raise ValueError("Malformed wiki image usage")
+                            usage_rows = data["query"].get("imageusage", [])
+                            if not isinstance(usage_rows, list) or any(
+                                not isinstance(row, dict) or not isinstance(row.get("title"), str)
+                                for row in usage_rows
+                            ):
+                                raise ValueError("Malformed wiki usage rows")
+                            names = {row["title"].split(" (Gacha Event)")[0]
+                                     for row in usage_rows
+                                     if " (Gacha Event)" in row["title"]}
+                            if len(names) == 1 and "continue" not in data:
+                                result.update(name=names.pop(), name_source=api)
+                        return result
+                except (requests.RequestException, ValueError, KeyError, TypeError):
+                    result["warnings"].append("wiki_unavailable: " + api)
         return result
 
     def image(self, url):

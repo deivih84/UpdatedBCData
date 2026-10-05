@@ -48,12 +48,101 @@ class ImageTests(unittest.TestCase):
 
     def test_real_image_is_decoded_and_normalized(self):
         buffer = io.BytesIO()
-        Image.new("RGB", (200, 50), "red").save(buffer, format="PNG")
+        Image.new("RGB", (860, 240), "red").save(buffer, format="PNG")
         result = png_bytes(buffer.getvalue())
         self.assertEqual(png_bytes(result), result)
         with Image.open(io.BytesIO(result)) as image:
-            self.assertEqual(image.size, (200, 50))
+            self.assertEqual(image.size, (860, 240))
             self.assertEqual(image.getpixel((50, 10)), (255, 0, 0, 255))
+
+    def test_buttons_and_large_portraits_cannot_be_published_as_banners(self):
+        for size in ((186, 54), (225, 54), (860, 54), (860, 860)):
+            with self.subTest(size=size):
+                buffer = io.BytesIO()
+                Image.new("RGB", size, "red").save(buffer, format="PNG")
+                with self.assertRaises(ValueError):
+                    png_bytes(buffer.getvalue())
+
+    def test_small_exact_image_is_skipped_for_full_img_id_banner(self):
+        class Session:
+            headers = {}
+            def get(self, url, params=None, timeout=None):
+                response = requests.Response()
+                response.status_code = 403 if "ponos" in url else 200
+                if params and params.get("prop") == "imageinfo":
+                    self.dimensions_requested = "size" in params["iiprop"]
+                    data = {"query": {"pages": {
+                        "1": {"title": "File:Gatya bnr1078 en.png", "imageinfo": [
+                            {"url": "https://images/button.png", "width": 225, "height": 54}]},
+                        "2": {"title": "File:Gatya bnr973 en.png", "imageinfo": [
+                            {"url": "https://images/full.png", "width": 860, "height": 240}]}}}}
+                else:
+                    data = {"query": {"imageusage": []}}
+                response._content = json.dumps(data).encode()
+                return response
+        session = Session()
+        meta = BannerSource(session).metadata(1078, {"seriesID": 47, "imgID": 973})
+        self.assertEqual(meta["image_url"], "https://images/full.png")
+        self.assertTrue(session.dimensions_requested)
+
+    def test_verified_family_banner_is_used_when_new_id_is_not_on_wiki(self):
+        class Session:
+            headers = {}
+            def get(self, url, params=None, timeout=None):
+                response = requests.Response()
+                response.status_code = 403 if "ponos" in url else 200
+                if params and params.get("prop") == "imageinfo":
+                    self.titles = params["titles"]
+                    data = {"query": {"pages": {"1": {
+                        "title": "File:Gatya bnr174.png", "imageinfo": [
+                            {"url": "https://images/platinum.png", "width": 860, "height": 240}]}}}}
+                else:
+                    data = {"query": {"imageusage": [{"title": "Platinum Capsules (Gacha Event)"}]}}
+                response._content = json.dumps(data).encode()
+                return response
+        session = Session()
+        meta = BannerSource(session).metadata(1071, {"seriesID": 21, "imgID": 970}, fallback_image_id=174)
+        self.assertIn("File:Gatya bnr174.png", session.titles)
+        self.assertNotIn("Gatya btn", session.titles)
+        self.assertEqual(meta["image_url"], "https://images/platinum.png")
+        self.assertEqual(meta["name"], "Platinum Capsules")
+
+    def test_button_only_or_missing_dimensions_does_not_supply_artwork(self):
+        for dimensions in ({"width": 186, "height": 54}, {}):
+            with self.subTest(dimensions=dimensions):
+                class Session:
+                    headers = {}
+                    def get(self, url, params=None, timeout=None):
+                        response = requests.Response()
+                        response.status_code = 403 if "ponos" in url else 200
+                        if params and params.get("prop") == "imageinfo":
+                            data = {"query": {"pages": {"1": {
+                                "title": "File:Gatya bnr1071.png", "imageinfo": [
+                                    {"url": "https://images/small.png", **dimensions}]}}}}
+                        else:
+                            data = {"query": {"imageusage": []}}
+                        response._content = json.dumps(data).encode()
+                        return response
+                self.assertNotIn("image_url", BannerSource(Session()).metadata(1071))
+
+    def test_exact_artwork_on_second_wiki_precedes_family_fallback_on_first(self):
+        class Session:
+            headers = {}
+            def get(self, url, params=None, timeout=None):
+                response = requests.Response()
+                response.status_code = 403 if "ponos" in url else 200
+                if params and params.get("prop") == "imageinfo":
+                    exact = "fandom" in url
+                    title = "File:Gatya bnr1071 en.png" if exact else "File:Gatya bnr174.png"
+                    image_url = "https://images/exact.png" if exact else "https://images/family.png"
+                    data = {"query": {"pages": {"1": {"title": title, "imageinfo": [
+                        {"url": image_url, "width": 860, "height": 240}]}}}}
+                else:
+                    data = {"query": {"imageusage": []}}
+                response._content = json.dumps(data).encode()
+                return response
+        meta = BannerSource(Session()).metadata(1071, {"seriesID": 21, "imgID": 970}, fallback_image_id=174)
+        self.assertEqual(meta["image_url"], "https://images/exact.png")
 
     def test_banner_lookup_uses_exact_id_even_when_wiki_returns_different_order(self):
         class Session:
@@ -63,8 +152,8 @@ class ImageTests(unittest.TestCase):
                 result.status_code = 403 if "ponos" in url else 200
                 if params and params.get("prop") == "imageinfo":
                     result._content = json.dumps({"query": {"pages": {
-                        "1": {"title": "File:Gatya btn70.png", "imageinfo": [{"url": "https://images/series.png"}]},
-                        "2": {"title": "File:Gatya bnr1077.png", "imageinfo": [{"url": "https://images/exact.png"}]}}}}).encode()
+                        "1": {"title": "File:Gatya btn70.png", "imageinfo": [{"url": "https://images/series.png", "width": 860, "height": 240}]},
+                        "2": {"title": "File:Gatya bnr1077.png", "imageinfo": [{"url": "https://images/exact.png", "width": 860, "height": 240}]}}}}).encode()
                 else:
                     result._content = json.dumps({"query": {"imageusage": [
                         {"title": "Best of the Best Milestone Edition (Gacha Event)/Gallery"}]}}).encode()
@@ -81,8 +170,8 @@ class ImageTests(unittest.TestCase):
                 response.status_code = 403 if "ponos" in url else 200
                 if params and params.get("prop") == "imageinfo":
                     data = {"query": {"pages": {
-                        "1": {"title": "File:Gatya bnr1077.png", "imageinfo": [{"url": "https://images/jp.png"}]},
-                        "2": {"title": "File:Gatya bnr1077 en.png", "imageinfo": [{"url": "https://images/en.png"}]}}}}
+                        "1": {"title": "File:Gatya bnr1077.png", "imageinfo": [{"url": "https://images/jp.png", "width": 860, "height": 240}]},
+                        "2": {"title": "File:Gatya bnr1077 en.png", "imageinfo": [{"url": "https://images/en.png", "width": 860, "height": 240}]}}}}
                 else:
                     data = {"query": {"imageusage": []}}
                 response._content = json.dumps(data).encode()
@@ -97,7 +186,7 @@ class ImageTests(unittest.TestCase):
                 result.status_code = 403 if "ponos" in url else 200
                 if params and params.get("prop") == "imageinfo":
                     data = {"query": {"pages": {"1": {"title": "File:Gatya bnr1077.png",
-                            "imageinfo": [{"url": "https://images/exact.png"}]}}}}
+                            "imageinfo": [{"url": "https://images/exact.png", "width": 860, "height": 240}]}}}}
                 else:
                     data = {"query": {"imageusage": [{"title": "One (Gacha Event)"},
                                                       {"title": "Other (Gacha Event)"}]}}
