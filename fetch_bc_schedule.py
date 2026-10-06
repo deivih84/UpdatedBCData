@@ -15,6 +15,7 @@ ID mapping required. The TSV embeds a name string at position +14 (width-15 entr
 also at +14 for width-17 event capsule entries; the last two fields are extra text.
 """
 
+import argparse
 import hashlib
 import hmac
 import json
@@ -178,8 +179,11 @@ def get_auth_token():
 # TSV fetching
 # ---------------------------------------------------------------------------
 
-def fetch_gatya_tsv(jwt):
-    url = GATYA_URL.format(token=jwt)
+def fetch_gatya_tsv(jwt, *, region='en'):
+    if region not in ('en', 'jp'):
+        raise ValueError('Unsupported schedule region')
+    endpoint = GATYA_URL if region == 'en' else GATYA_URL.replace('battlecatsen_production', 'battlecats_production')
+    url = endpoint.format(token=jwt)
     r = requests.get(url, headers={"User-Agent": USER_AGENT}, timeout=30)
     r.raise_for_status()
     # Force UTF-8 — Ponos servers serve UTF-8 but requests may autodetect Latin-1
@@ -383,7 +387,7 @@ def parse_gatya_tsv(content):
 # Name lookup DBs
 # ---------------------------------------------------------------------------
 
-def _load_name_dbs():
+def _load_name_dbs(catalog_path=None, cache_path=None):
     """
     Returns:
       by_id    {R ID or (N/E type, ID) -> canonical_name}; numeric cache IDs are R only
@@ -392,8 +396,10 @@ def _load_name_dbs():
     alias_db = {}
     by_id    = {}
 
-    if GACHAS_FILE.exists():
-        data = json.loads(GACHAS_FILE.read_text(encoding="utf-8"))
+    catalog_path = catalog_path or GACHAS_FILE
+    cache_path = cache_path or ID_CACHE_FILE
+    if catalog_path.exists():
+        data = json.loads(catalog_path.read_text(encoding="utf-8"))
         for g in data.get("gachas", []):
             canonical = g["nombre"]
             alias_db[canonical.lower()] = canonical
@@ -406,9 +412,9 @@ def _load_name_dbs():
                 by_id[key] = canonical
 
     # gacha_id_cache.json takes priority over manual entries
-    if ID_CACHE_FILE.exists():
+    if cache_path.exists():
         try:
-            cache = json.loads(ID_CACHE_FILE.read_text(encoding="utf-8"))
+            cache = json.loads(cache_path.read_text(encoding="utf-8"))
             for id_str, name in cache.items():
                 canonical = alias_db.get(name.lower(), name)
                 by_id[int(id_str)] = canonical
@@ -440,14 +446,18 @@ def _festival_rate_matches(name, entry):
     return actual == expected
 
 
-def _resolve_gacha_name(entry, by_id, alias_db):
+def _resolve_gacha_name(entry, by_id, alias_db, *, region="en"):
     """Resolve by capsule type/ID before using specific names and descriptions."""
     def valid(candidate):
         return candidate if candidate and _festival_rate_matches(candidate, entry) else None
 
     category = entry.get("gacha_type", 1)
     key = (category, entry["gacha_id"]) if category in (0, 4) else entry["gacha_id"]
-    canonical = valid(by_id.get(key))
+    canonical = by_id.get(key) if region == "jp" else valid(by_id.get(key))
+    if region == 'jp':
+        # Japanese announcements are often promotional sentences shared by pools.
+        # Publish only verified, region-scoped catalogue names (including Unicode).
+        return canonical or alias_db.get(entry.get('tsv_full', '').lower())
     # PONOS explicitly names these item pools in the description; their common
     # heading 'Limited Capsules' must not identify an event with cat units.
     full_lower = entry.get("tsv_full", "").lower()
@@ -551,7 +561,10 @@ def _build_characteristics(entry):
 # ---------------------------------------------------------------------------
 
 def _snake(name):
-    return re.sub(r"[^a-z0-9]+", "_", name.lower()).strip("_")
+    slug = re.sub(r"[^a-z0-9]+", "_", name.lower()).strip("_")
+    if not slug or any(ord(char) > 127 for char in name):
+        return (slug or 'gacha') + '_' + hashlib.sha256(name.encode('utf-8')).hexdigest()[:12]
+    return slug
 
 
 def _build_entry(name, start, end, characteristics):
@@ -567,16 +580,35 @@ def _build_entry(name, start, end, characteristics):
 # Main
 # ---------------------------------------------------------------------------
 
-def main():
+def main(argv=None):
+    parser = argparse.ArgumentParser(description='Update the EN/JP capsule calendar')
+    parser.add_argument('--region', choices=('en', 'jp'), default='en')
+    parser.add_argument('--repo', type=Path, default=SCRIPT_DIR)
+    parser.add_argument('--tsv', type=Path)
+    parser.add_argument('--dry-run', action='store_true')
+    args = parser.parse_args(argv)
+    region = args.region
+    catalog_path = args.repo / f'all_gachas_{region}.json'
+    cache_path = args.repo / ('gacha_id_cache' + ('_jp' if region == 'jp' else '') + '.json')
+    output_path = args.repo / f'gachas_eventos_actualizados_{region}1.json'
+    if not catalog_path.is_file():
+        raise ValueError('Synchronize the regional catalogue before updating its calendar')
     from bc_schedule_sources import download_schedule
-    print("Fetching EN gatya.tsv...")
-    tsv, source = download_schedule('gatya.tsv', lambda: fetch_gatya_tsv(get_auth_token()))
+    print(f'Fetching {region.upper()} gatya.tsv...')
+    if args.tsv:
+        tsv = args.tsv.read_text(encoding='utf-8-sig')
+        source = {'url': 'saved gatya.tsv'}
+    else:
+        direct = None if args.dry_run else lambda: fetch_gatya_tsv(get_auth_token(), region=region)
+        tsv, source = download_schedule('gatya.tsv', direct, region=region)
     print('  Source: ' + source['url'])
     rows = parse_gatya_tsv(tsv)
     print(f"  Parsed {len(rows)} TSV rows with gacha entries")
 
     # 3. Load name lookup DBs
-    by_id, alias_db = _load_name_dbs()
+    if not rows:
+        raise ValueError("No capsule rows; previous calendar retained")
+    by_id, alias_db = _load_name_dbs(catalog_path, cache_path)
 
     # 4. Build gacha list — one output entry per (name, end_date) per TSV row
     #    Each TSV row can have multiple gacha entries (e.g. three Uber Fest banners).
@@ -586,8 +618,11 @@ def main():
 
     for row in rows:
         seen_names = set()
-        for entry in row["entries"]:
-            canonical = _resolve_gacha_name(entry, by_id, alias_db)
+        for entry in row['entries']:
+            if region == 'jp' and entry.get('gacha_type') in (2, 3):
+                # First-purchase offers are conditional, not public event campaigns.
+                continue
+            canonical = _resolve_gacha_name(entry, by_id, alias_db, region=region)
             if canonical is None:
                 continue
 
@@ -648,9 +683,9 @@ def main():
 
     # 6. Preserve existing eventos section
     existing = {"gachas": [], "eventos": [], "ultima_actualizacion": ""}
-    if OUTPUT_FILE.exists():
+    if output_path.exists():
         try:
-            existing = json.loads(OUTPUT_FILE.read_text(encoding="utf-8"))
+            existing = json.loads(output_path.read_text(encoding="utf-8"))
         except Exception:
             pass
 
@@ -660,11 +695,18 @@ def main():
         "ultima_actualizacion": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
     }
 
-    OUTPUT_FILE.write_text(
+    if not unique:
+        raise ValueError('No recognized capsules; previous calendar retained')
+    if args.dry_run:
+        print(f'DRY RUN: {len(unique)} recognized capsules; no files written')
+        return
+    if unique == existing.get('gachas', []):
+        output['ultima_actualizacion'] = existing.get('ultima_actualizacion', output['ultima_actualizacion'])
+    output_path.write_text(
         json.dumps(output, ensure_ascii=False, indent=2),
         encoding="utf-8"
     )
-    print(f"Updated {OUTPUT_FILE.name}: {len(unique)} gachas written")
+    print(f"Updated {output_path.name}: {len(unique)} gachas written")
 
     # 7. Show summary
     print("\nGacha schedule:")
@@ -675,4 +717,10 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    if sys.stdout.encoding and sys.stdout.encoding.lower() not in ('utf-8', 'utf8'):
+        sys.stdout.reconfigure(encoding='utf-8')
+    try:
+        main()
+    except (requests.RequestException, ValueError, OSError) as error:
+        print('ERROR: ' + (type(error).__name__ if isinstance(error, requests.RequestException) else str(error)))
+        raise SystemExit(1)

@@ -13,6 +13,12 @@ python sync_gacha_catalog.py
 python fetch_bc_schedule.py
 ```
 
+JP uses the same commands with `--region jp`:
+`python sync_gacha_catalog.py --region jp` and
+`python fetch_bc_schedule.py --region jp`. See `docs/gacha-sync-jp.md`.
+Keep JP cache/state/catalogue and banner_jp artwork separate from EN. JP advertising
+sentences must not identify capsule families. Do not stage `.gacha_sync_run_jp.json`.
+
 See `docs/gacha-sync.md`. Use `--online` on GitHub; local runs detect sibling
 BCData. Preserve distinct scheduled pool variants, do not assign pools by fuzzy
 names, and do not stage `.bc_state.json` or `.gacha_sync_run.json`.

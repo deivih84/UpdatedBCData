@@ -38,6 +38,12 @@ jobs:
       - name: Synchronize event catalog, posters and calendar
         run: python fetch_bc_events.py --online
 
+      - name: Synchronize JP banner catalog and artwork
+        run: python sync_gacha_catalog.py --region jp --online
+
+      - name: Update JP gacha calendar
+        run: python fetch_bc_schedule.py --region jp
+
       - name: Validate repository data and updater behavior
         run: python -m unittest discover -s tests -p "test_*.py" -v
 
@@ -47,6 +53,15 @@ jobs:
         with:
           name: banner-sync-report
           path: .gacha_sync_run.json
+          if-no-files-found: warn
+          retention-days: 30
+
+      - name: Save JP banner sync report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: jp-banner-sync-report
+          path: .gacha_sync_run_jp.json
           if-no-files-found: warn
           retention-days: 30
 
@@ -63,10 +78,10 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add gachas_eventos_actualizados_en1.json all_gachas_en.json gacha_id_cache.json gacha_sync_state.json gacha_sync_report.json images/gacha/ all_events.json event_name_index.json event_sync_state.json event_sync_report.json images/events/
+          git add all_gachas_jp.json gacha_id_cache_jp.json gacha_sync_state_jp.json gacha_sync_report_jp.json gachas_eventos_actualizados_jp1.json gachas_eventos_actualizados_en1.json all_gachas_en.json gacha_id_cache.json gacha_sync_state.json gacha_sync_report.json images/gacha/ all_events.json event_name_index.json event_sync_state.json event_sync_report.json images/events/
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: sync EN event and banner catalogs and schedule [skip ci]"
+            git commit -m "chore: sync EN/JP banner catalogs and EN events and schedules [skip ci]"
             git push
           fi

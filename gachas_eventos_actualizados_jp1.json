@@ -1,146 +1,208 @@
 {
   "gachas": [
     {
-      "id": "platinum_capsules_2025-01-01",
-      "nombre": "Platinum Capsules",
-      "fecha_inicio": "2025-01-01",
-      "fecha_fin": "2027-01-04",
-      "caracteristicas": []
+      "id": "iron_legion_2026-09-28",
+      "nombre": "Iron Legion",
+      "fecha_inicio": "2026-09-28",
+      "fecha_fin": "2026-10-01",
+      "caracteristicas": [
+        "L",
+        "Lucky Ticket",
+        "P",
+        "Platinum Shard"
+      ]
     },
     {
-      "id": "legend_capsules_2025-01-01",
-      "nombre": "Legend Capsules",
-      "fecha_inicio": "2025-01-01",
-      "fecha_fin": "2027-01-04",
-      "caracteristicas": []
+      "id": "dragon_emperors_jp_1059_2026-09-28",
+      "nombre": "Dragon Emperors (JP #1059)",
+      "fecha_inicio": "2026-09-28",
+      "fecha_fin": "2026-10-01",
+      "caracteristicas": [
+        "L",
+        "Lucky Ticket",
+        "P",
+        "Platinum Shard"
+      ]
     },
     {
-      "id": "dark_heroes_2026-02-01",
-      "nombre": "Dark Heroes",
-      "fecha_inicio": "2026-02-01",
-      "fecha_fin": "2026-02-04",
+      "id": "ultra_souls_2026-10-01",
+      "nombre": "Ultra Souls",
+      "fecha_inicio": "2026-10-01",
+      "fecha_fin": "2026-10-04",
       "caracteristicas": [
         "P",
-        "N",
-        "GR",
-        "R"
+        "Platinum Shard"
       ]
     },
     {
-      "id": "galaxy_gals_2026-01-30",
-      "nombre": "Galaxy Gals (+)",
-      "fecha_inicio": "2026-01-30",
-      "fecha_fin": "2026-02-01",
-      "caracteristicas": [
-        "P",
-        "N",
-        "GR",
-        "R"
-      ]
-    },
-    {
-      "id": "the_almighties_2026-02-08",
-      "nombre": "The Almighties (+Victorious Skanda)",
-      "fecha_inicio": "2026-02-08",
-      "fecha_fin": "2026-02-11",
-      "caracteristicas": [
-        "P",
-        "N",
-        "GR",
-        "R"
-      ]
-    },
-    {
-      "id": "uberfest_2026-02-01",
-      "nombre": "Uberfest (+Squire Luno)",
-      "fecha_inicio": "2026-02-01",
-      "fecha_fin": "2026-02-04",
-      "caracteristicas": []
-    },
-    {
-      "id": "wargods_vajiras_2026-02-06",
-      "nombre": "Wargods Vajiras",
-      "fecha_inicio": "2026-02-06",
-      "fecha_fin": "2026-02-08",
-      "caracteristicas": [
-        "P",
-        "N",
-        "GR",
-        "R"
-      ]
-    },
-    {
-      "id": "epicfest_2026-03-13",
-      "nombre": "Epicfest (+)",
-      "fecha_inicio": "2026-03-13",
-      "fecha_fin": "2026-03-16",
-      "caracteristicas": []
-    },
-    {
-      "id": "iron_legion_2026-03-16",
-      "nombre": "Iron Legion (+Mighty Morta-Loncha)",
-      "fecha_inicio": "2026-03-16",
-      "fecha_fin": "2026-03-18",
-      "caracteristicas": [
-        "P",
-        "N",
-        "GR",
-        "R"
-      ]
-    },
-    {
-      "id": "the_dynamites_2026-03-13",
-      "nombre": "The Dynamites",
-      "fecha_inicio": "2026-03-13",
-      "fecha_fin": "2026-03-16",
-      "caracteristicas": [
-        "P",
-        "N",
-        "GR",
-        "R"
-      ]
-    },
-    {
-      "id": "galaxy_gals_2026-04-13",
-      "nombre": "Galaxy Gals",
-      "fecha_inicio": "2026-04-13",
-      "fecha_fin": "2026-04-15",
-      "caracteristicas": [
-        "G",
-        "N",
-        "GR",
-        "R"
-      ]
-    },
-    {
-      "id": "luga_families_2026-04-11",
+      "id": "luga_families_2026-10-01",
       "nombre": "Luga Families",
-      "fecha_inicio": "2026-04-11",
-      "fecha_fin": "2026-04-13",
+      "fecha_inicio": "2026-10-01",
+      "fecha_fin": "2026-10-04",
       "caracteristicas": [
-        "G",
-        "N",
-        "GR",
-        "R"
+        "P",
+        "Platinum Shard"
       ]
     },
     {
-      "id": "the_almighties_2026-04-15",
+      "id": "elemental_pixies_2026-10-06",
+      "nombre": "Elemental Pixies",
+      "fecha_inicio": "2026-10-06",
+      "fecha_fin": "2026-10-06",
+      "caracteristicas": []
+    },
+    {
+      "id": "the_almighties_2026-10-06",
       "nombre": "The Almighties",
-      "fecha_inicio": "2026-04-15",
-      "fecha_fin": "2026-04-17",
-      "caracteristicas": [
-        "G",
-        "N",
-        "GR",
-        "R"
-      ]
+      "fecha_inicio": "2026-10-06",
+      "fecha_fin": "2026-10-06",
+      "caracteristicas": []
+    },
+    {
+      "id": "wargods_vajiras_2026-10-06",
+      "nombre": "Wargods Vajiras",
+      "fecha_inicio": "2026-10-06",
+      "fecha_fin": "2026-10-06",
+      "caracteristicas": []
+    },
+    {
+      "id": "girls_monsters_2026-10-07",
+      "nombre": "Girls & Monsters",
+      "fecha_inicio": "2026-10-07",
+      "fecha_fin": "2026-10-07",
+      "caracteristicas": []
+    },
+    {
+      "id": "iron_legion_2026-10-07",
+      "nombre": "Iron Legion",
+      "fecha_inicio": "2026-10-07",
+      "fecha_fin": "2026-10-07",
+      "caracteristicas": []
+    },
+    {
+      "id": "dragon_emperors_jp_1059_2026-10-07",
+      "nombre": "Dragon Emperors (JP #1059)",
+      "fecha_inicio": "2026-10-07",
+      "fecha_fin": "2026-10-07",
+      "caracteristicas": []
+    },
+    {
+      "id": "ultra_souls_2026-10-08",
+      "nombre": "Ultra Souls",
+      "fecha_inicio": "2026-10-08",
+      "fecha_fin": "2026-10-09",
+      "caracteristicas": []
+    },
+    {
+      "id": "luga_families_2026-10-08",
+      "nombre": "Luga Families",
+      "fecha_inicio": "2026-10-08",
+      "fecha_fin": "2026-10-09",
+      "caracteristicas": []
+    },
+    {
+      "id": "platinum_capsules_jp_1063_2026-06-26",
+      "nombre": "Platinum Capsules (JP #1063)",
+      "fecha_inicio": "2026-06-26",
+      "fecha_fin": "2029-12-31",
+      "caracteristicas": []
+    },
+    {
+      "id": "platinum_capsules_jp_1057_2026-04-28",
+      "nombre": "Platinum Capsules (JP #1057)",
+      "fecha_inicio": "2026-04-28",
+      "fecha_fin": "2029-12-31",
+      "caracteristicas": []
+    },
+    {
+      "id": "platinum_capsules_jp_1047_2026-03-20",
+      "nombre": "Platinum Capsules (JP #1047)",
+      "fecha_inicio": "2026-03-20",
+      "fecha_fin": "2029-12-31",
+      "caracteristicas": []
+    },
+    {
+      "id": "platinum_capsules_jp_1036_2026-01-01",
+      "nombre": "Platinum Capsules (JP #1036)",
+      "fecha_inicio": "2026-01-01",
+      "fecha_fin": "2029-12-31",
+      "caracteristicas": []
+    },
+    {
+      "id": "platinum_capsules_jp_1024_2025-12-12",
+      "nombre": "Platinum Capsules (JP #1024)",
+      "fecha_inicio": "2025-12-12",
+      "fecha_fin": "2029-12-31",
+      "caracteristicas": []
+    },
+    {
+      "id": "platinum_capsules_jp_1008_2025-09-06",
+      "nombre": "Platinum Capsules (JP #1008)",
+      "fecha_inicio": "2025-09-06",
+      "fecha_fin": "2029-12-31",
+      "caracteristicas": []
+    },
+    {
+      "id": "platinum_capsules_2026-08-08",
+      "nombre": "Platinum Capsules",
+      "fecha_inicio": "2026-08-08",
+      "fecha_fin": "2029-12-31",
+      "caracteristicas": []
+    },
+    {
+      "id": "legend_capsules_jp_1064_2026-06-26",
+      "nombre": "Legend Capsules (JP #1064)",
+      "fecha_inicio": "2026-06-26",
+      "fecha_fin": "2029-12-31",
+      "caracteristicas": []
+    },
+    {
+      "id": "legend_capsules_jp_1058_2026-04-28",
+      "nombre": "Legend Capsules (JP #1058)",
+      "fecha_inicio": "2026-04-28",
+      "fecha_fin": "2029-12-31",
+      "caracteristicas": []
+    },
+    {
+      "id": "legend_capsules_jp_1048_2026-03-20",
+      "nombre": "Legend Capsules (JP #1048)",
+      "fecha_inicio": "2026-03-20",
+      "fecha_fin": "2029-12-31",
+      "caracteristicas": []
+    },
+    {
+      "id": "legend_capsules_jp_1035_2026-01-01",
+      "nombre": "Legend Capsules (JP #1035)",
+      "fecha_inicio": "2026-01-01",
+      "fecha_fin": "2029-12-31",
+      "caracteristicas": []
+    },
+    {
+      "id": "legend_capsules_jp_1025_2025-12-12",
+      "nombre": "Legend Capsules (JP #1025)",
+      "fecha_inicio": "2025-12-12",
+      "fecha_fin": "2029-12-31",
+      "caracteristicas": []
+    },
+    {
+      "id": "legend_capsules_jp_1009_2025-09-06",
+      "nombre": "Legend Capsules (JP #1009)",
+      "fecha_inicio": "2025-09-06",
+      "fecha_fin": "2029-12-31",
+      "caracteristicas": []
+    },
+    {
+      "id": "legend_capsules_2026-08-08",
+      "nombre": "Legend Capsules",
+      "fecha_inicio": "2026-08-08",
+      "fecha_fin": "2029-12-31",
+      "caracteristicas": []
     }
   ],
   "eventos": [
     {
-      "id": "\u9b3c\u6bba\u968a_\u5165\u968a\u8a66\u9a13_2026-01-30",
-      "nombre": "\u9b3c\u6bba\u968a \u5165\u968a\u8a66\u9a13",
+      "id": "鬼殺隊_入隊試験_2026-01-30",
+      "nombre": "鬼殺隊 入隊試験",
       "caracteristicas": [
         "No description available."
       ],
@@ -148,8 +210,8 @@
       "fecha_fin": "2026-02-16"
     },
     {
-      "id": "\u90a3\u7530\u8718\u86db\u5c71\u306e\u6226\u3044_2026-01-30",
-      "nombre": "\u90a3\u7530\u8718\u86db\u5c71\u306e\u6226\u3044",
+      "id": "那田蜘蛛山の戦い_2026-01-30",
+      "nombre": "那田蜘蛛山の戦い",
       "caracteristicas": [
         "No description available."
       ],
@@ -157,8 +219,8 @@
       "fecha_fin": "2026-02-16"
     },
     {
-      "id": "\u30e9\u30f3\u30ad\u30f3\u30b0\u306e\u9593_2026-01-30",
-      "nombre": "\u30e9\u30f3\u30ad\u30f3\u30b0\u306e\u9593",
+      "id": "ランキングの間_2026-01-30",
+      "nombre": "ランキングの間",
       "caracteristicas": [
         "No description available."
       ],
@@ -193,8 +255,8 @@
       "fecha_fin": "2026-02-16"
     },
     {
-      "id": "\u7279\u5225\u4efb\u52d9\uff01\u9b3c\u5316\u30af\u30de\u5148\u751f\u8a0e\u4f10_2026-02-02",
-      "nombre": "\u7279\u5225\u4efb\u52d9\uff01\u9b3c\u5316\u30af\u30de\u5148\u751f\u8a0e\u4f10",
+      "id": "特別任務！鬼化クマ先生討伐_2026-02-02",
+      "nombre": "特別任務！鬼化クマ先生討伐",
       "caracteristicas": [
         "No description available."
       ],
@@ -202,8 +264,8 @@
       "fecha_fin": "2026-02-16"
     },
     {
-      "id": "\u7279\u5225\u4efb\u52d9\uff01\u7d2f\u8a0e\u4f10_2026-02-04",
-      "nombre": "\u7279\u5225\u4efb\u52d9\uff01\u7d2f\u8a0e\u4f10",
+      "id": "特別任務！累討伐_2026-02-04",
+      "nombre": "特別任務！累討伐",
       "caracteristicas": [
         "No description available."
       ],
@@ -211,8 +273,8 @@
       "fecha_fin": "2026-02-16"
     },
     {
-      "id": "\u7121\u9650\u5217\u8eca\u306e\u6226\u3044_2026-02-05",
-      "nombre": "\u7121\u9650\u5217\u8eca\u306e\u6226\u3044",
+      "id": "無限列車の戦い_2026-02-05",
+      "nombre": "無限列車の戦い",
       "caracteristicas": [
         "No description available."
       ],
@@ -220,8 +282,8 @@
       "fecha_fin": "2026-02-16"
     },
     {
-      "id": "\u7279\u5225\u4efb\u52d9\uff01\u9b58\u5922\u8a0e\u4f10_2026-02-07",
-      "nombre": "\u7279\u5225\u4efb\u52d9\uff01\u9b58\u5922\u8a0e\u4f10",
+      "id": "特別任務！魘夢討伐_2026-02-07",
+      "nombre": "特別任務！魘夢討伐",
       "caracteristicas": [
         "No description available."
       ],
@@ -229,8 +291,8 @@
       "fecha_fin": "2026-02-16"
     },
     {
-      "id": "\u5f37\u8972\uff01\u7317\u7aa9\u5ea7\u3068\u306e\u6226\u3044_2026-02-09",
-      "nombre": "\u5f37\u8972\uff01\u7317\u7aa9\u5ea7\u3068\u306e\u6226\u3044",
+      "id": "強襲！猗窩座との戦い_2026-02-09",
+      "nombre": "強襲！猗窩座との戦い",
       "caracteristicas": [
         "No description available."
       ],
@@ -238,8 +300,8 @@
       "fecha_fin": "2026-02-16"
     },
     {
-      "id": "\u7279\u5225\u4efb\u52d9\uff01\u7317\u7aa9\u5ea7\u8a0e\u4f10_2026-02-09",
-      "nombre": "\u7279\u5225\u4efb\u52d9\uff01\u7317\u7aa9\u5ea7\u8a0e\u4f10",
+      "id": "特別任務！猗窩座討伐_2026-02-09",
+      "nombre": "特別任務！猗窩座討伐",
       "caracteristicas": [
         "No description available."
       ],
@@ -274,8 +336,8 @@
       "fecha_fin": "2026-03-30"
     },
     {
-      "id": "after_school\uff5e\u604b\u6587\uff5e_(monday,_tuesday,_wednesday,_thursday,_friday_/_17:00_~_24:00)_2026-03-16",
-      "nombre": "After School\uff5e\u604b\u6587\uff5e (Monday, Tuesday, Wednesday, Thursday, Friday / 17:00 ~ 24:00)",
+      "id": "after_school～恋文～_(monday,_tuesday,_wednesday,_thursday,_friday_/_17:00_~_24:00)_2026-03-16",
+      "nombre": "After School～恋文～ (Monday, Tuesday, Wednesday, Thursday, Friday / 17:00 ~ 24:00)",
       "caracteristicas": [
         "No description available."
       ],
@@ -301,8 +363,8 @@
       "fecha_fin": "2026-04-01"
     },
     {
-      "id": "\u6975\u30e9\u30f3\u30ad\u30f3\u30b0\u306e\u9593_2026-04-16",
-      "nombre": "\u6975\u30e9\u30f3\u30ad\u30f3\u30b0\u306e\u9593",
+      "id": "極ランキングの間_2026-04-16",
+      "nombre": "極ランキングの間",
       "caracteristicas": [
         "No description available."
       ],
@@ -310,5 +372,5 @@
       "fecha_fin": "2026-05-01"
     }
   ],
-  "ultima_actualizacion": "2026-04-11T14:57:46.276541"
+  "ultima_actualizacion": "2026-10-06T17:27:02Z"
 }

@@ -119,3 +119,6 @@ añadir una unidad válida no debe romper una prueba que describía una versión
 Los cambios locales del workflow deben publicarse en la rama por defecto para
 activar esta versión de la automatización. También se puede ejecutar manualmente
 desde la pestaña Actions después de publicarlo. Ninguna tarea de ChatGPT es necesaria.
+
+JP utiliza el mismo motor con `--region jp`, datos separados y carteles propios.
+Ver [gacha-sync-jp.md](gacha-sync-jp.md).

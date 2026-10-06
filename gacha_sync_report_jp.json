@@ -1,0 +1,64 @@
+{
+  "sources": {
+    "schedule": "PONOS JP gatya.tsv",
+    "pools": "bc.godfat.org (validated against PONOS)"
+  },
+  "changes": [],
+  "pending": [
+    {
+      "gacha_id": 23,
+      "reason": "starter_pool_not_available_online"
+    },
+    {
+      "gacha_id": 33,
+      "reason": "starter_pool_not_available_online"
+    },
+    {
+      "name": "Shoumetsu Toshi Collab Gacha",
+      "gacha_id": 23,
+      "reason": "image_not_found"
+    }
+  ],
+  "images": [
+    {
+      "name": "Platinum Capsules",
+      "gacha_id": 1071,
+      "file": "banner_jp_1071_fef2f670c5d1fd3a.png"
+    },
+    {
+      "name": "Platinum Capsules (JP #1008)",
+      "gacha_id": 1008,
+      "file": "banner_jp_1008_fef2f670c5d1fd3a.png"
+    },
+    {
+      "name": "Platinum Capsules (JP #1024)",
+      "gacha_id": 1024,
+      "file": "banner_jp_1024_fef2f670c5d1fd3a.png"
+    },
+    {
+      "name": "Platinum Capsules (JP #1036)",
+      "gacha_id": 1036,
+      "file": "banner_jp_1036_fef2f670c5d1fd3a.png"
+    },
+    {
+      "name": "Platinum Capsules (JP #1047)",
+      "gacha_id": 1047,
+      "file": "banner_jp_1047_fef2f670c5d1fd3a.png"
+    },
+    {
+      "name": "Platinum Capsules (JP #1057)",
+      "gacha_id": 1057,
+      "file": "banner_jp_1057_fef2f670c5d1fd3a.png"
+    },
+    {
+      "name": "Platinum Capsules (JP #1063)",
+      "gacha_id": 1063,
+      "file": "banner_jp_1063_fef2f670c5d1fd3a.png"
+    }
+  ],
+  "errors": [],
+  "region": "jp",
+  "missingImages": [
+    "Shoumetsu Toshi Collab Gacha"
+  ]
+}

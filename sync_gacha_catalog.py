@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Synchronize EN capsule identities, pools and artwork without interactive prompts."""
+"""Synchronize EN/JP capsule identities, pools and artwork without interactive prompts."""
 from __future__ import annotations
 
 import argparse
@@ -28,42 +28,69 @@ def read_json(path, default=None):
 
 def run(args):
     repository = args.repo.resolve()
-    config = read_json(repository / "gacha_sync_config.json")
-    catalog = read_json(repository / "all_gachas_en.json")
-    cache = read_json(repository / "gacha_id_cache.json", {})
-    state = read_json(repository / "gacha_sync_state.json", {})
-    source = BannerSource()
+    region = getattr(args, 'region', 'en')
+    suffix = '' if region == 'en' else '_jp'
+    paths = {name: repository / (name + suffix + '.json') for name in
+             ('gacha_sync_config', 'gacha_id_cache', 'gacha_sync_state', 'gacha_sync_report')}
+    catalog_path = repository / f'all_gachas_{region}.json'
+    private_report = repository / ('.gacha_sync_run' + suffix + '.json')
+    config = read_json(paths["gacha_sync_config"])
+    catalog = read_json(catalog_path, {"gachas": []})
+    cache = read_json(paths["gacha_id_cache"], {})
+    state = read_json(paths["gacha_sync_state"], {})
+    if state.get('region', region) != region:
+        raise ValueError('Catalogue state belongs to another region')
+    state['region'] = region
+    source = BannerSource(region=region)
     if args.tsv:
         tsv = args.tsv.read_text(encoding="utf-8-sig")
     else:
-        # A dry-run must not create or refresh credentials on disk.
-        if args.dry_run:
-            response = source.session.get("https://bc-seek.godfat.org/seek/en/gatya.tsv", timeout=30)
-            response.raise_for_status()
-            tsv = response.content.decode("utf-8", errors="replace")
-        else:
-            from bc_schedule_sources import download_schedule
-            tsv, provenance = download_schedule('gatya.tsv',
-                lambda: schedule.fetch_gatya_tsv(schedule.get_auth_token()), session=source.session)
-            print('Schedule source: ' + provenance['url'], flush=True)
+        from bc_schedule_sources import download_schedule
+        direct = None if args.dry_run else lambda: schedule.fetch_gatya_tsv(schedule.get_auth_token(), region=region)
+        tsv, provenance = download_schedule('gatya.tsv', direct, session=source.session, region=region)
+        print('Schedule source: ' + provenance['url'], flush=True)
     events = scheduled_events(tsv, args.today)
     local = args.bcdata
     if local is None and not args.online:
         sibling = repository.parent / "BCData"
         if (sibling / "latest.txt").is_file():
             local = sibling
+    pool_pending = []
     if local is not None:
-        game = load_local_game(local)
+        game = load_local_game(local, region=region)
     else:
         # The public BCData mirror can lag game releases. Godfat is the existing
         # online pool source; validate both event selection and PONOS rates.
-        game = {"pools": {}, "options": {}, "source": "bc.godfat.org (validated against PONOS)", "version": None}
+        game = {"pools": {}, "options": {}, "source": "bc.godfat.org (validated against PONOS)", "version": None, "poolSources": {}, "poolVersions": {}}
+        available = []
+        normal_ids = {event['gacha_id'] for event in events if event.get('gacha_type') not in (2, 3)}
         for event in events:
-            gid = event["gacha_id"]
+            gid = event['gacha_id']
+            # Godfat does not expose JP's old first-purchase offers (types 2/3).
+            # Keep their saved catalogue entries; do not substitute another pool.
+            if region == 'jp' and event.get('gacha_type') in (2, 3):
+                pool_pending.append({'gacha_id': gid, 'reason': 'starter_pool_not_available_online'})
+                if gid in normal_ids:
+                    # A normal offer sharing this ID must fetch and validate it.
+                    available.append(event)
+                    continue
+                saved = state.get('banners', {}).get(str(gid), {})
+                if not saved.get('pool') or not saved.get('rates'):
+                    continue
+                # Preserve the last verified starter snapshot, validating its rates
+                # against this schedule. The report explicitly marks it as unrefreshed.
+                game['pools'][gid] = {**saved['pool'], **saved['rates']}
+                game['options'][gid] = saved.get('option', {})
+                game['poolSources'][gid] = saved.get('source', 'saved JP starter snapshot')
+                game['poolVersions'][gid] = saved.get('gameVersion')
+                available.append(event)
+                continue
+            available.append(event)
             if gid not in game["pools"]:
                 print(f"Pool {event['event_id']}", flush=True)
                 game["pools"][gid] = source.pool(event)
             game["options"][gid] = state.get("banners", {}).get(str(gid), {}).get("option", {})
+        events = available
     metadata = {}
     ids = {event["gacha_id"] for event in events}
     # Repair missing artwork of registered inactive banners too.
@@ -81,7 +108,10 @@ def run(args):
             if meta.get("name") in config.get("wikiNames", {}):
                 meta["name"] = config["wikiNames"][meta["name"]]
     catalog, cache, state, report = plan_catalog(catalog, cache, state, events, game,
-        config.get("seriesNames", {}), metadata, today=args.today)
+        config.get("seriesNames", {}), metadata, today=args.today, region=region)
+    report['pending'].extend({p['gacha_id']: p for p in pool_pending}.values())
+    report['sources']['schedule'] = 'saved gatya.tsv' if args.tsv else provenance['url']
+    report['region'] = region
     # Registered historical IDs are sufficient to repair their artwork, without
     # presenting an expired pool as today's version of that banner.
     for gid in ids:
@@ -92,12 +122,12 @@ def run(args):
     if drawables is None and config.get("appDrawables") and os.name == "nt":
         drawables = Path(config["appDrawables"])
     outputs = plan_images(catalog, state, metadata, source.image, repository,
-                          config["publicImageBase"], report, drawables, today=args.today)
+                          config["publicImageBase"], report, drawables, today=args.today, region=region)
     report["missingImages"] = [b["nombre"] for b in catalog["gachas"]
                                if image_missing(repository, b, outputs)]
-    outputs.update({repository / "all_gachas_en.json": serialize(catalog),
-                    repository / "gacha_id_cache.json": serialize(cache),
-                    repository / "gacha_sync_state.json": serialize(state)})
+    outputs.update({catalog_path: serialize(catalog),
+                    paths["gacha_id_cache"]: serialize(cache),
+                    paths["gacha_sync_state"]: serialize(state)})
     changed = publish(outputs, dry_run=True)
     report["pendingWrites"] = [str(path.relative_to(repository)) if path.is_relative_to(repository)
                               else str(path) for path in changed]
@@ -105,12 +135,12 @@ def run(args):
     public_report = dict(report)
     public_report.pop("pendingWrites")
     if not report["changes"] and not report["images"]:
-        last = read_json(repository / "gacha_sync_report.json", {})
+        last = read_json(paths["gacha_sync_report"], {})
         public_report["changes"] = last.get("changes", [])
         public_report["images"] = last.get("images", [])
-    outputs[repository / "gacha_sync_report.json"] = serialize(public_report)
+    outputs[paths["gacha_sync_report"]] = serialize(public_report)
     if not args.dry_run:
-        outputs[repository / ".gacha_sync_run.json"] = serialize(report)
+        outputs[private_report] = serialize(report)
     publish(outputs, dry_run=args.dry_run)
     print(f"{'DRY RUN' if args.dry_run else 'APPLIED'}: "
           f"{len(report['changes'])} catalogue changes, {len(report['images'])} images, "
@@ -122,7 +152,7 @@ def run(args):
     summary = os.environ.get("GITHUB_STEP_SUMMARY")
     if summary and not args.dry_run:
         with open(summary, "a", encoding="utf-8") as stream:
-            stream.write(f"### EN banner sync\n\n{len(report['changes'])} catalogue changes; "
+            stream.write(f"### {region.upper()} banner sync\n\n{len(report['changes'])} catalogue changes; "
                          f"{len(report['images'])} images; {len(report['pending'])} pending.\n\n")
             for pending in report["pending"]:
                 stream.write(f"- #{pending.get('gacha_id', '?')}: {pending['reason']}\n")
@@ -143,8 +173,9 @@ def main(argv=None):
     if sys.stdout.encoding and sys.stdout.encoding.lower() not in ("utf-8", "utf8"):
         sys.stdout.reconfigure(encoding="utf-8")
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--region", choices=("en", "jp"), default="en")
     parser.add_argument("--repo", type=Path, default=ROOT)
-    parser.add_argument("--bcdata", type=Path, help="Local BCData checkout (latest EN); detected automatically on this PC")
+    parser.add_argument("--bcdata", type=Path, help="Local BCData checkout (latest selected region); detected automatically on this PC")
     parser.add_argument("--online", action="store_true", help="Use validated Godfat pools instead of sibling BCData")
     parser.add_argument("--tsv", type=Path, help="Saved PONOS TSV for reproducible offline runs")
     parser.add_argument("--today", type=date.fromisoformat, default=date.today())
@@ -158,7 +189,7 @@ def main(argv=None):
         message = re.sub(r"jwt=[^&\s]+", "jwt=[redacted]", str(error))
         print(f"ERROR: {message}")
         if not args.dry_run:
-            publish({args.repo.resolve() / ".gacha_sync_run.json": serialize({
+            publish({args.repo.resolve() / (".gacha_sync_run" + ("_jp" if args.region == "jp" else "") + ".json"): serialize({
                 "errors": [message], "changes": [], "images": [], "pending": []})})
         return 1
     return 0

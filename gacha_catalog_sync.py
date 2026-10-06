@@ -9,6 +9,7 @@ import os
 from pathlib import Path
 import re
 import tempfile
+import unicodedata
 
 import requests
 
@@ -20,7 +21,7 @@ def serialize(value):
 
 
 def label_key(value):
-    return re.sub(r"[^a-z0-9]", "", value.lower().replace(" (Gacha Event)", ""))
+    return re.sub(r"[\W_]", "", unicodedata.normalize("NFKC", value.casefold().replace(" (gacha event)", "")))
 
 
 def validate_pool(event, pool):
@@ -49,7 +50,7 @@ def fingerprint(event, pool):
                                    {field: event[field] for field in RATE_FIELDS})).hexdigest()
 
 
-def plan_catalog(catalog, cache, state, events, game, series_names, metadata, *, today=None):
+def plan_catalog(catalog, cache, state, events, game, series_names, metadata, *, today=None, region="en"):
     today = today or date.today()
     catalog, cache, state = copy.deepcopy((catalog, cache, state))
     banners = catalog["gachas"]
@@ -69,7 +70,7 @@ def plan_catalog(catalog, cache, state, events, game, series_names, metadata, *,
                     if record.get("name") == candidate}
         if len(families) == 1:
             return families.pop()
-        variant = re.fullmatch(r"(.+) \(EN #(\d+)\)", candidate)
+        variant = re.fullmatch(rf"(.+) \({region.upper()} #(\d+)\)", candidate)
         if variant and previous.get(variant.group(2), {}).get("family") == variant.group(1):
             return variant.group(1)
         return candidate
@@ -100,7 +101,7 @@ def plan_catalog(catalog, cache, state, events, game, series_names, metadata, *,
         configured = series_names.get(str(option.get("seriesID")))
         if configured:
             candidates.add(configured)
-        for name in (ev.get("tsv_full", ""), ev.get("tsv_name", "")):
+        for name in (() if region == "jp" else (ev.get("tsv_full", ""), ev.get("tsv_name", ""))):
             for candidate in aliases.get(label_key(name), set()):
                 candidates.add(family_of(candidate))
         meta = metadata.get(gid, {})
@@ -126,7 +127,7 @@ def plan_catalog(catalog, cache, state, events, game, series_names, metadata, *,
         for ev, pool, option, meta in rows:
             gid = ev["gacha_id"]
             content_hash = fingerprint(ev, pool)
-            name = family if content_hash == primary_hash else f"{family} (EN #{gid})"
+            name = family if content_hash == primary_hash else f"{family} ({region.upper()} #{gid})"
             old = copy.deepcopy(by_name.get(name))
             if old is None:
                 b = {"nombre": name, "aliases": [name], "imagen_url": ""}
@@ -140,7 +141,7 @@ def plan_catalog(catalog, cache, state, events, game, series_names, metadata, *,
                 b[field] = list(pool[field])
             for field in RATE_FIELDS:
                 b[field] = ev[field]
-            for alias in (ev.get("tsv_full"), ev.get("tsv_name"), meta.get("name")):
+            for alias in ((meta.get("name"),) if region == "jp" else (ev.get("tsv_full"), ev.get("tsv_name"), meta.get("name"))):
                 if not alias:
                     continue
                 owners = aliases.get(label_key(alias), set())
@@ -154,8 +155,8 @@ def plan_catalog(catalog, cache, state, events, game, series_names, metadata, *,
             previous[str(gid)] = {"family": family, "name": name, "fingerprint": content_hash,
                                   "pool": {field: list(pool[field]) for field in POOL_FIELDS},
                                   "rates": {field: ev[field] for field in RATE_FIELDS},
-                                  "option": option, "source": game.get("source", "Godfat"),
-                                  "gameVersion": game.get("version"),
+                                  "option": option, "source": game.get("poolSources", {}).get(gid, game.get("source", "Godfat")),
+                                  "gameVersion": game.get("poolVersions", {}).get(gid, game.get("version")),
                                   "start_date": ev["start_date"], "end_date": ev["end_date"]}
             if image_record:
                 previous[str(gid)]["image"] = image_record
@@ -176,7 +177,7 @@ def plan_catalog(catalog, cache, state, events, game, series_names, metadata, *,
 
 
 def plan_images(catalog, state, metadata, fetch_image, repository, public_base,
-                report, drawables=None, *, today=None):
+                report, drawables=None, *, today=None, region="en"):
     today = today or date.today()
     groups = {}
     for id_text, record in state.get("banners", {}).items():
@@ -200,7 +201,7 @@ def plan_images(catalog, state, metadata, fetch_image, repository, public_base,
                 downloaded[image_url] = fetch_image(image_url)
             data = downloaded[image_url]
             digest = hashlib.sha256(data).hexdigest()
-            filename = f"banner_en_{gid}_{digest[:16]}.png"
+            filename = f"banner_{region}_{gid}_{digest[:16]}.png"
             destination = Path(repository) / "images" / "gacha" / filename
             outputs[destination] = data
             if drawables is not None and Path(drawables).is_dir():

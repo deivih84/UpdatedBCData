@@ -55,7 +55,7 @@ def scheduled_events(tsv, today=None, horizon=180):
                 gid = entry["gacha_id"]
                 ev = {"gacha_id": gid, "event_id": f"{start.isoformat()}_{gid}",
                       "start_date": start.isoformat(), "end_date": end.isoformat(),
-                      "tsv_full": entry["tsv_full"], "tsv_name": entry["tsv_name"]}
+                      "tsv_full": entry["tsv_full"], "tsv_name": entry["tsv_name"], "gacha_type": int(cols[index])}
                 for field, source in zip(RATE_FIELDS, ("rare_chance", "super_chance", "uber_chance", "legend_chance")):
                     ev[field] = entry[source]
                 key = (ev["event_id"], tuple(ev[f] for f in RATE_FIELDS))
@@ -101,21 +101,25 @@ def parse_game_data(files):
     return {"pools": pools, "options": options}
 
 
-def load_local_game(root):
+def load_local_game(root, *, region="en"):
     root = Path(root)
     versions = [line.strip()[:-2] for line in (root / "latest.txt").read_text().splitlines()
-                if line.strip().endswith("en")]
+                if line.strip().endswith(region)]
     if len(versions) != 1 or not re.fullmatch(r"\d+\.\d+\.\d+", versions[0]):
-        raise ValueError("BCData latest.txt must declare one EN version")
-    directory = root / (versions[0] + "en") / "DataLocal"
+        raise ValueError(f"BCData latest.txt must declare one {region.upper()} version")
+    directory = root / (versions[0] + region) / "DataLocal"
     result = parse_game_data({name: (directory / name).read_text(encoding="utf-8-sig") for name in GAME_FILES})
-    result.update(version=versions[0], source="BCData EN " + versions[0])
+    result.update(version=versions[0], source="BCData " + region.upper() + " " + versions[0])
     return result
 
 
-def parse_godfat_pool(html, event_id):
+def parse_godfat_pool(html, event_id, *, region="en"):
     """Reject fallback pages and incomplete lists instead of emptying a pool."""
     soup = BeautifulSoup(html, "html.parser")
+    language = soup.find("select", attrs={"name": "lang"})
+    selected_language = language.find("option", selected=True) if language else None
+    if (region != "en" or selected_language is not None) and (selected_language is None or selected_language.get("value") != region):
+        raise ValueError("Godfat returned a different game region")
     select = soup.find("select", attrs={"name": "event"})
     selected = select.find("option", selected=True) if select else None
     if selected is None or selected.get("value") != event_id:
@@ -175,20 +179,24 @@ def png_bytes(data):
 
 
 class BannerSource:
-    def __init__(self, session=None):
+    def __init__(self, session=None, *, region="en"):
+        if region not in ("en", "jp"):
+            raise ValueError("Unsupported banner region")
+        self.region = region
         self.session = session or requests.Session()
         self.session.headers.update({"User-Agent": USER_AGENT})
 
     def pool(self, event):
         response = self.session.get("https://bc.godfat.org/", params={
-            "event": event["event_id"], "details": "true", "seed": 1, "count": 1}, timeout=30)
+            "lang": self.region, "event": event["event_id"], "details": "true", "seed": 1, "count": 1}, timeout=30)
         response.raise_for_status()
-        return parse_godfat_pool(response.text, event["event_id"])
+        return parse_godfat_pool(response.text, event["event_id"], region=self.region)
 
     def metadata(self, gid, option=None, *, fallback_image_id=None):
         option = option or {}
         result = {"warnings": []}
-        url = f"https://ponos.s3.dualstack.ap-northeast-1.amazonaws.com/information/appli/battlecats/gacha/rareenR{gid:03d}.html"
+        prefix = "rareenR" if self.region == "en" else "rareR"
+        url = f"https://ponos.s3.dualstack.ap-northeast-1.amazonaws.com/information/appli/battlecats/gacha/{prefix}{gid:03d}.html"
         try:
             response = self.session.get(url, timeout=20)
             if response.ok:
@@ -204,17 +212,22 @@ class BannerSource:
                         return result
         except requests.RequestException:
             pass
-        titles = [f"File:Gatya bnr{gid} en.png", f"File:Gatya bnr{gid}.png"]
+        suffix = "en" if self.region == "en" else "jp"
+        def image_titles(image_id):
+            titles = [f"File:Gatya bnr{image_id} {suffix}.png", f"File:Gatya bnr{image_id}.png"]
+            if self.region == 'jp':
+                titles.insert(0, f"File:Gatya bnr{image_id} ja.png")
+            return titles
+        titles = image_titles(gid)
         image_id = option.get("imgID", -1)
         if image_id >= 0 and image_id != gid:
-            titles.extend([f"File:Gatya bnr{image_id} en.png", f"File:Gatya bnr{image_id}.png"])
+            titles.extend(image_titles(image_id))
         exact_titles = list(titles)
         # Family artwork is an explicit, reviewed mapping, never a menu button.
         if fallback_image_id is not None:
             if not isinstance(fallback_image_id, int) or fallback_image_id < 0:
                 raise ValueError("Family banner ID must be a nonnegative integer")
-            titles.extend([f"File:Gatya bnr{fallback_image_id} en.png",
-                           f"File:Gatya bnr{fallback_image_id}.png"])
+            titles.extend(image_titles(fallback_image_id))
         titles = list(dict.fromkeys(titles))
         wiki_pages = {}
         fallback_titles = [title for title in titles if title not in exact_titles]

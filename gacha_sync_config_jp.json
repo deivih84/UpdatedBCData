@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "seriesNames": {
+    "21": "Platinum Capsules",
+    "46": "Legend Capsules",
+    "0": "Luga Families",
+    "4": "Dragon Emperors",
+    "15": "Shoumetsu Toshi Collab Gacha",
+    "18": "The Almighties",
+    "33": "Elemental Pixies",
+    "24": "Iron Legion",
+    "28": "Girls & Monsters",
+    "6": "Ultra Souls",
+    "2": "Wargods Vajiras"
+  },
+  "wikiNames": {
+    "Best of the Best Milestone Edition": "Download Anniversary Gacha",
+    "Dynasty Fest": "Dynastyfest",
+    "Sengoku Wargods Vajiras": "Wargods Vajiras",
+    "Tales of the Nekoluga": "Luga Families",
+    "Lords of Destruction DRAGON EMPERORS": "Dragon Emperors",
+    "Nature's Guardians ELEMENTAL PIXIES": "Elemental Pixies",
+    "Ancient Heroes ULTRA SOULS": "Ultra Souls",
+    "The Almighties The Majestic Zeus": "The Almighties",
+    "Frontline Assault IRON LEGION": "Iron Legion",
+    "Girls & Monsters: Angels of Terror": "Girls & Monsters"
+  },
+  "seriesBannerIds": {
+    "21": 174,
+    "46": 640,
+    "47": 582,
+    "0": 962
+  },
+  "publicImageBase": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/",
+  "appDrawables": "C:/Users/forex/StudioProjects/CatStats/app/src/main/res/drawable"
+}
