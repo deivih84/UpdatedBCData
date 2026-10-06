@@ -3,13 +3,10 @@
 fetch_bc_events.py
 Fetches Battle Cats EN event schedule without Discord.
 
-Two sources (in priority order):
-  1. Ponos sale.tsv  — same JWT auth as fetch_bc_schedule.py
-     sale.tsv has event stage schedule data with numeric pack IDs.
-     IDs are mapped to names via all_events.json (field "event_id" when present),
-     or via fuzzy name matching against the Miraheze wiki.
-  2. Miraheze wiki   — MediaWiki API, human-readable event names + dates.
-     Used both as a fallback AND to enrich names not resolvable from sale.tsv.
+Default flow: PONOS sale.tsv (Godfat mirror fallback), versioned BCData ID/name
+index, and wiki-declared event posters. Maintains all_events.json and the calendar
+without Discord. --dry-run previews all changes; --online refreshes public names.
+The earlier Discord-history flow remains available with --legacy-discord.
 
 Updates the "eventos" section in gachas_eventos_actualizados_en1.json.
 Saves raw sale.tsv to .bc_sale_raw.tsv for inspection / debugging.
@@ -234,12 +231,12 @@ def _skip_sections(cols, idx):
     return idx
 
 
-def parse_sale_tsv(content):
+def parse_sale_tsv(content, today=None):
     """
     Parse sale.tsv. Returns list of dicts: {start_date, end_date, pack_ids}.
     pack_ids is a list of integer event pack IDs from the entry block.
     """
-    today         = datetime.now(timezone.utc).date()
+    today         = today or datetime.now(timezone.utc).date()
     cutoff_past   = today - timedelta(days=WINDOW_PAST_DAYS)
     cutoff_future = today + timedelta(days=WINDOW_FUTURE_DAYS)
 
@@ -786,7 +783,7 @@ def filter_kept_old_events(old_events, seen_ids, new_names_by_date, by_name, tod
 # Main
 # ---------------------------------------------------------------------------
 
-def main():
+def legacy_main():
     # 1. Auth
     print("Getting JWT token...")
     jwt = get_auth_token()
@@ -945,5 +942,16 @@ def main():
         print(f"--- (full dump in {SALE_RAW_FILE.name}) ---")
 
 
+def main(argv=None):
+    args = sys.argv[1:] if argv is None else argv
+    if args == ['--legacy-discord']:
+        legacy_main()
+        return 0
+    from event_updater import main as update_events
+    return update_events(args)
+
+
 if __name__ == "__main__":
-    main()
+    if sys.stdout.encoding and sys.stdout.encoding.lower() not in ('utf-8', 'utf8'):
+        sys.stdout.reconfigure(encoding='utf-8')
+    raise SystemExit(main())

@@ -1,0 +1,189 @@
+{
+  "changes": [
+    {
+      "name": "Baron Seal Strikes",
+      "action": "updated",
+      "event_ids": [
+        24020
+      ]
+    }
+  ],
+  "images": [
+    {
+      "name": "Baron Seal Strikes",
+      "file": "event_seal.png"
+    }
+  ],
+  "pending": [
+    {
+      "event_id": 18106,
+      "reason": "unknown_identity"
+    },
+    {
+      "event_id": 40000,
+      "reason": "unknown_identity"
+    },
+    {
+      "event_id": 41000,
+      "reason": "unknown_identity"
+    },
+    {
+      "event_id": 41001,
+      "reason": "unknown_identity"
+    },
+    {
+      "name": "XP Stage",
+      "event_ids": [
+        1028
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "XP Megablitz!",
+      "event_ids": [
+        1059
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "XP Colosseum",
+      "event_ids": [
+        1124
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Cavern of Comets",
+      "event_ids": [
+        1150
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Island of Ash",
+      "event_ids": [
+        1151
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Strait of Wings",
+      "event_ids": [
+        1152
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Merciless XP!",
+      "event_ids": [
+        1155
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "XP Bonanza!",
+      "event_ids": [
+        1319
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Fireworks Spectacular!",
+      "event_ids": [
+        1410
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "XP Harvest (Easy)",
+      "event_ids": [
+        5000
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "XP Harvest (Normal)",
+      "event_ids": [
+        5001
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "XP Harvest (Hard)",
+      "event_ids": [
+        5002
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Cats Eye Cave",
+      "reason": "image_not_found"
+    },
+    {
+      "name": "XP Harvest (Vet.)",
+      "event_ids": [
+        5012
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Infernal Tower",
+      "event_ids": [
+        7006
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Arena of Power (Artillery Alley)",
+      "event_ids": [
+        11026
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Arena of Destiny",
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Monthly Event All-Stars Grateful Gathering",
+      "event_ids": [
+        24049
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Koneko Takes the Stage",
+      "event_ids": [
+        39000
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Cats Eye Caverns",
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Festival Cats: Lunar New Year's",
+      "reason": "image_not_found"
+    }
+  ],
+  "warnings": [
+    "Arena of Destiny: section_has_no_verified_poster"
+  ],
+  "sources": {
+    "schedule": {
+      "url": "PONOS EN sale.tsv",
+      "sha256": "15710ae21a88af9d88b66afc85084598fa62d625deddcc663cd7297f8e91c372"
+    },
+    "names": {
+      "version": "15.6.0",
+      "source": "BCData EN resources"
+    }
+  },
+  "calendarEvents": 8,
+  "missingImages": [
+    "Cats Eye Cave",
+    "Cats Eye Caverns",
+    "Festival Cats: Lunar New Year's"
+  ]
+}

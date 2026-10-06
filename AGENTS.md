@@ -86,13 +86,15 @@ This repo is a **Battle Cats game data updater**. Actualiza un JSON con el calen
 5. Escribe la sección `gachas` de `gachas_eventos_actualizados_en1.json`
 
 **Eventos** (`fetch_bc_events.py`):
-1. Misma auth JWT → descarga `sale.tsv` (mismo servidor que gatya.tsv)
-2. Parsea `sale.tsv` extrayendo pack IDs de entradas time-limited (no permanentes)
-3. Mapea pack IDs a nombres via campo `event_id` en `all_events.json` (si existe)
-4. Lee historial de mensajes del canal Discord `1445468966989332563` via REST API (GET, sin bot activo)
-5. Parsea mensajes de PackPack bot con el mismo regex que `bot_updater_events.py`
-6. Merge inteligente: dedup por solapamiento de nombre + fecha_inicio, disc > ponos > old
-7. Escribe la sección `eventos` de `gachas_eventos_actualizados_en1.json`
+1. Descarga `sale.tsv` de PONOS con fallback validado al espejo Godfat.
+2. Resuelve todos los IDs por catálogo e índice EN de BCData; conserva el snapshot si el remoto está retrasado.
+3. Mantiene `all_events.json` y busca carteles EN completos declarados en la wiki.
+4. Copia imágenes a `images/events/` y al drawable local configurado; fallos quedan pendientes sin reemplazar fotos previas.
+5. Publica catálogo, índice, estado, informe y sección `eventos` del calendario conservando `gachas`.
+6. GitHub ejecuta `python fetch_bc_events.py --online` cada seis horas. Ver `docs/event-sync.md`.
+
+El flujo previo de PONOS + historial Discord REST está disponible con `--legacy-discord`.
+No stage `.event_sync_run.json`, `.bc_state.json` ni informes privados de ejecución.
 
 ### Data flow — bots Discord (legacy, requieren bot activo)
 
@@ -141,7 +143,7 @@ IDs are generated as `nombre_snake_case_YYYY-MM-DD` (start date).
 | Script | Requiere Discord | Fuente gachas | Fuente eventos | Alias support |
 |---|---|---|---|---|
 | `fetch_bc_schedule.py` | No | Ponos `gatya.tsv` (JWT) | — | Via `all_gachas_en.json` |
-| `fetch_bc_events.py` | No (solo REST) | Ponos `sale.tsv` (JWT) | Discord historial REST | Via `all_events.json` |
+| `fetch_bc_events.py` | No (solo REST) | Ponos `sale.tsv` (JWT), fallback Godfat | BCData EN + carteles wiki | Via `all_events.json` |
 | `bot_updater.py` | Sí (bot activo) | Hardcoded dict | — | No |
 | `bot_updater1.py` | Sí (bot activo) | `all_gachas_en.json` | `all_events.json` | No |
 | `bot_updater_gachas.py` | Sí (bot activo) | `all_gachas_en.json` | — | Sí |

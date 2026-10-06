@@ -18,7 +18,8 @@ por eso no se utiliza como fuente de pools actuales en el workflow.
 `--skip-images` permite actualizar únicamente las identidades ya reconocidas y
 sus pools. `--dry-run` no modifica catálogo, imágenes, informes ni credenciales.
 Su calendario procede del espejo de Godfat; las ejecuciones que aplican cambios
-obtienen el calendario directamente de PONOS usando la autenticación existente.
+intentan obtener el calendario de PONOS usando la autenticación existente.
+Si falla, usan el espejo validado de Godfat y registran la procedencia.
 
 ## Qué se mantiene
 
@@ -103,7 +104,8 @@ en las actualizaciones generales del juego; este sincronizador no cambia
 ## Ejecución periódica
 
 `.github/workflows/update_bc_schedule.yml` ejecuta sincronizador, calendario y
-suite de pruebas cada seis horas. Publica solo los archivos públicos; la cuenta
+suite de pruebas cada seis horas. También mantiene los eventos, sus carteles y
+el calendario; ver [event-sync.md](event-sync.md). Publica solo los archivos públicos; la cuenta
 y el JWT de `.bc_state.json` no se añaden al commit. Cada ejecución conserva el
 informe como artifact y presenta el resumen en GitHub Actions.
 El archivo de autenticación estaba registrado en Git pese al ignore; esta

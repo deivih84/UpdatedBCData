@@ -1,4 +1,4 @@
-name: Update BC Schedule and Banner Catalog
+name: Update BC Schedule and Catalogs
 
 on:
   schedule:
@@ -35,6 +35,9 @@ jobs:
       - name: Run schedule updater
         run: python fetch_bc_schedule.py
 
+      - name: Synchronize event catalog, posters and calendar
+        run: python fetch_bc_events.py --online
+
       - name: Validate repository data and updater behavior
         run: python -m unittest discover -s tests -p "test_*.py" -v
 
@@ -47,14 +50,23 @@ jobs:
           if-no-files-found: warn
           retention-days: 30
 
+      - name: Save event sync report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: event-sync-report
+          path: .event_sync_run.json
+          if-no-files-found: warn
+          retention-days: 30
+
       - name: Commit and push changes
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add gachas_eventos_actualizados_en1.json all_gachas_en.json gacha_id_cache.json gacha_sync_state.json gacha_sync_report.json images/gacha/
+          git add gachas_eventos_actualizados_en1.json all_gachas_en.json gacha_id_cache.json gacha_sync_state.json gacha_sync_report.json images/gacha/ all_events.json event_name_index.json event_sync_state.json event_sync_report.json images/events/
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: sync EN banner catalog and schedule [skip ci]"
+            git commit -m "chore: sync EN event and banner catalogs and schedule [skip ci]"
             git push
           fi

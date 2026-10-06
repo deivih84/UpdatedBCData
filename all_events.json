@@ -2,9 +2,12 @@
   "events": [
     {
       "nombre": "Heavenly Tower",
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_heavenly_tower.png",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_heavenly_tower_c443e8feb663a926.png",
       "descripcion": "The Heavenly Tower contains 50 stages, called Floors (階 Kai), with a wide variety of enemies including Cyclones, Enemy Cats, Advent Bosses and even event enemies from monthly and annual events. After completing a floor for the first time, the player will receive gifts including Battle Items, Catseyes, Catfruit, Tickets, Catamins, XP, Materials and Leaderships along with Hermit Cat, Masked Yulala and Master Uril upon defeating their respective counterparts on the 30th, 40th and 50th floors respectively, via the Catnip Challenges feature. ",
-      "url": "https://battlecats.miraheze.org/wiki/Heavenly_Tower"
+      "url": "https://battlecats.miraheze.org/wiki/Heavenly_Tower",
+      "event_ids": [
+        7000
+      ]
     },
     {
       "nombre": "The Grand Deep",
@@ -40,7 +43,10 @@
       "nombre": "Cats Eye Cave",
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_empty.png",
       "descripcion": "No info :) this is a Gamatoto expedition area that gives Catseyes as rewards.",
-      "url": "https://battlecats.miraheze.org/wiki/Catseye"
+      "url": "https://battlecats.miraheze.org/wiki/Catseye",
+      "event_ids": [
+        5003
+      ]
     },
     {
       "nombre": "Cats Eye Caverns",
@@ -56,7 +62,10 @@
       "nombre": "Arena of Destiny",
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_arena_of_destiny.png",
       "descripcion": "Introduced in Version 14.3 adds a new gimmick where applying status effects grant more points than killing enemies. More points will be awarded for units with fewer target Traits (not counting those gained from Talents). This rewards for this dojo are Treasure Chests, which contain exclusive Talent Orbs that can grant special abilities to the units that are given them.",
-      "url": "https://battlecats.miraheze.org/wiki/Ranking_Dojo#Arena_of_Destiny"
+      "url": "https://battlecats.miraheze.org/wiki/Ranking_Dojo#Arena_of_Destiny",
+      "event_ids": [
+        11046
+      ]
     },
     {
       "nombre": "Arena of Honor",
@@ -147,9 +156,12 @@
     },
     {
       "nombre": "Machines in Revolt",
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_machines_in_revolt.png",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_machines_in_revolt_e591af0c278c9d27.png",
       "descripcion": "Machines in Revolt (機械の反乱軍, Kikai no Hanrangun, Rebel Army of Machines) is a set of special stages that was added in Version 12.6. It is unlocked after clearing Empire of Cats Chapter 1. Each stage features Metal Enemies and has a Cat Ticket as a reward.\n\nClear stages in the special map Machines in Revolt to earn up to 10 Cat Tickets as you face off against the Metal enemies attacking the remnants of a destroyed city! Visit Event Stages/Stories of Legend and select to take on this challenge!\nOn between June 10th (11:00am) and June 17th (10:59am)!\n\nSave the future from the onslaught of the coming machines!\n\n\n※ After clearing a stage, there will be a short cooldown period before you are able to challenge the next stage.\n※ Spending a Catamin A will allow you to skip the stage cooldown period and challenge the next stage immediately.\n※ If the event does not appear, please make sure that you are updated to the latest version of the Battle Cats app. ",
-      "url": "https://battlecats.miraheze.org/wiki/Machines_in_Revolt"
+      "url": "https://battlecats.miraheze.org/wiki/Machines_in_Revolt",
+      "event_ids": [
+        1349
+      ]
     },
     {
       "nombre": "Resident Undead",
@@ -157,21 +169,18 @@
       "descripcion": "Resident Undead (住民の亡霊, Shūmin no Bourei, Resident Ghosts) is a set of special stages that was added in Version 12.6. It is unlocked after clearing Empire of Cats Chapter 1. Each stage features Undead Enemies and has a Cat Ticket as a reward.\n\nClear stages in the special map Resident Undead to earn up to 10 Cat Tickets as you face off against the Undead enemies attacking the remnants of a destroyed city! Visit Event Stages/Stories of Legend and select to take on this challenge!\nOn between June 10th (11:00am) and June 17th (10:59am)!\n\nSave the future from the onslaught of the coming machines!\n\n\n※ After clearing a stage, there will be a short cooldown period before you are able to challenge the next stage.\n※ Spending a Catamin A will allow you to skip the stage cooldown period and challenge the next stage immediately.\n※ If the event does not appear, please make sure that you are updated to the latest version of the Battle Cats app. ",
       "url": "https://battlecats.miraheze.org/wiki/Resident_Undead"
     },
-
     {
       "nombre": "Update 1.2",
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_update_1.2.png",
       "descripcion": "- Changed App Icon\n- Changed App Name to The Battle Stats: Many people suggested it 🤓\n- NEW SEED TRACKER SECTION\n- NEW SEED FINDER SECTION\n- New comparison section in CompareScreen\n- New events on home screen with information\n- Fixed Gacha details\n- App size 51Mb → 19Mb\n- Now displays max level and cost for each talent\n- Fixed missing icons for cats from eggs and spirits\n- Fixed stats for Idi and Wyvern\n- Fixed many bugs from the previous version\n- Added a Thank You section for those who contributed ideas in the first video\n",
       "url": "https://youtu.be/jasCdshbR9Q?si=vALFE-hOF0wy2YG7"
     },
-
     {
       "nombre": "War on Valentines",
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_war_on_valentines.png",
       "descripcion": "War on Valentines (僕らのバレンタイン戦争, Bokura no Barentain Sensō, Our Valentine's Day War) is the Valentine's Day event in The Battle Cats. It was added in Version 11.2.\n\nWill this be the year you receive the gift of true love? The Battle Cats' Valentines Day event is on now!\n・March 10th, 2025 (11:00am) thru March 24th, 2025 (10:59am)\n\n● Limited Valentines Day Stages and Events!\nEnjoy the sweetest gift of limited stages and other exciting events! Visit the Legend/Event Stages in The Battle Cats app to check out all the fun for yourself! Also, all stages have had their rewards reset!\n\n● Valentine Day Gauntlet Challenge!\nVisit the Event/Legend Stages during this Cats in Love event to take on gauntlet challenge stage series A Colossal Valentines!\nFight your way through 20 Choco Chaos stages, each one tougher than the last, with bigger and better rewards the further you go!\n\n※ After clearing a stage from this map, there will be a brief cooldown period before the next gauntlet stage can be accessed.\n※ By spending a Catamin A, you may bypass the cooldown period before the stage can be challenged again.\n\n・Limited Stages: Gifts of True Love?!\n2 vs 2 special stages, just for Valentines!\nClear the stage to get Cat Tickets or a Rare Ticket as rewards!\nThen on March 14h at 11:00am, and again on March 17 at 11:00am, more stages will appear!\nWill you accept these token of affection, or...?\n\n・Limited Stage: \"War on Valentines\"\nClearing any stage will give you a small chance of collecting the limited-edition character \"Marshmallow Cat\" as a drop reward!\n\nLater stages in the map will give you an even better chance, or you can use a Treasure Radar to immediately receive the reward upon stage clear!\nIn addition, a new difficulty level has been added!\n\n※ Users who have previously cleared the stages in this event will not be eligible for Cat Food rewards already received.\n※ After unlocking Marshmallow Cat, you can activate it by visiting the Rare Cat section of the Upgrade menu.\n\n●Login every day during the Event for bonus login rewards!\nStarting March 11 until March 24, get one new stamp on your first login each day to unlock bigger and better rewards, including a Rare Ticket and useful in-game items!\n\n※You must upgrade to the most recent versions of The Battle Cats app to access event content and collect rewards.\n",
       "url": "https://battlecats.miraheze.org/wiki/War_on_Valentines#From_Your_Senpai"
     },
-
     {
       "nombre": "Attack of the Omens",
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_omens.png",
@@ -200,7 +209,10 @@
       "nombre": "Baron Seal Strikes",
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_seal.png",
       "descripcion": "Baron Seal Strikes contains a total of 20 No Continues levels, called Red Alerts. After beating a Red Alert, the player must wait for 30 minutes before they may proceed to the next one. Rewards for the first completion of a Red Alert can include XP, Tickets, Catamins and Materials. Every 20 Red Alerts play out the same, but the strength magnifications and enemy base's HP are increased with each level. ",
-      "url": "https://youtu.be/iBflzd4tFus"
+      "url": "https://youtu.be/iBflzd4tFus",
+      "event_ids": [
+        24020
+      ]
     },
     {
       "nombre": "Big Peng Z Strikes",
@@ -220,8 +232,6 @@
       "descripcion": "Horrorpotamus contains a total of 20 No Continues levels, called Cosmic Juggernaut Lvs. After beating three Cosmic Juggernaut Lvs, the player must wait for 90 minutes before they may proceed to the next one. (30 minutes for one available) Rewards for the first completion of a Cosmic Juggernaut Lv can include XP, Tickets, Catamins and Materials. Every 20 Cosmic Juggernaut Lvs plays out the same, but the strength magnifications and enemy base's HP are increased with each level.",
       "url": "https://youtu.be/DxJF-8N1Rz0"
     },
-
-
     {
       "nombre": "Street Fighter Collab",
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_street_fighter.png",
@@ -239,7 +249,6 @@
       "descripcion": "A collaboration event between Nyanko Daisensou and the popular shonen anime known as Demon Slayer (鬼滅の刃, Kimetsu no Yaiba, Demon Slayer) was originally held from January 30th, 2026 to February 16th, 2026. The collaboration includes an exclusive Rare Gacha, stages, Catnip Challenges and stamps going on during collaboration period.\nThe anime is published by Shueisha.\n\nThe Battle Cats hosts a limited crossover event with the Demon Slayer: Kimetsu no Yaiba anime series!\nOn from March 13th (11:00am) until March 30th (10:59am)!\nThis collab event features limited stages and Rare Capsules! Ally with the Demon Slayer Corps to face down an endless evil horde!\nDemon Slayer: Kimetsu no Yaiba Official Website\nDemon Slayer: Kimetsu no Yaiba Official Website\n\n©Koyoharu Gotoge / SHUEISHA, Aniplex, ufotable",
       "url": "https://kimetsu.com/anime/"
     },
-    
     {
       "nombre": "Meownesday",
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_meownesday.png",
@@ -368,7 +377,7 @@
     {
       "nombre": "Customer Reward",
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_customer_reward.png",
-      "descripcion": "The Premium Fair event is on now with huge sales!\n\n\u30fbEarn Cat Food every week from the Cat Scratcher Lottery!\nEarn Cat Food depending on the space you choose!\n\n\u30fbPlatinum Ticket Double Sale on now!\nPurchase 2 Platinum Tickets for a limited time only!\nThe second purchase comes with a haul of Cat Food and XP!\n\n\u203bPlatinum Double Sale, Part 2 will become available after purchasing Platinum Double Sale, Part 1.\n\u203bPlatinum Double Sale, Part 2 will become available 7 days after purchasing Platinum Double Sale, Part 1.\n\u203bPlatinum Sale Part 1 and Part 2 each can only be purchased once per account.\n\u203bSeasonal characters, collab characters, limited Girls & Monsters characters, and other limited Rare Capsule characters are not available from Platinum Capsules.\n\n\u30fbEarn great rewards from the Capsule Clearance!\nLimited Seasonal units are available from the Capsule Clearance! One use costs 150 Cat Food, and a 5-draw costs 500 Cat Food!\nTap the banner in the Rare Capsules to check the available lineup of characters and their abilities!\n\n\u203b The characters listed above appear at a fixed rate from draws made on this set during this event, alongside regularly available Rare and Super Rare heroes.\n\u203bThis event does not feature a first-time draw discount.\n\u203bThis event does not feature an 11-draw option.\n\nLimited map \"Customer Reward\" only available during the Premium Sale!\nA special sale available for a limited time only!\nGet useful item rewards by clearing this tough stage!\nRewards: 10 Cat CPUs, 5 Treasure Radars\n\n\u30fbChallenge 3 limited Missions during this event!\nNew Special Missions have been added spanning a number of different maps!\nClear them to earn a huge haul of Cat Tickets!\nRewards: Up to 60 Cat Tickets (Each Mission rewards you with 20 Cat Tickets)\n\n* Limited Special Missions will only be available until the end of the event. You must accept all rewards before the Missions disappear at the end of the event!\n\n\u30fbHalf-off for the Item Store, Deployment Slots, and Special units on now!\nBoost the power of your Cat Army!\nDuring the event, enjoy half-off costs in the Item Store, Formation Slots, and Special Unit purchases!",
+      "descripcion": "The Premium Fair event is on now with huge sales!\n\n・Earn Cat Food every week from the Cat Scratcher Lottery!\nEarn Cat Food depending on the space you choose!\n\n・Platinum Ticket Double Sale on now!\nPurchase 2 Platinum Tickets for a limited time only!\nThe second purchase comes with a haul of Cat Food and XP!\n\n※Platinum Double Sale, Part 2 will become available after purchasing Platinum Double Sale, Part 1.\n※Platinum Double Sale, Part 2 will become available 7 days after purchasing Platinum Double Sale, Part 1.\n※Platinum Sale Part 1 and Part 2 each can only be purchased once per account.\n※Seasonal characters, collab characters, limited Girls & Monsters characters, and other limited Rare Capsule characters are not available from Platinum Capsules.\n\n・Earn great rewards from the Capsule Clearance!\nLimited Seasonal units are available from the Capsule Clearance! One use costs 150 Cat Food, and a 5-draw costs 500 Cat Food!\nTap the banner in the Rare Capsules to check the available lineup of characters and their abilities!\n\n※ The characters listed above appear at a fixed rate from draws made on this set during this event, alongside regularly available Rare and Super Rare heroes.\n※This event does not feature a first-time draw discount.\n※This event does not feature an 11-draw option.\n\nLimited map \"Customer Reward\" only available during the Premium Sale!\nA special sale available for a limited time only!\nGet useful item rewards by clearing this tough stage!\nRewards: 10 Cat CPUs, 5 Treasure Radars\n\n・Challenge 3 limited Missions during this event!\nNew Special Missions have been added spanning a number of different maps!\nClear them to earn a huge haul of Cat Tickets!\nRewards: Up to 60 Cat Tickets (Each Mission rewards you with 20 Cat Tickets)\n\n* Limited Special Missions will only be available until the end of the event. You must accept all rewards before the Missions disappear at the end of the event!\n\n・Half-off for the Item Store, Deployment Slots, and Special units on now!\nBoost the power of your Cat Army!\nDuring the event, enjoy half-off costs in the Item Store, Formation Slots, and Special Unit purchases!",
       "url": "https://battlecats.miraheze.org/wiki/Premium_Fair"
     },
     {
@@ -380,19 +389,24 @@
     {
       "nombre": "Sliming to Victory",
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_sliming_to_victory.png",
-      "descripcion": "We're off to the races with the SLIMY STALLIONS!\n\n\u25cfLimited Stage: \"Sliming to Victory\"\nRide forth and claim victory in the stickiest, slimiest high-stakes race in all the Cat Empire!\nLimited edition SLIMY STALLIONS celebration stages are here!\nVisit Stories of Legend and find the Sliming to Victory map to take on this challenge! The Rare Unit Slug Jockey Cat might be waiting for you as a stage clear reward!\nClear any stage in this event map throughout this campaign to pick up Lucky Tickets, good for awesome rewards at the special Lucky Capsules! Stages in the second half of the Sliming to Victory map will have an even higher chance of rewarding you with a Lucky Ticket!\n\u203bUpdate to the most recent version of the Battle Cats to access this event!\n\n\u25cf Lucky Capsules!\nGet special Cats, items, and XP packs from these limited edition capsules! Check out the Lucky Capsules section on the Cat Base menu to use your collected Lucky Tickets from Sliming to Victory event! Plus, get a bonus Lucky Ticket along with any Rare Capsule draw!\n\n\u203b The Lucky Capsules option will appear after you own at least one Lucky Ticket.\n\u203b Lucky Tickets owned will be held over for the next event even after the current Lucky Capsules event ends.\n\u203b If the Lucky Capsules do not appear, please update your Battle Cats app to the most recent version.\n\n\u25cf Special event missions in the Catnip Challenges!\nTake on Special Mission challenges and earn delicious bonus rewards by playing limited-time-only Sliming to Victory events!",
+      "descripcion": "We're off to the races with the SLIMY STALLIONS!\n\n●Limited Stage: \"Sliming to Victory\"\nRide forth and claim victory in the stickiest, slimiest high-stakes race in all the Cat Empire!\nLimited edition SLIMY STALLIONS celebration stages are here!\nVisit Stories of Legend and find the Sliming to Victory map to take on this challenge! The Rare Unit Slug Jockey Cat might be waiting for you as a stage clear reward!\nClear any stage in this event map throughout this campaign to pick up Lucky Tickets, good for awesome rewards at the special Lucky Capsules! Stages in the second half of the Sliming to Victory map will have an even higher chance of rewarding you with a Lucky Ticket!\n※Update to the most recent version of the Battle Cats to access this event!\n\n● Lucky Capsules!\nGet special Cats, items, and XP packs from these limited edition capsules! Check out the Lucky Capsules section on the Cat Base menu to use your collected Lucky Tickets from Sliming to Victory event! Plus, get a bonus Lucky Ticket along with any Rare Capsule draw!\n\n※ The Lucky Capsules option will appear after you own at least one Lucky Ticket.\n※ Lucky Tickets owned will be held over for the next event even after the current Lucky Capsules event ends.\n※ If the Lucky Capsules do not appear, please update your Battle Cats app to the most recent version.\n\n● Special event missions in the Catnip Challenges!\nTake on Special Mission challenges and earn delicious bonus rewards by playing limited-time-only Sliming to Victory events!",
       "url": "https://battlecats.miraheze.org/wiki/Sliming_to_Victory"
     },
     {
       "nombre": "Otherworld Colosseum",
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_otherworld_colosseum.png",
-      "descripcion": "Otherworld Colosseum (\u7570\u6b21\u5143\u30b3\u30ed\u30b7\u30a2\u30e0, Ijigen Koroshiamu, Extradimensional Colosseum) is an event added in the Version 13.5. It is unlocked after beating A New Legend. There are several different Otherworld Colosseum maps that share the same name, each consisting of 5 No Continues stages and 2 difficulty levels. The Otherworld Colosseum is one of the few sources of Dark Catseyes.\n\nFeatures a set of stages with a cycling ruleset. Beat back the oncoming interdimensional horde!\n\nMission Reward(s): Rare Ticket, Platinum Shard, Catseye [Dark].\n\n\u203b You must collect rewards from completed Otherworld Colosseum missions by tapping the Claim button. Even if mission conditions have been met, rewards will not be automatically collected.\n\u203b Tap the icon at bottom left of the Otherworld Colosseum stage select screen to confirm the battle rule in effect.\n\u203b Some CatCombos may not activate due to the current ruleset.\n\u203b You must clear the \"A New Legend\" map found in the Uncanny Legends section of the Legend Stages section to challenge the Otherworld Colosseum.\n\nEach Otherworld Colosseum map has a unique \"rule\" that applies during battle. Only one rule is applied per map.\n\nRule 1: Trust Fund. The player starts with 50,000\u00a2 and cannot gain money from defeating enemies or by the Worker Cat. All units will start on their cooldown, and any money-related Cat Combos are prohibited.\nRule 2: Cooldown Equality. All units have their cooldown set to 16.67 seconds. Research Combos are prohibited.\nRule 3: Only One Rarity. Only one unit from each Rarity can be deployed at once. This only affects the battle, not creating the lineup.\nRule 4: Cheap Labor. All Cat Units have their cost set to 500\u00a2.\nRule 5: Super Rare Sale. The cooldown time and deployment cost of Super Rare Cats has been set to 50% of their original time / cost.\nRule 6: Deploy Limit. The amount of units that can be deployed throughout the battle is limited to 60.\nRule 7: Special Clearance. The cooldown time and deployment cost of Special Cats has been set to 30% of their original time / cost.\nRule 8: Plus One: Uber. Deploying an Uber Rare Cat will summon another one 2 seconds after deploying the first one.\nRule 9: Mega Cat Cannon. The Cat Cannon will deal increased damage. This only affects the Default Cat Cannon.\nRule 10: Uniform Motion. All cats and enemies with at least 1 speed will have their speed set to a uniform value.\nRule 11: Plus One: Special. Deploying a Special Cat will summon another one 2 seconds after deploying the first one.\nRule 12: Uber Clearance. The cooldown time and deployment cost of Uber Rare Cats has been set to 50% of their original time and 5% of their original cost, but only a limited number of Uber Rare Cats can be deployed at a time.\nRule 13: Limited Stock. All units have their cooldown set to 16.67 seconds, and a maximum of 50 non-Conjured units can be deployed. Research Combos are prohibited.\nRule 14: Dirt Cheap. All Cat Units have their cost set to 10\u00a2.\nRule 15: Pay Day. The player starts with 266,730\u00a2 and cannot gain money from defeating enemies or by the Worker Cat. All units will start on their cooldown, and any money-related Cat Combos are prohibited. The cooldown time of Uber Rare Cats has been set to 20% of their original time.\nRule 16: Grand Battle. Ubers have double the cost and recharge time, but deploying one will spawn 3 of them.\nRule 17: High Speed. All units have their cost and recharge time set to 70%. All units with at least 1 speed will have their speed doubled.\nRule 18: Half-Off: S. Rare. Super rare cats have cost set to 50% and spawning one will spawn another shortly after.\nRule 19: \u7269\u4fa1\u9ad8\u9a30 \u8d85\u6fc0\u30ec\u30a2. Start with 60k money and don't get any more (like Trust Fund). Ubers cost twice as much as usual but only have 70% of the cooldown.",
-      "url": "https://battlecats.miraheze.org/wiki/Otherworld_Colosseum"
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_otherworld_colosseum_d2370972c1e9c9f4.png",
+      "descripcion": "Otherworld Colosseum (異次元コロシアム, Ijigen Koroshiamu, Extradimensional Colosseum) is an event added in the Version 13.5. It is unlocked after beating A New Legend. There are several different Otherworld Colosseum maps that share the same name, each consisting of 5 No Continues stages and 2 difficulty levels. The Otherworld Colosseum is one of the few sources of Dark Catseyes.\n\nFeatures a set of stages with a cycling ruleset. Beat back the oncoming interdimensional horde!\n\nMission Reward(s): Rare Ticket, Platinum Shard, Catseye [Dark].\n\n※ You must collect rewards from completed Otherworld Colosseum missions by tapping the Claim button. Even if mission conditions have been met, rewards will not be automatically collected.\n※ Tap the icon at bottom left of the Otherworld Colosseum stage select screen to confirm the battle rule in effect.\n※ Some CatCombos may not activate due to the current ruleset.\n※ You must clear the \"A New Legend\" map found in the Uncanny Legends section of the Legend Stages section to challenge the Otherworld Colosseum.\n\nEach Otherworld Colosseum map has a unique \"rule\" that applies during battle. Only one rule is applied per map.\n\nRule 1: Trust Fund. The player starts with 50,000¢ and cannot gain money from defeating enemies or by the Worker Cat. All units will start on their cooldown, and any money-related Cat Combos are prohibited.\nRule 2: Cooldown Equality. All units have their cooldown set to 16.67 seconds. Research Combos are prohibited.\nRule 3: Only One Rarity. Only one unit from each Rarity can be deployed at once. This only affects the battle, not creating the lineup.\nRule 4: Cheap Labor. All Cat Units have their cost set to 500¢.\nRule 5: Super Rare Sale. The cooldown time and deployment cost of Super Rare Cats has been set to 50% of their original time / cost.\nRule 6: Deploy Limit. The amount of units that can be deployed throughout the battle is limited to 60.\nRule 7: Special Clearance. The cooldown time and deployment cost of Special Cats has been set to 30% of their original time / cost.\nRule 8: Plus One: Uber. Deploying an Uber Rare Cat will summon another one 2 seconds after deploying the first one.\nRule 9: Mega Cat Cannon. The Cat Cannon will deal increased damage. This only affects the Default Cat Cannon.\nRule 10: Uniform Motion. All cats and enemies with at least 1 speed will have their speed set to a uniform value.\nRule 11: Plus One: Special. Deploying a Special Cat will summon another one 2 seconds after deploying the first one.\nRule 12: Uber Clearance. The cooldown time and deployment cost of Uber Rare Cats has been set to 50% of their original time and 5% of their original cost, but only a limited number of Uber Rare Cats can be deployed at a time.\nRule 13: Limited Stock. All units have their cooldown set to 16.67 seconds, and a maximum of 50 non-Conjured units can be deployed. Research Combos are prohibited.\nRule 14: Dirt Cheap. All Cat Units have their cost set to 10¢.\nRule 15: Pay Day. The player starts with 266,730¢ and cannot gain money from defeating enemies or by the Worker Cat. All units will start on their cooldown, and any money-related Cat Combos are prohibited. The cooldown time of Uber Rare Cats has been set to 20% of their original time.\nRule 16: Grand Battle. Ubers have double the cost and recharge time, but deploying one will spawn 3 of them.\nRule 17: High Speed. All units have their cost and recharge time set to 70%. All units with at least 1 speed will have their speed doubled.\nRule 18: Half-Off: S. Rare. Super rare cats have cost set to 50% and spawning one will spawn another shortly after.\nRule 19: 物価高騰 超激レア. Start with 60k money and don't get any more (like Trust Fund). Ubers cost twice as much as usual but only have 70% of the cooldown.",
+      "url": "https://battlecats.miraheze.org/wiki/Otherworld_Colosseum",
+      "event_ids": [
+        36024
+      ]
     },
     {
       "nombre": "Survive! Mola Mola!",
       "event_id": 18100,
-      "event_ids": [2088],
+      "event_ids": [
+        2088
+      ],
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_survive_mola_mola.png",
       "descripcion": "Survive! Mola Mola! is a collaboration event between The Battle Cats and the mobile game Survive! Mola Mola!. It features limited collaboration stages, enemies and rewards, alongside the Mola Mola Collab Gacha containing Baby Mola and Mola King.",
       "url": "https://battlecats.miraheze.org/wiki/Survive!_Mola_Mola!_Collaboration_Event"
@@ -421,6 +435,30 @@
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_version_15_4.png",
       "descripcion": "Japanese: May 25th, 2026\nInternational: June 10th, 2026",
       "url": "https://battlecats.miraheze.org/wiki/Version_15.4_Update"
+    },
+    {
+      "nombre": "Silver Week",
+      "aliases": [
+        "Silver Week"
+      ],
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_silver_week_2f7273ae2078d5e7.png",
+      "descripcion": "The season of feasting has arrived! It's the Silver Week Event!",
+      "event_ids": [
+        1154
+      ],
+      "url": "https://battlecats.miraheze.org/wiki/Silver_Week"
+    },
+    {
+      "nombre": "120M Download Celebration!",
+      "aliases": [
+        "120M Download Celebration!"
+      ],
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_120m_download_celebration_06b0ebb51a99fbf3.png",
+      "descripcion": "The Battle Cats has reached a massive 120 Million Downloads worldwide! In thanks to all of our players, we've got special events available for a…",
+      "event_ids": [
+        24074
+      ],
+      "url": "https://battlecats.miraheze.org/wiki/Million_Downloads_Event/120_Million"
     }
   ]
 }

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "wikiPages": {},
+  "bannerFiles": {},
+  "publicImageBase": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/",
+  "appDrawables": "C:/Users/forex/StudioProjects/CatStats/app/src/main/res/drawable",
+  "imageOverrides": {
+    "Gigahaniwan Strikes!": "event_gigahaniwan.png",
+    "Le'Grim Strikes": "event_le_grim.png",
+    "Mega Menace": "event_mooth.png",
+    "Baron Seal Strikes": "event_seal.png",
+    "Big Peng Z Strikes": "event_peng_z.png",
+    "Divine Archangel Strikes": "event_archangel.png",
+    "Horrorpotamus": "event_horrorpotamous.png"
+  }
+}

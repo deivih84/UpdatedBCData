@@ -236,31 +236,6 @@
   ],
   "eventos": [
     {
-      "id": "fate_stay_night_heaven_s_feel_collaboration_event_2026-09-18",
-      "nombre": "Fate/Stay Night: Heaven's Feel Collaboration Event",
-      "caracteristicas": [
-        "Fate/Stay Night: Heaven's Feel Collaboration Event is a crossover between The Battle Cats and the Fate/stay night: Heaven's Feel anime films. It features the limited collaboration capsule, Holy Grail War stages, daily Servant battles, Catnip Challenges and login rewards. The 2026 edition adds Shirou Emiya and True Assassin to the capsule lineup, along with The Hidden Grail War and True Assassin's Gauntlet stages."
-      ],
-      "fecha_inicio": "2026-09-18",
-      "fecha_fin": "2026-10-05"
-    },
-    {
-      "id": "eoc_itf_cotc_half_energy_cost_2026-09-18",
-      "nombre": "EoC/ItF/CotC Half Energy Cost",
-      "caracteristicas": [],
-      "fecha_inicio": "2026-09-18",
-      "fecha_fin": "2026-10-05"
-    },
-    {
-      "id": "arena_of_honor_2026-09-18",
-      "nombre": "Arena of Honor",
-      "caracteristicas": [
-        "Ranking Dojo (ネコ道場ランキングイベント, Neko Dōjō Rankingu Ibento, Cat Dojo Ranking Event) is an event that first appeared from July 31st to August 7th, 2017. This event was officially added in the Version 6.3 Update. The Ranking Dojo is accessed from the Catclaw Dojo menu, so the player needs to unlock the Catclaw Dojo feature in order to participate by completing Chapter 1 of Empire of Cats."
-      ],
-      "fecha_inicio": "2026-09-18",
-      "fecha_fin": "2026-10-05"
-    },
-    {
       "id": "otherworld_colosseum_2026-10-01",
       "nombre": "Otherworld Colosseum",
       "caracteristicas": [
@@ -270,10 +245,10 @@
       "fecha_fin": "2026-10-15"
     },
     {
-      "id": "heavenly_tower_2026-10-05",
-      "nombre": "Heavenly Tower",
+      "id": "120m_download_celebration_2026-10-05",
+      "nombre": "120M Download Celebration!",
       "caracteristicas": [
-        "The Heavenly Tower contains 50 stages, called Floors (階 Kai), with a wide variety of enemies including Cyclones, Enemy Cats, Advent Bosses and even event enemies from monthly and annual events. After completing a floor for the first time, the player will receive gifts including Battle Items, Catseyes, Catfruit, Tickets, Catamins, XP, Materials and Leaderships along with Hermit Cat, Masked Yulala and Master Uril upon defeating their respective counterparts on the 30th, 40th and 50th floors respectively, via the Catnip Challenges feature. "
+        "The Battle Cats has reached a massive 120 Million Downloads worldwide! In thanks to all of our players, we've got special events available for a…"
       ],
       "fecha_inicio": "2026-10-05",
       "fecha_fin": "2026-10-29"
@@ -288,10 +263,28 @@
       "fecha_fin": "2026-10-12"
     },
     {
+      "id": "heavenly_tower_2026-10-05",
+      "nombre": "Heavenly Tower",
+      "caracteristicas": [
+        "The Heavenly Tower contains 50 stages, called Floors (階 Kai), with a wide variety of enemies including Cyclones, Enemy Cats, Advent Bosses and even event enemies from monthly and annual events. After completing a floor for the first time, the player will receive gifts including Battle Items, Catseyes, Catfruit, Tickets, Catamins, XP, Materials and Leaderships along with Hermit Cat, Masked Yulala and Master Uril upon defeating their respective counterparts on the 30th, 40th and 50th floors respectively, via the Catnip Challenges feature. "
+      ],
+      "fecha_inicio": "2026-10-05",
+      "fecha_fin": "2026-10-29"
+    },
+    {
       "id": "machines_in_revolt_2026-10-09",
       "nombre": "Machines in Revolt",
       "caracteristicas": [
         "Machines in Revolt (機械の反乱軍, Kikai no Hanrangun, Rebel Army of Machines) is a set of special stages that was added in Version 12.6. It is unlocked after clearing Empire of Cats Chapter 1. Each stage features Metal Enemies and has a Cat Ticket as a reward.\n\nClear stages in the special map Machines in Revolt to earn up to 10 Cat Tickets as you face off against the Metal enemies attacking the remnants of a destroyed city! Visit Event Stages/Stories of Legend and select to take on this challenge!\nOn between June 10th (11:00am) and June 17th (10:59am)!\n\nSave the future from the onslaught of the coming machines!\n\n\n※ After clearing a stage, there will be a short cooldown period before you are able to challenge the next stage.\n※ Spending a Catamin A will allow you to skip the stage cooldown period and challenge the next stage immediately.\n※ If the event does not appear, please make sure that you are updated to the latest version of the Battle Cats app. "
+      ],
+      "fecha_inicio": "2026-10-09",
+      "fecha_fin": "2026-10-26"
+    },
+    {
+      "id": "silver_week_2026-10-09",
+      "nombre": "Silver Week",
+      "caracteristicas": [
+        "The season of feasting has arrived! It's the Silver Week Event!"
       ],
       "fecha_inicio": "2026-10-09",
       "fecha_fin": "2026-10-26"
@@ -315,5 +308,5 @@
       "fecha_fin": "2026-10-29"
     }
   ],
-  "ultima_actualizacion": "2026-10-06T00:09:00Z"
+  "ultima_actualizacion": "2026-10-06T13:32:07Z"
 }

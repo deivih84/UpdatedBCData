@@ -42,7 +42,10 @@ def run(args):
             response.raise_for_status()
             tsv = response.content.decode("utf-8", errors="replace")
         else:
-            tsv = schedule.fetch_gatya_tsv(schedule.get_auth_token())
+            from bc_schedule_sources import download_schedule
+            tsv, provenance = download_schedule('gatya.tsv',
+                lambda: schedule.fetch_gatya_tsv(schedule.get_auth_token()), session=source.session)
+            print('Schedule source: ' + provenance['url'], flush=True)
     events = scheduled_events(tsv, args.today)
     local = args.bcdata
     if local is None and not args.online:

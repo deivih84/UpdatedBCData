@@ -6,3 +6,4 @@ __pycache__/
 .bc_state.json
 .bc_sale_raw.tsv
 .gacha_sync_run.json
+.event_sync_run.json

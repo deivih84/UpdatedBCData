@@ -1,0 +1,110 @@
+{
+  "schemaVersion": 1,
+  "events": {
+    "Silver Week": {
+      "image": {
+        "sourceUrl": "https://static.wikitide.net/battlecatswiki/5/5f/Eve_l_053_1_en.png",
+        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Eve_l_053_1_en.png",
+        "sha256": "2f7273ae2078d5e7bab6aeb1d2c887da5aa15abddb2ecfad700179a58eca9581",
+        "file": "event_silver_week_2f7273ae2078d5e7.png"
+      },
+      "description": "The season of feasting has arrived! It's the Silver Week Event!"
+    },
+    "Machines in Revolt": {
+      "image": {
+        "sourceUrl": "https://static.wikitide.net/battlecatswiki/1/1b/Eve_l_154_en.png",
+        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Eve_l_154_en.png",
+        "sha256": "e591af0c278c9d27225deacad2b96bab29e3988b8983d3cbc081ccf0d15a1115",
+        "file": "event_machines_in_revolt_e591af0c278c9d27.png"
+      }
+    },
+    "Heavenly Tower": {
+      "image": {
+        "sourceUrl": "https://static.wikitide.net/battlecatswiki/3/34/Eve_l_026_2_en.png",
+        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Eve_l_026_2_en.png",
+        "sha256": "c443e8feb663a926670828825a5745c29ed74284f6af7ff86384bf59ecaba035",
+        "file": "event_heavenly_tower_c443e8feb663a926.png"
+      }
+    },
+    "Baron Seal Strikes": {
+      "image": {
+        "sourceUrl": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_seal.png",
+        "sourcePage": null,
+        "selection": "catalog_override",
+        "sha256": "99fdbd2f730889d5713672d7a8374833955b0bb5e846b3e798794dbda93dbf57",
+        "file": "event_seal.png"
+      }
+    },
+    "120M Download Celebration!": {
+      "image": {
+        "sourceUrl": "https://static.wikitide.net/battlecatswiki/6/63/Eve_l_196_1_en.png",
+        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Eve_l_196_1_en.png",
+        "sha256": "06b0ebb51a99fbf3c7c5823fc990cd212ec8031c1e66e733550614e616c2ee04",
+        "file": "event_120m_download_celebration_06b0ebb51a99fbf3.png"
+      },
+      "description": "The Battle Cats has reached a massive 120 Million Downloads worldwide! In thanks to all of our players, we've got special events available for a…"
+    },
+    "Otherworld Colosseum": {
+      "image": {
+        "sourceUrl": "https://static.wikitide.net/battlecatswiki/8/87/Eve_l_162_en.png",
+        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Eve_l_162_en.png",
+        "sha256": "d2370972c1e9c9f408afd2945d700183d011e178d1c9d58c2ea254d7a069b0ac",
+        "file": "event_otherworld_colosseum_d2370972c1e9c9f4.png"
+      }
+    },
+    "Big Peng Z Strikes": {
+      "image": {
+        "sourceUrl": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_peng_z.png",
+        "sourcePage": null,
+        "selection": "catalog_override",
+        "sha256": "d6d73cf8d3d50aa6e806bc3e67c42b124726dcbbedc9f65e7b8477cb8c4bd6cf",
+        "file": "event_peng_z.png"
+      }
+    },
+    "Divine Archangel Strikes": {
+      "image": {
+        "sourceUrl": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_archangel.png",
+        "sourcePage": null,
+        "selection": "catalog_override",
+        "sha256": "5b3ce175a658aa1a93384b1bfd771c44ca9e8c921ec3e56ff27b02949b243502",
+        "file": "event_archangel.png"
+      }
+    },
+    "Gigahaniwan Strikes!": {
+      "image": {
+        "sourceUrl": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_gigahaniwan.png",
+        "sourcePage": null,
+        "selection": "catalog_override",
+        "sha256": "708f01917a78253b33b0eb0d870759bd0025921c4f031a89641b4d29fa79218b",
+        "file": "event_gigahaniwan.png"
+      }
+    },
+    "Horrorpotamus": {
+      "image": {
+        "sourceUrl": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_horrorpotamous.png",
+        "sourcePage": null,
+        "selection": "catalog_override",
+        "sha256": "65fe94c18e489dcbb66c29b40e0f7a0307d4bd24285bd55cbe41032869fe9a5b",
+        "file": "event_horrorpotamous.png"
+      }
+    },
+    "Le'Grim Strikes": {
+      "image": {
+        "sourceUrl": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_le_grim.png",
+        "sourcePage": null,
+        "selection": "catalog_override",
+        "sha256": "199b92f75aae512eb0226054b85059aed7161ccf5588c7a768911eb9430522b6",
+        "file": "event_le_grim.png"
+      }
+    },
+    "Mega Menace": {
+      "image": {
+        "sourceUrl": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_mooth.png",
+        "sourcePage": null,
+        "selection": "catalog_override",
+        "sha256": "16f42f4de47d5e07acc7c0a4d7c71d00a5532b1972b73de67dfd4d93a3419523",
+        "file": "event_mooth.png"
+      }
+    }
+  }
+}

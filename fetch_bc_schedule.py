@@ -568,13 +568,10 @@ def _build_entry(name, start, end, characteristics):
 # ---------------------------------------------------------------------------
 
 def main():
-    # 1. Auth
-    print("Getting JWT token...")
-    jwt = get_auth_token()
-
-    # 2. Fetch + parse TSV
-    print("Fetching gatya.tsv from Ponos servers...")
-    tsv  = fetch_gatya_tsv(jwt)
+    from bc_schedule_sources import download_schedule
+    print("Fetching EN gatya.tsv...")
+    tsv, source = download_schedule('gatya.tsv', lambda: fetch_gatya_tsv(get_auth_token()))
+    print('  Source: ' + source['url'])
     rows = parse_gatya_tsv(tsv)
     print(f"  Parsed {len(rows)} TSV rows with gacha entries")
 
