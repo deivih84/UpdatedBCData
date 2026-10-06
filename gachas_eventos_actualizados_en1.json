@@ -33,8 +33,15 @@
       ]
     },
     {
-      "id": "summer_break_cats_paradise_2026-10-05",
-      "nombre": "Summer Break Cats Paradise",
+      "id": "download_celebration_2026-10-05",
+      "nombre": "Download Celebration!",
+      "fecha_inicio": "2026-10-05",
+      "fecha_fin": "2026-10-29",
+      "caracteristicas": []
+    },
+    {
+      "id": "cats_eye_capsules_2026-10-05",
+      "nombre": "Cats Eye Capsules",
       "fecha_inicio": "2026-10-05",
       "fecha_fin": "2026-10-17",
       "caracteristicas": []
@@ -161,8 +168,8 @@
       ]
     },
     {
-      "id": "summer_break_cats_paradise_2026-10-17",
-      "nombre": "Summer Break Cats Paradise",
+      "id": "catfruit_capsules_2026-10-17",
+      "nombre": "Catfruit Capsules",
       "fecha_inicio": "2026-10-17",
       "fecha_fin": "2026-10-29",
       "caracteristicas": []
@@ -190,6 +197,13 @@
         "L",
         "Lucky Ticket"
       ]
+    },
+    {
+      "id": "special_capsules_2021-05-03",
+      "nombre": "Special Capsules",
+      "fecha_inicio": "2021-05-03",
+      "fecha_fin": "2029-12-31",
+      "caracteristicas": []
     },
     {
       "id": "platinum_capsules_en_1071_2026-10-16",
@@ -301,5 +315,5 @@
       "fecha_fin": "2026-10-29"
     }
   ],
-  "ultima_actualizacion": "2026-10-05T23:29:45Z"
+  "ultima_actualizacion": "2026-10-06T00:09:00Z"
 }

@@ -12,7 +12,7 @@ Auth flow (reverse-engineered from PackPack bot):
 
 Gacha names and characteristics are extracted directly from the TSV — no manual
 ID mapping required. The TSV embeds a name string at position +14 (width-15 entry)
-or +16 (width-17, Legend Rare entry) within each gacha category block.
+also at +14 for width-17 event capsule entries; the last two fields are extra text.
 """
 
 import hashlib
@@ -205,18 +205,12 @@ def fetch_gatya_tsv(jwt):
 #   +1  requiredCatFruit
 #   +2  addition
 #   +3  additionalMask
-#   +4..+8   rarityChances[0..4]    (Normal, Special, Rare, SuperRare, Uber)
-#   +9..+13  rarityGuarantees[0..4]
+#   +4..+13 five interleaved (chance, guarantee) pairs
 #   +14 name string (may include flavor text after ',' or '★')
 #
-# Per-entry layout (width=17, gacha_type == 4, Legend banners):
-#   +0  gachaID
-#   +1  requiredCatFruit
-#   +2  addition
-#   +3  additionalMask
-#   +4..+9   rarityChances[0..5]    (includes Legend rarity)
-#   +10..+15 rarityGuarantees[0..5]
-#   +16 name string
+# Type 0 = NORMAL (N), type 4 = EXTRA/event (E), other types = RARE (R).
+# Per-entry layout (width=17, type 4): same +0..+14, then two extra text fields.
+# IDs belong to their type: E55 and R55 are unrelated capsule sets.
 # ---------------------------------------------------------------------------
 
 def _bc_date(v):
@@ -241,6 +235,7 @@ def _clean_tsv_name(raw):
     """
     name = raw.strip().strip('"').strip()
     full = name  # Keep full version for alias matching
+    name = name.lstrip("★ ")
     # Cut off flavor text at first comma or star
     name = re.split(r'\s*[,★]\s*', name, maxsplit=1)[0].strip()
     return name, full
@@ -253,8 +248,9 @@ def _extract_gacha_entries(cols):
     Returns list of dicts:
       {
         gacha_id      : int,
-        tsv_name      : str,   # clean name from TSV field +14/+16
-        is_legend     : bool,  # gacha_type == 4
+        gacha_type    : int,   # 0=N, 4=E, other=R
+        tsv_name      : str,   # clean name from TSV field +14
+        is_legend     : bool,  # legacy flag; TSV has no Legend-specific type
         guaranteed_uber: bool, # rarityGuarantees[2] > 0
         step_up       : bool,  # additionalMask & MASK_STEP_UP
         lucky_ticket  : bool,  # additionalMask & MASK_LUCKY
@@ -283,13 +279,9 @@ def _extract_gacha_entries(cols):
         gacha_type     = int(cols[idx]); idx += 1
         category_count = int(cols[idx]); idx += 1
 
-        is_legend   = (gacha_type == 4)
-        entry_width = 17 if is_legend else 15
-        # rarityGuarantees start at +4+n_chances, uber is index 2 within guarantees
-        # width=15: 5 chances (+4..+8), guarantees at +9..+13, uber_guarantee at +11
-        # width=17: 6 chances (+4..+9), guarantees at +10..+15, uber_guarantee at +12
-        uber_guarantee_off = 12 if is_legend else 11
-        name_off           = 16 if is_legend else 14
+        entry_width = 17 if gacha_type == 4 else 15
+        uber_guarantee_off = 11
+        name_off = 14
 
         for _ in range(category_count):
             if idx + entry_width > len(cols):
@@ -311,9 +303,11 @@ def _extract_gacha_entries(cols):
 
             entries.append({
                 "gacha_id":        gacha_id,
+                "gacha_type":      gacha_type,
                 "tsv_name":        tsv_name,
                 "tsv_full":        tsv_full,
-                "is_legend":       is_legend,
+                # Retain the legacy field without inferring a Legend type from E.
+                "is_legend":       False,
                 "guaranteed_uber": uber_guarantee > 0,
                 "step_up":         bool(additional_mask & MASK_STEP_UP),
                 "lucky_ticket":    bool(additional_mask & MASK_LUCKY),
@@ -392,7 +386,7 @@ def parse_gatya_tsv(content):
 def _load_name_dbs():
     """
     Returns:
-      by_id    {int gacha_id -> canonical_name}  — from gacha_id_cache.json + all_gachas_en.json
+      by_id    {R ID or (N/E type, ID) -> canonical_name}; numeric cache IDs are R only
       alias_db {alias_lower  -> canonical_name}  — from all_gachas_en.json aliases
     """
     alias_db = {}
@@ -404,9 +398,12 @@ def _load_name_dbs():
             canonical = g["nombre"]
             alias_db[canonical.lower()] = canonical
             for alias in g.get("aliases", []):
-                alias_db[alias.lower()] = canonical
+                if alias.lower() not in AMBIGUOUS_CAPSULE_NAMES:
+                    alias_db[alias.lower()] = canonical
             if "gacha_id" in g:
-                by_id[int(g["gacha_id"])] = canonical
+                category = g.get("gacha_type", 1)
+                key = (category, int(g["gacha_id"])) if category in (0, 4) else int(g["gacha_id"])
+                by_id[key] = canonical
 
     # gacha_id_cache.json takes priority over manual entries
     if ID_CACHE_FILE.exists():
@@ -427,6 +424,7 @@ FESTIVAL_RATE_SIGNATURES = {
     "Epicfest": (2600, 900, 30),
 }
 SPECIAL_FESTIVAL_TEXT = "special capsules featuring powerful limited units"
+AMBIGUOUS_CAPSULE_NAMES = {"limited capsules"}
 
 
 def _festival_rate_matches(name, entry):
@@ -443,20 +441,32 @@ def _festival_rate_matches(name, entry):
 
 
 def _resolve_gacha_name(entry, by_id, alias_db):
-    """Resolve a canonical name without confusing festivals with different rates."""
+    """Resolve by capsule type/ID before using specific names and descriptions."""
     def valid(candidate):
         return candidate if candidate and _festival_rate_matches(candidate, entry) else None
 
-    canonical = valid(by_id.get(entry["gacha_id"]))
+    category = entry.get("gacha_type", 1)
+    key = (category, entry["gacha_id"]) if category in (0, 4) else entry["gacha_id"]
+    canonical = valid(by_id.get(key))
+    # PONOS explicitly names these item pools in the description; their common
+    # heading 'Limited Capsules' must not identify an event with cat units.
+    full_lower = entry.get("tsv_full", "").lower()
+    if canonical is None and category == 0:
+        if "catseyes" in full_lower:
+            canonical = "Cats Eye Capsules"
+        elif "catfruit" in full_lower:
+            canonical = "Catfruit Capsules"
+    if canonical is None and full_lower in AMBIGUOUS_CAPSULE_NAMES:
+        return None
 
     if canonical is None:
         tsv_full = entry.get("tsv_full", "")
-        if tsv_full:
+        if tsv_full and tsv_full.lower() not in AMBIGUOUS_CAPSULE_NAMES:
             canonical = valid(alias_db.get(tsv_full.lower()))
 
     if canonical is None:
         tsv_name = entry.get("tsv_name", "")
-        if tsv_name:
+        if tsv_name and tsv_name.lower() not in AMBIGUOUS_CAPSULE_NAMES:
             canonical = valid(alias_db.get(tsv_name.lower()))
 
     if canonical is None:
@@ -464,7 +474,7 @@ def _resolve_gacha_name(entry, by_id, alias_db):
         if tsv_full_lower:
             best_match_len = 0
             for alias_lower, candidate in alias_db.items():
-                if len(alias_lower) < 8:
+                if len(alias_lower) < 8 or alias_lower in AMBIGUOUS_CAPSULE_NAMES:
                     continue
                 if (tsv_full_lower.startswith(alias_lower)
                         or alias_lower.startswith(tsv_full_lower)
@@ -491,6 +501,8 @@ def _is_valid_name(name):
     """Return False if name is empty, too short, garbled, or a sentence fragment."""
     if not name or len(name) < 2:
         return False
+    if name.lower() in AMBIGUOUS_CAPSULE_NAMES:
+        return False
     # Reject if more than 30% of chars are non-ASCII (garbled encoding)
     non_ascii = sum(1 for c in name if ord(c) > 127)
     if non_ascii / len(name) >= 0.3:
@@ -516,7 +528,7 @@ def _build_characteristics(entry):
       S  → Step-Up             (rolling cost changes per step)
       P  → Platinum Shard      (Platinum Shard pool)
       5  → 5 Capsules          (5 capsules per roll)
-      Legend Rare              (gacha_type == 4, no old letter code)
+      Legend Rare              (legacy caller-supplied flag, not TSV type 4)
       GR / N / R               (Grandon/Neneko/Reinforcement — not derivable from TSV bits)
     """
     chars = []

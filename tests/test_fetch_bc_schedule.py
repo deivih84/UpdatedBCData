@@ -1,4 +1,7 @@
 import unittest
+import json
+from pathlib import Path
+import tempfile
 from datetime import datetime, timezone
 from unittest.mock import patch
 
@@ -17,6 +20,20 @@ def festival_entry(gacha_id, text, super_chance, uber_chance, legend_chance=30):
 
 
 class GachaEntryParsingTests(unittest.TestCase):
+    def test_event_capsules_read_message_at_14_and_keep_category_separate(self):
+        title = "Use Legendary Starshines in these limited-time Capsules until 10/29!"
+        cols = ["20261005", "1100", "20261030", "0", "150600", "999999", "0", "0",
+                "4", "2", "55", "0", "0", "0", "1000", "0", "4500", "0",
+                "3000", "0", "1500", "0", "0", "0", title, "", "",
+                "51", "0", "0", "0", "1000", "0", "4500", "0",
+                "3000", "0", "1500", "0", "0", "0", "Limited Capsules", "", ""]
+        entries = schedule._extract_gacha_entries(cols)
+        self.assertEqual([e["gacha_id"] for e in entries], [55, 51])
+        self.assertEqual(entries[0]["tsv_full"], title)
+        self.assertEqual(entries[0]["gacha_type"], 4)
+        self.assertFalse(entries[0]["is_legend"])
+        self.assertNotIn("Legend Rare", schedule._build_characteristics(entries[0]))
+
     def test_future_permanent_pool_keeps_its_real_start_date(self):
         cols = ["20261016", "1100", "20300101", "0", "150600", "999999", "0", "0",
                 "1", "1", "1071", "150", "0", "0", "0", "0", "0", "0", "0", "0",
@@ -42,6 +59,39 @@ class GachaEntryParsingTests(unittest.TestCase):
         self.assertEqual(entry["super_chance"], 2600)
         self.assertEqual(entry["uber_chance"], 900)
         self.assertEqual(entry["legend_chance"], 30)
+        self.assertNotIn("Legend Rare", schedule._build_characteristics(entry))
+
+
+class EventCapsuleResolutionTests(unittest.TestCase):
+    def test_id_lookup_is_scoped_to_capsule_type(self):
+        with tempfile.TemporaryDirectory() as folder:
+            catalog, cache = Path(folder) / "catalog.json", Path(folder) / "cache.json"
+            catalog.write_text(json.dumps({"gachas": [
+                {"nombre": "Rare banner", "gacha_id": 55},
+                {"nombre": "Download Celebration!", "gacha_id": 55, "gacha_type": 4},
+                {"nombre": "Summer Break Cats Paradise", "gacha_id": 51, "gacha_type": 4}]}))
+            cache.write_text(json.dumps({"55": "Rare banner"}))
+            with patch.object(schedule, "GACHAS_FILE", catalog), patch.object(schedule, "ID_CACHE_FILE", cache):
+                by_id, aliases = schedule._load_name_dbs()
+            for category, gid, expected in [(1, 55, "Rare banner"), (4, 55, "Download Celebration!"),
+                                            (4, 51, "Summer Break Cats Paradise")]:
+                entry = {"gacha_id": gid, "gacha_type": category,
+                         "tsv_name": "Limited Capsules", "tsv_full": "Limited Capsules"}
+                self.assertEqual(schedule._resolve_gacha_name(entry, by_id, aliases), expected)
+
+    def test_unknown_generic_capsule_name_does_not_select_summer_break(self):
+        entry = {"gacha_id": 9999, "gacha_type": 4,
+                 "tsv_name": "Limited Capsules", "tsv_full": "Limited Capsules"}
+        self.assertIsNone(schedule._resolve_gacha_name(entry, {}, {"limited capsules": "Summer Break Cats Paradise"}))
+        self.assertIsNone(schedule._resolve_gacha_name(entry, {}, {"special limited capsules": "Wrong Event"}))
+
+    def test_normal_item_capsules_do_not_use_rare_ids_or_summer_alias(self):
+        for gid, full, expected in [(65, "★ Limited Capsules ★ Pick up extra Catseyes in this special Capsule set!", "Cats Eye Capsules"),
+                                    (3, "Limited Capsules ★ Collect Catfruit by drawing from this set!", "Catfruit Capsules")]:
+            name, full = schedule._clean_tsv_name(full)
+            entry = {"gacha_id": gid, "gacha_type": 0, "tsv_name": name, "tsv_full": full}
+            self.assertEqual(schedule._resolve_gacha_name(entry, {gid: "Rare banner"},
+                                                        {"limited capsules": "Summer Break Cats Paradise"}), expected)
 
 
 class FestivalResolutionTests(unittest.TestCase):

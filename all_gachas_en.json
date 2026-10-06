@@ -4131,8 +4131,8 @@
     {
       "nombre": "Summer Break Cats Paradise",
       "aliases": [
-        "Summer Break Capsules Paradise",
-        "Limited Capsules"
+        "Summer Break Cats Paradise",
+        "Summer Break Capsules Paradise"
       ],
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_summer_break_paradise.png",
       "gatos_ids": [
@@ -4148,7 +4148,9 @@
       "rares": [],
       "super_rares": [],
       "ubers": [],
-      "legends": []
+      "legends": [],
+      "gacha_type": 4,
+      "gacha_id": 51
     },
     {
       "nombre": "Premium Fair",
@@ -4851,6 +4853,29 @@
       "supaChance": 2500,
       "uberChance": 500,
       "legendChance": 30
+    },
+    {
+      "nombre": "Download Celebration!",
+      "aliases": [
+        "Download Celebration!",
+        "Download Celebration! Capsules"
+      ],
+      "gacha_type": 4,
+      "gacha_id": 55,
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_event_en_55_d0d8c95d1f0b2ebd.png",
+      "gatos_ids": [
+        504,
+        726,
+        776
+      ],
+      "rareChance": 0,
+      "supaChance": 0,
+      "uberChance": 0,
+      "legendChance": 0,
+      "rares": [],
+      "super_rares": [],
+      "ubers": [],
+      "legends": []
     }
   ]
 }

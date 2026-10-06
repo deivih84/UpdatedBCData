@@ -71,6 +71,28 @@ Las altas exigen un nombre independiente del anuncio: página oficial o un únic
 evento de la wiki que use la imagen encontrada. Las cápsulas N/E que incluyen
 objetos y otras rarezas quedan fuera del sincronizador de gachas raros R.
 
+## Cápsulas de evento y nombres compartidos
+
+El lector del calendario distingue los IDs por tipo: 0=N (normal), 4=E (evento),
+otros=R (raros). Los IDs numéricos de `gacha_id_cache.json` pertenecen solamente
+a R. Para un evento con gatos, registra `gacha_type: 4` y `gacha_id` en su entrada
+de `all_gachas_en.json`; no pongas su ID en el cache de R.
+
+`Limited Capsules` es un encabezado compartido y no se acepta como alias de una
+familia. Un ID desconocido con ese texto queda sin resolver. Los anuncios de N
+que mencionan expresamente Catseyes o Catfruit conservan sus nombres de cápsulas
+de objetos, en vez de identificarse como Summer Break.
+
+En EN 15.6, E51 es Summer Break Cats Paradise (gatos 342, 375, 822, 870) y E55 es
+Download Celebration! (gatos 504, 726, 776), según `GatyaDataSetE1.csv`. Sus
+identidades y banners se comprobaron en las páginas de
+[Summer Break Cats Paradise](https://battlecats.miraheze.org/wiki/Summer_Break_Cats_Paradise_(Event_Gacha))
+y [Download Celebration!](https://battlecats.miraheze.org/wiki/Download_Celebration!_(Event_Gacha)).
+Download Celebration! usa Legendary Starshines; Download Anniversary Gacha es
+el banner R de héroes Uber y conserva su identidad independiente. Si cambia el
+ID o contenido de un evento E, debe verificarse con sus archivos E y su página;
+el sincronizador de pools R no modifica estas entradas.
+
 Un error de descarga de pools o de validación detiene la publicación del catálogo.
 Un error de imagen queda pendiente y permite aplicar los pools validados.
 La publicación usa reemplazos atómicos y rollback si falla una escritura.

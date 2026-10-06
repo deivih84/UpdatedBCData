@@ -101,7 +101,7 @@ class GachaCatalogCorrectionTests(unittest.TestCase):
             (25, 25, 1, 0),
         )
 
-    def test_limited_capsules_resolves_to_summer_break_cats_paradise(self):
+    def test_summer_break_paradise_has_specific_aliases_and_event_id(self):
         paradise = next(
             (
                 banner for banner in self.catalog
@@ -111,14 +111,15 @@ class GachaCatalogCorrectionTests(unittest.TestCase):
         )
 
         self.assertEqual(
-            None if paradise is None else (paradise["aliases"], paradise["gatos_ids"]),
-            (["Summer Break Capsules Paradise", "Limited Capsules"], [342, 375, 822, 870]),
+            None if paradise is None else (paradise["aliases"], paradise["gatos_ids"], paradise["gacha_type"], paradise["gacha_id"]),
+            (["Summer Break Cats Paradise", "Summer Break Capsules Paradise"], [342, 375, 822, 870], 4, 51),
         )
 
     def test_catalog_resolves_summer_break_capsules_to_canonical_entry(self):
         by_id, alias_db = schedule._load_name_dbs()
         entry = {
-            "gacha_id": 9999,
+            "gacha_id": 51,
+            "gacha_type": 4,
             "tsv_name": "Limited Capsules",
             "tsv_full": "Limited Capsules",
         }
@@ -126,6 +127,15 @@ class GachaCatalogCorrectionTests(unittest.TestCase):
             schedule._resolve_gacha_name(entry, by_id, alias_db),
             "Summer Break Cats Paradise",
         )
+
+    def test_download_celebration_event_does_not_resolve_as_anniversary_rare_gacha(self):
+        by_id, aliases = schedule._load_name_dbs()
+        entry = {"gacha_id": 55, "gacha_type": 4,
+                 "tsv_name": "Use Legendary Starshines in these limited-time Capsules until 10/29!",
+                 "tsv_full": "Use Legendary Starshines in these limited-time Capsules until 10/29!"}
+        self.assertEqual(schedule._resolve_gacha_name(entry, by_id, aliases), "Download Celebration!")
+        banner = next(g for g in self.catalog if g["nombre"] == "Download Celebration!")
+        self.assertEqual(banner["gatos_ids"], [504, 726, 776])
 
     def test_historical_epicfest_pool_contains_lunacia_and_lone_moon_lunos(self):
         epicfest = next(banner for banner in self.historical_catalog if banner["nombre"] == "Epicfest")
