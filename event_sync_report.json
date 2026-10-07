@@ -74,6 +74,10 @@
       "reason": "image_not_found"
     },
     {
+      "name": "Silver Week",
+      "reason": "image_not_found"
+    },
+    {
       "name": "Merciless XP!",
       "event_ids": [
         1155
@@ -85,6 +89,10 @@
       "event_ids": [
         1319
       ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Machines in Revolt",
       "reason": "image_not_found"
     },
     {
@@ -127,6 +135,10 @@
       "reason": "image_not_found"
     },
     {
+      "name": "Heavenly Tower",
+      "reason": "image_not_found"
+    },
+    {
       "name": "Infernal Tower",
       "event_ids": [
         7006
@@ -152,6 +164,14 @@
       "reason": "image_not_found"
     },
     {
+      "name": "120M Download Celebration!",
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Otherworld Colosseum",
+      "reason": "image_not_found"
+    },
+    {
       "name": "Koneko Takes the Stage",
       "event_ids": [
         39000
@@ -168,7 +188,33 @@
     }
   ],
   "warnings": [
-    "Arena of Destiny: section_has_no_verified_poster"
+    "XP Stage: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "XP Megablitz!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "XP Colosseum: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Cavern of Comets: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Island of Ash: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Strait of Wings: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Silver Week: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Merciless XP!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "XP Bonanza!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Machines in Revolt: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Fireworks Spectacular!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "XP Harvest (Easy): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "XP Harvest (Normal): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "XP Harvest (Hard): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Cats Eye Cave: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "XP Harvest (Vet.): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Heavenly Tower: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Infernal Tower: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Arena of Power (Artillery Alley): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Arena of Destiny: section_has_no_verified_poster",
+    "Monthly Event All-Stars Grateful Gathering: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "120M Download Celebration!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Otherworld Colosseum: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Koneko Takes the Stage: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Cats Eye Caverns: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Festival Cats: Lunar New Year's: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "remote_name_index_older_than_saved: 14.7.0"
   ],
   "sources": {
     "schedule": {

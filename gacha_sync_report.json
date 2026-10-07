@@ -1,13 +1,48 @@
 {
   "sources": {
-    "schedule": "PONOS gatya.tsv",
-    "pools": "BCData EN 15.6.0"
+    "schedule": "PONOS EN gatya.tsv",
+    "pools": "bc.godfat.org (validated against PONOS)"
   },
   "changes": [],
   "pending": [
     {
+      "name": "The Dynamites",
+      "gacha_id": 942,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Wargods Vajiras",
+      "gacha_id": 1043,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Ultra Souls",
+      "gacha_id": 946,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "The Almighties",
+      "gacha_id": 991,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Dragon Emperors",
+      "gacha_id": 1059,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Iron Legion",
+      "gacha_id": 979,
+      "reason": "image_not_found"
+    },
+    {
       "name": "Luga Families",
       "gacha_id": 986,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Galaxy Gals",
+      "gacha_id": 1021,
       "reason": "image_not_found"
     }
   ],
@@ -15,29 +50,45 @@
     {
       "name": "Platinum Capsules",
       "gacha_id": 1063,
-      "file": "banner_en_1063_7d17ea1ced66fdce.png"
+      "file": "banner_en_1063_5c1f9536793a2f0b.png"
     },
     {
       "name": "Platinum Capsules (EN #1071)",
       "gacha_id": 1071,
-      "file": "banner_en_1071_7d17ea1ced66fdce.png"
+      "file": "banner_en_1071_5c1f9536793a2f0b.png"
     },
     {
       "name": "Legend Capsules",
       "gacha_id": 1064,
-      "file": "banner_en_1064_dc33910fe138e177.png"
+      "file": "banner_en_1064_393feda4d3cc1339.png"
     },
     {
       "name": "Legend Capsules (EN #1072)",
       "gacha_id": 1072,
-      "file": "banner_en_1072_dc33910fe138e177.png"
+      "file": "banner_en_1072_393feda4d3cc1339.png"
+    },
+    {
+      "name": "The Dynamites (EN #1068)",
+      "gacha_id": 1068,
+      "file": "banner_en_1068_f930fbc65be39e6e.png"
+    },
+    {
+      "name": "Uberfest",
+      "gacha_id": 1061,
+      "file": "banner_en_1061_49c1603b02b9b849.png"
+    },
+    {
+      "name": "Download Anniversary Gacha",
+      "gacha_id": 1077,
+      "file": "banner_en_1077_25421490b77f3534.png"
     },
     {
       "name": "Dynastyfest",
       "gacha_id": 1078,
-      "file": "banner_en_1078_5926267510a796e8.png"
+      "file": "banner_en_1078_90c413b421ce1d67.png"
     }
   ],
   "errors": [],
+  "region": "en",
   "missingImages": []
 }

@@ -156,15 +156,15 @@
         "seriesID": 21,
         "imgID": 970
       },
-      "source": "BCData EN 15.6.0",
-      "gameVersion": "15.6.0",
+      "source": "bc.godfat.org (validated against PONOS)",
+      "gameVersion": null,
       "start_date": "2026-07-24",
       "end_date": "2030-01-01",
       "image": {
-        "sourceUrl": "https://static.wikitide.net/battlecatswiki/1/1d/Gatya_bnr174.png",
-        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Gatya_bnr174.png",
-        "sha256": "7d17ea1ced66fdcecea8e52f20db9ae40b53679020d6499904c1445967ecdedf",
-        "file": "banner_en_1063_7d17ea1ced66fdce.png"
+        "sourceUrl": "https://static.wikia.nocookie.net/battle-cats/images/1/1d/Gatya_bnr174.png/revision/latest?cb=20200809225623",
+        "sourcePage": "https://battle-cats.fandom.com/wiki/File:Gatya_bnr174.png",
+        "sha256": "5c1f9536793a2f0b9eb3f12e42eb2489063fbec64bf418604e9e53251b4a6c5f",
+        "file": "banner_en_1063_5c1f9536793a2f0b.png"
       }
     },
     "1071": {
@@ -323,15 +323,15 @@
         "seriesID": 21,
         "imgID": 970
       },
-      "source": "BCData EN 15.6.0",
-      "gameVersion": "15.6.0",
+      "source": "bc.godfat.org (validated against PONOS)",
+      "gameVersion": null,
       "start_date": "2026-10-16",
       "end_date": "2030-01-01",
       "image": {
-        "sourceUrl": "https://static.wikitide.net/battlecatswiki/1/1d/Gatya_bnr174.png",
-        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Gatya_bnr174.png",
-        "sha256": "7d17ea1ced66fdcecea8e52f20db9ae40b53679020d6499904c1445967ecdedf",
-        "file": "banner_en_1071_7d17ea1ced66fdce.png"
+        "sourceUrl": "https://static.wikia.nocookie.net/battle-cats/images/1/1d/Gatya_bnr174.png/revision/latest?cb=20200809225623",
+        "sourcePage": "https://battle-cats.fandom.com/wiki/File:Gatya_bnr174.png",
+        "sha256": "5c1f9536793a2f0b9eb3f12e42eb2489063fbec64bf418604e9e53251b4a6c5f",
+        "file": "banner_en_1071_5c1f9536793a2f0b.png"
       }
     },
     "1064": {
@@ -503,15 +503,15 @@
         "seriesID": 46,
         "imgID": 971
       },
-      "source": "BCData EN 15.6.0",
-      "gameVersion": "15.6.0",
+      "source": "bc.godfat.org (validated against PONOS)",
+      "gameVersion": null,
       "start_date": "2026-07-24",
       "end_date": "2030-01-01",
       "image": {
-        "sourceUrl": "https://static.wikitide.net/battlecatswiki/f/f9/Gatya_bnr640.png",
-        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Gatya_bnr640.png",
-        "sha256": "dc33910fe138e177ac705882b61f5647f607aa799d42d75a615df613f82616a5",
-        "file": "banner_en_1064_dc33910fe138e177.png"
+        "sourceUrl": "https://static.wikia.nocookie.net/battle-cats/images/f/f9/Gatya_bnr640.png/revision/latest?cb=20210927192516",
+        "sourcePage": "https://battle-cats.fandom.com/wiki/File:Gatya_bnr640.png",
+        "sha256": "393feda4d3cc133983c527d57b32fff3b4f95c4225ae3ddc289da83e862b0826",
+        "file": "banner_en_1064_393feda4d3cc1339.png"
       }
     },
     "1072": {
@@ -684,15 +684,15 @@
         "seriesID": 46,
         "imgID": 971
       },
-      "source": "BCData EN 15.6.0",
-      "gameVersion": "15.6.0",
+      "source": "bc.godfat.org (validated against PONOS)",
+      "gameVersion": null,
       "start_date": "2026-10-16",
       "end_date": "2030-01-01",
       "image": {
-        "sourceUrl": "https://static.wikitide.net/battlecatswiki/f/f9/Gatya_bnr640.png",
-        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Gatya_bnr640.png",
-        "sha256": "dc33910fe138e177ac705882b61f5647f607aa799d42d75a615df613f82616a5",
-        "file": "banner_en_1072_dc33910fe138e177.png"
+        "sourceUrl": "https://static.wikia.nocookie.net/battle-cats/images/f/f9/Gatya_bnr640.png/revision/latest?cb=20210927192516",
+        "sourcePage": "https://battle-cats.fandom.com/wiki/File:Gatya_bnr640.png",
+        "sha256": "393feda4d3cc133983c527d57b32fff3b4f95c4225ae3ddc289da83e862b0826",
+        "file": "banner_en_1072_393feda4d3cc1339.png"
       }
     },
     "942": {
@@ -785,8 +785,8 @@
         "seriesID": 1,
         "imgID": 942
       },
-      "source": "BCData EN 15.6.0",
-      "gameVersion": "15.6.0",
+      "source": "bc.godfat.org (validated against PONOS)",
+      "gameVersion": null,
       "start_date": "2026-10-05",
       "end_date": "2026-10-09",
       "image": {
@@ -887,15 +887,15 @@
         "seriesID": 1,
         "imgID": -1
       },
-      "source": "BCData EN 15.6.0",
-      "gameVersion": "15.6.0",
+      "source": "bc.godfat.org (validated against PONOS)",
+      "gameVersion": null,
       "start_date": "2026-10-16",
       "end_date": "2026-10-20",
       "image": {
-        "sourceUrl": "https://static.wikitide.net/battlecatswiki/2/23/Gatya_bnr1068_en.png",
-        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Gatya_bnr1068_en.png",
-        "sha256": "6830501bb396cf6501fd5a91aa9fc1d3cacf3f83350a26f0c8399119493643ae",
-        "file": "banner_en_1068_6830501bb396cf65.png"
+        "sourceUrl": "https://static.wikia.nocookie.net/battle-cats/images/9/92/Gatya_bnr1068.png/revision/latest?cb=20260705073428",
+        "sourcePage": "https://battle-cats.fandom.com/wiki/File:Gatya_bnr1068.png",
+        "sha256": "f930fbc65be39e6ec5e4b2eb891c90d5ef79b8bf02f26fc537b73bf8e310e9fd",
+        "file": "banner_en_1068_f930fbc65be39e6e.png"
       }
     },
     "1061": {
@@ -1084,15 +1084,15 @@
         "seriesID": 19,
         "imgID": 1033
       },
-      "source": "BCData EN 15.6.0",
-      "gameVersion": "15.6.0",
+      "source": "bc.godfat.org (validated against PONOS)",
+      "gameVersion": null,
       "start_date": "2026-10-05",
       "end_date": "2026-10-09",
       "image": {
-        "sourceUrl": "https://static.wikitide.net/battlecatswiki/1/19/Gatya_bnr1033_en.png",
-        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Gatya_bnr1033_en.png",
-        "sha256": "72dbdcc4c1eca744132e4bf87fb68613499e7097d2bdf2239ad96b287c71dcb4",
-        "file": "banner_en_1061_72dbdcc4c1eca744.png"
+        "sourceUrl": "https://static.wikia.nocookie.net/battle-cats/images/0/0c/Gatya_bnr1033.png/revision/latest?cb=20260104133337",
+        "sourcePage": "https://battle-cats.fandom.com/wiki/File:Gatya_bnr1033.png",
+        "sha256": "49c1603b02b9b8491284382ef621b8ceed7da49b77c1a06451151df472e5c8ed",
+        "file": "banner_en_1061_49c1603b02b9b849.png"
       }
     },
     "1077": {
@@ -1187,15 +1187,15 @@
         "seriesID": 70,
         "imgID": -1
       },
-      "source": "BCData EN 15.6.0",
-      "gameVersion": "15.6.0",
+      "source": "bc.godfat.org (validated against PONOS)",
+      "gameVersion": null,
       "start_date": "2026-10-09",
       "end_date": "2026-10-16",
       "image": {
-        "sourceUrl": "https://static.wikitide.net/battlecatswiki/3/36/Gatya_bnr1077_en.png",
-        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Gatya_bnr1077_en.png",
-        "sha256": "4cf4ee9afc27b981e14341201f2c70dc998d6b93658dd876b453cd1ba38361f3",
-        "file": "banner_en_1077_4cf4ee9afc27b981.png"
+        "sourceUrl": "https://static.wikia.nocookie.net/battle-cats/images/2/2f/Gatya_bnr1077.png/revision/latest?cb=20260830042354",
+        "sourcePage": "https://battle-cats.fandom.com/wiki/File:Gatya_bnr1077.png",
+        "sha256": "25421490b77f35342723d9827bf5848b85d8c1260738a0cd92b32c8398b6984b",
+        "file": "banner_en_1077_25421490b77f3534.png"
       }
     },
     "1043": {
@@ -1289,8 +1289,8 @@
         "seriesID": 2,
         "imgID": 943
       },
-      "source": "BCData EN 15.6.0",
-      "gameVersion": "15.6.0",
+      "source": "bc.godfat.org (validated against PONOS)",
+      "gameVersion": null,
       "start_date": "2026-10-18",
       "end_date": "2026-10-20",
       "image": {
@@ -1418,15 +1418,15 @@
         "seriesID": 47,
         "imgID": 973
       },
-      "source": "BCData EN 15.6.0",
-      "gameVersion": "15.6.0",
+      "source": "bc.godfat.org (validated against PONOS)",
+      "gameVersion": null,
       "start_date": "2026-10-09",
       "end_date": "2026-10-13",
       "image": {
-        "sourceUrl": "https://static.wikitide.net/battlecatswiki/3/30/Gatya_bnr582.png",
-        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Gatya_bnr582.png",
-        "sha256": "5926267510a796e8924335be47777da868dcf7d69a1fe215c55dc727ceac8e3f",
-        "file": "banner_en_1078_5926267510a796e8.png"
+        "sourceUrl": "https://static.wikia.nocookie.net/battle-cats/images/3/30/Gatya_bnr582.png/revision/latest?cb=20230213231346",
+        "sourcePage": "https://battle-cats.fandom.com/wiki/File:Gatya_bnr582.png",
+        "sha256": "90c413b421ce1d6756646e55778dfd0ebbbb94e2f4419576f4829558f3083717",
+        "file": "banner_en_1078_90c413b421ce1d67.png"
       }
     },
     "946": {
@@ -1519,8 +1519,8 @@
         "seriesID": 6,
         "imgID": 946
       },
-      "source": "BCData EN 15.6.0",
-      "gameVersion": "15.6.0",
+      "source": "bc.godfat.org (validated against PONOS)",
+      "gameVersion": null,
       "start_date": "2026-10-11",
       "end_date": "2026-10-13",
       "image": {
@@ -1620,8 +1620,8 @@
         "seriesID": 18,
         "imgID": 948
       },
-      "source": "BCData EN 15.6.0",
-      "gameVersion": "15.6.0",
+      "source": "bc.godfat.org (validated against PONOS)",
+      "gameVersion": null,
       "start_date": "2026-10-13",
       "end_date": "2026-10-16",
       "image": {
@@ -1722,8 +1722,8 @@
         "seriesID": 4,
         "imgID": 945
       },
-      "source": "BCData EN 15.6.0",
-      "gameVersion": "15.6.0",
+      "source": "bc.godfat.org (validated against PONOS)",
+      "gameVersion": null,
       "start_date": "2026-10-13",
       "end_date": "2026-10-16",
       "image": {
@@ -1822,8 +1822,8 @@
         "seriesID": 24,
         "imgID": 949
       },
-      "source": "BCData EN 15.6.0",
-      "gameVersion": "15.6.0",
+      "source": "bc.godfat.org (validated against PONOS)",
+      "gameVersion": null,
       "start_date": "2026-10-16",
       "end_date": "2026-10-18",
       "image": {
@@ -1923,8 +1923,8 @@
         "seriesID": 0,
         "imgID": 986
       },
-      "source": "BCData EN 15.6.0",
-      "gameVersion": "15.6.0",
+      "source": "bc.godfat.org (validated against PONOS)",
+      "gameVersion": null,
       "start_date": "2026-10-16",
       "end_date": "2026-10-18"
     },
@@ -2019,8 +2019,8 @@
         "seriesID": 3,
         "imgID": 944
       },
-      "source": "BCData EN 15.6.0",
-      "gameVersion": "15.6.0",
+      "source": "bc.godfat.org (validated against PONOS)",
+      "gameVersion": null,
       "start_date": "2026-10-18",
       "end_date": "2026-10-20",
       "image": {
@@ -2030,5 +2030,6 @@
         "file": "banner_en_1021_605521c758cd10a6.png"
       }
     }
-  }
+  },
+  "region": "en"
 }

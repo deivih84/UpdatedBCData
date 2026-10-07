@@ -1,50 +1,6 @@
 {
   "gachas": [
     {
-      "id": "iron_legion_2026-09-28",
-      "nombre": "Iron Legion",
-      "fecha_inicio": "2026-09-28",
-      "fecha_fin": "2026-10-01",
-      "caracteristicas": [
-        "L",
-        "Lucky Ticket",
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "dragon_emperors_jp_1059_2026-09-28",
-      "nombre": "Dragon Emperors (JP #1059)",
-      "fecha_inicio": "2026-09-28",
-      "fecha_fin": "2026-10-01",
-      "caracteristicas": [
-        "L",
-        "Lucky Ticket",
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "ultra_souls_2026-10-01",
-      "nombre": "Ultra Souls",
-      "fecha_inicio": "2026-10-01",
-      "fecha_fin": "2026-10-04",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "luga_families_2026-10-01",
-      "nombre": "Luga Families",
-      "fecha_inicio": "2026-10-01",
-      "fecha_fin": "2026-10-04",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
       "id": "elemental_pixies_2026-10-06",
       "nombre": "Elemental Pixies",
       "fecha_inicio": "2026-10-06",
@@ -99,6 +55,66 @@
       "fecha_inicio": "2026-10-08",
       "fecha_fin": "2026-10-09",
       "caracteristicas": []
+    },
+    {
+      "id": "elemental_pixies_2026-10-11",
+      "nombre": "Elemental Pixies",
+      "fecha_inicio": "2026-10-11",
+      "fecha_fin": "2026-10-13",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "wargods_vajiras_2026-10-11",
+      "nombre": "Wargods Vajiras",
+      "fecha_inicio": "2026-10-11",
+      "fecha_fin": "2026-10-13",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "girls_monsters_2026-10-13",
+      "nombre": "Girls & Monsters",
+      "fecha_inicio": "2026-10-13",
+      "fecha_fin": "2026-10-16",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "iron_legion_2026-10-13",
+      "nombre": "Iron Legion",
+      "fecha_inicio": "2026-10-13",
+      "fecha_fin": "2026-10-16",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "dragon_emperors_jp_1059_2026-10-16",
+      "nombre": "Dragon Emperors (JP #1059)",
+      "fecha_inicio": "2026-10-16",
+      "fecha_fin": "2026-10-18",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "ultra_souls_2026-10-18",
+      "nombre": "Ultra Souls",
+      "fecha_inicio": "2026-10-18",
+      "fecha_fin": "2026-10-21",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
     },
     {
       "id": "platinum_capsules_jp_1063_2026-06-26",
@@ -372,5 +388,5 @@
       "fecha_fin": "2026-05-01"
     }
   ],
-  "ultima_actualizacion": "2026-10-06T17:27:02Z"
+  "ultima_actualizacion": "2026-10-07T17:45:32Z"
 }
