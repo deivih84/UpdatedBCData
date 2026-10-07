@@ -7,6 +7,10 @@ import fetch_bc_events as events
 from bc_event_name_resolver import BCEventNameResolver, EventNameHit
 
 
+# Minimal source snapshot: these tests must also work without a sibling BCData.
+EVENT_BCDATA_FIXTURE = Path(__file__).parent / "fixtures" / "event_bcdata"
+
+
 class EventMetadataTests(unittest.TestCase):
     def test_repository_resolves_fate_collaboration_as_one_calendar_event(self):
         by_id, by_name = events.load_event_db()
@@ -18,7 +22,7 @@ class EventMetadataTests(unittest.TestCase):
 
         resolved, resolved_ids = events.build_bcdata_events(
             sale_rows,
-            BCEventNameResolver(),
+            BCEventNameResolver(EVENT_BCDATA_FIXTURE),
             by_name,
         )
 
@@ -41,7 +45,7 @@ class EventMetadataTests(unittest.TestCase):
 
         resolved, resolved_ids = events.build_bcdata_events(
             sale_rows,
-            BCEventNameResolver(),
+            BCEventNameResolver(EVENT_BCDATA_FIXTURE),
             by_name,
         )
 

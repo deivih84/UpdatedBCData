@@ -53,6 +53,7 @@ jobs:
         with:
           name: banner-sync-report
           path: .gacha_sync_run.json
+          include-hidden-files: true
           if-no-files-found: warn
           retention-days: 30
 
@@ -62,6 +63,7 @@ jobs:
         with:
           name: jp-banner-sync-report
           path: .gacha_sync_run_jp.json
+          include-hidden-files: true
           if-no-files-found: warn
           retention-days: 30
 
@@ -71,6 +73,7 @@ jobs:
         with:
           name: event-sync-report
           path: .event_sync_run.json
+          include-hidden-files: true
           if-no-files-found: warn
           retention-days: 30
 

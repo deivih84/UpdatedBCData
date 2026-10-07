@@ -3,3 +3,5 @@ beautifulsoup4>=4.14.2,<5
 Pillow>=11.3.0,<12
 # Existing animation tests use the core API of this version.
 tbcml==1.1.0
+# tbcml 1.1.0 imports Qt image classes even when only its pack API is used.
+PyQt5>=5.15.11,<6
