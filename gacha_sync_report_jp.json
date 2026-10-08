@@ -5,15 +5,8 @@
   },
   "changes": [
     {
-      "name": "Dragon Emperors",
-      "gacha_id": 33,
-      "created": false,
-      "units": {},
-      "rates": {}
-    },
-    {
-      "name": "Elemental Pixies",
-      "gacha_id": 1004,
+      "name": "Dragon Emperors (JP #1059)",
+      "gacha_id": 1059,
       "created": false,
       "units": {},
       "rates": {
@@ -32,8 +25,28 @@
       }
     },
     {
-      "name": "Wargods Vajiras",
-      "gacha_id": 1043,
+      "name": "Iron Legion",
+      "gacha_id": 979,
+      "created": false,
+      "units": {},
+      "rates": {
+        "rareChance": {
+          "old": 6440,
+          "new": 6970
+        },
+        "uberChance": {
+          "old": 1000,
+          "new": 500
+        },
+        "legendChance": {
+          "old": 60,
+          "new": 30
+        }
+      }
+    },
+    {
+      "name": "Girls & Monsters",
+      "gacha_id": 1015,
       "created": false,
       "units": {},
       "rates": {
@@ -55,18 +68,6 @@
   "pending": [
     {
       "gacha_id": 946,
-      "reason": "conflicting_id_variants"
-    },
-    {
-      "gacha_id": 979,
-      "reason": "conflicting_id_variants"
-    },
-    {
-      "gacha_id": 1015,
-      "reason": "conflicting_id_variants"
-    },
-    {
-      "gacha_id": 1059,
       "reason": "conflicting_id_variants"
     },
     {
@@ -153,83 +154,7 @@
       "reason": "image_not_found"
     }
   ],
-  "images": [
-    {
-      "name": "Dragon Emperors",
-      "gacha_id": 33,
-      "file": "banner_jp_33_54eb3268af033765.png"
-    },
-    {
-      "name": "Platinum Capsules",
-      "gacha_id": 1071,
-      "file": "banner_jp_1071_3852e5fdc99f34b5.png"
-    },
-    {
-      "name": "Platinum Capsules (JP #1008)",
-      "gacha_id": 1008,
-      "file": "banner_jp_1008_3852e5fdc99f34b5.png"
-    },
-    {
-      "name": "Platinum Capsules (JP #1024)",
-      "gacha_id": 1024,
-      "file": "banner_jp_1024_3852e5fdc99f34b5.png"
-    },
-    {
-      "name": "Platinum Capsules (JP #1036)",
-      "gacha_id": 1036,
-      "file": "banner_jp_1036_3852e5fdc99f34b5.png"
-    },
-    {
-      "name": "Platinum Capsules (JP #1047)",
-      "gacha_id": 1047,
-      "file": "banner_jp_1047_3852e5fdc99f34b5.png"
-    },
-    {
-      "name": "Platinum Capsules (JP #1057)",
-      "gacha_id": 1057,
-      "file": "banner_jp_1057_3852e5fdc99f34b5.png"
-    },
-    {
-      "name": "Platinum Capsules (JP #1063)",
-      "gacha_id": 1063,
-      "file": "banner_jp_1063_3852e5fdc99f34b5.png"
-    },
-    {
-      "name": "Legend Capsules",
-      "gacha_id": 1072,
-      "file": "banner_jp_1072_393feda4d3cc1339.png"
-    },
-    {
-      "name": "Legend Capsules (JP #1009)",
-      "gacha_id": 1009,
-      "file": "banner_jp_1009_393feda4d3cc1339.png"
-    },
-    {
-      "name": "Legend Capsules (JP #1025)",
-      "gacha_id": 1025,
-      "file": "banner_jp_1025_393feda4d3cc1339.png"
-    },
-    {
-      "name": "Legend Capsules (JP #1035)",
-      "gacha_id": 1035,
-      "file": "banner_jp_1035_393feda4d3cc1339.png"
-    },
-    {
-      "name": "Legend Capsules (JP #1048)",
-      "gacha_id": 1048,
-      "file": "banner_jp_1048_393feda4d3cc1339.png"
-    },
-    {
-      "name": "Legend Capsules (JP #1058)",
-      "gacha_id": 1058,
-      "file": "banner_jp_1058_393feda4d3cc1339.png"
-    },
-    {
-      "name": "Legend Capsules (JP #1064)",
-      "gacha_id": 1064,
-      "file": "banner_jp_1064_393feda4d3cc1339.png"
-    }
-  ],
+  "images": [],
   "errors": [],
   "region": "jp",
   "missingImages": [

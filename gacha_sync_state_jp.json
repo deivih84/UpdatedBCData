@@ -142,7 +142,7 @@
     "1059": {
       "family": "Dragon Emperors",
       "name": "Dragon Emperors (JP #1059)",
-      "fingerprint": "0b0214f276ded09ca8be79b928a0cb84ad7e4d21881230e427d11e514eafe3ba",
+      "fingerprint": "91f5d8665796e5c4d2f4b013bd8f4ecece789f741c983c71d8ac9792a05fa771",
       "pool": {
         "rares": [
           523,
@@ -221,10 +221,10 @@
         ]
       },
       "rates": {
-        "rareChance": 6440,
+        "rareChance": 6970,
         "supaChance": 2500,
-        "uberChance": 1000,
-        "legendChance": 60
+        "uberChance": 500,
+        "legendChance": 30
       },
       "option": {
         "seriesID": 4,
@@ -232,8 +232,8 @@
       },
       "source": "bc.godfat.org (validated against PONOS)",
       "gameVersion": null,
-      "start_date": "2026-10-07",
-      "end_date": "2026-10-07",
+      "start_date": "2026-10-16",
+      "end_date": "2026-10-18",
       "image": {
         "sourceUrl": "https://static.wikitide.net/battlecatswiki/4/40/Gatya_bnr945.png",
         "sourcePage": "https://battlecats.miraheze.org/wiki/File:Gatya_bnr945.png",
@@ -2940,7 +2940,7 @@
     "979": {
       "family": "Iron Legion",
       "name": "Iron Legion",
-      "fingerprint": "83f088ba4c6adec263b5a23136d7017b9e594b8bfba1f6730e3ce7156ca73ec7",
+      "fingerprint": "22e30b6f9a7ebcf2b0a411f695e22af1708fad32c02334b20765f2526ad554c1",
       "pool": {
         "rares": [
           523,
@@ -3017,10 +3017,10 @@
         ]
       },
       "rates": {
-        "rareChance": 6440,
+        "rareChance": 6970,
         "supaChance": 2500,
-        "uberChance": 1000,
-        "legendChance": 60
+        "uberChance": 500,
+        "legendChance": 30
       },
       "option": {
         "seriesID": 24,
@@ -3028,8 +3028,8 @@
       },
       "source": "bc.godfat.org (validated against PONOS)",
       "gameVersion": null,
-      "start_date": "2026-10-07",
-      "end_date": "2026-10-07",
+      "start_date": "2026-10-13",
+      "end_date": "2026-10-16",
       "image": {
         "sourceUrl": "https://static.wikitide.net/battlecatswiki/f/fa/Gatya_bnr949.png",
         "sourcePage": "https://battlecats.miraheze.org/wiki/File:Gatya_bnr949.png",
@@ -3040,7 +3040,7 @@
     "1015": {
       "family": "Girls & Monsters",
       "name": "Girls & Monsters",
-      "fingerprint": "522b8cadb2699734326044d16521bc047b2b9115c5706279cdc789a1e427a61f",
+      "fingerprint": "bf83eba30f8e60cb8f6b27dd640eae51d7d08053268f317e0ed337e59b4950bb",
       "pool": {
         "rares": [
           523,
@@ -3116,10 +3116,10 @@
         ]
       },
       "rates": {
-        "rareChance": 6440,
+        "rareChance": 6970,
         "supaChance": 2500,
-        "uberChance": 1000,
-        "legendChance": 60
+        "uberChance": 500,
+        "legendChance": 30
       },
       "option": {
         "seriesID": 28,
@@ -3127,8 +3127,8 @@
       },
       "source": "bc.godfat.org (validated against PONOS)",
       "gameVersion": null,
-      "start_date": "2026-10-07",
-      "end_date": "2026-10-07",
+      "start_date": "2026-10-13",
+      "end_date": "2026-10-16",
       "image": {
         "sourceUrl": "https://static.wikitide.net/battlecatswiki/2/26/Gatya_bnr950.png",
         "sourcePage": "https://battlecats.miraheze.org/wiki/File:Gatya_bnr950.png",
