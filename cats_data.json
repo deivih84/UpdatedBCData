@@ -7431,7 +7431,7 @@
             "info": {
                 "rarity": "UR",
                 "name_basic": "Voli",
-                "names_evolved": "Volta / Gigavolta / 天雷の大精霊テラボルタ",
+                "names_evolved": "Volta / Gigavolta / Teravolta",
                 "obtain_method": "Rare Cat Capsule - Nature's Guardians ELEMENTAL PIXIES",
                 "evolution": {
                     "true_form": {
@@ -13157,7 +13157,7 @@
             "info": {
                 "rarity": "UR",
                 "name_basic": "Kenshin Himura",
-                "names_evolved": "Kenshin Himura CC / 不殺の流浪人・緋村剣心",
+                "names_evolved": "Kenshin Himura CC / Non-killing Wanderer Kenshin Himura",
                 "obtain_method": "Rare Cat Capsule - Rurouni Kenshin Collaboration",
                 "evolution": {
                     "true_form": {
@@ -14794,8 +14794,8 @@
         "877": {
             "info": {
                 "rarity": "UR",
-                "name_basic": "いなばの白うさぎ",
-                "names_evolved": "メガシャークVS白うさぎ / メガシャークVS白うさぎ",
+                "name_basic": "White Rabbit of Inaba",
+                "names_evolved": "Mega Shark vs White Rabbit / Mega Shark vs White Rabbit",
                 "obtain_method": "Rare Cat Capsule - Ultra Souls"
             },
             "stats": [
@@ -14806,8 +14806,8 @@
         "878": {
             "info": {
                 "rarity": "UR",
-                "name_basic": "悠久山安慈",
-                "names_evolved": "悠久山安慈CC / 悠久山安慈CC",
+                "name_basic": "Anji Yukyuzan",
+                "names_evolved": "Anji Yukyuzan CC / Anji Yukyuzan CC",
                 "obtain_method": "Rare Cat Capsule - Rurouni Kenshin Collaboration"
             },
             "stats": [
@@ -14818,8 +14818,8 @@
         "879": {
             "info": {
                 "rarity": "UR",
-                "name_basic": "瀬田宗次郎",
-                "names_evolved": "瀬田宗次郎CC / 瀬田宗次郎CC",
+                "name_basic": "Sojiro Seta",
+                "names_evolved": "Sojiro Seta CC / Sojiro Seta CC",
                 "obtain_method": "Rare Cat Capsule - Rurouni Kenshin Collaboration"
             },
             "stats": [
@@ -14830,8 +14830,8 @@
         "880": {
             "info": {
                 "rarity": "UR",
-                "name_basic": "志々雄真実",
-                "names_evolved": "志々雄真実CC / 志々雄真実CC",
+                "name_basic": "Makoto Shishio",
+                "names_evolved": "Makoto Shishio CC / Makoto Shishio CC",
                 "obtain_method": "Rare Cat Capsule - Rurouni Kenshin Collaboration"
             },
             "stats": [
@@ -14842,8 +14842,8 @@
         "881": {
             "info": {
                 "rarity": "LR",
-                "name_basic": "比古清十郎",
-                "names_evolved": "比古清十郎CC / 比古清十郎CC",
+                "name_basic": "Seijuro Hiko",
+                "names_evolved": "Seijuro Hiko CC / Seijuro Hiko CC",
                 "obtain_method": "Rare Cat Capsule - Rurouni Kenshin Collaboration"
             },
             "stats": [
