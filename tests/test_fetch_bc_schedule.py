@@ -72,6 +72,7 @@ class EventCapsuleResolutionTests(unittest.TestCase):
             rows = [{"start_date": "2026-10-05", "end_date": "2026-10-20",
                      "is_permanent": permanent, "entries": [
                          {"gacha_id": 65, "gacha_type": 0, "tsv_full": "Collect Catseyes!"},
+                         {"gacha_id": 3, "gacha_type": 0, "tsv_full": "Collect Catfruit!"},
                          {"gacha_id": 66, "tsv_name": "Special Capsules"},
                          festival_entry(1061, "Squire Luno added! Special Capsules featuring powerful limited units!",
                                         2600, 900)]} for permanent in (False, True)]

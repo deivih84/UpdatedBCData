@@ -88,7 +88,7 @@ de `all_gachas_en.json`; no pongas su ID en el cache de R.
 familia. Un ID desconocido con ese texto queda sin resolver. Los anuncios de N
 que mencionan expresamente Catseyes o Catfruit conservan sus nombres de cápsulas
 de objetos, en vez de identificarse como Summer Break.
-El calendario EN excluye Cats Eye Capsules y Special Capsules, tanto temporales
+El calendario EN excluye Cats Eye Capsules, Special Capsules y Catfruit Capsules, tanto temporales
 como permanentes. El filtro usa el nombre resuelto completo; no oculta Uberfest,
 Epicfest o Superfest por contener «Special Capsules» en su anuncio. Los eventos
 Cats Eye Cave y Cats Eye Caverns conservan su calendario.

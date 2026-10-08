@@ -431,7 +431,7 @@ FESTIVAL_RATE_SIGNATURES = {
 }
 SPECIAL_FESTIVAL_TEXT = "special capsules featuring powerful limited units"
 AMBIGUOUS_CAPSULE_NAMES = {"limited capsules"}
-HIDDEN_EN_CAPSULE_NAMES = {"cats eye capsules", "cat's eye capsules", "catseye capsules", "special capsules"}
+HIDDEN_EN_CAPSULE_NAMES = {"cats eye capsules", "cat's eye capsules", "catseye capsules", "special capsules", "catfruit capsules"}
 
 
 def _festival_rate_matches(name, entry):

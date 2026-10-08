@@ -161,13 +161,6 @@
       ]
     },
     {
-      "id": "catfruit_capsules_2026-10-17",
-      "nombre": "Catfruit Capsules",
-      "fecha_inicio": "2026-10-17",
-      "fecha_fin": "2026-10-29",
-      "caracteristicas": []
-    },
-    {
       "id": "galaxy_gals_2026-10-18",
       "nombre": "Galaxy Gals",
       "fecha_inicio": "2026-10-18",
@@ -294,5 +287,5 @@
       "fecha_fin": "2026-10-29"
     }
   ],
-  "ultima_actualizacion": "2026-10-08T17:58:14Z"
+  "ultima_actualizacion": "2026-10-08T19:41:48Z"
 }
