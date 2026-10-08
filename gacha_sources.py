@@ -21,6 +21,9 @@ RATE_FIELDS = ("rareChance", "supaChance", "uberChance", "legendChance")
 USER_AGENT = "UpdatedBCData/1.0 (https://github.com/deivih84/UpdatedBCData)"
 GAME_FILES = ("GatyaDataSetR1.csv", "unitbuy.csv", "GatyaData_Option_SetR.tsv")
 WIKIS = ("https://battlecats.miraheze.org/w/api.php", "https://battle-cats.fandom.com/api.php")
+# These unlabelled originals were visually verified as English. Other generic
+# wiki filenames can contain Japanese artwork even when the pool ID is EN.
+VERIFIED_EN_WIKI_BANNER_IDS = frozenset({174, 582, 640})
 
 
 def scheduled_events(tsv, today=None, horizon=180):
@@ -214,7 +217,9 @@ class BannerSource:
             pass
         suffix = "en" if self.region == "en" else "jp"
         def image_titles(image_id):
-            titles = [f"File:Gatya bnr{image_id} {suffix}.png", f"File:Gatya bnr{image_id}.png"]
+            titles = [f"File:Gatya bnr{image_id} {suffix}.png"]
+            if self.region == 'jp' or image_id in VERIFIED_EN_WIKI_BANNER_IDS:
+                titles.append(f"File:Gatya bnr{image_id}.png")
             if self.region == 'jp':
                 titles.insert(0, f"File:Gatya bnr{image_id} ja.png")
             return titles

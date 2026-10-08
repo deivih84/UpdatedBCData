@@ -42,6 +42,38 @@ class PoolSourceTests(unittest.TestCase):
 
 
 class ImageTests(unittest.TestCase):
+    def test_en_rejects_unlabelled_exact_banner_and_uses_labelled_img_id(self):
+        class Session:
+            headers = {}
+            def get(self, url, params=None, timeout=None):
+                response = requests.Response()
+                response.status_code = 403 if "ponos" in url else 200
+                if params and params.get("prop") == "imageinfo":
+                    data = {"query": {"pages": {
+                        "1": {"title": "File:Gatya bnr1061.png", "imageinfo": [
+                            {"url": "https://images/jp.png", "width": 860, "height": 240}]},
+                        "2": {"title": "File:Gatya bnr1033 en.png", "imageinfo": [
+                            {"url": "https://images/en.png", "width": 860, "height": 240}]}}}}
+                else:
+                    data = {"query": {"imageusage": []}}
+                response._content = json.dumps(data).encode()
+                return response
+        self.assertEqual(BannerSource(Session()).metadata(1061, {"imgID": 1033})["image_url"],
+                         "https://images/en.png")
+
+    def test_en_does_not_publish_unlabelled_banner_when_en_is_missing(self):
+        class Session:
+            headers = {}
+            def get(self, url, params=None, timeout=None):
+                response = requests.Response()
+                response.status_code = 403 if "ponos" in url else 200
+                data = {"query": {"pages": {"1": {
+                    "title": "File:Gatya bnr1077.png", "imageinfo": [
+                        {"url": "https://images/jp.png", "width": 860, "height": 240}]}}}}
+                response._content = json.dumps(data).encode()
+                return response
+        self.assertNotIn("image_url", BannerSource(Session()).metadata(1077))
+
     def test_html_error_page_cannot_be_published_as_banner(self):
         with self.assertRaises(ValueError):
             png_bytes(b"<html>Access denied</html>")
@@ -117,7 +149,7 @@ class ImageTests(unittest.TestCase):
                         response.status_code = 403 if "ponos" in url else 200
                         if params and params.get("prop") == "imageinfo":
                             data = {"query": {"pages": {"1": {
-                                "title": "File:Gatya bnr1071.png", "imageinfo": [
+                                "title": "File:Gatya bnr1071 en.png", "imageinfo": [
                                     {"url": "https://images/small.png", **dimensions}]}}}}
                         else:
                             data = {"query": {"imageusage": []}}
@@ -153,7 +185,7 @@ class ImageTests(unittest.TestCase):
                 if params and params.get("prop") == "imageinfo":
                     result._content = json.dumps({"query": {"pages": {
                         "1": {"title": "File:Gatya btn70.png", "imageinfo": [{"url": "https://images/series.png", "width": 860, "height": 240}]},
-                        "2": {"title": "File:Gatya bnr1077.png", "imageinfo": [{"url": "https://images/exact.png", "width": 860, "height": 240}]}}}}).encode()
+                        "2": {"title": "File:Gatya bnr1077 en.png", "imageinfo": [{"url": "https://images/exact.png", "width": 860, "height": 240}]}}}}).encode()
                 else:
                     result._content = json.dumps({"query": {"imageusage": [
                         {"title": "Best of the Best Milestone Edition (Gacha Event)/Gallery"}]}}).encode()
@@ -185,7 +217,7 @@ class ImageTests(unittest.TestCase):
                 result = requests.Response()
                 result.status_code = 403 if "ponos" in url else 200
                 if params and params.get("prop") == "imageinfo":
-                    data = {"query": {"pages": {"1": {"title": "File:Gatya bnr1077.png",
+                    data = {"query": {"pages": {"1": {"title": "File:Gatya bnr1077 en.png",
                             "imageinfo": [{"url": "https://images/exact.png", "width": 860, "height": 240}]}}}}
                 else:
                     data = {"query": {"imageusage": [{"title": "One (Gacha Event)"},

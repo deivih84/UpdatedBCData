@@ -892,10 +892,10 @@
       "start_date": "2026-10-16",
       "end_date": "2026-10-20",
       "image": {
-        "sourceUrl": "https://static.wikia.nocookie.net/battle-cats/images/9/92/Gatya_bnr1068.png/revision/latest?cb=20260705073428",
-        "sourcePage": "https://battle-cats.fandom.com/wiki/File:Gatya_bnr1068.png",
-        "sha256": "f930fbc65be39e6ec5e4b2eb891c90d5ef79b8bf02f26fc537b73bf8e310e9fd",
-        "file": "banner_en_1068_f930fbc65be39e6e.png"
+        "sourceUrl": "https://static.wikitide.net/battlecatswiki/2/23/Gatya_bnr1068_en.png",
+        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Gatya_bnr1068_en.png",
+        "sha256": "6830501bb396cf6501fd5a91aa9fc1d3cacf3f83350a26f0c8399119493643ae",
+        "file": "banner_en_1068_6830501bb396cf65.png"
       }
     },
     "1061": {
@@ -1089,10 +1089,10 @@
       "start_date": "2026-10-05",
       "end_date": "2026-10-09",
       "image": {
-        "sourceUrl": "https://static.wikia.nocookie.net/battle-cats/images/0/0c/Gatya_bnr1033.png/revision/latest?cb=20260104133337",
-        "sourcePage": "https://battle-cats.fandom.com/wiki/File:Gatya_bnr1033.png",
-        "sha256": "49c1603b02b9b8491284382ef621b8ceed7da49b77c1a06451151df472e5c8ed",
-        "file": "banner_en_1061_49c1603b02b9b849.png"
+        "sourceUrl": "https://static.wikitide.net/battlecatswiki/1/19/Gatya_bnr1033_en.png",
+        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Gatya_bnr1033_en.png",
+        "sha256": "72dbdcc4c1eca744132e4bf87fb68613499e7097d2bdf2239ad96b287c71dcb4",
+        "file": "banner_en_1061_72dbdcc4c1eca744.png"
       }
     },
     "1077": {
@@ -1192,10 +1192,10 @@
       "start_date": "2026-10-09",
       "end_date": "2026-10-16",
       "image": {
-        "sourceUrl": "https://static.wikia.nocookie.net/battle-cats/images/2/2f/Gatya_bnr1077.png/revision/latest?cb=20260830042354",
-        "sourcePage": "https://battle-cats.fandom.com/wiki/File:Gatya_bnr1077.png",
-        "sha256": "25421490b77f35342723d9827bf5848b85d8c1260738a0cd92b32c8398b6984b",
-        "file": "banner_en_1077_25421490b77f3534.png"
+        "sourceUrl": "https://static.wikitide.net/battlecatswiki/3/36/Gatya_bnr1077_en.png",
+        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Gatya_bnr1077_en.png",
+        "sha256": "4cf4ee9afc27b981e14341201f2c70dc998d6b93658dd876b453cd1ba38361f3",
+        "file": "banner_en_1077_4cf4ee9afc27b981.png"
       }
     },
     "1043": {

@@ -431,6 +431,7 @@ FESTIVAL_RATE_SIGNATURES = {
 }
 SPECIAL_FESTIVAL_TEXT = "special capsules featuring powerful limited units"
 AMBIGUOUS_CAPSULE_NAMES = {"limited capsules"}
+HIDDEN_EN_CAPSULE_NAMES = {"cats eye capsules", "cat's eye capsules", "catseye capsules", "special capsules"}
 
 
 def _festival_rate_matches(name, entry):
@@ -624,6 +625,8 @@ def main(argv=None):
                 continue
             canonical = _resolve_gacha_name(entry, by_id, alias_db, region=region)
             if canonical is None:
+                continue
+            if region == 'en' and canonical.casefold() in HIDDEN_EN_CAPSULE_NAMES:
                 continue
 
             if canonical in seen_names:

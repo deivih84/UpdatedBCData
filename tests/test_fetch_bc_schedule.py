@@ -63,6 +63,26 @@ class GachaEntryParsingTests(unittest.TestCase):
 
 
 class EventCapsuleResolutionTests(unittest.TestCase):
+    def test_en_calendar_hides_requested_capsules_but_keeps_festival_and_events(self):
+        with tempfile.TemporaryDirectory() as folder:
+            repo = Path(folder)
+            (repo / "all_gachas_en.json").write_text(json.dumps({"gachas": []}))
+            output = repo / "gachas_eventos_actualizados_en1.json"
+            output.write_text(json.dumps({"eventos": [{"nombre": "Cats Eye Cave"}]}))
+            rows = [{"start_date": "2026-10-05", "end_date": "2026-10-20",
+                     "is_permanent": permanent, "entries": [
+                         {"gacha_id": 65, "gacha_type": 0, "tsv_full": "Collect Catseyes!"},
+                         {"gacha_id": 66, "tsv_name": "Special Capsules"},
+                         festival_entry(1061, "Squire Luno added! Special Capsules featuring powerful limited units!",
+                                        2600, 900)]} for permanent in (False, True)]
+            with patch("bc_schedule_sources.download_schedule", return_value=("fixture", {"url": "fixture"})), \
+                 patch.object(schedule, "parse_gatya_tsv", return_value=rows), \
+                 patch.object(schedule, "_load_name_dbs", return_value=({1061: "Uberfest"}, {})):
+                schedule.main(["--repo", str(repo)])
+            result = json.loads(output.read_text())
+            self.assertEqual([g["nombre"] for g in result["gachas"]], ["Uberfest"])
+            self.assertEqual(result["eventos"], [{"nombre": "Cats Eye Cave"}])
+
     def test_id_lookup_is_scoped_to_capsule_type(self):
         with tempfile.TemporaryDirectory() as folder:
             catalog, cache = Path(folder) / "catalog.json", Path(folder) / "cache.json"

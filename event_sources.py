@@ -79,10 +79,13 @@ class EventWikiSource:
                 banner = explicit_banner or declared_banner(text)
                 if not banner or re.search(r'(?:\s|_)(?:ja|jp)\.', banner, re.I):
                     continue
-                # Prefer the EN original, never a thumbnail URL.
+                # A generic PageBanner can be Japanese. Only accept its EN
+                # variant, unless bannerFiles explicitly verifies the original.
                 candidates = [banner]
                 if not re.search(r'(?:\s|_)en\.', banner, re.I):
-                    candidates.insert(0, re.sub(r'(\.[^.]+)$', r' en\1', banner))
+                    candidates = [re.sub(r'(\.[^.]+)$', r' en\1', banner)]
+                    if explicit_banner:
+                        candidates.append(banner)
                 response = self.session.get(api, params={'action': 'query', 'format': 'json',
                     'prop': 'imageinfo', 'iiprop': 'url|size',
                     'titles': '|'.join('File:' + title for title in candidates)}, timeout=25)

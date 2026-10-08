@@ -40,13 +40,6 @@
       "caracteristicas": []
     },
     {
-      "id": "cats_eye_capsules_2026-10-05",
-      "nombre": "Cats Eye Capsules",
-      "fecha_inicio": "2026-10-05",
-      "fecha_fin": "2026-10-17",
-      "caracteristicas": []
-    },
-    {
       "id": "uberfest_2026-10-05",
       "nombre": "Uberfest",
       "fecha_inicio": "2026-10-05",
@@ -199,13 +192,6 @@
       ]
     },
     {
-      "id": "special_capsules_2021-05-03",
-      "nombre": "Special Capsules",
-      "fecha_inicio": "2021-05-03",
-      "fecha_fin": "2029-12-31",
-      "caracteristicas": []
-    },
-    {
       "id": "platinum_capsules_en_1071_2026-10-16",
       "nombre": "Platinum Capsules (EN #1071)",
       "fecha_inicio": "2026-10-16",
@@ -308,5 +294,5 @@
       "fecha_fin": "2026-10-29"
     }
   ],
-  "ultima_actualizacion": "2026-10-06T13:32:07Z"
+  "ultima_actualizacion": "2026-10-08T17:58:14Z"
 }

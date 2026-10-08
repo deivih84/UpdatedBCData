@@ -56,8 +56,13 @@ proceden de `GatyaData_Option_SetR.tsv`, no del número de pool. El siguiente ru
 actualiza los datos sin volver a preguntar.
 
 Las imágenes se buscan por ID exacto del banner e imgID en las APIs de
-Miraheze/Fandom, prefiriendo el archivo EN cuando existe; una imagen de otro
+Miraheze/Fandom, exigiendo el archivo EN; una imagen de otro
 banner no se elige por parecido del título.
+Los archivos sin idioma no sirven como alternativa automática para EN: pueden
+ser japoneses. Solo se admiten los originales 174 (Platinum), 640 (Legend) y
+582 (Dynastyfest), revisados visualmente como ingleses. Los carteles de eventos
+siguen la misma regla: un original sin idioma exige una selección explícita en
+`bannerFiles` de `event_sync_config.json`.
 Si esos archivos no existen, `seriesBannerIds` permite asociar explícitamente
 una serie con un banner completo de la wiki verificado previamente. Las series
 21 (Platinum), 46 (Legend) y 47 (Dynastyfest) usan los banners de sus páginas
@@ -83,6 +88,10 @@ de `all_gachas_en.json`; no pongas su ID en el cache de R.
 familia. Un ID desconocido con ese texto queda sin resolver. Los anuncios de N
 que mencionan expresamente Catseyes o Catfruit conservan sus nombres de cápsulas
 de objetos, en vez de identificarse como Summer Break.
+El calendario EN excluye Cats Eye Capsules y Special Capsules, tanto temporales
+como permanentes. El filtro usa el nombre resuelto completo; no oculta Uberfest,
+Epicfest o Superfest por contener «Special Capsules» en su anuncio. Los eventos
+Cats Eye Cave y Cats Eye Caverns conservan su calendario.
 
 En EN 15.6, E51 es Summer Break Cats Paradise (gatos 342, 375, 822, 870) y E55 es
 Download Celebration! (gatos 504, 726, 776), según `GatyaDataSetE1.csv`. Sus
