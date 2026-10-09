@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Curated source text retains its original spacing; parsers normalize on read.
+data/inputs/** whitespace=-blank-at-eol,-blank-at-eof
+scripts/legacy/*.txt whitespace=-blank-at-eol,-blank-at-eof

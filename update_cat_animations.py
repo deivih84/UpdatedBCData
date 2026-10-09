@@ -556,8 +556,9 @@ def apply_update(
 
 
 def _default_paths() -> tuple[Path, Path]:
-    repository = Path(__file__).resolve().parent
-    return repository, repository.parent / "BCData"
+    from workspace_paths import Workspace
+    workspace = Workspace.load()
+    return workspace.root, workspace.bcdata
 
 
 def _parser() -> argparse.ArgumentParser:

@@ -7,7 +7,8 @@ python sync_gacha_catalog.py
 python fetch_bc_schedule.py
 ```
 
-El script usa el último EN de `../BCData` cuando ese checkout está disponible.
+La configuración común se describe en [workspace.md](workspace.md). El script
+usa el BCData configurado, o el último EN de `../BCData` cuando está disponible.
 `--bcdata RUTA` permite indicarlo explícitamente. En GitHub, `--online` obtiene
 los pools de Godfat y comprueba que la página corresponde al evento solicitado,
 que las listas están completas y que las probabilidades coinciden con PONOS.

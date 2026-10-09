@@ -50,10 +50,11 @@ def run(args):
         tsv, provenance = download_schedule('gatya.tsv', direct, session=source.session, region=region)
         print('Schedule source: ' + provenance['url'], flush=True)
     events = scheduled_events(tsv, args.today)
+    from workspace_paths import Workspace, drawable_path
     local = args.bcdata
     if local is None and not args.online:
-        sibling = repository.parent / "BCData"
-        if (sibling / "latest.txt").is_file():
+        sibling = Workspace.load(repository).catalog_bcdata(require_latest=True)
+        if sibling is not None and (sibling / "latest.txt").is_file():
             local = sibling
     pool_pending = []
     if local is not None:
@@ -118,9 +119,7 @@ def run(args):
         if str(gid) not in state["banners"] and str(gid) in cache:
             state["banners"][str(gid)] = {"name": cache[str(gid)], "family": cache[str(gid)],
                                          "start_date": "2000-01-01", "option": game.get("options", {}).get(gid, {})}
-    drawables = args.app_drawables
-    if drawables is None and config.get("appDrawables") and os.name == "nt":
-        drawables = Path(config["appDrawables"])
+    drawables = drawable_path(repository, args.app_drawables, config.get("appDrawables"))
     outputs = plan_images(catalog, state, metadata, source.image, repository,
                           config["publicImageBase"], report, drawables, today=args.today, region=region)
     report["missingImages"] = [b["nombre"] for b in catalog["gachas"]

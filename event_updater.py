@@ -100,7 +100,13 @@ def run(args):
     rows = events.parse_sale_tsv(content, today=args.today)
     if not rows:
         raise ValueError('No current/upcoming event rows; previous data retained')
-    index, warnings = load_event_index(previous_index, source.session, bcdata=args.bcdata, online=args.online)
+    from workspace_paths import Workspace, drawable_path
+    workspace = Workspace.load(repo)
+    resolved = workspace.catalog_bcdata(online=args.online)
+    bcdata = args.bcdata if args.bcdata is not None else (resolved or workspace.bcdata)
+    if args.bcdata is not None and not args.bcdata.is_dir():
+        raise FileNotFoundError(f'Explicit BCData does not exist: {args.bcdata}')
+    index, warnings = load_event_index(previous_index, source.session, bcdata=bcdata, online=args.online)
     aliases, ids = {}, {}
     for event in catalog['events']:
         for name in [event['nombre']] + event.get('aliases', []):
@@ -129,9 +135,7 @@ def run(args):
                 continue
             print('Event poster: ' + name, flush=True)
             metadata[name] = source.metadata(name, event, config)
-    drawables = args.app_drawables
-    if drawables is None and os.name == 'nt' and config.get('appDrawables'):
-        drawables = Path(config['appDrawables'])
+    drawables = drawable_path(repo, args.app_drawables, config.get('appDrawables'))
     catalog, state, schedule, outputs, report = plan_events(catalog, state, rows, index['names'],
         metadata, source.image, repo, config['publicImageBase'], drawables=drawables, image_overrides=image_overrides)
     report['sources'] = {'schedule': provenance, 'names': {'version': index['version'], 'source': index['source']}}

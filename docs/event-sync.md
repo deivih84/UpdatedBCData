@@ -1,5 +1,8 @@
 # Mantenimiento automático de eventos EN
 
+Las rutas de BCData y drawables se configuran en [workspace.md](workspace.md).
+CatStats es opcional y el mismo destino configurado funciona en Windows/Linux.
+
 ```powershell
 pip install -r requirements-gacha-sync.txt
 python fetch_bc_events.py --dry-run

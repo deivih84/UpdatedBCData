@@ -1,3 +1,5 @@
+> Documento histórico: las rutas y copias externas de este plan ya no son el flujo vigente. Consultar README.md, AGENTS.md y docs/workspace.md antes de ejecutar comandos.
+
 # Battle Cats Animation Update Pipeline Implementation Plan
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.

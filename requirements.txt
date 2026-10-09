@@ -1,0 +1,7 @@
+# Complete data maintenance; the scheduled online job retains its smaller entrypoint.
+-r requirements-gacha-sync.txt
+pandas>=2.2,<3
+lxml>=5,<7
+cloudscraper>=1.2,<2
+# Newer Qt5 bundle releases have Linux wheels only; retain the Windows bundle.
+PyQt5-Qt5==5.15.2; sys_platform == "win32"

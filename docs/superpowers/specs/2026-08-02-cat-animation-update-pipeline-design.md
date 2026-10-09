@@ -1,3 +1,5 @@
+> Documento histórico: las rutas y copias externas de este plan ya no son el flujo vigente. Consultar README.md, AGENTS.md y docs/workspace.md antes de ejecutar comandos.
+
 # Battle Cats Animation Update Pipeline Design
 
 **Date:** 2026-08-02

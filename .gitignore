@@ -1,5 +1,5 @@
-bot_updater_events.py
-bot_updater_gachas.py
+/bot_updater_events.py
+/bot_updater_gachas.py
 gatya_raw.tsv
 __pycache__/
 *.pyc
@@ -9,3 +9,15 @@ __pycache__/
 .event_sync_run.json
 
 .gacha_sync_run_jp.json
+
+# Portable workspace: local settings, sources and generated intermediates.
+workspace.local.json
+workspace/
+.venv*/
+.env
+.env.*
+!.env.example
+.superpowers/
+.worktrees/
+*.log
+*.tmp

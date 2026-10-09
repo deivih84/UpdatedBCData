@@ -45,7 +45,8 @@ except ImportError:
 
 GODFAT_BASE = "https://bc.godfat.org"
 TSV_URL = "https://bc-seek.godfat.org/seek/en/gatya.tsv"
-ALL_GACHAS_FILE = "all_gachas_en.json"
+from pathlib import Path
+ALL_GACHAS_FILE = str(Path(__file__).resolve().parent / "all_gachas_en.json")
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; gacha-updater/1.0)"}
 

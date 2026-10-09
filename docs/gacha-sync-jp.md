@@ -1,5 +1,8 @@
 # Mantenimiento automático de gachas JP
 
+Configurar BCData/drawables mediante [workspace.md](workspace.md); no se
+requieren rutas personales ni un checkout de la app para generar el catálogo.
+
 ```powershell
 pip install -r requirements-gacha-sync.txt
 python sync_gacha_catalog.py --region jp --dry-run

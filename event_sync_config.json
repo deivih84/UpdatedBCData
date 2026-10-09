@@ -3,7 +3,7 @@
   "wikiPages": {},
   "bannerFiles": {},
   "publicImageBase": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/",
-  "appDrawables": "C:/Users/forex/StudioProjects/CatStats/app/src/main/res/drawable",
+  "appDrawables": null,
   "imageOverrides": {
     "Gigahaniwan Strikes!": "event_gigahaniwan.png",
     "Le'Grim Strikes": "event_le_grim.png",

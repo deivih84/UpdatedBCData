@@ -48,18 +48,8 @@ def _version_key(path: Path):
 
 
 def discover_bcdata_root() -> Optional[Path]:
-    env_root = os.environ.get("BCDATA_DIR")
-    candidates = []
-    if env_root:
-        candidates.append(Path(env_root))
-    candidates.extend([
-        SCRIPT_DIR.parent / "BCData",
-        Path.home() / "Documents" / "GitHub" / "BCData",
-    ])
-    for candidate in candidates:
-        if candidate.exists():
-            return candidate
-    return None
+    from workspace_paths import Workspace
+    return Workspace.load(SCRIPT_DIR).catalog_bcdata()
 
 
 def discover_bcdata_version_dir(root: Path) -> Optional[Path]:

@@ -1,0 +1,850 @@
+--- Cow Cat ---
+0,4
+0,4
+0,4
+--- Superfeline ---
+65,24
+65,24
+0,67
+--- Cats in a Box ---
+0,93
+0,93
+0,93
+--- Bahamut Cat ---
+479,30
+479,30
+0,73
+--- Idi:N ---
+0,137
+0,137
+0,137
+--- Filibuster Cat X ---
+219,86
+219,86
+0,86
+--- Jagando Jr. ---
+0,43
+0,43
+--- Ancient Egg: N112 ---
+439,44
+439,44
+0,8344
+--- Mecha-Bun ---
+0,12
+0,11
+0,13
+--- Elder Mask Doron ---
+0,56
+0,56
+0,56
+--- Master of Mind Soractes ---
+0,9
+0,9
+--- Masked Yulala ---
+0,22
+0,22
+0,22
+--- Crazed Moneko ---
+0,42
+0,42
+--- Lieutenant Cat ---
+0,194
+0,194
+--- Barista Cat ---
+0,10
+0,10
+--- Capsule Cat ---
+0,220
+0,220
+--- Li'l Cow Cat ---
+0,4
+0,4
+0,4
+--- Farmer Cat ---
+0,31
+0,31
+--- Tomboy Lion Cat ---
+0,4
+0,4
+--- Undead Cat ---
+0,62
+0,44
+0,45
+--- Scarf Cat ---
+0,12
+0,12
+--- Gacha Cat ---
+0,9
+0,9
+--- Wafer Cat ---
+0,32
+0,55
+--- Choco Capsule ---
+0,85
+0,85
+--- Stealth Cat ---
+0,7991
+0,8011
+--- Kerihime ---
+0,177
+0,177
+0,177
+--- Type 10 ---
+0,25
+0,25
+--- Clone Elle ---
+0,51
+0,51
+--- Merc ---
+0,200
+0,200
+0,158
+--- Tutorial Cat ---
+0,30
+0,30
+--- Nubobo ---
+0,61
+0,61
+--- Sheria - Kirin ---
+0,38
+0,35
+--- Kirin Cat ---
+29,10
+0,4
+--- Pochi ---
+0,47
+0,47
+--- White Cat ---
+0,61
+79,34
+--- Fortressy ---
+0,74
+0,74
+--- Happy 100 ---
+0,37
+0,37
+--- Gudetama Cat ---
+0,42
+0,42
+0,42
+--- Saber the Cat ---
+0,21
+0,21
+0,21
+--- Shirou the Cat ---
+0,22
+0,22
+--- Satori Hikami & Cat ---
+0,30
+0,30
+--- Honeyto-kun ---
+0,25
+0,25
+--- Gendo & Fuyutsuki Cats ---
+0,38
+0,38
+--- Nekokkuma ---
+0,6
+0,6
+--- Shakurel Lion ---
+0,9
+0,9
+--- Chun-Li Cat ---
+0,51
+0,51
+--- Cat Giraffe Modoki ---
+0,4
+0,4
+--- Baki Cat ---
+0,77
+0,77
+--- Kaioh Cat ---
+0,123
+0,123
+--- Nezuko Cat ---
+0,46
+129,31
+--- Neko-Musume Cat ---
+0,-85
+0,-85
+--- Cat Gunslinger ---
+0,77
+0,77
+0,79
+--- Rocker Cat ---
+0,5
+0,5
+0,5
+--- Psychocat ---
+39,38
+39,38
+0,29
+--- Gardener Cat ---
+0,8
+0,8
+0,8
+--- Matador Cat ---
+0,52
+0,52
+0,52
+--- Wushu Cat ---
+0,19
+0,19
+0,19
+--- Vacation Queen ---
+119,33
+107,21
+0,36
+--- Bronze Cat ---
+39,38
+39,38
+0,115
+--- Drumcorps Cat ---
+39,41
+39,41
+0,30
+--- Volley Cat ---
+0,36
+0,36
+0,36
+--- Aku Researcher ---
+29,8
+29,8
+0,8
+--- Curling Cat ---
+0,7998
+0,8004
+0,7998
+--- Summon 19 ---
+0,8000
+--- Summon 20 ---
+0,8000
+--- Summon 21 ---
+0,8000
+--- Summon 22 ---
+0,8000
+--- Summon 23 ---
+0,8000
+--- Summon 24 ---
+0,8000
+--- Summon 25 ---
+0,8000
+--- Summon 26 ---
+0,8000
+--- Elder Mask Doron ---
+0,8000
+0,8000
+0,8000
+--- Glass Cat ---
+0,300
+0,300
+0,300
+--- Mightycat ---
+0,150
+0,150
+0,150
+--- Stone Cat ---
+0,400
+0,400
+--- Cossack Cat ---
+0,10
+0,10
+0,10
+--- Rugby Cat ---
+0,86
+0,86
+0,86
+--- A Gift of Cats ---
+0,93
+35,90
+--- Killer Cowbird Cat ---
+0,55
+0,55
+--- Droid Cat ---
+0,243
+0,243
+0,243
+--- Cow Princess ---
+0,4
+0,4
+--- Olga ---
+0,25
+0,25
+--- Dragon League Swordsman ---
+0,9
+79,12
+--- MARS PEOPLE ---
+0,19
+0,19
+--- Pretty Cat ---
+0,25
+0,25
+0,25
+--- Funghi ---
+0,61
+119,61
+--- Futenyan ---
+0,39
+0,39
+--- PIKOTARO ---
+0,79
+0,79
+--- Sakura the Cat ---
+0,19
+0,19
+0,19
+--- Akio Yabe ---
+0,25
+0,25
+0,34
+--- Misaki Konno ---
+0,37
+0,37
+--- Ren Katagiri ---
+0,15
+0,15
+--- Mentori ---
+0,4
+0,4
+--- Giraffe Unit-01 ---
+0,4
+0,4
+--- Asuka Cat ---
+0,32
+0,45
+--- Mari Cat ---
+0,81
+0,41
+--- Ovis ---
+0,54
+0,54
+--- Coco ---
+0,47
+0,47
+--- Betakkuma ---
+0,2
+0,2
+--- Prince Yamato ---
+0,129
+0,129
+0,129
+--- HAPPI ---
+0,200
+0,200
+0,200
+--- Akuma Giraffe ---
+0,12
+0,12
+--- Sagat Cat ---
+0,13
+0,13
+--- Neko Len ---
+0,84
+0,82
+--- Mollyanna Cat ---
+0,22
+0,22
+--- Kenshin Cat ---
+0,35
+0,35
+--- Sonic Cat ---
+0,51
+59,8
+--- Nerd Cat ---
+0,169
+0,169
+0,169
+--- Kotatsu Cat ---
+0,9
+0,9
+0,21
+--- Swimmer Cat ---
+0,100
+0,100
+0,100
+--- Bodhisattva Cat ---
+0,29
+0,29
+0,29
+--- Juliet Cat ---
+0,15
+0,15
+0,15
+--- Weightlifter Cat ---
+0,103
+0,103
+0,103
+--- Vaulter Cat ---
+0,121
+0,121
+0,121
+--- Cutter Cat ---
+0,120
+0,120
+0,120
+--- Backhoe Cat ---
+0,44
+0,44
+0,44
+--- Miter Saw Cat ---
+0,8
+0,8
+0,8
+--- Good-Luck Ebisu ---
+0,36
+0,36
+--- Brainwashed Cow Cat ---
+0,4
+0,4
+0,4
+--- Crazed Cow Cat ---
+0,4
+0,4
+0,4
+--- Crazed Titan Cat ---
+0,34
+0,34
+0,34
+--- Catornado ---
+0,5
+0,5
+0,5
+--- Express Cat ---
+0,200
+0,200
+0,200
+--- Aura ---
+0,65
+0,65
+--- Rei ---
+0,39
+0,39
+--- Orthos ---
+75,25
+71,24
+0,35
+--- Otaku Geek Cat ---
+0,169
+0,169
+--- Kyubey ---
+0,25
+0,25
+--- Belial ---
+0,65
+0,65
+--- Gudegude Pudding ---
+0,81
+0,81
+--- C. Honda ---
+0,13
+0,13
+--- Zangief Cat ---
+0,143
+0,143
+--- Li'l Yahiko ---
+0,123
+0,123
+--- Cat Clan Heroes ---
+0,208
+0,208
+0,208
+0,188
+--- Cat Tengu ---
+0,65
+0,65
+0,65
+--- Sanada Yukimura ---
+0,129
+0,129
+0,129
+--- Akechi Mitsuhide ---
+0,136
+0,136
+0,136
+--- Fuma Kotaro ---
+0,121
+0,121
+--- Kalisa ---
+0,111
+0,111
+0,111
+--- Twinstars ---
+0,39
+0,39
+0,39
+--- Ganglion ---
+0,217
+0,217
+0,217
+--- Kachi-Kachi ---
+0,16
+109,44
+109,44
+--- Shitakiri Sparrow ---
+49,27
+0,56
+0,56
+--- Issun Boshi ---
+0,126
+0,126
+0,126
+--- Detective Vigler ---
+0,191
+0,191
+0,191
+0,211
+--- Thunder Jack ---
+0,18
+0,18
+0,18
+--- Wrathful Poseidon ---
+0,168
+0,168
+0,170
+--- Hades the Punisher ---
+0,16
+0,16
+0,16
+--- Lightmother Aset ---
+0,32
+0,32
+0,32
+--- Victorious Skanda ---
+0,296
+0,296
+--- Mighty Rekon Korps ---
+0,81
+0,81
+0,81
+--- Mighty Thermae D-Lux ---
+0,73
+0,73
+0,73
+0,73
+--- Mighty Deth-Troy-R ---
+0,81
+0,81
+0,81
+--- Mighty Sphinx Korps ---
+0,126
+0,126
+0,126
+--- Wolfchild Deale ---
+75,31
+75,31
+0,31
+--- Komori ---
+0,85
+0,85
+--- White Butler Vigler ---
+0,191
+0,191
+--- Floral Kalisa ---
+0,114
+0,114
+--- Tropical Kalisa ---
+0,114
+0,114
+--- Count Yukimura ---
+0,129
+0,129
+0,129
+--- Snow Angel Twinstars ---
+0,39
+0,39
+--- Hell Warden Emma ---
+0,61
+0,61
+0,61
+--- Miko Mitama ---
+0,136
+0,136
+--- D'artanyan ---
+0,86
+0,76
+--- Kasli the Scourge ---
+0,155
+0,116
+--- Iz the Dancer ---
+0,51
+0,51
+--- Child of Destiny Phono ---
+0,126
+0,126
+--- Celestial Child Luna ---
+0,106
+0,121
+--- Dark Mitama ---
+0,136
+0,136
+--- D'arktanyan ---
+0,76
+0,76
+--- Kasli the Bane ---
+0,116
+0,119
+--- Iz the Dancer of Grief ---
+0,51
+0,51
+--- King of Doom Phono ---
+0,126
+0,126
+--- Netherworld Nymph Lunacia ---
+0,121
+0,121
+--- Trixi the Merc ---
+0,8
+0,8
+--- Agent Staal ---
+0,8
+0,8
+--- Homura Akemi ---
+169,46
+169,51
+0,141
+--- Madoka Cat & Homura ---
+49,27
+0,56
+--- Saber ---
+0,55
+0,55
+0,54
+--- EVA Unit-01 ---
+0,91
+0,91
+0,91
+--- Night Oracle Rei ---
+0,136
+0,136
+--- One-Eyed Asuka ---
+0,116
+0,116
+--- EVA Unit-13 ---
+0,76
+0,76
+--- Ryu ---
+0,39
+0,39
+0,35
+--- Chun-Li ---
+0,15
+0,15
+--- Blanka ---
+0,88
+0,88
+--- E. Honda ---
+0,88
+0,88
+--- Megurine Luka ---
+0,51
+0,51
+--- Ryoga Hibiki ---
+0,110
+157,48
+--- High School Kingpin Riki ---
+53,4
+0,115
+--- Hajime Saito ---
+0,128
+0,128
+--- Baki Hanma ---
+0,56
+0,56
+--- Retsu Kaioh ---
+0,111
+0,111
+--- Sonic ---
+0,176
+0,176
+--- Knuckles ---
+0,24
+0,24
+--- Shadow ---
+0,30
+0,30
+--- God of War - Odin ---
+0,53
+0,53
+--- Wonder MOMOCO ---
+0,101
+0,101
+--- Legeluga ---
+143,24
+0,100
+--- Musashi Miyamoto ---
+0,34
+0,34
+0,34
+--- Headmistress Jeanne ---
+0,39
+0,39
+--- Kyosaka Nanaho ---
+0,43
+0,43
+--- Homura Akemi ---
+169,46
+169,51
+0,141
+--- Madoka Cat & Homura ---
+49,27
+0,56
+--- Saber ---
+0,55
+0,55
+0,54
+--- True Assassin ---
+0,60
+0,60
+--- EVA Unit-01 ---
+0,91
+0,91
+0,91
+--- Night Oracle Rei ---
+0,136
+0,136
+--- One-Eyed Asuka ---
+0,116
+0,116
+--- EVA Unit-13 ---
+0,76
+0,76
+--- Ryu ---
+0,39
+0,39
+0,35
+--- Chun-Li ---
+0,15
+0,15
+--- Blanka ---
+0,88
+0,88
+--- E. Honda ---
+0,88
+0,88
+--- Megurine Luka ---
+0,51
+0,51
+--- Ryoga Hibiki ---
+0,110
+157,48
+--- High School Kingpin Riki ---
+53,4
+0,115
+--- Hajime Saito ---
+0,128
+0,128
+--- Baki Hanma ---
+0,56
+0,56
+--- Retsu Kaioh ---
+0,111
+0,111
+--- Sonic ---
+0,176
+0,176
+--- Knuckles ---
+0,24
+0,24
+--- Shadow ---
+0,30
+0,30
+--- Shinobu Kocho ---
+0,84
+0,84
+--- Battle God Odin ---
+0,53
+0,53
+--- Wonder MOMOCO ---
+0,101
+0,101
+--- Legeluga ---
+143,24
+0,100
+--- Musashi Miyamoto ---
+0,34
+0,34
+0,34
+--- Jeanne ---
+0,39
+0,39
+0,39
+--- Kyosaka Nanaho ---
+0,43
+0,43
+--- 風魔小太郎 ---
+0,121
+0,121
+--- Pac-Man ---
+0,9
+0,9
+--- Catman ---
+209,91
+209,91
+209,91
+0,116
+--- Hatsune Miku: MM2020 Osaka ---
+0,44
+0,44
+--- Ancient Egg: N201 ---
+439,44
+439,44
+0,40
+--- Ancient Egg: N105 ---
+439,44
+439,44
+0,37
+--- Ancient Egg: N110 ---
+439,44
+439,44
+0,21
+--- Metal Maiden Koneko ---
+0,27
+0,14
+--- Summon 1 ---
+0,8000
+--- Summon 2 ---
+0,8000
+--- Summon 3 ---
+0,8000
+--- Summon 4 ---
+0,8000
+--- Summon 5 ---
+0,8000
+--- Summon 6 ---
+0,8000
+--- Summon 7 ---
+0,8000
+--- Summon 8 ---
+0,8000
+--- Summon 9 ---
+0,8000
+--- Summon 10 ---
+0,8000
+--- Summon 11 ---
+0,8000
+--- Summon 12 ---
+0,8000
+--- Summon 13 ---
+0,8000
+--- Summon 14 ---
+0,8000
+--- Summon 15 ---
+0,8000
+--- Summon 16 ---
+0,8000
+--- Summon 17 ---
+0,8000
+--- Summon 18 ---
+0,8000
+--- 875-1 ---
+0,8000
+--- Kenshin Himura ---
+86,71
+86,71
+0,235
+--- 756-1 ---
+0,45
+--- いなばの白うさぎ ---
+0,55
+0,150
+0,150

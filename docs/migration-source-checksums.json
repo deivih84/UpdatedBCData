@@ -1,0 +1,150 @@
+[
+  {
+    "source": "Automatizacion/actualizar_cats_info.py",
+    "sha256": "c33e64c92939d2fbbb4503f7064b891193bdc0ae7cda09bc73b9ed366e071f2f"
+  },
+  {
+    "source": "Automatizacion/actualizar_combo_data.py",
+    "sha256": "e1bbf339f6e1db998156cef61935a52528d6a7c4fe403c98f12bbb3b982b72ea"
+  },
+  {
+    "source": "Automatizacion/actualizar_descripciones.py",
+    "sha256": "cd2f51407516a956a58ccabb940ac0223934ca5a41a1cd8f574c2a6b15327030"
+  },
+  {
+    "source": "Automatizacion/actualizar_descripciones_enemigos.py",
+    "sha256": "65a881e99fed534f18d42e6fa38d8d0980d7e697aef3728656c0ab4dd3821ddf"
+  },
+  {
+    "source": "Automatizacion/actualizar_enemies.py",
+    "sha256": "51233fb502666082903df6358cbddbcf72af801f3390a549d1607ee893bb3b0a"
+  },
+  {
+    "source": "Automatizacion/actualizar_evolution_costs.py",
+    "sha256": "d1fd5ecb0e9f677f0432f39b625ea651ad1c06532739026ab69c6400b0166a50"
+  },
+  {
+    "source": "Automatizacion/actualizar_imagenes.py",
+    "sha256": "85b1b6b5d94402e75a53821d386701b62ff5b64ef939b7736311fa5956c5cd23"
+  },
+  {
+    "source": "Automatizacion/actualizar_names.py",
+    "sha256": "68bcfc49860d2940689c2af9232cb3e91cea84b26048f5bf057eecabe4706db7"
+  },
+  {
+    "source": "Automatizacion/actualizar_names_enemigos.py",
+    "sha256": "5130557a7b73cb47421aa8772a654571a19677e038b2f0edee69bbffa5451ed4"
+  },
+  {
+    "source": "Automatizacion/actualizar_talentos.py",
+    "sha256": "a45f0e7fe11ee973c8d6f30574b0be5c85e6cdb781b206814a9d5c3c5770b019"
+  },
+  {
+    "source": "Automatizacion/backswings.py",
+    "sha256": "d35a9edb1f6bd0cb881bf87d43507a4ab3fe2ea3cdacd081bf59d40c8afa732c"
+  },
+  {
+    "source": "Automatizacion/enemy_backswings.py",
+    "sha256": "3253a634bc561256d39afc5759a82f8f8a184d79756c7f7caac8b4fbb7941657"
+  },
+  {
+    "source": "Automatizacion/test_actualizar_cats_info.py",
+    "sha256": "8233882821fd04ac7cad41123f5b1f26447d794e1102a0f185c648150428f603"
+  },
+  {
+    "source": "Automatizacion/test_update_all.py",
+    "sha256": "48e060943f9922e828b89d27805b303041a97c366f7bd4d5bdefa64a1e86fc0c"
+  },
+  {
+    "source": "Automatizacion/update_all.py",
+    "sha256": "a603d7a1e1d1e616ed02b478cd454531cbc2615b841151704d14b62c93aa4132"
+  },
+  {
+    "source": "Automatizacion/images/cambiarnombrescompose.py",
+    "sha256": "be988403587b51759dc85d2e9a546ef8c9ce4940cd7f4f881a1ddf366405db06"
+  },
+  {
+    "source": "Automatizacion/images/redimensionarcatunits.py",
+    "sha256": "c9fdc77211f2c6d8b13475bde49c17867412d51cef2540b45cbdb73a2b9f5824"
+  },
+  {
+    "source": "Automatizacion/images/uni196_u00.png",
+    "sha256": "9807e88248f35f044193787130813d4f1aa87bb263f857f0ca9d63d531aba922"
+  },
+  {
+    "source": "Automatizacion/images/uni733_s00.png",
+    "sha256": "b88550f1f5f05c798eb7d729b3cdf3d061ad67b6f71bdb61f67ea968ebf7e9fa"
+  },
+  {
+    "source": "Automatizacion/images/uni873_c00.png",
+    "sha256": "a58905c6cc3d98c1ada6a1702fb0b6adc5e3f1df2c11b1745fc96c51b705778e"
+  },
+  {
+    "source": "Automatizacion/images/uni873_f00.png",
+    "sha256": "08f885554619f32768b681d0af9b24b6c2c567463e43598049d7d0bf409040c3"
+  },
+  {
+    "source": "Automatizacion/images/uni874_c00.png",
+    "sha256": "7d8cb1e9b05f9bcb5e57d0e2ef51db25051390a3472c68dd67881aa7fd5c291d"
+  },
+  {
+    "source": "Automatizacion/images/uni874_f00.png",
+    "sha256": "3ebeb86b204940ee2abf23dff3d756b79f3bb32ee805a85d5179d0df7124778b"
+  },
+  {
+    "source": "Automatizacion/Pruebas gatchas/gatchas.txt",
+    "sha256": "a54165608680b11bdeabcc9f0757d35d3d9a499dcba03bf5f04e668c34dc8c34"
+  },
+  {
+    "source": "Automatizacion/Pruebas gatchas/mapear_gatchas.py",
+    "sha256": "5d9b7c4279835de027e0217d6cacd3e436659324bc79300a155f1cb7f20f3626"
+  },
+  {
+    "source": "Automatizacion/Pruebas gatchas/names.txt",
+    "sha256": "ec4f63cb597efa8cf46a975b068fa44d40d9517c08c802d8078c5fa8b0ffc4eb"
+  },
+  {
+    "source": "CatStats/scripts/audit_backswings.py",
+    "sha256": "3e80fecd40032ab4fe9a94a8626696c332510bb49bb590e13f32c5dc2b1a5ada"
+  },
+  {
+    "source": "CatStats/scripts/build_enemies_json.py",
+    "sha256": "cada02dca124be688eefc11cf183d1340739d771cfba08868ec2ff897385082a"
+  },
+  {
+    "source": "CatStats/scripts/build_update_summary.py",
+    "sha256": "42549c728bf49c6dc0f8e66dd012988a6dfd32e4577af746022c450185efd942"
+  },
+  {
+    "source": "CatStats/scripts/package_unit_animations.py",
+    "sha256": "9947a331e33810ed5719403b5c6b0b4f5d2404ec8ac906a213fc5ee1d1408067"
+  },
+  {
+    "source": "CatStats/scripts/parse_stages.py",
+    "sha256": "a4681143e4c2ef05826390883db2ed3bb905abc3162871c3ac04e2ea9fa3bb4a"
+  },
+  {
+    "source": "CatStats/scripts/test_medals_parser.py",
+    "sha256": "d2c341250b7df151eb071314de217b5bac1d95a793abfc118738628072462f48"
+  },
+  {
+    "source": "CatStats/scripts/test_parse_stages_mapping.py",
+    "sha256": "5461f54ed8ea83cdedeedcbe845a6a8b01dc8773ffd8c010bf54c632bf474ab0"
+  },
+  {
+    "source": "CatStats/scripts/update_medals.py",
+    "sha256": "eaa7151b95b566094a40638024c46d55dd474ebc583f5053bf02d87ee6721dfb"
+  },
+  {
+    "source": "CatStats/scripts/update_summary_core.py",
+    "sha256": "e87b8b9c19dcd6cf2df1e9b42aba760822862082fecee2e2af5787d5d3279885"
+  },
+  {
+    "source": "CatStats/scripts/validate_cats_data.py",
+    "sha256": "670a8dbf984fb45e1f3804b88b6671234e70ba6e782afd11f58681c5cf9fca9d"
+  },
+  {
+    "source": "CatStats/scripts/verify_release_resources.py",
+    "sha256": "71cffe0834a80d41f1eb2eb31bef8d2a45a39086a2d2c28594e74aa404f22b77"
+  }
+]

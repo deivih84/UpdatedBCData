@@ -1,0 +1,37 @@
+name: Validate portable workspace
+
+on:
+  push:
+    paths:
+      - '**.py'
+      - 'requirements*.txt'
+      - '**config*.json'
+      - 'workspace.example.json'
+      - 'data/inputs/**'
+      - '.github/workflows/validate_workspace.yml'
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  validate:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-lock.txt
+      - name: Qt import libraries on Linux
+        if: runner.os == 'Linux'
+        run: sudo apt-get update && sudo apt-get install -y libgl1 libegl1
+      - run: python -m pip install -r requirements-lock.txt
+      - run: python check_project.py
+      - run: python update_all.py --list
+      - run: python -m unittest discover -s tests -p "test_*.py" -v
