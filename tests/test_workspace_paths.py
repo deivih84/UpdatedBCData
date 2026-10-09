@@ -10,7 +10,9 @@ class WorkspacePathsTests(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory(prefix='portable workspace ')
         self.addCleanup(self.tmp.cleanup)
-        self.root = Path(self.tmp.name)
+        # Windows TEMP can use an 8.3 alias (RUNNER~1); compare canonical paths
+        # just as Workspace.load does, including when a parent is a symlink.
+        self.root = Path(self.tmp.name).resolve()
 
     def config(self, value):
         (self.root / 'workspace.local.json').write_text(json.dumps(value), encoding='utf-8')
