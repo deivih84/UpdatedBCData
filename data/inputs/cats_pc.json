@@ -1,0 +1,2990 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-09",
+  "entries": [
+    {
+      "source_id": "901",
+      "status": "catalog_only",
+      "info": {
+        "platform": "pc",
+        "source_id": "901",
+        "source_url": "https://battle-cats.fandom.com/wiki/Bun_Bun_Monger_Prototype_%28PC_Special_Cat%29",
+        "rarity": "EX",
+        "name_basic": "Bun Bun Monger Prototype",
+        "names_evolved": "Bun Bun Monger Iron / Bun Bun Monger Devil",
+        "obtain_method": "PC registration gift; unlock from Cat Storage after clearing Fukuoka."
+      },
+      "forms": [
+        {
+          "code": "f",
+          "name": "Bun Bun Monger Prototype",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 500,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Bun_Bun_Monger_Prototype_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 100,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Bun_Bun_Monger_Prototype_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 200,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Bun_Bun_Monger_Prototype_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 23,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Bun_Bun_Monger_Prototype_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 3,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Bun_Bun_Monger_Prototype_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 90,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Bun_Bun_Monger_Prototype_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "foreswing",
+              "value": 20,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Bun_Bun_Monger_Prototype_%28PC_Special_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "-",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Bun_Bun_Monger_Prototype_%28PC_Special_Cat%29"
+            }
+          ]
+        },
+        {
+          "code": "c",
+          "name": "Bun Bun Monger Iron",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 17000,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Bun_Bun_Monger_Prototype_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 3400,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Bun_Bun_Monger_Prototype_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 200,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Bun_Bun_Monger_Prototype_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 23,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Bun_Bun_Monger_Prototype_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 3,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Bun_Bun_Monger_Prototype_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 90,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Bun_Bun_Monger_Prototype_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "foreswing",
+              "value": 20,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Bun_Bun_Monger_Prototype_%28PC_Special_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "-",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Bun_Bun_Monger_Prototype_%28PC_Special_Cat%29"
+            }
+          ]
+        },
+        {
+          "code": "s",
+          "name": "Bun Bun Monger Devil",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 25500,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Bun_Bun_Monger_Prototype_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 5100,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Bun_Bun_Monger_Prototype_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 200,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Bun_Bun_Monger_Prototype_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 23,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Bun_Bun_Monger_Prototype_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 3,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Bun_Bun_Monger_Prototype_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 90,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Bun_Bun_Monger_Prototype_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "foreswing",
+              "value": 20,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Bun_Bun_Monger_Prototype_%28PC_Special_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "Survives a lethal strike (100%)",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Bun_Bun_Monger_Prototype_%28PC_Special_Cat%29"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "902",
+      "status": "catalog_only",
+      "info": {
+        "platform": "pc",
+        "source_id": "902",
+        "source_url": "https://battle-cats.fandom.com/wiki/Honda_Tadakatsu_%28PC_Uber_Rare_Cat%29",
+        "rarity": "UR",
+        "name_basic": "Honda Tadakatsu",
+        "names_evolved": "Wargod Tadakatsu",
+        "obtain_method": "PC exclusive; VIP Sengoku Wargods Vajiras capsules."
+      },
+      "forms": [
+        {
+          "code": "f",
+          "name": "Honda Tadakatsu",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 1950,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Honda_Tadakatsu_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 1800,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Honda_Tadakatsu_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 600,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Honda_Tadakatsu_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 7,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Honda_Tadakatsu_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 1,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Honda_Tadakatsu_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 259,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Honda_Tadakatsu_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "foreswing",
+              "value": 122,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Honda_Tadakatsu_%28PC_Uber_Rare_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "Long Distance (Effective range: 450~850)",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Honda_Tadakatsu_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Resistant to Cats (PvP only) and Dark enemies",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Honda_Tadakatsu_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Base Destroyer (deals x4 damage to bases)",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Honda_Tadakatsu_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Immune to Knockback",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Honda_Tadakatsu_%28PC_Uber_Rare_Cat%29"
+            }
+          ]
+        },
+        {
+          "code": "c",
+          "name": "Wargod Tadakatsu",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 44200,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Honda_Tadakatsu_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 40800,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Honda_Tadakatsu_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 600,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Honda_Tadakatsu_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 7,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Honda_Tadakatsu_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 1,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Honda_Tadakatsu_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 259,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Honda_Tadakatsu_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "foreswing",
+              "value": 122,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Honda_Tadakatsu_%28PC_Uber_Rare_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "Long Distance (Effective range: 450~850)",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Honda_Tadakatsu_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Resistant to Cats (PvP only) and Dark enemies",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Honda_Tadakatsu_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Base Destroyer (deals x4 damage to bases)",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Honda_Tadakatsu_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Immune to Knockback",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Honda_Tadakatsu_%28PC_Uber_Rare_Cat%29"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "903",
+      "status": "catalog_only",
+      "info": {
+        "platform": "pc",
+        "source_id": "903",
+        "source_url": "https://battle-cats.fandom.com/wiki/Type-Monshiro_%28PC_Uber_Rare_Cat%29",
+        "rarity": "UR",
+        "name_basic": "Type-Monshiro",
+        "names_evolved": "Type-Swallow Tail",
+        "obtain_method": "PC exclusive; VIP Dark Heroes capsules (published drop rate: 0.42%)."
+      },
+      "forms": [
+        {
+          "code": "f",
+          "name": "Type-Monshiro",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 2450,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Type-Monshiro_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 2530,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Type-Monshiro_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 430,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Type-Monshiro_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 12,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Type-Monshiro_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 5,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Type-Monshiro_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 322,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Type-Monshiro_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "foreswing",
+              "value": 43,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Type-Monshiro_%28PC_Uber_Rare_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "50% chance to knockback Cats (PvP only) and Alien enemies",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Type-Monshiro_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Immune to Waves",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Type-Monshiro_%28PC_Uber_Rare_Cat%29"
+            }
+          ]
+        },
+        {
+          "code": "c",
+          "name": "Type-Swallow Tail",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 41650,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Type-Monshiro_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 43010,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Type-Monshiro_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 430,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Type-Monshiro_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 12,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Type-Monshiro_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 5,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Type-Monshiro_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 322,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Type-Monshiro_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "foreswing",
+              "value": 43,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Type-Monshiro_%28PC_Uber_Rare_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "100% chance to slow Cats (PvP only) and Alien for 90f 3 seconds",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Type-Monshiro_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "50% chance to create a Lv.3 Wave Attack",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Type-Monshiro_%28PC_Uber_Rare_Cat%29"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "904",
+      "status": "catalog_only",
+      "info": {
+        "platform": "pc",
+        "source_id": "904",
+        "source_url": "https://battle-cats.fandom.com/wiki/Momo_%28PC_Special_Cat%29",
+        "rarity": "EX",
+        "name_basic": "Momo",
+        "names_evolved": "Santa Momo & Cat",
+        "obtain_method": "PC exclusive; PostPet collaboration, December 19–29, 2017."
+      },
+      "forms": [
+        {
+          "code": "f",
+          "name": "Momo",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 600,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Momo_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 150,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Momo_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 380,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Momo_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 6,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Momo_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 3,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Momo_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 165,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Momo_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "foreswing",
+              "value": 32,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Momo_%28PC_Special_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "-",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Momo_%28PC_Special_Cat%29"
+            }
+          ]
+        },
+        {
+          "code": "c",
+          "name": "Santa Momo & Cat",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 10200,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Momo_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 2550,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Momo_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 380,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Momo_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 6,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Momo_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 3,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Momo_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 165,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Momo_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "foreswing",
+              "value": 32,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Momo_%28PC_Special_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "-",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Momo_%28PC_Special_Cat%29"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "905",
+      "status": "catalog_only",
+      "info": {
+        "platform": "pc",
+        "source_id": "905",
+        "source_url": "https://battle-cats.fandom.com/wiki/New_Year_Momo_%28PC_Special_Cat%29",
+        "rarity": "EX",
+        "name_basic": "New Year Momo",
+        "names_evolved": "New Year Momo & Cat",
+        "obtain_method": "PC exclusive; PostPet collaboration, December 29, 2017–January 9, 2018."
+      },
+      "forms": [
+        {
+          "code": "f",
+          "name": "New Year Momo",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 600,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/New_Year_Momo_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 150,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/New_Year_Momo_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 380,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/New_Year_Momo_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 6,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/New_Year_Momo_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 3,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/New_Year_Momo_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 165,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/New_Year_Momo_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "foreswing",
+              "value": 32,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/New_Year_Momo_%28PC_Special_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "Double money gained when defeating enemies",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/New_Year_Momo_%28PC_Special_Cat%29"
+            }
+          ]
+        },
+        {
+          "code": "c",
+          "name": "New Year Momo & Cat",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 10200,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/New_Year_Momo_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 2550,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/New_Year_Momo_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 380,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/New_Year_Momo_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 6,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/New_Year_Momo_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 3,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/New_Year_Momo_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 165,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/New_Year_Momo_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "foreswing",
+              "value": 32,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/New_Year_Momo_%28PC_Special_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "Double money gained when defeating enemies",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/New_Year_Momo_%28PC_Special_Cat%29"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "906",
+      "status": "catalog_only",
+      "info": {
+        "platform": "pc",
+        "source_id": "906",
+        "source_url": "https://battle-cats.fandom.com/wiki/Hatsuyume_Mikan_%28PC_Uber_Rare_Cat%29",
+        "rarity": "UR",
+        "name_basic": "Hatsuyume Mikan",
+        "names_evolved": "Geishun Mikan",
+        "obtain_method": "PC exclusive; UBERFEST rare capsules."
+      },
+      "forms": [
+        {
+          "code": "f",
+          "name": "Hatsuyume Mikan",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 1320,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Hatsuyume_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 1320,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Hatsuyume_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 500,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Hatsuyume_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 8,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Hatsuyume_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 3,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Hatsuyume_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 250,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Hatsuyume_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "foreswing",
+              "value": 51,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Hatsuyume_Mikan_%28PC_Uber_Rare_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "Long Distance (Effective Range: 400~800)",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Hatsuyume_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "10% chance to perform a Critical Hit",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Hatsuyume_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Immune to Waves",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Hatsuyume_Mikan_%28PC_Uber_Rare_Cat%29"
+            }
+          ]
+        },
+        {
+          "code": "c",
+          "name": "Geishun Mikan",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 32300,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Hatsuyume_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 32300,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Hatsuyume_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 500,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Hatsuyume_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 8,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Hatsuyume_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 3,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Hatsuyume_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 295,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Hatsuyume_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "foreswing",
+              "value": 51,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Hatsuyume_Mikan_%28PC_Uber_Rare_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "Long Distance (Effective Range: 400~800)",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Hatsuyume_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "50% chance to perform a Critical Hit",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Hatsuyume_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Immune to Waves",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Hatsuyume_Mikan_%28PC_Uber_Rare_Cat%29"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "907",
+      "status": "catalog_only",
+      "info": {
+        "platform": "pc",
+        "source_id": "907",
+        "source_url": "https://battle-cats.fandom.com/wiki/Nuclear_Dragon_King_Berius_%28PC_Uber_Rare_Cat%29",
+        "rarity": "UR",
+        "name_basic": "Nuclear Dragon King Berius",
+        "names_evolved": "Nuclear Blade Dragon King Berius",
+        "obtain_method": "PC exclusive; VIP Dragon Emperors capsules."
+      },
+      "forms": [
+        {
+          "code": "f",
+          "name": "Nuclear Dragon King Berius",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 3600,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Nuclear_Dragon_King_Berius_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 1812,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Nuclear_Dragon_King_Berius_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 450,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Nuclear_Dragon_King_Berius_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 5,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Nuclear_Dragon_King_Berius_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 2,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Nuclear_Dragon_King_Berius_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 202,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Nuclear_Dragon_King_Berius_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "foreswing",
+              "value": 125,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Nuclear_Dragon_King_Berius_%28PC_Uber_Rare_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "Resistant to enemy Cats (PvP only) and Aliens",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Nuclear_Dragon_King_Berius_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "50% chance to knockback enemy Cats (PvP only) and Aliens",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Nuclear_Dragon_King_Berius_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Immune to Waves",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Nuclear_Dragon_King_Berius_%28PC_Uber_Rare_Cat%29"
+            }
+          ]
+        },
+        {
+          "code": "c",
+          "name": "Nuclear Blade Dragon King Berius",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 76500,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Nuclear_Dragon_King_Berius_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 38522,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Nuclear_Dragon_King_Berius_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 450,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Nuclear_Dragon_King_Berius_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 5,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Nuclear_Dragon_King_Berius_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 2,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Nuclear_Dragon_King_Berius_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 202,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Nuclear_Dragon_King_Berius_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "foreswing",
+              "value": 44,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Nuclear_Dragon_King_Berius_%28PC_Uber_Rare_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "Resistant to enemy Cats (PvP only) and Aliens",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Nuclear_Dragon_King_Berius_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "50% chance to knockback enemy Cats (PvP only) and Aliens",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Nuclear_Dragon_King_Berius_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Immune to Waves",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Nuclear_Dragon_King_Berius_%28PC_Uber_Rare_Cat%29"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "908",
+      "status": "catalog_only",
+      "info": {
+        "platform": "pc",
+        "source_id": "908",
+        "source_url": "https://battle-cats.fandom.com/wiki/Issun_Boushi_%28PC_Uber_Rare_Cat%29",
+        "rarity": "UR",
+        "name_basic": "Issun Boushi",
+        "names_evolved": "Funeral Storm Batter Haruhime",
+        "obtain_method": "PC exclusive; VIP Ultra Souls capsules."
+      },
+      "forms": [
+        {
+          "code": "f",
+          "name": "Issun Boushi",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 660,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Issun_Boushi_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 280,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Issun_Boushi_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 220,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Issun_Boushi_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 5,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Issun_Boushi_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 3,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Issun_Boushi_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 250,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Issun_Boushi_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "foreswing",
+              "value": 4,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Issun_Boushi_%28PC_Uber_Rare_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "100% chance to weaken Cats (PvP only) and Angel enemies down to 50% for 100f 3.33 seconds",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Issun_Boushi_%28PC_Uber_Rare_Cat%29"
+            }
+          ]
+        },
+        {
+          "code": "c",
+          "name": "Funeral Storm Batter Haruhime",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 78200,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Issun_Boushi_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 39100,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Issun_Boushi_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 550,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Issun_Boushi_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 5,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Issun_Boushi_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 3,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Issun_Boushi_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 287,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Issun_Boushi_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "foreswing",
+              "value": 68,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Issun_Boushi_%28PC_Uber_Rare_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "100% chance to weaken Cats (PvP only) and Angel enemies down to 50% for 100f 3.33 seconds",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Issun_Boushi_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "100% chance to knockback Cats (PvP only) and Angel enemies",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Issun_Boushi_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Immune to Waves",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Issun_Boushi_%28PC_Uber_Rare_Cat%29"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "909",
+      "status": "catalog_only",
+      "info": {
+        "platform": "pc",
+        "source_id": "909",
+        "source_url": "https://battle-cats.fandom.com/wiki/Entangled_Wooden_Horse_Javelins_%28PC_Uber_Rare_Cat%29",
+        "rarity": "UR",
+        "name_basic": "Entangled Wooden Horse Javelins",
+        "names_evolved": "Surprise Trojan Fortress",
+        "obtain_method": "PC exclusive; VIP Iron Legion capsules."
+      },
+      "forms": [
+        {
+          "code": "f",
+          "name": "Entangled Wooden Horse Javelins",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 4800,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Entangled_Wooden_Horse_Javelins_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 4000,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Entangled_Wooden_Horse_Javelins_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 440,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Entangled_Wooden_Horse_Javelins_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 8,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Entangled_Wooden_Horse_Javelins_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 2,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Entangled_Wooden_Horse_Javelins_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 351,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Entangled_Wooden_Horse_Javelins_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "foreswing",
+              "value": 100,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Entangled_Wooden_Horse_Javelins_%28PC_Uber_Rare_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "Resistant to Cats (PvP only)",
+              "pvp_only": true,
+              "source_url": "https://battle-cats.fandom.com/wiki/Entangled_Wooden_Horse_Javelins_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "100% chance to slow Cats (PvP only), Zombies and Metal enemies for 280f 9.33 seconds",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Entangled_Wooden_Horse_Javelins_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "100% chance to knockback Cats (PvP only), Zombies and Metal enemies",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Entangled_Wooden_Horse_Javelins_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Attacks only Cats (PvP only), Zombie and Metal enemies",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Entangled_Wooden_Horse_Javelins_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Zombie Killer",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Entangled_Wooden_Horse_Javelins_%28PC_Uber_Rare_Cat%29"
+            }
+          ]
+        },
+        {
+          "code": "c",
+          "name": "Surprise Trojan Fortress",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 81600,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Entangled_Wooden_Horse_Javelins_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 68000,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Entangled_Wooden_Horse_Javelins_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 440,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Entangled_Wooden_Horse_Javelins_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 8,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Entangled_Wooden_Horse_Javelins_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 2,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Entangled_Wooden_Horse_Javelins_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 437,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Entangled_Wooden_Horse_Javelins_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "foreswing",
+              "value": 130,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Entangled_Wooden_Horse_Javelins_%28PC_Uber_Rare_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "Resistant to Cats (PvP only)",
+              "pvp_only": true,
+              "source_url": "https://battle-cats.fandom.com/wiki/Entangled_Wooden_Horse_Javelins_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "100% chance to slow Cats (PvP only), Zombies and Metal enemies for 280f 9.33 seconds",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Entangled_Wooden_Horse_Javelins_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "100% chance to knockback Cats (PvP only), Zombies and Metal enemies",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Entangled_Wooden_Horse_Javelins_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Attacks only Cats (PvP only), Zombie and Metal enemies",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Entangled_Wooden_Horse_Javelins_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Zombie Killer",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Entangled_Wooden_Horse_Javelins_%28PC_Uber_Rare_Cat%29"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "910",
+      "status": "catalog_only",
+      "info": {
+        "platform": "pc",
+        "source_id": "910",
+        "source_url": "https://battle-cats.fandom.com/wiki/Wise_Empress_Nobel_%28PC_Uber_Rare_Cat%29",
+        "rarity": "UR",
+        "name_basic": "Wise Empress Nobel",
+        "names_evolved": "Wise Empress Nobel, Type Σ",
+        "obtain_method": "PC exclusive; VIP Galaxy Gals capsules."
+      },
+      "forms": [
+        {
+          "code": "f",
+          "name": "Wise Empress Nobel",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 2500,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Wise_Empress_Nobel_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 2850,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Wise_Empress_Nobel_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 370,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Wise_Empress_Nobel_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 13,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Wise_Empress_Nobel_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 4,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Wise_Empress_Nobel_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 365,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Wise_Empress_Nobel_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "foreswing",
+              "value": 75,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Wise_Empress_Nobel_%28PC_Uber_Rare_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "100% chance to freeze Cats (PvP only) and Angel enemies for 48f 1.6 seconds",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Wise_Empress_Nobel_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "100% chance to knockback Cats (PvP only) and Angel enemies",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Wise_Empress_Nobel_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Double money gained when defeating enemies",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Wise_Empress_Nobel_%28PC_Uber_Rare_Cat%29"
+            }
+          ]
+        },
+        {
+          "code": "c",
+          "name": "Wise Empress Nobel, Type Σ",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 42500,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Wise_Empress_Nobel_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 48450,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Wise_Empress_Nobel_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 370,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Wise_Empress_Nobel_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 13,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Wise_Empress_Nobel_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 4,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Wise_Empress_Nobel_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 365,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Wise_Empress_Nobel_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "foreswing",
+              "value": 75,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Wise_Empress_Nobel_%28PC_Uber_Rare_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "100% chance to freeze Cats (PvP only) and Angel enemies for 48f 1.6 seconds",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Wise_Empress_Nobel_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "100% chance to knockback Cats (PvP only) and Angel enemies",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Wise_Empress_Nobel_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Double money gained when defeating enemies",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Wise_Empress_Nobel_%28PC_Uber_Rare_Cat%29"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "911",
+      "status": "catalog_only",
+      "info": {
+        "platform": "pc",
+        "source_id": "911",
+        "source_url": "https://battle-cats.fandom.com/wiki/Battle_God_Odin_%28PC_Uber_Rare_Cat%29",
+        "rarity": "UR",
+        "name_basic": "Battle God Odin",
+        "names_evolved": "Odin End",
+        "obtain_method": "PC exclusive; VIP The Almighties The Majestic Zeus capsules."
+      },
+      "forms": [
+        {
+          "code": "f",
+          "name": "Battle God Odin",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 2400,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Battle_God_Odin_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 1600,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Battle_God_Odin_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 445,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Battle_God_Odin_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 14,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Battle_God_Odin_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 4,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Battle_God_Odin_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 146,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Battle_God_Odin_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "foreswing",
+              "value": 93,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Battle_God_Odin_%28PC_Uber_Rare_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "Resistant to enemy Cats (PvP only) and Traited enemies",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Battle_God_Odin_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "100% chance to knockback enemy Cats (PvP only) and Traited enemies",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Battle_God_Odin_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Immune to Knockback",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Battle_God_Odin_%28PC_Uber_Rare_Cat%29"
+            }
+          ]
+        },
+        {
+          "code": "c",
+          "name": "Odin End",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 54400,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Battle_God_Odin_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 35700,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Battle_God_Odin_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 445,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Battle_God_Odin_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 14,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Battle_God_Odin_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 4,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Battle_God_Odin_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 146,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Battle_God_Odin_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "foreswing",
+              "value": 93,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Battle_God_Odin_%28PC_Uber_Rare_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "Resistant to enemy Cats (PvP only) and Traited enemies",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Battle_God_Odin_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "100% chance to knockback enemy Cats (PvP only) and Traited enemies",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Battle_God_Odin_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Immune to Knockback",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Battle_God_Odin_%28PC_Uber_Rare_Cat%29"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "912",
+      "status": "catalog_only",
+      "info": {
+        "platform": "pc",
+        "source_id": "912",
+        "source_url": "https://battle-cats.fandom.com/wiki/Cat_Maid_%28PC_Uber_Rare_Cat%29",
+        "rarity": "UR",
+        "name_basic": "Cat Maid",
+        "names_evolved": "Cat Maid SP",
+        "obtain_method": "PC exclusive; VIP The Dynamites capsules."
+      },
+      "forms": [
+        {
+          "code": "f",
+          "name": "Cat Maid",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 6100,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Cat_Maid_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 1850,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Cat_Maid_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 260,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Cat_Maid_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 6,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Cat_Maid_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 2,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Cat_Maid_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 243,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Cat_Maid_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "foreswing",
+              "value": 72,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Cat_Maid_%28PC_Uber_Rare_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "Deals massive damage to Cats, Floating and Zombie enemies",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Cat_Maid_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Resistant to Cats",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Cat_Maid_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Immune to Freeze and Slow",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Cat_Maid_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Zombie Killer",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Cat_Maid_%28PC_Uber_Rare_Cat%29"
+            }
+          ]
+        },
+        {
+          "code": "c",
+          "name": "Cat Maid SP",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 122400,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Cat_Maid_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 48450,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Cat_Maid_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 260,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Cat_Maid_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 6,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Cat_Maid_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 2,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Cat_Maid_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 243,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Cat_Maid_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "foreswing",
+              "value": 72,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Cat_Maid_%28PC_Uber_Rare_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "Deals massive damage to Cats, Floating and Zombie enemies",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Cat_Maid_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Resistant to Cats",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Cat_Maid_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Immune to Freeze and Slow",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Cat_Maid_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Zombie Killer",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Cat_Maid_%28PC_Uber_Rare_Cat%29"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "913",
+      "status": "catalog_only",
+      "info": {
+        "platform": "pc",
+        "source_id": "913",
+        "source_url": "https://battle-cats.fandom.com/wiki/Neko-Musume_Cat_%28PC_Special_Cat%29",
+        "rarity": "EX",
+        "name_basic": "Neko-Musume Cat",
+        "names_evolved": "Neko-Musume Cat CC",
+        "obtain_method": "PC exclusive; GeGeGe no Kitarou collaboration."
+      },
+      "forms": [
+        {
+          "code": "f",
+          "name": "Neko-Musume Cat",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 575,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Neko-Musume_Cat_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 225,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Neko-Musume_Cat_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 190,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Neko-Musume_Cat_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 8,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Neko-Musume_Cat_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 3,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Neko-Musume_Cat_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 85,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Neko-Musume_Cat_%28PC_Special_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "Resistant to Floating and Zombie enemies",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Neko-Musume_Cat_%28PC_Special_Cat%29"
+            },
+            {
+              "text": "Deals massive damage to Floating and Zombie enemies",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Neko-Musume_Cat_%28PC_Special_Cat%29"
+            },
+            {
+              "text": "Zombie Killer",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Neko-Musume_Cat_%28PC_Special_Cat%29"
+            }
+          ]
+        },
+        {
+          "code": "c",
+          "name": "Neko-Musume Cat CC",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 9775,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Neko-Musume_Cat_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 3825,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Neko-Musume_Cat_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 190,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Neko-Musume_Cat_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 8,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Neko-Musume_Cat_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 3,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Neko-Musume_Cat_%28PC_Special_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 85,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Neko-Musume_Cat_%28PC_Special_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "Resistant to Floating and Zombie enemies",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Neko-Musume_Cat_%28PC_Special_Cat%29"
+            },
+            {
+              "text": "Deals massive damage to Floating and Zombie enemies",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Neko-Musume_Cat_%28PC_Special_Cat%29"
+            },
+            {
+              "text": "Zombie Killer",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Neko-Musume_Cat_%28PC_Special_Cat%29"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "914",
+      "status": "catalog_only",
+      "info": {
+        "platform": "pc",
+        "source_id": "914",
+        "source_url": "https://battle-cats.fandom.com/wiki/Kitaro_Cat_%26_Nezumi-Otoko_Cat_%28PC_Uber_Rare_Cat%29",
+        "rarity": "UR",
+        "name_basic": "Kitaro Cat & Nezumi-Otoko Cat",
+        "names_evolved": "Kitaro Cat & Nezumi-Otoko Cat",
+        "obtain_method": "PC exclusive; GeGeGe no Kitarou collaboration capsules."
+      },
+      "forms": [
+        {
+          "code": "f",
+          "name": "Kitaro Cat & Nezumi-Otoko Cat",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 5700,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Kitaro_Cat_%26_Nezumi-Otoko_Cat_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 2250,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Kitaro_Cat_%26_Nezumi-Otoko_Cat_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 240,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Kitaro_Cat_%26_Nezumi-Otoko_Cat_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 8,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Kitaro_Cat_%26_Nezumi-Otoko_Cat_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 2,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Kitaro_Cat_%26_Nezumi-Otoko_Cat_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 195,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Kitaro_Cat_%26_Nezumi-Otoko_Cat_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "foreswing",
+              "value": 81,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Kitaro_Cat_%26_Nezumi-Otoko_Cat_%28PC_Uber_Rare_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "Might knockback Floating and Zombie Enemies",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Kitaro_Cat_%26_Nezumi-Otoko_Cat_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "100% chance to perform a Lv.3 Wave Attack",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Kitaro_Cat_%26_Nezumi-Otoko_Cat_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Zombie Killer",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Kitaro_Cat_%26_Nezumi-Otoko_Cat_%28PC_Uber_Rare_Cat%29"
+            }
+          ]
+        },
+        {
+          "code": "c",
+          "name": "Kitaro Cat & Nezumi-Otoko Cat",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 96900,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Kitaro_Cat_%26_Nezumi-Otoko_Cat_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 38250,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Kitaro_Cat_%26_Nezumi-Otoko_Cat_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 240,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Kitaro_Cat_%26_Nezumi-Otoko_Cat_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 8,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Kitaro_Cat_%26_Nezumi-Otoko_Cat_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 2,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Kitaro_Cat_%26_Nezumi-Otoko_Cat_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 195,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Kitaro_Cat_%26_Nezumi-Otoko_Cat_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "foreswing",
+              "value": 81,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Kitaro_Cat_%26_Nezumi-Otoko_Cat_%28PC_Uber_Rare_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "Might knockback Floating and Zombie Enemies",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Kitaro_Cat_%26_Nezumi-Otoko_Cat_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "100% chance to perform a Lv.3 Wave Attack",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Kitaro_Cat_%26_Nezumi-Otoko_Cat_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Zombie Killer",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Kitaro_Cat_%26_Nezumi-Otoko_Cat_%28PC_Uber_Rare_Cat%29"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "915",
+      "status": "catalog_only",
+      "info": {
+        "platform": "pc",
+        "source_id": "915",
+        "source_url": "https://battle-cats.fandom.com/wiki/Mimiluga_%28PC_Uber_Rare_Cat%29",
+        "rarity": "UR",
+        "name_basic": "Mimiluga",
+        "names_evolved": "Mimilan Pasalan",
+        "obtain_method": "PC exclusive; VIP Tales of the Nekoluga capsules."
+      },
+      "forms": [
+        {
+          "code": "f",
+          "name": "Mimiluga",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 500,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Mimiluga_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 150,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Mimiluga_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 140,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Mimiluga_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 4,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Mimiluga_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 5,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Mimiluga_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 70,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Mimiluga_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "foreswing",
+              "value": 13,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Mimiluga_%28PC_Uber_Rare_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "Resistant to Cats (PvP only)",
+              "pvp_only": true,
+              "source_url": "https://battle-cats.fandom.com/wiki/Mimiluga_%28PC_Uber_Rare_Cat%29"
+            }
+          ]
+        },
+        {
+          "code": "c",
+          "name": "Mimilan Pasalan",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 20400,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Mimiluga_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 48450,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Mimiluga_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 650,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Mimiluga_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 4,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Mimiluga_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 1,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Mimiluga_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 377,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Mimiluga_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "foreswing",
+              "value": 110,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Mimiluga_%28PC_Uber_Rare_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "30% chance to freeze all enemies for 120f 4 seconds",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Mimiluga_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "30% chance to slow all enemies for 150f 5 seconds",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Mimiluga_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "30% chance to weaken all enemies to 50% for 150f 5 seconds",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Mimiluga_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "30% chance to knockback all enemies",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Mimiluga_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "30% chance to perform a Critical Hit",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Mimiluga_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Resistant to Cats (PvP only)",
+              "pvp_only": true,
+              "source_url": "https://battle-cats.fandom.com/wiki/Mimiluga_%28PC_Uber_Rare_Cat%29"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "916",
+      "status": "catalog_only",
+      "info": {
+        "platform": "pc",
+        "source_id": "916",
+        "source_url": "https://battle-cats.fandom.com/wiki/Natsu_Mikan_%28PC_Uber_Rare_Cat%29",
+        "rarity": "UR",
+        "name_basic": "Natsu Mikan",
+        "names_evolved": "Nouryou Natsu Mikan",
+        "obtain_method": "PC exclusive; VIP First Anniversary capsules."
+      },
+      "forms": [
+        {
+          "code": "f",
+          "name": "Natsu Mikan",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 1500,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Natsu_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 1600,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Natsu_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 480,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Natsu_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 8,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Natsu_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 3,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Natsu_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 1140,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Natsu_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "foreswing",
+              "value": 211,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Natsu_Mikan_%28PC_Uber_Rare_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "Multi-Hit (1,700 at 51f 1.7s, 34,000 at 106f 3.53s)",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Natsu_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Resistant to Cats (PvP only)",
+              "pvp_only": true,
+              "source_url": "https://battle-cats.fandom.com/wiki/Natsu_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "100% chance to weaken traited enemies and Cats (PvP only) to 1% for 90f 3 seconds",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Natsu_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Immune to Waves",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Natsu_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Long Distance (Effective Range: 400~3,000)",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Natsu_Mikan_%28PC_Uber_Rare_Cat%29"
+            }
+          ]
+        },
+        {
+          "code": "c",
+          "name": "Nouryou Natsu Mikan",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 30000,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Natsu_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 35700,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Natsu_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 480,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Natsu_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 8,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Natsu_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 3,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Natsu_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 1140,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Natsu_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "foreswing",
+              "value": 211,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Natsu_Mikan_%28PC_Uber_Rare_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "Multi-Hit (1,700 at 51f 1.7s, 34,000 at 106f 3.53s)",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Natsu_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Resistant to Cats (PvP only)",
+              "pvp_only": true,
+              "source_url": "https://battle-cats.fandom.com/wiki/Natsu_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "100% chance to weaken traited enemies and Cats (PvP only) to 1% for 90f 3 seconds",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Natsu_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Immune to Waves",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Natsu_Mikan_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Long Distance (Effective Range: 400~3,000)",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Natsu_Mikan_%28PC_Uber_Rare_Cat%29"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_id": "917",
+      "status": "catalog_only",
+      "info": {
+        "platform": "pc",
+        "source_id": "917",
+        "source_url": "https://battle-cats.fandom.com/wiki/Karasu-Tengu_Tenten_%28PC_Uber_Rare_Cat%29",
+        "rarity": "UR",
+        "name_basic": "Karasu-Tengu Tenten",
+        "names_evolved": "Karasu-Tengu Tenten・Solution",
+        "obtain_method": "PC exclusive; VIP Air Busters capsules."
+      },
+      "forms": [
+        {
+          "code": "f",
+          "name": "Karasu-Tengu Tenten",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 2400,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Karasu-Tengu_Tenten_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 2700,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Karasu-Tengu_Tenten_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 460,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Karasu-Tengu_Tenten_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 36,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Karasu-Tengu_Tenten_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 5,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Karasu-Tengu_Tenten_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 151,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Karasu-Tengu_Tenten_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "foreswing",
+              "value": 90,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Karasu-Tengu_Tenten_%28PC_Uber_Rare_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "Resistant to Cats (PvP only)",
+              "pvp_only": true,
+              "source_url": "https://battle-cats.fandom.com/wiki/Karasu-Tengu_Tenten_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Deals massive damage to Cats (PvP only) and Floating enemies",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Karasu-Tengu_Tenten_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "50% chance to freeze Cats (PvP only) and Floating enemies for 90f 3 seconds",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Karasu-Tengu_Tenten_%28PC_Uber_Rare_Cat%29"
+            }
+          ]
+        },
+        {
+          "code": "c",
+          "name": "Karasu-Tengu Tenten・Solution",
+          "measurements": [
+            {
+              "field": "health",
+              "value": 40800,
+              "unit": "HP",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Karasu-Tengu_Tenten_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "damage",
+              "value": 45900,
+              "unit": "damage",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Karasu-Tengu_Tenten_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "range",
+              "value": 460,
+              "unit": "range",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Karasu-Tengu_Tenten_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "speed",
+              "value": 36,
+              "unit": "speed",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Karasu-Tengu_Tenten_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "knockbacks",
+              "value": 5,
+              "unit": "times",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Karasu-Tengu_Tenten_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "attack_frequency",
+              "value": 132,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Karasu-Tengu_Tenten_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "field": "foreswing",
+              "value": 90,
+              "unit": "frames",
+              "level": null,
+              "treasures": null,
+              "source_url": "https://battle-cats.fandom.com/wiki/Karasu-Tengu_Tenten_%28PC_Uber_Rare_Cat%29"
+            }
+          ],
+          "abilities": [
+            {
+              "text": "Resistant to Cats (PvP only)",
+              "pvp_only": true,
+              "source_url": "https://battle-cats.fandom.com/wiki/Karasu-Tengu_Tenten_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "Deals massive damage to Cats (PvP only) and Floating enemies",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Karasu-Tengu_Tenten_%28PC_Uber_Rare_Cat%29"
+            },
+            {
+              "text": "50% chance to freeze Cats (PvP only) and Floating enemies for 90f 3 seconds",
+              "pvp_only": false,
+              "source_url": "https://battle-cats.fandom.com/wiki/Karasu-Tengu_Tenten_%28PC_Uber_Rare_Cat%29"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "attribution": {
+    "source": "Battle Cats Wiki contributors",
+    "license": "CC-BY-SA",
+    "note": "Identity and published statistics transcribed from the linked PC pages; numeric CSV conversions are not verified."
+  }
+}

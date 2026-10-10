@@ -65,6 +65,33 @@ class ImportedGeneratorsTests(unittest.TestCase):
             for name in ['names.txt', 'combos.csv', 'combo_names.txt', 'skill_level.csv', 'skill_acquisition.csv']:
                 self.assertTrue((ws.data / name).is_file(), name)
 
+    def test_cat_generation_preserves_canonical_pc_source_across_runs(self):
+        import json
+        from test_pc_cats import source_fixture
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            seed = root / 'data/inputs'
+            seed.mkdir(parents=True)
+            (seed / 'cats_pc.json').write_text(json.dumps(source_fixture()), encoding='utf-8')
+            working = root / 'working'
+            working.mkdir()
+            (working / 'names.txt').write_text('0\tN\tCat\t\tBeginning\n', encoding='utf-8')
+            (working / 'cats_pc.json').write_text('{"stale": true}', encoding='utf-8')
+            local = root / 'bcdata/15.7.1jp/DataLocal'
+            local.mkdir(parents=True)
+            (local / 'unit1.csv').write_text('100,3,10,8\n', encoding='utf-8')
+            env = dict(os.environ, UPDATED_BCDATA_ROOT=str(root), BCDATA_DIR=str(root / 'bcdata'),
+                       UPDATED_BCDATA_WORK_DATA=str(working), CATSTATS_DIR='', PYTHONIOENCODING='utf-8')
+            command = [sys.executable, str(ROOT / 'scripts/data/actualizar_cats_info.py')]
+            snapshots = []
+            for _ in range(2):
+                result = subprocess.run(command, cwd=ROOT, env=env, capture_output=True, text=True, encoding='utf-8')
+                self.assertEqual(result.returncode, 0, result.stderr)
+                snapshots.append(json.loads((root / 'cats_data.json').read_text(encoding='utf-8')))
+            self.assertEqual(snapshots[0]['pc_catalog'], snapshots[1]['pc_catalog'])
+            self.assertEqual(snapshots[1]['pc_catalog']['100911']['info']['name_basic'], 'Battle God Odin')
+            self.assertEqual(snapshots[1]['units']['000']['stats'], [[100, 3, 10, 8]])
+
 
 if __name__ == '__main__':
     unittest.main()

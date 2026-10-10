@@ -5,6 +5,7 @@ versionan porque incluyen nombres publicados, combos acumulados y excepciones
 personalizadas de talentos que no se deben reconstruir solo con el remoto.
 
 - `names.txt`: nombres y formas de unidades; se preserva la localización ya publicada.
+- `cats_pc.json`: catálogo PC revisado, IDs reservadas, formas y mediciones publicadas; véase [pc-cats](../../docs/pc-cats.md). Es la fuente canónica y se lee directamente, sin depender de copias de trabajo antiguas.
 - `combos.csv`, `combo_names.txt`: estado acumulado del sincronizador incremental.
 - `skill_acquisition.csv`: conserva las filas protegidas 105, 107, 258, 259 y 261.
 - `skill_level.csv`: tabla de costes NP leída por el generador de gatos.
