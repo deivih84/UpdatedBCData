@@ -54,6 +54,16 @@ class CatBackswingTests(unittest.TestCase):
             del old['units']['877']['backswing']
             self.assertEqual(data, old)
 
+    def test_pc_never_uses_unverified_archives(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            for archive_id in ('911', '100911'):
+                with zipfile.ZipFile(Path(tmp) / f'{archive_id}.zip', 'w') as archive:
+                    archive.writestr(f'{archive_id}/f/{archive_id}_f02.maanim', self.animation(71))
+            data = {'units': {'100911': {'info': {'platform': 'pc', 'source_id': '911'},
+                                        'stats': [self.stats()]}}}
+            self.assertEqual(sync.populate_backswings(data, tmp), ['100911/f'])
+            self.assertEqual(data['units']['100911']['backswing'], [None])
+
     def test_rejects_truncated_animation_and_negative_backswing(self):
         with self.assertRaises(ValueError):
             sync.animation_frames(self.animation(71).rsplit(b'\n', 2)[0])

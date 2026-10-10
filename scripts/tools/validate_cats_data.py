@@ -17,6 +17,7 @@ import json
 import re
 from pathlib import Path
 from typing import Dict, List, Mapping, Optional
+from scripts.data.pc_cats import load_pc_source, merge_pc_source, pc_key
 
 
 UNIT_FILE_PATTERN = re.compile(r"unit(\d+)\.csv$")
@@ -100,6 +101,7 @@ def validate(
     names_file: Path,
     expected_version: str,
     required_min_forms: Optional[Mapping[int, int]] = None,
+    pc_source: Optional[Path] = None,
 ) -> List[str]:
     errors: List[str] = []
     try:
@@ -134,7 +136,7 @@ def validate(
         errors.append(f"invalid JSON unit keys: {', '.join(invalid_keys)}")
 
     numeric_ids = sorted(int(str(key)) for key in units if str(key).isdigit())
-    expected_total = numeric_ids[-1] + 1 if numeric_ids else 0
+    expected_total = len(units)
     actual_total = metadata.get("total_units")
     if actual_total != expected_total:
         errors.append(
@@ -148,9 +150,24 @@ def validate(
         return errors
 
     expected_keys = set(expected_units)
+    try:
+        source = load_pc_source(pc_source or paths.root / 'data/inputs/cats_pc.json')
+        canonical = merge_pc_source({'metadata': dict(metadata), 'units': units}, source)
+    except (OSError, ValueError, KeyError, TypeError) as exc:
+        errors.append(f'PC source/identity validation failed: {exc}')
+        return errors
+    if data.get('pc_catalog', {}) != canonical['pc_catalog']:
+        errors.append('pc_catalog differs from curated PC source')
+    for field in ('mobile_units', 'pc_units', 'pc_catalog_units', 'pc_source_revision'):
+        if metadata.get(field) != canonical['metadata'][field]:
+            errors.append(f'metadata.{field} differs from curated PC source/count')
+    verified_keys = {pc_key(entry['source_id']) for entry in source['entries'] if entry['status'] == 'verified'}
+    for key in sorted(verified_keys):
+        if units.get(key) != canonical['units'][key]:
+            errors.append(f'PC unit {key} differs from curated source or unavailable backswing')
     actual_keys = {str(key) for key in units}
     missing = sorted(expected_keys - actual_keys, key=int)
-    extra = sorted(actual_keys - expected_keys, key=lambda value: int(value) if value.isdigit() else value)
+    extra = sorted(actual_keys - expected_keys - verified_keys, key=lambda value: int(value) if value.isdigit() else value)
     if missing:
         errors.append(f"missing JSON units: {', '.join(missing)}")
     if extra:
@@ -244,6 +261,7 @@ def main() -> int:
     parser.add_argument("data_local", type=Path)
     parser.add_argument("names_file", type=Path)
     parser.add_argument("--expected-version", required=True)
+    parser.add_argument('--pc-source', type=Path, help='Reviewed PC seed (default: repository seed)')
     parser.add_argument(
         "--require-unit",
         action="append",
@@ -258,6 +276,7 @@ def main() -> int:
         args.names_file,
         args.expected_version,
         required_min_forms=dict(args.require_unit),
+        pc_source=args.pc_source,
     )
     if errors:
         print(json.dumps({"status": "blocked", "errors": errors}, indent=2))

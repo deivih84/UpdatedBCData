@@ -7,6 +7,7 @@
 | Datos completos | `update_all.py` | BCData, inputs curados, wiki para nombres | cats/enemies/stages JSON, animaciones, backswings |
 | Animaciones | `update_cat_animations.py` | Paquetes incrementales BCData | `cats/<id>.zip`, `cats/manifest.json`, bloque de versión |
 | Backswings | `update_cat_backswings.py` | JSON de gatos y animaciones fusionadas | Arrays por forma en cats_data.json |
+| Catálogo PC | `update_pc_cats.py` | `data/inputs/cats_pc.json` revisado | `pc_catalog` descriptivo; preserva los datos móviles; conversión de combate bloqueada |
 | Resúmenes | `scripts/data/build_update_summary.py` | JSON públicos y versión explícita | `update_summaries`, borrador/informe/manifiesto |
 | Validación de gatos | `scripts/tools/validate_cats_data.py` | JSON, DataLocal y nombres de la versión | Informe de integridad; ver `--help` |
 | Diagnóstico local | `check_project.py` | Archivos y módulos instalados | Informe de solo lectura |

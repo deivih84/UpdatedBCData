@@ -70,6 +70,16 @@ def populate_backswings(data, archives):
         stats = unit['stats']
         if len(stats) > 4:
             raise ValueError(f'{unit_id}: more than four forms')
+        platform = unit.get('info', {}).get('platform', 'mobile')
+        if platform == 'pc':
+            from scripts.data.pc_cats import pc_key
+            if unit_id != pc_key(unit['info'].get('source_id')):
+                raise ValueError(f'{unit_id}: inconsistent PC identity')
+            unit['backswing'] = [None] * len(stats)
+            missing.extend(f'{unit_id}/{form}' for form in 'fcsu'[:len(stats)])
+            continue
+        if platform != 'mobile':
+            raise ValueError(f'{unit_id}: unknown platform {platform}')
         archive_id = str(int(unit_id))
         path = Path(archives) / f'{archive_id}.zip'
         values = [None] * len(stats)

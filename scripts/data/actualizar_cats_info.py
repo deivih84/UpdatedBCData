@@ -15,6 +15,7 @@ import glob
 import sys
 from pathlib import Path
 from datetime import datetime
+from scripts.data.pc_cats import load_pc_source, merge_pc_source
 
 BASE_BCDATA = str(paths.bcdata)
 
@@ -193,6 +194,7 @@ def build_talents_data(source_dir):
 
 def master_sync():
     print("🚀 Iniciando el proceso de fusión de datos con formato compacto...")
+    pc_source = load_pc_source(paths.root / 'data/inputs/cats_pc.json')
 
     # --- RUTAS ---
     # Asegúrate de que estas carpetas existan
@@ -303,10 +305,11 @@ def master_sync():
         "metadata": {
             "version": current_version,
             "last_update": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            "total_units": max(int(k) for k in units_dict) + 1 if units_dict else 0
+            "total_units": len(units_dict)
         },
         "units": units_dict
     }
+    final_data = merge_pc_source(final_data, pc_source)
 
     # Provisional values from the merged archives. update_all refreshes them
     # again after the selected version's incremental animation sync finishes.
