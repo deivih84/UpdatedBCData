@@ -3,21 +3,26 @@
     "schedule": "PONOS EN gatya.tsv",
     "pools": "bc.godfat.org (validated against PONOS)"
   },
-  "changes": [],
+  "changes": [
+    {
+      "name": "The Dynamites",
+      "gacha_id": 1068,
+      "created": false,
+      "units": {
+        "ubers": {
+          "added": [
+            869
+          ],
+          "removed": []
+        }
+      },
+      "rates": {}
+    }
+  ],
   "pending": [
     {
       "name": "The Dynamites",
-      "gacha_id": 942,
-      "reason": "image_not_found"
-    },
-    {
-      "name": "The Dynamites (EN #1068)",
       "gacha_id": 1068,
-      "reason": "image_not_found"
-    },
-    {
-      "name": "Uberfest",
-      "gacha_id": 1061,
       "reason": "image_not_found"
     },
     {
@@ -28,11 +33,6 @@
     {
       "name": "Wargods Vajiras",
       "gacha_id": 1043,
-      "reason": "image_not_found"
-    },
-    {
-      "name": "Ultra Souls",
-      "gacha_id": 946,
       "reason": "image_not_found"
     },
     {
@@ -61,48 +61,7 @@
       "reason": "image_not_found"
     }
   ],
-  "images": [
-    {
-      "name": "Platinum Capsules",
-      "gacha_id": 1063,
-      "file": "banner_en_1063_5c1f9536793a2f0b.png"
-    },
-    {
-      "name": "Platinum Capsules (EN #1071)",
-      "gacha_id": 1071,
-      "file": "banner_en_1071_5c1f9536793a2f0b.png"
-    },
-    {
-      "name": "Legend Capsules",
-      "gacha_id": 1064,
-      "file": "banner_en_1064_393feda4d3cc1339.png"
-    },
-    {
-      "name": "Legend Capsules (EN #1072)",
-      "gacha_id": 1072,
-      "file": "banner_en_1072_393feda4d3cc1339.png"
-    },
-    {
-      "name": "The Dynamites (EN #1068)",
-      "gacha_id": 1068,
-      "file": "banner_en_1068_6830501bb396cf65.png"
-    },
-    {
-      "name": "Uberfest",
-      "gacha_id": 1061,
-      "file": "banner_en_1061_72dbdcc4c1eca744.png"
-    },
-    {
-      "name": "Download Anniversary Gacha",
-      "gacha_id": 1077,
-      "file": "banner_en_1077_4cf4ee9afc27b981.png"
-    },
-    {
-      "name": "Dynastyfest",
-      "gacha_id": 1078,
-      "file": "banner_en_1078_90c413b421ce1d67.png"
-    }
-  ],
+  "images": [],
   "errors": [],
   "region": "en",
   "missingImages": []

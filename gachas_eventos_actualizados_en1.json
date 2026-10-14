@@ -125,8 +125,8 @@
       ]
     },
     {
-      "id": "the_dynamites_en_1068_2026-10-16",
-      "nombre": "The Dynamites (EN #1068)",
+      "id": "the_dynamites_2026-10-16",
+      "nombre": "The Dynamites",
       "fecha_inicio": "2026-10-16",
       "fecha_fin": "2026-10-20",
       "caracteristicas": [
@@ -233,15 +233,6 @@
       "fecha_fin": "2026-10-29"
     },
     {
-      "id": "baron_seal_strikes_2026-10-05",
-      "nombre": "Baron Seal Strikes",
-      "caracteristicas": [
-        "Baron Seal Strikes contains a total of 20 No Continues levels, called Red Alerts. After beating a Red Alert, the player must wait for 30 minutes before they may proceed to the next one. Rewards for the first completion of a Red Alert can include XP, Tickets, Catamins and Materials. Every 20 Red Alerts play out the same, but the strength magnifications and enemy base's HP are increased with each level. "
-      ],
-      "fecha_inicio": "2026-10-05",
-      "fecha_fin": "2026-10-12"
-    },
-    {
       "id": "heavenly_tower_2026-10-05",
       "nombre": "Heavenly Tower",
       "caracteristicas": [
@@ -287,5 +278,5 @@
       "fecha_fin": "2026-10-29"
     }
   ],
-  "ultima_actualizacion": "2026-10-08T19:41:48Z"
+  "ultima_actualizacion": "2026-10-14T17:19:37Z"
 }

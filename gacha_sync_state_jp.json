@@ -3139,7 +3139,7 @@
     "946": {
       "family": "Ultra Souls",
       "name": "Ultra Souls",
-      "fingerprint": "64047d3ff2355e25fce91b5924fc6473760a0a57f8062f95b2c4cac1cd767962",
+      "fingerprint": "ea7bd0962406f90790fcb2699cc8577851ff61d6396cac6003c50001ff3872f0",
       "pool": {
         "rares": [
           523,
@@ -3217,10 +3217,10 @@
         ]
       },
       "rates": {
-        "rareChance": 6440,
+        "rareChance": 6970,
         "supaChance": 2500,
-        "uberChance": 1000,
-        "legendChance": 60
+        "uberChance": 500,
+        "legendChance": 30
       },
       "option": {
         "seriesID": 6,
@@ -3228,8 +3228,8 @@
       },
       "source": "bc.godfat.org (validated against PONOS)",
       "gameVersion": null,
-      "start_date": "2026-10-08",
-      "end_date": "2026-10-09",
+      "start_date": "2026-10-18",
+      "end_date": "2026-10-21",
       "image": {
         "sourceUrl": "https://static.wikitide.net/battlecatswiki/8/81/Gatya_bnr946.png",
         "sourcePage": "https://battlecats.miraheze.org/wiki/File:Gatya_bnr946.png",

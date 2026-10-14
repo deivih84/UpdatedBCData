@@ -2874,10 +2874,10 @@
       "legends": [
         451
       ],
-      "rareChance": 6440,
+      "rareChance": 6970,
       "supaChance": 2500,
-      "uberChance": 1000,
-      "legendChance": 60
+      "uberChance": 500,
+      "legendChance": 30
     },
     {
       "nombre": "Luga Families",

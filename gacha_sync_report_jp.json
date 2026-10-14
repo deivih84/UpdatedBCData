@@ -5,48 +5,8 @@
   },
   "changes": [
     {
-      "name": "Dragon Emperors (JP #1059)",
-      "gacha_id": 1059,
-      "created": false,
-      "units": {},
-      "rates": {
-        "rareChance": {
-          "old": 6440,
-          "new": 6970
-        },
-        "uberChance": {
-          "old": 1000,
-          "new": 500
-        },
-        "legendChance": {
-          "old": 60,
-          "new": 30
-        }
-      }
-    },
-    {
-      "name": "Iron Legion",
-      "gacha_id": 979,
-      "created": false,
-      "units": {},
-      "rates": {
-        "rareChance": {
-          "old": 6440,
-          "new": 6970
-        },
-        "uberChance": {
-          "old": 1000,
-          "new": 500
-        },
-        "legendChance": {
-          "old": 60,
-          "new": 30
-        }
-      }
-    },
-    {
-      "name": "Girls & Monsters",
-      "gacha_id": 1015,
+      "name": "Ultra Souls",
+      "gacha_id": 946,
       "created": false,
       "units": {},
       "rates": {
@@ -66,24 +26,6 @@
     }
   ],
   "pending": [
-    {
-      "gacha_id": 946,
-      "reason": "conflicting_id_variants"
-    },
-    {
-      "gacha_id": 1021,
-      "event_id": "2026-10-09_1021",
-      "text": "浮いてる敵にめっぽう強いキャラ「獅子番長ラクレス」登場！★詳細はバナーをタップ!!",
-      "reason": "unknown_identity",
-      "candidates": []
-    },
-    {
-      "gacha_id": 1067,
-      "event_id": "2026-10-09_1067",
-      "text": "赤と黒の攻撃をたまに無効化する「鉄腕！東雲寺あかね」登場！★詳細はバナーをタップ!!",
-      "reason": "unknown_identity",
-      "candidates": []
-    },
     {
       "gacha_id": 1082,
       "event_id": "2026-10-09_1082",
@@ -124,16 +66,6 @@
       "reason": "image_not_found"
     },
     {
-      "name": "Elemental Pixies",
-      "gacha_id": 1004,
-      "reason": "image_not_found"
-    },
-    {
-      "name": "Wargods Vajiras",
-      "gacha_id": 1043,
-      "reason": "image_not_found"
-    },
-    {
       "name": "Iron Legion",
       "gacha_id": 979,
       "reason": "image_not_found"
@@ -146,11 +78,6 @@
     {
       "name": "Ultra Souls",
       "gacha_id": 946,
-      "reason": "image_not_found"
-    },
-    {
-      "name": "Luga Families",
-      "gacha_id": 986,
       "reason": "image_not_found"
     }
   ],
