@@ -121,6 +121,11 @@ informe como artifact y presenta el resumen en GitHub Actions.
 El archivo de autenticación estaba registrado en Git pese al ignore; esta
 actualización lo retira del seguimiento conservando la copia local.
 
+El workflow instala `requirements-lock.txt` y las bibliotecas de importación de
+Qt, y ejecuta `check_project.py` antes de sincronizar. La suite completa también
+valida los generadores de estadísticas y necesita dependencias como `pandas` y
+`lxml`, que no incluye la instalación reducida de `requirements-gacha-sync.txt`.
+
 Las regresiones de pools históricos usan muestras congeladas en
 `tests/fixtures/gacha_pools_2026_08.json` y pasan por el parser real del proveedor.
 El catálogo vivo se valida por estructura, rarezas, probabilidades y aliases;

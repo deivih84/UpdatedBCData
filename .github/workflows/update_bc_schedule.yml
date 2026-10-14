@@ -25,9 +25,17 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-lock.txt
+
+      - name: Install Qt import libraries
+        run: sudo apt-get update && sudo apt-get install -y libgl1 libegl1
 
       - name: Install dependencies
-        run: pip install -r requirements-gacha-sync.txt
+        run: python -m pip install -r requirements-lock.txt
+
+      - name: Check updater environment
+        run: python check_project.py
 
       - name: Synchronize banner catalog and images
         run: python sync_gacha_catalog.py --online
