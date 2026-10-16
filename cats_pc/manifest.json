@@ -1,0 +1,365 @@
+{
+  "schemaVersion": 1,
+  "revision": "sha256:f1dd032e1a215427b531aca9f7afd770ebb2e0ddf0ac1a753ed6e68b25a31222",
+  "archives": {
+    "100901": {
+      "sha256": "dd55d792d5caf3d3f8bacda5003fa606eacd9f92ee7104eeebaf74f676be762b",
+      "size": 475535
+    },
+    "100902": {
+      "sha256": "acdb0d57c585421afc9d2eec40d9fb637df17c6e14c59dc031c3808b381585f3",
+      "size": 421826
+    },
+    "100903": {
+      "sha256": "00fe5c86989746fd1267d928d277c857f69d114554f2386735c6d529a9dfb0ec",
+      "size": 354761
+    },
+    "100904": {
+      "sha256": "7edc59ebdee69dad19ed3e849170f67da1002672210b06cff1e59f7368b7a082",
+      "size": 82111
+    },
+    "100905": {
+      "sha256": "5ececc9955f98518e22fae25ec54320e96187d1c546848ac96dc7a98a9f0b357",
+      "size": 115646
+    },
+    "100906": {
+      "sha256": "2c722216ef65e4498721a416313fa847f7ad4a13a232eff8315c800f0265fcc2",
+      "size": 295567
+    },
+    "100907": {
+      "sha256": "b645c033fc3af6149b7f9265692c6aabf199911b27fd313749d903f9e0a1763d",
+      "size": 406455
+    },
+    "100908": {
+      "sha256": "4095cd719a340b2de9fcf49e5fd396b8e8e0d62583d0369c084811f939a8c7a3",
+      "size": 272216
+    },
+    "100909": {
+      "sha256": "a8de66a8a3a98fe9ad70ecbbbdc15ed2fb7ed507e93001afd1382b87f0212ab4",
+      "size": 385833
+    },
+    "100910": {
+      "sha256": "9de6c7e0c81e15f6f04daf528eac1b16e556952d351cbb1e4f74d4f228f1c5ce",
+      "size": 351213
+    },
+    "100911": {
+      "sha256": "a94acc6eb109fa44318a032a08b1ca00fe6d340994ebf5f61589c328c080fead",
+      "size": 450480
+    },
+    "100912": {
+      "sha256": "d1fc0f0db17bf59279e7476a9cf948f902500495be3146cef0aa08af0bc20431",
+      "size": 243548
+    },
+    "100913": {
+      "sha256": "a0808de92c8efaa10048d12aca83f945660064b57f87f6049bf12470b0ceee67",
+      "size": 69952
+    },
+    "100914": {
+      "sha256": "4a63189610e0ebcf1feba59c4c46816fe88a9aac5299725ee32110198c4fd477",
+      "size": 153011
+    },
+    "100915": {
+      "sha256": "592e5b3674c36513a800d589461ce3773d39d2139170f871b5113760485304c0",
+      "size": 90261
+    },
+    "100916": {
+      "sha256": "72c4cd0cd5cedb0fc5ac07fa739b849d7437330593519b02569f3823d30d37c9",
+      "size": 332713
+    },
+    "100917": {
+      "sha256": "488164d7226fcb95e76c3023f6df49bcd08a235455a7cb451b098f8327898385",
+      "size": 278434
+    }
+  },
+  "sources": [
+    {
+      "unitId": "100901",
+      "form": "f",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC901_f.json&action=raw",
+      "jsonSha256": "a9729cad0eec7e09a693fb6996fb892fbbd3985570aa249580e9fb4fafb321a3",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/0/01/10901_f.png",
+      "spritesheetSha256": "b718f8f1a304a8c084570b1fcdc6d40c56d5f8cd4dcba7c7f42eac6c3eb0b654"
+    },
+    {
+      "unitId": "100901",
+      "form": "c",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC901_c.json&action=raw",
+      "jsonSha256": "c22b6f04486e6fb6a68a03279510c31592f9b82fe68253ab02ef806a1f15ed39",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/b/b5/10901_c.png",
+      "spritesheetSha256": "b171e33bb45bcecd833725fbfc1000b2a2e6c1c9b9f120c408f6cb7ec490ffc6"
+    },
+    {
+      "unitId": "100901",
+      "form": "s",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC901_s.json&action=raw",
+      "jsonSha256": "335094c95c72882598ca61feae530f7e9484f4ab81a934d6536963769bdaa16d",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/c/cf/10901_s.png",
+      "spritesheetSha256": "d35a5692230239eca9f80ea108482bf4e5f71054b5d9d10f22584a0c1444669b"
+    },
+    {
+      "unitId": "100902",
+      "form": "f",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC902_f.json&action=raw",
+      "jsonSha256": "015d6fbc32e9f25344282708603c253ab609f90e8b10fac3d97213bb92cef88f",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/a/ac/10902_f.png",
+      "spritesheetSha256": "aab186f047c27cc7b33bc2bdbb9543e6006cd5d9ecd98fe6f800e5527a0eb10d"
+    },
+    {
+      "unitId": "100902",
+      "form": "c",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC902_c.json&action=raw",
+      "jsonSha256": "bd4814f95e3d7b8277865cc809818e92f1457c7b4f29f0037855f5975c804e4e",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/3/34/10902_c.png",
+      "spritesheetSha256": "9f1bfd9079296633cd0a0648e2c9194234dbf53b4c5c5d04106f8cd47f0dbf4a"
+    },
+    {
+      "unitId": "100903",
+      "form": "f",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC903_f.json&action=raw",
+      "jsonSha256": "6f724bf68df9e2df5e4fe47fbe4c869f922687bfe81b1233b8cdf751d8ae6f44",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/e/e9/10903_f.png",
+      "spritesheetSha256": "fdee9c0b8e6adf23feef2040bf3cce16cb1ddebc29193536e8b66f8c801e14e6"
+    },
+    {
+      "unitId": "100903",
+      "form": "c",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC903_c.json&action=raw",
+      "jsonSha256": "b4ff23988c4b7c7367b12863a41102ab9685943d6616de7b239ad25f30fa43bb",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/b/bd/10903_c.png",
+      "spritesheetSha256": "d043cb17d78c67a46cfcbff7d78b51a3e8ff79445b5ca1371951e3a16a363d6f"
+    },
+    {
+      "unitId": "100904",
+      "form": "f",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC904_f.json&action=raw",
+      "jsonSha256": "a82d8937ed490e7d930c628d4b20c6078ddabbafece3033e067bc53e96370aa5",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/2/22/10904_f.png",
+      "spritesheetSha256": "59033f26d0cff6dbefcc7f130b6227bf5beadccf14300b57ef78fd0ad724f94a"
+    },
+    {
+      "unitId": "100904",
+      "form": "c",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC904_c.json&action=raw",
+      "jsonSha256": "42ff84cbf6c90fb2f071300bd0431c69e5b81d8498d4dc44443160de51ddf168",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/d/d9/10904_c.png",
+      "spritesheetSha256": "9477c93073d6642af7d51870adbc7345f841cdb145374a903984460cd7e9150b"
+    },
+    {
+      "unitId": "100905",
+      "form": "f",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC905_f.json&action=raw",
+      "jsonSha256": "14d3f20d188c635cb83864409a78f0a2f91bdd55dbed1a3f7bf531adfbcd93c0",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/5/5e/10905_f.png",
+      "spritesheetSha256": "1fe8b3fde55926a16d9fd46132ca757e9cee86b9cbd1b22453b48961af94ad55"
+    },
+    {
+      "unitId": "100905",
+      "form": "c",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC905_c.json&action=raw",
+      "jsonSha256": "aef86d61254d9189536b6ac0283378f1ee5d35d6d55012682c4f5d95ad5268ae",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/7/78/10905_c.png",
+      "spritesheetSha256": "4cab3b192f79c0244e8e993472f358b61815af42ec065bc3286468f75c8389ba"
+    },
+    {
+      "unitId": "100906",
+      "form": "f",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC906_f.json&action=raw",
+      "jsonSha256": "5c210f0f0cc7bcb4e2cb509b437f68d2486a72db8293a5bfd519f63bafcf22dd",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/8/89/10906_f.png",
+      "spritesheetSha256": "dc69a26cff3319f0d6fb83a013d664a78a260d313cba854d900a03ccef40f163"
+    },
+    {
+      "unitId": "100906",
+      "form": "c",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC906_c.json&action=raw",
+      "jsonSha256": "dd31cb0075fe7411946625e76afd767774da678664b086c51d15ec5d69991164",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/a/a9/10906_c.png",
+      "spritesheetSha256": "a04f15d251434f7496c9816933abd291fe128cc7075f110ce58295bd37725e79"
+    },
+    {
+      "unitId": "100907",
+      "form": "f",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC907_f.json&action=raw",
+      "jsonSha256": "a348f2249ef3f326122b9b1ed6c1400997475a4ff2c4ee451de57340544da2b1",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/c/c6/10907_f.png",
+      "spritesheetSha256": "644e45c9d8b9ad0772c74aa6319c372e60b8f6b8416d94d6a8722148bd3c8ef1"
+    },
+    {
+      "unitId": "100907",
+      "form": "c",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC907_c.json&action=raw",
+      "jsonSha256": "c319e808eafbed00752dab5050838d6f4e68455a94ddc3819436a2ef8c2ba540",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/3/39/10907_c.png",
+      "spritesheetSha256": "ab8c01f9813cd261c5fd4455d17da0e45398fbbc35644cf3150ec840b7645ac7"
+    },
+    {
+      "unitId": "100908",
+      "form": "f",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC908_f.json&action=raw",
+      "jsonSha256": "fdd9ca32c5be32b99425949da7aa887c13fe0423d37e55dfe4db085d0e94dd77",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/5/5f/10908_f.png",
+      "spritesheetSha256": "ce5d4111e17ccd1be5a51001a9dec52edcac55fb018046ca7c4372940352c4b1"
+    },
+    {
+      "unitId": "100908",
+      "form": "c",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC908_c.json&action=raw",
+      "jsonSha256": "75a6a4a6c0d6d77e8f0d31243aea78b41f44d07766b0f6295a18c4772eca1f4f",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/9/99/10908_c.png",
+      "spritesheetSha256": "e61a4971a618e834fa1f57de15b77efbec3e179e4dbeac35a3babcfa08b752b8"
+    },
+    {
+      "unitId": "100909",
+      "form": "f",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC909_f.json&action=raw",
+      "jsonSha256": "53eff4d37ce6dd982fd466ffa4a754e5ccdbc608afcab75089847dce5cb9b813",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/9/93/10909_f.png",
+      "spritesheetSha256": "3de12c8867654779a7824e1f51384d333a8e12230d3c6a08ff02f22d07e14a34"
+    },
+    {
+      "unitId": "100909",
+      "form": "c",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC909_c.json&action=raw",
+      "jsonSha256": "cb2aaa2a5a2ec4e8fb87e8b20210b523257a273d6ebee5f6c04763421003b126",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/3/38/10909_c.png",
+      "spritesheetSha256": "3871b3ab5b6c44aa2bf803d2cc813f09651a070a5a737057430490199189a9a1"
+    },
+    {
+      "unitId": "100910",
+      "form": "f",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC910_f.json&action=raw",
+      "jsonSha256": "8a1a1d732c881c15ac2a7d8919dcfcb8698b2564c90e02afc7ae5aa9254bfe4d",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/e/e0/10910_f.png",
+      "spritesheetSha256": "d776531eb7c4889d6083cbf7a590b4cfa5bed3a54738fd1e095fdca0bc5bb79a"
+    },
+    {
+      "unitId": "100910",
+      "form": "c",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC910_c.json&action=raw",
+      "jsonSha256": "85d7848f9b19ab57fdef9fe7f3dc1213dd209a21280571800f51d1ac1009665d",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/4/48/10910_c.png",
+      "spritesheetSha256": "c8caad3c05e375dbed954ca0afc224debbd88bf0e875346ad36ac896a79e8d2e"
+    },
+    {
+      "unitId": "100911",
+      "form": "f",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC911_f.json&action=raw",
+      "jsonSha256": "8a8e4c06168164a44f9415e61629ed29ba117b833e6940d091847d6cf0f73900",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/7/7b/10911_f.png",
+      "spritesheetSha256": "534e647562c164b930390781370d7961cb248f5ef939610207d356ef05d959b6"
+    },
+    {
+      "unitId": "100911",
+      "form": "c",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC911_c.json&action=raw",
+      "jsonSha256": "07c5957d5b2f0a51ab7d8968fc9d21ae595da97c8c9699b42818a872dcef11a1",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/1/10/10911_c.png",
+      "spritesheetSha256": "1774e1130ae15e8cdd3f7cbf590b3d77bf2692e1cd90aa87704c58bcb22a3033"
+    },
+    {
+      "unitId": "100912",
+      "form": "f",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC912_f.json&action=raw",
+      "jsonSha256": "6b3e286a9783b3cd1e256fb0be70f43968f76306b0793b84bb97fc766c432f4b",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/0/0d/10912_f.png",
+      "spritesheetSha256": "49d061b72df45a0105ec60f9e5289119edbca407ce2aa07271dc2a8837c2fe01"
+    },
+    {
+      "unitId": "100912",
+      "form": "c",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC912_c.json&action=raw",
+      "jsonSha256": "75da609fdee9d318e5315591315221a25907fbd39d989396686d46f0a28dfaf6",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/1/1e/10912_c.png",
+      "spritesheetSha256": "61fd4d2bb9ee14aa233b4b3fa3ae44b427f6b1fb64a5f41ef12a5800bfff0cc1"
+    },
+    {
+      "unitId": "100913",
+      "form": "f",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC913_f.json&action=raw",
+      "jsonSha256": "22c42425d289ce2653c60d8e8411170a8e9ca3f44c08f399ffba01c24cf08107",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/a/a1/10913_f.png",
+      "spritesheetSha256": "6a2ded63ab92882b0e0a347ce1a0d5cdbc8eda8f3576b06a402a8f9bade399d3"
+    },
+    {
+      "unitId": "100913",
+      "form": "c",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC913_c.json&action=raw",
+      "jsonSha256": "7bd8f625c7265ab270f0a51e6f64d7204e4b1de4be8729769e120852231df1a0",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/1/18/10913_c.png",
+      "spritesheetSha256": "b6be7d719257f5c31dfce8b459a7b66d25031c1b23c4ae6c4b3c5f5ab3047cf4"
+    },
+    {
+      "unitId": "100914",
+      "form": "f",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC914_f.json&action=raw",
+      "jsonSha256": "c8c3ab9dafeb49b0d67877894e8b4716c0a64b83b0a62157926b5952017f9094",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/2/29/10914_f.png",
+      "spritesheetSha256": "fd57f655108f2016e7149192386867bdd588b1c1978de82cd346efba72fa896e"
+    },
+    {
+      "unitId": "100914",
+      "form": "c",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC914_c.json&action=raw",
+      "jsonSha256": "ec46a5bfa5f449064efe5c39c7fd82c6daedf7f1eb6ac1e66fd98bbbb6b84fdf",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/c/c9/10914_c.png",
+      "spritesheetSha256": "2d0228cbaf46b828f8e6903999436b8a53843d545741b326c149da549eabd2a3"
+    },
+    {
+      "unitId": "100915",
+      "form": "f",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC915_f.json&action=raw",
+      "jsonSha256": "31520b34ddb527002bba454d110759177b31827a1da06ffa4d8af275b982c714",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/f/f7/10915_f.png",
+      "spritesheetSha256": "bf6caa06dbf43b489bb0e42ab96a195284c2feb61be73a211ab75e2ddfd26992"
+    },
+    {
+      "unitId": "100915",
+      "form": "c",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC915_c.json&action=raw",
+      "jsonSha256": "97258830547273afdde2eb6ff3759605418e0ceb6eda692710592598d29e2337",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/b/b5/10915_c.png",
+      "spritesheetSha256": "e7dc6f454ccbe7107e2ed371719615e7c30e61111be64d6bc9c22762006e6bef"
+    },
+    {
+      "unitId": "100916",
+      "form": "f",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC916_f.json&action=raw",
+      "jsonSha256": "2f346a9a017bc12bf00b59d27e1840fdeb61db8bd46cbfd877c25aeef81768d5",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/1/13/10916_f.png",
+      "spritesheetSha256": "3ffbea84a79fc703600e30de3f0ffc38ab24a45d8d1ea906321e3d92baae6a97"
+    },
+    {
+      "unitId": "100916",
+      "form": "c",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC916_c.json&action=raw",
+      "jsonSha256": "948e39d6abcb1803a1b31b1d8cb3ce91aab929392e9c51c73817de3e0b513495",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/2/27/10916_c.png",
+      "spritesheetSha256": "15ad0e80c905ae66bd9468706c2228e40c39bf1bc5312e4367abfb25a112daff"
+    },
+    {
+      "unitId": "100917",
+      "form": "f",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC917_f.json&action=raw",
+      "jsonSha256": "5a35ce977d78f738ca60d302415e03c7e3c5700f85e5e8a9983105971776430a",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/f/fa/10917_f.png",
+      "spritesheetSha256": "e8405df8cd6f905718bd624a935fcbfd86fe58a1ff90043baf5b202527bc2a42"
+    },
+    {
+      "unitId": "100917",
+      "form": "c",
+      "jsonUrl": "https://battlecats.miraheze.org/w/index.php?title=MediaWiki%3ACustom-AnimationViewer%2FPC917_c.json&action=raw",
+      "jsonSha256": "ce8ab666ace021082649aa3ea110275eb9dce83c37275fce41c9a2304dc872cb",
+      "spritesheetUrl": "https://static.wikitide.net/battlecatswiki/e/ef/10917_c.png",
+      "spritesheetSha256": "366df22e09491eebbf5f4fb40390c4f47e5f546a11631304d23837f76f520082"
+    }
+  ],
+  "warnings": [
+    "100911/f: Knockback has no tracks in the source",
+    "100913/f: final hit timing unavailable/ambiguous; backswing unavailable",
+    "100913/c: final hit timing unavailable/ambiguous; backswing unavailable",
+    "100914/f: attack ends before published foreswing; backswing unavailable",
+    "100914/c: attack ends before published foreswing; backswing unavailable",
+    "100916/f: final hit timing unavailable/ambiguous; backswing unavailable",
+    "100916/c: final hit timing unavailable/ambiguous; backswing unavailable"
+  ]
+}

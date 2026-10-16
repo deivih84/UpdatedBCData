@@ -109,3 +109,8 @@ temporales a stagear. El APK de la app ya publicado en este repo se conserva.
 
 Consulta el [inventario de migración](docs/migration-inventory.md) para saber
 qué herramientas se incorporaron y cuáles son históricas.
+
+## Gatos de PC
+
+El catálogo curado y los paquetes del visor PC se mantienen por separado de las
+fuentes móviles. Ver [gatos de PC](docs/pc-cats.md) y `python sync_pc_cats.py --help`.

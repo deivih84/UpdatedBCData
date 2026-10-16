@@ -308,6 +308,11 @@ def master_sync():
         "units": units_dict
     }
 
+    # PC evidence has its own source/animation lifecycle, outside mobile CSVs.
+    pc_catalog_path = Path(output_file).parent / 'pc_cats.json'
+    if pc_catalog_path.exists():
+        final_data['pc_catalog'] = json.loads(pc_catalog_path.read_text(encoding='utf-8'))['pc_catalog']
+
     # Provisional values from the merged archives. update_all refreshes them
     # again after the selected version's incremental animation sync finishes.
     public_root = Path(output_file).parent
