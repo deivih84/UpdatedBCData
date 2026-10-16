@@ -3,7 +3,7 @@
   "banners": {
     "1063": {
       "family": "Platinum Capsules",
-      "name": "Platinum Capsules",
+      "name": "Platinum Capsules (EN #1063)",
       "fingerprint": "bb07495041b26b987843797d626110452a6ddb027b9f097e1d5a35751d860721",
       "pool": {
         "rares": [],
@@ -169,7 +169,7 @@
     },
     "1071": {
       "family": "Platinum Capsules",
-      "name": "Platinum Capsules (EN #1071)",
+      "name": "Platinum Capsules",
       "fingerprint": "648cc754c7410df563f87e6c4e2d0666f491cc271d1e89ac0c2c015873935e64",
       "pool": {
         "rares": [],
@@ -336,7 +336,7 @@
     },
     "1064": {
       "family": "Legend Capsules",
-      "name": "Legend Capsules",
+      "name": "Legend Capsules (EN #1064)",
       "fingerprint": "bab620e9fe50afad4797506a70781d240b867c0bead0ff20c90dca13f016740a",
       "pool": {
         "rares": [],
@@ -516,7 +516,7 @@
     },
     "1072": {
       "family": "Legend Capsules",
-      "name": "Legend Capsules (EN #1072)",
+      "name": "Legend Capsules",
       "fingerprint": "7b9b80e1b908437246c26b54c076e58b065e9055321cbce5dfcf30adb8eb13be",
       "pool": {
         "rares": [],

@@ -185,44 +185,35 @@
       ]
     },
     {
-      "id": "platinum_capsules_en_1071_2026-10-16",
-      "nombre": "Platinum Capsules (EN #1071)",
-      "fecha_inicio": "2026-10-16",
+      "id": "platinum_capsules_en_1063_2026-07-24",
+      "nombre": "Platinum Capsules (EN #1063)",
+      "fecha_inicio": "2026-07-24",
       "fecha_fin": "2030-01-01",
       "caracteristicas": []
     },
     {
-      "id": "platinum_capsules_2026-07-24",
+      "id": "platinum_capsules_2026-10-16",
       "nombre": "Platinum Capsules",
-      "fecha_inicio": "2026-07-24",
-      "fecha_fin": "2030-01-01",
-      "caracteristicas": []
-    },
-    {
-      "id": "legend_capsules_en_1072_2026-10-16",
-      "nombre": "Legend Capsules (EN #1072)",
       "fecha_inicio": "2026-10-16",
       "fecha_fin": "2030-01-01",
       "caracteristicas": []
     },
     {
-      "id": "legend_capsules_2026-07-24",
-      "nombre": "Legend Capsules",
+      "id": "legend_capsules_en_1064_2026-07-24",
+      "nombre": "Legend Capsules (EN #1064)",
       "fecha_inicio": "2026-07-24",
+      "fecha_fin": "2030-01-01",
+      "caracteristicas": []
+    },
+    {
+      "id": "legend_capsules_2026-10-16",
+      "nombre": "Legend Capsules",
+      "fecha_inicio": "2026-10-16",
       "fecha_fin": "2030-01-01",
       "caracteristicas": []
     }
   ],
   "eventos": [
-    {
-      "id": "otherworld_colosseum_2026-10-01",
-      "nombre": "Otherworld Colosseum",
-      "caracteristicas": [
-        "Otherworld Colosseum (異次元コロシアム, Ijigen Koroshiamu, Extradimensional Colosseum) is an event added in the Version 13.5. It is unlocked after beating A New Legend. There are several different Otherworld Colosseum maps that share the same name, each consisting of 5 No Continues stages and 2 difficulty levels. The Otherworld Colosseum is one of the few sources of Dark Catseyes.\n\nFeatures a set of stages with a cycling ruleset. Beat back the oncoming interdimensional horde!\n\nMission Reward(s): Rare Ticket, Platinum Shard, Catseye [Dark].\n\n※ You must collect rewards from completed Otherworld Colosseum missions by tapping the Claim button. Even if mission conditions have been met, rewards will not be automatically collected.\n※ Tap the icon at bottom left of the Otherworld Colosseum stage select screen to confirm the battle rule in effect.\n※ Some CatCombos may not activate due to the current ruleset.\n※ You must clear the \"A New Legend\" map found in the Uncanny Legends section of the Legend Stages section to challenge the Otherworld Colosseum.\n\nEach Otherworld Colosseum map has a unique \"rule\" that applies during battle. Only one rule is applied per map.\n\nRule 1: Trust Fund. The player starts with 50,000¢ and cannot gain money from defeating enemies or by the Worker Cat. All units will start on their cooldown, and any money-related Cat Combos are prohibited.\nRule 2: Cooldown Equality. All units have their cooldown set to 16.67 seconds. Research Combos are prohibited.\nRule 3: Only One Rarity. Only one unit from each Rarity can be deployed at once. This only affects the battle, not creating the lineup.\nRule 4: Cheap Labor. All Cat Units have their cost set to 500¢.\nRule 5: Super Rare Sale. The cooldown time and deployment cost of Super Rare Cats has been set to 50% of their original time / cost.\nRule 6: Deploy Limit. The amount of units that can be deployed throughout the battle is limited to 60.\nRule 7: Special Clearance. The cooldown time and deployment cost of Special Cats has been set to 30% of their original time / cost.\nRule 8: Plus One: Uber. Deploying an Uber Rare Cat will summon another one 2 seconds after deploying the first one.\nRule 9: Mega Cat Cannon. The Cat Cannon will deal increased damage. This only affects the Default Cat Cannon.\nRule 10: Uniform Motion. All cats and enemies with at least 1 speed will have their speed set to a uniform value.\nRule 11: Plus One: Special. Deploying a Special Cat will summon another one 2 seconds after deploying the first one.\nRule 12: Uber Clearance. The cooldown time and deployment cost of Uber Rare Cats has been set to 50% of their original time and 5% of their original cost, but only a limited number of Uber Rare Cats can be deployed at a time.\nRule 13: Limited Stock. All units have their cooldown set to 16.67 seconds, and a maximum of 50 non-Conjured units can be deployed. Research Combos are prohibited.\nRule 14: Dirt Cheap. All Cat Units have their cost set to 10¢.\nRule 15: Pay Day. The player starts with 266,730¢ and cannot gain money from defeating enemies or by the Worker Cat. All units will start on their cooldown, and any money-related Cat Combos are prohibited. The cooldown time of Uber Rare Cats has been set to 20% of their original time.\nRule 16: Grand Battle. Ubers have double the cost and recharge time, but deploying one will spawn 3 of them.\nRule 17: High Speed. All units have their cost and recharge time set to 70%. All units with at least 1 speed will have their speed doubled.\nRule 18: Half-Off: S. Rare. Super rare cats have cost set to 50% and spawning one will spawn another shortly after.\nRule 19: 物価高騰 超激レア. Start with 60k money and don't get any more (like Trust Fund). Ubers cost twice as much as usual but only have 70% of the cooldown."
-      ],
-      "fecha_inicio": "2026-10-01",
-      "fecha_fin": "2026-10-15"
-    },
     {
       "id": "120m_download_celebration_2026-10-05",
       "nombre": "120M Download Celebration!",
@@ -278,5 +269,5 @@
       "fecha_fin": "2026-10-29"
     }
   ],
-  "ultima_actualizacion": "2026-10-14T17:19:37Z"
+  "ultima_actualizacion": "2026-10-16T04:40:18Z"
 }

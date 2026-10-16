@@ -61,6 +61,11 @@
       ],
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_jp_33_54eb3268af033765.png",
       "rares": [
+        523,
+        495,
+        376,
+        325,
+        308,
         198,
         197,
         149,
@@ -83,6 +88,21 @@
         37
       ],
       "super_rares": [
+        447,
+        446,
+        445,
+        444,
+        443,
+        200,
+        144,
+        131,
+        129,
+        237,
+        238,
+        239,
+        522,
+        377,
+        307,
         199,
         153,
         152,
@@ -99,18 +119,26 @@
         30
       ],
       "ubers": [
+        861,
+        760,
+        660,
+        620,
+        505,
+        396,
         177,
-        84,
-        83,
         87,
+        86,
         85,
-        86
+        84,
+        83
       ],
-      "legends": [],
-      "rareChance": 7500,
-      "supaChance": 2000,
+      "legends": [
+        450
+      ],
+      "rareChance": 6970,
+      "supaChance": 2500,
       "uberChance": 500,
-      "legendChance": 0
+      "legendChance": 30
     },
     {
       "nombre": "Dragon Emperors (JP #1059)",
@@ -2963,6 +2991,64 @@
       "supaChance": 2500,
       "uberChance": 1000,
       "legendChance": 60
+    },
+    {
+      "nombre": "Dragon Emperors (JP #33)",
+      "aliases": [
+        "Dragon Emperors (JP #33)"
+      ],
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_jp_33_54eb3268af033765.png",
+      "rares": [
+        198,
+        197,
+        149,
+        148,
+        147,
+        146,
+        145,
+        58,
+        56,
+        55,
+        52,
+        51,
+        50,
+        49,
+        48,
+        47,
+        46,
+        41,
+        38,
+        37
+      ],
+      "super_rares": [
+        199,
+        153,
+        152,
+        151,
+        150,
+        61,
+        40,
+        39,
+        36,
+        35,
+        33,
+        32,
+        31,
+        30
+      ],
+      "ubers": [
+        177,
+        84,
+        83,
+        87,
+        85,
+        86
+      ],
+      "legends": [],
+      "rareChance": 7500,
+      "supaChance": 2000,
+      "uberChance": 500,
+      "legendChance": 0
     }
   ]
 }

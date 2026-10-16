@@ -5,22 +5,150 @@
   },
   "changes": [
     {
-      "name": "Ultra Souls",
-      "gacha_id": 946,
+      "name": "Dragon Emperors",
+      "gacha_id": 1059,
       "created": false,
-      "units": {},
+      "units": {
+        "rares": {
+          "added": [
+            308,
+            325,
+            376,
+            495,
+            523
+          ],
+          "removed": []
+        },
+        "super_rares": {
+          "added": [
+            129,
+            131,
+            144,
+            200,
+            237,
+            238,
+            239,
+            307,
+            377,
+            443,
+            444,
+            445,
+            446,
+            447,
+            522
+          ],
+          "removed": []
+        },
+        "ubers": {
+          "added": [
+            396,
+            505,
+            620,
+            660,
+            760,
+            861
+          ],
+          "removed": []
+        },
+        "legends": {
+          "added": [
+            450
+          ],
+          "removed": []
+        }
+      },
       "rates": {
         "rareChance": {
-          "old": 6440,
+          "old": 7500,
           "new": 6970
         },
+        "supaChance": {
+          "old": 2000,
+          "new": 2500
+        },
+        "legendChance": {
+          "old": 0,
+          "new": 30
+        }
+      }
+    },
+    {
+      "name": "Dragon Emperors (JP #33)",
+      "gacha_id": 33,
+      "created": true,
+      "units": {
+        "rares": {
+          "added": [
+            37,
+            38,
+            41,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            55,
+            56,
+            58,
+            145,
+            146,
+            147,
+            148,
+            149,
+            197,
+            198
+          ],
+          "removed": []
+        },
+        "super_rares": {
+          "added": [
+            30,
+            31,
+            32,
+            33,
+            35,
+            36,
+            39,
+            40,
+            61,
+            150,
+            151,
+            152,
+            153,
+            199
+          ],
+          "removed": []
+        },
+        "ubers": {
+          "added": [
+            83,
+            84,
+            85,
+            86,
+            87,
+            177
+          ],
+          "removed": []
+        }
+      },
+      "rates": {
+        "rareChance": {
+          "old": null,
+          "new": 7500
+        },
+        "supaChance": {
+          "old": null,
+          "new": 2000
+        },
         "uberChance": {
-          "old": 1000,
+          "old": null,
           "new": 500
         },
         "legendChance": {
-          "old": 60,
-          "new": 30
+          "old": null,
+          "new": 0
         }
       }
     }
@@ -61,7 +189,7 @@
       "reason": "image_not_found"
     },
     {
-      "name": "Dragon Emperors (JP #1059)",
+      "name": "Dragon Emperors",
       "gacha_id": 1059,
       "reason": "image_not_found"
     },

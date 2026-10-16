@@ -168,10 +168,6 @@
       "reason": "image_not_found"
     },
     {
-      "name": "Otherworld Colosseum",
-      "reason": "image_not_found"
-    },
-    {
       "name": "Koneko Takes the Stage",
       "event_ids": [
         39000
@@ -210,7 +206,6 @@
     "Arena of Destiny: section_has_no_verified_poster",
     "Monthly Event All-Stars Grateful Gathering: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "120M Download Celebration!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Otherworld Colosseum: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Koneko Takes the Stage: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Cats Eye Caverns: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Festival Cats: Lunar New Year's: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
@@ -226,7 +221,7 @@
       "source": "BCData EN resources"
     }
   },
-  "calendarEvents": 7,
+  "calendarEvents": 6,
   "missingImages": [
     "Cats Eye Cave",
     "Cats Eye Caverns",
