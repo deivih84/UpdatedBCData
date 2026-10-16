@@ -93,7 +93,8 @@
       "nombre": "Elemental Pixies",
       "aliases": [
         "Elemental Pixies",
-        "Conjurer hero Komori joins the fight!"
+        "Conjurer hero Komori joins the fight!",
+        "Conjurer hero Komori joins the fight! ★Tap for details!"
       ],
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_pixies.png",
       "rareChance": 6970,
@@ -176,7 +177,9 @@
     {
       "nombre": "Dark Heroes",
       "aliases": [
-        "Dark Heroes"
+        "Dark Heroes",
+        "Command mighty Conjurer Mech Patrol Axel! ★Tap banner for info!",
+        "Command mighty Conjurer Mech Patrol Axel!"
       ],
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_heroes.png",
       "rareChance": 6970,
@@ -523,7 +526,8 @@
       "nombre": "Spooky Cuties",
       "aliases": [
         "Spooky Cuties",
-        "New unit Sorceress Sidmi added! Spooky beauties from beyond!"
+        "New unit Sorceress Sidmi added! Spooky beauties from beyond!",
+        "Sorceress Sidmi added! Spooky beauties from beyond!"
       ],
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_spooky_cuties.png",
       "rareChance": 6970,
@@ -1482,6 +1486,7 @@
         30
       ],
       "ubers": [
+        869,
         861,
         850,
         837,
@@ -1664,6 +1669,7 @@
         30
       ],
       "ubers": [
+        869,
         861,
         859,
         850,

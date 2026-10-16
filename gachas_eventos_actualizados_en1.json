@@ -1,49 +1,10 @@
 {
   "gachas": [
     {
-      "id": "fate_stay_night_heaven_s_feel_collaboration_2026-09-18",
-      "nombre": "Fate/Stay Night: Heaven's Feel Collaboration",
-      "fecha_inicio": "2026-09-18",
-      "fecha_fin": "2026-10-05",
-      "caracteristicas": [
-        "G",
-        "Guaranteed",
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "dark_heroes_2026-09-30",
-      "nombre": "Dark Heroes",
-      "fecha_inicio": "2026-09-30",
-      "fecha_fin": "2026-10-02",
-      "caracteristicas": [
-        "G",
-        "Guaranteed"
-      ]
-    },
-    {
-      "id": "spooky_cuties_2026-10-02",
-      "nombre": "Spooky Cuties",
-      "fecha_inicio": "2026-10-02",
-      "fecha_fin": "2026-10-05",
-      "caracteristicas": [
-        "G",
-        "Guaranteed"
-      ]
-    },
-    {
       "id": "download_celebration_2026-10-05",
       "nombre": "Download Celebration!",
       "fecha_inicio": "2026-10-05",
       "fecha_fin": "2026-10-29",
-      "caracteristicas": []
-    },
-    {
-      "id": "uberfest_2026-10-05",
-      "nombre": "Uberfest",
-      "fecha_inicio": "2026-10-05",
-      "fecha_fin": "2026-10-09",
       "caracteristicas": []
     },
     {
@@ -54,50 +15,6 @@
       "caracteristicas": [
         "L",
         "Lucky Ticket"
-      ]
-    },
-    {
-      "id": "the_dynamites_2026-10-05",
-      "nombre": "The Dynamites",
-      "fecha_inicio": "2026-10-05",
-      "fecha_fin": "2026-10-09",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "dynastyfest_2026-10-09",
-      "nombre": "Dynastyfest",
-      "fecha_inicio": "2026-10-09",
-      "fecha_fin": "2026-10-13",
-      "caracteristicas": [
-        "L",
-        "Lucky Ticket"
-      ]
-    },
-    {
-      "id": "wargods_vajiras_2026-10-09",
-      "nombre": "Wargods Vajiras",
-      "fecha_inicio": "2026-10-09",
-      "fecha_fin": "2026-10-11",
-      "caracteristicas": [
-        "L",
-        "Lucky Ticket",
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "ultra_souls_2026-10-11",
-      "nombre": "Ultra Souls",
-      "fecha_inicio": "2026-10-11",
-      "fecha_fin": "2026-10-13",
-      "caracteristicas": [
-        "L",
-        "Lucky Ticket",
-        "P",
-        "Platinum Shard"
       ]
     },
     {
@@ -185,6 +102,111 @@
       ]
     },
     {
+      "id": "epicfest_2026-10-20",
+      "nombre": "Epicfest",
+      "fecha_inicio": "2026-10-20",
+      "fecha_fin": "2026-10-26",
+      "caracteristicas": [
+        "L",
+        "Lucky Ticket"
+      ]
+    },
+    {
+      "id": "elemental_pixies_2026-10-20",
+      "nombre": "Elemental Pixies",
+      "fecha_inicio": "2026-10-20",
+      "fecha_fin": "2026-10-23",
+      "caracteristicas": [
+        "L",
+        "Lucky Ticket",
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "dark_heroes_2026-10-20",
+      "nombre": "Dark Heroes",
+      "fecha_inicio": "2026-10-20",
+      "fecha_fin": "2026-10-23",
+      "caracteristicas": [
+        "L",
+        "Lucky Ticket",
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "ultra_souls_2026-10-23",
+      "nombre": "Ultra Souls",
+      "fecha_inicio": "2026-10-23",
+      "fecha_fin": "2026-10-26",
+      "caracteristicas": [
+        "L",
+        "Lucky Ticket",
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "spooky_cuties_2026-10-23",
+      "nombre": "Spooky Cuties",
+      "fecha_inicio": "2026-10-23",
+      "fecha_fin": "2026-10-26",
+      "caracteristicas": [
+        "L",
+        "Lucky Ticket",
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "limited_halloween_units_get_spooky_special_editions_of_uber_cats_2026-10-26",
+      "nombre": "Limited Halloween Units! Get spooky special editions of Uber Cats!",
+      "fecha_inicio": "2026-10-26",
+      "fecha_fin": "2026-11-16",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "dragon_emperors_2026-10-26",
+      "nombre": "Dragon Emperors",
+      "fecha_inicio": "2026-10-26",
+      "fecha_fin": "2026-10-30",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "the_almighties_2026-10-26",
+      "nombre": "The Almighties",
+      "fecha_inicio": "2026-10-26",
+      "fecha_fin": "2026-10-30",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "uberfest_2026-10-30",
+      "nombre": "Uberfest",
+      "fecha_inicio": "2026-10-30",
+      "fecha_fin": "2026-11-02",
+      "caracteristicas": []
+    },
+    {
+      "id": "the_dynamites_en_1068_2026-10-30",
+      "nombre": "The Dynamites (EN #1068)",
+      "fecha_inicio": "2026-10-30",
+      "fecha_fin": "2026-11-02",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
       "id": "platinum_capsules_en_1063_2026-07-24",
       "nombre": "Platinum Capsules (EN #1063)",
       "fecha_inicio": "2026-07-24",
@@ -267,7 +289,34 @@
       ],
       "fecha_inicio": "2026-10-17",
       "fecha_fin": "2026-10-29"
+    },
+    {
+      "id": "divine_archangel_strikes_2026-10-19",
+      "nombre": "Divine Archangel Strikes",
+      "caracteristicas": [
+        "Divine Archangel Strikes contains a total of 20 No Continues levels, each called Blessing. After beating a level, the player must wait for 30 minutes before they may proceed to the next one. Rewards for the first completion of a level can include XP, Tickets, Catamins and Materials. Every 10 levels plays out the same, but the strength magnifications and enemy base's HP are increased with each level."
+      ],
+      "fecha_inicio": "2026-10-19",
+      "fecha_fin": "2026-10-26"
+    },
+    {
+      "id": "duel_stages_challenge_2026-10-29",
+      "nombre": "Duel Stages Challenge",
+      "caracteristicas": [
+        "It's high noon, time for a showdown!\nDuel Stages Challenge (決闘チャレンジ, Kettō Charenji, Duel Challenge) is an event added in Version 11.6. It consists of all Duel Stages in a single map. Progress made in Duel Stages Challenge will reset when the event ends.\nEach stage has a Cat Deploy Limit and enemy limit of 1. Taking over 15 minutes to beat any one stage will cause an Assassin Bear to spawn."
+      ],
+      "fecha_inicio": "2026-10-29",
+      "fecha_fin": "2026-11-07"
+    },
+    {
+      "id": "otherworld_colosseum_2026-11-01",
+      "nombre": "Otherworld Colosseum",
+      "caracteristicas": [
+        "Otherworld Colosseum (異次元コロシアム, Ijigen Koroshiamu, Extradimensional Colosseum) is an event added in the Version 13.5. It is unlocked after beating A New Legend. There are several different Otherworld Colosseum maps that share the same name, each consisting of 5 No Continues stages and 2 difficulty levels. The Otherworld Colosseum is one of the few sources of Dark Catseyes.\n\nFeatures a set of stages with a cycling ruleset. Beat back the oncoming interdimensional horde!\n\nMission Reward(s): Rare Ticket, Platinum Shard, Catseye [Dark].\n\n※ You must collect rewards from completed Otherworld Colosseum missions by tapping the Claim button. Even if mission conditions have been met, rewards will not be automatically collected.\n※ Tap the icon at bottom left of the Otherworld Colosseum stage select screen to confirm the battle rule in effect.\n※ Some CatCombos may not activate due to the current ruleset.\n※ You must clear the \"A New Legend\" map found in the Uncanny Legends section of the Legend Stages section to challenge the Otherworld Colosseum.\n\nEach Otherworld Colosseum map has a unique \"rule\" that applies during battle. Only one rule is applied per map.\n\nRule 1: Trust Fund. The player starts with 50,000¢ and cannot gain money from defeating enemies or by the Worker Cat. All units will start on their cooldown, and any money-related Cat Combos are prohibited.\nRule 2: Cooldown Equality. All units have their cooldown set to 16.67 seconds. Research Combos are prohibited.\nRule 3: Only One Rarity. Only one unit from each Rarity can be deployed at once. This only affects the battle, not creating the lineup.\nRule 4: Cheap Labor. All Cat Units have their cost set to 500¢.\nRule 5: Super Rare Sale. The cooldown time and deployment cost of Super Rare Cats has been set to 50% of their original time / cost.\nRule 6: Deploy Limit. The amount of units that can be deployed throughout the battle is limited to 60.\nRule 7: Special Clearance. The cooldown time and deployment cost of Special Cats has been set to 30% of their original time / cost.\nRule 8: Plus One: Uber. Deploying an Uber Rare Cat will summon another one 2 seconds after deploying the first one.\nRule 9: Mega Cat Cannon. The Cat Cannon will deal increased damage. This only affects the Default Cat Cannon.\nRule 10: Uniform Motion. All cats and enemies with at least 1 speed will have their speed set to a uniform value.\nRule 11: Plus One: Special. Deploying a Special Cat will summon another one 2 seconds after deploying the first one.\nRule 12: Uber Clearance. The cooldown time and deployment cost of Uber Rare Cats has been set to 50% of their original time and 5% of their original cost, but only a limited number of Uber Rare Cats can be deployed at a time.\nRule 13: Limited Stock. All units have their cooldown set to 16.67 seconds, and a maximum of 50 non-Conjured units can be deployed. Research Combos are prohibited.\nRule 14: Dirt Cheap. All Cat Units have their cost set to 10¢.\nRule 15: Pay Day. The player starts with 266,730¢ and cannot gain money from defeating enemies or by the Worker Cat. All units will start on their cooldown, and any money-related Cat Combos are prohibited. The cooldown time of Uber Rare Cats has been set to 20% of their original time.\nRule 16: Grand Battle. Ubers have double the cost and recharge time, but deploying one will spawn 3 of them.\nRule 17: High Speed. All units have their cost and recharge time set to 70%. All units with at least 1 speed will have their speed doubled.\nRule 18: Half-Off: S. Rare. Super rare cats have cost set to 50% and spawning one will spawn another shortly after.\nRule 19: 物価高騰 超激レア. Start with 60k money and don't get any more (like Trust Fund). Ubers cost twice as much as usual but only have 70% of the cooldown."
+      ],
+      "fecha_inicio": "2026-11-01",
+      "fecha_fin": "2026-11-15"
     }
   ],
-  "ultima_actualizacion": "2026-10-16T04:40:18Z"
+  "ultima_actualizacion": "2026-10-16T11:34:08Z"
 }

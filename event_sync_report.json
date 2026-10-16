@@ -1,19 +1,28 @@
 {
   "changes": [
     {
-      "name": "Baron Seal Strikes",
+      "name": "Divine Archangel Strikes",
       "action": "updated",
       "event_ids": [
-        24020
+        24037
+      ]
+    },
+    {
+      "name": "Duel Stages Challenge",
+      "action": "updated",
+      "event_ids": [
+        24053
+      ]
+    },
+    {
+      "name": "Otherworld Colosseum",
+      "action": "updated",
+      "event_ids": [
+        36025
       ]
     }
   ],
-  "images": [
-    {
-      "name": "Baron Seal Strikes",
-      "file": "event_seal.png"
-    }
-  ],
+  "images": [],
   "pending": [
     {
       "event_id": 18106,
@@ -24,11 +33,23 @@
       "reason": "unknown_identity"
     },
     {
+      "event_id": 40001,
+      "reason": "unknown_identity"
+    },
+    {
       "event_id": 41000,
       "reason": "unknown_identity"
     },
     {
       "event_id": 41001,
+      "reason": "unknown_identity"
+    },
+    {
+      "event_id": 41002,
+      "reason": "unknown_identity"
+    },
+    {
+      "event_id": 41003,
       "reason": "unknown_identity"
     },
     {
@@ -88,6 +109,13 @@
       "name": "XP Bonanza!",
       "event_ids": [
         1319
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "#02 Sugar Struggle",
+      "event_ids": [
+        1320
       ],
       "reason": "image_not_found"
     },
@@ -164,7 +192,22 @@
       "reason": "image_not_found"
     },
     {
+      "name": "Duel Stages Challenge",
+      "reason": "image_not_found"
+    },
+    {
+      "name": "#01 Ghost Panic",
+      "event_ids": [
+        24068
+      ],
+      "reason": "image_not_found"
+    },
+    {
       "name": "120M Download Celebration!",
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Otherworld Colosseum",
       "reason": "image_not_found"
     },
     {
@@ -193,6 +236,7 @@
     "Silver Week: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Merciless XP!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "XP Bonanza!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "#02 Sugar Struggle: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Machines in Revolt: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Fireworks Spectacular!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "XP Harvest (Easy): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
@@ -205,7 +249,10 @@
     "Arena of Power (Artillery Alley): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Arena of Destiny: section_has_no_verified_poster",
     "Monthly Event All-Stars Grateful Gathering: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Duel Stages Challenge: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "#01 Ghost Panic: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "120M Download Celebration!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Otherworld Colosseum: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Koneko Takes the Stage: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Cats Eye Caverns: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Festival Cats: Lunar New Year's: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
@@ -214,14 +261,14 @@
   "sources": {
     "schedule": {
       "url": "PONOS EN sale.tsv",
-      "sha256": "15710ae21a88af9d88b66afc85084598fa62d625deddcc663cd7297f8e91c372"
+      "sha256": "a6c80e4379a66c055c5a4e7573193de1e9d439a4c8bee26b608973bb58ccbff0"
     },
     "names": {
       "version": "15.6.0",
       "source": "BCData EN resources"
     }
   },
-  "calendarEvents": 6,
+  "calendarEvents": 9,
   "missingImages": [
     "Cats Eye Cave",
     "Cats Eye Caverns",
