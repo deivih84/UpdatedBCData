@@ -6,21 +6,22 @@
   "changes": [
     {
       "name": "Dragon Emperors",
-      "gacha_id": 1059,
+      "gacha_id": 33,
       "created": false,
       "units": {
         "rares": {
-          "added": [
+          "added": [],
+          "removed": [
             308,
             325,
             376,
             495,
             523
-          ],
-          "removed": []
+          ]
         },
         "super_rares": {
-          "added": [
+          "added": [],
+          "removed": [
             129,
             131,
             144,
@@ -36,118 +37,37 @@
             446,
             447,
             522
-          ],
-          "removed": []
+          ]
         },
         "ubers": {
-          "added": [
+          "added": [],
+          "removed": [
             396,
             505,
             620,
             660,
             760,
             861
-          ],
-          "removed": []
+          ]
         },
         "legends": {
-          "added": [
+          "added": [],
+          "removed": [
             450
-          ],
-          "removed": []
+          ]
         }
       },
       "rates": {
         "rareChance": {
-          "old": 7500,
-          "new": 6970
-        },
-        "supaChance": {
-          "old": 2000,
-          "new": 2500
-        },
-        "legendChance": {
-          "old": 0,
-          "new": 30
-        }
-      }
-    },
-    {
-      "name": "Dragon Emperors (JP #33)",
-      "gacha_id": 33,
-      "created": true,
-      "units": {
-        "rares": {
-          "added": [
-            37,
-            38,
-            41,
-            46,
-            47,
-            48,
-            49,
-            50,
-            51,
-            52,
-            55,
-            56,
-            58,
-            145,
-            146,
-            147,
-            148,
-            149,
-            197,
-            198
-          ],
-          "removed": []
-        },
-        "super_rares": {
-          "added": [
-            30,
-            31,
-            32,
-            33,
-            35,
-            36,
-            39,
-            40,
-            61,
-            150,
-            151,
-            152,
-            153,
-            199
-          ],
-          "removed": []
-        },
-        "ubers": {
-          "added": [
-            83,
-            84,
-            85,
-            86,
-            87,
-            177
-          ],
-          "removed": []
-        }
-      },
-      "rates": {
-        "rareChance": {
-          "old": null,
+          "old": 6970,
           "new": 7500
         },
         "supaChance": {
-          "old": null,
+          "old": 2500,
           "new": 2000
         },
-        "uberChance": {
-          "old": null,
-          "new": 500
-        },
         "legendChance": {
-          "old": null,
+          "old": 30,
           "new": 0
         }
       }
@@ -186,11 +106,6 @@
     {
       "name": "Shoumetsu Toshi Collab Gacha",
       "gacha_id": 23,
-      "reason": "image_not_found"
-    },
-    {
-      "name": "Dragon Emperors",
-      "gacha_id": 1059,
       "reason": "image_not_found"
     },
     {

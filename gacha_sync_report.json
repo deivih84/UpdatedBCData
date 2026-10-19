@@ -1,6 +1,6 @@
 {
   "sources": {
-    "schedule": "PONOS EN gatya.tsv",
+    "schedule": "https://bc-seek.godfat.org/seek/en/gatya.tsv",
     "pools": "bc.godfat.org (validated against PONOS)"
   },
   "changes": [
@@ -99,16 +99,6 @@
     {
       "name": "Dragon Emperors",
       "gacha_id": 1059,
-      "reason": "image_not_found"
-    },
-    {
-      "name": "Iron Legion",
-      "gacha_id": 979,
-      "reason": "image_not_found"
-    },
-    {
-      "name": "Luga Families",
-      "gacha_id": 986,
       "reason": "image_not_found"
     },
     {

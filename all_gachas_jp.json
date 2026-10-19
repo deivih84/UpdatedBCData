@@ -61,11 +61,6 @@
       ],
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_jp_33_54eb3268af033765.png",
       "rares": [
-        523,
-        495,
-        376,
-        325,
-        308,
         198,
         197,
         149,
@@ -88,21 +83,6 @@
         37
       ],
       "super_rares": [
-        447,
-        446,
-        445,
-        444,
-        443,
-        200,
-        144,
-        131,
-        129,
-        237,
-        238,
-        239,
-        522,
-        377,
-        307,
         199,
         153,
         152,
@@ -119,26 +99,18 @@
         30
       ],
       "ubers": [
-        861,
-        760,
-        660,
-        620,
-        505,
-        396,
         177,
-        87,
-        86,
-        85,
         84,
-        83
+        83,
+        87,
+        85,
+        86
       ],
-      "legends": [
-        450
-      ],
-      "rareChance": 6970,
-      "supaChance": 2500,
+      "legends": [],
+      "rareChance": 7500,
+      "supaChance": 2000,
       "uberChance": 500,
-      "legendChance": 30
+      "legendChance": 0
     },
     {
       "nombre": "Dragon Emperors (JP #1059)",
