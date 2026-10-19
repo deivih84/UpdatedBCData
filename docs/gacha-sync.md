@@ -39,6 +39,13 @@ su pool pasa al nombre canónico. La entrada anterior de variante se conserva
 para no romper referencias de clientes. No se asignan pools por coincidencias
 aproximadas de texto.
 
+En el calendario, Platinum Capsules y Legend Capsules se relevan por familia,
+incluidas sus variantes `(EN #ID)`: al empezar un pool nuevo se retira el
+anterior, aunque PONOS mantenga su fin en 2030. Si el relevo es futuro, ambos
+conservan sus nombres y fechas de inicio; el anterior termina el día previo al
+nuevo. Los pools históricos siguen en el catálogo y los snapshots para mantener
+las referencias de clientes. El calendario JP aplica la misma regla por separado.
+
 El script copia las imágenes nuevas al drawable configurado si existe en el PC.
 Puede indicarse otro destino con `--app-drawables RUTA`. GitHub solamente necesita
 este repositorio. Los recursos usados por clientes anteriores se conservan.

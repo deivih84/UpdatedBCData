@@ -207,23 +207,9 @@
       ]
     },
     {
-      "id": "platinum_capsules_en_1063_2026-07-24",
-      "nombre": "Platinum Capsules (EN #1063)",
-      "fecha_inicio": "2026-07-24",
-      "fecha_fin": "2030-01-01",
-      "caracteristicas": []
-    },
-    {
       "id": "platinum_capsules_2026-10-16",
       "nombre": "Platinum Capsules",
       "fecha_inicio": "2026-10-16",
-      "fecha_fin": "2030-01-01",
-      "caracteristicas": []
-    },
-    {
-      "id": "legend_capsules_en_1064_2026-07-24",
-      "nombre": "Legend Capsules (EN #1064)",
-      "fecha_inicio": "2026-07-24",
       "fecha_fin": "2030-01-01",
       "caracteristicas": []
     },
@@ -318,5 +304,5 @@
       "fecha_fin": "2026-11-15"
     }
   ],
-  "ultima_actualizacion": "2026-10-16T11:34:08Z"
+  "ultima_actualizacion": "2026-10-19T22:10:41Z"
 }

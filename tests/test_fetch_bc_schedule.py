@@ -1,8 +1,10 @@
 import unittest
+import contextlib
+import io
 import json
 from pathlib import Path
 import tempfile
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from unittest.mock import patch
 
 import fetch_bc_schedule as schedule
@@ -60,6 +62,114 @@ class GachaEntryParsingTests(unittest.TestCase):
         self.assertEqual(entry["uber_chance"], 900)
         self.assertEqual(entry["legend_chance"], 30)
         self.assertNotIn("Legend Rare", schedule._build_characteristics(entry))
+
+
+class PermanentCapsuleTests(unittest.TestCase):
+    def test_successors_retire_old_variants_only_when_they_start_in_both_regions(self):
+        for region in ("en", "jp"):
+            for family in ("Platinum Capsules", "Legend Capsules"):
+                with self.subTest(region=region, family=family):
+                    old = schedule._build_entry(f"{family} ({region.upper()} #1063)",
+                                                "2026-07-24", "2030-01-01", ["G", "Guaranteed"])
+                    current = schedule._build_entry(family, "2026-10-16", "2030-01-01", [])
+                    future = schedule._build_entry(f"{family} ({region.upper()} #1081)",
+                                                   "2026-11-01", "2030-01-01", ["S", "Step-Up"])
+                    entries = [future, old, current]
+                    for today, expected_names in (
+                            (date(2026, 7, 1), [old["nombre"], family, future["nombre"]]),
+                            (date(2026, 10, 15), [old["nombre"], family, future["nombre"]]),
+                            (date(2026, 10, 16), [family, future["nombre"]]),
+                            (date(2026, 10, 20), [family, future["nombre"]]),
+                            (date(2026, 11, 1), [future["nombre"]])):
+                        with self.subTest(today=today):
+                            result = schedule._deduplicate_permanent_capsules(
+                                entries, region=region, today=today)
+                            result.sort(key=lambda g: g["fecha_inicio"])
+                            self.assertEqual([g["nombre"] for g in result], expected_names)
+                            for g in result:
+                                original = next(e for e in entries if e["id"] == g["id"])
+                                self.assertEqual(g["caracteristicas"], sorted(original["caracteristicas"]))
+                                expected_end = {old["nombre"]: "2026-10-15", family: "2026-10-31",
+                                                future["nombre"]: "2030-01-01"}[g["nombre"]]
+                                self.assertEqual(g["fecha_fin"], expected_end)
+                    self.assertEqual(old["fecha_fin"], "2030-01-01")
+
+    def test_repeated_name_keeps_current_and_future_periods_and_merges_only_matching_rows(self):
+        old = schedule._build_entry("Platinum Capsules", "2026-07-24", "2030-01-01", ["G"])
+        future = schedule._build_entry("Platinum Capsules", "2026-10-16", "2030-01-01", [])
+        duplicate = old | {"caracteristicas": ["P"]}
+        result = schedule._deduplicate_permanent_capsules(
+            [future, duplicate, old], today=date(2026, 10, 15))
+        result.sort(key=lambda g: g["fecha_inicio"])
+        self.assertEqual([g["fecha_inicio"] for g in result], ["2026-07-24", "2026-10-16"])
+        self.assertEqual(result[0]["fecha_fin"], "2026-10-15")
+        self.assertEqual(result[0]["caracteristicas"], ["G", "P"])
+        self.assertEqual(result[1]["caracteristicas"], [])
+
+    def test_other_families_and_other_region_suffixes_are_not_collapsed(self):
+        names = ["The Dynamites", "The Dynamites (EN #1068)",
+                 "Platinum Capsules Bonus", "Platinum Capsules Bonus (EN #1063)",
+                 "Platinum Capsules (JP #1063)"]
+        entries = [schedule._build_entry(name, "2026-07-24", "2030-01-01", []) for name in names]
+        result = schedule._deduplicate_permanent_capsules(entries, today=date(2026, 10, 20))
+        self.assertEqual(result, entries)
+
+    def test_calendar_rollover_from_real_tsv_is_read_only_in_dry_run_and_preserves_events(self):
+        for region in ("en", "jp"):
+            with self.subTest(region=region), tempfile.TemporaryDirectory() as folder:
+                repo = Path(folder)
+                names, cache, lines = [], {}, []
+                for family, old_id, new_id in (("Platinum Capsules", 1063, 1071),
+                                               ("Legend Capsules", 1064, 1072)):
+                    old_name = f"{family} ({region.upper()} #{old_id})"
+                    names.extend([old_name, family])
+                    cache.update({str(old_id): old_name, str(new_id): family})
+                    for gid, start in ((old_id, "20260724"), (new_id, "20261016")):
+                        # The parser and ID resolver both run, with no online sources.
+                        cols = [start, "1100", "20300101", "1100", "150600", "999999", "0", "0",
+                                "1", "1", str(gid), "150", "0", "0", "0", "0", "0", "0", "0", "0",
+                                "10000", "0", "0", "0", "Shared promotional text"]
+                        lines.append("\t".join(cols))
+                (repo / f"all_gachas_{region}.json").write_text(json.dumps(
+                    {"gachas": [{"nombre": name} for name in names]}))
+                cache_file = "gacha_id_cache" + ("_jp" if region == "jp" else "") + ".json"
+                (repo / cache_file).write_text(json.dumps(cache))
+                tsv_path = repo / "gatya.tsv"
+                tsv_path.write_text("\n".join(lines))
+                output = repo / f"gachas_eventos_actualizados_{region}1.json"
+                events = [{"id": "event_sentinel", "nombre": "Cats Eye Cave"}]
+                output.write_text(json.dumps({"eventos": events}))
+                args = ["--region", region, "--repo", str(repo), "--tsv", str(tsv_path)]
+                before = {p.name: p.read_bytes() for p in repo.iterdir()}
+                with patch.object(schedule, "datetime", wraps=datetime) as clock, \
+                     contextlib.redirect_stdout(io.StringIO()):
+                    clock.now.return_value = datetime(2026, 10, 15, tzinfo=timezone.utc)
+                    schedule.main(args + ["--dry-run"])
+                    self.assertEqual({p.name: p.read_bytes() for p in repo.iterdir()}, before)
+                    schedule.main(args)
+                    result = json.loads(output.read_text())
+                    self.assertEqual(result["eventos"], events)
+                    self.assertEqual(len(result["gachas"]), 4)
+                    for g in result["gachas"]:
+                        self.assertEqual(g["fecha_fin"], "2026-10-15" if "#" in g["nombre"] else "2030-01-01")
+                    # At the replacement date, only the new pool of each family remains.
+                    clock.now.return_value = datetime(2026, 10, 16, tzinfo=timezone.utc)
+                    schedule.main(args)
+                    result = json.loads(output.read_text())
+                    self.assertEqual(result["eventos"], events)
+                    self.assertEqual({g["nombre"] for g in result["gachas"]},
+                                     {"Platinum Capsules", "Legend Capsules"})
+                    snapshot = output.read_bytes()
+                    schedule.main(args)
+                    self.assertEqual(output.read_bytes(), snapshot)
+                    # The same rule still applies when the sentinel end is <2 years away.
+                    clock.now.return_value = datetime(2028, 6, 1, tzinfo=timezone.utc)
+                    schedule.main(args)
+                    result = json.loads(output.read_text())
+                    self.assertEqual(len(result["gachas"]), 2)
+                    for name, data in before.items():
+                        if name != output.name:
+                            self.assertEqual((repo / name).read_bytes(), data)
 
 
 class EventCapsuleResolutionTests(unittest.TestCase):

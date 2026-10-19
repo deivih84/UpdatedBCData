@@ -45,93 +45,9 @@
       ]
     },
     {
-      "id": "platinum_capsules_jp_1063_2026-06-26",
-      "nombre": "Platinum Capsules (JP #1063)",
-      "fecha_inicio": "2026-06-26",
-      "fecha_fin": "2029-12-31",
-      "caracteristicas": []
-    },
-    {
-      "id": "platinum_capsules_jp_1057_2026-04-28",
-      "nombre": "Platinum Capsules (JP #1057)",
-      "fecha_inicio": "2026-04-28",
-      "fecha_fin": "2029-12-31",
-      "caracteristicas": []
-    },
-    {
-      "id": "platinum_capsules_jp_1047_2026-03-20",
-      "nombre": "Platinum Capsules (JP #1047)",
-      "fecha_inicio": "2026-03-20",
-      "fecha_fin": "2029-12-31",
-      "caracteristicas": []
-    },
-    {
-      "id": "platinum_capsules_jp_1036_2026-01-01",
-      "nombre": "Platinum Capsules (JP #1036)",
-      "fecha_inicio": "2026-01-01",
-      "fecha_fin": "2029-12-31",
-      "caracteristicas": []
-    },
-    {
-      "id": "platinum_capsules_jp_1024_2025-12-12",
-      "nombre": "Platinum Capsules (JP #1024)",
-      "fecha_inicio": "2025-12-12",
-      "fecha_fin": "2029-12-31",
-      "caracteristicas": []
-    },
-    {
-      "id": "platinum_capsules_jp_1008_2025-09-06",
-      "nombre": "Platinum Capsules (JP #1008)",
-      "fecha_inicio": "2025-09-06",
-      "fecha_fin": "2029-12-31",
-      "caracteristicas": []
-    },
-    {
       "id": "platinum_capsules_2026-08-08",
       "nombre": "Platinum Capsules",
       "fecha_inicio": "2026-08-08",
-      "fecha_fin": "2029-12-31",
-      "caracteristicas": []
-    },
-    {
-      "id": "legend_capsules_jp_1064_2026-06-26",
-      "nombre": "Legend Capsules (JP #1064)",
-      "fecha_inicio": "2026-06-26",
-      "fecha_fin": "2029-12-31",
-      "caracteristicas": []
-    },
-    {
-      "id": "legend_capsules_jp_1058_2026-04-28",
-      "nombre": "Legend Capsules (JP #1058)",
-      "fecha_inicio": "2026-04-28",
-      "fecha_fin": "2029-12-31",
-      "caracteristicas": []
-    },
-    {
-      "id": "legend_capsules_jp_1048_2026-03-20",
-      "nombre": "Legend Capsules (JP #1048)",
-      "fecha_inicio": "2026-03-20",
-      "fecha_fin": "2029-12-31",
-      "caracteristicas": []
-    },
-    {
-      "id": "legend_capsules_jp_1035_2026-01-01",
-      "nombre": "Legend Capsules (JP #1035)",
-      "fecha_inicio": "2026-01-01",
-      "fecha_fin": "2029-12-31",
-      "caracteristicas": []
-    },
-    {
-      "id": "legend_capsules_jp_1025_2025-12-12",
-      "nombre": "Legend Capsules (JP #1025)",
-      "fecha_inicio": "2025-12-12",
-      "fecha_fin": "2029-12-31",
-      "caracteristicas": []
-    },
-    {
-      "id": "legend_capsules_jp_1009_2025-09-06",
-      "nombre": "Legend Capsules (JP #1009)",
-      "fecha_inicio": "2025-09-06",
       "fecha_fin": "2029-12-31",
       "caracteristicas": []
     },
@@ -316,5 +232,5 @@
       "fecha_fin": "2026-05-01"
     }
   ],
-  "ultima_actualizacion": "2026-10-19T13:31:58Z"
+  "ultima_actualizacion": "2026-10-19T22:10:41Z"
 }

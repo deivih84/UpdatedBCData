@@ -52,8 +52,9 @@ ID_CACHE_FILE = SCRIPT_DIR / "gacha_id_cache.json"
 WINDOW_PAST_DAYS   = 30
 WINDOW_FUTURE_DAYS = 180
 
-# Entries with end_date further than this many days are "permanent" capsules — skip them
+# Entries ending further than this many days ahead are "permanent" capsules.
 MAX_END_DAYS = 730  # 2 years
+RENEWABLE_CAPSULE_FAMILIES = {"Platinum Capsules", "Legend Capsules"}
 
 # additionalMask bit flags (from BC source)
 # Correspondence: G=Guaranteed | L=Lucky Ticket per roll | S=Step Up
@@ -577,6 +578,55 @@ def _build_entry(name, start, end, characteristics):
         "caracteristicas": characteristics,
     }
 
+
+def _renewable_capsule_family(name, region):
+    # This is the catalogue's exact regional variant format, not fuzzy matching.
+    variant = re.fullmatch(rf"(.+) \({region.upper()} #\d+\)", name)
+    family = variant.group(1) if variant else name
+    return family if family in RENEWABLE_CAPSULE_FAMILIES else None
+
+
+def _deduplicate_permanent_capsules(entries, *, region="en", today=None):
+    """Retire old ticket pools at their successor's start, keeping future pools."""
+    today = (today or datetime.now(timezone.utc).date()).isoformat()
+    groups = {}
+    for entry in entries:
+        name = entry["nombre"]
+        key = _renewable_capsule_family(name, region) or name
+        groups.setdefault(key, []).append(entry)
+
+    result = []
+    for family, group in groups.items():
+        if family not in RENEWABLE_CAPSULE_FAMILIES:
+            latest = max(group, key=lambda g: g["fecha_inicio"])
+            chars = sorted({char for g in group for char in g["caracteristicas"]})
+            result.append(latest | {"caracteristicas": chars})
+            continue
+
+        starts = sorted({g["fecha_inicio"] for g in group})
+        successors = dict(zip(starts, starts[1:]))
+        periods = {}
+        for g in group:
+            successor = successors.get(g["fecha_inicio"])
+            if successor and successor <= today:
+                continue
+            end = g["fecha_fin"]
+            if successor:
+                previous_day = datetime.strptime(successor, "%Y-%m-%d") - timedelta(days=1)
+                end = min(end, previous_day.strftime("%Y-%m-%d"))
+            if end < today:
+                continue
+            # Merge repeated rows only within the same pool period. Old pool
+            # characteristics must not leak into the replacement's campaign.
+            key = (g["nombre"], g["fecha_inicio"])
+            if key not in periods:
+                periods[key] = g | {"fecha_fin": end, "caracteristicas": []}
+            periods[key]["fecha_fin"] = max(periods[key]["fecha_fin"], end)
+            periods[key]["caracteristicas"] = sorted(
+                set(periods[key]["caracteristicas"]) | set(g["caracteristicas"]))
+        result.extend(periods.values())
+    return result
+
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
@@ -634,7 +684,8 @@ def main(argv=None):
             seen_names.add(canonical)
 
             characteristics = _build_characteristics(entry)
-            target = permanents if row.get("is_permanent") else gachas
+            target = permanents if (row.get("is_permanent")
+                                    or _renewable_capsule_family(canonical, region)) else gachas
             target.append(_build_entry(canonical, row["start_date"], row["end_date"], characteristics))
 
     # 5. Sort + deduplicate regular banners
@@ -665,21 +716,11 @@ def main(argv=None):
             seen_ids.add(g["id"])
             unique.append(g)
 
-    # 5b. Deduplicate permanent capsules — one entry per name (pick latest start_date)
-    perm_best = {}   # nombre -> entry with latest start_date
-    perm_chars = {}  # nombre -> set of chars
-    for g in permanents:
-        name = g["nombre"]
-        chars = set(g["caracteristicas"])
-        if name not in perm_best or g["fecha_inicio"] > perm_best[name]["fecha_inicio"]:
-            perm_best[name] = g
-        perm_chars.setdefault(name, set()).update(chars)
-
-    for name, g in perm_best.items():
-        g["caracteristicas"] = sorted(perm_chars[name])
+    # 5b. Platinum/Legend pool variants replace their family when they start.
+    permanents = _deduplicate_permanent_capsules(permanents, region=region)
 
     # Append permanents at end, sorted by name descending (Platinum before Legend)
-    for g in sorted(perm_best.values(), key=lambda x: x["nombre"], reverse=True):
+    for g in sorted(permanents, key=lambda x: x["nombre"], reverse=True):
         if g["id"] not in seen_ids:
             seen_ids.add(g["id"])
             unique.append(g)

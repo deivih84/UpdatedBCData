@@ -55,6 +55,12 @@ Las variantes usan `(JP #ID)`. El calendario solo publica nombres reconocidos
 por el catálogo regional. N/E conservan su espacio de IDs por tipo y quedan
 fuera del sincronizador de pools R, igual que en EN.
 
+Platinum Capsules y Legend Capsules se relevan por familia en el calendario:
+cuando empieza una versión nueva, se retiran las anteriores aunque su fin
+original siga en 2030. Las versiones futuras conservan sus nombres y fechas,
+y la vigente termina el día anterior al relevo. Los pools y variantes históricos
+permanecen en el catálogo y los snapshots; no se mezclan con EN.
+
 Se prefieren archivos `ja`/`jp` y los originales japoneses sin sufijo de la wiki;
 no se solicita automáticamente el archivo con sufijo `en`. Se exigen carteles
 completos y se rechazan botones, miniaturas y retratos cuadrados. Las imágenes
