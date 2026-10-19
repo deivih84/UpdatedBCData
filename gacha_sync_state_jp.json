@@ -2638,7 +2638,7 @@
     "991": {
       "family": "The Almighties",
       "name": "The Almighties",
-      "fingerprint": "e6d6e34e42e658d5938b4d8fe9e9e6592f8d6394da3b420ebcc2bbbf764c2195",
+      "fingerprint": "bcab482d0c0fb2d7fcdedf24c8f50419fd981a0fb25534f999a7cfb9c9d85548",
       "pool": {
         "rares": [
           523,
@@ -2716,10 +2716,10 @@
         ]
       },
       "rates": {
-        "rareChance": 6440,
+        "rareChance": 6970,
         "supaChance": 2500,
-        "uberChance": 1000,
-        "legendChance": 60
+        "uberChance": 500,
+        "legendChance": 30
       },
       "option": {
         "seriesID": 18,
@@ -2727,8 +2727,8 @@
       },
       "source": "bc.godfat.org (validated against PONOS)",
       "gameVersion": null,
-      "start_date": "2026-10-06",
-      "end_date": "2026-10-06",
+      "start_date": "2026-10-21",
+      "end_date": "2026-10-24",
       "image": {
         "sourceUrl": "https://static.wikitide.net/battlecatswiki/f/fa/Gatya_bnr948.png",
         "sourcePage": "https://battlecats.miraheze.org/wiki/File:Gatya_bnr948.png",
@@ -3240,7 +3240,7 @@
     "986": {
       "family": "Luga Families",
       "name": "Luga Families",
-      "fingerprint": "e8332c5508845f705c668c6fb713aad763cfcc057c7d45f4721c397a84fba87a",
+      "fingerprint": "b3a6a7e1057f5f1fe054568fc60ba34b75e73142b46e14f02fde6f733a7a07ab",
       "pool": {
         "rares": [
           523,
@@ -3318,10 +3318,10 @@
         ]
       },
       "rates": {
-        "rareChance": 6440,
+        "rareChance": 6970,
         "supaChance": 2500,
-        "uberChance": 1000,
-        "legendChance": 60
+        "uberChance": 500,
+        "legendChance": 30
       },
       "option": {
         "seriesID": 0,
@@ -3329,13 +3329,112 @@
       },
       "source": "bc.godfat.org (validated against PONOS)",
       "gameVersion": null,
-      "start_date": "2026-10-08",
-      "end_date": "2026-10-09",
+      "start_date": "2026-10-26",
+      "end_date": "2026-10-29",
       "image": {
         "sourceUrl": "https://static.wikitide.net/battlecatswiki/3/35/Gatya_bnr962.png",
         "sourcePage": "https://battlecats.miraheze.org/wiki/File:Gatya_bnr962.png",
         "sha256": "4298a0f5faa301265fa62d824af3289847d4feaed6403f498e41c650cc30ef1c",
         "file": "banner_jp_986_4298a0f5faa30126.png"
+      }
+    },
+    "861": {
+      "family": "RoyalFest",
+      "name": "RoyalFest",
+      "fingerprint": "8bae682972ff079ad1f6369b201e7f14087570075641712a79609a7b376e2fa9",
+      "pool": {
+        "rares": [
+          523,
+          495,
+          376,
+          325,
+          308,
+          198,
+          197,
+          149,
+          148,
+          147,
+          146,
+          145,
+          58,
+          56,
+          55,
+          52,
+          51,
+          50,
+          49,
+          48,
+          47,
+          46,
+          41,
+          38,
+          37
+        ],
+        "super_rares": [
+          522,
+          377,
+          307,
+          199,
+          153,
+          152,
+          151,
+          150,
+          61,
+          40,
+          39,
+          36,
+          35,
+          33,
+          32,
+          31,
+          30
+        ],
+        "ubers": [
+          143,
+          496,
+          619,
+          633,
+          212,
+          271,
+          682,
+          302,
+          687,
+          714,
+          330,
+          644,
+          661,
+          612
+        ],
+        "legends": [
+          448,
+          449,
+          450,
+          451,
+          455,
+          461,
+          463,
+          478,
+          481,
+          493,
+          544
+        ]
+      },
+      "rates": {
+        "rareChance": 6940,
+        "supaChance": 2500,
+        "uberChance": 500,
+        "legendChance": 60
+      },
+      "option": {},
+      "source": "bc.godfat.org (validated against PONOS)",
+      "gameVersion": null,
+      "start_date": "2026-10-29",
+      "end_date": "2026-11-01",
+      "image": {
+        "sourceUrl": "https://static.wikia.nocookie.net/battle-cats/images/9/92/Gatya_bnr861.png/revision/latest?cb=20240311235339",
+        "sourcePage": "https://battle-cats.fandom.com/wiki/File:Gatya_bnr861.png",
+        "sha256": "672efdcd43439bab024a6b1316a30985d5e0cc283ae8801cee50950f5153f245",
+        "file": "banner_jp_861_672efdcd43439bab.png"
       }
     }
   }

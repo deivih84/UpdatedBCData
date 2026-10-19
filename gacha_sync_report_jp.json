@@ -5,70 +5,154 @@
   },
   "changes": [
     {
-      "name": "Dragon Emperors",
-      "gacha_id": 33,
+      "name": "The Almighties",
+      "gacha_id": 991,
       "created": false,
+      "units": {},
+      "rates": {
+        "rareChance": {
+          "old": 6440,
+          "new": 6970
+        },
+        "uberChance": {
+          "old": 1000,
+          "new": 500
+        },
+        "legendChance": {
+          "old": 60,
+          "new": 30
+        }
+      }
+    },
+    {
+      "name": "Luga Families",
+      "gacha_id": 986,
+      "created": false,
+      "units": {},
+      "rates": {
+        "rareChance": {
+          "old": 6440,
+          "new": 6970
+        },
+        "uberChance": {
+          "old": 1000,
+          "new": 500
+        },
+        "legendChance": {
+          "old": 60,
+          "new": 30
+        }
+      }
+    },
+    {
+      "name": "RoyalFest",
+      "gacha_id": 861,
+      "created": true,
       "units": {
         "rares": {
-          "added": [],
-          "removed": [
+          "added": [
+            37,
+            38,
+            41,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            55,
+            56,
+            58,
+            145,
+            146,
+            147,
+            148,
+            149,
+            197,
+            198,
             308,
             325,
             376,
             495,
             523
-          ]
+          ],
+          "removed": []
         },
         "super_rares": {
-          "added": [],
-          "removed": [
-            129,
-            131,
-            144,
-            200,
-            237,
-            238,
-            239,
+          "added": [
+            30,
+            31,
+            32,
+            33,
+            35,
+            36,
+            39,
+            40,
+            61,
+            150,
+            151,
+            152,
+            153,
+            199,
             307,
             377,
-            443,
-            444,
-            445,
-            446,
-            447,
             522
-          ]
+          ],
+          "removed": []
         },
         "ubers": {
-          "added": [],
-          "removed": [
-            396,
-            505,
-            620,
-            660,
-            760,
-            861
-          ]
+          "added": [
+            143,
+            212,
+            271,
+            302,
+            330,
+            496,
+            612,
+            619,
+            633,
+            644,
+            661,
+            682,
+            687,
+            714
+          ],
+          "removed": []
         },
         "legends": {
-          "added": [],
-          "removed": [
-            450
-          ]
+          "added": [
+            448,
+            449,
+            450,
+            451,
+            455,
+            461,
+            463,
+            478,
+            481,
+            493,
+            544
+          ],
+          "removed": []
         }
       },
       "rates": {
         "rareChance": {
-          "old": 6970,
-          "new": 7500
+          "old": null,
+          "new": 6940
         },
         "supaChance": {
-          "old": 2500,
-          "new": 2000
+          "old": null,
+          "new": 2500
+        },
+        "uberChance": {
+          "old": null,
+          "new": 500
         },
         "legendChance": {
-          "old": 30,
-          "new": 0
+          "old": null,
+          "new": 60
         }
       }
     }
@@ -96,6 +180,34 @@
       "candidates": []
     },
     {
+      "gacha_id": 1082,
+      "event_id": "2026-10-21_1082",
+      "text": "限定伝説レアに加え、志々雄一派が新たに参戦！★詳細はバナーをタップ!!",
+      "reason": "unknown_identity",
+      "candidates": []
+    },
+    {
+      "gacha_id": 947,
+      "event_id": "2026-10-24_947",
+      "text": "召喚能力を持つキャラクター「特命機動アクセル」登場！★詳細はバナーをタップ!!",
+      "reason": "unknown_identity",
+      "candidates": []
+    },
+    {
+      "gacha_id": 922,
+      "event_id": "2026-10-26_922",
+      "text": "一部ハロウィン限定キャラクターに本能追加！★詳細はバナーをタップ!!",
+      "reason": "unknown_identity",
+      "candidates": []
+    },
+    {
+      "gacha_id": 1021,
+      "event_id": "2026-10-29_1021",
+      "text": "浮いてる敵にめっぽう強いキャラ「獅子番長ラクレス」登場！★詳細はバナーをタップ!!",
+      "reason": "unknown_identity",
+      "candidates": []
+    },
+    {
       "gacha_id": 23,
       "reason": "starter_pool_not_available_online"
     },
@@ -109,12 +221,28 @@
       "reason": "image_not_found"
     },
     {
+      "name": "The Almighties",
+      "gacha_id": 991,
+      "reason": "image_not_found"
+    },
+    {
       "name": "Ultra Souls",
       "gacha_id": 946,
       "reason": "image_not_found"
+    },
+    {
+      "name": "Luga Families",
+      "gacha_id": 986,
+      "reason": "image_not_found"
     }
   ],
-  "images": [],
+  "images": [
+    {
+      "name": "RoyalFest",
+      "gacha_id": 861,
+      "file": "banner_jp_861_672efdcd43439bab.png"
+    }
+  ],
   "errors": [],
   "region": "jp",
   "missingImages": [
