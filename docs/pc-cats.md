@@ -48,7 +48,13 @@ ataque de área y recarga publicada de 325 segundos. Su coste de capítulo 2 es 
 No se inventan bases para mediciones que no reproducen exactamente su referencia
 con la curva de nivel compartida; por ejemplo, 38.522 de ataque de Berius y
 30.000 HP de Natsu evolucionada no permiten recuperar una base entera a nivel 30.
-El daño multigolpe de Natsu permanece sin cálculo por los datos contradictorios.
+Natsu usa los totales publicados de nivel 30 en ambas formas: 30.000 HP y
+35.700 de daño. La tabla publica estos valores para las dos formas; sus cifras
+iniciales de 1.500 HP y 1.600 de daño no reproducen esos totales con la curva
+compartida, por lo que no se usan como base del cálculo. La app conserva las
+mediciones de nivel 30 y escala otros niveles respecto a esa referencia, sin
+inventar una base entera ni un reparto del daño multigolpe. El DPS de referencia
+es 939,47 (35.700 / 38 segundos).
 
 En la app, `Traited enemies` incluye los siete traits presentes en PC; `all enemies`
 incluye además Traitless. No se añaden Relic/Aku, posteriores a este juego. Cats

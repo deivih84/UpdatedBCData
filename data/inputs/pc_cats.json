@@ -3297,18 +3297,18 @@
           "measurements": [
             {
               "field": "health",
-              "value": 1500,
+              "value": 30000,
               "unit": "HP",
-              "level": 1,
-              "treasures": "Initial stats",
+              "level": 30,
+              "treasures": "300% Empire of Cats treasures",
               "source_url": "https://battlecats.miraheze.org/wiki/Natsu_Mikan_%28PC_Uber_Rare_Cat%29"
             },
             {
               "field": "damage",
-              "value": 1600,
+              "value": 35700,
               "unit": "damage",
-              "level": 1,
-              "treasures": "Initial stats",
+              "level": 30,
+              "treasures": "300% Empire of Cats treasures",
               "source_url": "https://battlecats.miraheze.org/wiki/Natsu_Mikan_%28PC_Uber_Rare_Cat%29"
             },
             {

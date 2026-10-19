@@ -13,6 +13,16 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class PcCatsTests(unittest.TestCase):
+    def test_natsu_uses_published_level_30_totals_for_both_forms(self):
+        for path in ('data/inputs/pc_cats.json', 'pc_cats.json', 'cats_data.json'):
+            catalog = json.loads((ROOT / path).read_text())['pc_catalog']
+            for form in catalog['100916']['forms']:
+                stats = {m['field']: m for m in form['measurements']}
+                for field, value in (('health', 30000), ('damage', 35700)):
+                    self.assertEqual(value, stats[field]['value'])
+                    self.assertEqual(30, stats[field]['level'])
+                    self.assertEqual('300% Empire of Cats treasures', stats[field]['treasures'])
+
     def source(self):
         animation = [['[maanim]'], [1], [1], [0, 4, -1, 0, 0], [2],
                      [0, 0, 0, 0], [29, 1, 0, 0]]
