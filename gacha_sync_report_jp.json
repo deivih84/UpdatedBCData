@@ -166,13 +166,6 @@
       "candidates": []
     },
     {
-      "gacha_id": 1070,
-      "event_id": "2026-10-16_1070",
-      "text": "限定超激レアキャラクター「孤月の騎士ルーノス」登場！★詳細はバナーをタップ!!",
-      "reason": "unknown_identity",
-      "candidates": []
-    },
-    {
       "gacha_id": 1082,
       "event_id": "2026-10-16_1082",
       "text": "限定伝説レアに加え、志々雄一派が新たに参戦！★詳細はバナーをタップ!!",
@@ -223,11 +216,6 @@
     {
       "name": "The Almighties",
       "gacha_id": 991,
-      "reason": "image_not_found"
-    },
-    {
-      "name": "Ultra Souls",
-      "gacha_id": 946,
       "reason": "image_not_found"
     },
     {
