@@ -1,6 +1,6 @@
 {
   "sources": {
-    "schedule": "https://bc-seek.godfat.org/seek/jp/gatya.tsv",
+    "schedule": "PONOS JP gatya.tsv",
     "pools": "bc.godfat.org (validated against PONOS)"
   },
   "changes": [
