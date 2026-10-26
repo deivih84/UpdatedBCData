@@ -261,7 +261,7 @@
   "sources": {
     "schedule": {
       "url": "PONOS EN sale.tsv",
-      "sha256": "a6c80e4379a66c055c5a4e7573193de1e9d439a4c8bee26b608973bb58ccbff0"
+      "sha256": "868f1aaf06f630d78248b3f562b95bfea8ca528057f9b0cbffd45028f90c705c"
     },
     "names": {
       "version": "15.6.0",
