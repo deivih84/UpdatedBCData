@@ -241,24 +241,6 @@
       "fecha_fin": "2026-10-29"
     },
     {
-      "id": "machines_in_revolt_2026-10-09",
-      "nombre": "Machines in Revolt",
-      "caracteristicas": [
-        "Machines in Revolt (機械の反乱軍, Kikai no Hanrangun, Rebel Army of Machines) is a set of special stages that was added in Version 12.6. It is unlocked after clearing Empire of Cats Chapter 1. Each stage features Metal Enemies and has a Cat Ticket as a reward.\n\nClear stages in the special map Machines in Revolt to earn up to 10 Cat Tickets as you face off against the Metal enemies attacking the remnants of a destroyed city! Visit Event Stages/Stories of Legend and select to take on this challenge!\nOn between June 10th (11:00am) and June 17th (10:59am)!\n\nSave the future from the onslaught of the coming machines!\n\n\n※ After clearing a stage, there will be a short cooldown period before you are able to challenge the next stage.\n※ Spending a Catamin A will allow you to skip the stage cooldown period and challenge the next stage immediately.\n※ If the event does not appear, please make sure that you are updated to the latest version of the Battle Cats app. "
-      ],
-      "fecha_inicio": "2026-10-09",
-      "fecha_fin": "2026-10-26"
-    },
-    {
-      "id": "silver_week_2026-10-09",
-      "nombre": "Silver Week",
-      "caracteristicas": [
-        "The season of feasting has arrived! It's the Silver Week Event!"
-      ],
-      "fecha_inicio": "2026-10-09",
-      "fecha_fin": "2026-10-26"
-    },
-    {
       "id": "arena_of_destiny_2026-10-16",
       "nombre": "Arena of Destiny",
       "caracteristicas": [
@@ -275,15 +257,6 @@
       ],
       "fecha_inicio": "2026-10-17",
       "fecha_fin": "2026-10-29"
-    },
-    {
-      "id": "divine_archangel_strikes_2026-10-19",
-      "nombre": "Divine Archangel Strikes",
-      "caracteristicas": [
-        "Divine Archangel Strikes contains a total of 20 No Continues levels, each called Blessing. After beating a level, the player must wait for 30 minutes before they may proceed to the next one. Rewards for the first completion of a level can include XP, Tickets, Catamins and Materials. Every 10 levels plays out the same, but the strength magnifications and enemy base's HP are increased with each level."
-      ],
-      "fecha_inicio": "2026-10-19",
-      "fecha_fin": "2026-10-26"
     },
     {
       "id": "duel_stages_challenge_2026-10-29",
@@ -304,5 +277,5 @@
       "fecha_fin": "2026-11-15"
     }
   ],
-  "ultima_actualizacion": "2026-10-19T22:10:41Z"
+  "ultima_actualizacion": "2026-10-27T05:14:27Z"
 }

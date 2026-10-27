@@ -29,30 +29,6 @@
       "reason": "unknown_identity"
     },
     {
-      "event_id": 40000,
-      "reason": "unknown_identity"
-    },
-    {
-      "event_id": 40001,
-      "reason": "unknown_identity"
-    },
-    {
-      "event_id": 41000,
-      "reason": "unknown_identity"
-    },
-    {
-      "event_id": 41001,
-      "reason": "unknown_identity"
-    },
-    {
-      "event_id": 41002,
-      "reason": "unknown_identity"
-    },
-    {
-      "event_id": 41003,
-      "reason": "unknown_identity"
-    },
-    {
       "name": "XP Stage",
       "event_ids": [
         1028
@@ -95,10 +71,6 @@
       "reason": "image_not_found"
     },
     {
-      "name": "Silver Week",
-      "reason": "image_not_found"
-    },
-    {
       "name": "Merciless XP!",
       "event_ids": [
         1155
@@ -117,10 +89,6 @@
       "event_ids": [
         1320
       ],
-      "reason": "image_not_found"
-    },
-    {
-      "name": "Machines in Revolt",
       "reason": "image_not_found"
     },
     {
@@ -211,13 +179,6 @@
       "reason": "image_not_found"
     },
     {
-      "name": "Koneko Takes the Stage",
-      "event_ids": [
-        39000
-      ],
-      "reason": "image_not_found"
-    },
-    {
       "name": "Cats Eye Caverns",
       "reason": "image_not_found"
     },
@@ -233,11 +194,9 @@
     "Cavern of Comets: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Island of Ash: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Strait of Wings: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Silver Week: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Merciless XP!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "XP Bonanza!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "#02 Sugar Struggle: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Machines in Revolt: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Fireworks Spectacular!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "XP Harvest (Easy): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "XP Harvest (Normal): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
@@ -253,7 +212,6 @@
     "#01 Ghost Panic: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "120M Download Celebration!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Otherworld Colosseum: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Koneko Takes the Stage: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Cats Eye Caverns: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Festival Cats: Lunar New Year's: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "remote_name_index_older_than_saved: 14.7.0"
@@ -268,7 +226,7 @@
       "source": "BCData EN resources"
     }
   },
-  "calendarEvents": 9,
+  "calendarEvents": 6,
   "missingImages": [
     "Cats Eye Cave",
     "Cats Eye Caverns",
