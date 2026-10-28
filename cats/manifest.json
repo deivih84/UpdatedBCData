@@ -37,6 +37,14 @@
       "region": "jp"
     },
     {
+      "gameVersion": "15.6.1",
+      "region": "en"
+    },
+    {
+      "gameVersion": "15.7.0",
+      "region": "en"
+    },
+    {
       "gameVersion": "15.7.1",
       "region": "jp"
     }
@@ -2919,8 +2927,8 @@
       "size": 35716
     },
     "746": {
-      "sha256": "fbc3c2b3730b8e7f690b38c4f029835d2dca05e7e189d40a6abcb9b3839bdbea",
-      "size": 434436
+      "sha256": "1ced65aa3703c9c2aea5956781bb157b93e02e61cb469e72a8db6340ce9f25ed",
+      "size": 353333
     },
     "747": {
       "sha256": "9d69e4212ceab67ea7e9a1da28e50539870288687cdbfeb955158d158ec403d0",
@@ -3263,8 +3271,8 @@
       "size": 103274
     },
     "823": {
-      "sha256": "861868233710eb9ab90e73770d2c7557360766e0367de9681707de0f88affc38",
-      "size": 30327
+      "sha256": "10c4223f3700631ba3452e9851666cfaefefd2e4db6df2c8f3752ab0efd59aa1",
+      "size": 10757
     },
     "824": {
       "sha256": "2cd7fca47bf1908ef874170301b3e556c42548faa939235282374629f5b6562e",
@@ -3407,16 +3415,16 @@
       "size": 28437
     },
     "856": {
-      "sha256": "52edaf6e17760b82b67bcaa68df58310d1675e97192873af9c9f54a4e02b477c",
-      "size": 262262
+      "sha256": "30b16b3b86d42a36d2cad3f4b0b96a9388b7ae66ba5d31513311042e9c66a8dc",
+      "size": 17463
     },
     "857": {
-      "sha256": "42043d4dbdd5563b16e05ec5702391991654b3a43549ad1810e2188a4103fa80",
-      "size": 62180
+      "sha256": "e6a7c8365ab85409753c510f5636be4ce8bdc2aa068d7fd186b043910bb60119",
+      "size": 12560
     },
     "858": {
-      "sha256": "1f1e3601d805b5880c693e7fffa8b313fff625d1d0b2f04c1a6f9a6e941bfc1d",
-      "size": 49521
+      "sha256": "baed333a338defe2167e68b071e1cbe21a04e4773ee17cab3e6f37bea22d898c",
+      "size": 16541
     },
     "859": {
       "sha256": "9e0e610273877433a4b8aef42474792104e05ce818a4d6c122b4248820bde713",
@@ -3451,15 +3459,15 @@
       "size": 351090
     },
     "866": {
-      "sha256": "0aeb64e5f2f6ed896f6bef07dcde0cf5743af7a25a53729e19325ea61bdc2483",
+      "sha256": "a6564498c7213bb10806d91d583806cc11e62177ed17ccb8132aad05a124cd67",
       "size": 9371
     },
     "867": {
-      "sha256": "3e335eea219488bc20236a62eb06db762760b6ee28ec5161a9cbcada371958b3",
+      "sha256": "61e80fe92a0a0de03ef9d5cc304cd3308ba84e0b8452ebd2c772a7a189e7af93",
       "size": 18004
     },
     "868": {
-      "sha256": "a09d2871a5b7e910841418d99b76fd97a7ef8c8c6aac2ace8e5f46da20c35696",
+      "sha256": "d3b0780479135fe88ad2bfd50a906be56229e4026d734daba2ea14715c85e24d",
       "size": 34771
     },
     "869": {
@@ -3487,7 +3495,7 @@
       "size": 175375
     },
     "874": {
-      "sha256": "cb380903308cd7267797421de4f0be79f8f476e63235deb90a70096ae3792284",
+      "sha256": "35b23d1576cca111f55a396df5d9e70bd878cf3a42745e089c64931568cd757e",
       "size": 10031
     },
     "875": {
@@ -3503,24 +3511,24 @@
       "size": 112861
     },
     "878": {
-      "sha256": "e0d2c8f8c7182c28cac6d9e2898bb8d36ce5bdc5340018415010d62fb7f4fd63",
-      "size": 234929
+      "sha256": "15580b270088069c936414d7f0a0c559e9a5c848ced66fcde7769db4723d0c98",
+      "size": 40156
     },
     "879": {
-      "sha256": "65f651b2609d02d232f28768cfdbc3ba23720b0e5ea8cdcd816dfabef6d69606",
-      "size": 132881
+      "sha256": "501757b9978a62e7aadfab8e56447c3d652aad3876ac1854e072998672a8ffd8",
+      "size": 34071
     },
     "88": {
       "sha256": "267d859a748a5df903912bacd57de61b9d681ae98f85a8056c8a62c5d2872e83",
       "size": 73885
     },
     "880": {
-      "sha256": "5c8dee31a6636d899ca35a502c5df4135f78adc6c6146c23840e486fd1552d86",
-      "size": 545080
+      "sha256": "e43d03ee1ffa4497229215350ba7e37be70ba8c33c3421bf8e9b9e267b426323",
+      "size": 34028
     },
     "881": {
-      "sha256": "bfcac5d848272afae84f270130906e8a0424594a4c9b395303dee997db8cb446",
-      "size": 485012
+      "sha256": "a0576e1c734f38b069096c3d0db7aa42e1451eef136863d0a60b7db2adad6b98",
+      "size": 38917
     },
     "89": {
       "sha256": "bd08d03c763f53c57dc2b7b01645d2d430a2667ec78ce089bd333418639d508f",
@@ -3679,12 +3687,27 @@
     "871": [
       "f",
       "c"
+    ],
+    "877": [
+      "s"
+    ],
+    "878": [
+      "s"
+    ],
+    "879": [
+      "s"
+    ],
+    "880": [
+      "s"
+    ],
+    "881": [
+      "s"
     ]
   },
   "latestSource": {
     "gameVersion": "15.7.1",
     "region": "jp"
   },
-  "revision": "sha256:308c575a1771822668fb314275f636668377208e8f01205e4d6030369aec844f",
+  "revision": "sha256:a0bce7b8aff17c7b1966164b7a20949867f36540ca61a8227bbbe125f041fce6",
   "schemaVersion": 1
 }

@@ -1,7 +1,7 @@
 {
   "animations": {
     "manifest": "cats/manifest.json",
-    "revision": "sha256:308c575a1771822668fb314275f636668377208e8f01205e4d6030369aec844f",
+    "revision": "sha256:a0bce7b8aff17c7b1966164b7a20949867f36540ca61a8227bbbe125f041fce6",
     "sourceGameVersion": "15.7.1",
     "sourceRegion": "jp"
   },
@@ -11,5 +11,5 @@
     "stages_data.json": "stages"
   },
   "gameVersion": "15.7.1",
-  "lastUpdate": "2026-10-09 18:42:00"
+  "lastUpdate": "2026-10-28T19:31:22.008665+00:00"
 }

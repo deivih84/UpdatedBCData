@@ -7,6 +7,7 @@ import io
 import os
 from pathlib import Path
 import re
+import shutil
 import subprocess
 import tempfile
 from typing import Optional, Sequence
@@ -97,6 +98,10 @@ def find_aapt(explicit: Optional[Path] = None) -> Path:
             candidates.extend(
                 Path(value).glob("build-tools/*/aapt.exe")
             )
+            candidates.extend(Path(value).glob("build-tools/*/aapt"))
+    native_aapt = shutil.which("aapt")
+    if native_aapt:
+        candidates.append(Path(native_aapt))
     local_app_data = os.environ.get("LOCALAPPDATA")
     if local_app_data:
         candidates.extend(

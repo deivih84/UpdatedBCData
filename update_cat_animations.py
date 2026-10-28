@@ -67,6 +67,7 @@ class SyncConfig:
     region: str = "jp"
     force: bool = False
     dry_run: bool = False
+    include_regions: tuple[str, ...] = ()
 
 
 @dataclass(frozen=True)
@@ -263,8 +264,9 @@ def _inspect_requested_sources(
     if config.sources:
         sources = [inspector(path) for path in config.sources]
     else:
-        sources = list(discovery(config.bcdata, config.region))
-    wrong_regions = [source for source in sources if source.region != config.region]
+        sources = [source for region in dict.fromkeys((config.region, *config.include_regions))
+                   for source in discovery(config.bcdata, region)]
+    wrong_regions = [source for source in sources if source.region not in (config.region, *config.include_regions)]
     if wrong_regions:
         details = ", ".join(
             f"{source.path.name}={source.region}" for source in wrong_regions
@@ -572,6 +574,7 @@ def _parser() -> argparse.ArgumentParser:
     parser.add_argument("--data-version", type=Path, default=repository / "data_version.json")
     parser.add_argument("--source", action="append", type=Path, default=[])
     parser.add_argument("--region", choices=("jp", "en", "kr", "tw"), default="jp")
+    parser.add_argument("--include-region", action="append", choices=("jp", "en", "kr", "tw"), default=[])
     parser.add_argument("--force", action="store_true")
     parser.add_argument("--dry-run", action="store_true")
     return parser
@@ -613,6 +616,7 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         data_version=args.data_version,
         sources=tuple(args.source),
         region=args.region,
+        include_regions=tuple(args.include_region),
         force=args.force,
         dry_run=args.dry_run,
     )
