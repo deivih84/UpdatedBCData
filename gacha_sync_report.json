@@ -62,6 +62,11 @@
       "name": "Uberfest",
       "gacha_id": 1069,
       "reason": "image_not_found"
+    },
+    {
+      "name": "Halloween Gacha",
+      "gacha_id": 926,
+      "reason": "image_not_found"
     }
   ],
   "images": [],
