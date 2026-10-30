@@ -8,8 +8,8 @@
       "caracteristicas": []
     },
     {
-      "id": "limited_halloween_units_get_spooky_special_editions_of_uber_cats_2026-10-26",
-      "nombre": "Limited Halloween Units! Get spooky special editions of Uber Cats!",
+      "id": "halloween_gacha_2026-10-26",
+      "nombre": "Halloween Gacha",
       "fecha_inicio": "2026-10-26",
       "fecha_fin": "2026-11-16",
       "caracteristicas": [
@@ -147,5 +147,5 @@
       "fecha_fin": "2026-11-16"
     }
   ],
-  "ultima_actualizacion": "2026-10-30T05:58:01Z"
+  "ultima_actualizacion": "2026-10-30T16:26:14Z"
 }

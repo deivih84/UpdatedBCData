@@ -63,6 +63,13 @@ equivalencias de nombres canónicos de la wiki usa `wikiNames`. Los IDs de serie
 proceden de `GatyaData_Option_SetR.tsv`, no del número de pool. El siguiente run
 actualiza los datos sin volver a preguntar.
 
+Halloween Gacha corresponde al pool R926 y a la serie 8, verificados con
+`GatyaDataSetR1.csv` y `GatyaData_Option_SetR.tsv` de EN 15.7.0. La asociación
+explícita del ID permite reconocerlo también en GitHub, donde no hay opciones
+locales del juego y el anuncio «Limited Halloween Units!» no coincide con el
+nombre del catálogo. El banner EN existente se conserva si la wiki no ofrece
+una imagen verificada para el ID actual.
+
 Las imágenes se buscan por ID exacto del banner e imgID en las APIs de
 Miraheze/Fandom, exigiendo el archivo EN; una imagen de otro
 banner no se elige por parecido del título.

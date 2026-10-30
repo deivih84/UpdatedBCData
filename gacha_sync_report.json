@@ -5,81 +5,18 @@
   },
   "changes": [
     {
-      "name": "Dark Heroes",
-      "gacha_id": 947,
+      "name": "Halloween Gacha",
+      "gacha_id": 926,
       "created": false,
       "units": {},
-      "rates": {}
-    },
-    {
-      "name": "Elemental Pixies",
-      "gacha_id": 1004,
-      "created": false,
-      "units": {},
-      "rates": {}
-    },
-    {
-      "name": "Epicfest",
-      "gacha_id": 1070,
-      "created": false,
-      "units": {
-        "ubers": {
-          "added": [
-            869
-          ],
-          "removed": []
-        }
-      },
-      "rates": {}
-    },
-    {
-      "name": "Spooky Cuties",
-      "gacha_id": 1015,
-      "created": false,
-      "units": {},
-      "rates": {}
-    },
-    {
-      "name": "Uberfest",
-      "gacha_id": 1069,
-      "created": false,
-      "units": {
-        "ubers": {
-          "added": [
-            869
-          ],
-          "removed": []
-        }
-      },
       "rates": {}
     }
   ],
   "pending": [
     {
-      "gacha_id": 926,
-      "event_id": "2026-10-26_926",
-      "text": "Limited Halloween Units! Get spooky special editions of Uber Cats!",
-      "reason": "unknown_identity",
-      "candidates": []
-    },
-    {
-      "gacha_id": 926,
-      "event_id": "2026-10-30_926",
-      "text": "Limited Halloween Units! Get spooky special editions of Uber Cats!",
-      "reason": "unknown_identity",
-      "candidates": []
-    },
-    {
       "gacha_id": 1067,
       "event_id": "2026-10-30_1067",
       "text": "Akane Tounji added! An awesome variety pack of crazy Cats!",
-      "reason": "unknown_identity",
-      "candidates": []
-    },
-    {
-      "gacha_id": 926,
-      "event_id": "2026-11-02_926",
-      "text": "Limited Halloween Units! Get spooky special editions of Uber Cats!",
       "reason": "unknown_identity",
       "candidates": []
     },
@@ -94,13 +31,6 @@
       "gacha_id": 1080,
       "event_id": "2026-11-02_1080",
       "text": "River City Clash Capsules, featuring Ryuichi! ★Tap banner for details!",
-      "reason": "unknown_identity",
-      "candidates": []
-    },
-    {
-      "gacha_id": 926,
-      "event_id": "2026-11-09_926",
-      "text": "Limited Halloween Units! Get spooky special editions of Uber Cats!",
       "reason": "unknown_identity",
       "candidates": []
     },

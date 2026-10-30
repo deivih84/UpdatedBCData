@@ -3110,7 +3110,8 @@
     {
       "nombre": "Halloween Gacha",
       "aliases": [
-        "Halloween Gacha"
+        "Halloween Gacha",
+        "Limited Halloween Units! Get spooky special editions of Uber Cats!"
       ],
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_halloween.png",
       "rareChance": 7000,
