@@ -8,163 +8,13 @@
       "caracteristicas": []
     },
     {
-      "id": "download_anniversary_gacha_2026-10-05",
-      "nombre": "Download Anniversary Gacha",
-      "fecha_inicio": "2026-10-05",
-      "fecha_fin": "2026-10-16",
-      "caracteristicas": [
-        "L",
-        "Lucky Ticket"
-      ]
-    },
-    {
-      "id": "the_almighties_2026-10-13",
-      "nombre": "The Almighties",
-      "fecha_inicio": "2026-10-13",
-      "fecha_fin": "2026-10-16",
-      "caracteristicas": [
-        "L",
-        "Lucky Ticket",
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "dragon_emperors_2026-10-13",
-      "nombre": "Dragon Emperors",
-      "fecha_inicio": "2026-10-13",
-      "fecha_fin": "2026-10-16",
-      "caracteristicas": [
-        "L",
-        "Lucky Ticket",
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "the_dynamites_2026-10-16",
-      "nombre": "The Dynamites",
-      "fecha_inicio": "2026-10-16",
-      "fecha_fin": "2026-10-20",
-      "caracteristicas": [
-        "G",
-        "Guaranteed",
-        "L",
-        "Lucky Ticket"
-      ]
-    },
-    {
-      "id": "luga_families_2026-10-16",
-      "nombre": "Luga Families",
-      "fecha_inicio": "2026-10-16",
-      "fecha_fin": "2026-10-18",
-      "caracteristicas": [
-        "G",
-        "Guaranteed",
-        "L",
-        "Lucky Ticket"
-      ]
-    },
-    {
-      "id": "iron_legion_2026-10-16",
-      "nombre": "Iron Legion",
-      "fecha_inicio": "2026-10-16",
-      "fecha_fin": "2026-10-18",
-      "caracteristicas": [
-        "G",
-        "Guaranteed",
-        "L",
-        "Lucky Ticket"
-      ]
-    },
-    {
-      "id": "galaxy_gals_2026-10-18",
-      "nombre": "Galaxy Gals",
-      "fecha_inicio": "2026-10-18",
-      "fecha_fin": "2026-10-20",
-      "caracteristicas": [
-        "G",
-        "Guaranteed",
-        "L",
-        "Lucky Ticket"
-      ]
-    },
-    {
-      "id": "wargods_vajiras_2026-10-18",
-      "nombre": "Wargods Vajiras",
-      "fecha_inicio": "2026-10-18",
-      "fecha_fin": "2026-10-20",
-      "caracteristicas": [
-        "G",
-        "Guaranteed",
-        "L",
-        "Lucky Ticket"
-      ]
-    },
-    {
-      "id": "epicfest_2026-10-20",
-      "nombre": "Epicfest",
-      "fecha_inicio": "2026-10-20",
-      "fecha_fin": "2026-10-26",
-      "caracteristicas": [
-        "L",
-        "Lucky Ticket"
-      ]
-    },
-    {
-      "id": "elemental_pixies_2026-10-20",
-      "nombre": "Elemental Pixies",
-      "fecha_inicio": "2026-10-20",
-      "fecha_fin": "2026-10-23",
-      "caracteristicas": [
-        "L",
-        "Lucky Ticket",
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "dark_heroes_2026-10-20",
-      "nombre": "Dark Heroes",
-      "fecha_inicio": "2026-10-20",
-      "fecha_fin": "2026-10-23",
-      "caracteristicas": [
-        "L",
-        "Lucky Ticket",
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "ultra_souls_2026-10-23",
-      "nombre": "Ultra Souls",
-      "fecha_inicio": "2026-10-23",
-      "fecha_fin": "2026-10-26",
-      "caracteristicas": [
-        "L",
-        "Lucky Ticket",
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "spooky_cuties_2026-10-23",
-      "nombre": "Spooky Cuties",
-      "fecha_inicio": "2026-10-23",
-      "fecha_fin": "2026-10-26",
-      "caracteristicas": [
-        "L",
-        "Lucky Ticket",
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
       "id": "limited_halloween_units_get_spooky_special_editions_of_uber_cats_2026-10-26",
       "nombre": "Limited Halloween Units! Get spooky special editions of Uber Cats!",
       "fecha_inicio": "2026-10-26",
       "fecha_fin": "2026-11-16",
       "caracteristicas": [
+        "G",
+        "Guaranteed",
         "P",
         "Platinum Shard"
       ]
@@ -207,6 +57,26 @@
       ]
     },
     {
+      "id": "pick_up_mighty_teammates_to_fight_by_your_side_in_a_river_city_clash_2026-11-02",
+      "nombre": "Pick up mighty teammates to fight by your side in a River City Clash!",
+      "fecha_inicio": "2026-11-02",
+      "fecha_fin": "2026-11-16",
+      "caracteristicas": [
+        "G",
+        "Guaranteed"
+      ]
+    },
+    {
+      "id": "river_city_clash_capsules_2026-11-02",
+      "nombre": "River City Clash Capsules",
+      "fecha_inicio": "2026-11-02",
+      "fecha_fin": "2026-11-16",
+      "caracteristicas": [
+        "G",
+        "Guaranteed"
+      ]
+    },
+    {
       "id": "platinum_capsules_2026-10-16",
       "nombre": "Platinum Capsules",
       "fecha_inicio": "2026-10-16",
@@ -223,24 +93,6 @@
   ],
   "eventos": [
     {
-      "id": "120m_download_celebration_2026-10-05",
-      "nombre": "120M Download Celebration!",
-      "caracteristicas": [
-        "The Battle Cats has reached a massive 120 Million Downloads worldwide! In thanks to all of our players, we've got special events available for a…"
-      ],
-      "fecha_inicio": "2026-10-05",
-      "fecha_fin": "2026-10-29"
-    },
-    {
-      "id": "heavenly_tower_2026-10-05",
-      "nombre": "Heavenly Tower",
-      "caracteristicas": [
-        "The Heavenly Tower contains 50 stages, called Floors (階 Kai), with a wide variety of enemies including Cyclones, Enemy Cats, Advent Bosses and even event enemies from monthly and annual events. After completing a floor for the first time, the player will receive gifts including Battle Items, Catseyes, Catfruit, Tickets, Catamins, XP, Materials and Leaderships along with Hermit Cat, Masked Yulala and Master Uril upon defeating their respective counterparts on the 30th, 40th and 50th floors respectively, via the Catnip Challenges feature. "
-      ],
-      "fecha_inicio": "2026-10-05",
-      "fecha_fin": "2026-10-29"
-    },
-    {
       "id": "arena_of_destiny_2026-10-16",
       "nombre": "Arena of Destiny",
       "caracteristicas": [
@@ -248,15 +100,6 @@
       ],
       "fecha_inicio": "2026-10-16",
       "fecha_fin": "2026-11-02"
-    },
-    {
-      "id": "cats_eye_cave_2026-10-17",
-      "nombre": "Cats Eye Cave",
-      "caracteristicas": [
-        "No info :) this is a Gamatoto expedition area that gives Catseyes as rewards."
-      ],
-      "fecha_inicio": "2026-10-17",
-      "fecha_fin": "2026-10-29"
     },
     {
       "id": "duel_stages_challenge_2026-10-29",
@@ -275,7 +118,34 @@
       ],
       "fecha_inicio": "2026-11-01",
       "fecha_fin": "2026-11-15"
+    },
+    {
+      "id": "le_grim_strikes_2026-11-02",
+      "nombre": "Le'Grim Strikes",
+      "caracteristicas": [
+        "Le'Grim Strikes contains a total of 20 No Continues levels, called Rampage Lvs. After beating a Rampage Lv, the player must wait for 30 minutes before they may proceed to the next one. Rewards for the first completion of a Rampage Lv can include XP, Tickets, Catamins and Materials. Every 10 Rampage Lvs plays out the same, but the strength magnifications and enemy base's HP are increased with each level. "
+      ],
+      "fecha_inicio": "2026-11-02",
+      "fecha_fin": "2026-11-09"
+    },
+    {
+      "id": "legend_quest_2026-11-09",
+      "nombre": "Legend Quest",
+      "caracteristicas": [
+        "Legend Quest is a map somewhat similar to Heavenly Tower, with 48 stages known as LEVELs. Each LEVEL is a random Stories of Legend stage that provides a partially randomized lineup. All LEVELs are No Continues, and exiting a battle within 10 seconds will not refund items, Crowns or energy."
+      ],
+      "fecha_inicio": "2026-11-09",
+      "fecha_fin": "2026-11-26"
+    },
+    {
+      "id": "resident_undead_2026-11-09",
+      "nombre": "Resident Undead",
+      "caracteristicas": [
+        "Resident Undead (住民の亡霊, Shūmin no Bourei, Resident Ghosts) is a set of special stages that was added in Version 12.6. It is unlocked after clearing Empire of Cats Chapter 1. Each stage features Undead Enemies and has a Cat Ticket as a reward.\n\nClear stages in the special map Resident Undead to earn up to 10 Cat Tickets as you face off against the Undead enemies attacking the remnants of a destroyed city! Visit Event Stages/Stories of Legend and select to take on this challenge!\nOn between June 10th (11:00am) and June 17th (10:59am)!\n\nSave the future from the onslaught of the coming machines!\n\n\n※ After clearing a stage, there will be a short cooldown period before you are able to challenge the next stage.\n※ Spending a Catamin A will allow you to skip the stage cooldown period and challenge the next stage immediately.\n※ If the event does not appear, please make sure that you are updated to the latest version of the Battle Cats app. "
+      ],
+      "fecha_inicio": "2026-11-09",
+      "fecha_fin": "2026-11-16"
     }
   ],
-  "ultima_actualizacion": "2026-10-27T05:14:27Z"
+  "ultima_actualizacion": "2026-10-30T05:58:01Z"
 }

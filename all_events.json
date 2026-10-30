@@ -17,7 +17,10 @@
     {
       "nombre": "Legend Quest",
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_legend_quest.png",
-      "descripcion": "Legend Quest is a map somewhat similar to Heavenly Tower, with 48 stages known as LEVELs. Each LEVEL is a random Stories of Legend stage that provides a partially randomized lineup. All LEVELs are No Continues, and exiting a battle within 10 seconds will not refund items, Crowns or energy."
+      "descripcion": "Legend Quest is a map somewhat similar to Heavenly Tower, with 48 stages known as LEVELs. Each LEVEL is a random Stories of Legend stage that provides a partially randomized lineup. All LEVELs are No Continues, and exiting a battle within 10 seconds will not refund items, Crowns or energy.",
+      "event_ids": [
+        16000
+      ]
     },
     {
       "nombre": "Best of the Best",
@@ -170,7 +173,10 @@
       "nombre": "Resident Undead",
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_resident_undead.png",
       "descripcion": "Resident Undead (住民の亡霊, Shūmin no Bourei, Resident Ghosts) is a set of special stages that was added in Version 12.6. It is unlocked after clearing Empire of Cats Chapter 1. Each stage features Undead Enemies and has a Cat Ticket as a reward.\n\nClear stages in the special map Resident Undead to earn up to 10 Cat Tickets as you face off against the Undead enemies attacking the remnants of a destroyed city! Visit Event Stages/Stories of Legend and select to take on this challenge!\nOn between June 10th (11:00am) and June 17th (10:59am)!\n\nSave the future from the onslaught of the coming machines!\n\n\n※ After clearing a stage, there will be a short cooldown period before you are able to challenge the next stage.\n※ Spending a Catamin A will allow you to skip the stage cooldown period and challenge the next stage immediately.\n※ If the event does not appear, please make sure that you are updated to the latest version of the Battle Cats app. ",
-      "url": "https://battlecats.miraheze.org/wiki/Resident_Undead"
+      "url": "https://battlecats.miraheze.org/wiki/Resident_Undead",
+      "event_ids": [
+        1336
+      ]
     },
     {
       "nombre": "Update 1.2",
@@ -200,7 +206,10 @@
       "nombre": "Le'Grim Strikes",
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_le_grim.png",
       "descripcion": "Le'Grim Strikes contains a total of 20 No Continues levels, called Rampage Lvs. After beating a Rampage Lv, the player must wait for 30 minutes before they may proceed to the next one. Rewards for the first completion of a Rampage Lv can include XP, Tickets, Catamins and Materials. Every 10 Rampage Lvs plays out the same, but the strength magnifications and enemy base's HP are increased with each level. ",
-      "url": "https://youtu.be/wG1jQkzd_II"
+      "url": "https://youtu.be/wG1jQkzd_II",
+      "event_ids": [
+        24027
+      ]
     },
     {
       "nombre": "Mega Menace",

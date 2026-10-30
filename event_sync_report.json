@@ -1,31 +1,39 @@
 {
   "changes": [
     {
-      "name": "Divine Archangel Strikes",
+      "name": "Resident Undead",
       "action": "updated",
       "event_ids": [
-        24037
+        1336
       ]
     },
     {
-      "name": "Duel Stages Challenge",
+      "name": "Legend Quest",
       "action": "updated",
       "event_ids": [
-        24053
+        16000
       ]
     },
     {
-      "name": "Otherworld Colosseum",
+      "name": "Le'Grim Strikes",
       "action": "updated",
       "event_ids": [
-        36025
+        24027
       ]
     }
   ],
   "images": [],
   "pending": [
     {
-      "event_id": 18106,
+      "event_id": 700,
+      "reason": "unknown_identity"
+    },
+    {
+      "event_id": 701,
+      "reason": "unknown_identity"
+    },
+    {
+      "event_id": 702,
       "reason": "unknown_identity"
     },
     {
@@ -50,30 +58,51 @@
       "reason": "image_not_found"
     },
     {
-      "name": "Cavern of Comets",
-      "event_ids": [
-        1150
-      ],
-      "reason": "image_not_found"
-    },
-    {
-      "name": "Island of Ash",
-      "event_ids": [
-        1151
-      ],
-      "reason": "image_not_found"
-    },
-    {
-      "name": "Strait of Wings",
-      "event_ids": [
-        1152
-      ],
-      "reason": "image_not_found"
-    },
-    {
       "name": "Merciless XP!",
       "event_ids": [
         1155
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "River City Ball-Rolling",
+      "event_ids": [
+        1260
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "River City Challenge Course",
+      "event_ids": [
+        1261
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "River City Three-Leg Race ①",
+      "event_ids": [
+        1262
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "River City Three-Leg Race ②",
+      "event_ids": [
+        1263
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "River City Three-Leg Race ③",
+      "event_ids": [
+        1264
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Cover of Darkness",
+      "event_ids": [
+        1287
       ],
       "reason": "image_not_found"
     },
@@ -92,9 +121,20 @@
       "reason": "image_not_found"
     },
     {
-      "name": "Fireworks Spectacular!",
+      "name": "#04 Mischievous Schemes",
       "event_ids": [
-        1410
+        1321
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Resident Undead",
+      "reason": "image_not_found"
+    },
+    {
+      "name": "River City Relay",
+      "event_ids": [
+        1359
       ],
       "reason": "image_not_found"
     },
@@ -120,31 +160,9 @@
       "reason": "image_not_found"
     },
     {
-      "name": "Cats Eye Cave",
-      "reason": "image_not_found"
-    },
-    {
       "name": "XP Harvest (Vet.)",
       "event_ids": [
         5012
-      ],
-      "reason": "image_not_found"
-    },
-    {
-      "name": "Heavenly Tower",
-      "reason": "image_not_found"
-    },
-    {
-      "name": "Infernal Tower",
-      "event_ids": [
-        7006
-      ],
-      "reason": "image_not_found"
-    },
-    {
-      "name": "Arena of Power (Artillery Alley)",
-      "event_ids": [
-        11026
       ],
       "reason": "image_not_found"
     },
@@ -153,14 +171,18 @@
       "reason": "image_not_found"
     },
     {
-      "name": "Monthly Event All-Stars Grateful Gathering",
-      "event_ids": [
-        24049
-      ],
+      "name": "Legend Quest",
       "reason": "image_not_found"
     },
     {
       "name": "Duel Stages Challenge",
+      "reason": "image_not_found"
+    },
+    {
+      "name": "#03 Demons' Night Out",
+      "event_ids": [
+        24056
+      ],
       "reason": "image_not_found"
     },
     {
@@ -171,11 +193,11 @@
       "reason": "image_not_found"
     },
     {
-      "name": "120M Download Celebration!",
+      "name": "Otherworld Colosseum",
       "reason": "image_not_found"
     },
     {
-      "name": "Otherworld Colosseum",
+      "name": "Cats Eye Cave",
       "reason": "image_not_found"
     },
     {
@@ -191,27 +213,29 @@
     "XP Stage: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "XP Megablitz!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "XP Colosseum: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Cavern of Comets: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Island of Ash: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Strait of Wings: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Merciless XP!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "River City Ball-Rolling: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "River City Challenge Course: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "River City Three-Leg Race ①: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "River City Three-Leg Race ②: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "River City Three-Leg Race ③: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Cover of Darkness: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "XP Bonanza!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "#02 Sugar Struggle: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Fireworks Spectacular!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "#04 Mischievous Schemes: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Resident Undead: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "River City Relay: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "XP Harvest (Easy): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "XP Harvest (Normal): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "XP Harvest (Hard): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Cats Eye Cave: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "XP Harvest (Vet.): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Heavenly Tower: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Infernal Tower: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Arena of Power (Artillery Alley): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Arena of Destiny: section_has_no_verified_poster",
-    "Monthly Event All-Stars Grateful Gathering: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Legend Quest: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Duel Stages Challenge: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "#03 Demons' Night Out: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "#01 Ghost Panic: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "120M Download Celebration!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Otherworld Colosseum: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Cats Eye Cave: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Cats Eye Caverns: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Festival Cats: Lunar New Year's: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "remote_name_index_older_than_saved: 14.7.0"
@@ -219,7 +243,7 @@
   "sources": {
     "schedule": {
       "url": "PONOS EN sale.tsv",
-      "sha256": "868f1aaf06f630d78248b3f562b95bfea8ca528057f9b0cbffd45028f90c705c"
+      "sha256": "77ac46128c944aec7eaeeeabca46ef804c0d356ebe77cdf97f5e67a1d7eedf35"
     },
     "names": {
       "version": "15.6.0",

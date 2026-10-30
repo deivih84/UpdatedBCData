@@ -77,6 +77,48 @@
       "candidates": []
     },
     {
+      "gacha_id": 926,
+      "event_id": "2026-11-02_926",
+      "text": "Limited Halloween Units! Get spooky special editions of Uber Cats!",
+      "reason": "unknown_identity",
+      "candidates": []
+    },
+    {
+      "gacha_id": 1079,
+      "event_id": "2026-11-02_1079",
+      "text": "Pick up mighty teammates to fight by your side in a River City Clash!",
+      "reason": "unknown_identity",
+      "candidates": []
+    },
+    {
+      "gacha_id": 1080,
+      "event_id": "2026-11-02_1080",
+      "text": "River City Clash Capsules, featuring Ryuichi! ★Tap banner for details!",
+      "reason": "unknown_identity",
+      "candidates": []
+    },
+    {
+      "gacha_id": 926,
+      "event_id": "2026-11-09_926",
+      "text": "Limited Halloween Units! Get spooky special editions of Uber Cats!",
+      "reason": "unknown_identity",
+      "candidates": []
+    },
+    {
+      "gacha_id": 1079,
+      "event_id": "2026-11-09_1079",
+      "text": "Pick up mighty teammates to fight by your side in a River City Clash!",
+      "reason": "unknown_identity",
+      "candidates": []
+    },
+    {
+      "gacha_id": 1080,
+      "event_id": "2026-11-09_1080",
+      "text": "River City Clash Capsules, featuring Ryuichi! ★Tap banner for details!",
+      "reason": "unknown_identity",
+      "candidates": []
+    },
+    {
       "name": "The Almighties",
       "gacha_id": 991,
       "reason": "image_not_found"

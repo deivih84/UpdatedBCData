@@ -173,6 +173,20 @@
       "candidates": []
     },
     {
+      "gacha_id": 1067,
+      "event_id": "2026-11-01_1067",
+      "text": "赤と黒の攻撃をたまに無効化する「鉄腕！東雲寺あかね」登場！★詳細はバナーをタップ!!",
+      "reason": "unknown_identity",
+      "candidates": []
+    },
+    {
+      "gacha_id": 1069,
+      "event_id": "2026-11-01_1069",
+      "text": "限定キャラ「幼騎士ルーノ」登場！★超激レア出現率アップの「超ネコ祭」開催中!!",
+      "reason": "unknown_identity",
+      "candidates": []
+    },
+    {
       "gacha_id": 23,
       "reason": "starter_pool_not_available_online"
     },
@@ -186,8 +200,13 @@
       "reason": "image_not_found"
     },
     {
-      "name": "Luga Families",
-      "gacha_id": 986,
+      "name": "Wargods Vajiras",
+      "gacha_id": 1043,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Girls & Monsters",
+      "gacha_id": 1015,
       "reason": "image_not_found"
     }
   ],

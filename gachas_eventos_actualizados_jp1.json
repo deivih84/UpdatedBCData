@@ -1,32 +1,20 @@
 {
   "gachas": [
     {
-      "id": "ultra_souls_2026-10-18",
-      "nombre": "Ultra Souls",
-      "fecha_inicio": "2026-10-18",
-      "fecha_fin": "2026-10-21",
+      "id": "royalfest_2026-10-29",
+      "nombre": "RoyalFest",
+      "fecha_inicio": "2026-10-29",
+      "fecha_fin": "2026-11-01",
       "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "the_almighties_2026-10-21",
-      "nombre": "The Almighties",
-      "fecha_inicio": "2026-10-21",
-      "fecha_fin": "2026-10-24",
-      "caracteristicas": [
-        "G",
-        "Guaranteed",
         "L",
         "Lucky Ticket"
       ]
     },
     {
-      "id": "luga_families_2026-10-26",
-      "nombre": "Luga Families",
-      "fecha_inicio": "2026-10-26",
-      "fecha_fin": "2026-10-29",
+      "id": "wargods_vajiras_2026-11-04",
+      "nombre": "Wargods Vajiras",
+      "fecha_inicio": "2026-11-04",
+      "fecha_fin": "2026-11-06",
       "caracteristicas": [
         "L",
         "Lucky Ticket",
@@ -35,13 +23,15 @@
       ]
     },
     {
-      "id": "royalfest_2026-10-29",
-      "nombre": "RoyalFest",
-      "fecha_inicio": "2026-10-29",
-      "fecha_fin": "2026-11-01",
+      "id": "girls_monsters_2026-11-06",
+      "nombre": "Girls & Monsters",
+      "fecha_inicio": "2026-11-06",
+      "fecha_fin": "2026-11-08",
       "caracteristicas": [
         "L",
-        "Lucky Ticket"
+        "Lucky Ticket",
+        "P",
+        "Platinum Shard"
       ]
     },
     {
@@ -232,5 +222,5 @@
       "fecha_fin": "2026-05-01"
     }
   ],
-  "ultima_actualizacion": "2026-10-19T22:10:41Z"
+  "ultima_actualizacion": "2026-10-30T05:58:23Z"
 }
