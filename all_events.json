@@ -78,11 +78,12 @@
     },
     {
       "nombre": "Duel Stages Challenge",
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_duel_stages.png",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_duel_stages_challenge_4c0e902523af23ca.png",
       "descripcion": "It's high noon, time for a showdown!\nDuel Stages Challenge (決闘チャレンジ, Kettō Charenji, Duel Challenge) is an event added in Version 11.6. It consists of all Duel Stages in a single map. Progress made in Duel Stages Challenge will reset when the event ends.\nEach stage has a Cat Deploy Limit and enemy limit of 1. Taking over 15 minutes to beat any one stage will cause an Assassin Bear to spawn.",
       "event_ids": [
         24053
-      ]
+      ],
+      "url": "https://battlecats.miraheze.org/wiki/Duel_Stages_Challenge"
     },
     {
       "nombre": "Tag Arena Challenge",
@@ -171,7 +172,7 @@
     },
     {
       "nombre": "Resident Undead",
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_resident_undead.png",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_resident_undead_660b2509310ed295.png",
       "descripcion": "Resident Undead (住民の亡霊, Shūmin no Bourei, Resident Ghosts) is a set of special stages that was added in Version 12.6. It is unlocked after clearing Empire of Cats Chapter 1. Each stage features Undead Enemies and has a Cat Ticket as a reward.\n\nClear stages in the special map Resident Undead to earn up to 10 Cat Tickets as you face off against the Undead enemies attacking the remnants of a destroyed city! Visit Event Stages/Stories of Legend and select to take on this challenge!\nOn between June 10th (11:00am) and June 17th (10:59am)!\n\nSave the future from the onslaught of the coming machines!\n\n\n※ After clearing a stage, there will be a short cooldown period before you are able to challenge the next stage.\n※ Spending a Catamin A will allow you to skip the stage cooldown period and challenge the next stage immediately.\n※ If the event does not appear, please make sure that you are updated to the latest version of the Battle Cats app. ",
       "url": "https://battlecats.miraheze.org/wiki/Resident_Undead",
       "event_ids": [
@@ -475,6 +476,78 @@
         24074
       ],
       "url": "https://battlecats.miraheze.org/wiki/Million_Downloads_Event/120_Million"
+    },
+    {
+      "nombre": "River City Ball-Rolling",
+      "aliases": [
+        "River City Ball-Rolling"
+      ],
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_river_city_ball_rolling_617464d3fa202219.png",
+      "descripcion": "The River City Stages are a group of stages appearing during certain special events. They were added in the Version 10.9 Update and introduce several…",
+      "event_ids": [
+        1260
+      ],
+      "url": "https://battlecats.miraheze.org/wiki/River_City_Stages"
+    },
+    {
+      "nombre": "River City Challenge Course",
+      "aliases": [
+        "River City Challenge Course"
+      ],
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_river_city_challenge_course_617464d3fa202219.png",
+      "descripcion": "The River City Stages are a group of stages appearing during certain special events. They were added in the Version 10.9 Update and introduce several…",
+      "event_ids": [
+        1261
+      ],
+      "url": "https://battlecats.miraheze.org/wiki/River_City_Stages"
+    },
+    {
+      "nombre": "River City Three-Leg Race ①",
+      "aliases": [
+        "River City Three-Leg Race ①"
+      ],
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_river_city_three_leg_race_617464d3fa202219.png",
+      "descripcion": "The River City Stages are a group of stages appearing during certain special events. They were added in the Version 10.9 Update and introduce several…",
+      "event_ids": [
+        1262
+      ],
+      "url": "https://battlecats.miraheze.org/wiki/River_City_Stages"
+    },
+    {
+      "nombre": "River City Three-Leg Race ②",
+      "aliases": [
+        "River City Three-Leg Race ②"
+      ],
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_river_city_three_leg_race_617464d3fa202219.png",
+      "descripcion": "The River City Stages are a group of stages appearing during certain special events. They were added in the Version 10.9 Update and introduce several…",
+      "event_ids": [
+        1263
+      ],
+      "url": "https://battlecats.miraheze.org/wiki/River_City_Stages"
+    },
+    {
+      "nombre": "River City Three-Leg Race ③",
+      "aliases": [
+        "River City Three-Leg Race ③"
+      ],
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_river_city_three_leg_race_617464d3fa202219.png",
+      "descripcion": "The River City Stages are a group of stages appearing during certain special events. They were added in the Version 10.9 Update and introduce several…",
+      "event_ids": [
+        1264
+      ],
+      "url": "https://battlecats.miraheze.org/wiki/River_City_Stages"
+    },
+    {
+      "nombre": "River City Relay",
+      "aliases": [
+        "River City Relay"
+      ],
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_river_city_relay_617464d3fa202219.png",
+      "descripcion": "The River City Stages are a group of stages appearing during certain special events. They were added in the Version 10.9 Update and introduce several…",
+      "event_ids": [
+        1359
+      ],
+      "url": "https://battlecats.miraheze.org/wiki/River_City_Stages"
     }
   ]
 }

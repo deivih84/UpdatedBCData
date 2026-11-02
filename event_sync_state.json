@@ -105,6 +105,76 @@
         "sha256": "16f42f4de47d5e07acc7c0a4d7c71d00a5532b1972b73de67dfd4d93a3419523",
         "file": "event_mooth.png"
       }
+    },
+    "River City Ball-Rolling": {
+      "image": {
+        "sourceUrl": "https://static.wikitide.net/battlecatswiki/1/1e/Eve_l_084_4_en.png",
+        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Eve_l_084_4_en.png",
+        "sha256": "617464d3fa202219ce35acb1bf42dad4ca6d80d68c0d69baa9786da15bd9a2fa",
+        "file": "event_river_city_ball_rolling_617464d3fa202219.png"
+      },
+      "description": "The River City Stages are a group of stages appearing during certain special events. They were added in the Version 10.9 Update and introduce several…"
+    },
+    "River City Challenge Course": {
+      "image": {
+        "sourceUrl": "https://static.wikitide.net/battlecatswiki/1/1e/Eve_l_084_4_en.png",
+        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Eve_l_084_4_en.png",
+        "sha256": "617464d3fa202219ce35acb1bf42dad4ca6d80d68c0d69baa9786da15bd9a2fa",
+        "file": "event_river_city_challenge_course_617464d3fa202219.png"
+      },
+      "description": "The River City Stages are a group of stages appearing during certain special events. They were added in the Version 10.9 Update and introduce several…"
+    },
+    "River City Three-Leg Race ①": {
+      "image": {
+        "sourceUrl": "https://static.wikitide.net/battlecatswiki/1/1e/Eve_l_084_4_en.png",
+        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Eve_l_084_4_en.png",
+        "sha256": "617464d3fa202219ce35acb1bf42dad4ca6d80d68c0d69baa9786da15bd9a2fa",
+        "file": "event_river_city_three_leg_race_617464d3fa202219.png"
+      },
+      "description": "The River City Stages are a group of stages appearing during certain special events. They were added in the Version 10.9 Update and introduce several…"
+    },
+    "River City Three-Leg Race ②": {
+      "image": {
+        "sourceUrl": "https://static.wikitide.net/battlecatswiki/1/1e/Eve_l_084_4_en.png",
+        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Eve_l_084_4_en.png",
+        "sha256": "617464d3fa202219ce35acb1bf42dad4ca6d80d68c0d69baa9786da15bd9a2fa",
+        "file": "event_river_city_three_leg_race_617464d3fa202219.png"
+      },
+      "description": "The River City Stages are a group of stages appearing during certain special events. They were added in the Version 10.9 Update and introduce several…"
+    },
+    "River City Three-Leg Race ③": {
+      "image": {
+        "sourceUrl": "https://static.wikitide.net/battlecatswiki/1/1e/Eve_l_084_4_en.png",
+        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Eve_l_084_4_en.png",
+        "sha256": "617464d3fa202219ce35acb1bf42dad4ca6d80d68c0d69baa9786da15bd9a2fa",
+        "file": "event_river_city_three_leg_race_617464d3fa202219.png"
+      },
+      "description": "The River City Stages are a group of stages appearing during certain special events. They were added in the Version 10.9 Update and introduce several…"
+    },
+    "Resident Undead": {
+      "image": {
+        "sourceUrl": "https://static.wikitide.net/battlecatswiki/8/8c/Eve_l_138_en.png",
+        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Eve_l_138_en.png",
+        "sha256": "660b2509310ed295ee2ca18f73473dfb8581c0b23072656311b12fdca4807f43",
+        "file": "event_resident_undead_660b2509310ed295.png"
+      }
+    },
+    "River City Relay": {
+      "image": {
+        "sourceUrl": "https://static.wikitide.net/battlecatswiki/1/1e/Eve_l_084_4_en.png",
+        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Eve_l_084_4_en.png",
+        "sha256": "617464d3fa202219ce35acb1bf42dad4ca6d80d68c0d69baa9786da15bd9a2fa",
+        "file": "event_river_city_relay_617464d3fa202219.png"
+      },
+      "description": "The River City Stages are a group of stages appearing during certain special events. They were added in the Version 10.9 Update and introduce several…"
+    },
+    "Duel Stages Challenge": {
+      "image": {
+        "sourceUrl": "https://static.wikitide.net/battlecatswiki/7/73/Eve_l_039_en.png",
+        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Eve_l_039_en.png",
+        "sha256": "4c0e902523af23ca7bf5dbf00289811e0829b28f0df2352c10325599674f808e",
+        "file": "event_duel_stages_challenge_4c0e902523af23ca.png"
+      }
     }
   }
 }

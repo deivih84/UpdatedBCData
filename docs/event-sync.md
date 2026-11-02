@@ -54,6 +54,15 @@ Las imágenes usan `images/events/event_NOMBRE_HASH.png`: el hash cambia la URL
 cuando cambia el cartel. Se copian también al drawable de CatStats si existe;
 `--app-drawables RUTA` permite otro destino. Se conservan los recursos anteriores.
 
+## River City Cat Clash
+
+Las seis fases (Ball-Rolling, Challenge Course, Three-Leg Race ①–③ y Relay)
+se documentan juntas en [River City Stages](https://battlecats.miraheze.org/wiki/River_City_Stages).
+`wikiPages` asocia sus nombres exactos a esa página, cuyo `PageBanner` declara
+`Eve l 084 4 en.png`, el cartel inglés con Kunio-kun y Ryuichi. Cada fase
+conserva su ID y sus fechas de `sale.tsv`; compartir cartel no fusiona eventos.
+El cartel histórico con Riki se conserva para los clientes anteriores.
+
 ## Informes y excepciones
 
 - `all_events.json`: catálogo compatible con la app, con IDs y aliases.

@@ -1,6 +1,13 @@
 {
   "schemaVersion": 1,
-  "wikiPages": {},
+  "wikiPages": {
+    "River City Ball-Rolling": "River City Stages",
+    "River City Challenge Course": "River City Stages",
+    "River City Three-Leg Race ①": "River City Stages",
+    "River City Three-Leg Race ②": "River City Stages",
+    "River City Three-Leg Race ③": "River City Stages",
+    "River City Relay": "River City Stages"
+  },
   "bannerFiles": {},
   "publicImageBase": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/",
   "appDrawables": null,

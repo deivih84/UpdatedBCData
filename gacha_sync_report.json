@@ -1,65 +1,248 @@
 {
   "sources": {
     "schedule": "PONOS EN gatya.tsv",
-    "pools": "bc.godfat.org (validated against PONOS)"
+    "pools": "BCData EN 15.7.0"
   },
   "changes": [
     {
-      "name": "Halloween Gacha",
-      "gacha_id": 926,
+      "name": "The Dynamites",
+      "gacha_id": 1067,
       "created": false,
       "units": {},
       "rates": {}
+    },
+    {
+      "name": "River City Clash Capsules Red Team",
+      "gacha_id": 1079,
+      "created": true,
+      "units": {
+        "rares": {
+          "added": [
+            37,
+            38,
+            41,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            55,
+            56,
+            58,
+            145,
+            146,
+            147,
+            148,
+            149,
+            197,
+            198,
+            308,
+            325,
+            376,
+            495,
+            523
+          ],
+          "removed": []
+        },
+        "super_rares": {
+          "added": [
+            30,
+            31,
+            32,
+            33,
+            35,
+            36,
+            39,
+            40,
+            61,
+            150,
+            151,
+            152,
+            153,
+            199,
+            307,
+            377,
+            522
+          ],
+          "removed": []
+        },
+        "ubers": {
+          "added": [
+            43,
+            86,
+            169,
+            271,
+            359,
+            496,
+            525,
+            774,
+            830
+          ],
+          "removed": []
+        }
+      },
+      "rates": {
+        "rareChance": {
+          "old": null,
+          "new": 7000
+        },
+        "supaChance": {
+          "old": null,
+          "new": 2500
+        },
+        "uberChance": {
+          "old": null,
+          "new": 500
+        },
+        "legendChance": {
+          "old": null,
+          "new": 0
+        }
+      }
+    },
+    {
+      "name": "River City Clash Capsules Dark Team",
+      "gacha_id": 1080,
+      "created": true,
+      "units": {
+        "rares": {
+          "added": [
+            37,
+            38,
+            41,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            55,
+            56,
+            58,
+            145,
+            146,
+            147,
+            148,
+            149,
+            197,
+            198,
+            308,
+            325,
+            376,
+            495,
+            523
+          ],
+          "removed": []
+        },
+        "super_rares": {
+          "added": [
+            30,
+            31,
+            32,
+            33,
+            35,
+            36,
+            39,
+            40,
+            61,
+            150,
+            151,
+            152,
+            153,
+            199,
+            307,
+            377,
+            522
+          ],
+          "removed": []
+        },
+        "ubers": {
+          "added": [
+            72,
+            85,
+            105,
+            171,
+            194,
+            272,
+            692,
+            719,
+            763
+          ],
+          "removed": []
+        }
+      },
+      "rates": {
+        "rareChance": {
+          "old": null,
+          "new": 7000
+        },
+        "supaChance": {
+          "old": null,
+          "new": 2500
+        },
+        "uberChance": {
+          "old": null,
+          "new": 500
+        },
+        "legendChance": {
+          "old": null,
+          "new": 0
+        }
+      }
     }
   ],
   "pending": [
     {
-      "gacha_id": 1067,
-      "event_id": "2026-10-30_1067",
-      "text": "Akane Tounji added! An awesome variety pack of crazy Cats!",
-      "reason": "unknown_identity",
-      "candidates": []
-    },
-    {
-      "gacha_id": 1079,
-      "event_id": "2026-11-02_1079",
-      "text": "Pick up mighty teammates to fight by your side in a River City Clash!",
-      "reason": "unknown_identity",
-      "candidates": []
-    },
-    {
-      "gacha_id": 1080,
-      "event_id": "2026-11-02_1080",
-      "text": "River City Clash Capsules, featuring Ryuichi! ★Tap banner for details!",
-      "reason": "unknown_identity",
-      "candidates": []
-    },
-    {
-      "gacha_id": 1079,
-      "event_id": "2026-11-09_1079",
-      "text": "Pick up mighty teammates to fight by your side in a River City Clash!",
-      "reason": "unknown_identity",
-      "candidates": []
-    },
-    {
-      "gacha_id": 1080,
-      "event_id": "2026-11-09_1080",
-      "text": "River City Clash Capsules, featuring Ryuichi! ★Tap banner for details!",
-      "reason": "unknown_identity",
-      "candidates": []
-    },
-    {
-      "name": "Uberfest",
-      "gacha_id": 1069,
-      "reason": "image_not_found"
-    },
-    {
       "name": "Halloween Gacha",
       "gacha_id": 926,
       "reason": "image_not_found"
     }
   ],
-  "images": [],
+  "images": [
+    {
+      "name": "Platinum Capsules (EN #1063)",
+      "gacha_id": 1063,
+      "file": "banner_en_1063_c2963afc863c70db.png"
+    },
+    {
+      "name": "Platinum Capsules",
+      "gacha_id": 1071,
+      "file": "banner_en_1071_c2963afc863c70db.png"
+    },
+    {
+      "name": "Legend Capsules (EN #1064)",
+      "gacha_id": 1064,
+      "file": "banner_en_1064_81322acf784f5ebd.png"
+    },
+    {
+      "name": "Legend Capsules",
+      "gacha_id": 1072,
+      "file": "banner_en_1072_81322acf784f5ebd.png"
+    },
+    {
+      "name": "Uberfest",
+      "gacha_id": 1069,
+      "file": "banner_en_1069_20e1f7a553d82957.png"
+    },
+    {
+      "name": "The Dynamites",
+      "gacha_id": 1067,
+      "file": "banner_en_1067_57ebb70a63f618ad.png"
+    },
+    {
+      "name": "River City Clash Capsules Red Team",
+      "gacha_id": 1079,
+      "file": "banner_en_1079_b074d4db47ebc11b.png"
+    },
+    {
+      "name": "River City Clash Capsules Dark Team",
+      "gacha_id": 1080,
+      "file": "banner_en_1080_26ac048f061b7294.png"
+    }
+  ],
   "errors": [],
   "region": "en",
   "missingImages": []

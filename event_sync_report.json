@@ -1,6 +1,41 @@
 {
   "changes": [
     {
+      "name": "River City Ball-Rolling",
+      "action": "created",
+      "event_ids": [
+        1260
+      ]
+    },
+    {
+      "name": "River City Challenge Course",
+      "action": "created",
+      "event_ids": [
+        1261
+      ]
+    },
+    {
+      "name": "River City Three-Leg Race ①",
+      "action": "created",
+      "event_ids": [
+        1262
+      ]
+    },
+    {
+      "name": "River City Three-Leg Race ②",
+      "action": "created",
+      "event_ids": [
+        1263
+      ]
+    },
+    {
+      "name": "River City Three-Leg Race ③",
+      "action": "created",
+      "event_ids": [
+        1264
+      ]
+    },
+    {
       "name": "Resident Undead",
       "action": "updated",
       "event_ids": [
@@ -8,21 +43,54 @@
       ]
     },
     {
-      "name": "Legend Quest",
-      "action": "updated",
+      "name": "River City Relay",
+      "action": "created",
       "event_ids": [
-        16000
+        1359
       ]
     },
     {
-      "name": "Le'Grim Strikes",
+      "name": "Duel Stages Challenge",
       "action": "updated",
       "event_ids": [
-        24027
+        24053
       ]
     }
   ],
-  "images": [],
+  "images": [
+    {
+      "name": "River City Ball-Rolling",
+      "file": "event_river_city_ball_rolling_617464d3fa202219.png"
+    },
+    {
+      "name": "River City Challenge Course",
+      "file": "event_river_city_challenge_course_617464d3fa202219.png"
+    },
+    {
+      "name": "River City Three-Leg Race ①",
+      "file": "event_river_city_three_leg_race_617464d3fa202219.png"
+    },
+    {
+      "name": "River City Three-Leg Race ②",
+      "file": "event_river_city_three_leg_race_617464d3fa202219.png"
+    },
+    {
+      "name": "River City Three-Leg Race ③",
+      "file": "event_river_city_three_leg_race_617464d3fa202219.png"
+    },
+    {
+      "name": "Resident Undead",
+      "file": "event_resident_undead_660b2509310ed295.png"
+    },
+    {
+      "name": "River City Relay",
+      "file": "event_river_city_relay_617464d3fa202219.png"
+    },
+    {
+      "name": "Duel Stages Challenge",
+      "file": "event_duel_stages_challenge_4c0e902523af23ca.png"
+    }
+  ],
   "pending": [
     {
       "event_id": 700,
@@ -65,41 +133,6 @@
       "reason": "image_not_found"
     },
     {
-      "name": "River City Ball-Rolling",
-      "event_ids": [
-        1260
-      ],
-      "reason": "image_not_found"
-    },
-    {
-      "name": "River City Challenge Course",
-      "event_ids": [
-        1261
-      ],
-      "reason": "image_not_found"
-    },
-    {
-      "name": "River City Three-Leg Race ①",
-      "event_ids": [
-        1262
-      ],
-      "reason": "image_not_found"
-    },
-    {
-      "name": "River City Three-Leg Race ②",
-      "event_ids": [
-        1263
-      ],
-      "reason": "image_not_found"
-    },
-    {
-      "name": "River City Three-Leg Race ③",
-      "event_ids": [
-        1264
-      ],
-      "reason": "image_not_found"
-    },
-    {
       "name": "Cover of Darkness",
       "event_ids": [
         1287
@@ -124,17 +157,6 @@
       "name": "#04 Mischievous Schemes",
       "event_ids": [
         1321
-      ],
-      "reason": "image_not_found"
-    },
-    {
-      "name": "Resident Undead",
-      "reason": "image_not_found"
-    },
-    {
-      "name": "River City Relay",
-      "event_ids": [
-        1359
       ],
       "reason": "image_not_found"
     },
@@ -175,10 +197,6 @@
       "reason": "image_not_found"
     },
     {
-      "name": "Duel Stages Challenge",
-      "reason": "image_not_found"
-    },
-    {
       "name": "#03 Demons' Night Out",
       "event_ids": [
         24056
@@ -190,10 +208,6 @@
       "event_ids": [
         24068
       ],
-      "reason": "image_not_found"
-    },
-    {
-      "name": "Otherworld Colosseum",
       "reason": "image_not_found"
     },
     {
@@ -210,35 +224,7 @@
     }
   ],
   "warnings": [
-    "XP Stage: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "XP Megablitz!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "XP Colosseum: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Merciless XP!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "River City Ball-Rolling: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "River City Challenge Course: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "River City Three-Leg Race ①: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "River City Three-Leg Race ②: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "River City Three-Leg Race ③: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Cover of Darkness: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "XP Bonanza!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "#02 Sugar Struggle: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "#04 Mischievous Schemes: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Resident Undead: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "River City Relay: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "XP Harvest (Easy): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "XP Harvest (Normal): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "XP Harvest (Hard): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "XP Harvest (Vet.): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Arena of Destiny: section_has_no_verified_poster",
-    "Legend Quest: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Duel Stages Challenge: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "#03 Demons' Night Out: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "#01 Ghost Panic: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Otherworld Colosseum: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Cats Eye Cave: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Cats Eye Caverns: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Festival Cats: Lunar New Year's: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "remote_name_index_older_than_saved: 14.7.0"
+    "Arena of Destiny: section_has_no_verified_poster"
   ],
   "sources": {
     "schedule": {
@@ -246,11 +232,11 @@
       "sha256": "77ac46128c944aec7eaeeeabca46ef804c0d356ebe77cdf97f5e67a1d7eedf35"
     },
     "names": {
-      "version": "15.6.0",
+      "version": "15.7.0",
       "source": "BCData EN resources"
     }
   },
-  "calendarEvents": 6,
+  "calendarEvents": 12,
   "missingImages": [
     "Cats Eye Cave",
     "Cats Eye Caverns",

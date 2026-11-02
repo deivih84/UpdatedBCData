@@ -47,8 +47,8 @@
       "caracteristicas": []
     },
     {
-      "id": "the_dynamites_en_1068_2026-10-30",
-      "nombre": "The Dynamites (EN #1068)",
+      "id": "the_dynamites_2026-10-30",
+      "nombre": "The Dynamites",
       "fecha_inicio": "2026-10-30",
       "fecha_fin": "2026-11-02",
       "caracteristicas": [
@@ -57,8 +57,8 @@
       ]
     },
     {
-      "id": "pick_up_mighty_teammates_to_fight_by_your_side_in_a_river_city_clash_2026-11-02",
-      "nombre": "Pick up mighty teammates to fight by your side in a River City Clash!",
+      "id": "river_city_clash_capsules_red_team_2026-11-02",
+      "nombre": "River City Clash Capsules Red Team",
       "fecha_inicio": "2026-11-02",
       "fecha_fin": "2026-11-16",
       "caracteristicas": [
@@ -67,8 +67,8 @@
       ]
     },
     {
-      "id": "river_city_clash_capsules_2026-11-02",
-      "nombre": "River City Clash Capsules",
+      "id": "river_city_clash_capsules_dark_team_2026-11-02",
+      "nombre": "River City Clash Capsules Dark Team",
       "fecha_inicio": "2026-11-02",
       "fecha_fin": "2026-11-16",
       "caracteristicas": [
@@ -129,6 +129,60 @@
       "fecha_fin": "2026-11-09"
     },
     {
+      "id": "river_city_ball_rolling_2026-11-02",
+      "nombre": "River City Ball-Rolling",
+      "caracteristicas": [
+        "The River City Stages are a group of stages appearing during certain special events. They were added in the Version 10.9 Update and introduce several…"
+      ],
+      "fecha_inicio": "2026-11-02",
+      "fecha_fin": "2026-11-16"
+    },
+    {
+      "id": "river_city_challenge_course_2026-11-02",
+      "nombre": "River City Challenge Course",
+      "caracteristicas": [
+        "The River City Stages are a group of stages appearing during certain special events. They were added in the Version 10.9 Update and introduce several…"
+      ],
+      "fecha_inicio": "2026-11-02",
+      "fecha_fin": "2026-11-16"
+    },
+    {
+      "id": "river_city_relay_2026-11-02",
+      "nombre": "River City Relay",
+      "caracteristicas": [
+        "The River City Stages are a group of stages appearing during certain special events. They were added in the Version 10.9 Update and introduce several…"
+      ],
+      "fecha_inicio": "2026-11-02",
+      "fecha_fin": "2026-11-16"
+    },
+    {
+      "id": "river_city_three_leg_race_2026-11-06_81cf057c34",
+      "nombre": "River City Three-Leg Race ①",
+      "caracteristicas": [
+        "The River City Stages are a group of stages appearing during certain special events. They were added in the Version 10.9 Update and introduce several…"
+      ],
+      "fecha_inicio": "2026-11-06",
+      "fecha_fin": "2026-11-16"
+    },
+    {
+      "id": "river_city_three_leg_race_2026-11-06_cfa441c779",
+      "nombre": "River City Three-Leg Race ②",
+      "caracteristicas": [
+        "The River City Stages are a group of stages appearing during certain special events. They were added in the Version 10.9 Update and introduce several…"
+      ],
+      "fecha_inicio": "2026-11-06",
+      "fecha_fin": "2026-11-16"
+    },
+    {
+      "id": "river_city_three_leg_race_2026-11-06_a0d9c39437",
+      "nombre": "River City Three-Leg Race ③",
+      "caracteristicas": [
+        "The River City Stages are a group of stages appearing during certain special events. They were added in the Version 10.9 Update and introduce several…"
+      ],
+      "fecha_inicio": "2026-11-06",
+      "fecha_fin": "2026-11-16"
+    },
+    {
       "id": "legend_quest_2026-11-09",
       "nombre": "Legend Quest",
       "caracteristicas": [
@@ -147,5 +201,5 @@
       "fecha_fin": "2026-11-16"
     }
   ],
-  "ultima_actualizacion": "2026-10-30T16:26:14Z"
+  "ultima_actualizacion": "2026-11-02T22:58:07Z"
 }

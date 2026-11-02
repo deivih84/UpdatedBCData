@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "15.6.0",
+  "version": "15.7.0",
   "source": "BCData EN resources",
   "names": {
     "0": {
@@ -5058,6 +5058,16 @@
       "source": "All_day_event",
       "calendar": true
     },
+    "2271": {
+      "name": "PAC-MAN Appears!",
+      "source": "All_day_event",
+      "calendar": true
+    },
+    "2272": {
+      "name": "PAC-MAN & Cat",
+      "source": "All_day_event",
+      "calendar": true
+    },
     "3000": {
       "name": "Empire of Cats Ch. 1",
       "source": "Map_Name",
@@ -8718,6 +8728,41 @@
       "source": "Mission_Name",
       "calendar": false
     },
+    "9724": {
+      "name": "[PAC-MAN] Clear all Special Missions ① - ④ to earn 1 Rare Ticket!",
+      "source": "Mission_Name",
+      "calendar": false
+    },
+    "9725": {
+      "name": "[PAC-MAN] Special Mission ①: Obtain a Blinky Cat from the Event Capsules!",
+      "source": "Mission_Name",
+      "calendar": false
+    },
+    "9726": {
+      "name": "[PAC-MAN] Special Mission ②: Obtain an Inky Cat from the Event Capsules!",
+      "source": "Mission_Name",
+      "calendar": false
+    },
+    "9727": {
+      "name": "[PAC-MAN] Special Mission ③: Obtain 3 Blinky Cats from the Event Capsules!",
+      "source": "Mission_Name",
+      "calendar": false
+    },
+    "9728": {
+      "name": "[PAC-MAN] Special Mission ④: Obtain 3 Inky Cats from the Event Capsules!",
+      "source": "Mission_Name",
+      "calendar": false
+    },
+    "9729": {
+      "name": "[PAC-MAN] Clear the \"PAC-MAN & Cat\" map.",
+      "source": "Mission_Name",
+      "calendar": false
+    },
+    "9730": {
+      "name": "[PAC-MAN] Clear \"Giant PAC-MAN Strikes!\" map.",
+      "source": "Mission_Name",
+      "calendar": false
+    },
     "9731": {
       "name": "Resort Tycoon ①: Project Crew ① Get 3 characters from the Event Capsules!",
       "source": "Mission_Name",
@@ -8844,37 +8889,37 @@
       "calendar": false
     },
     "9756": {
-      "name": "Summer Returns, Wk. 1 ①: Clear stages Clears from any stage will count! (/)",
+      "name": "SBC: Revival, Wk. 1 ①: Clear stages Clears from any stage will count! (/)",
       "source": "Mission_Name",
       "calendar": false
     },
     "9757": {
-      "name": "Summer Returns, Wk. 1 ② : Clear stages Clears from any stage will count! (/)",
+      "name": "SBC: Revival, Wk. 1 ② : Clear stages Clears from any stage will count! (/)",
       "source": "Mission_Name",
       "calendar": false
     },
     "9758": {
-      "name": "Summer Returns, Wk. 1 ③: Clear stages Clears from any stage will count! (/)",
+      "name": "SBC: Revival, Wk. 1 ③: Clear stages Clears from any stage will count! (/)",
       "source": "Mission_Name",
       "calendar": false
     },
     "9759": {
-      "name": "Summer Returns, Wk. 1 ④: Clear stages Clears from any stage will count! (/)",
+      "name": "SBC: Revival, Wk. 1 ④: Clear stages Clears from any stage will count! (/)",
       "source": "Mission_Name",
       "calendar": false
     },
     "9760": {
-      "name": "Summer Returns, Wk. 2 ①: Clear stages Clears from any stage will count! (/)",
+      "name": "SBC: Revival, Wk. 2 ①: Clear stages Clears from any stage will count! (/)",
       "source": "Mission_Name",
       "calendar": false
     },
     "9761": {
-      "name": "Summer Returns, Wk. 2 ②: Clear stages Clears from any stage will count! (/)",
+      "name": "SBC: Revival, Wk. 2 ②: Clear stages Clears from any stage will count! (/)",
       "source": "Mission_Name",
       "calendar": false
     },
     "9762": {
-      "name": "Summer Returns, Wk. 2 ③: Clear stages Clears from any stage will count! (/)",
+      "name": "SBC: Revival, Wk. 2 ③: Clear stages Clears from any stage will count! (/)",
       "source": "Mission_Name",
       "calendar": false
     },
@@ -8894,22 +8939,22 @@
       "calendar": false
     },
     "9766": {
-      "name": "Summer Returns, Wk. 3 ①: Clear stages Clears from any stage will count! (/)",
+      "name": "SBC: Revival, Wk. 3 ①: Clear stages Clears from any stage will count! (/)",
       "source": "Mission_Name",
       "calendar": false
     },
     "9767": {
-      "name": "Summer Returns, Wk. 3 ②: Clear stages Clears from any stage will count! (/)",
+      "name": "SBC: Revival, Wk. 3 ②: Clear stages Clears from any stage will count! (/)",
       "source": "Mission_Name",
       "calendar": false
     },
     "9768": {
-      "name": "Summer Returns, Wk. 3 ③: Clear stages Clears from any stage will count! (/)",
+      "name": "SBC: Revival, Wk. 3 ③: Clear stages Clears from any stage will count! (/)",
       "source": "Mission_Name",
       "calendar": false
     },
     "9769": {
-      "name": "Summer Returns, Wk. 3 ④: Clear stages Clears from any stage will count! (/)",
+      "name": "SBC: Revival, Wk. 3 ④: Clear stages Clears from any stage will count! (/)",
       "source": "Mission_Name",
       "calendar": false
     },
@@ -10768,6 +10813,11 @@
       "source": "All_day_event",
       "calendar": true
     },
+    "27027": {
+      "name": "Giant PAC-MAN Strikes!",
+      "source": "All_day_event",
+      "calendar": true
+    },
     "30000": {
       "name": "The Aku Realms",
       "source": "Map_Name",
@@ -10965,6 +11015,16 @@
     },
     "34034": {
       "name": "Yandere Chemistry",
+      "source": "Map_Name",
+      "calendar": false
+    },
+    "34035": {
+      "name": "Six Flans",
+      "source": "Map_Name",
+      "calendar": false
+    },
+    "34036": {
+      "name": "Noodle Nirvana",
       "source": "Map_Name",
       "calendar": false
     },
@@ -11168,6 +11228,11 @@
       "source": "DailyLoginEventText",
       "calendar": true
     },
+    "35051": {
+      "name": "Login Stamp No. 1!",
+      "source": "DailyLoginEventText",
+      "calendar": true
+    },
     "35052": {
       "name": "You got 10,000XP!",
       "source": "DailyLoginEventText",
@@ -11339,6 +11404,11 @@
       "calendar": true
     },
     "36027": {
+      "name": "Otherworld Colosseum",
+      "source": "All_day_event",
+      "calendar": true
+    },
+    "36028": {
       "name": "Otherworld Colosseum",
       "source": "All_day_event",
       "calendar": true

@@ -70,6 +70,13 @@ locales del juego y el anuncio «Limited Halloween Units!» no coincide con el
 nombre del catálogo. El banner EN existente se conserva si la wiki no ofrece
 una imagen verificada para el ID actual.
 
+River City EN 15.7.0 registra R1079 como Red Team (serie 57, bonus
+Kunio-kun) y R1080 como Dark Team (serie 75, bonus Ryuichi), según
+`GatyaData_Option_SetR.tsv`. Los carteles ingleses `Gatya bnr1079 en.png` y
+`Gatya bnr1080 en.png` de la wiki confirman esos nombres y personajes.
+`seriesNames` mantiene ambas identidades por separado, independientemente del
+texto publicitario compartido. No asociar Dark Team con White Team.
+
 Las imágenes se buscan por ID exacto del banner e imgID en las APIs de
 Miraheze/Fandom, exigiendo el archivo EN; una imagen de otro
 banner no se elige por parecido del título.

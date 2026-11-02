@@ -6,9 +6,10 @@
         "The Dynamites",
         "Conjurer Dynasaurus Cat joins the fight!",
         "Conjurer Dynasaurus Cat joins the fight! ★Tap banner for info!",
-        "THE DYNAMITES"
+        "THE DYNAMITES",
+        "Akane Tounji added! An awesome variety pack of crazy Cats!"
       ],
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_en_942_24452d53b3e931f8.png",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_en_1067_57ebb70a63f618ad.png",
       "rareChance": 6970,
       "supaChance": 2500,
       "uberChance": 500,
@@ -1434,7 +1435,7 @@
         "Squire Luno added! Special Capsules featuring powerful limited units!",
         "UBERFEST"
       ],
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_en_1061_72dbdcc4c1eca744.png",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_en_1069_20e1f7a553d82957.png",
       "rareChance": 6470,
       "supaChance": 2600,
       "uberChance": 900,
@@ -3200,7 +3201,7 @@
         "Platinum Capsules",
         "Get an Uber Rare Cat!! 100% Uber drop Rate in the PLATINUM CAPSULES!"
       ],
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_en_1071_5c1f9536793a2f0b.png",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_en_1071_c2963afc863c70db.png",
       "rareChance": 0,
       "supaChance": 0,
       "uberChance": 10000,
@@ -3352,7 +3353,7 @@
         "Legend Capsules",
         "Get a Guaranteed Uber or Legend Rare from the Legend Capsules!"
       ],
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_en_1072_393feda4d3cc1339.png",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_en_1072_81322acf784f5ebd.png",
       "rareChance": 0,
       "supaChance": 0,
       "uberChance": 9500,
@@ -4892,7 +4893,7 @@
       "aliases": [
         "Platinum Capsules (EN #1063)"
       ],
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_en_1063_5c1f9536793a2f0b.png",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_en_1063_c2963afc863c70db.png",
       "rares": [],
       "super_rares": [],
       "ubers": [
@@ -5042,7 +5043,7 @@
       "aliases": [
         "Legend Capsules (EN #1064)"
       ],
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_en_1064_393feda4d3cc1339.png",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_en_1064_81322acf784f5ebd.png",
       "rares": [],
       "super_rares": [],
       "ubers": [
@@ -5200,6 +5201,147 @@
       "supaChance": 0,
       "uberChance": 9500,
       "legendChance": 500
+    },
+    {
+      "nombre": "River City Clash Capsules Red Team",
+      "aliases": [
+        "River City Clash Capsules Red Team",
+        "Pick up mighty teammates to fight by your side in a River City Clash!"
+      ],
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_en_1079_b074d4db47ebc11b.png",
+      "rares": [
+        523,
+        495,
+        376,
+        325,
+        308,
+        198,
+        197,
+        149,
+        148,
+        147,
+        146,
+        145,
+        58,
+        56,
+        55,
+        52,
+        51,
+        50,
+        49,
+        48,
+        47,
+        46,
+        41,
+        38,
+        37
+      ],
+      "super_rares": [
+        522,
+        377,
+        307,
+        199,
+        153,
+        152,
+        151,
+        150,
+        61,
+        40,
+        39,
+        36,
+        35,
+        33,
+        32,
+        31,
+        30
+      ],
+      "ubers": [
+        496,
+        169,
+        830,
+        359,
+        43,
+        86,
+        525,
+        774,
+        271
+      ],
+      "legends": [],
+      "rareChance": 7000,
+      "supaChance": 2500,
+      "uberChance": 500,
+      "legendChance": 0
+    },
+    {
+      "nombre": "River City Clash Capsules Dark Team",
+      "aliases": [
+        "River City Clash Capsules Dark Team",
+        "River City Clash Capsules, featuring Ryuichi! ★Tap banner for details!",
+        "River City Clash Capsules"
+      ],
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_en_1080_26ac048f061b7294.png",
+      "rares": [
+        523,
+        495,
+        376,
+        325,
+        308,
+        198,
+        197,
+        149,
+        148,
+        147,
+        146,
+        145,
+        58,
+        56,
+        55,
+        52,
+        51,
+        50,
+        49,
+        48,
+        47,
+        46,
+        41,
+        38,
+        37
+      ],
+      "super_rares": [
+        522,
+        377,
+        307,
+        199,
+        153,
+        152,
+        151,
+        150,
+        61,
+        40,
+        39,
+        36,
+        35,
+        33,
+        32,
+        31,
+        30
+      ],
+      "ubers": [
+        72,
+        171,
+        105,
+        719,
+        763,
+        85,
+        692,
+        194,
+        272
+      ],
+      "legends": [],
+      "rareChance": 7000,
+      "supaChance": 2500,
+      "uberChance": 500,
+      "legendChance": 0
     }
   ]
 }

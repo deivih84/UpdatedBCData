@@ -156,15 +156,15 @@
         "seriesID": 21,
         "imgID": 970
       },
-      "source": "bc.godfat.org (validated against PONOS)",
-      "gameVersion": null,
+      "source": "BCData EN 15.7.0",
+      "gameVersion": "15.7.0",
       "start_date": "2026-07-24",
       "end_date": "2030-01-01",
       "image": {
-        "sourceUrl": "https://static.wikia.nocookie.net/battle-cats/images/1/1d/Gatya_bnr174.png/revision/latest?cb=20200809225623",
-        "sourcePage": "https://battle-cats.fandom.com/wiki/File:Gatya_bnr174.png",
-        "sha256": "5c1f9536793a2f0b9eb3f12e42eb2489063fbec64bf418604e9e53251b4a6c5f",
-        "file": "banner_en_1063_5c1f9536793a2f0b.png"
+        "sourceUrl": "https://static.wikitide.net/battlecatswiki/1/1d/Gatya_bnr174.png",
+        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Gatya_bnr174.png",
+        "sha256": "c2963afc863c70db41ee922dfc44581240cf8f5d0007c12f7db868fefcc490fc",
+        "file": "banner_en_1063_c2963afc863c70db.png"
       }
     },
     "1071": {
@@ -323,15 +323,15 @@
         "seriesID": 21,
         "imgID": 970
       },
-      "source": "bc.godfat.org (validated against PONOS)",
-      "gameVersion": null,
+      "source": "BCData EN 15.7.0",
+      "gameVersion": "15.7.0",
       "start_date": "2026-10-16",
       "end_date": "2030-01-01",
       "image": {
-        "sourceUrl": "https://static.wikia.nocookie.net/battle-cats/images/1/1d/Gatya_bnr174.png/revision/latest?cb=20200809225623",
-        "sourcePage": "https://battle-cats.fandom.com/wiki/File:Gatya_bnr174.png",
-        "sha256": "5c1f9536793a2f0b9eb3f12e42eb2489063fbec64bf418604e9e53251b4a6c5f",
-        "file": "banner_en_1071_5c1f9536793a2f0b.png"
+        "sourceUrl": "https://static.wikitide.net/battlecatswiki/1/1d/Gatya_bnr174.png",
+        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Gatya_bnr174.png",
+        "sha256": "c2963afc863c70db41ee922dfc44581240cf8f5d0007c12f7db868fefcc490fc",
+        "file": "banner_en_1071_c2963afc863c70db.png"
       }
     },
     "1064": {
@@ -503,15 +503,15 @@
         "seriesID": 46,
         "imgID": 971
       },
-      "source": "bc.godfat.org (validated against PONOS)",
-      "gameVersion": null,
+      "source": "BCData EN 15.7.0",
+      "gameVersion": "15.7.0",
       "start_date": "2026-07-24",
       "end_date": "2030-01-01",
       "image": {
-        "sourceUrl": "https://static.wikia.nocookie.net/battle-cats/images/f/f9/Gatya_bnr640.png/revision/latest?cb=20210927192516",
-        "sourcePage": "https://battle-cats.fandom.com/wiki/File:Gatya_bnr640.png",
-        "sha256": "393feda4d3cc133983c527d57b32fff3b4f95c4225ae3ddc289da83e862b0826",
-        "file": "banner_en_1064_393feda4d3cc1339.png"
+        "sourceUrl": "https://static.wikitide.net/battlecatswiki/f/f9/Gatya_bnr640.png",
+        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Gatya_bnr640.png",
+        "sha256": "81322acf784f5ebd72cfe8e85893d7a47a9518f7107dfc8e07d48e8032beadda",
+        "file": "banner_en_1064_81322acf784f5ebd.png"
       }
     },
     "1072": {
@@ -684,15 +684,15 @@
         "seriesID": 46,
         "imgID": 971
       },
-      "source": "bc.godfat.org (validated against PONOS)",
-      "gameVersion": null,
+      "source": "BCData EN 15.7.0",
+      "gameVersion": "15.7.0",
       "start_date": "2026-10-16",
       "end_date": "2030-01-01",
       "image": {
-        "sourceUrl": "https://static.wikia.nocookie.net/battle-cats/images/f/f9/Gatya_bnr640.png/revision/latest?cb=20210927192516",
-        "sourcePage": "https://battle-cats.fandom.com/wiki/File:Gatya_bnr640.png",
-        "sha256": "393feda4d3cc133983c527d57b32fff3b4f95c4225ae3ddc289da83e862b0826",
-        "file": "banner_en_1072_393feda4d3cc1339.png"
+        "sourceUrl": "https://static.wikitide.net/battlecatswiki/f/f9/Gatya_bnr640.png",
+        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Gatya_bnr640.png",
+        "sha256": "81322acf784f5ebd72cfe8e85893d7a47a9518f7107dfc8e07d48e8032beadda",
+        "file": "banner_en_1072_81322acf784f5ebd.png"
       }
     },
     "942": {
@@ -2674,11 +2674,20 @@
         "uberChance": 900,
         "legendChance": 30
       },
-      "option": {},
-      "source": "bc.godfat.org (validated against PONOS)",
-      "gameVersion": null,
+      "option": {
+        "seriesID": 19,
+        "imgID": 1033
+      },
+      "source": "BCData EN 15.7.0",
+      "gameVersion": "15.7.0",
       "start_date": "2026-10-30",
-      "end_date": "2026-11-02"
+      "end_date": "2026-11-02",
+      "image": {
+        "sourceUrl": "https://static.wikitide.net/battlecatswiki/1/19/Gatya_bnr1033_en.png",
+        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Gatya_bnr1033_en.png",
+        "sha256": "20e1f7a553d8295703f01512c882175f967e013bad29c5291f5e52138a412c38",
+        "file": "banner_en_1069_20e1f7a553d82957.png"
+      }
     },
     "926": {
       "family": "Halloween Gacha",
@@ -2752,11 +2761,286 @@
         "uberChance": 500,
         "legendChance": 0
       },
-      "option": {},
-      "source": "bc.godfat.org (validated against PONOS)",
-      "gameVersion": null,
+      "option": {
+        "seriesID": 8,
+        "imgID": -1
+      },
+      "source": "BCData EN 15.7.0",
+      "gameVersion": "15.7.0",
       "start_date": "2026-11-09",
       "end_date": "2026-11-16"
+    },
+    "1067": {
+      "family": "The Dynamites",
+      "name": "The Dynamites",
+      "fingerprint": "c414d9ebffaf8e747649c7adcfe8d03b54354b8bd43c37c27550eaee3cba8b1b",
+      "pool": {
+        "rares": [
+          523,
+          495,
+          376,
+          325,
+          308,
+          198,
+          197,
+          149,
+          148,
+          147,
+          146,
+          145,
+          58,
+          56,
+          55,
+          52,
+          51,
+          50,
+          49,
+          48,
+          47,
+          46,
+          41,
+          38,
+          37
+        ],
+        "super_rares": [
+          447,
+          446,
+          445,
+          444,
+          443,
+          200,
+          144,
+          131,
+          129,
+          237,
+          238,
+          239,
+          522,
+          377,
+          307,
+          199,
+          153,
+          152,
+          151,
+          150,
+          61,
+          40,
+          39,
+          36,
+          35,
+          33,
+          32,
+          31,
+          30
+        ],
+        "ubers": [
+          869,
+          763,
+          668,
+          617,
+          519,
+          427,
+          143,
+          59,
+          57,
+          44,
+          43,
+          42
+        ],
+        "legends": [
+          455
+        ]
+      },
+      "rates": {
+        "rareChance": 6970,
+        "supaChance": 2500,
+        "uberChance": 500,
+        "legendChance": 30
+      },
+      "option": {
+        "seriesID": 1,
+        "imgID": 942
+      },
+      "source": "BCData EN 15.7.0",
+      "gameVersion": "15.7.0",
+      "start_date": "2026-10-30",
+      "end_date": "2026-11-02",
+      "image": {
+        "sourceUrl": "https://static.wikitide.net/battlecatswiki/4/4e/Gatya_bnr942_en.png",
+        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Gatya_bnr942_en.png",
+        "sha256": "57ebb70a63f618ad941eb61166b32ebb0cacbd4ba9a49a557e155b9dcfc95ff6",
+        "file": "banner_en_1067_57ebb70a63f618ad.png"
+      }
+    },
+    "1079": {
+      "family": "River City Clash Capsules Red Team",
+      "name": "River City Clash Capsules Red Team",
+      "fingerprint": "f066daa9199bcaad0a5f7421599cda7c7c85493aad8a08e1eb66b775f5d1986b",
+      "pool": {
+        "rares": [
+          523,
+          495,
+          376,
+          325,
+          308,
+          198,
+          197,
+          149,
+          148,
+          147,
+          146,
+          145,
+          58,
+          56,
+          55,
+          52,
+          51,
+          50,
+          49,
+          48,
+          47,
+          46,
+          41,
+          38,
+          37
+        ],
+        "super_rares": [
+          522,
+          377,
+          307,
+          199,
+          153,
+          152,
+          151,
+          150,
+          61,
+          40,
+          39,
+          36,
+          35,
+          33,
+          32,
+          31,
+          30
+        ],
+        "ubers": [
+          496,
+          169,
+          830,
+          359,
+          43,
+          86,
+          525,
+          774,
+          271
+        ],
+        "legends": []
+      },
+      "rates": {
+        "rareChance": 7000,
+        "supaChance": 2500,
+        "uberChance": 500,
+        "legendChance": 0
+      },
+      "option": {
+        "seriesID": 57,
+        "imgID": -1
+      },
+      "source": "BCData EN 15.7.0",
+      "gameVersion": "15.7.0",
+      "start_date": "2026-11-09",
+      "end_date": "2026-11-16",
+      "image": {
+        "sourceUrl": "https://static.wikitide.net/battlecatswiki/d/df/Gatya_bnr1079_en.png",
+        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Gatya_bnr1079_en.png",
+        "sha256": "b074d4db47ebc11b6d9966058d0a7ff469ec12c0a6e18735e716c8595547195b",
+        "file": "banner_en_1079_b074d4db47ebc11b.png"
+      }
+    },
+    "1080": {
+      "family": "River City Clash Capsules Dark Team",
+      "name": "River City Clash Capsules Dark Team",
+      "fingerprint": "0673b43a26644067028233eb0f62bdca99509124b25c122568bea7b290a536a8",
+      "pool": {
+        "rares": [
+          523,
+          495,
+          376,
+          325,
+          308,
+          198,
+          197,
+          149,
+          148,
+          147,
+          146,
+          145,
+          58,
+          56,
+          55,
+          52,
+          51,
+          50,
+          49,
+          48,
+          47,
+          46,
+          41,
+          38,
+          37
+        ],
+        "super_rares": [
+          522,
+          377,
+          307,
+          199,
+          153,
+          152,
+          151,
+          150,
+          61,
+          40,
+          39,
+          36,
+          35,
+          33,
+          32,
+          31,
+          30
+        ],
+        "ubers": [
+          72,
+          171,
+          105,
+          719,
+          763,
+          85,
+          692,
+          194,
+          272
+        ],
+        "legends": []
+      },
+      "rates": {
+        "rareChance": 7000,
+        "supaChance": 2500,
+        "uberChance": 500,
+        "legendChance": 0
+      },
+      "option": {
+        "seriesID": 75,
+        "imgID": -1
+      },
+      "source": "BCData EN 15.7.0",
+      "gameVersion": "15.7.0",
+      "start_date": "2026-11-09",
+      "end_date": "2026-11-16",
+      "image": {
+        "sourceUrl": "https://static.wikitide.net/battlecatswiki/d/da/Gatya_bnr1080_en.png",
+        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Gatya_bnr1080_en.png",
+        "sha256": "26ac048f061b729403d969338f32a575cfaa2e634146b0d1203867c9395b4973",
+        "file": "banner_en_1080_26ac048f061b7294.png"
+      }
     }
   },
   "region": "en"
