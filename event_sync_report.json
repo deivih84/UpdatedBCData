@@ -133,6 +133,26 @@
       "reason": "image_not_found"
     },
     {
+      "name": "River City Ball-Rolling",
+      "reason": "image_not_found"
+    },
+    {
+      "name": "River City Challenge Course",
+      "reason": "image_not_found"
+    },
+    {
+      "name": "River City Three-Leg Race ①",
+      "reason": "image_not_found"
+    },
+    {
+      "name": "River City Three-Leg Race ②",
+      "reason": "image_not_found"
+    },
+    {
+      "name": "River City Three-Leg Race ③",
+      "reason": "image_not_found"
+    },
+    {
       "name": "Cover of Darkness",
       "event_ids": [
         1287
@@ -158,6 +178,14 @@
       "event_ids": [
         1321
       ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Resident Undead",
+      "reason": "image_not_found"
+    },
+    {
+      "name": "River City Relay",
       "reason": "image_not_found"
     },
     {
@@ -189,11 +217,11 @@
       "reason": "image_not_found"
     },
     {
-      "name": "Arena of Destiny",
+      "name": "Legend Quest",
       "reason": "image_not_found"
     },
     {
-      "name": "Legend Quest",
+      "name": "Duel Stages Challenge",
       "reason": "image_not_found"
     },
     {
@@ -211,6 +239,10 @@
       "reason": "image_not_found"
     },
     {
+      "name": "Otherworld Colosseum",
+      "reason": "image_not_found"
+    },
+    {
       "name": "Cats Eye Cave",
       "reason": "image_not_found"
     },
@@ -224,7 +256,34 @@
     }
   ],
   "warnings": [
-    "Arena of Destiny: section_has_no_verified_poster"
+    "XP Stage: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "XP Megablitz!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "XP Colosseum: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Merciless XP!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "River City Ball-Rolling: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "River City Challenge Course: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "River City Three-Leg Race ①: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "River City Three-Leg Race ②: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "River City Three-Leg Race ③: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Cover of Darkness: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "XP Bonanza!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "#02 Sugar Struggle: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "#04 Mischievous Schemes: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Resident Undead: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "River City Relay: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "XP Harvest (Easy): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "XP Harvest (Normal): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "XP Harvest (Hard): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "XP Harvest (Vet.): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Legend Quest: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Duel Stages Challenge: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "#03 Demons' Night Out: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "#01 Ghost Panic: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Otherworld Colosseum: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Cats Eye Cave: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Cats Eye Caverns: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Festival Cats: Lunar New Year's: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "remote_name_index_older_than_saved: 14.7.0"
   ],
   "sources": {
     "schedule": {
@@ -236,7 +295,7 @@
       "source": "BCData EN resources"
     }
   },
-  "calendarEvents": 12,
+  "calendarEvents": 11,
   "missingImages": [
     "Cats Eye Cave",
     "Cats Eye Caverns",

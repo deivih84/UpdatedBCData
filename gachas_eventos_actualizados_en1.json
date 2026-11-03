@@ -93,15 +93,6 @@
   ],
   "eventos": [
     {
-      "id": "arena_of_destiny_2026-10-16",
-      "nombre": "Arena of Destiny",
-      "caracteristicas": [
-        "Introduced in Version 14.3 adds a new gimmick where applying status effects grant more points than killing enemies. More points will be awarded for units with fewer target Traits (not counting those gained from Talents). This rewards for this dojo are Treasure Chests, which contain exclusive Talent Orbs that can grant special abilities to the units that are given them."
-      ],
-      "fecha_inicio": "2026-10-16",
-      "fecha_fin": "2026-11-02"
-    },
-    {
       "id": "duel_stages_challenge_2026-10-29",
       "nombre": "Duel Stages Challenge",
       "caracteristicas": [
@@ -201,5 +192,5 @@
       "fecha_fin": "2026-11-16"
     }
   ],
-  "ultima_actualizacion": "2026-11-02T22:58:07Z"
+  "ultima_actualizacion": "2026-11-03T06:56:38Z"
 }
