@@ -1,16 +1,6 @@
 {
   "gachas": [
     {
-      "id": "royalfest_2026-10-29",
-      "nombre": "RoyalFest",
-      "fecha_inicio": "2026-10-29",
-      "fecha_fin": "2026-11-01",
-      "caracteristicas": [
-        "L",
-        "Lucky Ticket"
-      ]
-    },
-    {
       "id": "wargods_vajiras_2026-11-04",
       "nombre": "Wargods Vajiras",
       "fecha_inicio": "2026-11-04",
@@ -32,6 +22,16 @@
         "Lucky Ticket",
         "P",
         "Platinum Shard"
+      ]
+    },
+    {
+      "id": "elemental_pixies_2026-11-10",
+      "nombre": "Elemental Pixies",
+      "fecha_inicio": "2026-11-10",
+      "fecha_fin": "2026-11-12",
+      "caracteristicas": [
+        "G",
+        "Guaranteed"
       ]
     },
     {
@@ -222,5 +222,5 @@
       "fecha_fin": "2026-05-01"
     }
   ],
-  "ultima_actualizacion": "2026-10-30T05:58:23Z"
+  "ultima_actualizacion": "2026-11-06T06:57:55Z"
 }

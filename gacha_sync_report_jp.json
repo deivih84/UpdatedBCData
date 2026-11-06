@@ -166,6 +166,34 @@
       "candidates": []
     },
     {
+      "gacha_id": 922,
+      "event_id": "2026-11-08_922",
+      "text": "一部ハロウィン限定キャラクターに本能追加！★詳細はバナーをタップ!!",
+      "reason": "unknown_identity",
+      "candidates": []
+    },
+    {
+      "gacha_id": 1084,
+      "event_id": "2026-11-08_1084",
+      "text": "2つの属性にめっぽう強い「いなばの白うさぎ」参戦！★詳細はバナーをタップ!!",
+      "reason": "unknown_identity",
+      "candidates": []
+    },
+    {
+      "gacha_id": 1087,
+      "event_id": "2026-11-08_1087",
+      "text": "超激レアのキャラクターが必ず１体手に入る「プラチナガチャ」！",
+      "reason": "unknown_identity",
+      "candidates": []
+    },
+    {
+      "gacha_id": 1088,
+      "event_id": "2026-11-08_1088",
+      "text": "超激レア以上のキャラクターが必ず１体手に入る「レジェンドガチャ」！",
+      "reason": "unknown_identity",
+      "candidates": []
+    },
+    {
       "gacha_id": 23,
       "reason": "starter_pool_not_available_online"
     },
@@ -176,6 +204,11 @@
     {
       "name": "Shoumetsu Toshi Collab Gacha",
       "gacha_id": 23,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Elemental Pixies",
+      "gacha_id": 1004,
       "reason": "image_not_found"
     },
     {
