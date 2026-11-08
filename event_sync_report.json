@@ -189,39 +189,7 @@
       "reason": "image_not_found"
     },
     {
-      "name": "XP Harvest (Easy)",
-      "event_ids": [
-        5000
-      ],
-      "reason": "image_not_found"
-    },
-    {
-      "name": "XP Harvest (Normal)",
-      "event_ids": [
-        5001
-      ],
-      "reason": "image_not_found"
-    },
-    {
-      "name": "XP Harvest (Hard)",
-      "event_ids": [
-        5002
-      ],
-      "reason": "image_not_found"
-    },
-    {
-      "name": "XP Harvest (Vet.)",
-      "event_ids": [
-        5012
-      ],
-      "reason": "image_not_found"
-    },
-    {
       "name": "Legend Quest",
-      "reason": "image_not_found"
-    },
-    {
-      "name": "Duel Stages Challenge",
       "reason": "image_not_found"
     },
     {
@@ -271,12 +239,7 @@
     "#04 Mischievous Schemes: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Resident Undead: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "River City Relay: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "XP Harvest (Easy): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "XP Harvest (Normal): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "XP Harvest (Hard): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "XP Harvest (Vet.): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Legend Quest: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Duel Stages Challenge: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "#03 Demons' Night Out: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "#01 Ghost Panic: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Otherworld Colosseum: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
@@ -295,7 +258,7 @@
       "source": "BCData EN resources"
     }
   },
-  "calendarEvents": 11,
+  "calendarEvents": 10,
   "missingImages": [
     "Cats Eye Cave",
     "Cats Eye Caverns",

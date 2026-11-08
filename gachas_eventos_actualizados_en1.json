@@ -93,15 +93,6 @@
   ],
   "eventos": [
     {
-      "id": "duel_stages_challenge_2026-10-29",
-      "nombre": "Duel Stages Challenge",
-      "caracteristicas": [
-        "It's high noon, time for a showdown!\nDuel Stages Challenge (決闘チャレンジ, Kettō Charenji, Duel Challenge) is an event added in Version 11.6. It consists of all Duel Stages in a single map. Progress made in Duel Stages Challenge will reset when the event ends.\nEach stage has a Cat Deploy Limit and enemy limit of 1. Taking over 15 minutes to beat any one stage will cause an Assassin Bear to spawn."
-      ],
-      "fecha_inicio": "2026-10-29",
-      "fecha_fin": "2026-11-07"
-    },
-    {
       "id": "otherworld_colosseum_2026-11-01",
       "nombre": "Otherworld Colosseum",
       "caracteristicas": [
@@ -192,5 +183,5 @@
       "fecha_fin": "2026-11-16"
     }
   ],
-  "ultima_actualizacion": "2026-11-03T06:56:38Z"
+  "ultima_actualizacion": "2026-11-08T06:15:06Z"
 }
