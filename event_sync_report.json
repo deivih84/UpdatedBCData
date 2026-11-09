@@ -173,7 +173,7 @@
   ],
   "sources": {
     "schedule": {
-      "url": "https://bc-seek.godfat.org/seek/en/sale.tsv",
+      "url": "PONOS EN sale.tsv",
       "sha256": "fa15826ad22e5c53301527d75bda63199e8251c232574ec5bb1a2fc124f81797"
     },
     "names": {
