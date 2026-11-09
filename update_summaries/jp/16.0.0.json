@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "gameVersion": "16.0.0",
+  "region": "jp",
+  "status": "published",
+  "revision": 1,
+  "generatedAt": "2026-11-09 17:50:33",
+  "needsHumanReview": true,
+  "sourceHashes": {
+    "cats_data.json": "sha256:430fcc1e444e501edcab133303634a9efc7aca5a39d8f2b3ea843f8566051280",
+    "enemies_data.json": "sha256:ce8fa8641ba2d5747e3c7c68a79c17a6ee61ba218ba06244b4bf979550973110",
+    "stages_data.json": "sha256:ee8080901f1347aed587947eaed769c76e9f4a70fd9172dbc720aa40e6aa2023",
+    "data_version.json": "sha256:d42c2e89fa24c5f57282bdc1ed91829e400087978e8da0414bbaaa3de890d487",
+    "15.7.1jp_extracted": "sha256:1faa463a7877e03035efed446cb2fdac29beb51adf86c7d1f17ae1658db635d2",
+    "16.0.0jp_extracted": "sha256:4af79937bf70393469f979f3ef07dc508ace763567d7479aaa7b0a986ee2a715"
+  },
+  "sections": [
+    {
+      "type": "new_cats",
+      "title": "New Cats",
+      "items": [
+        {
+          "catId": 882,
+          "name": "監獄ネコ",
+          "rarity": "Special"
+        },
+        {
+          "catId": 883,
+          "name": "監獄ネコガール",
+          "rarity": "Special"
+        },
+        {
+          "catId": 884,
+          "name": "監獄タンクネコ",
+          "rarity": "Special"
+        },
+        {
+          "catId": 885,
+          "name": "監獄ちびネコ",
+          "rarity": "Special"
+        },
+        {
+          "catId": 886,
+          "name": "悠久の冒険者エターニス",
+          "rarity": "Uber Rare"
+        }
+      ],
+      "summary": "Four Special prison Cats and one Uber Rare join the roster. Their official Japanese names are retained."
+    },
+    {
+      "type": "summoned_spirits",
+      "title": "Summoned Spirits",
+      "items": [
+        {
+          "name": "Spirit summoned by 悠久の冒険者エターニス"
+        }
+      ],
+      "summary": "The new Uber Rare has its own summoned spirit."
+    },
+    {
+      "type": "new_forms",
+      "title": "New Forms",
+      "items": [
+        {
+          "catId": 159,
+          "name": "Kalisa — アルティメットＸＸカリファ",
+          "forms": [
+            "Ultra Form"
+          ]
+        }
+      ],
+      "summary": "Kalisa gains an Ultra Form."
+    },
+    {
+      "type": "talents",
+      "title": "Talents and Ultra Talents",
+      "items": [
+        {
+          "catId": 241,
+          "name": "雪妖精のスノーカイμ",
+          "forms": [
+            "True Form",
+            "Talents"
+          ]
+        },
+        {
+          "catId": 358,
+          "name": "満腹の花嫁ヴェルヴェーヌ",
+          "forms": [
+            "True Form",
+            "Ultra Talents"
+          ]
+        },
+        {
+          "catId": 660,
+          "name": "海龍皇帝ダライアサン",
+          "forms": [
+            "True Form",
+            "Talents"
+          ]
+        }
+      ],
+      "summary": "Two new Talent sets and one Ultra Talent expansion are added."
+    },
+    {
+      "type": "new_enemies",
+      "title": "New Enemies",
+      "items": [
+        {
+          "enemyId": 792,
+          "name": "ミニハリケーンサイクロン",
+          "traits": [
+            "Floating"
+          ]
+        },
+        {
+          "enemyId": 793,
+          "name": "看守わんこ",
+          "traits": [
+            "Traitless"
+          ]
+        },
+        {
+          "enemyId": 794,
+          "name": "警戒看守カオル君",
+          "traits": [
+            "Floating"
+          ]
+        },
+        {
+          "enemyId": 795,
+          "name": "看守長ビッグワン",
+          "traits": [
+            "Traitless"
+          ]
+        },
+        {
+          "enemyId": 796,
+          "name": "看守帝王ニャンダム",
+          "traits": [
+            "Red"
+          ]
+        },
+        {
+          "enemyId": 797,
+          "name": "主任看守セレブ",
+          "traits": [
+            "Traitless"
+          ]
+        },
+        {
+          "enemyId": 798,
+          "name": "鉄拳看守ぶんぶん",
+          "traits": [
+            "Floating"
+          ]
+        },
+        {
+          "enemyId": 799,
+          "name": "14周年記念ケーキわんこ",
+          "traits": [
+            "Metal"
+          ]
+        }
+      ],
+      "summary": "Eight new enemies are added, including prison enemies, a Floating cyclone and a Metal anniversary enemy."
+    },
+    {
+      "type": "new_stages",
+      "title": "New Stage Data",
+      "items": [
+        {
+          "chapterId": "zl",
+          "subChapterId": "zl_37",
+          "name": "ダンシング解放区",
+          "stageCount": 6
+        },
+        {
+          "chapterId": "prison",
+          "subChapterId": "prison_1",
+          "name": "無実の監獄",
+          "stageCount": 15
+        },
+        {
+          "chapterId": "prison",
+          "subChapterId": "prison_2",
+          "name": "鉄壁の中庭",
+          "stageCount": 15
+        },
+        {
+          "chapterId": "prison",
+          "subChapterId": "prison_3",
+          "name": "逃がさずの森",
+          "stageCount": 15
+        },
+        {
+          "chapterId": "prison",
+          "subChapterId": "prison_4",
+          "name": "脱獄王への道",
+          "stageCount": 30
+        },
+        {
+          "chapterId": "colosseum",
+          "subChapterId": "colosseum_29",
+          "name": "異次元コロシアム",
+          "stageCount": 1
+        },
+        {
+          "chapterId": "events",
+          "subChapterId": "events_436",
+          "name": "バースデープレゼント！",
+          "stageCount": 1
+        },
+        {
+          "chapterId": "ranking",
+          "subChapterId": "ranking_29",
+          "name": "Ranking Stages",
+          "stageCount": 5
+        }
+      ],
+      "summary": "Four prison maps add 75 stages, alongside Zero Legends, ranking, event and Otherworld Colosseum additions."
+    },
+    {
+      "type": "new_difficulties",
+      "title": "New Crown Difficulties",
+      "items": [
+        {
+          "name": "豪華客船ハイパニック",
+          "forms": [
+            "2 crowns"
+          ],
+          "chapterId": "zl",
+          "subChapterId": "zl_15"
+        },
+        {
+          "name": "アンガード大魔宮",
+          "forms": [
+            "2 crowns"
+          ],
+          "chapterId": "zl",
+          "subChapterId": "zl_16"
+        }
+      ],
+      "summary": "Two existing Zero Legends maps gain 2-crown difficulty."
+    },
+    {
+      "type": "cat_combos",
+      "title": "Cat Combos",
+      "items": [
+        {
+          "name": "ビュンビュン"
+        },
+        {
+          "name": "骨まで愛して"
+        }
+      ],
+      "summary": "Two new Cat Combos are added."
+    },
+    {
+      "type": "rank_rewards",
+      "title": "User Rank Rewards",
+      "items": [
+        {
+          "name": "User Rank 28,600: 5 × Catseye [Super Rare]"
+        },
+        {
+          "name": "User Rank 28,700: 5 × Catseye [Uber Rare]"
+        },
+        {
+          "name": "User Rank 28,800: 5 × Catseye [Legend]"
+        }
+      ],
+      "summary": "Three new User Rank milestones award Catseyes."
+    }
+  ],
+  "reviewNotes": [
+    "Regional release facts computed from 15.7.1jp → 16.0.0jp; the version is explicit.",
+    "Public JSON hashes identify the shared data snapshot; regional extraction hashes identify the release evidence.",
+    "Japanese source names fill unlocalized records. Collaboration data does not imply an active event or availability date.",
+    "Summoned spirits are separate from playable cats. Duplicate third-form placeholders are not advertised as new evolutions.",
+    "No release dates or unsupported UI changes are inferred from extraction timestamps.",
+    "Colosseum additions use newly registered map IDs; preallocated placeholder files are excluded.",
+    "AI-authored copy was checked against the computed regional facts; the AI review marker is retained."
+  ],
+  "copy": {
+    "source": "ai_draft",
+    "headline": "Battle Cats JP 16.0",
+    "shortIntro": "Four prison Cats, a new Uber Rare and its spirit, Kalisa’s Ultra Form, eight enemies and new stages."
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "schemaVersion": 1,
+  "gameVersion": "15.7.0",
+  "region": "en",
+  "status": "published",
+  "revision": 1,
+  "generatedAt": "2026-11-09 17:50:32",
+  "needsHumanReview": true,
+  "sourceHashes": {
+    "cats_data.json": "sha256:430fcc1e444e501edcab133303634a9efc7aca5a39d8f2b3ea843f8566051280",
+    "enemies_data.json": "sha256:ce8fa8641ba2d5747e3c7c68a79c17a6ee61ba218ba06244b4bf979550973110",
+    "stages_data.json": "sha256:ee8080901f1347aed587947eaed769c76e9f4a70fd9172dbc720aa40e6aa2023",
+    "data_version.json": "sha256:d42c2e89fa24c5f57282bdc1ed91829e400087978e8da0414bbaaa3de890d487",
+    "15.6.0en_extracted": "sha256:107b1e1d2dbc8b4c28a35dfff6d141d94f21fffb1fa98131aaf5826b8677f285",
+    "15.7.0en_extracted": "sha256:1550e0bf42357fb343d55e0656880837e03ac4d618be9ab3510fea27cf2bd585",
+    "15.7.1jp_localization_fallback": "sha256:1faa463a7877e03035efed446cb2fdac29beb51adf86c7d1f17ae1658db635d2"
+  },
+  "sections": [
+    {
+      "type": "new_cats",
+      "title": "New Cats",
+      "items": [
+        {
+          "catId": 877,
+          "name": "Hare of Inaba",
+          "rarity": "Uber Rare"
+        },
+        {
+          "catId": 878,
+          "name": "悠久山安慈",
+          "rarity": "Uber Rare"
+        },
+        {
+          "catId": 879,
+          "name": "瀬田宗次郎",
+          "rarity": "Uber Rare"
+        },
+        {
+          "catId": 880,
+          "name": "志々雄真実",
+          "rarity": "Uber Rare"
+        },
+        {
+          "catId": 881,
+          "name": "比古清十郎",
+          "rarity": "Legend Rare"
+        }
+      ],
+      "summary": "Five playable Cats are added to the data. Japanese names are retained for unlocalized collaboration records."
+    },
+    {
+      "type": "summoned_spirits",
+      "title": "Summoned Spirits",
+      "items": [
+        {
+          "name": "Spirit summoned by Immortal Mitsuhide"
+        }
+      ],
+      "summary": "Immortal Mitsuhide gains a summoned spirit."
+    },
+    {
+      "type": "new_forms",
+      "title": "New Forms",
+      "items": [
+        {
+          "catId": 401,
+          "name": "Teravolta",
+          "forms": [
+            "Ultra Form"
+          ]
+        },
+        {
+          "catId": 754,
+          "name": "Immortal Mitsuhide",
+          "forms": [
+            "True Form"
+          ]
+        },
+        {
+          "catId": 746,
+          "name": "不殺の流浪人・緋村剣心",
+          "forms": [
+            "True Form"
+          ]
+        }
+      ],
+      "summary": "One Ultra Form and two True Forms expand the roster."
+    },
+    {
+      "type": "talents",
+      "title": "Talents and Ultra Talents",
+      "items": [
+        {
+          "catId": 107,
+          "name": "Divine Coppermine κ",
+          "forms": [
+            "True Form",
+            "Ultra Talents"
+          ]
+        },
+        {
+          "catId": 124,
+          "name": "Immortal Masamune",
+          "forms": [
+            "True Form",
+            "Ultra Talents"
+          ]
+        },
+        {
+          "catId": 257,
+          "name": "Almighty Zeus",
+          "forms": [
+            "True Form",
+            "Ultra Talents"
+          ]
+        },
+        {
+          "catId": 668,
+          "name": "Immortal Master Tengu",
+          "forms": [
+            "True Form",
+            "Talents"
+          ]
+        }
+      ],
+      "summary": "New Talents for Immortal Master Tengu, plus Ultra Talent additions for Divine Coppermine κ, Immortal Masamune and Almighty Zeus."
+    },
+    {
+      "type": "new_enemies",
+      "title": "New Enemies",
+      "items": [
+        {
+          "enemyId": 788,
+          "name": "悠久山安慈",
+          "traits": [
+            "Traitless"
+          ]
+        },
+        {
+          "enemyId": 789,
+          "name": "瀬田宗次郎",
+          "traits": [
+            "Traitless"
+          ]
+        },
+        {
+          "enemyId": 790,
+          "name": "志々雄真実",
+          "traits": [
+            "Traitless"
+          ]
+        },
+        {
+          "enemyId": 791,
+          "name": "比古清十郎",
+          "traits": [
+            "Traitless"
+          ]
+        }
+      ],
+      "summary": "Four collaboration enemy records join the data. Their Japanese source names are retained."
+    },
+    {
+      "type": "new_stages",
+      "title": "New Stage Data",
+      "items": [
+        {
+          "chapterId": "collab",
+          "subChapterId": "collab_273",
+          "name": "破戒僧・悠久山安慈",
+          "stageCount": 5
+        },
+        {
+          "chapterId": "collab",
+          "subChapterId": "collab_274",
+          "name": "天剣・瀬田宗次郎",
+          "stageCount": 5
+        },
+        {
+          "chapterId": "collab",
+          "subChapterId": "collab_275",
+          "name": "幕末の亡霊・志々雄真実",
+          "stageCount": 5
+        },
+        {
+          "chapterId": "collab",
+          "subChapterId": "collab_276",
+          "name": "挑戦！飛天御剣流修業",
+          "stageCount": 3
+        },
+        {
+          "chapterId": "zl",
+          "subChapterId": "zl_35",
+          "name": "Six Flans",
+          "stageCount": 6
+        },
+        {
+          "chapterId": "zl",
+          "subChapterId": "zl_36",
+          "name": "Noodle Nirvana",
+          "stageCount": 6
+        },
+        {
+          "chapterId": "colosseum",
+          "subChapterId": "colosseum_28",
+          "name": "Otherworld Colosseum",
+          "stageCount": 1
+        },
+        {
+          "chapterId": "ranking",
+          "subChapterId": "ranking_28",
+          "name": "Ranking Stages",
+          "stageCount": 5
+        }
+      ],
+      "summary": "Two Zero Legends maps join collaboration, ranking and Otherworld Colosseum stage data."
+    },
+    {
+      "type": "new_difficulties",
+      "title": "New Crown Difficulties",
+      "items": [
+        {
+          "name": "Resort De La Cospa",
+          "forms": [
+            "2 crowns"
+          ],
+          "chapterId": "zl",
+          "subChapterId": "zl_13"
+        },
+        {
+          "name": "Restricted Area",
+          "forms": [
+            "2 crowns"
+          ],
+          "chapterId": "zl",
+          "subChapterId": "zl_14"
+        }
+      ],
+      "summary": "Two existing Zero Legends maps gain 2-crown difficulty."
+    },
+    {
+      "type": "cat_combos",
+      "title": "Cat Combos",
+      "items": [
+        {
+          "name": "Physical Exorcism"
+        },
+        {
+          "name": "地獄の国盗り"
+        }
+      ],
+      "summary": "Two new Cat Combos are added."
+    },
+    {
+      "type": "rank_rewards",
+      "title": "User Rank Rewards",
+      "items": [
+        {
+          "name": "User Rank 28,300: 5 × Catseye [Legend]"
+        },
+        {
+          "name": "User Rank 28,400: 5 × Catseye [Special]"
+        },
+        {
+          "name": "User Rank 28,500: 5 × Catseye [Rare]"
+        }
+      ],
+      "summary": "Three new User Rank milestones award Catseyes."
+    }
+  ],
+  "reviewNotes": [
+    "Regional release facts computed from 15.6.0en → 15.7.0en; the version is explicit.",
+    "Public JSON hashes identify the shared data snapshot; regional extraction hashes identify the release evidence.",
+    "Japanese source names fill unlocalized records. Collaboration data does not imply an active event or availability date.",
+    "Summoned spirits are separate from playable cats. Duplicate third-form placeholders are not advertised as new evolutions.",
+    "No release dates or unsupported UI changes are inferred from extraction timestamps.",
+    "Colosseum additions use newly registered map IDs; preallocated placeholder files are excluded.",
+    "AI-authored copy was checked against the computed regional facts; the AI review marker is retained."
+  ],
+  "copy": {
+    "source": "ai_draft",
+    "headline": "Battle Cats Global 15.7",
+    "shortIntro": "Hare of Inaba and four collaboration Cats, three new forms, expanded Talents and new stages."
+  }
+}
