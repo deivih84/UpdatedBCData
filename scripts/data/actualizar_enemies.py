@@ -22,6 +22,8 @@ def buscar_ruta_jp_reciente():
 
 def actualizar_estadisticas_enemigos():
     print("🚀 Iniciando actualización de estadísticas de enemigos...")
+    from scripts.data.enemy_attack_animations import sync_enemy_attack_animations
+    sync_enemy_attack_animations(paths)
 
     # 1. Localizar el archivo t_unit.csv en la versión JP
     ruta_maestra = buscar_ruta_jp_reciente()

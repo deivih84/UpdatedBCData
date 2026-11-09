@@ -1,8 +1,8 @@
 {
   "animations": {
     "manifest": "cats/manifest.json",
-    "revision": "sha256:a0bce7b8aff17c7b1966164b7a20949867f36540ca61a8227bbbe125f041fce6",
-    "sourceGameVersion": "15.7.1",
+    "revision": "sha256:16415dabf24c6879eb7dc768b6685e41d42ec2ad51544b09f2d4d9b45566579d",
+    "sourceGameVersion": "16.0.0",
     "sourceRegion": "jp"
   },
   "dataFiles": {
@@ -10,6 +10,6 @@
     "enemies_data.json": "enemies",
     "stages_data.json": "stages"
   },
-  "gameVersion": "15.7.1",
-  "lastUpdate": "2026-10-28T19:31:22.008665+00:00"
+  "gameVersion": "16.0.0",
+  "lastUpdate": "2026-11-09T14:35:32.979824+00:00"
 }

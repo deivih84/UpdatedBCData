@@ -1,0 +1,158 @@
+{
+  "enemies": {
+    "186": {
+      "animation": "186_e02.maanim",
+      "frames": 50,
+      "sha256": "874a1e24f10c643eb9b3307bd32440c3d1c12515097e224d346ac85110299d2c",
+      "sourceRegion": "jp",
+      "sourceVersion": "16.0.0"
+    },
+    "730": {
+      "animation": "730_e02.maanim",
+      "frames": 181,
+      "sha256": "3e809fb1d701b902236a913bf59b98322cbee9a1c3b969123e2a779de4fcd29f",
+      "sourceRegion": "jp",
+      "sourceVersion": "16.0.0"
+    },
+    "732": {
+      "animation": "732_e02.maanim",
+      "frames": 54,
+      "sha256": "adf6631b414b6f931b9fc08a3ea67111b6e82e58f407c63e654d59dbcb9a96a8",
+      "sourceRegion": "jp",
+      "sourceVersion": "16.0.0"
+    },
+    "733": {
+      "animation": "733_e02.maanim",
+      "frames": 50,
+      "sha256": "fc0a5f7701493f6fdfde4ab5fcd3b1706f534691bed55579eaaa3a7818a7b4fe",
+      "sourceRegion": "jp",
+      "sourceVersion": "16.0.0"
+    },
+    "742": {
+      "animation": "742_e02.maanim",
+      "frames": 5,
+      "sha256": "39698d4f36180710a8ed0e486b53f6928b7f11870a7029a2a51024cc1dc2f2e8",
+      "sourceRegion": "jp",
+      "sourceVersion": "16.0.0"
+    },
+    "743": {
+      "animation": "743_e02.maanim",
+      "frames": 241,
+      "sha256": "8c521c61cf386f2444aa6b78344ab216c986c21f86585a53ba8804164441eba1",
+      "sourceRegion": "jp",
+      "sourceVersion": "16.0.0"
+    },
+    "751": {
+      "animation": "751_e02.maanim",
+      "frames": 21,
+      "sha256": "10a755d8cfc5aea57f460bafc503eac5c37603c59f3b204d58a9e34638ca266e",
+      "sourceRegion": "jp",
+      "sourceVersion": "16.0.0"
+    },
+    "752": {
+      "animation": "752_e02.maanim",
+      "frames": 24,
+      "sha256": "5d5a5209d5429e1bc7a2d24bf4939620a33262ff9025f66d4a60e1705c6372e0",
+      "sourceRegion": "jp",
+      "sourceVersion": "16.0.0"
+    },
+    "759": {
+      "animation": "759_e02.maanim",
+      "frames": 50,
+      "sha256": "b349557a6b13b9d7e5d04f15d4d59c18c5b7a25b17c46a0916defe9408a7d5a1",
+      "sourceRegion": "jp",
+      "sourceVersion": "16.0.0"
+    },
+    "760": {
+      "animation": "760_e02.maanim",
+      "frames": 18,
+      "sha256": "8782682d7989430cb009f123f31920cc1078cc040a5ead031fb3cdffed1a5e1b",
+      "sourceRegion": "jp",
+      "sourceVersion": "16.0.0"
+    },
+    "769": {
+      "animation": "769_e02.maanim",
+      "frames": 21,
+      "sha256": "feefebcc2770a1565d56a1610b69fbb42112b68cdf40d2d47423b0828404ea47",
+      "sourceRegion": "jp",
+      "sourceVersion": "16.0.0"
+    },
+    "770": {
+      "animation": "770_e02.maanim",
+      "frames": 91,
+      "sha256": "53f16c5bc7ad4a5aa3ef0aa007500dd603005d1e9aa0397fabed888962292739",
+      "sourceRegion": "jp",
+      "sourceVersion": "16.0.0"
+    },
+    "775": {
+      "animation": "775_e02.maanim",
+      "frames": 11,
+      "sha256": "8444568f5d3e8a6f9987e2b01a4a37879299803771d7a4dd16221a0446fed12d",
+      "sourceRegion": "jp",
+      "sourceVersion": "16.0.0"
+    },
+    "777": {
+      "animation": "777_e02.maanim",
+      "frames": 201,
+      "sha256": "7d6fcc215e15667bf52bd6dfccce0eb776804daa87f4d8c797ecbb4f6f779a3a",
+      "sourceRegion": "jp",
+      "sourceVersion": "16.0.0"
+    },
+    "778": {
+      "animation": "778_e02.maanim",
+      "frames": 94,
+      "sha256": "9c5577c14b83ab94f85989ad8ff3949c73f132b3cdd95a61118cf58ceb6c6cce",
+      "sourceRegion": "jp",
+      "sourceVersion": "16.0.0"
+    },
+    "780": {
+      "animation": "780_e02.maanim",
+      "frames": 16,
+      "sha256": "f1a517a2184c1a387d811abde812c71e3e71a67e6f871bca82e08528cb81c92e",
+      "sourceRegion": "jp",
+      "sourceVersion": "16.0.0"
+    },
+    "783": {
+      "animation": "783_e02.maanim",
+      "frames": 9,
+      "sha256": "2ed99d55a216e077e12b3d0432bd40d816a6c113d2cc22dfe932653b690e8618",
+      "sourceRegion": "jp",
+      "sourceVersion": "16.0.0"
+    },
+    "786": {
+      "animation": "786_e02.maanim",
+      "frames": 145,
+      "sha256": "065d293ae6f4e1327315f0cbd1ebf213323a72e181a424e8e2bbde2b6420e3ab",
+      "sourceRegion": "jp",
+      "sourceVersion": "16.0.0"
+    },
+    "792": {
+      "animation": "792_e02.maanim",
+      "frames": 5,
+      "sha256": "7d59b8aa8d6eb5e15b24655e9f66935a62a26d77b00b2455183dd16a6c13cd5e",
+      "sourceRegion": "jp",
+      "sourceVersion": "16.0.0"
+    },
+    "797": {
+      "animation": "797_e02.maanim",
+      "frames": 41,
+      "sha256": "c5081464d09b05f8ad11b7e314a7efb551738a9c5cea3fcab15185d7d8735603",
+      "sourceRegion": "jp",
+      "sourceVersion": "16.0.0"
+    },
+    "798": {
+      "animation": "798_e02.maanim",
+      "frames": 31,
+      "sha256": "d563dc924a2ef6ea138f221c2b15a777c95eb2fc08e7806958e447d1fc637670",
+      "sourceRegion": "jp",
+      "sourceVersion": "16.0.0"
+    },
+    "799": {
+      "animation": "799_e02.maanim",
+      "frames": 50,
+      "sha256": "19af91a3c709f2de20674dfcadc56b497efb9fa006d881136e66224821159dfd",
+      "sourceRegion": "jp",
+      "sourceVersion": "16.0.0"
+    }
+  }
+}

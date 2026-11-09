@@ -47,6 +47,10 @@
     {
       "gameVersion": "15.7.1",
       "region": "jp"
+    },
+    {
+      "gameVersion": "16.0.0",
+      "region": "jp"
     }
   ],
   "archives": {
@@ -319,8 +323,8 @@
       "size": 532185
     },
     "159": {
-      "sha256": "2eac50ddd3d7a9340aa65d04bfc36d552bfe5c54dd55f714b15c226e55f584ad",
-      "size": 495278
+      "sha256": "08f03cb7e1fd95b792be41234a854a80704163bd00000688bd20e23ad863f12c",
+      "size": 616197
     },
     "16": {
       "sha256": "9dd74ad5a330faba0765a5c8238acb5735783b764149fc170658cf9d5ef5800c",
@@ -2927,8 +2931,8 @@
       "size": 35716
     },
     "746": {
-      "sha256": "1ced65aa3703c9c2aea5956781bb157b93e02e61cb469e72a8db6340ce9f25ed",
-      "size": 353333
+      "sha256": "d82b2ff686a633e7dc2ccad73ddff4614eb633bd8063f89925d4f5c7c5915325",
+      "size": 434436
     },
     "747": {
       "sha256": "9d69e4212ceab67ea7e9a1da28e50539870288687cdbfeb955158d158ec403d0",
@@ -3415,16 +3419,16 @@
       "size": 28437
     },
     "856": {
-      "sha256": "30b16b3b86d42a36d2cad3f4b0b96a9388b7ae66ba5d31513311042e9c66a8dc",
-      "size": 17463
+      "sha256": "91ffd4a770e99a578aa0d782c8dd919357dc1d062ca2f7eb8529be712c117184",
+      "size": 262262
     },
     "857": {
-      "sha256": "e6a7c8365ab85409753c510f5636be4ce8bdc2aa068d7fd186b043910bb60119",
-      "size": 12560
+      "sha256": "822a53d01af49931f19a1d2900956515b423274577c66c676609ff08ecfe4050",
+      "size": 62180
     },
     "858": {
-      "sha256": "baed333a338defe2167e68b071e1cbe21a04e4773ee17cab3e6f37bea22d898c",
-      "size": 16541
+      "sha256": "aac17b4e82d0647c5d12924de3fd5ac2ee16e5fb60ee4a41ad2b08c2cdb27551",
+      "size": 49521
     },
     "859": {
       "sha256": "9e0e610273877433a4b8aef42474792104e05ce818a4d6c122b4248820bde713",
@@ -3511,24 +3515,48 @@
       "size": 112861
     },
     "878": {
-      "sha256": "15580b270088069c936414d7f0a0c559e9a5c848ced66fcde7769db4723d0c98",
-      "size": 40156
+      "sha256": "0f70e7ee97e07887bf2acd451beb1dc51d9142a6d11148d31ae0f0b8daaba9a4",
+      "size": 234929
     },
     "879": {
-      "sha256": "501757b9978a62e7aadfab8e56447c3d652aad3876ac1854e072998672a8ffd8",
-      "size": 34071
+      "sha256": "b427fb64ab61746df6fc61f6625853eadd9f37fba7732d0088067871719278fd",
+      "size": 132881
     },
     "88": {
       "sha256": "267d859a748a5df903912bacd57de61b9d681ae98f85a8056c8a62c5d2872e83",
       "size": 73885
     },
     "880": {
-      "sha256": "e43d03ee1ffa4497229215350ba7e37be70ba8c33c3421bf8e9b9e267b426323",
-      "size": 34028
+      "sha256": "b355e9c87524c541208fd847cd1c805f049f304589e0e6145de46cc29b918ae0",
+      "size": 545080
     },
     "881": {
-      "sha256": "a0576e1c734f38b069096c3d0db7aa42e1451eef136863d0a60b7db2adad6b98",
-      "size": 38917
+      "sha256": "b47b0bc6da30d30d1495c04d18a9704f2823ad873fbd0f603172b5e86bc6697f",
+      "size": 485012
+    },
+    "882": {
+      "sha256": "ff2d4876d6920591f48ab9a54273ef2b1c3f2dfec9cfd72aed7d5e8f0ae5f55f",
+      "size": 26858
+    },
+    "883": {
+      "sha256": "eb5d43a3e4a2dd08a13bc265c5d0c791d6adb9bc30fc995106972b0519463fc3",
+      "size": 51745
+    },
+    "884": {
+      "sha256": "97268c26c3860458d1b5be7ffd64dc7d17f40fafbe6ceea93052cebb1162666a",
+      "size": 56447
+    },
+    "885": {
+      "sha256": "1e570ce1f7e1e43c15261df4b5278fb9a66dac99149734c22748496354650ea4",
+      "size": 52215
+    },
+    "886": {
+      "sha256": "788f02c7960e213c2541f92afb243dc2530df9bcbbc2c343d5deb57633088c31",
+      "size": 190986
+    },
+    "887": {
+      "sha256": "9e20bf9cf5617b3933451d701be7291ff29b598fbe07402010b6ed6c4b98987b",
+      "size": 26820
     },
     "89": {
       "sha256": "bd08d03c763f53c57dc2b7b01645d2d430a2667ec78ce089bd333418639d508f",
@@ -3702,12 +3730,27 @@
     ],
     "881": [
       "s"
+    ],
+    "882": [
+      "s"
+    ],
+    "883": [
+      "s"
+    ],
+    "884": [
+      "s"
+    ],
+    "885": [
+      "s"
+    ],
+    "886": [
+      "s"
     ]
   },
   "latestSource": {
-    "gameVersion": "15.7.1",
+    "gameVersion": "16.0.0",
     "region": "jp"
   },
-  "revision": "sha256:a0bce7b8aff17c7b1966164b7a20949867f36540ca61a8227bbbe125f041fce6",
+  "revision": "sha256:16415dabf24c6879eb7dc768b6685e41d42ec2ad51544b09f2d4d9b45566579d",
   "schemaVersion": 1
 }

@@ -210,6 +210,14 @@ def validate(
                     f"unit {key} form {form_index} stats must be a non-empty numeric row"
                 )
 
+    unitbuy = data_local / 'unitbuy.csv'
+    if unitbuy.is_file():
+        from scripts.data.actualizar_evolution_costs import parse_unitbuy
+        required_min_forms = dict(required_min_forms or {})
+        for unit_id, evolution in parse_unitbuy(str(unitbuy)).items():
+            if 'ultra_form' in evolution:
+                required_min_forms[unit_id] = max(4, required_min_forms.get(unit_id, 0))
+
     for unit_id, minimum_forms in sorted((required_min_forms or {}).items()):
         key = canonical_key(unit_id)
         unit = units.get(key)

@@ -42,7 +42,7 @@ def find_latest_en_dir(root=BCDATA_ROOT):
 
 EN_DIR = JP_DIR = DATA_LOCAL = RES_LOCAL = None
 
-def configure_sources():
+def configure_sources(mechanics="en"):
     global EN_DIR, JP_DIR, DATA_LOCAL, RES_LOCAL
     EN_DIR = find_latest_en_dir()
     # JP may be ahead of EN; select independently.
@@ -50,7 +50,9 @@ def configure_sources():
         JP_DIR = str(latest_version_dir(paths.bcdata, 'jp'))
     except FileNotFoundError:
         JP_DIR = EN_DIR[:-2] + 'jp'
-    DATA_LOCAL = os.path.join(EN_DIR, 'DataLocal')
+    # Build each region independently, then merge by stable chapter/map IDs.
+    mechanics_dir = JP_DIR if mechanics == 'jp' else EN_DIR
+    DATA_LOCAL = os.path.join(mechanics_dir, 'DataLocal')
     RES_LOCAL = os.path.join(EN_DIR, 'resLocal')
     if not os.path.isdir(RES_LOCAL):
         raise FileNotFoundError(f'Stage generation requires {RES_LOCAL}')
@@ -65,31 +67,13 @@ ENEMY_ID_OFFSET = 2  # Subtract from stage file enemy IDs to get real index
 
 def load_item_names():
     """Load item display names from GatyaitemName.csv. Line index = item ID."""
-    path = os.path.join(RES_LOCAL, "GatyaitemName.csv")
-    names = {}
-    if not os.path.exists(path):
-        return names
-    with open(path, "r", encoding="utf-8") as f:
-        for i, line in enumerate(f):
-            parts = line.strip().split("|")
-            if parts and parts[0].strip():
-                names[i] = parts[0].strip()
-    return names
+    return {i: row[0] for i, row in enumerate(localization_rows('GatyaitemName.csv')) if row and row[0]}
 
 
 def _unit_form_name(cat_id, form_idx):
-    """Return the name of form `form_idx` (0=first, 1=second, 2=true, 3=ultra)
-    for app cat ID `cat_id`. Unit_Explanation files are 1-based."""
-    path = os.path.join(RES_LOCAL, f"Unit_Explanation{cat_id + 1}_en.csv")
-    if not os.path.exists(path):
-        return None
-    with open(path, "r", encoding="utf-8") as f:
-        forms = [ln.split("|")[0].strip() for ln in f if ln.strip()]
-    if not forms:
-        return None
-    # Clamp to available forms
-    idx = min(form_idx, len(forms) - 1)
-    return forms[idx]
+    rows = localization_rows(f'Unit_Explanation{cat_id + 1}_en.csv')
+    forms = [row[0] for row in rows if row and row[0]]
+    return forms[min(form_idx, len(forms) - 1)] if forms else None
 
 
 def load_cat_drop_rewards():
@@ -336,30 +320,44 @@ def load_medals():
     return medals_by_mapid
 
 
+def localization_rows(filename):
+    """Read EN rows and fill blank/missing cells from JP, preserving row IDs."""
+    def read(path, japanese=False):
+        if not os.path.isfile(path):
+            return []
+        delimiter = '\t' if filename.endswith('.tsv') else (',' if japanese else '|')
+        with open(path, encoding='utf-8-sig', newline='') as handle:
+            return [[cell.strip() for cell in row] for row in csv.reader(handle, delimiter=delimiter)]
+    primary = read(os.path.join(RES_LOCAL, filename))
+    fallback_name = filename.replace('_en.csv', '_ja.csv')
+    jp_dir = os.path.join(JP_DIR, 'resLocal') if JP_DIR else ''
+    fallback = read(os.path.join(jp_dir, fallback_name), True) if jp_dir else []
+    result = []
+    for index in range(max(len(primary), len(fallback))):
+        english = primary[index] if index < len(primary) else []
+        japanese = fallback[index] if index < len(fallback) else []
+        result.append([english[cell] if cell < len(english) and english[cell] not in ('', '＠')
+                       else japanese[cell] if cell < len(japanese) else ''
+                       for cell in range(max(len(english), len(japanese)))])
+    return result
+
+
 def load_enemy_names():
-    """Load enemy names from Enemyname.tsv. Line index = enemy ID."""
-    path = os.path.join(RES_LOCAL, "Enemyname.tsv")
-    names = {}
-    with open(path, "r", encoding="utf-8") as f:
-        for i, line in enumerate(f):
-            name = line.strip()
-            if name:
-                names[i] = name
-    return names
+    return {i: row[0] for i, row in enumerate(localization_rows('Enemyname.tsv')) if row and row[0]}
 
 
-def load_map_names():
-    """Load map names from Map_Name.csv. Returns dict: mapId -> name."""
-    path = os.path.join(RES_LOCAL, "Map_Name.csv")
+def load_map_names(include_jp=True):
+    """Map names are keyed by map ID, never by translated display names."""
     names = {}
-    with open(path, "r", encoding="utf-8") as f:
-        for line in f:
-            parts = line.strip().split("|", 1)
-            if len(parts) >= 2:
-                try:
-                    names[int(parts[0])] = parts[1]
-                except ValueError:
-                    pass
+    for directory, delimiter in [(os.path.join(JP_DIR, 'resLocal') if JP_DIR and include_jp else '', ','),
+                                 (RES_LOCAL, '|')]:
+        path = os.path.join(directory, 'Map_Name.csv')
+        if not directory or not os.path.isfile(path):
+            continue
+        with open(path, encoding='utf-8-sig', newline='') as handle:
+            for row in csv.reader(handle, delimiter=delimiter):
+                if len(row) >= 2 and row[0].strip().isdigit() and row[1].strip():
+                    names[int(row[0])] = row[1].strip()
     return names
 
 
@@ -488,15 +486,8 @@ def load_stage_names_file(filename):
     Returns [] if filename is empty/None (stages will fall back to 'Stage N' names)."""
     if not filename:
         return []
-    path = os.path.join(RES_LOCAL, filename)
-    if not os.path.exists(path):
-        return []
-    result = []
-    with open(path, "r", encoding="utf-8") as f:
-        for line in f:
-            names = [n for n in line.strip().split("|") if n and n != "\uff20"]
-            result.append(names)
-    return result
+    return [[name for name in row if name and name != '＠']
+            for row in localization_rows(filename)]
 
 
 # ======================== CSV PARSING ========================
@@ -959,7 +950,7 @@ def build_r_chapter(chapter_id, chapter_name, base_map_id,
     # BCData accumulates all historical event/collab runs; only the most recent matters.
     name_to_max: dict[str, int] = {}
     for map_n in stage_files:
-        name = _get_dedup_key(map_n)
+        name = f"colosseum_{map_n}" if chapter_id == "colosseum" else _get_dedup_key(map_n)
         if map_n > name_to_max.get(name, -1):
             name_to_max[name] = map_n
     keep = set(name_to_max.values())
@@ -1513,12 +1504,12 @@ def write_stage_outputs(output_data, output_paths):
                 os.remove(temp_path)
 
 
-def main():
-    configure_sources()
+def build_stage_output(mechanics="en"):
+    configure_sources(mechanics)
     enemy_names = load_enemy_names()
     item_names = load_item_names()
     cat_drop_rewards = load_cat_drop_rewards()
-    map_names = load_map_names()
+    map_names = load_map_names(include_jp=mechanics == 'jp')
     map_options = load_map_options()
     print(f"Loaded crown data for {len(map_options)} sub-chapters from Map_option.csv")
     charagroups = load_charagroups()
@@ -1556,6 +1547,7 @@ def main():
         rc("gauntlets", "Gauntlets & Strikes", 24000, "RA", "StageName_RE_en.csv", "RE",
            fallback_name_from_stage=True),
         rc("collab", "Collaboration Stages", 2000,   "RC",  "StageName_RC_en.csv",  "C"),
+        rc("prison", "Prison", 39000, "RPR", "StageName_RPR_en.csv", "PR"),
         rc("colosseum", "Otherworld Colosseum", 36000, "RR", "", "R"),
         rc("catclaw", "Catclaw Championships", 37000, "G", "StageName_G_en.csv", "G"),
         build_legend_quest_chapter(map_options, medals_by_mapid),
@@ -1650,13 +1642,34 @@ def main():
     continuation_count = validate_stage_output(output_data)
     print(f"Validated {continuation_count} continuation links")
 
-    # The updater invokes this script directly. Publish the same validated byte
-    # payload atomically to the bundled asset and UpdatedBCData copy.
+    return output_data
+
+
+def merge_regional_stages(english, japanese):
+    """Preserve EN stages and append JP-only identities without matching names."""
+    by_chapter = {chapter['id']: chapter for chapter in english['chapters']}
+    for chapter in japanese['chapters']:
+        existing = by_chapter.get(chapter['id'])
+        if existing is None:
+            english['chapters'].append(chapter)
+            by_chapter[chapter['id']] = chapter
+            continue
+        known = {sub['id'] for sub in existing['subChapters']}
+        existing['subChapters'].extend(sub for sub in chapter['subChapters'] if sub['id'] not in known)
+    english['enemyNames'] = {**japanese['enemyNames'], **english['enemyNames']}
+    known_medals = {medal['iconIdx'] for medal in english['medals']}
+    english['medals'].extend(medal for medal in japanese['medals'] if medal['iconIdx'] not in known_medals)
+    validate_stage_output(english)
+    return english
+
+
+def main():
+    output_data = build_stage_output('en')
+    version = lambda directory: tuple(map(int, re.findall(r'\d+', os.path.basename(directory))))
+    if os.path.isdir(JP_DIR) and version(JP_DIR) > version(EN_DIR):
+        output_data = merge_regional_stages(output_data, build_stage_output('jp'))
     write_stage_outputs(output_data, [OUTPUT_APP, OUTPUT_REMOTE])
-    for out_path in [OUTPUT_APP, OUTPUT_REMOTE]:
-        size_mb = os.path.getsize(out_path) / 1024 / 1024
-        print(f"\nOutput: {out_path}")
-        print(f"File size: {size_mb:.1f} MB")
+    print(f"Published {len(output_data['chapters'])} chapters with EN + JP coverage")
 
 
 if __name__ == "__main__":

@@ -210,6 +210,15 @@ def master_sync():
     ]
     previous_cat_data = load_previous_cat_data(medal_source_paths)
 
+    # Reconcile newly shipped ultra forms even when wiki names are unavailable.
+    from scripts.data.actualizar_names import supplement_ultra_form_names
+    unit_source = Path(buscar_ruta_jp_reciente())
+    original_names = Path(names_file).read_text(encoding='utf-8')
+    reconciled = '\n'.join(supplement_ultra_form_names(
+        original_names.splitlines(), unit_source, unit_source.parent / 'resLocal'))
+    if reconciled != original_names.rstrip('\n'):
+        Path(names_file).write_text(reconciled + '\n', encoding='utf-8')
+
     # 1. Parsear names.txt
     names_map = {}
     if os.path.exists(names_file):

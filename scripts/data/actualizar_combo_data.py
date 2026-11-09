@@ -10,6 +10,7 @@ paths = Workspace.load(_workspace_os.environ.get('UPDATED_BCDATA_ROOT'))
 import pandas as pd
 import os
 import glob
+import re
 
 # 📂 Rutas
 BASE_GITHUB = str(paths.bcdata)
@@ -17,9 +18,20 @@ PATH_COMBOS = str(paths.data / 'combos.csv')
 PATH_NAMES = str(paths.data / 'combo_names.txt')
 
 def buscar_rutas_maestras():
-    ultima = str(latest_version_dir(_WorkspacePath(BASE_GITHUB), 'en'))
-    return (os.path.join(ultima, "DataLocal", "NyancomboData.csv"),
-            os.path.join(ultima, "resLocal", "Nyancombo_en.csv"))
+    candidates = []
+    for region, language in [('en', 'en'), ('jp', 'ja')]:
+        try:
+            source = latest_version_dir(_WorkspacePath(BASE_GITHUB), region)
+        except FileNotFoundError:
+            continue
+        version = tuple(int(part) for part in re.findall(r'\d+', source.name))
+        candidates.append((version, region == 'en', source, language))
+    if not candidates:
+        raise FileNotFoundError('No extracted EN/JP combo source')
+    _, _, source, language = max(candidates)
+    return (str(source / 'DataLocal/NyancomboData.csv'),
+            str(source / f'resLocal/Nyancombo_{language}.csv'))
+
 
 def sincronizar_todo():
     ruta_m_data, ruta_m_names = buscar_rutas_maestras()
@@ -56,33 +68,21 @@ def sincronizar_todo():
 
     print(f"✨ ¡Se han detectado {len(nuevas_filas_data)} combos nuevos!")
 
-    # --- Actualizar combos.csv ---
+    # Source data has no header: names use the same physical row index.
+    # Resolve every name before writing either accumulated file.
+    with open(ruta_m_names, 'r', encoding='utf-8') as handle:
+        nombres_maestros = handle.read().splitlines()
+    nombres_nuevos = []
+    for index in nuevas_filas_data.index:
+        if index >= len(nombres_maestros) or not nombres_maestros[index].strip():
+            raise ValueError(f'Missing source name for combo row {index}')
+        nombres_nuevos.append(nombres_maestros[index].strip())
+    previous_names = _WorkspacePath(PATH_NAMES).read_text(encoding='utf-8').rstrip('\n')
     nuevas_filas_data.to_csv(PATH_COMBOS, mode='a', index=False, header=False)
-    print(f"📝 {os.path.basename(PATH_COMBOS)} actualizado.")
+    _WorkspacePath(PATH_NAMES).write_text(
+        previous_names + '\n' + '\n'.join(nombres_nuevos) + '\n', encoding='utf-8')
+    print('📝 Datos y nombres de combos actualizados por el mismo índice fuente.')
 
-    # --- Actualizar combo_names.txt ---
-    try:
-        with open(ruta_m_names, 'r', encoding='utf-8', errors='ignore') as f:
-            nombres_maestros = [l.strip() for l in f.readlines()]
-
-        # 🛠️ AJUSTE DE ÍNDICE (Header offset)
-        # Fila i en Data (con cabecera) -> Línea i-1 en Nombres (sin cabecera)
-        nombres_nuevos = []
-        for i in nuevas_filas_data.index:
-            idx_nombre = i - 1
-            if 0 <= idx_nombre < len(nombres_maestros):
-                nombres_nuevos.append(nombres_maestros[idx_nombre])
-            else:
-                print(f"⚠️ Aviso: No se encontró nombre para la fila {i} del maestro.")
-
-        if nombres_nuevos:
-            with open(PATH_NAMES, 'a', encoding='utf-8') as f:
-                for nombre in nombres_nuevos:
-                    f.write(f"\n{nombre}")
-            print(f"📝 {os.path.basename(PATH_NAMES)} actualizado.")
-
-    except Exception as e:
-        raise RuntimeError(f"❌ Error al actualizar nombres: {e}")
 
 if __name__ == "__main__":
     run_generator(sincronizar_todo)

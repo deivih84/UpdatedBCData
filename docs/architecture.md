@@ -12,9 +12,28 @@
 | Diagnóstico local | `check_project.py` | Archivos y módulos instalados | Informe de solo lectura |
 
 El pipeline ejecuta names → combos → talents → enemies_csv → enemies_json →
-stages → cats_info → evolution → animations → backswings. EN se usa para
-combos/stages; JP para stats, talentos y evolución. Las descripciones
-multilingües tienen herramientas opcionales en `scripts/data`.
+stages → cats_info → evolution → animations → backswings. Los combos usan la
+extracción más reciente de EN/JP (EN en caso de empate), conservando los nombres
+curados y alineando las nuevas filas con su índice fuente. Las fases conservan
+el catálogo EN y añaden los capítulos/mapas exclusivos de JP cuando JP va por
+delante; se unen por ID, nunca por similitud de nombres. Los mapas del coliseo
+mantienen sus restricciones por separado aunque compartan título. Stats,
+talentos y evolución usan JP. Las descripciones multilingües tienen herramientas
+opcionales en `scripts/data`.
+
+`enemies_csv` también obtiene las duraciones de ataque de los paquetes JP
+conservados y guarda `enemy_attack_animations.json` entre los inputs curados.
+Cada registro identifica enemigo, animación, SHA-256, región y versión fuente.
+El generador de enemigos conserva las frecuencias históricas revisadas y usa
+estas duraciones para completar los intervalos CSV cero que carecen de fallback;
+las ausencias siguen produciendo advertencias visibles. La caché puede usarse
+sin el paquete, pero recalcularla exige conservar los instaladores y Android
+`aapt` (SDK o PATH).
+
+Los nombres curados se completan con el nombre JP oficial de una ultraforma
+cuando `unitbuy.csv` declara su evolución y la localización contiene la cuarta
+forma. El validador comprueba ese mínimo independientemente del listado de
+nombres para detectar recortes silenciosos.
 
 `workspace_paths.py` contiene únicamente resolución, selección semántica y
 preparación explícita de inputs. Importar módulos no escribe datos ni busca

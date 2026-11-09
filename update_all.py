@@ -26,7 +26,8 @@ STEPS = {
 }
 # Inputs with accumulated/customized state are saved back only after success.
 CURATED = {'names': ['names.txt'], 'combos': ['combos.csv', 'combo_names.txt'],
-           'talents': ['skill_acquisition.csv'], 'enemies_csv': ['enemy_data.csv']}
+           'cats_info': ['names.txt'], 'talents': ['skill_acquisition.csv'],
+           'enemies_csv': ['enemy_data.csv', 'enemy_attack_animations.json']}
 PUBLIC = {'cats_info': ['cats_data.json'], 'evolution': ['cats_data.json'],
           'backswings': ['cats_data.json'], 'enemies_json': ['enemies_data.json'],
           'stages': ['stages_data.json'], 'animations': ['cats', 'data_version.json']}

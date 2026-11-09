@@ -82,6 +82,12 @@ nueva disponible. `check_project.py --game-data` verifica fuentes básicas;
 comprobación definitiva de packs y coherencia de versión es el dry-run de
 `update_cat_animations.py`.
 
+La inspección de instaladores usa Android `aapt`: se busca en `ANDROID_HOME`,
+`ANDROID_SDK_ROOT`, `PATH` y las ubicaciones estándar del SDK de Android Studio.
+La sincronización de enemigos conserva duraciones de ataque verificadas por ID
+en `data/inputs/enemy_attack_animations.json`; nunca depende de un nombre EN
+para resolver los enemigos nuevos de JP.
+
 Los packs son incrementales: conservar cada fuente aplicada y todas las nuevas
 en orden semántico. No reemplazar un archivo `cats/<id>.zip` con un pack parcial.
 La animación final y el backswing se verifican por separado; las formas ausentes

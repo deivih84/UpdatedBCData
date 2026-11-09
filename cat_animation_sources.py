@@ -99,6 +99,9 @@ def find_aapt(explicit: Optional[Path] = None) -> Path:
                 Path(value).glob("build-tools/*/aapt.exe")
             )
             candidates.extend(Path(value).glob("build-tools/*/aapt"))
+    # Standard per-user Android Studio SDK location on Linux/macOS.
+    candidates.extend((Path.home() / 'Android/Sdk/build-tools').glob('*/aapt'))
+    candidates.extend((Path.home() / 'Library/Android/sdk/build-tools').glob('*/aapt'))
     native_aapt = shutil.which("aapt")
     if native_aapt:
         candidates.append(Path(native_aapt))
@@ -266,6 +269,14 @@ def _install_pack_bytes(source: SourcePackage) -> bytes:
 
 def decrypt_animation_resources(source: SourcePackage) -> dict[str, bytes]:
     """Decrypt exact cat-animation resources from the two local packs."""
+    def canonicalize(name):
+        parsed = parse_resource_name(name)
+        return parsed.canonical_name if parsed is not None else None
+    return decrypt_named_resources(source, canonicalize)
+
+
+def decrypt_named_resources(source: SourcePackage, canonicalize) -> dict[str, bytes]:
+    """Decrypt only names accepted by a caller, rejecting conflicting entries."""
 
     key = (
         core.Hash(core.HashAlgorithm.MD5)
@@ -315,8 +326,8 @@ def decrypt_animation_resources(source: SourcePackage) -> dict[str, bytes]:
                         f"Truncated {pack_name}.list in {source.path.name}"
                     )
                 raw_name = row[0]
-                parsed = parse_resource_name(raw_name)
-                if parsed is None:
+                canonical_name = canonicalize(raw_name)
+                if canonical_name is None:
                     continue
                 try:
                     start, size = int(row[1]), int(row[2])
@@ -332,11 +343,11 @@ def decrypt_animation_resources(source: SourcePackage) -> dict[str, bytes]:
                     game_version,
                 )
                 data = game_file.dec_data.to_bytes()
-                previous = resources.get(parsed.canonical_name)
+                previous = resources.get(canonical_name)
                 if previous is not None and previous != data:
                     raise SourceInspectionError(
                         "Conflicting resources have the same canonical name: "
-                        f"{parsed.canonical_name}"
+                        f"{canonical_name}"
                     )
-                resources[parsed.canonical_name] = data
+                resources[canonical_name] = data
     return resources

@@ -12,6 +12,7 @@ from cat_animation_sources import (
     SourceInspectionError,
     SourcePackage,
     decrypt_animation_resources,
+    decrypt_named_resources,
     parse_badging,
     select_pending_sources,
 )
@@ -153,6 +154,12 @@ class PackDecryptionTests(unittest.TestCase):
             install_pack_member="InstallPack.apk",
             base_apk_member="jp.co.ponos.battlecats.apk",
         )
+
+    def test_enemy_reader_uses_exact_ids_without_accepting_cat_resources(self):
+        source = self.build_source({'792_e02.maanim': b'enemy', '792_f02.maanim': b'cat'}, {})
+        resources = decrypt_named_resources(source, lambda name: name if name == '792_e02.maanim' else None)
+        self.assertEqual(resources, {'792_e02.maanim': b'enemy'})
+        self.assertNotIn('792_e02.maanim', decrypt_animation_resources(source))
 
     def test_decrypts_real_tbcml_packs_and_normalizes_names(self):
         synthetic_source = self.build_source(

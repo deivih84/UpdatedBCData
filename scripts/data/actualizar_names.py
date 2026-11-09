@@ -42,6 +42,29 @@ def preserve_published_names(lines, public_json):
         result.append(line)
     return result
 
+def supplement_ultra_form_names(lines, data_local, res_local):
+    """Append shipped ultra-form names without replacing curated translations."""
+    import csv
+    from scripts.data.actualizar_evolution_costs import parse_unitbuy
+    evolutions = parse_unitbuy(str(_WorkspacePath(data_local) / 'unitbuy.csv'))
+    result = []
+    for line in lines:
+        fields = [value.strip() for value in line.split('\t')]
+        if len(fields) >= 5 and fields[0].isdigit():
+            unit_id = int(fields[0])
+            if 'ultra_form' in evolutions.get(unit_id, {}):
+                existing = [name.strip() for name in fields[3].split('/') if name.strip()]
+                source = _WorkspacePath(res_local) / f'Unit_Explanation{unit_id + 1}_ja.csv'
+                if len(existing) == 2 and source.is_file():
+                    with source.open(encoding='utf-8-sig', newline='') as handle:
+                        names = [row[0].strip() for row in csv.reader(handle) if row]
+                    if len(names) >= 4 and names[3] and names[3] not in names[:3]:
+                        fields[3] = ' / '.join(existing + [names[3]])
+                        line = ' \t'.join(fields)
+        result.append(line)
+    return result
+
+
 def obtener_max_id_local():
     """Escanea BCData DataLocal para encontrar el unit***.csv más alto."""
     unit_dir = buscar_ruta_jp_reciente()
@@ -149,6 +172,8 @@ def actualizar_names_inteligente():
             lineas_finales.append(" \t".join(partes))
 
         lineas_finales = preserve_published_names(lineas_finales, paths.root / 'cats_data.json')
+        unit_dir = _WorkspacePath(buscar_ruta_jp_reciente())
+        lineas_finales = supplement_ultra_form_names(lineas_finales, unit_dir, unit_dir.parent / 'resLocal')
         # 5. Guardar el archivo
         print(f"💾 Guardando en {os.path.basename(PATH_NAMES)}...")
         with open(PATH_NAMES, 'w', encoding='utf-8') as f:

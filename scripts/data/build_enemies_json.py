@@ -285,6 +285,9 @@ def parse_traits(parts):
 
 def main():
     backswings = load_backswings()
+    durations_path = paths.data / 'enemy_attack_animations.json'
+    durations = (json.loads(durations_path.read_text(encoding='utf-8'))['enemies']
+                 if durations_path.is_file() else {})
 
     # Load names and descriptions per language
     all_names = {}
@@ -342,7 +345,9 @@ def main():
         if raw_interval > 0:
             attack_freq = foreswing + (raw_interval * 2 - 1)
         else:
-            attack_freq = backswings.get(en_name, 0)
+            attack_freq = backswings.get(en_name, 0) or durations.get(str(index), {}).get('frames', 0)
+            if attack_freq == 0:
+                print(f'WARNING: enemy {index}: no attack duration available; frequency remains unknown (0)')
 
         traits = parse_traits(parts)
         abilities = parse_abilities(parts)
