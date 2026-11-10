@@ -102,15 +102,6 @@
       "fecha_fin": "2026-11-15"
     },
     {
-      "id": "le_grim_strikes_2026-11-02",
-      "nombre": "Le'Grim Strikes",
-      "caracteristicas": [
-        "Le'Grim Strikes contains a total of 20 No Continues levels, called Rampage Lvs. After beating a Rampage Lv, the player must wait for 30 minutes before they may proceed to the next one. Rewards for the first completion of a Rampage Lv can include XP, Tickets, Catamins and Materials. Every 10 Rampage Lvs plays out the same, but the strength magnifications and enemy base's HP are increased with each level. "
-      ],
-      "fecha_inicio": "2026-11-02",
-      "fecha_fin": "2026-11-09"
-    },
-    {
       "id": "river_city_ball_rolling_2026-11-02",
       "nombre": "River City Ball-Rolling",
       "caracteristicas": [
@@ -201,5 +192,5 @@
       "fecha_fin": "2026-11-16"
     }
   ],
-  "ultima_actualizacion": "2026-11-09T06:47:50Z"
+  "ultima_actualizacion": "2026-11-10T07:27:31Z"
 }

@@ -194,6 +194,62 @@
       "candidates": []
     },
     {
+      "gacha_id": 1086,
+      "event_id": "2026-11-12_1086",
+      "text": "限定超激レアキャラクター「孤月の騎士ルーノス」登場！★詳細はバナーをタップ!!",
+      "reason": "unknown_identity",
+      "candidates": []
+    },
+    {
+      "gacha_id": 947,
+      "event_id": "2026-11-16_947",
+      "text": "召喚能力を持つキャラクター「特命機動アクセル」登場！★詳細はバナーをタップ!!",
+      "reason": "unknown_identity",
+      "candidates": []
+    },
+    {
+      "gacha_id": 1021,
+      "event_id": "2026-11-16_1021",
+      "text": "浮いてる敵にめっぽう強いキャラ「獅子番長ラクレス」登場！★詳細はバナーをタップ!!",
+      "reason": "unknown_identity",
+      "candidates": []
+    },
+    {
+      "gacha_id": 1091,
+      "event_id": "2026-11-18_1091",
+      "text": "14周年記念！感謝の気持ちを込めた特別なガチャ！★詳細はバナーをタップ!!",
+      "reason": "unknown_identity",
+      "candidates": []
+    },
+    {
+      "gacha_id": 939,
+      "event_id": "2026-11-20_939",
+      "text": "バスターズガチャのキャラが一堂に集結!!★超激レア出現率アップの「バスターズ祭」!!",
+      "reason": "unknown_identity",
+      "candidates": []
+    },
+    {
+      "gacha_id": 1067,
+      "event_id": "2026-11-20_1067",
+      "text": "赤と黒の攻撃をたまに無効化する「鉄腕！東雲寺あかね」登場！★詳細はバナーをタップ!!",
+      "reason": "unknown_identity",
+      "candidates": []
+    },
+    {
+      "gacha_id": 1092,
+      "event_id": "2026-11-22_1092",
+      "text": "14周年記念！感謝の気持ちを込めた特別なガチャ！★詳細はバナーをタップ!!",
+      "reason": "unknown_identity",
+      "candidates": []
+    },
+    {
+      "gacha_id": 1093,
+      "event_id": "2026-11-24_1093",
+      "text": "14周年記念！感謝の気持ちを込めた特別なガチャ！★詳細はバナーをタップ!!",
+      "reason": "unknown_identity",
+      "candidates": []
+    },
+    {
       "gacha_id": 23,
       "reason": "starter_pool_not_available_online"
     },
@@ -207,8 +263,38 @@
       "reason": "image_not_found"
     },
     {
+      "name": "Dragon Emperors (JP #1059)",
+      "gacha_id": 1059,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "The Almighties",
+      "gacha_id": 991,
+      "reason": "image_not_found"
+    },
+    {
       "name": "Elemental Pixies",
       "gacha_id": 1004,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Wargods Vajiras",
+      "gacha_id": 1043,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Iron Legion",
+      "gacha_id": 979,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Girls & Monsters",
+      "gacha_id": 1015,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Luga Families",
+      "gacha_id": 986,
       "reason": "image_not_found"
     }
   ],
