@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "lastUpdate": "2026-11-09 17:51:33",
+  "lastUpdate": "2026-11-10 00:04:28",
   "regions": {
     "en": {
       "gameVersion": "15.7.0",
@@ -21,10 +21,10 @@
       "summaryPath": "update_summaries/jp/16.0.0.json",
       "status": "published",
       "sourceHashes": {
-        "cats_data.json": "sha256:430fcc1e444e501edcab133303634a9efc7aca5a39d8f2b3ea843f8566051280",
+        "cats_data.json": "sha256:c9a7c69987f92806f69377c4f9ff4a61bdf3a563e0bf819a4a3421ef987d7a7c",
         "enemies_data.json": "sha256:ce8fa8641ba2d5747e3c7c68a79c17a6ee61ba218ba06244b4bf979550973110",
         "stages_data.json": "sha256:ee8080901f1347aed587947eaed769c76e9f4a70fd9172dbc720aa40e6aa2023",
-        "data_version.json": "sha256:d42c2e89fa24c5f57282bdc1ed91829e400087978e8da0414bbaaa3de890d487",
+        "data_version.json": "sha256:fb723d199ae545d3e29d94046597646b96884f248ccf780a7200087ee19e9775",
         "15.7.1jp_extracted": "sha256:1faa463a7877e03035efed446cb2fdac29beb51adf86c7d1f17ae1658db635d2",
         "16.0.0jp_extracted": "sha256:4af79937bf70393469f979f3ef07dc508ace763567d7479aaa7b0a986ee2a715"
       }

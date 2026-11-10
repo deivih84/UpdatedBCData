@@ -1,7 +1,7 @@
 {
     "metadata": {
         "version": "16.0.0",
-        "last_update": "2026-11-09 15:35:25",
+        "last_update": "2026-11-10 00:04:28",
         "total_units": 888
     },
     "units": {
@@ -3244,7 +3244,7 @@
             "info": {
                 "rarity": "UR",
                 "name_basic": "Kalisa",
-                "names_evolved": "Kalisa, type χ / Divine Kalisa χ / アルティメットＸＸカリファ",
+                "names_evolved": "Kalisa, type χ / Divine Kalisa χ / Ultimate Kalisa XX",
                 "obtain_method": "Rare Cat Capsule - Cyber Academy Galaxy Gals",
                 "evolution": {
                     "true_form": {
@@ -15882,8 +15882,8 @@
         "882": {
             "info": {
                 "rarity": "EX",
-                "name_basic": "監獄ネコ",
-                "names_evolved": "脱獄ネコ / 脱獄ネコ",
+                "name_basic": "Prison Cat",
+                "names_evolved": "Jailbreak Cat / Jailbreak Cat",
                 "obtain_method": "?"
             },
             "stats": [
@@ -15900,8 +15900,8 @@
         "883": {
             "info": {
                 "rarity": "EX",
-                "name_basic": "監獄ネコガール",
-                "names_evolved": "脱獄ネコガール / 脱獄ネコガール",
+                "name_basic": "Prison Cat Girl",
+                "names_evolved": "Jailbreak Cat Girl / Jailbreak Cat Girl",
                 "obtain_method": "?"
             },
             "stats": [
@@ -15918,8 +15918,8 @@
         "884": {
             "info": {
                 "rarity": "EX",
-                "name_basic": "監獄タンクネコ",
-                "names_evolved": "脱獄ネコカベ / 脱獄ネコカベ",
+                "name_basic": "Prison Tank Cat",
+                "names_evolved": "Jailbreak Wall Cat / Jailbreak Wall Cat",
                 "obtain_method": "?"
             },
             "stats": [
@@ -15936,8 +15936,8 @@
         "885": {
             "info": {
                 "rarity": "EX",
-                "name_basic": "監獄ちびネコ",
-                "names_evolved": "脱獄ちびネコアーマー / 脱獄ちびネコアーマー",
+                "name_basic": "Prison Li’l Cat",
+                "names_evolved": "Jailbreak Li’l Cat Armor / Jailbreak Li’l Cat Armor",
                 "obtain_method": "?"
             },
             "stats": [
@@ -15954,8 +15954,8 @@
         "886": {
             "info": {
                 "rarity": "UR",
-                "name_basic": "悠久の冒険者エターニス",
-                "names_evolved": "真理の探究者エターニス / 真理の探究者エターニス",
+                "name_basic": "Eternis the Eternal Adventurer",
+                "names_evolved": "Eternis the Truth Seeker / Eternis the Truth Seeker",
                 "obtain_method": "?"
             },
             "stats": [
@@ -15972,7 +15972,7 @@
         "887": {
             "info": {
                 "rarity": "UR",
-                "name_basic": "888_1",
+                "name_basic": "Spirit of Eternis",
                 "names_evolved": "N/A",
                 "obtain_method": "?"
             },

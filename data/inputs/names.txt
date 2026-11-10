@@ -157,7 +157,7 @@
 156 	RR 	Dragon League Swordsman 	Dragon League Witch 	Drop - Dragon League Collaboration
 157 	EX 	Nubobo 	Gorubo 	External App - Dragon League Collaboration
 158 	UR 	Uesugi Kenshin 	Wargod Kenshin / Immortal Kenshin / Hellrider Kenshin 	Rare Cat Capsule - Sengoku Wargods Vajiras
-159 	UR 	Kalisa 	Kalisa, type χ / Divine Kalisa χ / アルティメットＸＸカリファ 	Rare Cat Capsule - Cyber Academy Galaxy Gals
+159 	UR 	Kalisa 	Kalisa, type χ / Divine Kalisa χ / Ultimate Kalisa XX 	Rare Cat Capsule - Cyber Academy Galaxy Gals
 160 	SR 	Yurinchi 	Phoenix Yurinchi / Gekirinchi 	Rare Cat Capsule - Princess Punt Sweets Collaboration
 161 	UR 	Crazed Princess Punt 	Crazed Princess Punt CC / Manic Princess Punt 	Rare Cat Capsule - Princess Punt Sweets Collaboration
 162 	EX 	Sho Ayanokoji 	Shoyan & Cat 	Serial Code - Kishidan Collaboration
@@ -880,9 +880,9 @@
 879 	UR	Sojiro Seta	Sojiro Seta CC / Sojiro Seta CC	Rare Cat Capsule - Rurouni Kenshin Collaboration
 880 	UR	Makoto Shishio	Makoto Shishio CC / Makoto Shishio CC	Rare Cat Capsule - Rurouni Kenshin Collaboration
 881 	LR	Seijuro Hiko	Seijuro Hiko CC / Seijuro Hiko CC	Rare Cat Capsule - Rurouni Kenshin Collaboration
-882 	EX 	監獄ネコ 	脱獄ネコ / 脱獄ネコ 	?
-883 	EX 	監獄ネコガール 	脱獄ネコガール / 脱獄ネコガール 	?
-884 	EX 	監獄タンクネコ 	脱獄ネコカベ / 脱獄ネコカベ 	?
-885 	EX 	監獄ちびネコ 	脱獄ちびネコアーマー / 脱獄ちびネコアーマー 	?
-886 	UR 	悠久の冒険者エターニス 	真理の探究者エターニス / 真理の探究者エターニス 	?
-887 	UR 	888_1 	N/A 	?
+882 	EX 	Prison Cat 	Jailbreak Cat / Jailbreak Cat 	?
+883 	EX 	Prison Cat Girl 	Jailbreak Cat Girl / Jailbreak Cat Girl 	?
+884 	EX 	Prison Tank Cat 	Jailbreak Wall Cat / Jailbreak Wall Cat 	?
+885 	EX 	Prison Li’l Cat 	Jailbreak Li’l Cat Armor / Jailbreak Li’l Cat Armor 	?
+886 	UR 	Eternis the Eternal Adventurer 	Eternis the Truth Seeker / Eternis the Truth Seeker 	?
+887 	UR 	Spirit of Eternis 	N/A 	?
