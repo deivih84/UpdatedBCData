@@ -884,5 +884,5 @@
 883 	EX 	Prison Cat Girl 	Jailbreak Cat Girl / Jailbreak Cat Girl 	?
 884 	EX 	Prison Tank Cat 	Jailbreak Wall Cat / Jailbreak Wall Cat 	?
 885 	EX 	Prison Li’l Cat 	Jailbreak Li’l Cat Armor / Jailbreak Li’l Cat Armor 	?
-886 	UR 	Eternis the Eternal Adventurer 	Eternis the Truth Seeker / Eternis the Truth Seeker 	?
+886 	UR 	Eternis the Eternal Adventurer 	Eternis the Truth Seeker / Eternis the Truth Seeker 	Rare Cat Capsule - Best of the Best
 887 	UR 	Spirit of Eternis 	N/A 	?

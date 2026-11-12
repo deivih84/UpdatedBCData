@@ -38,6 +38,10 @@ def preserve_published_names(lines, public_json):
             info = unit['info']
             fields[2] = info.get('name_basic', fields[2])
             fields[3] = info.get('names_evolved', fields[3])
+            # New releases can still have an unknown unlock on the wiki.
+            # Keep the reviewed public method until the source supplies one.
+            if fields[4] in ('', '?', 'N/A'):
+                fields[4] = info.get('obtain_method', fields[4])
             line = ' \t'.join(fields)
         result.append(line)
     return result

@@ -50,6 +50,22 @@ class ImportedGeneratorsTests(unittest.TestCase):
             self.assertIn('Gato', result[0])
             self.assertEqual(result[1], lines[1])
 
+    def test_name_refresh_keeps_reviewed_unlock_until_source_is_known(self):
+        module = importlib.import_module('scripts.data.actualizar_names')
+        import json
+        method = 'Rare Cat Capsule - Best of the Best'
+        with tempfile.TemporaryDirectory() as tmp:
+            public = Path(tmp) / 'cats_data.json'
+            public.write_text(json.dumps({'units': {'886': {'info': {
+                'obtain_method': method
+            }}}}), encoding='utf-8')
+            for source_method in ('?', '', 'N/A', 'Rare Cat Capsule - Updated banner'):
+                with self.subTest(source_method=source_method):
+                    line = f'886 \tUR \tEternis \tTruth Seeker \t{source_method}'
+                    result = module.preserve_published_names([line], public)
+                    expected = source_method if source_method not in ('?', '', 'N/A') else method
+                    self.assertEqual(result[0].split('\t')[4].strip(), expected)
+
     def test_stages_source_selection_is_deferred_until_execution(self):
         module = importlib.import_module('scripts.data.parse_stages')
         with tempfile.TemporaryDirectory() as tmp:
