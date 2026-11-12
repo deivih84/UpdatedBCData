@@ -6,6 +6,30 @@
   "changes": [],
   "pending": [
     {
+      "name": "Platinum Capsules (EN #1063)",
+      "gacha_id": 1063,
+      "reason": "image_unavailable",
+      "detail": "403 Client Error: Forbidden for url: https://static.wikia.nocookie.net/battle-cats/images/1/1d/Gatya_bnr174.png/revision/latest?cb=20200809225623"
+    },
+    {
+      "name": "Platinum Capsules",
+      "gacha_id": 1071,
+      "reason": "image_unavailable",
+      "detail": "403 Client Error: Forbidden for url: https://static.wikia.nocookie.net/battle-cats/images/1/1d/Gatya_bnr174.png/revision/latest?cb=20200809225623"
+    },
+    {
+      "name": "Legend Capsules (EN #1064)",
+      "gacha_id": 1064,
+      "reason": "image_unavailable",
+      "detail": "403 Client Error: Forbidden for url: https://static.wikia.nocookie.net/battle-cats/images/f/f9/Gatya_bnr640.png/revision/latest?cb=20210927192516"
+    },
+    {
+      "name": "Legend Capsules",
+      "gacha_id": 1072,
+      "reason": "image_unavailable",
+      "detail": "403 Client Error: Forbidden for url: https://static.wikia.nocookie.net/battle-cats/images/f/f9/Gatya_bnr640.png/revision/latest?cb=20210927192516"
+    },
+    {
       "name": "Halloween Gacha",
       "gacha_id": 926,
       "reason": "image_not_found"

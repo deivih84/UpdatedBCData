@@ -5,72 +5,12 @@
   },
   "changes": [
     {
-      "name": "The Almighties",
-      "gacha_id": 991,
+      "name": "Dragon Emperors",
+      "gacha_id": 1059,
       "created": false,
-      "units": {},
-      "rates": {
-        "rareChance": {
-          "old": 6440,
-          "new": 6970
-        },
-        "uberChance": {
-          "old": 1000,
-          "new": 500
-        },
-        "legendChance": {
-          "old": 60,
-          "new": 30
-        }
-      }
-    },
-    {
-      "name": "Luga Families",
-      "gacha_id": 986,
-      "created": false,
-      "units": {},
-      "rates": {
-        "rareChance": {
-          "old": 6440,
-          "new": 6970
-        },
-        "uberChance": {
-          "old": 1000,
-          "new": 500
-        },
-        "legendChance": {
-          "old": 60,
-          "new": 30
-        }
-      }
-    },
-    {
-      "name": "RoyalFest",
-      "gacha_id": 861,
-      "created": true,
       "units": {
         "rares": {
           "added": [
-            37,
-            38,
-            41,
-            46,
-            47,
-            48,
-            49,
-            50,
-            51,
-            52,
-            55,
-            56,
-            58,
-            145,
-            146,
-            147,
-            148,
-            149,
-            197,
-            198,
             308,
             325,
             376,
@@ -81,78 +21,54 @@
         },
         "super_rares": {
           "added": [
-            30,
-            31,
-            32,
-            33,
-            35,
-            36,
-            39,
-            40,
-            61,
-            150,
-            151,
-            152,
-            153,
-            199,
+            129,
+            131,
+            144,
+            200,
+            237,
+            238,
+            239,
             307,
             377,
+            443,
+            444,
+            445,
+            446,
+            447,
             522
           ],
           "removed": []
         },
         "ubers": {
           "added": [
-            143,
-            212,
-            271,
-            302,
-            330,
-            496,
-            612,
-            619,
-            633,
-            644,
-            661,
-            682,
-            687,
-            714
+            396,
+            505,
+            620,
+            660,
+            760,
+            861
           ],
           "removed": []
         },
         "legends": {
           "added": [
-            448,
-            449,
-            450,
-            451,
-            455,
-            461,
-            463,
-            478,
-            481,
-            493,
-            544
+            450
           ],
           "removed": []
         }
       },
       "rates": {
         "rareChance": {
-          "old": null,
-          "new": 6940
+          "old": 7500,
+          "new": 6970
         },
         "supaChance": {
-          "old": null,
+          "old": 2000,
           "new": 2500
         },
-        "uberChance": {
-          "old": null,
-          "new": 500
-        },
         "legendChance": {
-          "old": null,
-          "new": 60
+          "old": 0,
+          "new": 30
         }
       }
     }
@@ -263,9 +179,99 @@
       "reason": "image_not_found"
     },
     {
-      "name": "Dragon Emperors (JP #1059)",
+      "name": "Dragon Emperors (JP #33)",
+      "gacha_id": 33,
+      "reason": "image_unavailable",
+      "detail": "403 Client Error: Forbidden for url: https://static.wikia.nocookie.net/battle-cats/images/1/1e/Gatya_bnr33.png/revision/latest?cb=20231203140711"
+    },
+    {
+      "name": "Dragon Emperors",
       "gacha_id": 1059,
       "reason": "image_not_found"
+    },
+    {
+      "name": "Platinum Capsules",
+      "gacha_id": 1071,
+      "reason": "image_unavailable",
+      "detail": "403 Client Error: Forbidden for url: https://static.wikia.nocookie.net/battle-cats/images/c/c7/Gatya_bnr174_ja.png/revision/latest?cb=20231203044344"
+    },
+    {
+      "name": "Platinum Capsules (JP #1008)",
+      "gacha_id": 1008,
+      "reason": "image_unavailable",
+      "detail": "403 Client Error: Forbidden for url: https://static.wikia.nocookie.net/battle-cats/images/c/c7/Gatya_bnr174_ja.png/revision/latest?cb=20231203044344"
+    },
+    {
+      "name": "Platinum Capsules (JP #1024)",
+      "gacha_id": 1024,
+      "reason": "image_unavailable",
+      "detail": "403 Client Error: Forbidden for url: https://static.wikia.nocookie.net/battle-cats/images/c/c7/Gatya_bnr174_ja.png/revision/latest?cb=20231203044344"
+    },
+    {
+      "name": "Platinum Capsules (JP #1036)",
+      "gacha_id": 1036,
+      "reason": "image_unavailable",
+      "detail": "403 Client Error: Forbidden for url: https://static.wikia.nocookie.net/battle-cats/images/c/c7/Gatya_bnr174_ja.png/revision/latest?cb=20231203044344"
+    },
+    {
+      "name": "Platinum Capsules (JP #1047)",
+      "gacha_id": 1047,
+      "reason": "image_unavailable",
+      "detail": "403 Client Error: Forbidden for url: https://static.wikia.nocookie.net/battle-cats/images/c/c7/Gatya_bnr174_ja.png/revision/latest?cb=20231203044344"
+    },
+    {
+      "name": "Platinum Capsules (JP #1057)",
+      "gacha_id": 1057,
+      "reason": "image_unavailable",
+      "detail": "403 Client Error: Forbidden for url: https://static.wikia.nocookie.net/battle-cats/images/c/c7/Gatya_bnr174_ja.png/revision/latest?cb=20231203044344"
+    },
+    {
+      "name": "Platinum Capsules (JP #1063)",
+      "gacha_id": 1063,
+      "reason": "image_unavailable",
+      "detail": "403 Client Error: Forbidden for url: https://static.wikia.nocookie.net/battle-cats/images/c/c7/Gatya_bnr174_ja.png/revision/latest?cb=20231203044344"
+    },
+    {
+      "name": "Legend Capsules",
+      "gacha_id": 1072,
+      "reason": "image_unavailable",
+      "detail": "403 Client Error: Forbidden for url: https://static.wikia.nocookie.net/battle-cats/images/f/f9/Gatya_bnr640.png/revision/latest?cb=20210927192516"
+    },
+    {
+      "name": "Legend Capsules (JP #1009)",
+      "gacha_id": 1009,
+      "reason": "image_unavailable",
+      "detail": "403 Client Error: Forbidden for url: https://static.wikia.nocookie.net/battle-cats/images/f/f9/Gatya_bnr640.png/revision/latest?cb=20210927192516"
+    },
+    {
+      "name": "Legend Capsules (JP #1025)",
+      "gacha_id": 1025,
+      "reason": "image_unavailable",
+      "detail": "403 Client Error: Forbidden for url: https://static.wikia.nocookie.net/battle-cats/images/f/f9/Gatya_bnr640.png/revision/latest?cb=20210927192516"
+    },
+    {
+      "name": "Legend Capsules (JP #1035)",
+      "gacha_id": 1035,
+      "reason": "image_unavailable",
+      "detail": "403 Client Error: Forbidden for url: https://static.wikia.nocookie.net/battle-cats/images/f/f9/Gatya_bnr640.png/revision/latest?cb=20210927192516"
+    },
+    {
+      "name": "Legend Capsules (JP #1048)",
+      "gacha_id": 1048,
+      "reason": "image_unavailable",
+      "detail": "403 Client Error: Forbidden for url: https://static.wikia.nocookie.net/battle-cats/images/f/f9/Gatya_bnr640.png/revision/latest?cb=20210927192516"
+    },
+    {
+      "name": "Legend Capsules (JP #1058)",
+      "gacha_id": 1058,
+      "reason": "image_unavailable",
+      "detail": "403 Client Error: Forbidden for url: https://static.wikia.nocookie.net/battle-cats/images/f/f9/Gatya_bnr640.png/revision/latest?cb=20210927192516"
+    },
+    {
+      "name": "Legend Capsules (JP #1064)",
+      "gacha_id": 1064,
+      "reason": "image_unavailable",
+      "detail": "403 Client Error: Forbidden for url: https://static.wikia.nocookie.net/battle-cats/images/f/f9/Gatya_bnr640.png/revision/latest?cb=20210927192516"
     },
     {
       "name": "The Almighties",
@@ -298,13 +304,7 @@
       "reason": "image_not_found"
     }
   ],
-  "images": [
-    {
-      "name": "RoyalFest",
-      "gacha_id": 861,
-      "file": "banner_jp_861_672efdcd43439bab.png"
-    }
-  ],
+  "images": [],
   "errors": [],
   "region": "jp",
   "missingImages": [

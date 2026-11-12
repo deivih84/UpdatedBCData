@@ -11,8 +11,8 @@
       ]
     },
     {
-      "id": "dragon_emperors_jp_1059_2026-11-12",
-      "nombre": "Dragon Emperors (JP #1059)",
+      "id": "dragon_emperors_2026-11-12",
+      "nombre": "Dragon Emperors",
       "fecha_inicio": "2026-11-12",
       "fecha_fin": "2026-11-16",
       "caracteristicas": [
@@ -81,8 +81,8 @@
       ]
     },
     {
-      "id": "dragon_emperors_jp_1059_2026-11-25",
-      "nombre": "Dragon Emperors (JP #1059)",
+      "id": "dragon_emperors_2026-11-25",
+      "nombre": "Dragon Emperors",
       "fecha_inicio": "2026-11-25",
       "fecha_fin": "2026-11-27",
       "caracteristicas": [
@@ -278,5 +278,5 @@
       "fecha_fin": "2026-05-01"
     }
   ],
-  "ultima_actualizacion": "2026-11-10T07:28:01Z"
+  "ultima_actualizacion": "2026-11-12T07:23:29Z"
 }
