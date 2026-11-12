@@ -179,99 +179,9 @@
       "reason": "image_not_found"
     },
     {
-      "name": "Dragon Emperors (JP #33)",
-      "gacha_id": 33,
-      "reason": "image_unavailable",
-      "detail": "403 Client Error: Forbidden for url: https://static.wikia.nocookie.net/battle-cats/images/1/1e/Gatya_bnr33.png/revision/latest?cb=20231203140711"
-    },
-    {
       "name": "Dragon Emperors",
       "gacha_id": 1059,
       "reason": "image_not_found"
-    },
-    {
-      "name": "Platinum Capsules",
-      "gacha_id": 1071,
-      "reason": "image_unavailable",
-      "detail": "403 Client Error: Forbidden for url: https://static.wikia.nocookie.net/battle-cats/images/c/c7/Gatya_bnr174_ja.png/revision/latest?cb=20231203044344"
-    },
-    {
-      "name": "Platinum Capsules (JP #1008)",
-      "gacha_id": 1008,
-      "reason": "image_unavailable",
-      "detail": "403 Client Error: Forbidden for url: https://static.wikia.nocookie.net/battle-cats/images/c/c7/Gatya_bnr174_ja.png/revision/latest?cb=20231203044344"
-    },
-    {
-      "name": "Platinum Capsules (JP #1024)",
-      "gacha_id": 1024,
-      "reason": "image_unavailable",
-      "detail": "403 Client Error: Forbidden for url: https://static.wikia.nocookie.net/battle-cats/images/c/c7/Gatya_bnr174_ja.png/revision/latest?cb=20231203044344"
-    },
-    {
-      "name": "Platinum Capsules (JP #1036)",
-      "gacha_id": 1036,
-      "reason": "image_unavailable",
-      "detail": "403 Client Error: Forbidden for url: https://static.wikia.nocookie.net/battle-cats/images/c/c7/Gatya_bnr174_ja.png/revision/latest?cb=20231203044344"
-    },
-    {
-      "name": "Platinum Capsules (JP #1047)",
-      "gacha_id": 1047,
-      "reason": "image_unavailable",
-      "detail": "403 Client Error: Forbidden for url: https://static.wikia.nocookie.net/battle-cats/images/c/c7/Gatya_bnr174_ja.png/revision/latest?cb=20231203044344"
-    },
-    {
-      "name": "Platinum Capsules (JP #1057)",
-      "gacha_id": 1057,
-      "reason": "image_unavailable",
-      "detail": "403 Client Error: Forbidden for url: https://static.wikia.nocookie.net/battle-cats/images/c/c7/Gatya_bnr174_ja.png/revision/latest?cb=20231203044344"
-    },
-    {
-      "name": "Platinum Capsules (JP #1063)",
-      "gacha_id": 1063,
-      "reason": "image_unavailable",
-      "detail": "403 Client Error: Forbidden for url: https://static.wikia.nocookie.net/battle-cats/images/c/c7/Gatya_bnr174_ja.png/revision/latest?cb=20231203044344"
-    },
-    {
-      "name": "Legend Capsules",
-      "gacha_id": 1072,
-      "reason": "image_unavailable",
-      "detail": "403 Client Error: Forbidden for url: https://static.wikia.nocookie.net/battle-cats/images/f/f9/Gatya_bnr640.png/revision/latest?cb=20210927192516"
-    },
-    {
-      "name": "Legend Capsules (JP #1009)",
-      "gacha_id": 1009,
-      "reason": "image_unavailable",
-      "detail": "403 Client Error: Forbidden for url: https://static.wikia.nocookie.net/battle-cats/images/f/f9/Gatya_bnr640.png/revision/latest?cb=20210927192516"
-    },
-    {
-      "name": "Legend Capsules (JP #1025)",
-      "gacha_id": 1025,
-      "reason": "image_unavailable",
-      "detail": "403 Client Error: Forbidden for url: https://static.wikia.nocookie.net/battle-cats/images/f/f9/Gatya_bnr640.png/revision/latest?cb=20210927192516"
-    },
-    {
-      "name": "Legend Capsules (JP #1035)",
-      "gacha_id": 1035,
-      "reason": "image_unavailable",
-      "detail": "403 Client Error: Forbidden for url: https://static.wikia.nocookie.net/battle-cats/images/f/f9/Gatya_bnr640.png/revision/latest?cb=20210927192516"
-    },
-    {
-      "name": "Legend Capsules (JP #1048)",
-      "gacha_id": 1048,
-      "reason": "image_unavailable",
-      "detail": "403 Client Error: Forbidden for url: https://static.wikia.nocookie.net/battle-cats/images/f/f9/Gatya_bnr640.png/revision/latest?cb=20210927192516"
-    },
-    {
-      "name": "Legend Capsules (JP #1058)",
-      "gacha_id": 1058,
-      "reason": "image_unavailable",
-      "detail": "403 Client Error: Forbidden for url: https://static.wikia.nocookie.net/battle-cats/images/f/f9/Gatya_bnr640.png/revision/latest?cb=20210927192516"
-    },
-    {
-      "name": "Legend Capsules (JP #1064)",
-      "gacha_id": 1064,
-      "reason": "image_unavailable",
-      "detail": "403 Client Error: Forbidden for url: https://static.wikia.nocookie.net/battle-cats/images/f/f9/Gatya_bnr640.png/revision/latest?cb=20210927192516"
     },
     {
       "name": "The Almighties",
