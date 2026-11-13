@@ -2100,9 +2100,11 @@
     {
       "nombre": "Royalfest",
       "aliases": [
-        "Royalfest"
+        "Royalfest",
+        "A legion of top-class lady Cats led by Princess Cat! 2x Legend Rare drop chance!",
+        "RoyalFest"
       ],
-      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_gatcha_royalfest.png",
+      "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/gacha/banner_en_861_33b446aa68774c36.png",
       "rareChance": 6940,
       "supaChance": 2500,
       "uberChance": 500,

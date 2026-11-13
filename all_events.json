@@ -67,7 +67,8 @@
       "descripcion": "Introduced in Version 14.3 adds a new gimmick where applying status effects grant more points than killing enemies. More points will be awarded for units with fewer target Traits (not counting those gained from Talents). This rewards for this dojo are Treasure Chests, which contain exclusive Talent Orbs that can grant special abilities to the units that are given them.",
       "url": "https://battlecats.miraheze.org/wiki/Ranking_Dojo#Arena_of_Destiny",
       "event_ids": [
-        11046
+        11046,
+        11047
       ]
     },
     {
@@ -249,7 +250,10 @@
       "nombre": "Horrorpotamus",
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_horrorpotamous.png",
       "descripcion": "Horrorpotamus contains a total of 20 No Continues levels, called Cosmic Juggernaut Lvs. After beating three Cosmic Juggernaut Lvs, the player must wait for 90 minutes before they may proceed to the next one. (30 minutes for one available) Rewards for the first completion of a Cosmic Juggernaut Lv can include XP, Tickets, Catamins and Materials. Every 20 Cosmic Juggernaut Lvs plays out the same, but the strength magnifications and enemy base's HP are increased with each level.",
-      "url": "https://youtu.be/DxJF-8N1Rz0"
+      "url": "https://youtu.be/DxJF-8N1Rz0",
+      "event_ids": [
+        24035
+      ]
     },
     {
       "nombre": "Street Fighter Collab",

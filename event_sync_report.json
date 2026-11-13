@@ -1,10 +1,17 @@
 {
   "changes": [
     {
-      "name": "Tag Arena Challenge",
+      "name": "Arena of Destiny",
       "action": "updated",
       "event_ids": [
-        24054
+        11047
+      ]
+    },
+    {
+      "name": "Horrorpotamus",
+      "action": "updated",
+      "event_ids": [
+        24035
       ]
     }
   ],
@@ -23,6 +30,34 @@
       "reason": "unknown_identity"
     },
     {
+      "name": "Treasure Festival (Empire)",
+      "event_ids": [
+        100
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Treasure Festival (Future)",
+      "event_ids": [
+        101
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "EoC/ItF/CotC Half Energy Cost",
+      "event_ids": [
+        102
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Treasure Festival (Cosmos)",
+      "event_ids": [
+        104
+      ],
+      "reason": "image_not_found"
+    },
+    {
       "name": "XP Stage",
       "event_ids": [
         1028
@@ -37,6 +72,13 @@
       "reason": "image_not_found"
     },
     {
+      "name": "The Battle Cats POP!",
+      "event_ids": [
+        1065
+      ],
+      "reason": "image_not_found"
+    },
+    {
       "name": "XP Colosseum",
       "event_ids": [
         1124
@@ -44,9 +86,93 @@
       "reason": "image_not_found"
     },
     {
+      "name": "Li'l Cat Awakens!",
+      "event_ids": [
+        1130
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Li'l Tank Awakens!",
+      "event_ids": [
+        1131
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Li'l Axe Awakens!",
+      "event_ids": [
+        1132
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Li'l Gross Awakens!",
+      "event_ids": [
+        1133
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Li'l Cow Awakens!",
+      "event_ids": [
+        1134
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Li'l Bird Awakens!",
+      "event_ids": [
+        1135
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Li'l Fish Awakens!",
+      "event_ids": [
+        1136
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Li'l Lizard Awakens!",
+      "event_ids": [
+        1137
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Li'l Titan Awakens!",
+      "event_ids": [
+        1138
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Cat Kart Awakens!",
+      "event_ids": [
+        1143
+      ],
+      "reason": "image_not_found"
+    },
+    {
       "name": "Merciless XP!",
       "event_ids": [
         1155
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "A Cultured Festival",
+      "event_ids": [
+        1174
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "The Battle Cats Unite!",
+      "event_ids": [
+        1206
       ],
       "reason": "image_not_found"
     },
@@ -103,11 +229,33 @@
       "reason": "image_not_found"
     },
     {
+      "name": "Li'l Cat's Trial",
+      "event_ids": [
+        1339
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Machines in Revolt",
+      "reason": "image_not_found"
+    },
+    {
       "name": "River City Relay",
       "reason": "image_not_found"
     },
     {
+      "name": "Food Stall Cat Awakes!",
+      "event_ids": [
+        1384
+      ],
+      "reason": "image_not_found"
+    },
+    {
       "name": "Cats Eye Cave",
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Arena of Destiny",
       "reason": "image_not_found"
     },
     {
@@ -146,10 +294,27 @@
     }
   ],
   "warnings": [
+    "Treasure Festival (Empire): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Treasure Festival (Future): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "EoC/ItF/CotC Half Energy Cost: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Treasure Festival (Cosmos): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "XP Stage: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "XP Megablitz!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "The Battle Cats POP!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "XP Colosseum: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Li'l Cat Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Li'l Tank Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Li'l Axe Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Li'l Gross Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Li'l Cow Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Li'l Bird Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Li'l Fish Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Li'l Lizard Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Li'l Titan Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Cat Kart Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Merciless XP!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "A Cultured Festival: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "The Battle Cats Unite!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "River City Ball-Rolling: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "River City Challenge Course: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "River City Three-Leg Race ①: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
@@ -160,8 +325,12 @@
     "#02 Sugar Struggle: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "#04 Mischievous Schemes: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Resident Undead: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Li'l Cat's Trial: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Machines in Revolt: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "River City Relay: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Food Stall Cat Awakes!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Cats Eye Cave: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Arena of Destiny: section_has_no_verified_poster",
     "Legend Quest: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Tag Arena Challenge: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "#03 Demons' Night Out: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
@@ -174,14 +343,14 @@
   "sources": {
     "schedule": {
       "url": "PONOS EN sale.tsv",
-      "sha256": "fa15826ad22e5c53301527d75bda63199e8251c232574ec5bb1a2fc124f81797"
+      "sha256": "4cc8a9bc0a7f16f464dd438fa2275d6fbd7a65d85aad8e25a5aaf4c1cbeefa04"
     },
     "names": {
       "version": "15.7.0",
       "source": "BCData EN resources"
     }
   },
-  "calendarEvents": 11,
+  "calendarEvents": 14,
   "missingImages": [
     "Cats Eye Cave",
     "Cats Eye Caverns",

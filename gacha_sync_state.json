@@ -1291,8 +1291,8 @@
       },
       "source": "bc.godfat.org (validated against PONOS)",
       "gameVersion": null,
-      "start_date": "2026-10-18",
-      "end_date": "2026-10-20",
+      "start_date": "2026-11-18",
+      "end_date": "2026-11-20",
       "image": {
         "sourceUrl": "https://static.wikitide.net/battlecatswiki/6/68/Gatya_bnr943_en.png",
         "sourcePage": "https://battlecats.miraheze.org/wiki/File:Gatya_bnr943_en.png",
@@ -1622,8 +1622,8 @@
       },
       "source": "bc.godfat.org (validated against PONOS)",
       "gameVersion": null,
-      "start_date": "2026-10-26",
-      "end_date": "2026-10-30",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-27",
       "image": {
         "sourceUrl": "https://static.wikitide.net/battlecatswiki/b/b9/Gatya_bnr948_en.png",
         "sourcePage": "https://battlecats.miraheze.org/wiki/File:Gatya_bnr948_en.png",
@@ -1724,8 +1724,8 @@
       },
       "source": "bc.godfat.org (validated against PONOS)",
       "gameVersion": null,
-      "start_date": "2026-10-26",
-      "end_date": "2026-10-30",
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-27",
       "image": {
         "sourceUrl": "https://static.wikitide.net/battlecatswiki/0/0d/Gatya_bnr945_en.png",
         "sourcePage": "https://battlecats.miraheze.org/wiki/File:Gatya_bnr945_en.png",
@@ -1824,8 +1824,8 @@
       },
       "source": "bc.godfat.org (validated against PONOS)",
       "gameVersion": null,
-      "start_date": "2026-10-16",
-      "end_date": "2026-10-18",
+      "start_date": "2026-11-16",
+      "end_date": "2026-11-18",
       "image": {
         "sourceUrl": "https://static.wikitide.net/battlecatswiki/4/49/Gatya_bnr949_en.png",
         "sourcePage": "https://battlecats.miraheze.org/wiki/File:Gatya_bnr949_en.png",
@@ -1925,8 +1925,8 @@
       },
       "source": "bc.godfat.org (validated against PONOS)",
       "gameVersion": null,
-      "start_date": "2026-10-16",
-      "end_date": "2026-10-18"
+      "start_date": "2026-11-16",
+      "end_date": "2026-11-18"
     },
     "1021": {
       "family": "Galaxy Gals",
@@ -2021,8 +2021,8 @@
       },
       "source": "bc.godfat.org (validated against PONOS)",
       "gameVersion": null,
-      "start_date": "2026-10-18",
-      "end_date": "2026-10-20",
+      "start_date": "2026-11-18",
+      "end_date": "2026-11-20",
       "image": {
         "sourceUrl": "https://static.wikitide.net/battlecatswiki/8/8b/Gatya_bnr944_en.png",
         "sourcePage": "https://battlecats.miraheze.org/wiki/File:Gatya_bnr944_en.png",
@@ -2119,8 +2119,8 @@
       "option": {},
       "source": "bc.godfat.org (validated against PONOS)",
       "gameVersion": null,
-      "start_date": "2026-10-20",
-      "end_date": "2026-10-23"
+      "start_date": "2026-11-20",
+      "end_date": "2026-11-23"
     },
     "1004": {
       "family": "Elemental Pixies",
@@ -2209,8 +2209,8 @@
       "option": {},
       "source": "bc.godfat.org (validated against PONOS)",
       "gameVersion": null,
-      "start_date": "2026-10-20",
-      "end_date": "2026-10-23"
+      "start_date": "2026-11-20",
+      "end_date": "2026-11-23"
     },
     "1070": {
       "family": "Epicfest",
@@ -2398,8 +2398,8 @@
       "option": {},
       "source": "bc.godfat.org (validated against PONOS)",
       "gameVersion": null,
-      "start_date": "2026-10-20",
-      "end_date": "2026-10-26"
+      "start_date": "2026-11-20",
+      "end_date": "2026-11-23"
     },
     "1015": {
       "family": "Spooky Cuties",
@@ -2488,8 +2488,8 @@
       "option": {},
       "source": "bc.godfat.org (validated against PONOS)",
       "gameVersion": null,
-      "start_date": "2026-10-23",
-      "end_date": "2026-10-26"
+      "start_date": "2026-11-23",
+      "end_date": "2026-11-27"
     },
     "1069": {
       "family": "Uberfest",
@@ -3040,6 +3040,105 @@
         "sourcePage": "https://battlecats.miraheze.org/wiki/File:Gatya_bnr1080_en.png",
         "sha256": "26ac048f061b729403d969338f32a575cfaa2e634146b0d1203867c9395b4973",
         "file": "banner_en_1080_26ac048f061b7294.png"
+      }
+    },
+    "861": {
+      "family": "Royalfest",
+      "name": "Royalfest",
+      "fingerprint": "8bae682972ff079ad1f6369b201e7f14087570075641712a79609a7b376e2fa9",
+      "pool": {
+        "rares": [
+          523,
+          495,
+          376,
+          325,
+          308,
+          198,
+          197,
+          149,
+          148,
+          147,
+          146,
+          145,
+          58,
+          56,
+          55,
+          52,
+          51,
+          50,
+          49,
+          48,
+          47,
+          46,
+          41,
+          38,
+          37
+        ],
+        "super_rares": [
+          522,
+          377,
+          307,
+          199,
+          153,
+          152,
+          151,
+          150,
+          61,
+          40,
+          39,
+          36,
+          35,
+          33,
+          32,
+          31,
+          30
+        ],
+        "ubers": [
+          143,
+          496,
+          619,
+          633,
+          212,
+          271,
+          682,
+          302,
+          687,
+          714,
+          330,
+          644,
+          661,
+          612
+        ],
+        "legends": [
+          448,
+          449,
+          450,
+          451,
+          455,
+          461,
+          463,
+          478,
+          481,
+          493,
+          544
+        ]
+      },
+      "rates": {
+        "rareChance": 6940,
+        "supaChance": 2500,
+        "uberChance": 500,
+        "legendChance": 60
+      },
+      "option": {},
+      "source": "bc.godfat.org (validated against PONOS)",
+      "gameVersion": null,
+      "start_date": "2026-11-16",
+      "end_date": "2026-11-20",
+      "image": {
+        "sourceUrl": "https://static.wikia.nocookie.net/battle-cats/images/c/cc/Gatya_bnr861_en.png/revision/latest?cb=20240311235338",
+        "sourcePage": "https://battle-cats.fandom.com/wiki/File:Gatya_bnr861_en.png",
+        "sha256": "33b446aa68774c361b2dc8ddecde2df954f00fd6675cc4ac5c9ad9d9af632e0b",
+        "file": "banner_en_861_33b446aa68774c36.png"
       }
     }
   },

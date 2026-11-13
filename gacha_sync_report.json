@@ -3,8 +3,66 @@
     "schedule": "PONOS EN gatya.tsv",
     "pools": "bc.godfat.org (validated against PONOS)"
   },
-  "changes": [],
+  "changes": [
+    {
+      "name": "Royalfest",
+      "gacha_id": 861,
+      "created": false,
+      "units": {},
+      "rates": {}
+    }
+  ],
   "pending": [
+    {
+      "name": "Wargods Vajiras",
+      "gacha_id": 1043,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "The Almighties",
+      "gacha_id": 991,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Dragon Emperors",
+      "gacha_id": 1059,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Iron Legion",
+      "gacha_id": 979,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Luga Families",
+      "gacha_id": 986,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Galaxy Gals",
+      "gacha_id": 1021,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Dark Heroes",
+      "gacha_id": 947,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Elemental Pixies",
+      "gacha_id": 1004,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Epicfest",
+      "gacha_id": 1070,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Spooky Cuties",
+      "gacha_id": 1015,
+      "reason": "image_not_found"
+    },
     {
       "name": "Halloween Gacha",
       "gacha_id": 926,
@@ -23,24 +81,9 @@
   ],
   "images": [
     {
-      "name": "Platinum Capsules (EN #1063)",
-      "gacha_id": 1063,
-      "file": "banner_en_1063_5c1f9536793a2f0b.png"
-    },
-    {
-      "name": "Platinum Capsules",
-      "gacha_id": 1071,
-      "file": "banner_en_1071_5c1f9536793a2f0b.png"
-    },
-    {
-      "name": "Legend Capsules (EN #1064)",
-      "gacha_id": 1064,
-      "file": "banner_en_1064_393feda4d3cc1339.png"
-    },
-    {
-      "name": "Legend Capsules",
-      "gacha_id": 1072,
-      "file": "banner_en_1072_393feda4d3cc1339.png"
+      "name": "Royalfest",
+      "gacha_id": 861,
+      "file": "banner_en_861_33b446aa68774c36.png"
     }
   ],
   "errors": [],
