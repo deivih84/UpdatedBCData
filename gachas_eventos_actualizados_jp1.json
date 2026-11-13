@@ -41,6 +41,16 @@
       ]
     },
     {
+      "id": "justice_strikes_back_dark_heroes_2026-11-16",
+      "nombre": "Justice Strikes Back! Dark Heroes",
+      "fecha_inicio": "2026-11-16",
+      "fecha_fin": "2026-11-18",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
       "id": "luga_families_2026-11-18",
       "nombre": "Luga Families",
       "fecha_inicio": "2026-11-18",
@@ -49,6 +59,13 @@
         "P",
         "Platinum Shard"
       ]
+    },
+    {
+      "id": "busterfest_2026-11-20",
+      "nombre": "BUSTERFEST",
+      "fecha_inicio": "2026-11-20",
+      "fecha_fin": "2026-11-22",
+      "caracteristicas": []
     },
     {
       "id": "elemental_pixies_2026-11-20",
@@ -278,5 +295,5 @@
       "fecha_fin": "2026-05-01"
     }
   ],
-  "ultima_actualizacion": "2026-11-12T07:23:29Z"
+  "ultima_actualizacion": "2026-11-13T19:52:19Z"
 }

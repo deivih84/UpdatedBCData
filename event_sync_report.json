@@ -1,21 +1,118 @@
 {
   "changes": [
     {
-      "name": "Arena of Destiny",
-      "action": "updated",
+      "name": "A Cultured Festival",
+      "action": "created",
       "event_ids": [
-        11047
+        1174
       ]
     },
     {
-      "name": "Horrorpotamus",
+      "name": "River City Ball-Rolling",
       "action": "updated",
       "event_ids": [
-        24035
+        1260
+      ]
+    },
+    {
+      "name": "River City Challenge Course",
+      "action": "updated",
+      "event_ids": [
+        1261
+      ]
+    },
+    {
+      "name": "River City Three-Leg Race ①",
+      "action": "updated",
+      "event_ids": [
+        1262
+      ]
+    },
+    {
+      "name": "River City Three-Leg Race ②",
+      "action": "updated",
+      "event_ids": [
+        1263
+      ]
+    },
+    {
+      "name": "River City Three-Leg Race ③",
+      "action": "updated",
+      "event_ids": [
+        1264
+      ]
+    },
+    {
+      "name": "Resident Undead",
+      "action": "updated",
+      "event_ids": [
+        1336
+      ]
+    },
+    {
+      "name": "Machines in Revolt",
+      "action": "updated",
+      "event_ids": [
+        1349
+      ]
+    },
+    {
+      "name": "River City Relay",
+      "action": "updated",
+      "event_ids": [
+        1359
+      ]
+    },
+    {
+      "name": "Otherworld Colosseum",
+      "action": "updated",
+      "event_ids": [
+        36025
       ]
     }
   ],
-  "images": [],
+  "images": [
+    {
+      "name": "A Cultured Festival",
+      "file": "event_a_cultured_festival_0c2a3eed2ffdb286.png"
+    },
+    {
+      "name": "River City Ball-Rolling",
+      "file": "event_river_city_ball_rolling_3fe33ea6c454c6b5.png"
+    },
+    {
+      "name": "River City Challenge Course",
+      "file": "event_river_city_challenge_course_3fe33ea6c454c6b5.png"
+    },
+    {
+      "name": "River City Three-Leg Race ①",
+      "file": "event_river_city_three_leg_race_3fe33ea6c454c6b5.png"
+    },
+    {
+      "name": "River City Three-Leg Race ②",
+      "file": "event_river_city_three_leg_race_3fe33ea6c454c6b5.png"
+    },
+    {
+      "name": "River City Three-Leg Race ③",
+      "file": "event_river_city_three_leg_race_3fe33ea6c454c6b5.png"
+    },
+    {
+      "name": "Resident Undead",
+      "file": "event_resident_undead_325198b6289202ec.png"
+    },
+    {
+      "name": "Machines in Revolt",
+      "file": "event_machines_in_revolt_e7743bf2ee0e02c8.png"
+    },
+    {
+      "name": "River City Relay",
+      "file": "event_river_city_relay_3fe33ea6c454c6b5.png"
+    },
+    {
+      "name": "Otherworld Colosseum",
+      "file": "event_otherworld_colosseum_4c0fa34c5e220ba6.png"
+    }
+  ],
   "pending": [
     {
       "event_id": 700,
@@ -163,37 +260,10 @@
       "reason": "image_not_found"
     },
     {
-      "name": "A Cultured Festival",
-      "event_ids": [
-        1174
-      ],
-      "reason": "image_not_found"
-    },
-    {
       "name": "The Battle Cats Unite!",
       "event_ids": [
         1206
       ],
-      "reason": "image_not_found"
-    },
-    {
-      "name": "River City Ball-Rolling",
-      "reason": "image_not_found"
-    },
-    {
-      "name": "River City Challenge Course",
-      "reason": "image_not_found"
-    },
-    {
-      "name": "River City Three-Leg Race ①",
-      "reason": "image_not_found"
-    },
-    {
-      "name": "River City Three-Leg Race ②",
-      "reason": "image_not_found"
-    },
-    {
-      "name": "River City Three-Leg Race ③",
       "reason": "image_not_found"
     },
     {
@@ -225,22 +295,10 @@
       "reason": "image_not_found"
     },
     {
-      "name": "Resident Undead",
-      "reason": "image_not_found"
-    },
-    {
       "name": "Li'l Cat's Trial",
       "event_ids": [
         1339
       ],
-      "reason": "image_not_found"
-    },
-    {
-      "name": "Machines in Revolt",
-      "reason": "image_not_found"
-    },
-    {
-      "name": "River City Relay",
       "reason": "image_not_found"
     },
     {
@@ -281,10 +339,6 @@
       "reason": "image_not_found"
     },
     {
-      "name": "Otherworld Colosseum",
-      "reason": "image_not_found"
-    },
-    {
       "name": "Cats Eye Caverns",
       "reason": "image_not_found"
     },
@@ -294,50 +348,7 @@
     }
   ],
   "warnings": [
-    "Treasure Festival (Empire): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Treasure Festival (Future): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "EoC/ItF/CotC Half Energy Cost: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Treasure Festival (Cosmos): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "XP Stage: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "XP Megablitz!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "The Battle Cats POP!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "XP Colosseum: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Li'l Cat Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Li'l Tank Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Li'l Axe Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Li'l Gross Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Li'l Cow Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Li'l Bird Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Li'l Fish Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Li'l Lizard Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Li'l Titan Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Cat Kart Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Merciless XP!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "A Cultured Festival: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "The Battle Cats Unite!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "River City Ball-Rolling: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "River City Challenge Course: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "River City Three-Leg Race ①: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "River City Three-Leg Race ②: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "River City Three-Leg Race ③: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Cover of Darkness: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "XP Bonanza!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "#02 Sugar Struggle: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "#04 Mischievous Schemes: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Resident Undead: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Li'l Cat's Trial: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Machines in Revolt: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "River City Relay: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Food Stall Cat Awakes!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Cats Eye Cave: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Arena of Destiny: section_has_no_verified_poster",
-    "Legend Quest: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Tag Arena Challenge: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "#03 Demons' Night Out: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "#01 Ghost Panic: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Otherworld Colosseum: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Cats Eye Caverns: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Festival Cats: Lunar New Year's: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "remote_name_index_older_than_saved: 14.7.0"
   ],
   "sources": {
@@ -350,7 +361,7 @@
       "source": "BCData EN resources"
     }
   },
-  "calendarEvents": 14,
+  "calendarEvents": 15,
   "missingImages": [
     "Cats Eye Cave",
     "Cats Eye Caverns",
