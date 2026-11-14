@@ -3,254 +3,7 @@
     "schedule": "PONOS JP gatya.tsv",
     "pools": "bc.godfat.org (validated against PONOS)"
   },
-  "changes": [
-    {
-      "name": "Justice Strikes Back! Dark Heroes",
-      "gacha_id": 947,
-      "created": true,
-      "units": {
-        "rares": {
-          "added": [
-            37,
-            38,
-            41,
-            46,
-            47,
-            48,
-            49,
-            50,
-            51,
-            52,
-            55,
-            56,
-            58,
-            145,
-            146,
-            147,
-            148,
-            149,
-            197,
-            198,
-            308,
-            325,
-            376,
-            495,
-            523
-          ],
-          "removed": []
-        },
-        "super_rares": {
-          "added": [
-            30,
-            31,
-            32,
-            33,
-            35,
-            36,
-            39,
-            40,
-            61,
-            129,
-            131,
-            144,
-            150,
-            151,
-            152,
-            153,
-            199,
-            200,
-            237,
-            238,
-            239,
-            307,
-            377,
-            443,
-            444,
-            445,
-            446,
-            447,
-            522
-          ],
-          "removed": []
-        },
-        "ubers": {
-          "added": [
-            194,
-            195,
-            196,
-            212,
-            226,
-            261,
-            431,
-            533,
-            634,
-            698,
-            774
-          ],
-          "removed": []
-        },
-        "legends": {
-          "added": [
-            481
-          ],
-          "removed": []
-        }
-      },
-      "rates": {
-        "rareChance": {
-          "old": null,
-          "new": 6970
-        },
-        "supaChance": {
-          "old": null,
-          "new": 2500
-        },
-        "uberChance": {
-          "old": null,
-          "new": 500
-        },
-        "legendChance": {
-          "old": null,
-          "new": 30
-        }
-      }
-    },
-    {
-      "name": "BUSTERFEST",
-      "gacha_id": 939,
-      "created": true,
-      "units": {
-        "rares": {
-          "added": [
-            37,
-            38,
-            41,
-            46,
-            47,
-            48,
-            49,
-            50,
-            51,
-            52,
-            55,
-            56,
-            58,
-            145,
-            146,
-            147,
-            148,
-            149,
-            197,
-            198,
-            308,
-            325,
-            376,
-            495,
-            523
-          ],
-          "removed": []
-        },
-        "super_rares": {
-          "added": [
-            30,
-            31,
-            32,
-            33,
-            35,
-            36,
-            39,
-            40,
-            61,
-            129,
-            131,
-            144,
-            150,
-            151,
-            152,
-            153,
-            199,
-            200,
-            237,
-            238,
-            239,
-            307,
-            377,
-            522
-          ],
-          "removed": []
-        },
-        "ubers": {
-          "added": [
-            42,
-            43,
-            57,
-            59,
-            72,
-            75,
-            76,
-            83,
-            84,
-            86,
-            87,
-            105,
-            106,
-            107,
-            124,
-            135,
-            136,
-            138,
-            143,
-            170,
-            194,
-            196,
-            212,
-            240,
-            258,
-            261,
-            283,
-            286,
-            305,
-            316,
-            358,
-            397,
-            436,
-            519,
-            533,
-            559,
-            620,
-            647,
-            649,
-            655,
-            660,
-            668,
-            674,
-            682,
-            686,
-            715
-          ],
-          "removed": []
-        }
-      },
-      "rates": {
-        "rareChance": {
-          "old": null,
-          "new": 6800
-        },
-        "supaChance": {
-          "old": null,
-          "new": 2500
-        },
-        "uberChance": {
-          "old": null,
-          "new": 700
-        },
-        "legendChance": {
-          "old": null,
-          "new": 0
-        }
-      }
-    }
-  ],
+  "changes": [],
   "pending": [
     {
       "gacha_id": 1087,
@@ -320,128 +73,128 @@
       "name": "Shoumetsu Toshi Collab Gacha",
       "gacha_id": 23,
       "reason": "image_not_found"
+    },
+    {
+      "name": "Dragon Emperors",
+      "gacha_id": 1059,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "The Almighties",
+      "gacha_id": 991,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Elemental Pixies",
+      "gacha_id": 1004,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Wargods Vajiras",
+      "gacha_id": 1043,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Iron Legion",
+      "gacha_id": 979,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Girls & Monsters",
+      "gacha_id": 1015,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Luga Families",
+      "gacha_id": 986,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Justice Strikes Back! Dark Heroes",
+      "gacha_id": 947,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "BUSTERFEST",
+      "gacha_id": 939,
+      "reason": "image_not_found"
     }
   ],
   "images": [
     {
       "name": "Dragon Emperors (JP #33)",
       "gacha_id": 33,
-      "file": "banner_jp_33_b988100308f82a7b.png"
-    },
-    {
-      "name": "Dragon Emperors",
-      "gacha_id": 1059,
-      "file": "banner_jp_1059_0f339a803daead2a.png"
+      "file": "banner_jp_33_54eb3268af033765.png"
     },
     {
       "name": "Platinum Capsules",
       "gacha_id": 1071,
-      "file": "banner_jp_1071_e683f73bf2b01a88.png"
+      "file": "banner_jp_1071_3852e5fdc99f34b5.png"
     },
     {
       "name": "Platinum Capsules (JP #1008)",
       "gacha_id": 1008,
-      "file": "banner_jp_1008_e683f73bf2b01a88.png"
+      "file": "banner_jp_1008_3852e5fdc99f34b5.png"
     },
     {
       "name": "Platinum Capsules (JP #1024)",
       "gacha_id": 1024,
-      "file": "banner_jp_1024_e683f73bf2b01a88.png"
+      "file": "banner_jp_1024_3852e5fdc99f34b5.png"
     },
     {
       "name": "Platinum Capsules (JP #1036)",
       "gacha_id": 1036,
-      "file": "banner_jp_1036_e683f73bf2b01a88.png"
+      "file": "banner_jp_1036_3852e5fdc99f34b5.png"
     },
     {
       "name": "Platinum Capsules (JP #1047)",
       "gacha_id": 1047,
-      "file": "banner_jp_1047_e683f73bf2b01a88.png"
+      "file": "banner_jp_1047_3852e5fdc99f34b5.png"
     },
     {
       "name": "Platinum Capsules (JP #1057)",
       "gacha_id": 1057,
-      "file": "banner_jp_1057_e683f73bf2b01a88.png"
+      "file": "banner_jp_1057_3852e5fdc99f34b5.png"
     },
     {
       "name": "Platinum Capsules (JP #1063)",
       "gacha_id": 1063,
-      "file": "banner_jp_1063_e683f73bf2b01a88.png"
+      "file": "banner_jp_1063_3852e5fdc99f34b5.png"
     },
     {
       "name": "Legend Capsules",
       "gacha_id": 1072,
-      "file": "banner_jp_1072_56852a33c791480e.png"
+      "file": "banner_jp_1072_393feda4d3cc1339.png"
     },
     {
       "name": "Legend Capsules (JP #1009)",
       "gacha_id": 1009,
-      "file": "banner_jp_1009_56852a33c791480e.png"
+      "file": "banner_jp_1009_393feda4d3cc1339.png"
     },
     {
       "name": "Legend Capsules (JP #1025)",
       "gacha_id": 1025,
-      "file": "banner_jp_1025_56852a33c791480e.png"
+      "file": "banner_jp_1025_393feda4d3cc1339.png"
     },
     {
       "name": "Legend Capsules (JP #1035)",
       "gacha_id": 1035,
-      "file": "banner_jp_1035_56852a33c791480e.png"
+      "file": "banner_jp_1035_393feda4d3cc1339.png"
     },
     {
       "name": "Legend Capsules (JP #1048)",
       "gacha_id": 1048,
-      "file": "banner_jp_1048_56852a33c791480e.png"
+      "file": "banner_jp_1048_393feda4d3cc1339.png"
     },
     {
       "name": "Legend Capsules (JP #1058)",
       "gacha_id": 1058,
-      "file": "banner_jp_1058_56852a33c791480e.png"
+      "file": "banner_jp_1058_393feda4d3cc1339.png"
     },
     {
       "name": "Legend Capsules (JP #1064)",
       "gacha_id": 1064,
-      "file": "banner_jp_1064_56852a33c791480e.png"
-    },
-    {
-      "name": "The Almighties",
-      "gacha_id": 991,
-      "file": "banner_jp_991_7c1e0f7c108194ab.png"
-    },
-    {
-      "name": "Elemental Pixies",
-      "gacha_id": 1004,
-      "file": "banner_jp_1004_4840e29e606a353d.png"
-    },
-    {
-      "name": "Wargods Vajiras",
-      "gacha_id": 1043,
-      "file": "banner_jp_1043_dcc4878d115bfeb0.png"
-    },
-    {
-      "name": "Iron Legion",
-      "gacha_id": 979,
-      "file": "banner_jp_979_42c1c12873088b2a.png"
-    },
-    {
-      "name": "Girls & Monsters",
-      "gacha_id": 1015,
-      "file": "banner_jp_1015_d36c58b50a924085.png"
-    },
-    {
-      "name": "Luga Families",
-      "gacha_id": 986,
-      "file": "banner_jp_986_b57bc47e50c941d1.png"
-    },
-    {
-      "name": "Justice Strikes Back! Dark Heroes",
-      "gacha_id": 947,
-      "file": "banner_jp_947_51859f3ace0c3850.png"
-    },
-    {
-      "name": "BUSTERFEST",
-      "gacha_id": 939,
-      "file": "banner_jp_939_b86583343fc5140d.png"
+      "file": "banner_jp_1064_393feda4d3cc1339.png"
     }
   ],
   "errors": [],

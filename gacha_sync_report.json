@@ -3,19 +3,41 @@
     "schedule": "PONOS EN gatya.tsv",
     "pools": "bc.godfat.org (validated against PONOS)"
   },
-  "changes": [
-    {
-      "name": "Dark Heroes",
-      "gacha_id": 947,
-      "created": false,
-      "units": {},
-      "rates": {}
-    }
-  ],
+  "changes": [],
   "pending": [
+    {
+      "name": "Wargods Vajiras",
+      "gacha_id": 1043,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "The Almighties",
+      "gacha_id": 991,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Dragon Emperors",
+      "gacha_id": 1059,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Iron Legion",
+      "gacha_id": 979,
+      "reason": "image_not_found"
+    },
     {
       "name": "Luga Families",
       "gacha_id": 986,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Galaxy Gals",
+      "gacha_id": 1021,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Dark Heroes",
+      "gacha_id": 947,
       "reason": "image_not_found"
     },
     {
@@ -37,73 +59,43 @@
       "name": "Halloween Gacha",
       "gacha_id": 926,
       "reason": "image_not_found"
+    },
+    {
+      "name": "River City Clash Capsules Red Team",
+      "gacha_id": 1079,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "River City Clash Capsules Dark Team",
+      "gacha_id": 1080,
+      "reason": "image_not_found"
     }
   ],
   "images": [
     {
       "name": "Platinum Capsules (EN #1063)",
       "gacha_id": 1063,
-      "file": "banner_en_1063_9059beea07dbf429.png"
+      "file": "banner_en_1063_5c1f9536793a2f0b.png"
     },
     {
       "name": "Platinum Capsules",
       "gacha_id": 1071,
-      "file": "banner_en_1071_9059beea07dbf429.png"
+      "file": "banner_en_1071_5c1f9536793a2f0b.png"
     },
     {
       "name": "Legend Capsules (EN #1064)",
       "gacha_id": 1064,
-      "file": "banner_en_1064_56852a33c791480e.png"
+      "file": "banner_en_1064_393feda4d3cc1339.png"
     },
     {
       "name": "Legend Capsules",
       "gacha_id": 1072,
-      "file": "banner_en_1072_56852a33c791480e.png"
-    },
-    {
-      "name": "Wargods Vajiras",
-      "gacha_id": 1043,
-      "file": "banner_en_1043_08db9641309e9821.png"
-    },
-    {
-      "name": "The Almighties",
-      "gacha_id": 991,
-      "file": "banner_en_991_8e8a32d3223f1e59.png"
-    },
-    {
-      "name": "Dragon Emperors",
-      "gacha_id": 1059,
-      "file": "banner_en_1059_b7edacbb5b12bce4.png"
-    },
-    {
-      "name": "Iron Legion",
-      "gacha_id": 979,
-      "file": "banner_en_979_291baef9723541c2.png"
-    },
-    {
-      "name": "Galaxy Gals",
-      "gacha_id": 1021,
-      "file": "banner_en_1021_406024c9b4bf8f1b.png"
-    },
-    {
-      "name": "Dark Heroes",
-      "gacha_id": 947,
-      "file": "banner_en_947_2d2977c78978a95b.png"
-    },
-    {
-      "name": "River City Clash Capsules Red Team",
-      "gacha_id": 1079,
-      "file": "banner_en_1079_87b81b7bccaf20e0.png"
-    },
-    {
-      "name": "River City Clash Capsules Dark Team",
-      "gacha_id": 1080,
-      "file": "banner_en_1080_8af8b62ad2b343a6.png"
+      "file": "banner_en_1072_393feda4d3cc1339.png"
     },
     {
       "name": "Royalfest",
       "gacha_id": 861,
-      "file": "banner_en_861_7ff77f44d344b9ac.png"
+      "file": "banner_en_861_33b446aa68774c36.png"
     }
   ],
   "errors": [],

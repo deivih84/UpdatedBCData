@@ -260,10 +260,34 @@
       "reason": "image_not_found"
     },
     {
+      "name": "A Cultured Festival",
+      "reason": "image_not_found"
+    },
+    {
       "name": "The Battle Cats Unite!",
       "event_ids": [
         1206
       ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "River City Ball-Rolling",
+      "reason": "image_not_found"
+    },
+    {
+      "name": "River City Challenge Course",
+      "reason": "image_not_found"
+    },
+    {
+      "name": "River City Three-Leg Race ①",
+      "reason": "image_not_found"
+    },
+    {
+      "name": "River City Three-Leg Race ②",
+      "reason": "image_not_found"
+    },
+    {
+      "name": "River City Three-Leg Race ③",
       "reason": "image_not_found"
     },
     {
@@ -295,10 +319,22 @@
       "reason": "image_not_found"
     },
     {
+      "name": "Resident Undead",
+      "reason": "image_not_found"
+    },
+    {
       "name": "Li'l Cat's Trial",
       "event_ids": [
         1339
       ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Machines in Revolt",
+      "reason": "image_not_found"
+    },
+    {
+      "name": "River City Relay",
       "reason": "image_not_found"
     },
     {
@@ -339,6 +375,10 @@
       "reason": "image_not_found"
     },
     {
+      "name": "Otherworld Colosseum",
+      "reason": "image_not_found"
+    },
+    {
       "name": "Cats Eye Caverns",
       "reason": "image_not_found"
     },
@@ -348,7 +388,50 @@
     }
   ],
   "warnings": [
+    "Treasure Festival (Empire): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Treasure Festival (Future): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "EoC/ItF/CotC Half Energy Cost: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Treasure Festival (Cosmos): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "XP Stage: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "XP Megablitz!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "The Battle Cats POP!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "XP Colosseum: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Li'l Cat Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Li'l Tank Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Li'l Axe Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Li'l Gross Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Li'l Cow Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Li'l Bird Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Li'l Fish Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Li'l Lizard Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Li'l Titan Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Cat Kart Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Merciless XP!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "A Cultured Festival: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "The Battle Cats Unite!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "River City Ball-Rolling: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "River City Challenge Course: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "River City Three-Leg Race ①: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "River City Three-Leg Race ②: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "River City Three-Leg Race ③: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Cover of Darkness: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "XP Bonanza!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "#02 Sugar Struggle: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "#04 Mischievous Schemes: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Resident Undead: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Li'l Cat's Trial: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Machines in Revolt: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "River City Relay: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Food Stall Cat Awakes!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Cats Eye Cave: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Arena of Destiny: section_has_no_verified_poster",
+    "Legend Quest: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Tag Arena Challenge: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "#03 Demons' Night Out: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "#01 Ghost Panic: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Otherworld Colosseum: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Cats Eye Caverns: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Festival Cats: Lunar New Year's: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "remote_name_index_older_than_saved: 14.7.0"
   ],
   "sources": {
