@@ -375,10 +375,6 @@
       "reason": "image_not_found"
     },
     {
-      "name": "Otherworld Colosseum",
-      "reason": "image_not_found"
-    },
-    {
       "name": "Cats Eye Caverns",
       "reason": "image_not_found"
     },
@@ -429,7 +425,6 @@
     "Tag Arena Challenge: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "#03 Demons' Night Out: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "#01 Ghost Panic: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Otherworld Colosseum: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Cats Eye Caverns: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Festival Cats: Lunar New Year's: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "remote_name_index_older_than_saved: 14.7.0"
@@ -444,7 +439,7 @@
       "source": "BCData EN resources"
     }
   },
-  "calendarEvents": 15,
+  "calendarEvents": 14,
   "missingImages": [
     "Cats Eye Cave",
     "Cats Eye Caverns",
