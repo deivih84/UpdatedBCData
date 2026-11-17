@@ -6,24 +6,52 @@
   "changes": [],
   "pending": [
     {
+      "name": "Platinum Capsules (EN #1063)",
+      "gacha_id": 1063,
+      "reason": "image_unavailable",
+      "detail": "HTTPSConnectionPool(host='static.wikitide.net', port=443): Max retries exceeded with url: /battlecatswiki/1/1d/Gatya_bnr174.png (Caused by NameResolutionError(\"HTTPSConnection(host='static.wikitide.net', port=443): Failed to resolve 'static.wikitide.net' ([Errno -3] Temporary failure in name resolution)\"))"
+    },
+    {
+      "name": "Platinum Capsules",
+      "gacha_id": 1071,
+      "reason": "image_unavailable",
+      "detail": "HTTPSConnectionPool(host='static.wikitide.net', port=443): Max retries exceeded with url: /battlecatswiki/1/1d/Gatya_bnr174.png (Caused by NameResolutionError(\"HTTPSConnection(host='static.wikitide.net', port=443): Failed to resolve 'static.wikitide.net' ([Errno -3] Temporary failure in name resolution)\"))"
+    },
+    {
+      "name": "Legend Capsules (EN #1064)",
+      "gacha_id": 1064,
+      "reason": "image_unavailable",
+      "detail": "HTTPSConnectionPool(host='static.wikitide.net', port=443): Max retries exceeded with url: /battlecatswiki/f/f9/Gatya_bnr640.png (Caused by NameResolutionError(\"HTTPSConnection(host='static.wikitide.net', port=443): Failed to resolve 'static.wikitide.net' ([Errno -3] Temporary failure in name resolution)\"))"
+    },
+    {
+      "name": "Legend Capsules",
+      "gacha_id": 1072,
+      "reason": "image_unavailable",
+      "detail": "HTTPSConnectionPool(host='static.wikitide.net', port=443): Max retries exceeded with url: /battlecatswiki/f/f9/Gatya_bnr640.png (Caused by NameResolutionError(\"HTTPSConnection(host='static.wikitide.net', port=443): Failed to resolve 'static.wikitide.net' ([Errno -3] Temporary failure in name resolution)\"))"
+    },
+    {
       "name": "Wargods Vajiras",
       "gacha_id": 1043,
-      "reason": "image_not_found"
+      "reason": "image_unavailable",
+      "detail": "HTTPSConnectionPool(host='static.wikitide.net', port=443): Max retries exceeded with url: /battlecatswiki/6/68/Gatya_bnr943_en.png (Caused by NameResolutionError(\"HTTPSConnection(host='static.wikitide.net', port=443): Failed to resolve 'static.wikitide.net' ([Errno -3] Temporary failure in name resolution)\"))"
     },
     {
       "name": "The Almighties",
       "gacha_id": 991,
-      "reason": "image_not_found"
+      "reason": "image_unavailable",
+      "detail": "HTTPSConnectionPool(host='static.wikitide.net', port=443): Max retries exceeded with url: /battlecatswiki/b/b9/Gatya_bnr948_en.png (Caused by NameResolutionError(\"HTTPSConnection(host='static.wikitide.net', port=443): Failed to resolve 'static.wikitide.net' ([Errno -3] Temporary failure in name resolution)\"))"
     },
     {
       "name": "Dragon Emperors",
       "gacha_id": 1059,
-      "reason": "image_not_found"
+      "reason": "image_unavailable",
+      "detail": "HTTPSConnectionPool(host='static.wikitide.net', port=443): Max retries exceeded with url: /battlecatswiki/0/0d/Gatya_bnr945_en.png (Caused by NameResolutionError(\"HTTPSConnection(host='static.wikitide.net', port=443): Failed to resolve 'static.wikitide.net' ([Errno -3] Temporary failure in name resolution)\"))"
     },
     {
       "name": "Iron Legion",
       "gacha_id": 979,
-      "reason": "image_not_found"
+      "reason": "image_unavailable",
+      "detail": "HTTPSConnectionPool(host='static.wikitide.net', port=443): Max retries exceeded with url: /battlecatswiki/4/49/Gatya_bnr949_en.png (Caused by NameResolutionError(\"HTTPSConnection(host='static.wikitide.net', port=443): Failed to resolve 'static.wikitide.net' ([Errno -3] Temporary failure in name resolution)\"))"
     },
     {
       "name": "Luga Families",
@@ -33,12 +61,14 @@
     {
       "name": "Galaxy Gals",
       "gacha_id": 1021,
-      "reason": "image_not_found"
+      "reason": "image_unavailable",
+      "detail": "HTTPSConnectionPool(host='static.wikitide.net', port=443): Max retries exceeded with url: /battlecatswiki/8/8b/Gatya_bnr944_en.png (Caused by NameResolutionError(\"HTTPSConnection(host='static.wikitide.net', port=443): Failed to resolve 'static.wikitide.net' ([Errno -3] Temporary failure in name resolution)\"))"
     },
     {
       "name": "Dark Heroes",
       "gacha_id": 947,
-      "reason": "image_not_found"
+      "reason": "image_unavailable",
+      "detail": "HTTPSConnectionPool(host='static.wikitide.net', port=443): Max retries exceeded with url: /battlecatswiki/6/66/Gatya_bnr947_en.png (Caused by NameResolutionError(\"HTTPSConnection(host='static.wikitide.net', port=443): Failed to resolve 'static.wikitide.net' ([Errno -3] Temporary failure in name resolution)\"))"
     },
     {
       "name": "Elemental Pixies",
@@ -56,19 +86,10 @@
       "reason": "image_not_found"
     },
     {
-      "name": "Halloween Gacha",
-      "gacha_id": 926,
-      "reason": "image_not_found"
-    },
-    {
-      "name": "River City Clash Capsules Red Team",
-      "gacha_id": 1079,
-      "reason": "image_not_found"
-    },
-    {
-      "name": "River City Clash Capsules Dark Team",
-      "gacha_id": 1080,
-      "reason": "image_not_found"
+      "name": "Royalfest",
+      "gacha_id": 861,
+      "reason": "image_unavailable",
+      "detail": "HTTPSConnectionPool(host='static.wikitide.net', port=443): Max retries exceeded with url: /battlecatswiki/c/cc/Gatya_bnr861_en.png (Caused by NameResolutionError(\"HTTPSConnection(host='static.wikitide.net', port=443): Failed to resolve 'static.wikitide.net' ([Errno -3] Temporary failure in name resolution)\"))"
     }
   ],
   "images": [

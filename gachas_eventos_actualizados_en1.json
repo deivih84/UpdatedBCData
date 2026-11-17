@@ -177,78 +177,6 @@
   ],
   "eventos": [
     {
-      "id": "river_city_ball_rolling_2026-11-02",
-      "nombre": "River City Ball-Rolling",
-      "caracteristicas": [
-        "The River City Stages are a group of stages appearing during certain special events. They were added in the Version 10.9 Update and introduce several…"
-      ],
-      "fecha_inicio": "2026-11-02",
-      "fecha_fin": "2026-11-16"
-    },
-    {
-      "id": "river_city_challenge_course_2026-11-02",
-      "nombre": "River City Challenge Course",
-      "caracteristicas": [
-        "The River City Stages are a group of stages appearing during certain special events. They were added in the Version 10.9 Update and introduce several…"
-      ],
-      "fecha_inicio": "2026-11-02",
-      "fecha_fin": "2026-11-16"
-    },
-    {
-      "id": "river_city_relay_2026-11-02",
-      "nombre": "River City Relay",
-      "caracteristicas": [
-        "The River City Stages are a group of stages appearing during certain special events. They were added in the Version 10.9 Update and introduce several…"
-      ],
-      "fecha_inicio": "2026-11-02",
-      "fecha_fin": "2026-11-16"
-    },
-    {
-      "id": "river_city_three_leg_race_2026-11-06_81cf057c34",
-      "nombre": "River City Three-Leg Race ①",
-      "caracteristicas": [
-        "The River City Stages are a group of stages appearing during certain special events. They were added in the Version 10.9 Update and introduce several…"
-      ],
-      "fecha_inicio": "2026-11-06",
-      "fecha_fin": "2026-11-16"
-    },
-    {
-      "id": "river_city_three_leg_race_2026-11-06_cfa441c779",
-      "nombre": "River City Three-Leg Race ②",
-      "caracteristicas": [
-        "The River City Stages are a group of stages appearing during certain special events. They were added in the Version 10.9 Update and introduce several…"
-      ],
-      "fecha_inicio": "2026-11-06",
-      "fecha_fin": "2026-11-16"
-    },
-    {
-      "id": "river_city_three_leg_race_2026-11-06_a0d9c39437",
-      "nombre": "River City Three-Leg Race ③",
-      "caracteristicas": [
-        "The River City Stages are a group of stages appearing during certain special events. They were added in the Version 10.9 Update and introduce several…"
-      ],
-      "fecha_inicio": "2026-11-06",
-      "fecha_fin": "2026-11-16"
-    },
-    {
-      "id": "cats_eye_cave_2026-11-07",
-      "nombre": "Cats Eye Cave",
-      "caracteristicas": [
-        "No info :) this is a Gamatoto expedition area that gives Catseyes as rewards."
-      ],
-      "fecha_inicio": "2026-11-07",
-      "fecha_fin": "2026-11-16"
-    },
-    {
-      "id": "tag_arena_challenge_2026-11-07",
-      "nombre": "Tag Arena Challenge",
-      "caracteristicas": [
-        "Tag Arena Challenge (タッグ闘技チャレンジ, Taggu Tōgi Charenji, Tag Team Challenge) is a map added in Version 11.6. It consists of all Tag Arena Stages combined into a single map, along with three new stages. Progress made in Tag Arena Challenge will reset when the event ends.\nThere are three stages per map, each with a Cat Deploy Limit and enemy limit of 2. Taking over 15 minutes to beat any stage will cause an Assassin Bear to spawn. As opposed to the Duel Stages Challenge, most of the enemies can spawn multiple times."
-      ],
-      "fecha_inicio": "2026-11-07",
-      "fecha_fin": "2026-11-16"
-    },
-    {
       "id": "legend_quest_2026-11-09",
       "nombre": "Legend Quest",
       "caracteristicas": [
@@ -256,15 +184,6 @@
       ],
       "fecha_inicio": "2026-11-09",
       "fecha_fin": "2026-11-26"
-    },
-    {
-      "id": "resident_undead_2026-11-09",
-      "nombre": "Resident Undead",
-      "caracteristicas": [
-        "Resident Undead (住民の亡霊, Shūmin no Bourei, Resident Ghosts) is a set of special stages that was added in Version 12.6. It is unlocked after clearing Empire of Cats Chapter 1. Each stage features Undead Enemies and has a Cat Ticket as a reward.\n\nClear stages in the special map Resident Undead to earn up to 10 Cat Tickets as you face off against the Undead enemies attacking the remnants of a destroyed city! Visit Event Stages/Stories of Legend and select to take on this challenge!\nOn between June 10th (11:00am) and June 17th (10:59am)!\n\nSave the future from the onslaught of the coming machines!\n\n\n※ After clearing a stage, there will be a short cooldown period before you are able to challenge the next stage.\n※ Spending a Catamin A will allow you to skip the stage cooldown period and challenge the next stage immediately.\n※ If the event does not appear, please make sure that you are updated to the latest version of the Battle Cats app. "
-      ],
-      "fecha_inicio": "2026-11-09",
-      "fecha_fin": "2026-11-16"
     },
     {
       "id": "a_cultured_festival_2026-11-16",
@@ -303,5 +222,5 @@
       "fecha_fin": "2026-11-30"
     }
   ],
-  "ultima_actualizacion": "2026-11-16T06:43:32Z"
+  "ultima_actualizacion": "2026-11-17T08:05:14Z"
 }
