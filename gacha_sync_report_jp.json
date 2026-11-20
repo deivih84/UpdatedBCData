@@ -66,43 +66,88 @@
       "name": "Shoumetsu Toshi Collab Gacha",
       "gacha_id": 23,
       "reason": "image_not_found"
-    },
-    {
-      "name": "Dragon Emperors (JP #1059)",
-      "gacha_id": 1059,
-      "reason": "image_not_found"
-    },
-    {
-      "name": "Elemental Pixies",
-      "gacha_id": 1004,
-      "reason": "image_not_found"
-    },
-    {
-      "name": "Wargods Vajiras",
-      "gacha_id": 1043,
-      "reason": "image_not_found"
-    },
-    {
-      "name": "Girls & Monsters",
-      "gacha_id": 1015,
-      "reason": "image_not_found"
-    },
-    {
-      "name": "Luga Families",
-      "gacha_id": 986,
-      "reason": "image_not_found"
-    },
-    {
-      "name": "BUSTERFEST",
-      "gacha_id": 939,
-      "reason": "image_not_found"
     }
   ],
   "images": [
     {
       "name": "Dragon Emperors",
       "gacha_id": 33,
-      "file": "banner_jp_33_54eb3268af033765.png"
+      "file": "banner_jp_33_b988100308f82a7b.png"
+    },
+    {
+      "name": "Dragon Emperors (JP #1059)",
+      "gacha_id": 1059,
+      "file": "banner_jp_1059_0f339a803daead2a.png"
+    },
+    {
+      "name": "Platinum Capsules",
+      "gacha_id": 1071,
+      "file": "banner_jp_1071_e683f73bf2b01a88.png"
+    },
+    {
+      "name": "Platinum Capsules (JP #1008)",
+      "gacha_id": 1008,
+      "file": "banner_jp_1008_e683f73bf2b01a88.png"
+    },
+    {
+      "name": "Platinum Capsules (JP #1024)",
+      "gacha_id": 1024,
+      "file": "banner_jp_1024_e683f73bf2b01a88.png"
+    },
+    {
+      "name": "Platinum Capsules (JP #1036)",
+      "gacha_id": 1036,
+      "file": "banner_jp_1036_e683f73bf2b01a88.png"
+    },
+    {
+      "name": "Platinum Capsules (JP #1047)",
+      "gacha_id": 1047,
+      "file": "banner_jp_1047_e683f73bf2b01a88.png"
+    },
+    {
+      "name": "Platinum Capsules (JP #1057)",
+      "gacha_id": 1057,
+      "file": "banner_jp_1057_e683f73bf2b01a88.png"
+    },
+    {
+      "name": "Platinum Capsules (JP #1063)",
+      "gacha_id": 1063,
+      "file": "banner_jp_1063_e683f73bf2b01a88.png"
+    },
+    {
+      "name": "Legend Capsules",
+      "gacha_id": 1072,
+      "file": "banner_jp_1072_56852a33c791480e.png"
+    },
+    {
+      "name": "Legend Capsules (JP #1009)",
+      "gacha_id": 1009,
+      "file": "banner_jp_1009_56852a33c791480e.png"
+    },
+    {
+      "name": "Legend Capsules (JP #1025)",
+      "gacha_id": 1025,
+      "file": "banner_jp_1025_56852a33c791480e.png"
+    },
+    {
+      "name": "Legend Capsules (JP #1035)",
+      "gacha_id": 1035,
+      "file": "banner_jp_1035_56852a33c791480e.png"
+    },
+    {
+      "name": "Legend Capsules (JP #1048)",
+      "gacha_id": 1048,
+      "file": "banner_jp_1048_56852a33c791480e.png"
+    },
+    {
+      "name": "Legend Capsules (JP #1058)",
+      "gacha_id": 1058,
+      "file": "banner_jp_1058_56852a33c791480e.png"
+    },
+    {
+      "name": "Legend Capsules (JP #1064)",
+      "gacha_id": 1064,
+      "file": "banner_jp_1064_56852a33c791480e.png"
     }
   ],
   "errors": [],

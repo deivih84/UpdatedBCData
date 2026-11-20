@@ -232,10 +232,6 @@
       "reason": "image_not_found"
     },
     {
-      "name": "A Cultured Festival",
-      "reason": "image_not_found"
-    },
-    {
       "name": "The Battle Cats Unite!",
       "event_ids": [
         1206
@@ -254,10 +250,6 @@
       "event_ids": [
         1339
       ],
-      "reason": "image_not_found"
-    },
-    {
-      "name": "Machines in Revolt",
       "reason": "image_not_found"
     },
     {
@@ -289,32 +281,7 @@
     }
   ],
   "warnings": [
-    "Treasure Festival (Empire): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Treasure Festival (Future): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "EoC/ItF/CotC Half Energy Cost: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Treasure Festival (Cosmos): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "The Battle Cats POP!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Li'l Cat Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Li'l Tank Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Li'l Axe Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Li'l Gross Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Li'l Cow Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Li'l Bird Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Li'l Fish Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Li'l Lizard Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Li'l Titan Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Cat Kart Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "A Cultured Festival: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "The Battle Cats Unite!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Cover of Darkness: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Li'l Cat's Trial: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Machines in Revolt: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Food Stall Cat Awakes!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Arena of Destiny: section_has_no_verified_poster",
-    "Legend Quest: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Cats Eye Cave: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Cats Eye Caverns: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Festival Cats: Lunar New Year's: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "remote_name_index_older_than_saved: 14.7.0"
   ],
   "sources": {
