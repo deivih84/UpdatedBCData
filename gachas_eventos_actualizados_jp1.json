@@ -1,83 +1,6 @@
 {
   "gachas": [
     {
-      "id": "elemental_pixies_2026-11-10",
-      "nombre": "Elemental Pixies",
-      "fecha_inicio": "2026-11-10",
-      "fecha_fin": "2026-11-12",
-      "caracteristicas": [
-        "G",
-        "Guaranteed"
-      ]
-    },
-    {
-      "id": "dragon_emperors_jp_1059_2026-11-12",
-      "nombre": "Dragon Emperors (JP #1059)",
-      "fecha_inicio": "2026-11-12",
-      "fecha_fin": "2026-11-16",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "iron_legion_2026-11-12",
-      "nombre": "Iron Legion",
-      "fecha_inicio": "2026-11-12",
-      "fecha_fin": "2026-11-14",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "the_almighties_2026-11-14",
-      "nombre": "The Almighties",
-      "fecha_inicio": "2026-11-14",
-      "fecha_fin": "2026-11-16",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "justice_strikes_back_dark_heroes_2026-11-16",
-      "nombre": "Justice Strikes Back! Dark Heroes",
-      "fecha_inicio": "2026-11-16",
-      "fecha_fin": "2026-11-18",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "luga_families_2026-11-18",
-      "nombre": "Luga Families",
-      "fecha_inicio": "2026-11-18",
-      "fecha_fin": "2026-11-20",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
-      "id": "busterfest_2026-11-20",
-      "nombre": "BUSTERFEST",
-      "fecha_inicio": "2026-11-20",
-      "fecha_fin": "2026-11-22",
-      "caracteristicas": []
-    },
-    {
-      "id": "elemental_pixies_2026-11-20",
-      "nombre": "Elemental Pixies",
-      "fecha_inicio": "2026-11-20",
-      "fecha_fin": "2026-11-23",
-      "caracteristicas": [
-        "P",
-        "Platinum Shard"
-      ]
-    },
-    {
       "id": "wargods_vajiras_2026-11-23",
       "nombre": "Wargods Vajiras",
       "fecha_inicio": "2026-11-23",
@@ -102,6 +25,16 @@
       "nombre": "Dragon Emperors (JP #1059)",
       "fecha_inicio": "2026-11-25",
       "fecha_fin": "2026-11-27",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "iron_legion_2026-11-27",
+      "nombre": "Iron Legion",
+      "fecha_inicio": "2026-11-27",
+      "fecha_fin": "2026-11-29",
       "caracteristicas": [
         "P",
         "Platinum Shard"
@@ -295,5 +228,5 @@
       "fecha_fin": "2026-05-01"
     }
   ],
-  "ultima_actualizacion": "2026-11-17T08:06:09Z"
+  "ultima_actualizacion": "2026-11-24T10:03:16Z"
 }

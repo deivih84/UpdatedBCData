@@ -1,118 +1,36 @@
 {
   "changes": [
     {
-      "name": "A Cultured Festival",
-      "action": "created",
+      "name": "Arena of Destiny",
+      "action": "updated",
       "event_ids": [
-        1174
+        11030,
+        11047
       ]
     },
     {
-      "name": "River City Ball-Rolling",
+      "name": "Mega Menace",
       "action": "updated",
       "event_ids": [
-        1260
+        24034
       ]
     },
     {
-      "name": "River City Challenge Course",
+      "name": "Gigahaniwan Strikes!",
       "action": "updated",
       "event_ids": [
-        1261
-      ]
-    },
-    {
-      "name": "River City Three-Leg Race ①",
-      "action": "updated",
-      "event_ids": [
-        1262
-      ]
-    },
-    {
-      "name": "River City Three-Leg Race ②",
-      "action": "updated",
-      "event_ids": [
-        1263
-      ]
-    },
-    {
-      "name": "River City Three-Leg Race ③",
-      "action": "updated",
-      "event_ids": [
-        1264
-      ]
-    },
-    {
-      "name": "Resident Undead",
-      "action": "updated",
-      "event_ids": [
-        1336
-      ]
-    },
-    {
-      "name": "Machines in Revolt",
-      "action": "updated",
-      "event_ids": [
-        1349
-      ]
-    },
-    {
-      "name": "River City Relay",
-      "action": "updated",
-      "event_ids": [
-        1359
+        24065
       ]
     },
     {
       "name": "Otherworld Colosseum",
       "action": "updated",
       "event_ids": [
-        36025
+        36026
       ]
     }
   ],
-  "images": [
-    {
-      "name": "A Cultured Festival",
-      "file": "event_a_cultured_festival_0c2a3eed2ffdb286.png"
-    },
-    {
-      "name": "River City Ball-Rolling",
-      "file": "event_river_city_ball_rolling_3fe33ea6c454c6b5.png"
-    },
-    {
-      "name": "River City Challenge Course",
-      "file": "event_river_city_challenge_course_3fe33ea6c454c6b5.png"
-    },
-    {
-      "name": "River City Three-Leg Race ①",
-      "file": "event_river_city_three_leg_race_3fe33ea6c454c6b5.png"
-    },
-    {
-      "name": "River City Three-Leg Race ②",
-      "file": "event_river_city_three_leg_race_3fe33ea6c454c6b5.png"
-    },
-    {
-      "name": "River City Three-Leg Race ③",
-      "file": "event_river_city_three_leg_race_3fe33ea6c454c6b5.png"
-    },
-    {
-      "name": "Resident Undead",
-      "file": "event_resident_undead_325198b6289202ec.png"
-    },
-    {
-      "name": "Machines in Revolt",
-      "file": "event_machines_in_revolt_e7743bf2ee0e02c8.png"
-    },
-    {
-      "name": "River City Relay",
-      "file": "event_river_city_relay_3fe33ea6c454c6b5.png"
-    },
-    {
-      "name": "Otherworld Colosseum",
-      "file": "event_otherworld_colosseum_4c0fa34c5e220ba6.png"
-    }
-  ],
+  "images": [],
   "pending": [
     {
       "event_id": 700,
@@ -250,6 +168,13 @@
       "reason": "image_not_found"
     },
     {
+      "name": "Night 1: Santa Claws at Work",
+      "event_ids": [
+        1325
+      ],
+      "reason": "image_not_found"
+    },
+    {
       "name": "Li'l Cat's Trial",
       "event_ids": [
         1339
@@ -268,11 +193,54 @@
       "reason": "image_not_found"
     },
     {
+      "name": "PAC-MAN Appears!",
+      "event_ids": [
+        2271
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "PAC-MAN & Cat",
+      "event_ids": [
+        2272
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Heavenly Tower",
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Infernal Tower",
+      "event_ids": [
+        7006
+      ],
+      "reason": "image_not_found"
+    },
+    {
       "name": "Arena of Destiny",
       "reason": "image_not_found"
     },
     {
       "name": "Legend Quest",
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Night 2: Christmas Eve Delivery",
+      "event_ids": [
+        24058
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Giant PAC-MAN Strikes!",
+      "event_ids": [
+        27027
+      ],
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Otherworld Colosseum",
       "reason": "image_not_found"
     },
     {
@@ -307,11 +275,19 @@
     "A Cultured Festival: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "The Battle Cats Unite!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Cover of Darkness: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Night 1: Santa Claws at Work: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Li'l Cat's Trial: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Machines in Revolt: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Food Stall Cat Awakes!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "PAC-MAN Appears!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "PAC-MAN & Cat: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Heavenly Tower: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Infernal Tower: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Arena of Destiny: section_has_no_verified_poster",
     "Legend Quest: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Night 2: Christmas Eve Delivery: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Giant PAC-MAN Strikes!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
+    "Otherworld Colosseum: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Cats Eye Cave: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Cats Eye Caverns: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Festival Cats: Lunar New Year's: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
@@ -320,14 +296,14 @@
   "sources": {
     "schedule": {
       "url": "PONOS EN sale.tsv",
-      "sha256": "4cc8a9bc0a7f16f464dd438fa2275d6fbd7a65d85aad8e25a5aaf4c1cbeefa04"
+      "sha256": "4964294187bd275a8c4f546fef043dc03ddd7ed9b034e48ba348c7f99adaf0d5"
     },
     "names": {
       "version": "15.7.0",
       "source": "BCData EN resources"
     }
   },
-  "calendarEvents": 4,
+  "calendarEvents": 9,
   "missingImages": [
     "Cats Eye Cave",
     "Cats Eye Caverns",

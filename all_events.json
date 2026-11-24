@@ -67,6 +67,7 @@
       "descripcion": "Introduced in Version 14.3 adds a new gimmick where applying status effects grant more points than killing enemies. More points will be awarded for units with fewer target Traits (not counting those gained from Talents). This rewards for this dojo are Treasure Chests, which contain exclusive Talent Orbs that can grant special abilities to the units that are given them.",
       "url": "https://battlecats.miraheze.org/wiki/Ranking_Dojo#Arena_of_Destiny",
       "event_ids": [
+        11030,
         11046,
         11047
       ]
@@ -205,7 +206,10 @@
       "nombre": "Gigahaniwan Strikes!",
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_gigahaniwan.png",
       "descripcion": "Gigahaniwan Strikes! contains a total of 20 No Continues levels, called Excavation Lvs. After beating an Excavation Lv, the player must wait for 30 minutes before they may proceed to the next one. The player may choose to bank up to 3 Excavation Lvs at one time by waiting for 90 minutes, allowing them to beat all 3 Lvs at one go. Rewards for the first completion of an Excavation Lv can include XP, Tickets, Catamins and Materials. Every 10 Excavation Lvs plays out the same, but the strength magnifications and enemy base's HP are increased with each level.",
-      "url": "https://youtu.be/fmzmSJPHXGw"
+      "url": "https://youtu.be/fmzmSJPHXGw",
+      "event_ids": [
+        24065
+      ]
     },
     {
       "nombre": "Le'Grim Strikes",
@@ -220,7 +224,10 @@
       "nombre": "Mega Menace",
       "imagen_url": "https://raw.githubusercontent.com/deivih84/UpdatedBCData/main/images/events/event_mooth.png",
       "descripcion": "Mega Menace contains a total of 20 No Continues levels, called On Mighty Wings Lvs. After beating three On Mighty Wings Lvs, the player must wait for 30 minutes before they may proceed to the next one (may have 3 clears after 90 minutes). Rewards for the first completion of an On Mighty Wings Lv can include XP, Tickets, Catamins and Materials. Every 10 On Mighty Wings Lvs plays out the same, but the strength magnifications and enemy base's HP are increased with each level.",
-      "url": "https://youtu.be/pcv96VOj_RU"
+      "url": "https://youtu.be/pcv96VOj_RU",
+      "event_ids": [
+        24034
+      ]
     },
     {
       "nombre": "Baron Seal Strikes",
@@ -422,7 +429,8 @@
       "url": "https://battlecats.miraheze.org/wiki/Otherworld_Colosseum",
       "event_ids": [
         36024,
-        36025
+        36025,
+        36026
       ]
     },
     {

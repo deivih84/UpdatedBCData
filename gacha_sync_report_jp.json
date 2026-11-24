@@ -34,6 +34,27 @@
       "candidates": []
     },
     {
+      "gacha_id": 1089,
+      "event_id": "2026-11-26_1089",
+      "text": "「悠久の冒険者エターニス」参戦！14周年の特別ガチャ！★詳細はバナーをタップ!!",
+      "reason": "unknown_identity",
+      "candidates": []
+    },
+    {
+      "gacha_id": 1083,
+      "event_id": "2026-11-27_1083",
+      "text": "2つの属性にめっぽう強い「いなばの白うさぎ」登場！★詳細はバナーをタップ!!",
+      "reason": "unknown_identity",
+      "candidates": []
+    },
+    {
+      "gacha_id": 1021,
+      "event_id": "2026-11-29_1021",
+      "text": "浮いてる敵にめっぽう強いキャラ「獅子番長ラクレス」登場！★詳細はバナーをタップ!!",
+      "reason": "unknown_identity",
+      "candidates": []
+    },
+    {
       "gacha_id": 23,
       "reason": "starter_pool_not_available_online"
     },
@@ -54,6 +75,11 @@
     {
       "name": "Wargods Vajiras",
       "gacha_id": 1043,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Iron Legion",
+      "gacha_id": 979,
       "reason": "image_not_found"
     },
     {

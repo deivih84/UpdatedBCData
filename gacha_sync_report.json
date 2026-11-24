@@ -3,8 +3,427 @@
     "schedule": "PONOS EN gatya.tsv",
     "pools": "bc.godfat.org (validated against PONOS)"
   },
-  "changes": [],
+  "changes": [
+    {
+      "name": "Platinum Capsules (EN #1087)",
+      "gacha_id": 1087,
+      "created": true,
+      "units": {
+        "ubers": {
+          "added": [
+            34,
+            42,
+            43,
+            44,
+            57,
+            59,
+            71,
+            72,
+            73,
+            75,
+            76,
+            83,
+            84,
+            85,
+            86,
+            87,
+            105,
+            106,
+            107,
+            124,
+            125,
+            134,
+            135,
+            136,
+            137,
+            138,
+            143,
+            158,
+            159,
+            168,
+            169,
+            170,
+            171,
+            177,
+            194,
+            195,
+            196,
+            203,
+            212,
+            226,
+            240,
+            257,
+            258,
+            259,
+            261,
+            269,
+            271,
+            272,
+            283,
+            286,
+            304,
+            305,
+            306,
+            316,
+            318,
+            322,
+            333,
+            338,
+            351,
+            355,
+            359,
+            360,
+            361,
+            378,
+            380,
+            396,
+            397,
+            401,
+            417,
+            427,
+            431,
+            436,
+            439,
+            441,
+            496,
+            502,
+            505,
+            519,
+            525,
+            529,
+            533,
+            534,
+            543,
+            546,
+            559,
+            569,
+            585,
+            594,
+            609,
+            612,
+            617,
+            618,
+            619,
+            620,
+            625,
+            631,
+            632,
+            633,
+            634,
+            641,
+            642,
+            647,
+            649,
+            655,
+            657,
+            660,
+            668,
+            674,
+            686,
+            690,
+            692,
+            698,
+            705,
+            712,
+            715,
+            719,
+            723,
+            733,
+            754,
+            760,
+            763,
+            769,
+            774,
+            779,
+            781,
+            787,
+            799,
+            811,
+            817,
+            830,
+            837,
+            850,
+            859,
+            861,
+            869,
+            877
+          ],
+          "removed": []
+        }
+      },
+      "rates": {
+        "rareChance": {
+          "old": null,
+          "new": 0
+        },
+        "supaChance": {
+          "old": null,
+          "new": 0
+        },
+        "uberChance": {
+          "old": null,
+          "new": 10000
+        },
+        "legendChance": {
+          "old": null,
+          "new": 0
+        }
+      }
+    },
+    {
+      "name": "Legend Capsules (EN #1088)",
+      "gacha_id": 1088,
+      "created": true,
+      "units": {
+        "ubers": {
+          "added": [
+            34,
+            42,
+            43,
+            44,
+            57,
+            59,
+            71,
+            72,
+            73,
+            75,
+            76,
+            83,
+            84,
+            85,
+            86,
+            87,
+            105,
+            106,
+            107,
+            124,
+            125,
+            134,
+            135,
+            136,
+            137,
+            138,
+            143,
+            158,
+            159,
+            168,
+            169,
+            170,
+            171,
+            177,
+            194,
+            195,
+            196,
+            203,
+            212,
+            226,
+            240,
+            257,
+            258,
+            259,
+            261,
+            269,
+            271,
+            272,
+            283,
+            286,
+            304,
+            305,
+            306,
+            316,
+            318,
+            322,
+            333,
+            338,
+            351,
+            355,
+            359,
+            360,
+            361,
+            378,
+            380,
+            396,
+            397,
+            401,
+            417,
+            427,
+            431,
+            436,
+            439,
+            441,
+            496,
+            502,
+            505,
+            519,
+            525,
+            529,
+            533,
+            534,
+            543,
+            546,
+            559,
+            569,
+            585,
+            594,
+            609,
+            612,
+            617,
+            618,
+            619,
+            620,
+            625,
+            631,
+            632,
+            633,
+            634,
+            641,
+            642,
+            647,
+            649,
+            655,
+            657,
+            660,
+            668,
+            674,
+            686,
+            690,
+            692,
+            698,
+            705,
+            712,
+            715,
+            719,
+            723,
+            733,
+            754,
+            760,
+            763,
+            769,
+            774,
+            779,
+            781,
+            787,
+            799,
+            811,
+            817,
+            830,
+            837,
+            850,
+            859,
+            861,
+            869,
+            877
+          ],
+          "removed": []
+        },
+        "legends": {
+          "added": [
+            448,
+            449,
+            450,
+            451,
+            455,
+            461,
+            463,
+            478,
+            481,
+            493,
+            586,
+            731,
+            738
+          ],
+          "removed": []
+        }
+      },
+      "rates": {
+        "rareChance": {
+          "old": null,
+          "new": 0
+        },
+        "supaChance": {
+          "old": null,
+          "new": 0
+        },
+        "uberChance": {
+          "old": null,
+          "new": 9500
+        },
+        "legendChance": {
+          "old": null,
+          "new": 500
+        }
+      }
+    },
+    {
+      "name": "Uberfest",
+      "gacha_id": 1085,
+      "created": false,
+      "units": {
+        "ubers": {
+          "added": [
+            877
+          ],
+          "removed": []
+        }
+      },
+      "rates": {}
+    }
+  ],
   "pending": [
+    {
+      "gacha_id": 1084,
+      "event_id": "2026-11-27_1084",
+      "text": "New unit Hare of Inaba added! Mythical fantasy Cat heroes!",
+      "reason": "unknown_identity",
+      "candidates": []
+    },
+    {
+      "gacha_id": 1083,
+      "event_id": "2026-12-07_1083",
+      "text": "Hare of Inaba added! Mythical fantasy Cat heroes!",
+      "reason": "unknown_identity",
+      "candidates": []
+    },
+    {
+      "gacha_id": 452,
+      "event_id": "2026-12-09_452",
+      "text": "Floating has no hope against the AIR BUSTERS! Tap banner for info!",
+      "reason": "unknown_identity",
+      "candidates": []
+    },
+    {
+      "gacha_id": 696,
+      "event_id": "2026-12-09_696",
+      "text": "Leave those Red nasties to the RED BUSTERS! Tap banner for info!",
+      "reason": "unknown_identity",
+      "candidates": []
+    },
+    {
+      "gacha_id": 915,
+      "event_id": "2026-12-09_915",
+      "text": "Metal baddies? No sweat for the METAL BUSTERS! Tap banner for info!",
+      "reason": "unknown_identity",
+      "candidates": []
+    },
+    {
+      "gacha_id": 523,
+      "event_id": "2026-12-11_523",
+      "text": "Defend your Cats with the Wave Busters! ★ With Increasing Capsules!",
+      "reason": "unknown_identity",
+      "candidates": []
+    },
+    {
+      "gacha_id": 940,
+      "event_id": "2026-12-14_940",
+      "text": "Winter ladies, here for a limited time! ★ Get the Xmas Gals, only now!",
+      "reason": "unknown_identity",
+      "candidates": []
+    },
+    {
+      "name": "Wargods Vajiras",
+      "gacha_id": 1043,
+      "reason": "image_not_found"
+    },
     {
       "name": "The Almighties",
       "gacha_id": 991,
@@ -16,33 +435,62 @@
       "reason": "image_not_found"
     },
     {
+      "name": "Iron Legion",
+      "gacha_id": 979,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Luga Families",
+      "gacha_id": 986,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Galaxy Gals",
+      "gacha_id": 1021,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Dark Heroes",
+      "gacha_id": 947,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Elemental Pixies",
+      "gacha_id": 1004,
+      "reason": "image_not_found"
+    },
+    {
       "name": "Spooky Cuties",
       "gacha_id": 1015,
       "reason": "image_not_found"
+    },
+    {
+      "name": "The Dynamites",
+      "gacha_id": 1067,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Platinum Capsules (EN #1087)",
+      "gacha_id": 1087,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Legend Capsules (EN #1088)",
+      "gacha_id": 1088,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Uberfest",
+      "gacha_id": 1085,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Colossus Busters",
+      "gacha_id": 772,
+      "reason": "image_not_found"
     }
   ],
-  "images": [
-    {
-      "name": "Platinum Capsules (EN #1063)",
-      "gacha_id": 1063,
-      "file": "banner_en_1063_5c1f9536793a2f0b.png"
-    },
-    {
-      "name": "Platinum Capsules",
-      "gacha_id": 1071,
-      "file": "banner_en_1071_5c1f9536793a2f0b.png"
-    },
-    {
-      "name": "Legend Capsules (EN #1064)",
-      "gacha_id": 1064,
-      "file": "banner_en_1064_393feda4d3cc1339.png"
-    },
-    {
-      "name": "Legend Capsules",
-      "gacha_id": 1072,
-      "file": "banner_en_1072_393feda4d3cc1339.png"
-    }
-  ],
+  "images": [],
   "errors": [],
   "region": "en",
   "missingImages": []
