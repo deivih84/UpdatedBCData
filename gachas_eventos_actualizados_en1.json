@@ -204,15 +204,6 @@
       "fecha_fin": "2026-12-03"
     },
     {
-      "id": "horrorpotamus_2026-11-16",
-      "nombre": "Horrorpotamus",
-      "caracteristicas": [
-        "Horrorpotamus contains a total of 20 No Continues levels, called Cosmic Juggernaut Lvs. After beating three Cosmic Juggernaut Lvs, the player must wait for 90 minutes before they may proceed to the next one. (30 minutes for one available) Rewards for the first completion of a Cosmic Juggernaut Lv can include XP, Tickets, Catamins and Materials. Every 20 Cosmic Juggernaut Lvs plays out the same, but the strength magnifications and enemy base's HP are increased with each level."
-      ],
-      "fecha_inicio": "2026-11-16",
-      "fecha_fin": "2026-11-23"
-    },
-    {
       "id": "machines_in_revolt_2026-11-23",
       "nombre": "Machines in Revolt",
       "caracteristicas": [
@@ -222,5 +213,5 @@
       "fecha_fin": "2026-11-30"
     }
   ],
-  "ultima_actualizacion": "2026-11-17T08:05:14Z"
+  "ultima_actualizacion": "2026-11-24T00:00:27Z"
 }
