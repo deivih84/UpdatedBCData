@@ -1,170 +1,63 @@
 {
   "sources": {
     "schedule": "PONOS EN gatya.tsv",
-    "pools": "BCData EN 15.7.0"
+    "pools": "bc.godfat.org (validated against PONOS)"
   },
-  "changes": [
+  "changes": [],
+  "pending": [
     {
-      "name": "Spooky Cuties",
-      "gacha_id": 1015,
-      "created": false,
-      "units": {},
-      "rates": {}
+      "name": "Wargods Vajiras",
+      "gacha_id": 1043,
+      "reason": "image_not_found"
     },
     {
-      "name": "Ultra Souls",
-      "gacha_id": 1084,
-      "created": false,
-      "units": {
-        "ubers": {
-          "added": [
-            877
-          ],
-          "removed": []
-        }
-      },
-      "rates": {}
+      "name": "The Almighties",
+      "gacha_id": 991,
+      "reason": "image_not_found"
     },
     {
-      "name": "Ultra Souls",
-      "gacha_id": 1083,
-      "created": false,
-      "units": {},
-      "rates": {}
+      "name": "Dragon Emperors",
+      "gacha_id": 1059,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Iron Legion",
+      "gacha_id": 979,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Luga Families",
+      "gacha_id": 986,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Galaxy Gals",
+      "gacha_id": 1021,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Dark Heroes",
+      "gacha_id": 947,
+      "reason": "image_not_found"
     },
     {
       "name": "Elemental Pixies",
       "gacha_id": 1004,
-      "created": false,
-      "units": {},
-      "rates": {}
+      "reason": "image_not_found"
     },
     {
-      "name": "Air Busters",
-      "gacha_id": 452,
-      "created": false,
-      "units": {},
-      "rates": {}
+      "name": "Spooky Cuties",
+      "gacha_id": 1015,
+      "reason": "image_not_found"
     },
     {
-      "name": "Red Busters",
-      "gacha_id": 696,
-      "created": false,
-      "units": {},
-      "rates": {}
+      "name": "The Dynamites",
+      "gacha_id": 1067,
+      "reason": "image_not_found"
     },
     {
-      "name": "Metal Busters",
-      "gacha_id": 915,
-      "created": false,
-      "units": {},
-      "rates": {}
-    },
-    {
-      "name": "Wave Busters",
-      "gacha_id": 523,
-      "created": false,
-      "units": {},
-      "rates": {}
-    },
-    {
-      "name": "Xmas Gals",
-      "gacha_id": 940,
-      "created": true,
-      "units": {
-        "rares": {
-          "added": [
-            37,
-            38,
-            41,
-            46,
-            47,
-            48,
-            49,
-            50,
-            51,
-            52,
-            55,
-            56,
-            58,
-            145,
-            146,
-            147,
-            148,
-            149,
-            197,
-            198,
-            308,
-            325,
-            376,
-            495,
-            523
-          ],
-          "removed": []
-        },
-        "super_rares": {
-          "added": [
-            30,
-            31,
-            32,
-            33,
-            35,
-            36,
-            39,
-            40,
-            61,
-            150,
-            151,
-            152,
-            153,
-            199,
-            307,
-            377,
-            522,
-            654,
-            688,
-            694
-          ],
-          "removed": []
-        },
-        "ubers": {
-          "added": [
-            241,
-            242,
-            243,
-            310,
-            526,
-            584,
-            687,
-            777
-          ],
-          "removed": []
-        }
-      },
-      "rates": {
-        "rareChance": {
-          "old": null,
-          "new": 7000
-        },
-        "supaChance": {
-          "old": null,
-          "new": 2500
-        },
-        "uberChance": {
-          "old": null,
-          "new": 500
-        },
-        "legendChance": {
-          "old": null,
-          "new": 0
-        }
-      }
-    }
-  ],
-  "pending": [
-    {
-      "name": "Luga Families",
-      "gacha_id": 986,
+      "name": "Uberfest",
+      "gacha_id": 1085,
       "reason": "image_not_found"
     },
     {
@@ -173,6 +66,11 @@
       "reason": "image_not_found"
     },
     {
+      "name": "Ultra Souls",
+      "gacha_id": 1084,
+      "reason": "image_not_found"
+    },
+    {
       "name": "Air Busters",
       "gacha_id": 452,
       "reason": "image_not_found"
@@ -186,98 +84,48 @@
       "name": "Metal Busters",
       "gacha_id": 915,
       "reason": "image_not_found"
+    },
+    {
+      "name": "Wave Busters",
+      "gacha_id": 523,
+      "reason": "image_not_found"
+    },
+    {
+      "name": "Xmas Gals",
+      "gacha_id": 940,
+      "reason": "image_not_found"
     }
   ],
   "images": [
     {
       "name": "Platinum Capsules (EN #1063)",
       "gacha_id": 1063,
-      "file": "banner_en_1063_c2963afc863c70db.png"
+      "file": "banner_en_1063_5c1f9536793a2f0b.png"
     },
     {
       "name": "Platinum Capsules",
       "gacha_id": 1071,
-      "file": "banner_en_1071_c2963afc863c70db.png"
+      "file": "banner_en_1071_5c1f9536793a2f0b.png"
     },
     {
       "name": "Legend Capsules (EN #1064)",
       "gacha_id": 1064,
-      "file": "banner_en_1064_81322acf784f5ebd.png"
+      "file": "banner_en_1064_393feda4d3cc1339.png"
     },
     {
       "name": "Legend Capsules",
       "gacha_id": 1072,
-      "file": "banner_en_1072_81322acf784f5ebd.png"
-    },
-    {
-      "name": "Wargods Vajiras",
-      "gacha_id": 1043,
-      "file": "banner_en_1043_a5e75da0564a9905.png"
-    },
-    {
-      "name": "The Almighties",
-      "gacha_id": 991,
-      "file": "banner_en_991_00042afff4003166.png"
-    },
-    {
-      "name": "Dragon Emperors",
-      "gacha_id": 1059,
-      "file": "banner_en_1059_8f3a719d1a1632a0.png"
-    },
-    {
-      "name": "Iron Legion",
-      "gacha_id": 979,
-      "file": "banner_en_979_37f544f2805e00d6.png"
-    },
-    {
-      "name": "Galaxy Gals",
-      "gacha_id": 1021,
-      "file": "banner_en_1021_100bc7eba35da861.png"
-    },
-    {
-      "name": "Dark Heroes",
-      "gacha_id": 947,
-      "file": "banner_en_947_7df0d67e0c3fd5c8.png"
-    },
-    {
-      "name": "Elemental Pixies",
-      "gacha_id": 1004,
-      "file": "banner_en_1004_d345e8d665fd1794.png"
-    },
-    {
-      "name": "Spooky Cuties",
-      "gacha_id": 1015,
-      "file": "banner_en_1015_18794e7b6f994d37.png"
+      "file": "banner_en_1072_393feda4d3cc1339.png"
     },
     {
       "name": "Platinum Capsules (EN #1087)",
       "gacha_id": 1087,
-      "file": "banner_en_1087_c2963afc863c70db.png"
+      "file": "banner_en_1087_5c1f9536793a2f0b.png"
     },
     {
       "name": "Legend Capsules (EN #1088)",
       "gacha_id": 1088,
-      "file": "banner_en_1088_81322acf784f5ebd.png"
-    },
-    {
-      "name": "Uberfest",
-      "gacha_id": 1085,
-      "file": "banner_en_1085_20e1f7a553d82957.png"
-    },
-    {
-      "name": "Ultra Souls",
-      "gacha_id": 1084,
-      "file": "banner_en_1084_9a92cc3bbfdbe93f.png"
-    },
-    {
-      "name": "Wave Busters",
-      "gacha_id": 523,
-      "file": "banner_en_523_5e5892477b16c960.png"
-    },
-    {
-      "name": "Xmas Gals",
-      "gacha_id": 940,
-      "file": "banner_en_940_f1f0078f51407bd1.png"
+      "file": "banner_en_1088_393feda4d3cc1339.png"
     }
   ],
   "errors": [],
