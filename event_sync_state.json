@@ -14,16 +14,16 @@
       "image": {
         "sourceUrl": "https://static.wikitide.net/battlecatswiki/1/1b/Eve_l_154_en.png",
         "sourcePage": "https://battlecats.miraheze.org/wiki/File:Eve_l_154_en.png",
-        "sha256": "e7743bf2ee0e02c8c45611ec09747ae2898c15f5ddfb8180bffb8d7dece384f1",
-        "file": "event_machines_in_revolt_e7743bf2ee0e02c8.png"
+        "sha256": "0903e973fdef5f93609bfeb9ab020a855af99a6e5c66d47d8983180587f605a8",
+        "file": "event_machines_in_revolt_0903e973fdef5f93.png"
       }
     },
     "Heavenly Tower": {
       "image": {
         "sourceUrl": "https://static.wikitide.net/battlecatswiki/3/34/Eve_l_026_2_en.png",
         "sourcePage": "https://battlecats.miraheze.org/wiki/File:Eve_l_026_2_en.png",
-        "sha256": "c443e8feb663a926670828825a5745c29ed74284f6af7ff86384bf59ecaba035",
-        "file": "event_heavenly_tower_c443e8feb663a926.png"
+        "sha256": "40958c37c02f2c6a4c4897406e5cc0cd14ca015b57d7ed0577890a4a68600cb0",
+        "file": "event_heavenly_tower_40958c37c02f2c6a.png"
       }
     },
     "Baron Seal Strikes": {
@@ -48,8 +48,8 @@
       "image": {
         "sourceUrl": "https://static.wikitide.net/battlecatswiki/8/87/Eve_l_162_en.png",
         "sourcePage": "https://battlecats.miraheze.org/wiki/File:Eve_l_162_en.png",
-        "sha256": "4c0fa34c5e220ba62bbac05bc4ecd4793346e4d433c73b034849df7e5db764a9",
-        "file": "event_otherworld_colosseum_4c0fa34c5e220ba6.png"
+        "sha256": "d2370972c1e9c9f408afd2945d700183d011e178d1c9d58c2ea254d7a069b0ac",
+        "file": "event_otherworld_colosseum_d2370972c1e9c9f4.png"
       }
     },
     "Big Peng Z Strikes": {
@@ -180,10 +180,52 @@
       "image": {
         "sourceUrl": "https://static.wikitide.net/battlecatswiki/2/2d/Eve_l_054_1_en.png",
         "sourcePage": "https://battlecats.miraheze.org/wiki/File:Eve_l_054_1_en.png",
-        "sha256": "0c2a3eed2ffdb28671b4b67dd410dae56febb7654319b4d72a8eebb3734a50ac",
-        "file": "event_a_cultured_festival_0c2a3eed2ffdb286.png"
+        "sha256": "c089b6299741d903eda77eb9553804d7370fef9b84b9036b5050ae80fc5cfe3b",
+        "file": "event_a_cultured_festival_c089b6299741d903.png"
       },
       "description": "Time to live it up and join in on the Battle Cats' Culture Festival!"
+    },
+    "PAC-MAN & Cat": {
+      "image": {
+        "sourceUrl": "https://static.wikitide.net/battlecatswiki/6/66/Clb_l_021_0_en.png",
+        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Clb_l_021_0_en.png",
+        "sha256": "e50cef399f38d0372d6a24af75a7b0ca83869af0cc8dfcd540c31a5f28d86724",
+        "file": "event_pac_man_cat_e50cef399f38d037.png"
+      }
+    },
+    "PAC-MAN Appears!": {
+      "image": {
+        "sourceUrl": "https://static.wikitide.net/battlecatswiki/6/66/Clb_l_021_0_en.png",
+        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Clb_l_021_0_en.png",
+        "sha256": "e50cef399f38d0372d6a24af75a7b0ca83869af0cc8dfcd540c31a5f28d86724",
+        "file": "event_pac_man_appears_e50cef399f38d037.png"
+      }
+    },
+    "Giant PAC-MAN Strikes!": {
+      "image": {
+        "sourceUrl": "https://static.wikitide.net/battlecatswiki/6/66/Clb_l_021_0_en.png",
+        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Clb_l_021_0_en.png",
+        "sha256": "e50cef399f38d0372d6a24af75a7b0ca83869af0cc8dfcd540c31a5f28d86724",
+        "file": "event_giant_pac_man_strikes_e50cef399f38d037.png"
+      }
+    },
+    "Night 2: Christmas Eve Delivery": {
+      "image": {
+        "sourceUrl": "https://static.wikitide.net/battlecatswiki/4/4c/Eve_l_130_5_en.png",
+        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Eve_l_130_5_en.png",
+        "sha256": "639b9d389fa003940a56ac3d6b09d08d22df06743c8d75ed8053d040f45afb8d",
+        "file": "event_night_2_christmas_eve_delivery_639b9d389fa00394.png"
+      },
+      "description": "Xmas is back in the Empire of Cats! Let's celebrate the holidays with seasonal Ubers and special stages!"
+    },
+    "Night 1: Santa Claws at Work": {
+      "image": {
+        "sourceUrl": "https://static.wikitide.net/battlecatswiki/4/4c/Eve_l_130_5_en.png",
+        "sourcePage": "https://battlecats.miraheze.org/wiki/File:Eve_l_130_5_en.png",
+        "sha256": "639b9d389fa003940a56ac3d6b09d08d22df06743c8d75ed8053d040f45afb8d",
+        "file": "event_night_1_santa_claws_at_work_639b9d389fa00394.png"
+      },
+      "description": "Xmas is back in the Empire of Cats! Let's celebrate the holidays with seasonal Ubers and special stages!"
     }
   }
 }

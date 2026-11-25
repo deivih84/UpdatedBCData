@@ -125,6 +125,12 @@ el banner R de héroes Uber y conserva su identidad independiente. Si cambia el
 ID o contenido de un evento E, debe verificarse con sus archivos E y su página;
 el sincronizador de pools R no modifica estas entradas.
 
+En EN 15.7.0, E52 son las cápsulas PAC-MAN Collab Capsules. Los gatos Blinky
+Cat (867) e Inky Cat (868) se verifican en `GatyaDataSetE1.csv`. En
+`GatyaData_Option_SetE.tsv` figura el ticket 267 (Power Pellet). El [cartel
+inglés de E52](https://battlecats.miraheze.org/wiki/File:Gatya_e_bnr52_en.png)
+es específico de estas cápsulas.
+
 Un error de descarga de pools o de validación detiene la publicación del catálogo.
 Un error de imagen queda pendiente y permite aplicar los pools validados.
 La publicación usa reemplazos atómicos y rollback si falla una escritura.

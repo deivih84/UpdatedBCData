@@ -21,10 +21,34 @@
       ]
     },
     {
+      "id": "14_4_7bd783c46154_2026-11-24",
+      "nombre": "14周年エクセレント4セレクション",
+      "fecha_inicio": "2026-11-24",
+      "fecha_fin": "2026-11-26",
+      "caracteristicas": []
+    },
+    {
       "id": "dragon_emperors_2026-11-25",
       "nombre": "Dragon Emperors",
       "fecha_inicio": "2026-11-25",
       "fecha_fin": "2026-11-27",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "14_a04b9ba039b5_2026-11-26",
+      "nombre": "超選抜祭 14周年記念ガチャ",
+      "fecha_inicio": "2026-11-26",
+      "fecha_fin": "2026-12-01",
+      "caracteristicas": []
+    },
+    {
+      "id": "ultra_souls_2026-11-27",
+      "nombre": "Ultra Souls",
+      "fecha_inicio": "2026-11-27",
+      "fecha_fin": "2026-12-01",
       "caracteristicas": [
         "P",
         "Platinum Shard"
@@ -41,16 +65,26 @@
       ]
     },
     {
-      "id": "platinum_capsules_2026-08-08",
+      "id": "cyber_academy_galaxy_gals_2026-11-29",
+      "nombre": "Cyber Academy Galaxy Gals",
+      "fecha_inicio": "2026-11-29",
+      "fecha_fin": "2026-12-01",
+      "caracteristicas": [
+        "P",
+        "Platinum Shard"
+      ]
+    },
+    {
+      "id": "platinum_capsules_2026-11-08",
       "nombre": "Platinum Capsules",
-      "fecha_inicio": "2026-08-08",
+      "fecha_inicio": "2026-11-08",
       "fecha_fin": "2029-12-31",
       "caracteristicas": []
     },
     {
-      "id": "legend_capsules_2026-08-08",
+      "id": "legend_capsules_2026-11-08",
       "nombre": "Legend Capsules",
-      "fecha_inicio": "2026-08-08",
+      "fecha_inicio": "2026-11-08",
       "fecha_fin": "2029-12-31",
       "caracteristicas": []
     }
@@ -228,5 +262,5 @@
       "fecha_fin": "2026-05-01"
     }
   ],
-  "ultima_actualizacion": "2026-11-25T08:46:59Z"
+  "ultima_actualizacion": "2026-11-25T14:12:10Z"
 }

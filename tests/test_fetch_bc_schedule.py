@@ -22,6 +22,16 @@ def festival_entry(gacha_id, text, super_chance, uber_chance, legend_chance=30):
 
 
 class GachaEntryParsingTests(unittest.TestCase):
+    def test_pac_man_item_guarantee_does_not_advertise_guaranteed_uber(self):
+        cols = ["20261126", "1100", "20261212", "0", "150700", "999999", "0", "0",
+                "4", "1", "52", "0", "0", "0", "1300", "0", "5000", "0",
+                "3000", "0", "500", "1", "200", "0", "PAC-MAN Collab Capsules", "", ""]
+
+        entry = schedule._extract_gacha_entries(cols)[0]
+
+        self.assertFalse(entry["guaranteed_uber"])
+        self.assertEqual(schedule._build_characteristics(entry), [])
+
     def test_event_capsules_read_message_at_14_and_keep_category_separate(self):
         title = "Use Legendary Starshines in these limited-time Capsules until 10/29!"
         cols = ["20261005", "1100", "20261030", "0", "150600", "999999", "0", "0",

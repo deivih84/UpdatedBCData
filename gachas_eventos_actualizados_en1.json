@@ -37,18 +37,15 @@
       ]
     },
     {
-      "id": "use_power_pellets_to_draw_from_limited_pac_man_collab_capsules_until_12_11_2026-11-26",
-      "nombre": "Use Power Pellets to draw from limited PAC-MAN Collab Capsules until 12/11!",
+      "id": "pac_man_collab_capsules_2026-11-26",
+      "nombre": "PAC-MAN Collab Capsules",
       "fecha_inicio": "2026-11-26",
       "fecha_fin": "2026-12-11",
-      "caracteristicas": [
-        "G",
-        "Guaranteed"
-      ]
+      "caracteristicas": []
     },
     {
-      "id": "new_unit_hare_of_inaba_added_mythical_fantasy_cat_heroes_2026-11-27",
-      "nombre": "New unit Hare of Inaba added! Mythical fantasy Cat heroes!",
+      "id": "ultra_souls_2026-11-27",
+      "nombre": "Ultra Souls",
       "fecha_inicio": "2026-11-27",
       "fecha_fin": "2026-11-30",
       "caracteristicas": [
@@ -150,8 +147,8 @@
       ]
     },
     {
-      "id": "hare_of_inaba_added_mythical_fantasy_cat_heroes_2026-12-07",
-      "nombre": "Hare of Inaba added! Mythical fantasy Cat heroes!",
+      "id": "ultra_souls_2026-12-07",
+      "nombre": "Ultra Souls",
       "fecha_inicio": "2026-12-07",
       "fecha_fin": "2026-12-09",
       "caracteristicas": [
@@ -230,8 +227,8 @@
       ]
     },
     {
-      "id": "winter_ladies_2026-12-14",
-      "nombre": "Winter ladies",
+      "id": "xmas_gals_2026-12-14",
+      "nombre": "Xmas Gals",
       "fecha_inicio": "2026-12-14",
       "fecha_fin": "2026-12-28",
       "caracteristicas": [
@@ -326,6 +323,15 @@
       "fecha_fin": "2026-11-30"
     },
     {
+      "id": "pac_man_appears_2026-11-26",
+      "nombre": "PAC-MAN Appears!",
+      "caracteristicas": [
+        "A limited PAC-MAN collaboration map. Clear its stages to earn Power Pellets for the PAC-MAN Collab Capsules."
+      ],
+      "fecha_inicio": "2026-11-26",
+      "fecha_fin": "2026-12-11"
+    },
+    {
       "id": "heavenly_tower_2026-11-30",
       "nombre": "Heavenly Tower",
       "caracteristicas": [
@@ -344,6 +350,15 @@
       "fecha_fin": "2026-12-07"
     },
     {
+      "id": "pac_man_cat_2026-11-30",
+      "nombre": "PAC-MAN & Cat",
+      "caracteristicas": [
+        "The second limited PAC-MAN collaboration map. Earn Power Pellets from timed score rewards."
+      ],
+      "fecha_inicio": "2026-11-30",
+      "fecha_fin": "2026-12-11"
+    },
+    {
       "id": "otherworld_colosseum_2026-12-01",
       "nombre": "Otherworld Colosseum",
       "caracteristicas": [
@@ -351,6 +366,15 @@
       ],
       "fecha_inicio": "2026-12-01",
       "fecha_fin": "2026-12-15"
+    },
+    {
+      "id": "giant_pac_man_strikes_2026-12-03",
+      "nombre": "Giant PAC-MAN Strikes!",
+      "caracteristicas": [
+        "Challenge Giant PAC-MAN in a limited collaboration gauntlet."
+      ],
+      "fecha_inicio": "2026-12-03",
+      "fecha_fin": "2026-12-11"
     },
     {
       "id": "gigahaniwan_strikes_2026-12-14",
@@ -362,6 +386,24 @@
       "fecha_fin": "2026-12-21"
     },
     {
+      "id": "night_1_santa_claws_at_work_2026-12-14",
+      "nombre": "Night 1: Santa Claws at Work",
+      "caracteristicas": [
+        "Xmas is back in the Empire of Cats! Let's celebrate the holidays with seasonal Ubers and special stages!"
+      ],
+      "fecha_inicio": "2026-12-14",
+      "fecha_fin": "2026-12-28"
+    },
+    {
+      "id": "night_2_christmas_eve_delivery_2026-12-14",
+      "nombre": "Night 2: Christmas Eve Delivery",
+      "caracteristicas": [
+        "Xmas is back in the Empire of Cats! Let's celebrate the holidays with seasonal Ubers and special stages!"
+      ],
+      "fecha_inicio": "2026-12-14",
+      "fecha_fin": "2026-12-28"
+    },
+    {
       "id": "arena_of_destiny_2026-12-16",
       "nombre": "Arena of Destiny",
       "caracteristicas": [
@@ -371,5 +413,5 @@
       "fecha_fin": "2027-01-02"
     }
   ],
-  "ultima_actualizacion": "2026-11-24T10:02:54Z"
+  "ultima_actualizacion": "2026-11-25T14:12:10Z"
 }

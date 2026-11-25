@@ -1,16 +1,426 @@
 {
   "sources": {
     "schedule": "PONOS JP gatya.tsv",
-    "pools": "bc.godfat.org (validated against PONOS)"
+    "pools": "BCData JP 16.0.0"
   },
   "changes": [
     {
-      "name": "Dragon Emperors",
-      "gacha_id": 1059,
+      "name": "Platinum Capsules",
+      "gacha_id": 1087,
       "created": false,
+      "units": {
+        "ubers": {
+          "added": [
+            877
+          ],
+          "removed": []
+        }
+      },
+      "rates": {}
+    },
+    {
+      "name": "Platinum Capsules (JP #1071)",
+      "gacha_id": 1071,
+      "created": true,
+      "units": {
+        "ubers": {
+          "added": [
+            34,
+            42,
+            43,
+            44,
+            57,
+            59,
+            71,
+            72,
+            73,
+            75,
+            76,
+            83,
+            84,
+            85,
+            86,
+            87,
+            105,
+            106,
+            107,
+            124,
+            125,
+            134,
+            135,
+            136,
+            137,
+            138,
+            143,
+            158,
+            159,
+            168,
+            169,
+            170,
+            171,
+            177,
+            194,
+            195,
+            196,
+            203,
+            212,
+            226,
+            240,
+            257,
+            258,
+            259,
+            261,
+            269,
+            271,
+            272,
+            283,
+            286,
+            304,
+            305,
+            306,
+            316,
+            318,
+            322,
+            333,
+            338,
+            351,
+            355,
+            359,
+            360,
+            361,
+            378,
+            380,
+            396,
+            397,
+            401,
+            417,
+            427,
+            431,
+            436,
+            439,
+            441,
+            496,
+            502,
+            505,
+            519,
+            525,
+            529,
+            533,
+            534,
+            543,
+            546,
+            559,
+            569,
+            585,
+            594,
+            609,
+            612,
+            617,
+            618,
+            619,
+            620,
+            625,
+            631,
+            632,
+            633,
+            634,
+            641,
+            642,
+            647,
+            649,
+            655,
+            657,
+            660,
+            668,
+            674,
+            686,
+            690,
+            692,
+            698,
+            705,
+            712,
+            715,
+            719,
+            723,
+            733,
+            754,
+            760,
+            763,
+            769,
+            774,
+            779,
+            781,
+            787,
+            799,
+            811,
+            817,
+            830,
+            837,
+            850,
+            859,
+            861,
+            869
+          ],
+          "removed": []
+        }
+      },
+      "rates": {
+        "rareChance": {
+          "old": null,
+          "new": 0
+        },
+        "supaChance": {
+          "old": null,
+          "new": 0
+        },
+        "uberChance": {
+          "old": null,
+          "new": 10000
+        },
+        "legendChance": {
+          "old": null,
+          "new": 0
+        }
+      }
+    },
+    {
+      "name": "Legend Capsules",
+      "gacha_id": 1088,
+      "created": false,
+      "units": {
+        "ubers": {
+          "added": [
+            877
+          ],
+          "removed": []
+        }
+      },
+      "rates": {}
+    },
+    {
+      "name": "Legend Capsules (JP #1072)",
+      "gacha_id": 1072,
+      "created": true,
+      "units": {
+        "ubers": {
+          "added": [
+            34,
+            42,
+            43,
+            44,
+            57,
+            59,
+            71,
+            72,
+            73,
+            75,
+            76,
+            83,
+            84,
+            85,
+            86,
+            87,
+            105,
+            106,
+            107,
+            124,
+            125,
+            134,
+            135,
+            136,
+            137,
+            138,
+            143,
+            158,
+            159,
+            168,
+            169,
+            170,
+            171,
+            177,
+            194,
+            195,
+            196,
+            203,
+            212,
+            226,
+            240,
+            257,
+            258,
+            259,
+            261,
+            269,
+            271,
+            272,
+            283,
+            286,
+            304,
+            305,
+            306,
+            316,
+            318,
+            322,
+            333,
+            338,
+            351,
+            355,
+            359,
+            360,
+            361,
+            378,
+            380,
+            396,
+            397,
+            401,
+            417,
+            427,
+            431,
+            436,
+            439,
+            441,
+            496,
+            502,
+            505,
+            519,
+            525,
+            529,
+            533,
+            534,
+            543,
+            546,
+            559,
+            569,
+            585,
+            594,
+            609,
+            612,
+            617,
+            618,
+            619,
+            620,
+            625,
+            631,
+            632,
+            633,
+            634,
+            641,
+            642,
+            647,
+            649,
+            655,
+            657,
+            660,
+            668,
+            674,
+            686,
+            690,
+            692,
+            698,
+            705,
+            712,
+            715,
+            719,
+            723,
+            733,
+            754,
+            760,
+            763,
+            769,
+            774,
+            779,
+            781,
+            787,
+            799,
+            811,
+            817,
+            830,
+            837,
+            850,
+            859,
+            861,
+            869
+          ],
+          "removed": []
+        },
+        "legends": {
+          "added": [
+            448,
+            449,
+            450,
+            451,
+            455,
+            461,
+            463,
+            478,
+            481,
+            493,
+            586,
+            731,
+            738
+          ],
+          "removed": []
+        }
+      },
+      "rates": {
+        "rareChance": {
+          "old": null,
+          "new": 0
+        },
+        "supaChance": {
+          "old": null,
+          "new": 0
+        },
+        "uberChance": {
+          "old": null,
+          "new": 9500
+        },
+        "legendChance": {
+          "old": null,
+          "new": 500
+        }
+      }
+    },
+    {
+      "name": "Ultra Souls",
+      "gacha_id": 1083,
+      "created": false,
+      "units": {
+        "ubers": {
+          "added": [
+            877
+          ],
+          "removed": []
+        }
+      },
+      "rates": {}
+    },
+    {
+      "name": "Cyber Academy Galaxy Gals",
+      "gacha_id": 1021,
+      "created": true,
       "units": {
         "rares": {
           "added": [
+            37,
+            38,
+            41,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            55,
+            56,
+            58,
+            145,
+            146,
+            147,
+            148,
+            149,
+            197,
+            198,
             308,
             325,
             376,
@@ -21,9 +431,23 @@
         },
         "super_rares": {
           "added": [
+            30,
+            31,
+            32,
+            33,
+            35,
+            36,
+            39,
+            40,
+            61,
             129,
             131,
             144,
+            150,
+            151,
+            152,
+            153,
+            199,
             200,
             237,
             238,
@@ -41,33 +465,43 @@
         },
         "ubers": {
           "added": [
-            396,
-            505,
-            620,
-            660,
-            760,
-            861
+            75,
+            76,
+            105,
+            106,
+            107,
+            159,
+            351,
+            502,
+            619,
+            647,
+            733,
+            830
           ],
           "removed": []
         },
         "legends": {
           "added": [
-            450
+            449
           ],
           "removed": []
         }
       },
       "rates": {
         "rareChance": {
-          "old": 7500,
+          "old": null,
           "new": 6970
         },
         "supaChance": {
-          "old": 2000,
+          "old": null,
           "new": 2500
         },
+        "uberChance": {
+          "old": null,
+          "new": 500
+        },
         "legendChance": {
-          "old": 0,
+          "old": null,
           "new": 30
         }
       }
@@ -75,82 +509,128 @@
   ],
   "pending": [
     {
-      "gacha_id": 1087,
-      "event_id": "2026-11-08_1087",
-      "text": "超激レアのキャラクターが必ず１体手に入る「プラチナガチャ」！",
-      "reason": "unknown_identity",
-      "candidates": []
-    },
-    {
-      "gacha_id": 1088,
-      "event_id": "2026-11-08_1088",
-      "text": "超激レア以上のキャラクターが必ず１体手に入る「レジェンドガチャ」！",
-      "reason": "unknown_identity",
-      "candidates": []
-    },
-    {
-      "gacha_id": 1093,
-      "event_id": "2026-11-24_1093",
-      "text": "14周年記念！感謝の気持ちを込めた特別なガチャ！★詳細はバナーをタップ!!",
-      "reason": "unknown_identity",
-      "candidates": []
-    },
-    {
-      "gacha_id": 1089,
-      "event_id": "2026-11-26_1089",
-      "text": "「悠久の冒険者エターニス」参戦！14周年の特別ガチャ！★詳細はバナーをタップ!!",
-      "reason": "unknown_identity",
-      "candidates": []
-    },
-    {
-      "gacha_id": 1083,
-      "event_id": "2026-11-27_1083",
-      "text": "2つの属性にめっぽう強い「いなばの白うさぎ」登場！★詳細はバナーをタップ!!",
-      "reason": "unknown_identity",
-      "candidates": []
-    },
-    {
-      "gacha_id": 1021,
-      "event_id": "2026-11-29_1021",
-      "text": "浮いてる敵にめっぽう強いキャラ「獅子番長ラクレス」登場！★詳細はバナーをタップ!!",
-      "reason": "unknown_identity",
-      "candidates": []
-    },
-    {
-      "gacha_id": 23,
-      "reason": "starter_pool_not_available_online"
-    },
-    {
-      "gacha_id": 33,
-      "reason": "starter_pool_not_available_online"
-    },
-    {
       "name": "Shoumetsu Toshi Collab Gacha",
       "gacha_id": 23,
       "reason": "image_not_found"
+    }
+  ],
+  "images": [
+    {
+      "name": "Dragon Emperors (JP #33)",
+      "gacha_id": 33,
+      "file": "banner_jp_33_41f25cb41ef46320.png"
     },
     {
       "name": "Dragon Emperors",
       "gacha_id": 1059,
-      "reason": "image_not_found"
+      "file": "banner_jp_1059_8c81718c96931b39.png"
+    },
+    {
+      "name": "Platinum Capsules (JP #1071)",
+      "gacha_id": 1071,
+      "file": "banner_jp_1071_65b03e8cd05f2cb3.png"
+    },
+    {
+      "name": "Platinum Capsules (JP #1008)",
+      "gacha_id": 1008,
+      "file": "banner_jp_1008_65b03e8cd05f2cb3.png"
+    },
+    {
+      "name": "Platinum Capsules (JP #1024)",
+      "gacha_id": 1024,
+      "file": "banner_jp_1024_65b03e8cd05f2cb3.png"
+    },
+    {
+      "name": "Platinum Capsules (JP #1036)",
+      "gacha_id": 1036,
+      "file": "banner_jp_1036_65b03e8cd05f2cb3.png"
+    },
+    {
+      "name": "Platinum Capsules (JP #1047)",
+      "gacha_id": 1047,
+      "file": "banner_jp_1047_65b03e8cd05f2cb3.png"
+    },
+    {
+      "name": "Platinum Capsules (JP #1057)",
+      "gacha_id": 1057,
+      "file": "banner_jp_1057_65b03e8cd05f2cb3.png"
+    },
+    {
+      "name": "Platinum Capsules (JP #1063)",
+      "gacha_id": 1063,
+      "file": "banner_jp_1063_65b03e8cd05f2cb3.png"
+    },
+    {
+      "name": "Legend Capsules (JP #1072)",
+      "gacha_id": 1072,
+      "file": "banner_jp_1072_81322acf784f5ebd.png"
+    },
+    {
+      "name": "Legend Capsules (JP #1009)",
+      "gacha_id": 1009,
+      "file": "banner_jp_1009_81322acf784f5ebd.png"
+    },
+    {
+      "name": "Legend Capsules (JP #1025)",
+      "gacha_id": 1025,
+      "file": "banner_jp_1025_81322acf784f5ebd.png"
+    },
+    {
+      "name": "Legend Capsules (JP #1035)",
+      "gacha_id": 1035,
+      "file": "banner_jp_1035_81322acf784f5ebd.png"
+    },
+    {
+      "name": "Legend Capsules (JP #1048)",
+      "gacha_id": 1048,
+      "file": "banner_jp_1048_81322acf784f5ebd.png"
+    },
+    {
+      "name": "Legend Capsules (JP #1058)",
+      "gacha_id": 1058,
+      "file": "banner_jp_1058_81322acf784f5ebd.png"
+    },
+    {
+      "name": "Legend Capsules (JP #1064)",
+      "gacha_id": 1064,
+      "file": "banner_jp_1064_81322acf784f5ebd.png"
     },
     {
       "name": "Wargods Vajiras",
       "gacha_id": 1043,
-      "reason": "image_not_found"
+      "file": "banner_jp_1043_3198728d2be8936b.png"
     },
     {
       "name": "Iron Legion",
       "gacha_id": 979,
-      "reason": "image_not_found"
+      "file": "banner_jp_979_d4eedb1f17eeb6cd.png"
     },
     {
       "name": "Girls & Monsters",
       "gacha_id": 1015,
-      "reason": "image_not_found"
+      "file": "banner_jp_1015_a1f792df41111444.png"
+    },
+    {
+      "name": "Platinum Capsules",
+      "gacha_id": 1087,
+      "file": "banner_jp_1087_65b03e8cd05f2cb3.png"
+    },
+    {
+      "name": "Legend Capsules",
+      "gacha_id": 1088,
+      "file": "banner_jp_1088_81322acf784f5ebd.png"
+    },
+    {
+      "name": "Ultra Souls",
+      "gacha_id": 1083,
+      "file": "banner_jp_1083_4a409d941cc23dfa.png"
+    },
+    {
+      "name": "Cyber Academy Galaxy Gals",
+      "gacha_id": 1021,
+      "file": "banner_jp_1021_d1cb406d0410d9ae.png"
     }
   ],
-  "images": [],
   "errors": [],
   "region": "jp",
   "missingImages": [

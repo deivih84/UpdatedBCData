@@ -313,7 +313,8 @@ def _extract_gacha_entries(cols):
                 "tsv_full":        tsv_full,
                 # Retain the legacy field without inferring a Legend type from E.
                 "is_legend":       False,
-                "guaranteed_uber": uber_guarantee > 0,
+                # Event capsules use this slot for item guarantees.
+                "guaranteed_uber": gacha_type != 4 and uber_guarantee > 0,
                 "step_up":         bool(additional_mask & MASK_STEP_UP),
                 "lucky_ticket":    bool(additional_mask & MASK_LUCKY),
                 "platinum_shard":  bool(additional_mask & MASK_SHARD),

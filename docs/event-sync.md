@@ -63,6 +63,13 @@ se documentan juntas en [River City Stages](https://battlecats.miraheze.org/wiki
 conserva su ID y sus fechas de `sale.tsv`; compartir cartel no fusiona eventos.
 El cartel histórico con Riki se conserva para los clientes anteriores.
 
+## Colaboración de PAC-MAN
+
+Los mapas `PAC-MAN Appears!` (2271), `PAC-MAN & Cat` (2272) y
+`Giant PAC-MAN Strikes!` (27027) tienen fechas independientes en
+`sale.tsv`. Comparten el cartel inglés `Clb l 021 0 en.png`, declarado
+por la página de la [colaboración de PAC-MAN](https://battlecats.miraheze.org/wiki/PAC-MAN_Collaboration_Event).
+
 ## Informes y excepciones
 
 - `all_events.json`: catálogo compatible con la app, con IDs y aliases.
