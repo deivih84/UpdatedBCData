@@ -257,44 +257,21 @@
       ]
     },
     {
-      "id": "platinum_capsules_en_1087_2026-11-27",
-      "nombre": "Platinum Capsules (EN #1087)",
-      "fecha_inicio": "2026-11-27",
-      "fecha_fin": "2030-01-01",
-      "caracteristicas": []
-    },
-    {
-      "id": "platinum_capsules_2026-10-16",
+      "id": "platinum_capsules_2026-11-27",
       "nombre": "Platinum Capsules",
-      "fecha_inicio": "2026-10-16",
-      "fecha_fin": "2026-11-26",
-      "caracteristicas": []
-    },
-    {
-      "id": "legend_capsules_en_1088_2026-11-27",
-      "nombre": "Legend Capsules (EN #1088)",
       "fecha_inicio": "2026-11-27",
       "fecha_fin": "2030-01-01",
       "caracteristicas": []
     },
     {
-      "id": "legend_capsules_2026-10-16",
+      "id": "legend_capsules_2026-11-27",
       "nombre": "Legend Capsules",
-      "fecha_inicio": "2026-10-16",
-      "fecha_fin": "2026-11-26",
+      "fecha_inicio": "2026-11-27",
+      "fecha_fin": "2030-01-01",
       "caracteristicas": []
     }
   ],
   "eventos": [
-    {
-      "id": "legend_quest_2026-11-09",
-      "nombre": "Legend Quest",
-      "caracteristicas": [
-        "Legend Quest is a map somewhat similar to Heavenly Tower, with 48 stages known as LEVELs. Each LEVEL is a random Stories of Legend stage that provides a partially randomized lineup. All LEVELs are No Continues, and exiting a battle within 10 seconds will not refund items, Crowns or energy."
-      ],
-      "fecha_inicio": "2026-11-09",
-      "fecha_fin": "2026-11-26"
-    },
     {
       "id": "a_cultured_festival_2026-11-16",
       "nombre": "A Cultured Festival",
@@ -413,5 +390,5 @@
       "fecha_fin": "2027-01-02"
     }
   ],
-  "ultima_actualizacion": "2026-11-25T14:12:10Z"
+  "ultima_actualizacion": "2026-11-27T08:46:23Z"
 }

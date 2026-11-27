@@ -100,13 +100,6 @@
       "reason": "image_not_found"
     },
     {
-      "name": "The Battle Cats POP!",
-      "event_ids": [
-        1065
-      ],
-      "reason": "image_not_found"
-    },
-    {
       "name": "Li'l Cat Awakens!",
       "event_ids": [
         1130
@@ -170,22 +163,9 @@
       "reason": "image_not_found"
     },
     {
-      "name": "Cat Kart Awakens!",
-      "event_ids": [
-        1143
-      ],
-      "reason": "image_not_found"
-    },
-    {
       "name": "A Cultured Festival",
-      "reason": "image_not_found"
-    },
-    {
-      "name": "The Battle Cats Unite!",
-      "event_ids": [
-        1206
-      ],
-      "reason": "image_not_found"
+      "reason": "image_unavailable",
+      "detail": "ConnectionError"
     },
     {
       "name": "Cover of Darkness",
@@ -196,7 +176,8 @@
     },
     {
       "name": "Night 1: Santa Claws at Work",
-      "reason": "image_not_found"
+      "reason": "image_unavailable",
+      "detail": "ConnectionError"
     },
     {
       "name": "Li'l Cat's Trial",
@@ -207,7 +188,8 @@
     },
     {
       "name": "Machines in Revolt",
-      "reason": "image_not_found"
+      "reason": "image_unavailable",
+      "detail": "ConnectionError"
     },
     {
       "name": "Food Stall Cat Awakes!",
@@ -218,15 +200,18 @@
     },
     {
       "name": "PAC-MAN Appears!",
-      "reason": "image_not_found"
+      "reason": "image_unavailable",
+      "detail": "ConnectionError"
     },
     {
       "name": "PAC-MAN & Cat",
-      "reason": "image_not_found"
+      "reason": "image_unavailable",
+      "detail": "ConnectionError"
     },
     {
       "name": "Heavenly Tower",
-      "reason": "image_not_found"
+      "reason": "image_unavailable",
+      "detail": "ConnectionError"
     },
     {
       "name": "Infernal Tower",
@@ -240,20 +225,19 @@
       "reason": "image_not_found"
     },
     {
-      "name": "Legend Quest",
-      "reason": "image_not_found"
-    },
-    {
       "name": "Night 2: Christmas Eve Delivery",
-      "reason": "image_not_found"
+      "reason": "image_unavailable",
+      "detail": "ConnectionError"
     },
     {
       "name": "Giant PAC-MAN Strikes!",
-      "reason": "image_not_found"
+      "reason": "image_unavailable",
+      "detail": "ConnectionError"
     },
     {
       "name": "Otherworld Colosseum",
-      "reason": "image_not_found"
+      "reason": "image_unavailable",
+      "detail": "ConnectionError"
     },
     {
       "name": "Cats Eye Cave",
@@ -269,40 +253,7 @@
     }
   ],
   "warnings": [
-    "Treasure Festival (Empire): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Treasure Festival (Future): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "EoC/ItF/CotC Half Energy Cost: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Treasure Festival (Cosmos): wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "The Battle Cats POP!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Li'l Cat Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Li'l Tank Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Li'l Axe Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Li'l Gross Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Li'l Cow Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Li'l Bird Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Li'l Fish Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Li'l Lizard Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Li'l Titan Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Cat Kart Awakens!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "A Cultured Festival: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "The Battle Cats Unite!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Cover of Darkness: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Night 1: Santa Claws at Work: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Li'l Cat's Trial: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Machines in Revolt: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Food Stall Cat Awakes!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "PAC-MAN Appears!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "PAC-MAN & Cat: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Heavenly Tower: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Infernal Tower: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "Arena of Destiny: section_has_no_verified_poster",
-    "Legend Quest: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Night 2: Christmas Eve Delivery: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Giant PAC-MAN Strikes!: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Otherworld Colosseum: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Cats Eye Cave: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Cats Eye Caverns: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
-    "Festival Cats: Lunar New Year's: wiki_unavailable: https://battlecats.miraheze.org/w/api.php",
     "remote_name_index_older_than_saved: 14.7.0"
   ],
   "sources": {
@@ -315,7 +266,7 @@
       "source": "BCData EN resources"
     }
   },
-  "calendarEvents": 14,
+  "calendarEvents": 13,
   "missingImages": [
     "Cats Eye Cave",
     "Cats Eye Caverns",
